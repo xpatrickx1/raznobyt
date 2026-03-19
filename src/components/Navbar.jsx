@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import { NavLink, Link } from 'react-router-dom';
 import { useLang } from '../i18n/LangContext';
+import logo from '@/assets/images/logo.png';
 
 export default function Navbar() {
   const { lang, toggleLang, t } = useLang();
@@ -18,8 +19,7 @@ export default function Navbar() {
         <div className="container">
           <div className="navbar__inner">
             <Link to="/" className="navbar__logo">
-              <span className="navbar__logo-text">Різнобит</span>
-              <span className="navbar__logo-sub">Textile Group</span>
+              <img src={logo} alt="Різнобит" className="navbar__logo-img" />
             </Link>
 
             <ul className="navbar__nav">
