@@ -4,6 +4,7 @@ import SEO from '../components/SEO';
 import ProductCard from '../components/ProductCard';
 import products from '../data/products.json';
 import categories from '../data/categories.json';
+import searchIcon from '@/assets/images/icons/search.svg';
 
 const PAGE_SIZE = 8;
 
@@ -129,8 +130,10 @@ export default function Catalog({ initialCategory }) {
           <div>
             {/* Top Bar */}
             <div className="catalog-header">
-              <div className="search-wrap" style={{ flex: 1, maxWidth: 380, margin: 0 }}>
-                <span className="search-icon">🔍</span>
+              <div className="search-wrapper">
+                <button type="submit" className="search-submit-btn">
+                  <img src={searchIcon} alt="Search" width="20" height="20" style={{ display: 'block' }} />
+                </button>
                 <input
                   type="text"
                   className="search-input"

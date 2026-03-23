@@ -1,6 +1,7 @@
 import { Link } from 'react-router-dom';
 import { useLang } from '../i18n/LangContext';
 import categories from '../data/categories.json';
+import logo from '@/assets/images/logo-footer.png';
 
 export default function Footer() {
   const { lang, t } = useLang();
@@ -11,9 +12,8 @@ export default function Footer() {
       <div className="container">
         <div className="footer__grid">
           <div>
-            <div className="footer__logo-text">Різнобит</div>
-            <div className="footer__logo-sub">Textile Group</div>
-            <p className="footer__desc">{t('footer.desc')}</p>
+            <img src={logo} alt="Різнобит" className="navbar__logo-img" />
+            <div className="navbar__logo-text" style={{ color: '#fff', marginBottom: 12 }}>Голандські текстильні тредиції</div>
             <div className="footer__phones">
               <a href="tel:+380445070680">(044) 507-06-80</a>
               <a href="tel:+380673320088">(067) 332-00-88</a>
