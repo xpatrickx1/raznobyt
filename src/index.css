@@ -260,7 +260,7 @@ button {
   border: 1px solid var(--c-border);
   border-radius: var(--radius-md);
   box-shadow: var(--shadow-md);
-  width: 280px;
+  width: 340px;
   display: flex;
   flex-direction: column;
   padding: 8px 0;
@@ -268,10 +268,21 @@ button {
 }
 
 .catalog-dropdown-item {
+  display: flex;
+  align-items: center;
+  gap: 12px;
   padding: 10px 24px;
   font-size: 14px;
   color: var(--c-text);
   transition: all 0.2s;
+}
+
+.catalog-dropdown-item img {
+  width: 42px;
+  height: 42px;
+  object-fit: cover;
+  border-radius: 4px;
+  flex-shrink: 0;
 }
 
 .catalog-dropdown-item:hover {

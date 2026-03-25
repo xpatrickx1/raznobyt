@@ -116,6 +116,7 @@ export default function Navbar() {
                       className="catalog-dropdown-item"
                       onClick={() => setDropdownOpen(false)}
                     >
+                      {c.icon && <img src={c.icon} alt="" className="catalog-dropdown-item__icon" width="20" height="20" />}
                       {lang === 'ua' ? c.title.ua : c.title.ru}
                     </Link>
                   ))}
