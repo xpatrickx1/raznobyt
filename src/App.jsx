@@ -10,6 +10,7 @@ import CategoryPage from './pages/CategoryPage';
 import ProductPage from './pages/ProductPage';
 import Contacts from './pages/Contacts';
 import AboutUs from './pages/AboutUs';
+import Documents from './pages/Documents';
 import './index.css';
 
 export default function App() {
@@ -24,10 +25,11 @@ export default function App() {
               <Routes>
                 <Route path="/" element={<Home />} />
                 <Route path="/catalog" element={<Catalog />} />
-                <Route path="/category/:slug" element={<CategoryPage />} />
+                <Route path="/catalog/:slug" element={<CategoryPage />} />
                 <Route path="/product/:id" element={<ProductPage />} />
                 <Route path="/about-us" element={<AboutUs />} />
                 <Route path="/contacts" element={<Contacts />} />
+                <Route path="/documents" element={<Documents />} />
               </Routes>
             </main>
             <Footer />

@@ -41,7 +41,7 @@ export default function Contacts() {
               <div className="contact-info-icon">📍</div>
               <div>
                 <div className="contact-info-label">{t('contacts.address')}</div>
-                <div className="contact-info-value">м. Київ, вул. Текстильна, 12, оф. 5</div>
+                <div className="contact-info-value">м. Київ, вул. Лугова, 9С</div>
               </div>
             </div>
             <div className="contact-info-item">
@@ -49,9 +49,11 @@ export default function Contacts() {
               <div>
                 <div className="contact-info-label">{t('contacts.phone')}</div>
                 <div className="contact-info-value">
-                  <a href="tel:+380445070680" style={{ color: 'var(--c-accent)' }}>(044) 507-06-80</a><br />
-                  <a href="tel:+380673320088" style={{ color: 'var(--c-accent)' }}>(067) 332-00-88 Viber</a><br />
-                  <a href="tel:+380987103517" style={{ color: 'var(--c-accent)' }}>(098) 710-35-17 Viber</a>
+                  <a href="tel:+380445070680">(044) 507-06-80</a>
+                  <a href="tel:+380445070681">(044) 507-06-81</a>
+                  <a href="tel:+380445070682">(044) 507-06-82</a>
+                  <a href="tel:+380445070684">(044) 507-06-84</a>
+                  <a href="tel:+380443320088">(044) 332-00-88</a>
                 </div>
               </div>
             </div>
@@ -60,7 +62,7 @@ export default function Contacts() {
               <div>
                 <div className="contact-info-label">{t('contacts.email')}</div>
                 <div className="contact-info-value">
-                  <a href="mailto:info@raznobyt.com" style={{ color: 'var(--c-accent)' }}>info@raznobyt.com</a>
+                  <a href="mailto:raznooffice@ukr.net" style={{ color: 'var(--c-accent)' }}>raznooffice@ukr.net</a>
                 </div>
               </div>
             </div>
@@ -73,15 +75,14 @@ export default function Contacts() {
             </div>
 
             {/* Map placeholder */}
-            <div style={{ borderRadius: 'var(--radius-lg)', overflow: 'hidden', border: '1px solid var(--c-border)', height: 240, background: 'var(--c-bg-alt)', display: 'flex', alignItems: 'center', justifyContent: 'center', fontSize: 14, color: 'var(--c-text-muted)' }}>
-              <div style={{ textAlign: 'center' }}>
-                <div style={{ fontSize: 32, marginBottom: 8 }}>🗺️</div>
-                <div>м. Київ, вул. Текстильна, 12</div>
-              </div>
+            <div style={{ borderRadius: 'var(--radius-lg)', overflow: 'hidden', border: '1px solid var(--c-border)', height: 280, background: 'var(--c-bg-alt)', display: 'flex', alignItems: 'center', justifyContent: 'center', fontSize: 14, color: 'var(--c-text-muted)' }}>
+
+              <iframe className="embed-map-frame" scrolling="no" width="100%" height="480" src="https://maps.google.com/maps?width=600&height=400&hl=en&q=%D0%9B%D1%83%D0%B3%D0%BE%D0%B2%D0%B0%209%D1%81&t=&z=16&ie=UTF8&iwloc=B&output=embed"></iframe>
+
             </div>
 
             {/* Managers */}
-            <div style={{ marginTop: 40 }}>
+            {/* <div style={{ marginTop: 40 }}>
               <h3 style={{ fontFamily: 'var(--font-display)', fontSize: 24, marginBottom: 20 }}>{t('contacts.managers')}</h3>
               <div className="managers-grid">
                 {MANAGERS.map((m, i) => (
@@ -93,7 +94,7 @@ export default function Contacts() {
                   </div>
                 ))}
               </div>
-            </div>
+            </div> */}
           </div>
 
           {/* Form */}
@@ -144,7 +145,7 @@ export default function Contacts() {
             </div>
 
             {/* Info cards */}
-            <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: 14, marginTop: 20 }}>
+            {/* <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: 14, marginTop: 20 }}>
               {[
                 { icon: '🚚', label: lang === 'ua' ? 'Доставка по Україні' : 'Доставка по Украине', val: 'Нова Пошта, Укрпошта' },
                 { icon: '📦', label: lang === 'ua' ? 'Мін. замовлення' : 'Мин. заказ', val: lang === 'ua' ? 'від 50 погонних метрів' : 'от 50 погонных метров' },
@@ -155,7 +156,7 @@ export default function Contacts() {
                   <div style={{ fontSize: 13, fontWeight: 500 }}>{c.val}</div>
                 </div>
               ))}
-            </div>
+            </div> */}
           </div>
         </div>
       </div>

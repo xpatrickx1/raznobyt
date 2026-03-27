@@ -4,6 +4,7 @@ import path from 'path'
 
 export default defineConfig({
   plugins: [react()],
+  assetsInclude: ['**/*.p7s', '**/*.doc', '**/*.docx', '**/*.xml', '**/*.pdf'],
   resolve: {
     alias: {
       '@': path.resolve(__dirname, './src'),

@@ -3,7 +3,7 @@ import { useParams, Link, Navigate } from 'react-router-dom';
 import { useLang } from '../i18n/LangContext';
 import SEO from '../components/SEO';
 import ProductCard from '../components/ProductCard';
-import products from '../data/products.json';
+import products from '../data/products.js';
 import categories from '../data/categories.json';
 
 const COLOR_MAP = {
@@ -34,12 +34,14 @@ export default function ProductPage() {
     { label: t('product.composition'), value: product.attributes.composition },
     { label: t('product.density'), value: product.attributes.density },
     { label: t('product.width'), value: product.attributes.width },
-    { label: t('product.color'), value: (
-      <span>
-        <span className="color-dot" style={{ background: COLOR_MAP[product.attributes.color] || '#ccc', display:'inline-block', width:12, height:12, borderRadius:'50%', marginRight:6, verticalAlign:'middle', border:'1px solid rgba(0,0,0,0.1)' }} />
-        {t(`colors.${product.attributes.color}`)}
-      </span>
-    )},
+    {
+      label: t('product.color'), value: (
+        <span>
+          <span className="color-dot" style={{ background: COLOR_MAP[product.attributes.color] || '#ccc', display: 'inline-block', width: 12, height: 12, borderRadius: '50%', marginRight: 6, verticalAlign: 'middle', border: '1px solid rgba(0,0,0,0.1)' }} />
+          {t(`colors.${product.attributes.color}`)}
+        </span>
+      )
+    },
     { label: t('product.fabricType'), value: t(`fabricTypes.${product.attributes.fabricType}`) },
   ];
 

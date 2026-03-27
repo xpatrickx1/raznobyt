@@ -1,0 +1,50 @@
+[
+  {
+    "id": "5",
+    "slug": "tkan-zakhysna-arc",
+    "title": {
+      "ua": "Тканина вогнестійка «ARC Protection»",
+      "ru": "Ткань огнестойкая «ARC Protection»"
+    },
+    "category": "protective",
+    "images": [
+      "https://images.unsplash.com/photo-1504917595217-d4dc5ebe6122?w=600&q=80",
+      "https://images.unsplash.com/photo-1581092160607-ee22621dd758?w=600&q=80"
+    ],
+    "description": {
+      "ua": "Тканина з захистом від електричної дуги та відкритого полум'я. Сертифікована за міжнародними стандартами безпеки. Для зварювальників та електриків.",
+      "ru": "Ткань с защитой от электрической дуги и открытого пламени. Сертифицирована по международным стандартам безопасности. Для сварщиков и электриков."
+    },
+    "attributes": {
+      "fabricType": "fr-twill",
+      "density": "280 г/м²",
+      "width": "150 см",
+      "color": "orange",
+      "composition": "88% бавовна, 12% нейлон FR"
+    }
+  },
+  {
+    "id": "11",
+    "slug": "tkan-robochyj-sonyachno-zhovtij",
+    "title": {
+      "ua": "Тканина сигнальна «HiVis»",
+      "ru": "Ткань сигнальная «HiVis»"
+    },
+    "category": "protective",
+    "images": [
+      "https://images.unsplash.com/photo-1581092160607-ee22621dd758?w=600&q=80",
+      "https://images.unsplash.com/photo-1504917595217-d4dc5ebe6122?w=600&q=80"
+    ],
+    "description": {
+      "ua": "Яскраво-жовта сигнальна тканина для дорожніх робітників та рятувальників. Висока видимість у будь-яких умовах освітлення.",
+      "ru": "Ярко-жёлтая сигнальная ткань для дорожных рабочих и спасателей. Высокая видимость в любых условиях освещения."
+    },
+    "attributes": {
+      "fabricType": "plain",
+      "density": "155 г/м²",
+      "width": "150 см",
+      "color": "yellow",
+      "composition": "100% поліестер"
+    }
+  }
+]

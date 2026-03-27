@@ -1,0 +1,50 @@
+[
+  {
+    "id": "3",
+    "slug": "tkan-personal-khaki",
+    "title": {
+      "ua": "Тканина «Ріпстоп» для personal",
+      "ru": "Ткань «Рипстоп» для personal"
+    },
+    "category": "personal",
+    "images": [
+      "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=600&q=80",
+      "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=600&q=80"
+    ],
+    "description": {
+      "ua": "Надміцна тканина рипстоп для армійського та поліцейського спорядження. Стійка до розривів, водовідштовхувальне просочення.",
+      "ru": "Сверхпрочная ткань рипстоп для армейского и полицейского снаряжения. Устойчива к разрывам, водоотталкивающая пропитка."
+    },
+    "attributes": {
+      "fabricType": "ripstop",
+      "density": "210 г/м²",
+      "width": "150 см",
+      "color": "khaki",
+      "composition": "50% поліестер, 50% бавовна"
+    }
+  },
+  {
+    "id": "10",
+    "slug": "tkan-vijskova-multicam",
+    "title": {
+      "ua": "Тканина «Мультикам» камуфляж",
+      "ru": "Ткань «Мультикам» камуфляж"
+    },
+    "category": "personal",
+    "images": [
+      "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=600&q=80",
+      "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=600&q=80"
+    ],
+    "description": {
+      "ua": "Тканина з малюнком мультикам для тактичного спорядження та форменого одягу. Підвищена міцність на розрив.",
+      "ru": "Ткань с рисунком мультикам для тактического снаряжения и форменной одежды. Повышенная прочность на разрыв."
+    },
+    "attributes": {
+      "fabricType": "ripstop",
+      "density": "200 г/м²",
+      "width": "145 см",
+      "color": "multicam",
+      "composition": "50% Nylon, 50% бавовна"
+    }
+  }
+]

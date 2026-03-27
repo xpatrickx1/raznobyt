@@ -4,7 +4,7 @@ import { useLang } from '../i18n/LangContext';
 import logo from '@/assets/images/logo.png';
 import searchIcon from '@/assets/images/icons/search.svg';
 import categories from '../data/categories.json';
-import products from '../data/products.json';
+import products from '../data/products.js';
 
 export default function Navbar() {
   const { lang, toggleLang, t } = useLang();
@@ -112,7 +112,7 @@ export default function Navbar() {
                   {categories.map(c => (
                     <Link
                       key={c.id}
-                      to={`/category/${c.id}`}
+                      to={`/catalog/${c.slug}/`}
                       className="catalog-dropdown-item"
                       onClick={() => setDropdownOpen(false)}
                     >

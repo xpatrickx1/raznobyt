@@ -3,7 +3,8 @@ import { useLang } from '../i18n/LangContext';
 import SEO from '../components/SEO';
 import ProductCard from '../components/ProductCard';
 import categories from '../data/categories.json';
-import products from '../data/products.json';
+import products from '../data/products.js';
+import AnimatedStat from '../components/AnimatedStat';
 
 const WHY_ICONS = [
   <svg key="1" xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"><path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"></path><polyline points="3.27 6.96 12 12.01 20.73 6.96"></polyline><line x1="12" y1="22.08" x2="12" y2="12"></line></svg>,
@@ -39,6 +40,26 @@ export default function Home() {
               <Link to="/catalog" className="btn btn-primary">{t('hero.cta')}</Link>
               <Link to="/contacts" className="btn btn-outline">{t('hero.cta2')}</Link>
             </div>
+          </div>
+        </div>
+      </section>
+
+      {/* STATS INTRO */}
+      <section className="section" style={{ background: 'var(--c-bg)', paddingBottom: 0 }}>
+        <div className="container">
+          <p style={{ maxWidth: '900px', margin: '0 auto', textAlign: 'center', fontSize: '1.05rem', lineHeight: '1.6', color: 'var(--c-text)' }}>
+            {t('home.statsIntro')}
+          </p>
+        </div>
+      </section>
+
+      {/* STATS BLOCK */}
+      <section className="section" style={{ background: 'var(--c-bg)' }}>
+        <div className="container">
+          <div className="stats-grid">
+            {Array.isArray(t('home.statsList')) && t('home.statsList').map((s, i) => (
+              <AnimatedStat key={i} value={s.value} suffix={s.suffix} label={s.label} prefix={s.prefix} />
+            ))}
           </div>
         </div>
       </section>
@@ -144,7 +165,7 @@ export default function Home() {
                 />
                 <div className="category-card__overlay" />
                 <div className="category-card__body">
-                  <div className="category-card__icon">{cat.icon}</div>
+                  {/* <div className="category-card__icon">{cat.icon}</div> */}
                   <div className="category-card__title">{cat.title[lang]}</div>
                   <div className="category-card__count">
                     {products.filter(p => p.category === cat.id).length}{' '}
