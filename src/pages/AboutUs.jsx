@@ -1,6 +1,8 @@
 import { Link } from 'react-router-dom';
 import { useLang } from '../i18n/LangContext';
 import SEO from '../components/SEO';
+import proKompaniyu from '../assets/images/pro-kompaniyu.jpg';
+import AnimatedStat from '../components/AnimatedStat';
 
 export default function AboutUs() {
     const { t, lang } = useLang();
@@ -21,26 +23,14 @@ export default function AboutUs() {
                 <div className="hero__pattern" />
                 <div className="container">
                     <div className="hero__content fade-up fade-up-1">
-                        <div className="hero__eyebrow">Різнобит Textile Group</div>
+                        {/* <div className="about-hero__eyebrow">Різнобит Textile Group</div> */}
                         <h1 className="fade-up fade-up-2">{t('about.title')}</h1>
                         <p className="hero__sub">{t('about.subtitle')}</p>
                     </div>
                 </div>
             </section>
 
-            {/* Stats Section */}
-            <section className="section" style={{ background: 'var(--c-bg)' }}>
-                <div className="container">
-                    <div className="about-stats fade-up fade-up-2">
-                        {Array.isArray(stats) && stats.map((stat, i) => (
-                            <div key={i} className="about-stat-item">
-                                <div className="about-stat-value">{stat.value}</div>
-                                <div className="about-stat-label">{stat.label}</div>
-                            </div>
-                        ))}
-                    </div>
-                </div>
-            </section>
+
 
             {/* Story Section */}
             <section className="section">
@@ -48,7 +38,7 @@ export default function AboutUs() {
                     <div className="about-story-grid">
                         <div className="about-story-image fade-up fade-up-1">
                             <img
-                                src="https://images.unsplash.com/photo-1558022839-a99c9dae8dc4?q=80&w=800&auto=format&fit=crop"
+                                src={proKompaniyu}
                                 alt="Тканини на складі"
                             />
                             <div className="about-design-accent"></div>
@@ -62,6 +52,17 @@ export default function AboutUs() {
                             <br />
                             <p className="about-story-text">{t('about.storyText2')}</p>
                         </div>
+                    </div>
+                </div>
+            </section>
+
+            {/* STATS BLOCK */}
+            <section className="section" style={{ background: 'var(--c-bg)' }}>
+                <div className="container">
+                    <div className="stats-grid">
+                        {Array.isArray(t('home.statsList')) && t('home.statsList').map((s, i) => (
+                            <AnimatedStat key={i} value={s.value} suffix={s.suffix} label={s.label} prefix={s.prefix} />
+                        ))}
                     </div>
                 </div>
             </section>

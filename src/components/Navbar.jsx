@@ -73,7 +73,7 @@ export default function Navbar() {
           <div className="navbar__inner">
             <Link to="/" className="navbar__logo">
               <img src={logo} alt="Різнобит" className="navbar__logo-img" />
-              <span className="navbar__logo-text">Голандські текстильні тредиції</span>
+              {/* <span className="navbar__logo-text">Голандські текстильні тредиції</span> */}
             </Link>
 
             <ul className="navbar__nav">
@@ -86,91 +86,100 @@ export default function Navbar() {
               ))}
             </ul>
 
-            <div className="navbar__actions">
-              <button className={`lang-btn ${lang === 'ua' ? 'active' : ''}`} onClick={() => lang !== 'ua' && toggleLang()}>UA</button>
-              <button className={`lang-btn ${lang === 'ru' ? 'active' : ''}`} onClick={() => lang !== 'ru' && toggleLang()}>RU</button>
-              <button className="hamburger" onClick={() => setMobileOpen(true)} aria-label="Menu">
-                <span /><span /><span />
-              </button>
+            <div className="navbar__right">
+              <a href="tel:+380445070680">(044) 507-06-80</a>
+              <div className="navbar__actions">
+                <button className={`lang-btn ${lang === 'ua' ? 'active' : ''}`} onClick={() => lang !== 'ua' && toggleLang()}>UA</button>
+                <button className={`lang-btn ${lang === 'ru' ? 'active' : ''}`} onClick={() => lang !== 'ru' && toggleLang()}>RU</button>
+                <button className="hamburger" onClick={() => setMobileOpen(true)} aria-label="Menu">
+                  <span /><span /><span />
+                </button>
+              </div>
             </div>
           </div>
 
-          <div className="navbar__divider" />
+          {/* <div className="navbar__divider" /> */}
 
-          <div className="navbar__catalog-bar">
-            <div className="catalog-dropdown-wrapper" ref={dropdownRef}>
-              <button
-                className="btn btn-primary catalog-dropdown-btn"
-                onClick={() => setDropdownOpen(!dropdownOpen)}
-              >
-                <span className="catalog-icon">☰</span>
-                {t('nav.catalog') || (lang === 'ua' ? 'Каталог' : 'Каталог')}
-              </button>
 
-              {dropdownOpen && (
-                <div className="catalog-dropdown">
-                  {categories.map(c => (
-                    <Link
-                      key={c.id}
-                      to={`/catalog/${c.slug}/`}
-                      className="catalog-dropdown-item"
-                      onClick={() => setDropdownOpen(false)}
-                    >
-                      {c.icon && <img src={c.icon} alt="" className="catalog-dropdown-item__icon" width="20" height="20" />}
-                      {lang === 'ua' ? c.title.ua : c.title.ru}
-                    </Link>
-                  ))}
-                </div>
-              )}
-            </div>
-
-            <div className="navbar__search-wrapper" ref={searchRef}>
-              <form className="navbar__search-form" onSubmit={handleSearch}>
-                <button type="submit" className="search-submit-btn">
-                  <img src={searchIcon} alt="Search" width="20" height="20" style={{ display: 'block' }} />
+        </div>
+        <div className="navbar__bottom">
+          <div className="container">
+            <div className="navbar__catalog-bar">
+              <div className="catalog-dropdown-wrapper" ref={dropdownRef}>
+                <button
+                  className="catalog-dropdown-btn"
+                  onClick={() => setDropdownOpen(!dropdownOpen)}
+                >
+                  <span className="catalog-icon">☰</span>
+                  {t('nav.catalog') || (lang === 'ua' ? 'Каталог' : 'Каталог')}
                 </button>
-                <input
-                  type="text"
-                  placeholder={lang === 'ua' ? 'Я шукаю...' : 'Я ищу...'}
-                  className="navbar__search-input"
-                  value={searchQuery}
-                  onChange={e => {
-                    setSearchQuery(e.target.value);
-                    setShowResults(true);
-                  }}
-                  onFocus={() => setShowResults(true)}
-                />
-              </form>
 
-              {showResults && searchQuery.trim().length > 0 && (
-                <div className="search-results">
-                  {filteredProducts.length > 0 ? (
-                    filteredProducts.map(p => (
+                {dropdownOpen && (
+                  <div className="catalog-dropdown">
+                    {categories.map(c => (
                       <Link
-                        key={p.id}
-                        to={`/product/${p.slug}`}
-                        className="search-result-item"
-                        onClick={() => {
-                          setShowResults(false);
-                          setSearchQuery('');
-                        }}
+                        key={c.id}
+                        to={`/catalog/${c.slug}/`}
+                        className="catalog-dropdown-item"
+                        onClick={() => setDropdownOpen(false)}
                       >
-                        <img src={p.images[0]} alt="" className="search-result-img" />
-                        <div className="search-result-info">
-                          <div className="search-result-title">{lang === 'ua' ? p.title.ua : p.title.ru}</div>
-                          <div className="search-result-cat">
-                            {categories.find(c => c.id === p.category)?.title[lang]}
-                          </div>
-                        </div>
+                        {c.icon && <img src={c.icon} alt="" className="catalog-dropdown-item__icon" width="20" height="20" />}
+                        {lang === 'ua' ? c.title.ua : c.title.ru}
                       </Link>
-                    ))
-                  ) : (
-                    <div className="search-result-empty">
-                      {lang === 'ua' ? 'Нічого не знайдено' : 'Ничего не найдено'}
-                    </div>
-                  )}
-                </div>
-              )}
+                    ))}
+                  </div>
+                )}
+              </div>
+
+              <div className="navbar__search-wrapper" ref={searchRef}>
+                <form className="navbar__search-form" onSubmit={handleSearch}>
+
+                  <input
+                    type="text"
+                    placeholder={lang === 'ua' ? 'Я шукаю...' : 'Я ищу...'}
+                    className="navbar__search-input"
+                    value={searchQuery}
+                    onChange={e => {
+                      setSearchQuery(e.target.value);
+                      setShowResults(true);
+                    }}
+                    onFocus={() => setShowResults(true)}
+                  />
+                  <button type="submit" className="search-submit-btn">
+                    <img src={searchIcon} alt="Search" width="20" height="20" style={{ display: 'block' }} />
+                  </button>
+                </form>
+
+                {showResults && searchQuery.trim().length > 0 && (
+                  <div className="search-results">
+                    {filteredProducts.length > 0 ? (
+                      filteredProducts.map(p => (
+                        <Link
+                          key={p.id}
+                          to={`/product/${p.slug}`}
+                          className="search-result-item"
+                          onClick={() => {
+                            setShowResults(false);
+                            setSearchQuery('');
+                          }}
+                        >
+                          <img src={p.images[0]} alt="" className="search-result-img" />
+                          <div className="search-result-info">
+                            <div className="search-result-title">{lang === 'ua' ? p.title.ua : p.title.ru}</div>
+                            <div className="search-result-cat">
+                              {categories.find(c => c.id === p.category)?.title[lang]}
+                            </div>
+                          </div>
+                        </Link>
+                      ))
+                    ) : (
+                      <div className="search-result-empty">
+                        {lang === 'ua' ? 'Нічого не знайдено' : 'Ничего не найдено'}
+                      </div>
+                    )}
+                  </div>
+                )}
+              </div>
             </div>
           </div>
         </div>

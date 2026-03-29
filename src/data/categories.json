@@ -11,7 +11,7 @@
       "ru": "Ткани для изготовления качественной рабочей и корпоративной одежды"
     },
     "icon": "/images/icons/workwear.svg",
-    "image": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&q=80"
+    "image": "/images/categories/robochiy.jpg"
   },
   {
     "id": "medical",
@@ -53,7 +53,7 @@
       "ru": "Защитные ткани для сварщиков, электриков и спасателей"
     },
     "icon": "/images/icons/helmet.svg",
-    "image": "https://images.unsplash.com/photo-1504917595217-d4dc5ebe6122?w=800&q=80"
+    "image": "/images/categories/prombezpeka.jpg"
   },
   {
     "id": "shirts",
@@ -67,7 +67,7 @@
       "ru": "Лёгкие и элегантные ткани для рубашек и блузок"
     },
     "icon": "/images/icons/shirt.svg",
-    "image": "https://images.unsplash.com/photo-1620799140408-edc6dcb6d633?w=800&q=80"
+    "image": "/images/categories/sorochki.jpg"
   },
   {
     "id": "lining",
