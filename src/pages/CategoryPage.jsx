@@ -195,7 +195,7 @@ export default function CategoryPage() {
             <div className="catalog-header">
               {/* <div className="search-wrapper">
                 <button type="submit" className="search-submit-btn">
-                  <img src={searchIcon} alt="Search" width="20" height="20" style={{ display: 'block' }} />
+                  <img src={searchIcon} alt="Search" width="20" height="20" style={{ display: 'block' }} loading="lazy" />
                 </button>
                 <input
                   type="text"

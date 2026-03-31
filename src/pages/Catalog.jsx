@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom';
 import { useLang } from '../i18n/LangContext';
+import Image from '../components/Image';
 import SEO from '../components/SEO';
 import categories from '../data/categories.json';
 import products from '../data/products.js';
@@ -19,7 +20,7 @@ export default function Catalog() {
           <div className="page-header__content">
             <div className="page-header__eyebrow">Текстиль</div>
             <h1>{t('catalog.title')}</h1>
-            <p>{lang === 'ua' ? 'Весь асортимент в одному місці' : 'Весь ассортимент в одном месте'}</p>
+            <p>{lang === 'ua' ? 'Весь асортимент в одному місце' : 'Весь ассортимент в одном месте'}</p>
           </div>
         </div>
       </div>
@@ -35,7 +36,7 @@ export default function Catalog() {
                 className="category-card"
               >
                 <div className="category-card__image-wrap">
-                  <img
+                  <Image
                     src={cat.image}
                     alt={cat.title[lang]}
                     className="category-card__image"
@@ -44,7 +45,7 @@ export default function Catalog() {
                   <div className="category-card__overlay" />
                 </div>
                 <div className="category-card__body">
-                  {cat.icon && (
+                  {/* {cat.icon && (
                     <img
                       src={cat.icon}
                       alt=""
@@ -52,18 +53,18 @@ export default function Catalog() {
                       width="32"
                       height="32"
                     />
-                  )}
+                  )} */}
                   <h3 className="category-card__title">{cat.title[lang]}</h3>
                   <p className="category-card__desc">{cat.description[lang]}</p>
-                  <span className="category-card__count">
+                  {/* <span className="category-card__count">
                     {count} {lang === 'ua' ? (count === 1 ? 'товар' : count < 5 ? 'товари' : 'товарів') : (count === 1 ? 'товар' : count < 5 ? 'товара' : 'товаров')}
-                  </span>
+                  </span> */}
                 </div>
-              </Link>
+              </Link >
             );
           })}
-        </div>
-      </div>
+        </div >
+      </div >
     </>
   );
 }

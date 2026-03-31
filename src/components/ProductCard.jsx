@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom';
 import { useLang } from '../i18n/LangContext';
+import Image from './Image';
 import categories from '../data/categories.json';
 
 const COLOR_MAP = {
@@ -15,26 +16,38 @@ export default function ProductCard({ product }) {
   return (
     <Link to={`/product/${product.id}`} className="product-card fade-up">
       <div className="product-card__img-wrap">
-        <img
+        <Image
           src={product.images[0]}
           alt={product.title[lang]}
           className="product-card__img"
           loading="lazy"
         />
+        <div className="product-card__overlay">
+          <span className="product-card__view-btn">{t('common.viewDetails') || 'View Details'}</span>
+        </div>
       </div>
       <div className="product-card__body">
-        {cat && <div className="product-card__cat">{cat.title[lang]}</div>}
+        <div className="product-card__header">
+          {cat && <span className="product-card__cat">{cat.title[lang]}</span>}
+          {product.isNew && <span className="product-card__badge-new">NEW</span>}
+        </div>
         <div className="product-card__title">{product.title[lang]}</div>
         <div className="product-card__attrs">
-          <span className="attr-chip">
+          <div className="product-card__attr-row">
             <span
               className="color-dot"
               style={{ background: COLOR_MAP[product.attributes.color] || '#ccc' }}
             />
-            {t(`colors.${product.attributes.color}`)}
-          </span>
-          <span className="attr-chip">{t(`fabricTypes.${product.attributes.fabricType}`)}</span>
-          <span className="attr-chip">{product.attributes.density}</span>
+            <span className="attr-text">{t(`colors.${product.attributes.color}`)}</span>
+          </div>
+          <div className="product-card__attr-divider"></div>
+          <div className="product-card__attr-row">
+            <span className="attr-text">{t(`fabricTypes.${product.attributes.fabricType}`)}</span>
+          </div>
+          <div className="product-card__attr-divider"></div>
+          <div className="product-card__attr-row">
+            <span className="attr-text">{product.attributes.density}</span>
+          </div>
         </div>
       </div>
     </Link>

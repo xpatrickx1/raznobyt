@@ -1,6 +1,7 @@
 import { useState, useRef, useEffect } from 'react';
 import { NavLink, Link, useNavigate } from 'react-router-dom';
 import { useLang } from '../i18n/LangContext';
+import Image from './Image';
 import logo from '@/assets/images/logo.png';
 import searchIcon from '@/assets/images/icons/search.svg';
 import categories from '../data/categories.json';
@@ -18,13 +19,22 @@ export default function Navbar() {
   const searchRef = useRef(null);
 
   useEffect(() => {
+    let ticking = false;
+
     const handleScroll = () => {
-      setIsScrolled(prev => {
-        if (!prev && window.scrollY > 80) return true;
-        if (prev && window.scrollY < 30) return false;
-        return prev;
-      });
+      if (!ticking) {
+        requestAnimationFrame(() => {
+          const currentScrollY = window.scrollY;
+          setIsScrolled(currentScrollY > 1);
+          ticking = false;
+        });
+        ticking = true;
+      }
     };
+
+    // Ініціалізація при монтуванні
+    setIsScrolled(window.scrollY > 1);
+
     window.addEventListener('scroll', handleScroll, { passive: true });
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
@@ -72,7 +82,7 @@ export default function Navbar() {
         <div className="container">
           <div className="navbar__inner">
             <Link to="/" className="navbar__logo">
-              <img src={logo} alt="Різнобит" className="navbar__logo-img" />
+              <img src={logo} alt="Різнобит" className="navbar__logo-img" loading="lazy" />
               {/* <span className="navbar__logo-text">Голандські текстильні тредиції</span> */}
             </Link>
 
@@ -123,7 +133,7 @@ export default function Navbar() {
                         className="catalog-dropdown-item"
                         onClick={() => setDropdownOpen(false)}
                       >
-                        {c.icon && <img src={c.icon} alt="" className="catalog-dropdown-item__icon" width="20" height="20" />}
+                        {c.icon && <Image src={c.icon} alt="" className="catalog-dropdown-item__icon" width="20" height="20" loading="lazy" />}
                         {lang === 'ua' ? c.title.ua : c.title.ru}
                       </Link>
                     ))}
@@ -146,7 +156,7 @@ export default function Navbar() {
                     onFocus={() => setShowResults(true)}
                   />
                   <button type="submit" className="search-submit-btn">
-                    <img src={searchIcon} alt="Search" width="20" height="20" style={{ display: 'block' }} />
+                    <img src={searchIcon} alt="Search" width="20" height="20" style={{ display: 'block' }} loading="lazy" />
                   </button>
                 </form>
 
@@ -163,7 +173,7 @@ export default function Navbar() {
                             setSearchQuery('');
                           }}
                         >
-                          <img src={p.images[0]} alt="" className="search-result-img" />
+                          <Image src={p.images[0]} alt="" className="search-result-img" />
                           <div className="search-result-info">
                             <div className="search-result-title">{lang === 'ua' ? p.title.ua : p.title.ru}</div>
                             <div className="search-result-cat">

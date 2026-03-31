@@ -40,11 +40,20 @@ export default function AnimatedStat({ value, suffix, label, prefix }) {
         window.requestAnimationFrame(step);
     };
 
+    const formatValue = (num) => {
+        if (num >= 1000000) return (num / 1000000).toFixed(1) + 'M';
+        if (num >= 1000) return (num / 1000).toFixed(0) + 'k';
+        return num;
+    };
+
     return (
         <div className="stat-card" ref={ref}>
             <div className="stat-card__value">
-                {prefix}{count}{suffix}
+                <span className="stat-card__prefix">{prefix}</span>
+                <span className="stat-card__number">{formatValue(count)}</span>
+                <span className="stat-card__suffix">{suffix}</span>
             </div>
+            <div className="stat-card__line"></div>
             <div className="stat-card__label">{label}</div>
         </div>
     );

@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import { useLang } from '../i18n/LangContext';
+import Image from '../components/Image';
 import SEO from '../components/SEO';
 import ProductCard from '../components/ProductCard';
 import categories from '../data/categories.json';
@@ -102,7 +103,7 @@ export default function Home() {
               </p>
               <ul className="contact-block-list">
                 {Array.isArray(contactList) && contactList.map((item, i) => (
-                  <li key={i}><span className="chk">✔️</span> {item}</li>
+                  <li key={i}><span className="chk">✔</span> {item}</li>
                 ))}
               </ul>
             </div>
@@ -199,7 +200,7 @@ export default function Home() {
         <div className="categories-grid">
           {categories.slice(0, 5).map(cat => (
             <Link to={`/category/${cat.id}`} key={cat.id} className="category-card">
-              <img
+              <Image
                 src={cat.image}
                 alt={cat.title[lang]}
                 className="category-card__img"
@@ -217,7 +218,7 @@ export default function Home() {
             </Link>
           ))}
           <Link to={`/catalog/`} className="category-card">
-            <img
+            <Image
               src={canvasAll}
               alt="Всі тканини"
               className="category-card__img"

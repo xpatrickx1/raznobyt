@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom';
 import { useLang } from '../i18n/LangContext';
+import Image from '../components/Image';
 import SEO from '../components/SEO';
 import proKompaniyu from '../assets/images/pro-kompaniyu.jpg';
 import AnimatedStat from '../components/AnimatedStat';
@@ -37,7 +38,7 @@ export default function AboutUs() {
                 <div className="container">
                     <div className="about-story-grid">
                         <div className="about-story-image fade-up fade-up-1">
-                            <img
+                            <Image
                                 src={proKompaniyu}
                                 alt="Тканини на складі"
                             />

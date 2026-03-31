@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import { useParams, Link, Navigate } from 'react-router-dom';
 import { useLang } from '../i18n/LangContext';
+import Image from '../components/Image';
 import SEO from '../components/SEO';
 import ProductCard from '../components/ProductCard';
 import products from '../data/products.js';
@@ -73,7 +74,7 @@ export default function ProductPage() {
           <div className="product-grid">
             {/* Images */}
             <div className="product-images">
-              <img
+              <Image
                 src={product.images[activeImg]}
                 alt={product.title[lang]}
                 className="product-main-img"
@@ -81,7 +82,7 @@ export default function ProductPage() {
               {product.images.length > 1 && (
                 <div className="product-thumbs">
                   {product.images.map((img, i) => (
-                    <img
+                    <Image
                       key={i}
                       src={img}
                       alt=""

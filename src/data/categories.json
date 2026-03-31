@@ -109,7 +109,7 @@
       "ru": "Качественные ткани для верхней одежды и платьев"
     },
     "icon": "/images/icons/jacket.svg",
-    "image": "https://images.unsplash.com/photo-1615486364292-76e8a81d4099?w=800&q=80"
+    "image": "/images/categories/jacket.jpg"
   },
   {
     "id": "canvas",
@@ -151,7 +151,7 @@
       "ru": "Качественные джинсовые ткани для верхней одежды и платьев"
     },
     "icon": "/images/icons/jeans.svg",
-    "image": "https://images.unsplash.com/photo-1615486364292-76e8a81d4099?w=800&q=80"
+    "image": "/images/categories/jeans.jpg"
   },
   {
     "id": "fleece",
@@ -165,6 +165,6 @@
       "ru": "Качественные флисовые ткани для верхней одежды и платьев"
     },
     "icon": "/images/icons/fleece.svg",
-    "image": "https://images.unsplash.com/photo-1615486364292-76e8a81d4099?w=800&q=80"
+    "image": "/images/categories/fleece.png"
   }
 ]
