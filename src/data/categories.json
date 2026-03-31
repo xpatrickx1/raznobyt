@@ -81,7 +81,7 @@
       "ru": "Качественные клеевые материалы для верхней одежды и платьев"
     },
     "icon": "/images/icons/adhesive.svg",
-    "image": "https://images.unsplash.com/photo-1615486364292-76e8a81d4099?w=800&q=80"
+    "image": "/images/categories/prikladni.jpg"
   },
   {
     "id": "cotton",
@@ -95,7 +95,7 @@
       "ru": "Качественные хлопковые ткани для верхней одежды и платьев"
     },
     "icon": "/images/icons/cotton.svg",
-    "image": "https://images.unsplash.com/photo-1615486364292-76e8a81d4099?w=800&q=80"
+    "image": "/images/categories/cotton.jpg"
   },
   {
     "id": "jacket",
@@ -123,7 +123,7 @@
       "ru": "Качественные ткани для верхней одежды и платьев"
     },
     "icon": "/images/icons/canvas.svg",
-    "image": "https://images.unsplash.com/photo-1615486364292-76e8a81d4099?w=800&q=80"
+    "image": "/images/categories/canvas.jpg"
   },
   {
     "id": "linen",
@@ -137,7 +137,7 @@
       "ru": "Качественные льняные ткани для верхней одежды и платьев"
     },
     "icon": "/images/icons/linen.svg",
-    "image": "https://images.unsplash.com/photo-1615486364292-76e8a81d4099?w=800&q=80"
+    "image": "/images/categories/flax.jpg"
   },
   {
     "id": "denim",

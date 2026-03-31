@@ -1255,6 +1255,10 @@ button {
   cursor: zoom-in;
 }
 
+.image-fallback .product-main-img {
+  max-height: 450px;
+}
+
 .product-thumbs {
   display: flex;
   gap: 10px;
@@ -2242,7 +2246,7 @@ button {
 .catalog-categories-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 24px;
+  gap: 20px;
 }
 
 .category-card {
@@ -2300,7 +2304,7 @@ button {
 .catalog-categories-grid .category-card__body {
   padding: 20px;
   flex: 1 0 auto;
-  height: 22%;
+  height: 26%;
   transition: height 0.4s ease;
 }
 

@@ -64,7 +64,7 @@ export default function ProductPage() {
             {cat && (
               <>
                 <span className="breadcrumb__sep">›</span>
-                <Link to={`/category/${cat.slug}`}>{cat.title[lang]}</Link>
+                <Link to={`/catalog/${cat.slug}/`}>{cat.title[lang]}</Link>
               </>
             )}
             <span className="breadcrumb__sep">›</span>
