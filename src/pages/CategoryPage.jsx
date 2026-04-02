@@ -259,21 +259,15 @@ export default function CategoryPage() {
     <>
       <SEO title={`${cat.title[lang]} — ${t('catalog.title')}`} description={cat.description[lang]} />
 
-      HeroSection
-      title={cat.title[lang]}
-      <div className="page-header">
-        <div className="container">
-          <div className="page-header__content">
-            <nav className="breadcrumbs">
-              <Link to="/catalog" className="breadcrumbs__link">{t('catalog.title')}</Link>
-              <span className="breadcrumbs__sep">→</span>
-              <span className="breadcrumbs__current">{cat.title[lang]}</span>
-            </nav>
-            <h1>{cat.title[lang]}</h1>
-            <p>{cat.description[lang]}</p>
-          </div>
-        </div>
-      </div>
+      <HeroSection
+        title={cat.title[lang]}
+        subtitle={cat.description[lang]}
+        breadcrumbs={[
+          { label: t('nav.home'), path: '/' },
+          { label: t('catalog.title'), path: '/catalog' },
+          { label: cat.title[lang] }
+        ]}
+      />
 
       <div className="container section-sm">
         <div className="catalog-layout">

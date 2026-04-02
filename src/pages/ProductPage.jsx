@@ -4,6 +4,7 @@ import { useLang } from '../i18n/LangContext';
 import Image from '../components/Image';
 import SEO from '../components/SEO';
 import ProductCard from '../components/ProductCard';
+import HeroSection from '../components/HeroSection';
 import products from '../data/products.js';
 import categories from '../data/categories.json';
 
@@ -54,22 +55,19 @@ export default function ProductPage() {
         keywords={`тканина, ${cat?.title[lang]}, ${t(`fabricTypes.${product.attributes.fabricType}`)}`}
       />
 
+      <HeroSection
+        title={product.title[lang]}
+        subtitle={cat ? cat.title[lang] : ''}
+        breadcrumbs={[
+          { label: t('nav.home'), path: '/' },
+          { label: t('catalog.title'), path: '/catalog' },
+          ...(cat ? [{ label: cat.title[lang], path: `/catalog/${cat.slug}/` }] : []),
+          { label: product.title[lang] }
+        ]}
+      />
+
       <div className="product-page">
         <div className="container">
-          {/* Breadcrumb */}
-          <div className="breadcrumb">
-            <Link to="/">{t('nav.home')}</Link>
-            <span className="breadcrumb__sep">›</span>
-            <Link to="/catalog">{t('nav.catalog')}</Link>
-            {cat && (
-              <>
-                <span className="breadcrumb__sep">›</span>
-                <Link to={`/catalog/${cat.slug}/`}>{cat.title[lang]}</Link>
-              </>
-            )}
-            <span className="breadcrumb__sep">›</span>
-            <span>{product.title[lang]}</span>
-          </div>
 
           <div className="product-grid">
             {/* Images */}
@@ -97,8 +95,6 @@ export default function ProductPage() {
 
             {/* Info */}
             <div className="product-info">
-              {cat && <div className="product-info__cat">{cat.title[lang]}</div>}
-              <h1>{product.title[lang]}</h1>
               <p className="product-desc">{product.description[lang]}</p>
 
               <h3 style={{ fontSize: 13, fontWeight: 700, letterSpacing: '0.12em', textTransform: 'uppercase', color: 'var(--c-text-muted)', marginBottom: 12 }}>
