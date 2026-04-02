@@ -4,6 +4,7 @@ import Image from '../components/Image';
 import SEO from '../components/SEO';
 import categories from '../data/categories.json';
 import products from '../data/products.js';
+import HeroSection from '../components/HeroSection';
 
 export default function Catalog() {
   const { lang, t } = useLang();
@@ -15,7 +16,12 @@ export default function Catalog() {
     <>
       <SEO title={t('catalog.title')} description="Каталог тканин для спецодягу, медичного одягу, армії та інших потреб." />
 
-      <div className="page-header">
+      <HeroSection
+        title={t('catalog.title')}
+        subtitle={lang === 'ua' ? 'Весь асортимент в одному місце' : 'Весь ассортимент в одном месте'}
+      />
+
+      {/* <div className="page-header">
         <div className="container">
           <div className="page-header__content">
             <div className="page-header__eyebrow">Текстиль</div>
@@ -23,10 +29,10 @@ export default function Catalog() {
             <p>{lang === 'ua' ? 'Весь асортимент в одному місце' : 'Весь ассортимент в одном месте'}</p>
           </div>
         </div>
-      </div>
+      </div> */}
 
       <div className="container section-sm">
-        <div className="catalog-categories-grid">
+        <div className="catalog-categories-grid fade-up fade-up-1">
           {categories.map(cat => {
             const count = getCategoryProductCount(cat.id);
             return (

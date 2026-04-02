@@ -28,6 +28,7 @@ export default function Footer() {
             <ul className="footer__links">
               <li><Link to="/">{t('nav.home')}</Link></li>
               <li><Link to="/catalog">{t('nav.catalog')}</Link></li>
+              <li><Link to="/delivery">{t('nav.delivery')}</Link></li>
               <li><Link to="/contacts">{t('nav.contacts')}</Link></li>
               <li><Link to="/documents">{t('nav.documents')}</Link></li>
             </ul>

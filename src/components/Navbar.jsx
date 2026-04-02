@@ -72,6 +72,7 @@ export default function Navbar() {
   const links = [
     { to: '/', label: t('nav.home') },
     { to: '/catalog', label: t('nav.catalog') },
+    { to: '/delivery', label: t('nav.delivery') },
     { to: '/about-us', label: t('nav.about') },
     { to: '/contacts', label: t('nav.contacts') },
   ];
@@ -195,12 +196,60 @@ export default function Navbar() {
         </div>
       </nav>
 
+      {/* Mobile overlay */}
+      {mobileOpen && <div className="mobile-menu__overlay" onClick={() => setMobileOpen(false)} />}
       <div className={`mobile-menu ${mobileOpen ? 'open' : ''}`}>
-        <button className="mobile-menu__close" onClick={() => setMobileOpen(false)}>✕</button>
-        {links.map(l => (
-          <Link key={l.to} to={l.to} onClick={() => setMobileOpen(false)}>{l.label}</Link>
-        ))}
-        <div style={{ display: 'flex', gap: 8, marginTop: 16 }}>
+        <div className="mobile-menu__header">
+          <Link to="/" className="navbar__logo" onClick={() => setMobileOpen(false)}>
+            <img src={logo} alt="Різнобит" className="navbar__logo-img" style={{ maxWidth: 140 }} loading="lazy" />
+          </Link>
+          <button className="mobile-menu__close" onClick={() => setMobileOpen(false)}>✕</button>
+        </div>
+
+        {/* Mobile search */}
+        <form className="mobile-menu__search" onSubmit={(e) => { handleSearch(e); setMobileOpen(false); }}>
+          <input
+            type="text"
+            placeholder={lang === 'ua' ? 'Я шукаю...' : 'Я ищу...'}
+            className="mobile-menu__search-input"
+            value={searchQuery}
+            onChange={e => setSearchQuery(e.target.value)}
+          />
+          <button type="submit" className="mobile-menu__search-btn">
+            <img src={searchIcon} alt="Search" width="18" height="18" loading="lazy" />
+          </button>
+        </form>
+
+        {/* Nav links */}
+        <div className="mobile-menu__links">
+          {links.map(l => (
+            <Link key={l.to} to={l.to} onClick={() => setMobileOpen(false)}>{l.label}</Link>
+          ))}
+        </div>
+
+        {/* Catalog categories */}
+        <div className="mobile-menu__section-title">{t('nav.catalog')}</div>
+        <div className="mobile-menu__categories">
+          {categories.map(c => (
+            <Link
+              key={c.id}
+              to={`/catalog/${c.slug}/`}
+              className="mobile-menu__cat-item"
+              onClick={() => setMobileOpen(false)}
+            >
+              {c.icon && <Image src={c.icon} alt="" width="24" height="24" loading="lazy" />}
+              {lang === 'ua' ? c.title.ua : c.title.ru}
+            </Link>
+          ))}
+        </div>
+
+        {/* Phone */}
+        <a href="tel:+380445070680" className="mobile-menu__phone">
+          📞 (044) 507-06-80
+        </a>
+
+        {/* Lang switch */}
+        <div className="mobile-menu__lang">
           <button className={`lang-btn ${lang === 'ua' ? 'active' : ''}`} onClick={() => { lang !== 'ua' && toggleLang(); setMobileOpen(false); }}>UA</button>
           <button className={`lang-btn ${lang === 'ru' ? 'active' : ''}`} onClick={() => { lang !== 'ru' && toggleLang(); setMobileOpen(false); }}>RU</button>
         </div>

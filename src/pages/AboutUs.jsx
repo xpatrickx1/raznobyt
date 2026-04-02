@@ -3,6 +3,7 @@ import { useLang } from '../i18n/LangContext';
 import Image from '../components/Image';
 import SEO from '../components/SEO';
 import proKompaniyu from '../assets/images/pro-kompaniyu.jpg';
+import HeroSection from '../components/HeroSection';
 import AnimatedStat from '../components/AnimatedStat';
 
 export default function AboutUs() {
@@ -18,18 +19,10 @@ export default function AboutUs() {
                 description={t('about.subtitle')}
             />
 
-            {/* About Hero */}
-            <section className="hero">
-                <div className="hero__bg" />
-                <div className="hero__pattern" />
-                <div className="container">
-                    <div className="hero__content fade-up fade-up-1">
-                        {/* <div className="about-hero__eyebrow">Різнобит Textile Group</div> */}
-                        <h1 className="fade-up fade-up-2">{t('about.title')}</h1>
-                        <p className="hero__sub">{t('about.subtitle')}</p>
-                    </div>
-                </div>
-            </section>
+            <HeroSection
+                title={t('about.title')}
+                subtitle={t('about.subtitle')}
+            />
 
 
 

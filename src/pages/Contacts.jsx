@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import { useLang } from '../i18n/LangContext';
 import SEO from '../components/SEO';
+import HeroSection from '../components/HeroSection';
 
 const MANAGERS = [
   { name: 'Оксана Петренко', role: { ua: 'Менеджер з продажів', ru: 'Менеджер по продажам' }, phone: '+38 (067) 332-00-88', emoji: '👩‍💼' },
@@ -23,28 +24,23 @@ export default function Contacts() {
     <>
       <SEO title={t('contacts.title')} description="Контакти Різнобит Textile Group. Телефони, адреса, форма зв'язку." />
 
-      <div className="page-header">
-        <div className="container">
-          <div className="page-header__content">
-            <div className="page-header__eyebrow">Зворотній зв'язок</div>
-            <h1>{t('contacts.title')}</h1>
-            <p>{t('contacts.subtitle')}</p>
-          </div>
-        </div>
-      </div>
+      <HeroSection
+        title={t('contacts.title')}
+        subtitle={t('contacts.subtitle')}
+      />
 
       <div className="container section">
         <div className="contacts-grid">
           {/* Info */}
           <div>
-            <div className="contact-info-item">
+            <div className="contact-info-item fade-up fade-up-1">
               <div className="contact-info-icon">📍</div>
               <div>
                 <div className="contact-info-label">{t('contacts.address')}</div>
                 <div className="contact-info-value">м. Київ, вул. Лугова, 9С</div>
               </div>
             </div>
-            <div className="contact-info-item">
+            <div className="contact-info-item fade-up fade-up-2">
               <div className="contact-info-icon">📞</div>
               <div>
                 <div className="contact-info-label">{t('contacts.phone')}</div>
@@ -57,7 +53,7 @@ export default function Contacts() {
                 </div>
               </div>
             </div>
-            <div className="contact-info-item">
+            <div className="contact-info-item fade-up fade-up-1">
               <div className="contact-info-icon">✉️</div>
               <div>
                 <div className="contact-info-label">{t('contacts.email')}</div>
@@ -66,7 +62,7 @@ export default function Contacts() {
                 </div>
               </div>
             </div>
-            <div className="contact-info-item">
+            <div className="contact-info-item fade-up fade-up-2">
               <div className="contact-info-icon">🕐</div>
               <div>
                 <div className="contact-info-label">{t('contacts.hours')}</div>
@@ -81,25 +77,11 @@ export default function Contacts() {
 
             </div>
 
-            {/* Managers */}
-            {/* <div style={{ marginTop: 40 }}>
-              <h3 style={{ fontFamily: 'var(--font-display)', fontSize: 24, marginBottom: 20 }}>{t('contacts.managers')}</h3>
-              <div className="managers-grid">
-                {MANAGERS.map((m, i) => (
-                  <div key={i} className="manager-card">
-                    <div className="manager-avatar">{m.emoji}</div>
-                    <div className="manager-name">{m.name}</div>
-                    <div className="manager-role">{m.role[lang]}</div>
-                    <a href={`tel:${m.phone.replace(/\s/g, '')}`} className="manager-phone">{m.phone}</a>
-                  </div>
-                ))}
-              </div>
-            </div> */}
           </div>
 
           {/* Form */}
           <div>
-            <div className="contact-form">
+            <div className="contact-form-card fade-up fade-up-2">
               <h3>{t('contacts.sendMessage')}</h3>
               {sent ? (
                 <div className="success-banner" style={{ padding: '20px 18px', fontSize: 15 }}>
