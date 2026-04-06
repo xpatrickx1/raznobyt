@@ -13,6 +13,7 @@ import Contacts from './pages/Contacts';
 import AboutUs from './pages/AboutUs';
 import Documents from './pages/Documents';
 import Delivery from './pages/Delivery';
+import NotFound from './pages/NotFound';
 import './index.css';
 
 // Всі шляхи без слеша в кінці
@@ -24,10 +25,11 @@ const ROUTES = {
     { path: '/contacts', name: 'Contacts', element: <Contacts /> },
     { path: '/documents', name: 'Documents', element: <Documents /> },
     { path: '/delivery', name: 'Delivery', element: <Delivery /> },
+    { path: '/404', name: 'NotFound', element: <NotFound /> },
   ],
   dynamic: [
     { path: '/catalog/:slug', element: <CategoryPage />, parentPath: '/catalog' },
-    { path: '/product/:id', element: <ProductPage />, parentPath: null },
+    { path: '/product/:slug', element: <ProductPage />, parentPath: null },
   ],
 };
 
@@ -78,10 +80,12 @@ function Layout() {
       }
     }
 
-    return staticRoutesWithRefs[0];
+    // Якщо нічого не знайдено - повертаємо роут 404 для транзиції
+    return staticRoutesWithRefs.find(r => r.path === '/404');
   };
 
-  const { nodeRef } = findMatchingRoute();
+  const matchingRoute = findMatchingRoute();
+  const nodeRef = matchingRoute ? matchingRoute.nodeRef : staticRoutesWithRefs[0].nodeRef;
 
   return (
     <>
@@ -118,7 +122,7 @@ const router = createBrowserRouter([
     children: [
       { index: true, element: <Home /> },
       ...ROUTES.static
-        .filter(route => route.path !== '/')
+        .filter(route => !['/', '/404'].includes(route.path))
         .map(route => ({
           path: route.path.slice(1),
           element: route.element,
@@ -127,6 +131,7 @@ const router = createBrowserRouter([
         path: route.path.slice(1),
         element: route.element,
       })),
+      { path: '*', element: <NotFound /> },
     ],
   },
 ]);

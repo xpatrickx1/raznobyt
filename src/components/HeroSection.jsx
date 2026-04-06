@@ -6,11 +6,12 @@ import { useLang } from '../i18n/LangContext';
  * @param {Object} props
  * @param {string} props.title - Main heading
  * @param {string} props.subtitle - Description text below heading
+ * @param {string} props.class - Additional class for hero section
  */
 
 import { Link } from 'react-router-dom';
 
-export default function HeroSection({ title, subtitle, breadcrumbs }) {
+export default function HeroSection({ title, subtitle, breadcrumbs, className }) {
     const { lang, t } = useLang();
 
     const breadcrumbItems = breadcrumbs || [
@@ -19,7 +20,7 @@ export default function HeroSection({ title, subtitle, breadcrumbs }) {
     ];
 
     return (
-        <section className="hero">
+        <section className={`hero ${className}`}>
             <div className="hero__bg" />
             <div className="hero__pattern" />
             <div className="container">
@@ -39,7 +40,7 @@ export default function HeroSection({ title, subtitle, breadcrumbs }) {
                 </nav>
                 <div className="hero__content fade-up fade-up-1">
                     <h1 className="">{title}</h1>
-                    <p className="hero__sub">{subtitle}</p>
+                    {subtitle && <p className="hero__sub">{subtitle}</p>}
                 </div>
             </div>
         </section>

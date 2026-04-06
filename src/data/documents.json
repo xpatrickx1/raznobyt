@@ -1,5 +1,35 @@
 [
   {
+    "year": "2026",
+    "items": [
+      {
+        "title": "Протокол позачергових ЗЗА 20.02.2026",
+        "url": "../assets/docs/2026/протокол 20.02.2026.pdf",
+        "url2": "../assets/docs/2026/протокол 20.02.2026.pdf.p7s.p7s"
+      },
+      {
+        "title": "Повідомлення несвоєч.pdf ",
+        "url": "../assets/docs/2026/23494973_report повідомлення.pdf",
+        "url2": "../assets/docs/2026/23494973_report повідомлення.pdf.p7s.p7s"
+      },
+      {
+        "title": "Повідомлення несвоєч.XML",
+        "url": "",
+        "url2": "../assets/docs/2026/report (повідомлення).xml.p7s.p7s"
+      },
+      {
+        "title": "Особлива.pdf",
+        "url": "",
+        "url2": "../assets/docs/2026/23494973_report особлива.pdf.p7s.p7s"
+      },
+      {
+        "title": "Особлива.XML",
+        "url": "",
+        "url2": "../assets/docs/2026/report(особлива).xml.p7s.p7s"
+      }
+    ]
+  },
+  {
     "year": "2025",
     "items": [
       {

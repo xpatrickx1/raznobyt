@@ -174,7 +174,9 @@ export default function Navbar() {
                             setSearchQuery('');
                           }}
                         >
-                          <Image src={p.images[0]} alt="" className="search-result-img" />
+                          <div className="suggestion-thumbnail">
+                            <Image src={p.images[0]} alt="" className="search-result-img" />
+                          </div>
                           <div className="search-result-info">
                             <div className="search-result-title">{lang === 'ua' ? p.title.ua : p.title.ru}</div>
                             <div className="search-result-cat">

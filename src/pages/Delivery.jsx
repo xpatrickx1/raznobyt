@@ -79,10 +79,11 @@ export default function Delivery() {
           margin-bottom: 24px;
         }
         .companies-box {
-          background: var(--c-bg-alt);
-          padding: 24px;
-          border-radius: var(--radius-lg);
-          border: 1px solid var(--c-border);
+          background: var(--c-surface);
+          border: 1px solid transparent;
+          border-radius: var(--radius-none);
+          padding: 25px;
+          box-shadow: var(--shadow-lg);
           font-weight: 600;
           color: var(--c-accent);
           margin-bottom: 40px;
@@ -91,10 +92,11 @@ export default function Delivery() {
         .delivery-warning {
           display: flex;
           gap: 20px;
-          background: rgba(234, 108, 26, 0.05);
-          padding: 30px;
-          border-left: 4px solid var(--c-accent);
-          border-radius: var(--radius-md);
+          background: var(--c-surface);
+          border: 1px solid transparent;
+          border-radius: var(--radius-none);
+          padding: 25px;
+          box-shadow: var(--shadow-lg);
         }
         .warning-icon {
           font-size: 24px;

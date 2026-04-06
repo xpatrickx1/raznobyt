@@ -1,74 +1,488 @@
 [
   {
-    "id": "55",
-    "slug": "tkan-medychna-bila",
+    "id": "tr-150",
+    "slug": "tkan-tr-150",
     "title": {
-      "ua": "Тканина медична «Антибактеріальна»",
-      "ru": "Ткань медицинская «Антибактериальная»"
+      "ua": "Тканина TR-150",
+      "ru": "Ткань TR-150"
     },
     "category": "medical",
+    "isNew": false,
     "images": [
-      "https://images.unsplash.com/photo-1584515933487-779824d29309?w=600&q=80",
-      "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?w=600&q=80"
+      "tr-150-white.jpg",
+      "tr-150-black.jpg",
+      "tr-150-brown.jpg"
     ],
     "description": {
-      "ua": "Легка та гігієнічна тканина з антибактеріальним просоченням. Призначена для виготовлення медичного одягу та постільної білизни для лікарень.",
-      "ru": "Лёгкая и гигиеничная ткань с антибактериальной пропиткой. Предназначена для изготовления медицинской одежды и постельного белья для больниц."
-    },
-    "attributes": {
-      "fabricType": "plain",
-      "density": "120 г/м²",
-      "width": "150 см",
-      "color": "white",
-      "composition": "100% бавовна"
-    }
-  },
-  {
-    "id": "9",
-    "slug": "tkan-medychna-zelena",
-    "title": {
-      "ua": "Тканина медична «Хірургічна»",
-      "ru": "Ткань медицинская «Хирургическая»"
-    },
-    "category": "medical",
-    "images": [
-      "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?w=600&q=80",
-      "https://images.unsplash.com/photo-1584515933487-779824d29309?w=600&q=80"
-    ],
-    "description": {
-      "ua": "Спеціальна тканина для хірургічного одягу та операційних ковдр. Стійка до рідин, легко стерилізується.",
-      "ru": "Специальная ткань для хирургической одежды и операционных накидок. Устойчива к жидкостям, легко стерилизуется."
+      "ua": "Змішана тканина. Склад: 35% бавовна, 65% поліестр. Щільність 150. Саржеве переплетення 2/1.",
+      "ru": "Смесовая ткань. Состав: 35% хлопок, 65% полиэстер. Плотность 150. Саржевое переплетение 2/1."
     },
     "attributes": {
       "fabricType": "twill",
-      "density": "170 г/м²",
-      "width": "150 см",
-      "color": "green",
-      "composition": "65% поліестер, 35% бавовна"
+      "density": "150",
+      "width": null,
+      "color": [
+        "white",
+        "black",
+        "brown"
+      ],
+      "composition": {
+        "cotton": 35,
+        "polyester": 65
+      }
     }
   },
   {
-    "id": "10",
-    "slug": "tkan-medychna-blue",
+    "id": "kg-027",
+    "slug": "tkan-kg-027",
     "title": {
-      "ua": "Тканина медична Синь",
-      "ru": "Ткань медицинская Синь"
+      "ua": "Тканина KG-027",
+      "ru": "Ткань KG-027"
     },
     "category": "medical",
-    "images": [
-      "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?w=600&q=80",
-      "https://images.unsplash.com/photo-1584515933487-779824d29309?w=600&q=80"
-    ],
+    "isNew": false,
+    "images": [],
     "description": {
-      "ua": "Спеціальна тканина для хірургічного одягу та операційних ковдр. Стійка до рідин, легко стерилізується.",
-      "ru": "Специальная ткань для хирургической одежды и операционных накидок. Устойчива к жидкостям, легко стерилизуется."
+      "ua": "Змішана тканина. Склад: 35% бавовна, 65% поліестр. Щільність 160. Саржеве переплетення 2/1.",
+      "ru": "Смесовая ткань. Состав: 35% хлопок, 65% полиэстер. Плотность 160. Саржевое переплетение 2/1."
     },
     "attributes": {
       "fabricType": "twill",
-      "density": "170 г/м²",
-      "width": "145 см",
-      "color": "blue",
-      "composition": "100% поліестер"
+      "density": "160",
+      "width": null,
+      "color": null,
+      "composition": {
+        "cotton": 35,
+        "polyester": 65
+      }
+    }
+  },
+  {
+    "id": "9541",
+    "slug": "tkan-9541",
+    "title": {
+      "ua": "Тканина 9541",
+      "ru": "Ткань 9541"
+    },
+    "category": "medical",
+    "isNew": false,
+    "images": [],
+    "description": {
+      "ua": "Змішана тканина. Склад: 35% бавовна, 65% поліестр. Щільність 160. Саржеве переплетення 2/1.",
+      "ru": "Смесовая ткань. Состав: 35% хлопок, 65% полиэстер. Плотность 160. Саржевое переплетение 2/1."
+    },
+    "attributes": {
+      "fabricType": "twill",
+      "density": "160",
+      "width": null,
+      "color": null,
+      "composition": {
+        "cotton": 35,
+        "polyester": 65
+      }
+    }
+  },
+  {
+    "id": "9515",
+    "slug": "tkan-9515",
+    "title": {
+      "ua": "Тканина 9515",
+      "ru": "Ткань 9515"
+    },
+    "category": "medical",
+    "isNew": false,
+    "images": [],
+    "description": {
+      "ua": "Змішана тканина. Склад: 35% бавовна, 65% поліестр. Щільність 195. Саржеве переплетення 2/1.",
+      "ru": "Смесовая ткань. Состав: 35% хлопок, 65% полиэстер. Плотность 195. Саржевое переплетение 2/1."
+    },
+    "attributes": {
+      "fabricType": "twill",
+      "density": "195",
+      "width": null,
+      "color": null,
+      "composition": {
+        "cotton": 35,
+        "polyester": 65
+      }
+    }
+  },
+  {
+    "id": "kg-337",
+    "slug": "tkan-kg-337",
+    "title": {
+      "ua": "Тканина KG-337",
+      "ru": "Ткань KG-337"
+    },
+    "category": "medical",
+    "isNew": false,
+    "images": [],
+    "description": {
+      "ua": "Змішана тканина. Склад: 35% бавовна, 65% поліестр. Щільність 195. Саржеве переплетення 2/1.",
+      "ru": "Смесовая ткань. Состав: 35% хлопок, 65% полиэстер. Плотность 195. Саржевое переплетение 2/1."
+    },
+    "attributes": {
+      "fabricType": "twill",
+      "density": "195",
+      "width": null,
+      "color": null,
+      "composition": {
+        "cotton": 35,
+        "polyester": 65
+      }
+    }
+  },
+  {
+    "id": "tr-med",
+    "slug": "tkan-tr-med",
+    "title": {
+      "ua": "Тканина TR-MED",
+      "ru": "Ткань TR-MED"
+    },
+    "category": "medical",
+    "isNew": false,
+    "images": [],
+    "description": {
+      "ua": "Змішана тканина. Склад: 35% бавовна, 65% поліестр. Щільність 195. Саржеве переплетення 2/1.",
+      "ru": "Смесовая ткань. Состав: 35% хлопок, 65% полиэстер. Плотность 195. Саржевое переплетение 2/1."
+    },
+    "attributes": {
+      "fabricType": "twill",
+      "density": "195",
+      "width": null,
+      "color": null,
+      "composition": {
+        "cotton": 35,
+        "polyester": 65
+      }
+    }
+  },
+  {
+    "id": "rc-194",
+    "slug": "tkan-rc-194",
+    "title": {
+      "ua": "Тканина RC-194",
+      "ru": "Ткань RC-194"
+    },
+    "category": "medical",
+    "isNew": false,
+    "images": [],
+    "description": {
+      "ua": "Змішана тканина. Склад: 35% бавовна, 65% поліестр. Щільність 194. Саржеве переплетення 2/1.",
+      "ru": "Смесовая ткань. Состав: 35% хлопок, 65% полиэстер. Плотность 194. Саржевое переплетение 2/1."
+    },
+    "attributes": {
+      "fabricType": "twill",
+      "density": "194",
+      "width": null,
+      "color": null,
+      "composition": {
+        "cotton": 35,
+        "polyester": 65
+      }
+    }
+  },
+  {
+    "id": "tr-2120",
+    "slug": "tkan-tr-2120",
+    "title": {
+      "ua": "Тканина TR-2120",
+      "ru": "Ткань TR-2120"
+    },
+    "category": "medical",
+    "isNew": false,
+    "images": [],
+    "description": {
+      "ua": "Змішана тканина з ефектом стрейч. Склад: 33% бавовна, 63% поліестр, 4% стрейч. Щільність 200. Саржеве переплетення 2/1.",
+      "ru": "Смесовая ткань с эффектом стретч. Состав: 33% хлопок, 63% полиэстер, 4% стретч. Плотность 200. Саржевое переплетение 2/1."
+    },
+    "attributes": {
+      "fabricType": "twill",
+      "density": "200",
+      "width": null,
+      "color": null,
+      "composition": {
+        "cotton": 33,
+        "polyester": 63,
+        "spandex": 4
+      }
+    }
+  },
+  {
+    "id": "trs-48",
+    "slug": "tkan-trs-48",
+    "title": {
+      "ua": "Тканина TRS-48",
+      "ru": "Ткань TRS-48"
+    },
+    "category": "medical",
+    "isNew": false,
+    "images": [],
+    "description": {
+      "ua": "Змішана тканина. Склад: 50% бавовна, 50% поліестр. Щільність 200. Саржеве переплетення 2/1.",
+      "ru": "Смесовая ткань. Состав: 50% хлопок, 50% полиэстер. Плотность 200. Саржевое переплетение 2/1."
+    },
+    "attributes": {
+      "fabricType": "twill",
+      "density": "200",
+      "width": null,
+      "color": null,
+      "composition": {
+        "cotton": 50,
+        "polyester": 50
+      }
+    }
+  },
+  {
+    "id": "rc-215-spx",
+    "slug": "tkan-rc-215-spx",
+    "title": {
+      "ua": "Тканина RC-215 SPX",
+      "ru": "Ткань RC-215 SPX"
+    },
+    "category": "medical",
+    "isNew": false,
+    "images": [],
+    "description": {
+      "ua": "Змішана тканина з еластаном. Склад: 33% бавовна, 61% поліестр, 6% спандекс. Щільність 215. Саржеве переплетення 2/1.",
+      "ru": "Смесовая ткань с эластаном. Состав: 33% хлопок, 61% полиэстер, 6% спандекс. Плотность 215. Саржевое переплетение 2/1."
+    },
+    "attributes": {
+      "fabricType": "twill",
+      "density": "215",
+      "width": null,
+      "color": null,
+      "composition": {
+        "cotton": 33,
+        "polyester": 61,
+        "spandex": 6
+      }
+    }
+  },
+  {
+    "id": "vvt-2163",
+    "slug": "tkan-vvt-2163",
+    "title": {
+      "ua": "Тканина VVT-2163",
+      "ru": "Ткань VVT-2163"
+    },
+    "category": "medical",
+    "isNew": false,
+    "images": [],
+    "description": {
+      "ua": "Змішана тканина. Склад: 40% бавовна, 60% поліестр. Щільність 210. Саржеве переплетення 2/1.",
+      "ru": "Смесовая ткань. Состав: 40% хлопок, 60% полиэстер. Плотность 210. Саржевое переплетение 2/1."
+    },
+    "attributes": {
+      "fabricType": "twill",
+      "density": "210",
+      "width": null,
+      "color": null,
+      "composition": {
+        "cotton": 40,
+        "polyester": 60
+      }
+    }
+  },
+  {
+    "id": "tr-163",
+    "slug": "tkan-tr-163",
+    "title": {
+      "ua": "Тканина TR-163",
+      "ru": "Ткань TR-163"
+    },
+    "category": "medical",
+    "isNew": false,
+    "images": [],
+    "description": {
+      "ua": "Змішана тканина з ефектом стрейч. Склад: 49.5% бавовна, 47.5% поліестр, 3% стрейч. Щільність 163. Саржеве переплетення 2/1.",
+      "ru": "Смесовая ткань с эффектом стретч. Состав: 49.5% хлопок, 47.5% полиэстер, 3% стретч. Плотность 163. Саржевое переплетение 2/1."
+    },
+    "attributes": {
+      "fabricType": "twill",
+      "density": "163",
+      "width": null,
+      "color": null,
+      "composition": {
+        "cotton": 49.5,
+        "polyester": 47.5,
+        "spandex": 3
+      }
+    }
+  },
+  {
+    "id": "tr-50-lt",
+    "slug": "tkan-tr-50-lt",
+    "title": {
+      "ua": "Тканина TR-50 LT",
+      "ru": "Ткань TR-50 LT"
+    },
+    "category": "medical",
+    "isNew": false,
+    "images": [],
+    "description": {
+      "ua": "Змішана тканина. Склад: 50% бавовна, 50% поліестр. Щільність 145. Саржеве переплетення 2/1.",
+      "ru": "Смесовая ткань. Состав: 50% хлопок, 50% полиэстер. Плотность 145. Саржевое переплетение 2/1."
+    },
+    "attributes": {
+      "fabricType": "twill",
+      "density": "145",
+      "width": null,
+      "color": null,
+      "composition": {
+        "cotton": 50,
+        "polyester": 50
+      }
+    }
+  },
+  {
+    "id": "tr-50",
+    "slug": "tkan-tr-50",
+    "title": {
+      "ua": "Тканина TR-50",
+      "ru": "Ткань TR-50"
+    },
+    "category": "medical",
+    "isNew": false,
+    "images": [],
+    "description": {
+      "ua": "Змішана тканина. Склад: 50% бавовна, 50% поліестр. Щільність 180. Саржеве переплетення 2/1.",
+      "ru": "Смесовая ткань. Состав: 50% хлопок, 50% полиэстер. Плотность 180. Саржевое переплетение 2/1."
+    },
+    "attributes": {
+      "fabricType": "twill",
+      "density": "180",
+      "width": null,
+      "color": null,
+      "composition": {
+        "cotton": 50,
+        "polyester": 50
+      }
+    }
+  },
+  {
+    "id": "vfg-2160",
+    "slug": "tkan-vfg-2160",
+    "title": {
+      "ua": "Тканина VFG-2160",
+      "ru": "Ткань VFG-2160"
+    },
+    "category": "medical",
+    "isNew": false,
+    "images": [],
+    "description": {
+      "ua": "Змішана тканина. Склад: 51% бавовна, 49% поліестр. Щільність 175. Саржеве переплетення 2/1.",
+      "ru": "Смесовая ткань. Состав: 51% хлопок, 49% полиэстер. Плотность 175. Саржевое переплетение 2/1."
+    },
+    "attributes": {
+      "fabricType": "twill",
+      "density": "175",
+      "width": null,
+      "color": null,
+      "composition": {
+        "cotton": 51,
+        "polyester": 49
+      }
+    }
+  },
+  {
+    "id": "vlp-4206",
+    "slug": "tkan-vlp-4206",
+    "title": {
+      "ua": "Тканина VLP-4206",
+      "ru": "Ткань VLP-4206"
+    },
+    "category": "medical",
+    "isNew": false,
+    "images": [],
+    "description": {
+      "ua": "Змішана тканина з ефектом стрейч. Склад: 57% бавовна, 39% поліестр, 4% стрейч. Щільність 140. Саржеве переплетення 2/1.",
+      "ru": "Смесовая ткань с эффектом стретч. Состав: 57% хлопок, 39% полиэстер, 4% стретч. Плотность 140. Саржевое переплетение 2/1."
+    },
+    "attributes": {
+      "fabricType": "twill",
+      "density": "140",
+      "width": null,
+      "color": null,
+      "composition": {
+        "cotton": 57,
+        "polyester": 39,
+        "spandex": 4
+      }
+    }
+  },
+  {
+    "id": "vvt-2164",
+    "slug": "tkan-vvt-2164",
+    "title": {
+      "ua": "Тканина VVT-2164",
+      "ru": "Ткань VVT-2164"
+    },
+    "category": "medical",
+    "isNew": false,
+    "images": [],
+    "description": {
+      "ua": "Змішана тканина. Склад: 60% бавовна, 40% поліестр. Щільність 210. Саржеве переплетення 2/1.",
+      "ru": "Смесовая ткань. Состав: 60% хлопок, 40% полиэстер. Плотность 210. Саржевое переплетение 2/1."
+    },
+    "attributes": {
+      "fabricType": "twill",
+      "density": "210",
+      "width": null,
+      "color": null,
+      "composition": {
+        "cotton": 60,
+        "polyester": 40
+      }
+    }
+  },
+  {
+    "id": "eg-225",
+    "slug": "tkan-eg-225",
+    "title": {
+      "ua": "Тканина EG-225",
+      "ru": "Ткань EG-225"
+    },
+    "category": "medical",
+    "isNew": false,
+    "images": [],
+    "description": {
+      "ua": "Змішана тканина з віскозою. Склад: 35% віскоза, 65% поліестр. Щільність 225. Саржеве переплетення 2/1.",
+      "ru": "Смесовая ткань с вискозой. Состав: 35% вискоза, 65% полиэстер. Плотность 225. Саржевое переплетение 2/1."
+    },
+    "attributes": {
+      "fabricType": "twill",
+      "density": "225",
+      "width": null,
+      "color": null,
+      "composition": {
+        "viscose": 35,
+        "polyester": 65
+      }
+    }
+  },
+  {
+    "id": "lt-3084",
+    "slug": "tkan-lt-3084",
+    "title": {
+      "ua": "Тканина LT-3084",
+      "ru": "Ткань LT-3084"
+    },
+    "category": "medical",
+    "isNew": false,
+    "images": [],
+    "description": {
+      "ua": "Поліестерова тканина. Склад: 100% поліестр. Щільність 150. Саржеве переплетення 2/1.",
+      "ru": "Полиэстеровая ткань. Состав: 100% полиэстер. Плотность 150. Саржевое переплетение 2/1."
+    },
+    "attributes": {
+      "fabricType": "twill",
+      "density": "150",
+      "width": null,
+      "color": null,
+      "composition": {
+        "polyester": 100
+      }
     }
   }
 ]
