@@ -2,6 +2,10 @@ import { useState } from 'react';
 import { useLang } from '../i18n/LangContext';
 import SEO from '../components/SEO';
 import HeroSection from '../components/HeroSection';
+import phoneIcon from '@/assets/images/icons/phone.svg';
+import locationIcon from '@/assets/images/icons/location.svg';
+import emailIcon from '@/assets/images/icons/email.svg';
+import clockIcon from '@/assets/images/icons/clock.svg';
 
 const MANAGERS = [
   { name: 'Оксана Петренко', role: { ua: 'Менеджер з продажів', ru: 'Менеджер по продажам' }, phone: '+38 (067) 332-00-88', emoji: '👩‍💼' },
@@ -34,14 +38,14 @@ export default function Contacts() {
           {/* Info */}
           <div>
             <div className="contact-info-item fade-up fade-up-1">
-              <div className="contact-info-icon">📍</div>
+              <div className="contact-info-icon"><img src={locationIcon} alt="Location" width="18" height="18" loading="lazy" /></div>
               <div>
                 <div className="contact-info-label">{t('contacts.address')}</div>
                 <div className="contact-info-value">м. Київ, вул. Лугова, 9С</div>
               </div>
             </div>
             <div className="contact-info-item fade-up fade-up-2">
-              <div className="contact-info-icon">📞</div>
+              <div className="contact-info-icon"><img src={phoneIcon} alt="Phone" width="18" height="18" loading="lazy" /></div>
               <div>
                 <div className="contact-info-label">{t('contacts.phone')}</div>
                 <div className="contact-info-value">
@@ -54,7 +58,7 @@ export default function Contacts() {
               </div>
             </div>
             <div className="contact-info-item fade-up fade-up-1">
-              <div className="contact-info-icon">✉️</div>
+              <div className="contact-info-icon"><img src={emailIcon} alt="Email" width="18" height="18" loading="lazy" /></div>
               <div>
                 <div className="contact-info-label">{t('contacts.email')}</div>
                 <div className="contact-info-value">
@@ -63,7 +67,7 @@ export default function Contacts() {
               </div>
             </div>
             <div className="contact-info-item fade-up fade-up-2">
-              <div className="contact-info-icon">🕐</div>
+              <div className="contact-info-icon"><img src={clockIcon} alt="Clock" width="18" height="18" loading="lazy" /></div>
               <div>
                 <div className="contact-info-label">{t('contacts.hours')}</div>
                 <div className="contact-info-value">{t('contacts.hoursValue')}</div>

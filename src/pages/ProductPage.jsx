@@ -8,6 +8,7 @@ import categories from '../data/categories.json';
 import { formatComposition } from '../data/compositions.js';
 import { getProductImage, COLOR_MAP } from '../assets/utils/imageLoader.js';
 import placeholder from '../assets/images/placeholder.svg';
+import phoneIcon from '@/assets/images/icons/phone.svg';
 
 export default function ProductPage() {
   const { slug } = useParams();
@@ -80,9 +81,24 @@ export default function ProductPage() {
       <div className="product-page">
         <div className="container">
 
+          <div className="product-header">
+            <nav className="breadcrumbs fade-up fade-up-1">
+              <Link to='/' className="breadcrumbs__link">{t('nav.home')}</Link>
+              <span className="breadcrumbs__sep"> › </span>
+              <Link to='/catalog' className="breadcrumbs__link">{t('catalog.title')}</Link>
+              <span className="breadcrumbs__sep"> › </span>
+              <Link to={`/catalog/${cat?.slug}/`} className="breadcrumbs__link">{cat?.title[lang]}</Link>
+              <span className="breadcrumbs__sep"> › </span>
+              <span className="breadcrumbs__current">{product.title[lang]}</span>
+            </nav>
+            <div className="hero__content fade-up fade-up-2 hero__content--mobile">
+              <h1 className="">{product.title[lang]}</h1>
+            </div>
+          </div>
+
           <div className="product-grid">
             {/* Images */}
-            <div className="product-images">
+            <div className="product-images fade-up fade-up-1">
               {imageUrls.length > 0 ? (
                 <img
                   src={imageUrls[activeImg]}
@@ -114,20 +130,9 @@ export default function ProductPage() {
 
             {/* Info */}
             <div className="product-info">
-              <nav className="breadcrumbs fade-up fade-up-1">
-                <Link to='/' className="breadcrumbs__link">{t('nav.home')}</Link>
-                <span className="breadcrumbs__sep"> › </span>
-                <Link to='/catalog' className="breadcrumbs__link">{t('catalog.title')}</Link>
-                <span className="breadcrumbs__sep"> › </span>
-                <Link to={`/catalog/${cat?.slug}/`} className="breadcrumbs__link">{cat?.title[lang]}</Link>
-                <span className="breadcrumbs__sep"> › </span>
-                <span className="breadcrumbs__current">{product.title[lang]}</span>
-              </nav>
-              <div className="hero__content fade-up fade-up-1">
+              <div className="hero__content fade-up fade-up-2">
                 <h1 className="">{product.title[lang]}</h1>
-                <p className="hero__sub">{cat ? cat.title[lang] : ''}</p>
               </div>
-
               <p className="product-desc">{product.description[lang]}</p>
 
               <h3 style={{ fontSize: 13, fontWeight: 700, letterSpacing: '0.12em', textTransform: 'uppercase', color: 'var(--c-text-muted)', marginBottom: 12 }}>
@@ -168,7 +173,8 @@ export default function ProductPage() {
               </div>
 
               <Link to="/contacts" className="btn btn-outline" style={{ color: 'var(--c-accent)', border: '1.5px solid var(--c-accent)', width: '100%', justifyContent: 'center' }}>
-                {lang === 'ua' ? '📞 Зателефонувати' : '📞 Позвонить'}
+                <img src={phoneIcon} alt="Phone" width="18" height="18" loading="lazy" />
+                {lang === 'ua' ? 'Зателефонувати' : 'Позвонить'}
               </Link>
             </div>
           </div>

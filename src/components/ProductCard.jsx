@@ -22,7 +22,7 @@ export default function ProductCard({ product }) {
   }, [product]);
 
   // useEffect(() => {
-  //   fetch('https://opensheet.elk.sh/13NoI2T3HhTNghuSdgfsYEC20DuHVNENtc11pEkPd0q4/products')
+  //   fetch('https://opensheet.elk.sh/13NoI2T3HhTNghuSdgfsYEC20DuHVNENtc11pEkPd0q4/medical')
   //     .then(res => res.json())
   //     .then(data => {
   //       setProducts(data);

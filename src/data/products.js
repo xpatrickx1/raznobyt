@@ -2,7 +2,7 @@ import workwear from './products/workwear.json';
 import medical from './products/medical.json';
 import personal from './products/personal.json';
 import shirts from './products/shirts.json';
-import protective from './products/protective.json';
+import industrial from './products/industrial.json';
 import lining from './products/lining.json';
 
 export const productsByCategory = {
@@ -10,7 +10,7 @@ export const productsByCategory = {
     medical,
     personal,
     shirts,
-    protective,
+    industrial,
     lining
 };
 
@@ -19,7 +19,7 @@ const products = [
     ...medical,
     ...personal,
     ...shirts,
-    ...protective,
+    ...industrial,
     ...lining
 ];
 

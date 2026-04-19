@@ -13,6 +13,8 @@ import Contacts from './pages/Contacts';
 import AboutUs from './pages/AboutUs';
 import Documents from './pages/Documents';
 import Delivery from './pages/Delivery';
+import Blog from './pages/Blog';
+import News from './pages/News';
 import NotFound from './pages/NotFound';
 import './index.css';
 
@@ -25,6 +27,8 @@ const ROUTES = {
     { path: '/contacts', name: 'Contacts', element: <Contacts /> },
     { path: '/documents', name: 'Documents', element: <Documents /> },
     { path: '/delivery', name: 'Delivery', element: <Delivery /> },
+    { path: '/blog', name: 'Blog', element: <Blog /> },
+    { path: '/news', name: 'News', element: <News /> },
     { path: '/404', name: 'NotFound', element: <NotFound /> },
   ],
   dynamic: [

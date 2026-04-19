@@ -4,7 +4,6 @@ import { useLang } from '../i18n/LangContext';
 import SEO from '../components/SEO';
 import ProductCard from '../components/ProductCard';
 import { productsByCategory } from '../data/products.js';
-import { textByCategory } from '../components/categoryText/catText.js';
 import categories from '../data/categories.json';
 // import searchIcon from '@/assets/images/icons/search.svg';
 import HeroSection from '../components/HeroSection';
@@ -19,7 +18,7 @@ const COLOR_MAP = {
   multicam: '#6B7A4A', yellow: '#FACC15', beige: '#C8B99A', brown: '#5D4037',
 };
 
-console.log(textByCategory);
+
 
 const SidebarContent = ({
   mobileFilters,
@@ -206,42 +205,12 @@ export default function CategoryPage() {
   };
 
   useEffect(() => {
-    if (!slug) return;
-
-    fetch(`https://opensheet.elk.sh/13NoI2T3HhTNghuSdgfsYEC20DuHVNENtc11pEkPd0q4/${slug}`)
+    fetch('https://opensheet.elk.sh/13NoI2T3HhTNghuSdgfsYEC20DuHVNENtc11pEkPd0q4/medical')
       .then(res => res.json())
       .then(data => {
-        if (!Array.isArray(data)) return;
-
-        const mappedData = data.filter(p => !!p.id).map(p => {
-          const comp = {};
-          ['cotton', 'polyester', 'viscose', 'rayon', 'spandex', 'pbt'].forEach(key => {
-            if (p[key] && !isNaN(Number(p[key])) && Number(p[key]) > 0) {
-              comp[key] = Number(p[key]);
-            }
-          });
-
-          return {
-            id: p.id,
-            slug: p.slug,
-            category: p.category,
-            isNew: p.isNew === 'TRUE' || p.isNew === true,
-            images: p.images ? p.images.split(',').map(s => s.trim()).filter(Boolean) : [],
-            title: { ua: p.title_ua || '', ru: p.title_ru || '' },
-            description: { ua: p.desc_ua || '', ru: p.desc_ru || '' },
-            attributes: {
-              fabricType: p.fabricType || '',
-              density: p.density ? String(p.density) : null,
-              width: p.width ? String(p.width) : null,
-              color: p.colors ? p.colors.split(',').map(s => s.trim()).filter(Boolean) : null,
-              composition: Object.keys(comp).length > 0 ? comp : null
-            }
-          };
-        });
-        setProducts(mappedData);
-      })
-      .catch(err => console.error('Failed to fetch product data:', err));
-  }, [slug]);
+        setProducts(data);
+      });
+  }, []);
 
   const search = searchParams.get('q') || '';
   const selectedTypes = getArrayParam('types');
@@ -280,8 +249,7 @@ export default function CategoryPage() {
   const [expandedSections, setExpandedSections] = useState(['type', 'color', 'width']);
 
   const cat = categories.find(c => c.slug === slug);
-  const localProducts = cat ? (productsByCategory[cat.id] || []) : [];
-  const categoryProducts = productData.length > 0 ? productData : localProducts;
+  const categoryProducts = cat ? (productsByCategory[cat.id] || []) : [];
 
   const FABRIC_TYPES = useMemo(() => [...new Set(categoryProducts.map(p => p.attributes.fabricType))], [categoryProducts]);
   const COLORS = useMemo(() => {
@@ -509,17 +477,6 @@ export default function CategoryPage() {
             )}
           </div>
         </div>
-
-        {/* SEO Text Section */}
-        {(() => {
-          const TextComp = cat ? textByCategory[cat.id] : null;
-          if (!TextComp) return null;
-          return (
-            <div className="seo-text-section" style={{ marginTop: '3rem', paddingTop: '2rem', borderTop: '1px solid #e5e7eb', color: '#6b7280', fontSize: '0.875rem' }}>
-              <TextComp />
-            </div>
-          );
-        })()}
       </div>
     </>
   );

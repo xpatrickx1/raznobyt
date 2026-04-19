@@ -4,6 +4,7 @@ import { useLang } from '../i18n/LangContext';
 import Image from './Image';
 import logo from '@/assets/images/logo.png';
 import searchIcon from '@/assets/images/icons/search.svg';
+import phoneIcon from '@/assets/images/icons/phone.svg';
 import categories from '../data/categories.json';
 import products from '../data/products.js';
 
@@ -100,8 +101,10 @@ export default function Navbar() {
             <div className="navbar__right">
               <a href="tel:+380445070680">(044) 507-06-80</a>
               <div className="navbar__actions">
-                <button className={`lang-btn ${lang === 'ua' ? 'active' : ''}`} onClick={() => lang !== 'ua' && toggleLang()}>UA</button>
-                <button className={`lang-btn ${lang === 'ru' ? 'active' : ''}`} onClick={() => lang !== 'ru' && toggleLang()}>RU</button>
+                <div className="navbar__lang">
+                  <button className={`lang-btn ${lang === 'ua' ? 'active' : ''}`} onClick={() => lang !== 'ua' && toggleLang()}>UA</button>
+                  <button className={`lang-btn ${lang === 'ru' ? 'active' : ''}`} onClick={() => lang !== 'ru' && toggleLang()}>RU</button>
+                </div>
                 <button className="hamburger" onClick={() => setMobileOpen(true)} aria-label="Menu">
                   <span /><span /><span />
                 </button>
@@ -209,7 +212,7 @@ export default function Navbar() {
         </div>
 
         {/* Mobile search */}
-        <form className="mobile-menu__search" onSubmit={(e) => { handleSearch(e); setMobileOpen(false); }}>
+        {/* <form className="mobile-menu__search" onSubmit={(e) => { handleSearch(e); setMobileOpen(false); }}>
           <input
             type="text"
             placeholder={lang === 'ua' ? 'Я шукаю...' : 'Я ищу...'}
@@ -220,7 +223,7 @@ export default function Navbar() {
           <button type="submit" className="mobile-menu__search-btn">
             <img src={searchIcon} alt="Search" width="18" height="18" loading="lazy" />
           </button>
-        </form>
+        </form> */}
 
         {/* Nav links */}
         <div className="mobile-menu__links">
@@ -230,7 +233,7 @@ export default function Navbar() {
         </div>
 
         {/* Catalog categories */}
-        <div className="mobile-menu__section-title">{t('nav.catalog')}</div>
+        {/* <div className="mobile-menu__section-title">{t('nav.catalog')}</div>
         <div className="mobile-menu__categories">
           {categories.map(c => (
             <Link
@@ -243,11 +246,12 @@ export default function Navbar() {
               {lang === 'ua' ? c.title.ua : c.title.ru}
             </Link>
           ))}
-        </div>
+        </div> */}
 
         {/* Phone */}
         <a href="tel:+380445070680" className="mobile-menu__phone">
-          📞 (044) 507-06-80
+          <img src={phoneIcon} alt="Phone" width="18" height="18" loading="lazy" />
+          (044) 507-06-80
         </a>
 
         {/* Lang switch */}

@@ -18,7 +18,8 @@ export default function Catalog() {
 
       <HeroSection
         title={t('catalog.title')}
-        subtitle={lang === 'ua' ? 'Весь асортимент в одному місце' : 'Весь ассортимент в одном месте'}
+        className="category"
+      // subtitle={lang === 'ua' ? 'Весь асортимент в одному місце' : 'Весь ассортимент в одном месте'}
       />
 
       {/* <div className="page-header">

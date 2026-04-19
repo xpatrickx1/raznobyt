@@ -7,6 +7,7 @@ import ProductCard from '../components/ProductCard';
 import categories from '../data/categories.json';
 import products from '../data/products.js';
 import AnimatedStat from '../components/AnimatedStat';
+import PricePopup from '../components/PricePopup';
 
 import slide1 from '../assets/images/slider/slide1.png';
 import slide2 from '../assets/images/slider/slide2.png';
@@ -32,6 +33,7 @@ export default function Home() {
   const whyItems = t('home.whyUsItems');
   const contactList = t('home.contactBlockList') || [];
   const [currentSlide, setCurrentSlide] = useState(0);
+  const [isPricePopupOpen, setIsPricePopupOpen] = useState(false);
 
   useEffect(() => {
     const timer = setInterval(() => {
@@ -52,6 +54,7 @@ export default function Home() {
       <section className="hero-slider">
         {slides.map((slide, index) => {
           const isActive = index === currentSlide;
+
           return (
             <div key={slide.id} className={`hero-slide ${isActive ? 'active' : ''}`}>
               <div className="hero-slide__bg" style={{ backgroundImage: `url(${slide.image})` }} />
@@ -60,14 +63,14 @@ export default function Home() {
                 <div className={`hero-slide__content align-${slide.align} ${isActive ? 'fade-in-active' : ''}`}>
                   <div className="hero__eyebrow">Голландські текстильні традиції</div>
                   <h1 dangerouslySetInnerHTML={{ __html: t(`hero.title${slide.id}`) }} />
-                  <p className="hero__sub">{t('hero.subtitle')}</p>
+                  <p className="hero__sub">{t(`hero.subtitle${slide.id}`)}</p>
                   <div className="hero__btns">
                     <Link to="/catalog" className="btn btn-primary">
-                      {lang === 'ua' ? 'Каталог' : 'Каталог'}
+                      {lang === 'ua' ? 'Переглянути тканини' : 'Посмотреть ткани'}
                     </Link>
-                    <Link to="/contacts" className="btn btn-outline">
-                      {lang === 'ua' ? 'Купити' : 'Купить'}
-                    </Link>
+                    <button onClick={() => setIsPricePopupOpen(true)} className="btn btn-outline">
+                      {lang === 'ua' ? 'Отримати прайс' : 'Получить прайс'}
+                    </button>
                   </div>
                 </div>
               </div>
@@ -316,6 +319,8 @@ export default function Home() {
           </Link>
         </div>
       </section>
+
+      <PricePopup isOpen={isPricePopupOpen} onClose={() => setIsPricePopupOpen(false)} />
     </>
   );
 }
