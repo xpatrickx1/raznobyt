@@ -21,15 +21,6 @@ export default function ProductCard({ product }) {
     loadImage();
   }, [product]);
 
-  // useEffect(() => {
-  //   fetch('https://opensheet.elk.sh/13NoI2T3HhTNghuSdgfsYEC20DuHVNENtc11pEkPd0q4/medical')
-  //     .then(res => res.json())
-  //     .then(data => {
-  //       setProducts(data);
-  //     });
-  // }, []);
-
-  // console.log(productData);
 
   return (
     <Link to={`/product/${product.slug}`} className="product-card fade-up">
@@ -51,11 +42,16 @@ export default function ProductCard({ product }) {
         </div>
 
         <div className="product-character" bis_skin_checked="1">
-          <div bis_skin_checked="1">Ширина:</div>
-          <div className="product-character-value" bis_skin_checked="1">150 см</div>
+        { product.attributes.width && (
+          <div> 
+            <div>Ширина:</div>
+            <div className="product-character-value" bis_skin_checked="1">{product.attributes.width} см</div>
+          </div>
+        )}
           <div bis_skin_checked="1">Щільність:</div>
-          <div className="product-character-value" bis_skin_checked="1">270 г/м.кв</div>
+          <div className="product-character-value" bis_skin_checked="1">{product.attributes.density} г/м.кв</div>
           <div bis_skin_checked="1">Склад:</div>
+          
           <div className="product-character-value" bis_skin_checked="1">Еластан 2%, Поліестер 58%, Віскоза 40%</div>
         </div>
       </div>
