@@ -19,7 +19,7 @@ const COLOR_MAP = {
   multicam: '#6B7A4A', yellow: '#FACC15', beige: '#C8B99A', brown: '#5D4037',
 };
 
-console.log(textByCategory);
+// console.log(textByCategory);
 
 const SidebarContent = ({
   mobileFilters,
@@ -206,42 +206,57 @@ export default function CategoryPage() {
   };
 
   useEffect(() => {
-    if (!slug) return;
-
-    fetch(`https://opensheet.elk.sh/13NoI2T3HhTNghuSdgfsYEC20DuHVNENtc11pEkPd0q4/${slug}`)
-      .then(res => res.json())
-      .then(data => {
-        if (!Array.isArray(data)) return;
-
-        const mappedData = data.filter(p => !!p.id).map(p => {
-          const comp = {};
-          ['cotton', 'polyester', 'viscose', 'rayon', 'spandex', 'pbt'].forEach(key => {
-            if (p[key] && !isNaN(Number(p[key])) && Number(p[key]) > 0) {
-              comp[key] = Number(p[key]);
-            }
-          });
-
-          return {
-            id: p.id,
-            slug: p.slug,
-            category: p.category,
-            isNew: p.isNew === 'TRUE' || p.isNew === true,
-            images: p.images ? p.images.split(',').map(s => s.trim()).filter(Boolean) : [],
-            title: { ua: p.title_ua || '', ru: p.title_ru || '' },
-            description: { ua: p.desc_ua || '', ru: p.desc_ru || '' },
-            attributes: {
-              fabricType: p.fabricType || '',
-              density: p.density ? String(p.density) : null,
-              width: p.width ? String(p.width) : null,
-              color: p.colors ? p.colors.split(',').map(s => s.trim()).filter(Boolean) : null,
-              composition: Object.keys(comp).length > 0 ? comp : null
-            }
-          };
-        });
-        setProducts(mappedData);
+    fetch('/products.json') // Assumes file is in the 'public' folder
+      .then((response) => {
+        if (!response.ok) {
+          throw new Error('Network response was not ok');
+        }
+        return response.json();
       })
-      .catch(err => console.error('Failed to fetch product data:', err));
-  }, [slug]);
+      .then((data) => setProducts(data))
+      .catch((error) => console.error('Error fetching products:', error));
+  }, []);
+
+  console.log(productData)
+
+
+  // useEffect(() => {
+  //   if (!slug) return;
+
+  //   fetch(`https://opensheet.elk.sh/13NoI2T3HhTNghuSdgfsYEC20DuHVNENtc11pEkPd0q4/${slug}`)
+  //     .then(res => res.json())
+  //     .then(data => {
+  //       if (!Array.isArray(data)) return;
+
+  //       const mappedData = data.filter(p => !!p.id).map(p => {
+  //         const comp = {};
+  //         ['cotton', 'polyester', 'viscose', 'rayon', 'spandex', 'pbt'].forEach(key => {
+  //           if (p[key] && !isNaN(Number(p[key])) && Number(p[key]) > 0) {
+  //             comp[key] = Number(p[key]);
+  //           }
+  //         });
+
+  //         return {
+  //           id: p.id,
+  //           slug: p.slug,
+  //           category: p.category,
+  //           isNew: p.isNew === 'TRUE' || p.isNew === true,
+  //           images: p.images ? p.images.split(',').map(s => s.trim()).filter(Boolean) : [],
+  //           title: { ua: p.title_ua || '', ru: p.title_ru || '' },
+  //           description: { ua: p.desc_ua || '', ru: p.desc_ru || '' },
+  //           attributes: {
+  //             fabricType: p.fabricType || '',
+  //             density: p.density ? String(p.density) : null,
+  //             width: p.width ? String(p.width) : null,
+  //             color: p.colors ? p.colors.split(',').map(s => s.trim()).filter(Boolean) : null,
+  //             composition: Object.keys(comp).length > 0 ? comp : null
+  //           }
+  //         };
+  //       });
+  //       setProducts(mappedData);
+  //     })
+  //     .catch(err => console.error('Failed to fetch product data:', err));
+  // }, [slug]);
 
   const search = searchParams.get('q') || '';
   const selectedTypes = getArrayParam('types');
