@@ -3,23 +3,11 @@ import fs from "fs/promises";
 const SHEET_ID = "13NoI2T3HhTNghuSdgfsYEC20DuHVNENtc11pEkPd0q4";
 
 const CATEGORYES = [
-    'fire',
-    'army'
+    'fire'
 ]
 
 const fetchSheet = async (sheetName) => {
     const url = `https://opensheet.elk.sh/${SHEET_ID}/${sheetName}`;
-    const res = await fetch(url);
-    const data = await res.json();
-  
-    return data.map((row) => ({
-      ...row,
-      category: sheetName,
-    }));
-  };
-
-  const fetchSheet2 = async (sheetName) => {
-    const url = `https://opensheet.elk.sh/${SHEET_ID}/`;
     const res = await fetch(url);
     const data = await res.json();
   
@@ -48,10 +36,6 @@ async function main() {
   console.log("🚀 Fetching data from Google Sheets...");
 
   const res = await Promise.all(CATEGORYES.map(fetchSheet));
-
-  const res2 = await Promise.all(fetchSheet2);
-  console.log(res2);
-
 //   const data = await res.json();
   const flatData = res.flat();
 
