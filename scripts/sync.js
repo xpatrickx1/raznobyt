@@ -3,7 +3,8 @@ import fs from "fs/promises";
 const SHEET_ID = "13NoI2T3HhTNghuSdgfsYEC20DuHVNENtc11pEkPd0q4";
 
 const CATEGORYES = [
-    'fire'
+    'fire',
+    'army'
 ]
 
 const fetchSheet = async (sheetName) => {
