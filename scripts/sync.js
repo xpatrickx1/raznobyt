@@ -17,7 +17,24 @@ const fetchSheet = async (sheetName) => {
     }));
   };
 
-  const slugs = new Set();
+  const fetchSheet2 = async (sheetName) => {
+    const url = `https://opensheet.elk.sh/${SHEET_ID}/`;
+    const res = await fetch(url);
+    const data = await res.json();
+  
+    return data.map((row) => ({
+      ...row,
+      category: sheetName,
+    }));
+  };
+
+const slugs = new Set();
+
+const cleanTitle = (text = "") =>
+text
+    .toLowerCase()
+    .replace(/тканина|ткань/g, "") // прибираємо службові слова
+    .trim();
 
 const slugify = (text = "") =>
   text
@@ -30,13 +47,17 @@ async function main() {
   console.log("🚀 Fetching data from Google Sheets...");
 
   const res = await Promise.all(CATEGORYES.map(fetchSheet));
+
+  const res2 = await Promise.all(fetchSheet2);
+  console.log(res2);
+
 //   const data = await res.json();
   const flatData = res.flat();
 
   console.log(`📦 Rows: ${flatData.length}`);
 
   const products = flatData.map((row) => {
-    const slug = row.slug || slugify(row.title_ua);
+    const slug = row.slug || slugify(cleanTitle(row.title_ua));
 
     return {
       id: slug,
