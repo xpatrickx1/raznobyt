@@ -3,7 +3,7 @@ name: Sync, Build & Deploy
 on:
   push:
     branches:
-      - main
+      - master
   schedule:
     - cron: "0 */6 * * *" # кожні 6 годин
   workflow_dispatch:
