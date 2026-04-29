@@ -23,7 +23,7 @@ export default function ProductCard({ product }) {
 
 
   return (
-    <Link to={`/product/${product.slug}`} className="product-card fade-up">
+    <Link to={`/product/${product.slug}/`} className="product-card fade-up">
       <div className="product-card__img-wrap">
         {product.images.length > 0 ? (
           <img
@@ -42,16 +42,16 @@ export default function ProductCard({ product }) {
         </div>
 
         <div className="product-character" bis_skin_checked="1">
-        { product.attributes.width && (
-          <div> 
-            <div>Ширина:</div>
-            <div className="product-character-value" bis_skin_checked="1">{product.attributes.width} см</div>
-          </div>
-        )}
+          {product.attributes.width && (
+            <div>
+              <div>Ширина:</div>
+              <div className="product-character-value" bis_skin_checked="1">{product.attributes.width} см</div>
+            </div>
+          )}
           <div bis_skin_checked="1">Щільність:</div>
           <div className="product-character-value" bis_skin_checked="1">{product.attributes.density} г/м.кв</div>
           <div bis_skin_checked="1">Склад:</div>
-          
+
           <div className="product-character-value" bis_skin_checked="1">Еластан 2%, Поліестер 58%, Віскоза 40%</div>
         </div>
       </div>

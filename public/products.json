@@ -1,5 +1,3139 @@
 [
   {
+    "id": "tkan-3265",
+    "slug": "tkan-3265",
+    "title": {
+      "ua": "Тканина 3265",
+      "ru": "Ткань 3265"
+    },
+    "category": "workwear",
+    "isNew": false,
+    "images": [],
+    "description": {},
+    "attributes": {
+      "fabricType": "twill",
+      "density": "240",
+      "width": null,
+      "colors": [
+        "14"
+      ],
+      "composition": {
+        "cotton": 83,
+        "polyester": 3,
+        "spandex": 0,
+        "rayon": 0,
+        "viscose": 0,
+        "pbt": 0
+      }
+    }
+  },
+  {
+    "id": "tkan-nb-1043",
+    "slug": "tkan-nb-1043",
+    "title": {
+      "ua": "Тканина NB-1043",
+      "ru": "Ткань NB-1043"
+    },
+    "category": "workwear",
+    "isNew": false,
+    "images": [],
+    "description": {},
+    "attributes": {
+      "fabricType": "twill",
+      "density": "220",
+      "width": null,
+      "colors": [
+        "20"
+      ],
+      "composition": {
+        "cotton": 80,
+        "polyester": 0,
+        "spandex": 0,
+        "rayon": 0,
+        "viscose": 0,
+        "pbt": 0
+      }
+    }
+  },
+  {
+    "id": "tkan-rc-182-rs",
+    "slug": "tkan-rc-182-rs",
+    "title": {
+      "ua": "Тканина RC-182 RS",
+      "ru": "Ткань RC-182 RS"
+    },
+    "category": "workwear",
+    "isNew": false,
+    "images": [],
+    "description": {},
+    "attributes": {
+      "fabricType": "ripstop",
+      "density": "182",
+      "width": null,
+      "colors": [
+        "23"
+      ],
+      "composition": {
+        "cotton": 42,
+        "polyester": 0,
+        "spandex": 0,
+        "rayon": 0,
+        "viscose": 35,
+        "pbt": 0
+      }
+    }
+  },
+  {
+    "id": "tkan-tr-2120",
+    "slug": "tkan-tr-2120",
+    "title": {
+      "ua": "Тканина TR-2120",
+      "ru": "Ткань TR-2120"
+    },
+    "category": "workwear",
+    "isNew": false,
+    "images": [],
+    "description": {},
+    "attributes": {
+      "fabricType": "twill",
+      "density": "200",
+      "width": null,
+      "colors": [
+        "33"
+      ],
+      "composition": {
+        "cotton": 63,
+        "polyester": 4,
+        "spandex": 0,
+        "rayon": 0,
+        "viscose": 0,
+        "pbt": 0
+      }
+    }
+  },
+  {
+    "id": "tkan-rc-215-spx",
+    "slug": "tkan-rc-215-spx",
+    "title": {
+      "ua": "Тканина RC-215 SPX",
+      "ru": "Ткань RC-215 SPX"
+    },
+    "category": "workwear",
+    "isNew": false,
+    "images": [],
+    "description": {},
+    "attributes": {
+      "fabricType": "twill",
+      "density": "215",
+      "width": null,
+      "colors": [
+        "33"
+      ],
+      "composition": {
+        "cotton": 61,
+        "polyester": 6,
+        "spandex": 0,
+        "rayon": 0,
+        "viscose": 0,
+        "pbt": 0
+      }
+    }
+  },
+  {
+    "id": "tkan-tr-150",
+    "slug": "tkan-tr-150",
+    "title": {
+      "ua": "Тканина TR-150",
+      "ru": "Ткань TR-150"
+    },
+    "category": "workwear",
+    "isNew": false,
+    "images": [],
+    "description": {},
+    "attributes": {
+      "fabricType": "twill",
+      "density": "150",
+      "width": null,
+      "colors": [
+        "35"
+      ],
+      "composition": {
+        "cotton": 65,
+        "polyester": 0,
+        "spandex": 0,
+        "rayon": 0,
+        "viscose": 0,
+        "pbt": 0
+      }
+    }
+  },
+  {
+    "id": "tkan-kg-027",
+    "slug": "tkan-kg-027",
+    "title": {
+      "ua": "Тканина KG-027",
+      "ru": "Ткань KG-027"
+    },
+    "category": "workwear",
+    "isNew": false,
+    "images": [],
+    "description": {},
+    "attributes": {
+      "fabricType": "twill",
+      "density": "160",
+      "width": null,
+      "colors": [
+        "35"
+      ],
+      "composition": {
+        "cotton": 65,
+        "polyester": 0,
+        "spandex": 0,
+        "rayon": 0,
+        "viscose": 0,
+        "pbt": 0
+      }
+    }
+  },
+  {
+    "id": "tkan-9541",
+    "slug": "tkan-9541",
+    "title": {
+      "ua": "Тканина 9541",
+      "ru": "Ткань 9541"
+    },
+    "category": "workwear",
+    "isNew": false,
+    "images": [],
+    "description": {},
+    "attributes": {
+      "fabricType": "twill",
+      "density": "160",
+      "width": null,
+      "colors": [
+        "35"
+      ],
+      "composition": {
+        "cotton": 65,
+        "polyester": 0,
+        "spandex": 0,
+        "rayon": 0,
+        "viscose": 0,
+        "pbt": 0
+      }
+    }
+  },
+  {
+    "id": "tkan-9515",
+    "slug": "tkan-9515",
+    "title": {
+      "ua": "Тканина 9515",
+      "ru": "Ткань 9515"
+    },
+    "category": "workwear",
+    "isNew": false,
+    "images": [],
+    "description": {},
+    "attributes": {
+      "fabricType": "twill",
+      "density": "195",
+      "width": null,
+      "colors": [
+        "35"
+      ],
+      "composition": {
+        "cotton": 65,
+        "polyester": 0,
+        "spandex": 0,
+        "rayon": 0,
+        "viscose": 0,
+        "pbt": 0
+      }
+    }
+  },
+  {
+    "id": "tkan-rc-194",
+    "slug": "tkan-rc-194",
+    "title": {
+      "ua": "Тканина RC-194",
+      "ru": "Ткань RC-194"
+    },
+    "category": "workwear",
+    "isNew": false,
+    "images": [],
+    "description": {},
+    "attributes": {
+      "fabricType": "twill",
+      "density": "194",
+      "width": null,
+      "colors": [
+        "35"
+      ],
+      "composition": {
+        "cotton": 65,
+        "polyester": 0,
+        "spandex": 0,
+        "rayon": 0,
+        "viscose": 0,
+        "pbt": 0
+      }
+    }
+  },
+  {
+    "id": "tkan-kg-337",
+    "slug": "tkan-kg-337",
+    "title": {
+      "ua": "Тканина KG-337",
+      "ru": "Ткань KG-337"
+    },
+    "category": "workwear",
+    "isNew": false,
+    "images": [],
+    "description": {},
+    "attributes": {
+      "fabricType": "twill",
+      "density": "195",
+      "width": null,
+      "colors": [
+        "35"
+      ],
+      "composition": {
+        "cotton": 65,
+        "polyester": 0,
+        "spandex": 0,
+        "rayon": 0,
+        "viscose": 0,
+        "pbt": 0
+      }
+    }
+  },
+  {
+    "id": "tkan-tr-med",
+    "slug": "tkan-tr-med",
+    "title": {
+      "ua": "Тканина TR-MED",
+      "ru": "Ткань TR-MED"
+    },
+    "category": "workwear",
+    "isNew": false,
+    "images": [],
+    "description": {},
+    "attributes": {
+      "fabricType": "twill",
+      "density": "195",
+      "width": null,
+      "colors": [
+        "35"
+      ],
+      "composition": {
+        "cotton": 65,
+        "polyester": 0,
+        "spandex": 0,
+        "rayon": 0,
+        "viscose": 0,
+        "pbt": 0
+      }
+    }
+  },
+  {
+    "id": "tkan-kg-317",
+    "slug": "tkan-kg-317",
+    "title": {
+      "ua": "Тканина KG-317",
+      "ru": "Ткань KG-317"
+    },
+    "category": "workwear",
+    "isNew": false,
+    "images": [],
+    "description": {},
+    "attributes": {
+      "fabricType": "twill",
+      "density": "215",
+      "width": null,
+      "colors": [
+        "35"
+      ],
+      "composition": {
+        "cotton": 65,
+        "polyester": 0,
+        "spandex": 0,
+        "rayon": 0,
+        "viscose": 0,
+        "pbt": 0
+      }
+    }
+  },
+  {
+    "id": "tkan-rc-234",
+    "slug": "tkan-rc-234",
+    "title": {
+      "ua": "Тканина RC-234",
+      "ru": "Ткань RC-234"
+    },
+    "category": "workwear",
+    "isNew": false,
+    "images": [],
+    "description": {},
+    "attributes": {
+      "fabricType": "twill",
+      "density": "234",
+      "width": null,
+      "colors": [
+        "35"
+      ],
+      "composition": {
+        "cotton": 65,
+        "polyester": 0,
+        "spandex": 0,
+        "rayon": 0,
+        "viscose": 0,
+        "pbt": 0
+      }
+    }
+  },
+  {
+    "id": "tkan-kg-308",
+    "slug": "tkan-kg-308",
+    "title": {
+      "ua": "Тканина KG-308",
+      "ru": "Ткань KG-308"
+    },
+    "category": "workwear",
+    "isNew": false,
+    "images": [],
+    "description": {},
+    "attributes": {
+      "fabricType": "twill",
+      "density": "245",
+      "width": null,
+      "colors": [
+        "35"
+      ],
+      "composition": {
+        "cotton": 65,
+        "polyester": 0,
+        "spandex": 0,
+        "rayon": 0,
+        "viscose": 0,
+        "pbt": 0
+      }
+    }
+  },
+  {
+    "id": "tkan-tr-35",
+    "slug": "tkan-tr-35",
+    "title": {
+      "ua": "Тканина TR-35",
+      "ru": "Ткань TR-35"
+    },
+    "category": "workwear",
+    "isNew": false,
+    "images": [],
+    "description": {},
+    "attributes": {
+      "fabricType": "twill",
+      "density": "245",
+      "width": null,
+      "colors": [
+        "35"
+      ],
+      "composition": {
+        "cotton": 65,
+        "polyester": 0,
+        "spandex": 0,
+        "rayon": 0,
+        "viscose": 0,
+        "pbt": 0
+      }
+    }
+  },
+  {
+    "id": "tkan-9511",
+    "slug": "tkan-9511",
+    "title": {
+      "ua": "Тканина 9511",
+      "ru": "Ткань 9511"
+    },
+    "category": "workwear",
+    "isNew": false,
+    "images": [],
+    "description": {},
+    "attributes": {
+      "fabricType": "twill",
+      "density": "245",
+      "width": null,
+      "colors": [
+        "35"
+      ],
+      "composition": {
+        "cotton": 65,
+        "polyester": 0,
+        "spandex": 0,
+        "rayon": 0,
+        "viscose": 0,
+        "pbt": 0
+      }
+    }
+  },
+  {
+    "id": "tkan-6601",
+    "slug": "tkan-6601",
+    "title": {
+      "ua": "Тканина 6601",
+      "ru": "Ткань 6601"
+    },
+    "category": "workwear",
+    "isNew": false,
+    "images": [],
+    "description": {},
+    "attributes": {
+      "fabricType": "twill",
+      "density": "245",
+      "width": null,
+      "colors": [
+        "35"
+      ],
+      "composition": {
+        "cotton": 65,
+        "polyester": 0,
+        "spandex": 0,
+        "rayon": 0,
+        "viscose": 0,
+        "pbt": 0
+      }
+    }
+  },
+  {
+    "id": "tkan-2183",
+    "slug": "tkan-2183",
+    "title": {
+      "ua": "Тканина 2183",
+      "ru": "Ткань 2183"
+    },
+    "category": "workwear",
+    "isNew": false,
+    "images": [],
+    "description": {},
+    "attributes": {
+      "fabricType": "twill",
+      "density": "325",
+      "width": null,
+      "colors": [
+        "35"
+      ],
+      "composition": {
+        "cotton": 65,
+        "polyester": 0,
+        "spandex": 0,
+        "rayon": 0,
+        "viscose": 0,
+        "pbt": 0
+      }
+    }
+  },
+  {
+    "id": "tkan-kg-316",
+    "slug": "tkan-kg-316",
+    "title": {
+      "ua": "Тканина KG-316",
+      "ru": "Ткань KG-316"
+    },
+    "category": "workwear",
+    "isNew": false,
+    "images": [],
+    "description": {},
+    "attributes": {
+      "fabricType": "twill",
+      "density": "325",
+      "width": null,
+      "colors": [
+        "35"
+      ],
+      "composition": {
+        "cotton": 65,
+        "polyester": 0,
+        "spandex": 0,
+        "rayon": 0,
+        "viscose": 0,
+        "pbt": 0
+      }
+    }
+  },
+  {
+    "id": "tkan-vvt-2163",
+    "slug": "tkan-vvt-2163",
+    "title": {
+      "ua": "Тканина VVT-2163",
+      "ru": "Ткань VVT-2163"
+    },
+    "category": "workwear",
+    "isNew": false,
+    "images": [],
+    "description": {},
+    "attributes": {
+      "fabricType": "twill",
+      "density": "210",
+      "width": null,
+      "colors": [
+        "40"
+      ],
+      "composition": {
+        "cotton": 60,
+        "polyester": 0,
+        "spandex": 0,
+        "rayon": 0,
+        "viscose": 0,
+        "pbt": 0
+      }
+    }
+  },
+  {
+    "id": "tkan-tr-55",
+    "slug": "tkan-tr-55",
+    "title": {
+      "ua": "Тканина TR-55",
+      "ru": "Ткань TR-55"
+    },
+    "category": "workwear",
+    "isNew": false,
+    "images": [],
+    "description": {},
+    "attributes": {
+      "fabricType": "twill",
+      "density": "245",
+      "width": null,
+      "colors": [
+        "40"
+      ],
+      "composition": {
+        "cotton": 60,
+        "polyester": 0,
+        "spandex": 0,
+        "rayon": 0,
+        "viscose": 0,
+        "pbt": 0
+      }
+    }
+  },
+  {
+    "id": "tkan-kg-0725",
+    "slug": "tkan-kg-0725",
+    "title": {
+      "ua": "Тканина KG-0725",
+      "ru": "Ткань KG-0725"
+    },
+    "category": "workwear",
+    "isNew": false,
+    "images": [],
+    "description": {},
+    "attributes": {
+      "fabricType": "twill",
+      "density": "250",
+      "width": null,
+      "colors": [
+        "40"
+      ],
+      "composition": {
+        "cotton": 60,
+        "polyester": 0,
+        "spandex": 0,
+        "rayon": 0,
+        "viscose": 0,
+        "pbt": 0
+      }
+    }
+  },
+  {
+    "id": "tkan-tr-50-lt",
+    "slug": "tkan-tr-50-lt",
+    "title": {
+      "ua": "Тканина TR-50 LT",
+      "ru": "Ткань TR-50 LT"
+    },
+    "category": "workwear",
+    "isNew": false,
+    "images": [],
+    "description": {},
+    "attributes": {
+      "fabricType": "twill",
+      "density": "145",
+      "width": null,
+      "colors": [
+        "50"
+      ],
+      "composition": {
+        "cotton": 50,
+        "polyester": 0,
+        "spandex": 0,
+        "rayon": 0,
+        "viscose": 0,
+        "pbt": 0
+      }
+    }
+  },
+  {
+    "id": "tkan-tr-50",
+    "slug": "tkan-tr-50",
+    "title": {
+      "ua": "Тканина TR-50",
+      "ru": "Ткань TR-50"
+    },
+    "category": "workwear",
+    "isNew": false,
+    "images": [],
+    "description": {},
+    "attributes": {
+      "fabricType": "twill",
+      "density": "180",
+      "width": null,
+      "colors": [
+        "50"
+      ],
+      "composition": {
+        "cotton": 50,
+        "polyester": 0,
+        "spandex": 0,
+        "rayon": 0,
+        "viscose": 0,
+        "pbt": 0
+      }
+    }
+  },
+  {
+    "id": "tkan-trs-48",
+    "slug": "tkan-trs-48",
+    "title": {
+      "ua": "Тканина TRS-48",
+      "ru": "Ткань TRS-48"
+    },
+    "category": "workwear",
+    "isNew": false,
+    "images": [],
+    "description": {},
+    "attributes": {
+      "fabricType": "twill",
+      "density": "200",
+      "width": null,
+      "colors": [
+        "50"
+      ],
+      "composition": {
+        "cotton": 50,
+        "polyester": 0,
+        "spandex": 0,
+        "rayon": 0,
+        "viscose": 0,
+        "pbt": 0
+      }
+    }
+  },
+  {
+    "id": "tkan-tr-163",
+    "slug": "tkan-tr-163",
+    "title": {
+      "ua": "Тканина TR-163",
+      "ru": "Ткань TR-163"
+    },
+    "category": "workwear",
+    "isNew": false,
+    "images": [],
+    "description": {},
+    "attributes": {
+      "fabricType": "twill",
+      "density": "163",
+      "width": null,
+      "colors": [
+        "49.5"
+      ],
+      "composition": {
+        "cotton": 47.5,
+        "polyester": 3,
+        "spandex": 0,
+        "rayon": 0,
+        "viscose": 0,
+        "pbt": 0
+      }
+    }
+  },
+  {
+    "id": "tkan-vfg-2160",
+    "slug": "tkan-vfg-2160",
+    "title": {
+      "ua": "Тканина VFG-2160",
+      "ru": "Ткань VFG-2160"
+    },
+    "category": "workwear",
+    "isNew": false,
+    "images": [],
+    "description": {},
+    "attributes": {
+      "fabricType": "twill",
+      "density": "175",
+      "width": null,
+      "colors": [
+        "51"
+      ],
+      "composition": {
+        "cotton": 49,
+        "polyester": 0,
+        "spandex": 0,
+        "rayon": 0,
+        "viscose": 0,
+        "pbt": 0
+      }
+    }
+  },
+  {
+    "id": "tkan-9129",
+    "slug": "tkan-9129",
+    "title": {
+      "ua": "Тканина 9129",
+      "ru": "Ткань 9129"
+    },
+    "category": "workwear",
+    "isNew": false,
+    "images": [],
+    "description": {},
+    "attributes": {
+      "fabricType": "twill",
+      "density": "290",
+      "width": null,
+      "colors": [
+        "42"
+      ],
+      "composition": {
+        "cotton": 6,
+        "polyester": 0,
+        "spandex": 0,
+        "rayon": 0,
+        "viscose": 0,
+        "pbt": 0
+      }
+    }
+  },
+  {
+    "id": "tkan-3585",
+    "slug": "tkan-3585",
+    "title": {
+      "ua": "Тканина 3585",
+      "ru": "Ткань 3585"
+    },
+    "category": "workwear",
+    "isNew": false,
+    "images": [],
+    "description": {},
+    "attributes": {
+      "fabricType": "ripstop",
+      "density": "275",
+      "width": null,
+      "colors": [
+        "50"
+      ],
+      "composition": {
+        "cotton": 49,
+        "polyester": 0,
+        "spandex": 0,
+        "rayon": 0,
+        "viscose": 0,
+        "pbt": 0
+      }
+    }
+  },
+  {
+    "id": "tkan-l-542",
+    "slug": "tkan-l-542",
+    "title": {
+      "ua": "Тканина L 542",
+      "ru": "Ткань L 542"
+    },
+    "category": "workwear",
+    "isNew": false,
+    "images": [],
+    "description": {},
+    "attributes": {
+      "fabricType": "twill",
+      "density": "250",
+      "width": null,
+      "colors": [
+        "59"
+      ],
+      "composition": {
+        "cotton": 39,
+        "polyester": 2,
+        "spandex": 0,
+        "rayon": 0,
+        "viscose": 0,
+        "pbt": 0
+      }
+    }
+  },
+  {
+    "id": "tkan-3928",
+    "slug": "tkan-3928",
+    "title": {
+      "ua": "Тканина 3928",
+      "ru": "Ткань 3928"
+    },
+    "category": "workwear",
+    "isNew": false,
+    "images": [],
+    "description": {},
+    "attributes": {
+      "fabricType": "denim",
+      "density": "280",
+      "width": null,
+      "colors": [
+        "48"
+      ],
+      "composition": {
+        "cotton": 48,
+        "polyester": 4,
+        "spandex": 0,
+        "rayon": 0,
+        "viscose": 0,
+        "pbt": 0
+      }
+    }
+  },
+  {
+    "id": "tkan-vlp-4206",
+    "slug": "tkan-vlp-4206",
+    "title": {
+      "ua": "Тканина VLP-4206",
+      "ru": "Ткань VLP-4206"
+    },
+    "category": "workwear",
+    "isNew": false,
+    "images": [],
+    "description": {},
+    "attributes": {
+      "fabricType": "twill",
+      "density": "140",
+      "width": null,
+      "colors": [
+        "57"
+      ],
+      "composition": {
+        "cotton": 39,
+        "polyester": 4,
+        "spandex": 0,
+        "rayon": 0,
+        "viscose": 0,
+        "pbt": 0
+      }
+    }
+  },
+  {
+    "id": "tkan-vvt-2164",
+    "slug": "tkan-vvt-2164",
+    "title": {
+      "ua": "Тканина VVT-2164",
+      "ru": "Ткань VVT-2164"
+    },
+    "category": "workwear",
+    "isNew": false,
+    "images": [],
+    "description": {},
+    "attributes": {
+      "fabricType": "twill",
+      "density": "210",
+      "width": null,
+      "colors": [
+        "60"
+      ],
+      "composition": {
+        "cotton": 40,
+        "polyester": 0,
+        "spandex": 0,
+        "rayon": 0,
+        "viscose": 0,
+        "pbt": 0
+      }
+    }
+  },
+  {
+    "id": "tkan-6509",
+    "slug": "tkan-6509",
+    "title": {
+      "ua": "Тканина 6509",
+      "ru": "Ткань 6509"
+    },
+    "category": "workwear",
+    "isNew": false,
+    "images": [],
+    "description": {},
+    "attributes": {
+      "fabricType": "canvas",
+      "density": "330",
+      "width": null,
+      "colors": [
+        "60"
+      ],
+      "composition": {
+        "cotton": 40,
+        "polyester": 0,
+        "spandex": 0,
+        "rayon": 0,
+        "viscose": 0,
+        "pbt": 0
+      }
+    }
+  },
+  {
+    "id": "tkan-tr-150",
+    "slug": "tkan-tr-150",
+    "title": {
+      "ua": "Тканина TR-150",
+      "ru": "Ткань TR-150"
+    },
+    "category": "medical",
+    "isNew": false,
+    "images": [
+      "tr-150-white.jpg",
+      "tr-150-black.jpg",
+      "tr-150-brown.jpg"
+    ],
+    "description": {},
+    "attributes": {
+      "fabricType": "twill",
+      "density": "150",
+      "width": null,
+      "colors": [
+        "white",
+        "black",
+        "brown"
+      ],
+      "composition": {
+        "cotton": 35,
+        "polyester": 65,
+        "spandex": 0,
+        "rayon": 0,
+        "viscose": 0,
+        "pbt": 0
+      }
+    }
+  },
+  {
+    "id": "tkan-kg-027",
+    "slug": "tkan-kg-027",
+    "title": {
+      "ua": "Тканина KG-027",
+      "ru": "Ткань KG-027"
+    },
+    "category": "medical",
+    "isNew": false,
+    "images": [],
+    "description": {},
+    "attributes": {
+      "fabricType": "twill",
+      "density": "160",
+      "width": null,
+      "colors": [],
+      "composition": {
+        "cotton": 35,
+        "polyester": 65,
+        "spandex": 0,
+        "rayon": 0,
+        "viscose": 0,
+        "pbt": 0
+      }
+    }
+  },
+  {
+    "id": "tkan-9541",
+    "slug": "tkan-9541",
+    "title": {
+      "ua": "Тканина 9541",
+      "ru": "Ткань 9541"
+    },
+    "category": "medical",
+    "isNew": false,
+    "images": [],
+    "description": {},
+    "attributes": {
+      "fabricType": "twill",
+      "density": "160",
+      "width": null,
+      "colors": [],
+      "composition": {
+        "cotton": 35,
+        "polyester": 65,
+        "spandex": 0,
+        "rayon": 0,
+        "viscose": 0,
+        "pbt": 0
+      }
+    }
+  },
+  {
+    "id": "tkan-9515",
+    "slug": "tkan-9515",
+    "title": {
+      "ua": "Тканина 9515",
+      "ru": "Ткань 9515"
+    },
+    "category": "medical",
+    "isNew": false,
+    "images": [],
+    "description": {},
+    "attributes": {
+      "fabricType": "twill",
+      "density": "195",
+      "width": null,
+      "colors": [],
+      "composition": {
+        "cotton": 35,
+        "polyester": 65,
+        "spandex": 0,
+        "rayon": 0,
+        "viscose": 0,
+        "pbt": 0
+      }
+    }
+  },
+  {
+    "id": "tkan-kg-337",
+    "slug": "tkan-kg-337",
+    "title": {
+      "ua": "Тканина KG-337",
+      "ru": "Ткань KG-337"
+    },
+    "category": "medical",
+    "isNew": false,
+    "images": [],
+    "description": {},
+    "attributes": {
+      "fabricType": "twill",
+      "density": "195",
+      "width": null,
+      "colors": [],
+      "composition": {
+        "cotton": 35,
+        "polyester": 65,
+        "spandex": 0,
+        "rayon": 0,
+        "viscose": 0,
+        "pbt": 0
+      }
+    }
+  },
+  {
+    "id": "tkan-tr-med",
+    "slug": "tkan-tr-med",
+    "title": {
+      "ua": "Тканина TR-MED",
+      "ru": "Ткань TR-MED"
+    },
+    "category": "medical",
+    "isNew": false,
+    "images": [],
+    "description": {},
+    "attributes": {
+      "fabricType": "twill",
+      "density": "195",
+      "width": null,
+      "colors": [],
+      "composition": {
+        "cotton": 35,
+        "polyester": 65,
+        "spandex": 0,
+        "rayon": 0,
+        "viscose": 0,
+        "pbt": 0
+      }
+    }
+  },
+  {
+    "id": "tkan-rc-194",
+    "slug": "tkan-rc-194",
+    "title": {
+      "ua": "Тканина RC-194",
+      "ru": "Ткань RC-194"
+    },
+    "category": "medical",
+    "isNew": false,
+    "images": [],
+    "description": {},
+    "attributes": {
+      "fabricType": "twill",
+      "density": "194",
+      "width": null,
+      "colors": [],
+      "composition": {
+        "cotton": 35,
+        "polyester": 65,
+        "spandex": 0,
+        "rayon": 0,
+        "viscose": 0,
+        "pbt": 0
+      }
+    }
+  },
+  {
+    "id": "tkan-tr-2120",
+    "slug": "tkan-tr-2120",
+    "title": {
+      "ua": "Тканина TR-2120",
+      "ru": "Ткань TR-2120"
+    },
+    "category": "medical",
+    "isNew": false,
+    "images": [],
+    "description": {},
+    "attributes": {
+      "fabricType": "twill",
+      "density": "200",
+      "width": null,
+      "colors": [],
+      "composition": {
+        "cotton": 33,
+        "polyester": 63,
+        "spandex": 0,
+        "rayon": 0,
+        "viscose": 0,
+        "pbt": 0
+      }
+    }
+  },
+  {
+    "id": "tkan-trs-48",
+    "slug": "tkan-trs-48",
+    "title": {
+      "ua": "Тканина TRS-48",
+      "ru": "Ткань TRS-48"
+    },
+    "category": "medical",
+    "isNew": false,
+    "images": [],
+    "description": {},
+    "attributes": {
+      "fabricType": "twill",
+      "density": "200",
+      "width": null,
+      "colors": [],
+      "composition": {
+        "cotton": 50,
+        "polyester": 50,
+        "spandex": 0,
+        "rayon": 0,
+        "viscose": 0,
+        "pbt": 0
+      }
+    }
+  },
+  {
+    "id": "tkan-rc-215-spx",
+    "slug": "tkan-rc-215-spx",
+    "title": {
+      "ua": "Тканина RC-215 SPX",
+      "ru": "Ткань RC-215 SPX"
+    },
+    "category": "medical",
+    "isNew": false,
+    "images": [],
+    "description": {},
+    "attributes": {
+      "fabricType": "twill",
+      "density": "215",
+      "width": null,
+      "colors": [],
+      "composition": {
+        "cotton": 33,
+        "polyester": 61,
+        "spandex": 0,
+        "rayon": 0,
+        "viscose": 0,
+        "pbt": 0
+      }
+    }
+  },
+  {
+    "id": "tkan-vvt-2163",
+    "slug": "tkan-vvt-2163",
+    "title": {
+      "ua": "Тканина VVT-2163",
+      "ru": "Ткань VVT-2163"
+    },
+    "category": "medical",
+    "isNew": false,
+    "images": [],
+    "description": {},
+    "attributes": {
+      "fabricType": "twill",
+      "density": "210",
+      "width": null,
+      "colors": [],
+      "composition": {
+        "cotton": 40,
+        "polyester": 60,
+        "spandex": 0,
+        "rayon": 0,
+        "viscose": 0,
+        "pbt": 0
+      }
+    }
+  },
+  {
+    "id": "tkan-tr-163",
+    "slug": "tkan-tr-163",
+    "title": {
+      "ua": "Тканина TR-163",
+      "ru": "Ткань TR-163"
+    },
+    "category": "medical",
+    "isNew": false,
+    "images": [],
+    "description": {},
+    "attributes": {
+      "fabricType": "twill",
+      "density": "163",
+      "width": null,
+      "colors": [],
+      "composition": {
+        "cotton": 49.5,
+        "polyester": 47.5,
+        "spandex": 0,
+        "rayon": 0,
+        "viscose": 0,
+        "pbt": 0
+      }
+    }
+  },
+  {
+    "id": "tkan-tr-50-lt",
+    "slug": "tkan-tr-50-lt",
+    "title": {
+      "ua": "Тканина TR-50 LT",
+      "ru": "Ткань TR-50 LT"
+    },
+    "category": "medical",
+    "isNew": false,
+    "images": [],
+    "description": {},
+    "attributes": {
+      "fabricType": "twill",
+      "density": "145",
+      "width": null,
+      "colors": [],
+      "composition": {
+        "cotton": 50,
+        "polyester": 50,
+        "spandex": 0,
+        "rayon": 0,
+        "viscose": 0,
+        "pbt": 0
+      }
+    }
+  },
+  {
+    "id": "tkan-tr-50",
+    "slug": "tkan-tr-50",
+    "title": {
+      "ua": "Тканина TR-50",
+      "ru": "Ткань TR-50"
+    },
+    "category": "medical",
+    "isNew": false,
+    "images": [],
+    "description": {},
+    "attributes": {
+      "fabricType": "twill",
+      "density": "180",
+      "width": null,
+      "colors": [],
+      "composition": {
+        "cotton": 50,
+        "polyester": 50,
+        "spandex": 0,
+        "rayon": 0,
+        "viscose": 0,
+        "pbt": 0
+      }
+    }
+  },
+  {
+    "id": "tkan-vfg-2160",
+    "slug": "tkan-vfg-2160",
+    "title": {
+      "ua": "Тканина VFG-2160",
+      "ru": "Ткань VFG-2160"
+    },
+    "category": "medical",
+    "isNew": false,
+    "images": [],
+    "description": {},
+    "attributes": {
+      "fabricType": "twill",
+      "density": "175",
+      "width": null,
+      "colors": [],
+      "composition": {
+        "cotton": 51,
+        "polyester": 49,
+        "spandex": 0,
+        "rayon": 0,
+        "viscose": 0,
+        "pbt": 0
+      }
+    }
+  },
+  {
+    "id": "tkan-vlp-4206",
+    "slug": "tkan-vlp-4206",
+    "title": {
+      "ua": "Тканина VLP-4206",
+      "ru": "Ткань VLP-4206"
+    },
+    "category": "medical",
+    "isNew": false,
+    "images": [],
+    "description": {},
+    "attributes": {
+      "fabricType": "twill",
+      "density": "140",
+      "width": null,
+      "colors": [],
+      "composition": {
+        "cotton": 57,
+        "polyester": 39,
+        "spandex": 0,
+        "rayon": 0,
+        "viscose": 0,
+        "pbt": 0
+      }
+    }
+  },
+  {
+    "id": "tkan-vvt-2164",
+    "slug": "tkan-vvt-2164",
+    "title": {
+      "ua": "Тканина VVT-2164",
+      "ru": "Ткань VVT-2164"
+    },
+    "category": "medical",
+    "isNew": false,
+    "images": [],
+    "description": {},
+    "attributes": {
+      "fabricType": "twill",
+      "density": "210",
+      "width": null,
+      "colors": [],
+      "composition": {
+        "cotton": 60,
+        "polyester": 40,
+        "spandex": 0,
+        "rayon": 0,
+        "viscose": 0,
+        "pbt": 0
+      }
+    }
+  },
+  {
+    "id": "tkan-eg-225",
+    "slug": "tkan-eg-225",
+    "title": {
+      "ua": "Тканина EG-225",
+      "ru": "Ткань EG-225"
+    },
+    "category": "medical",
+    "isNew": false,
+    "images": [],
+    "description": {},
+    "attributes": {
+      "fabricType": "twill",
+      "density": "225",
+      "width": null,
+      "colors": [],
+      "composition": {
+        "cotton": 0,
+        "polyester": 65,
+        "spandex": 0,
+        "rayon": 0,
+        "viscose": 0,
+        "pbt": 0
+      }
+    }
+  },
+  {
+    "id": "tkan-lt-3084",
+    "slug": "tkan-lt-3084",
+    "title": {
+      "ua": "Тканина LT-3084",
+      "ru": "Ткань LT-3084"
+    },
+    "category": "medical",
+    "isNew": false,
+    "images": [],
+    "description": {},
+    "attributes": {
+      "fabricType": "twill",
+      "density": "150",
+      "width": null,
+      "colors": [],
+      "composition": {
+        "cotton": 0,
+        "polyester": 100,
+        "spandex": 0,
+        "rayon": 0,
+        "viscose": 0,
+        "pbt": 0
+      }
+    }
+  },
+  {
+    "id": "tkan-bg-9030",
+    "slug": "tkan-bg-9030",
+    "title": {
+      "ua": "Тканина BG 9030",
+      "ru": "Ткань BG 9030"
+    },
+    "category": "industrial",
+    "isNew": false,
+    "images": [],
+    "description": {},
+    "attributes": {
+      "fabricType": "twill",
+      "density": "300",
+      "width": null,
+      "colors": [
+        "79"
+      ],
+      "composition": {
+        "cotton": 20,
+        "polyester": 0,
+        "spandex": 0,
+        "rayon": 0,
+        "viscose": 0,
+        "pbt": 0
+      }
+    }
+  },
+  {
+    "id": "tkan-bg-9035",
+    "slug": "tkan-bg-9035",
+    "title": {
+      "ua": "Тканина BG 9035",
+      "ru": "Ткань BG 9035"
+    },
+    "category": "industrial",
+    "isNew": false,
+    "images": [],
+    "description": {},
+    "attributes": {
+      "fabricType": "twill",
+      "density": "350",
+      "width": null,
+      "colors": [
+        "79"
+      ],
+      "composition": {
+        "cotton": 20,
+        "polyester": 0,
+        "spandex": 0,
+        "rayon": 0,
+        "viscose": 0,
+        "pbt": 0
+      }
+    }
+  },
+  {
+    "id": "tkan-bg-9045",
+    "slug": "tkan-bg-9045",
+    "title": {
+      "ua": "Тканина BG 9045",
+      "ru": "Ткань BG 9045"
+    },
+    "category": "industrial",
+    "isNew": false,
+    "images": [],
+    "description": {},
+    "attributes": {
+      "fabricType": "twill",
+      "density": "450",
+      "width": null,
+      "colors": [
+        "79"
+      ],
+      "composition": {
+        "cotton": 20,
+        "polyester": 0,
+        "spandex": 0,
+        "rayon": 0,
+        "viscose": 0,
+        "pbt": 0
+      }
+    }
+  },
+  {
+    "id": "tkan-bg-9500",
+    "slug": "tkan-bg-9500",
+    "title": {
+      "ua": "Тканина BG 9500",
+      "ru": "Ткань BG 9500"
+    },
+    "category": "industrial",
+    "isNew": false,
+    "images": [],
+    "description": {},
+    "attributes": {
+      "fabricType": "twill",
+      "density": "350",
+      "width": null,
+      "colors": [
+        "64"
+      ],
+      "composition": {
+        "cotton": 35,
+        "polyester": 0,
+        "spandex": 0,
+        "rayon": 0,
+        "viscose": 0,
+        "pbt": 0
+      }
+    }
+  },
+  {
+    "id": "tkan-bg-9600",
+    "slug": "tkan-bg-9600",
+    "title": {
+      "ua": "Тканина BG 9600",
+      "ru": "Ткань BG 9600"
+    },
+    "category": "industrial",
+    "isNew": false,
+    "images": [],
+    "description": {},
+    "attributes": {
+      "fabricType": "twill",
+      "density": "350",
+      "width": null,
+      "colors": [
+        "64"
+      ],
+      "composition": {
+        "cotton": 35,
+        "polyester": 0,
+        "spandex": 0,
+        "rayon": 0,
+        "viscose": 0,
+        "pbt": 0
+      }
+    }
+  },
+  {
+    "id": "tkan-bd-9011",
+    "slug": "tkan-bd-9011",
+    "title": {
+      "ua": "Тканина BD 9011",
+      "ru": "Ткань BD 9011"
+    },
+    "category": "industrial",
+    "isNew": false,
+    "images": [],
+    "description": {},
+    "attributes": {
+      "fabricType": "twill",
+      "density": "230",
+      "width": null,
+      "colors": [
+        "100"
+      ],
+      "composition": {
+        "cotton": 0,
+        "polyester": 0,
+        "spandex": 0,
+        "rayon": 0,
+        "viscose": 0,
+        "pbt": 0
+      }
+    }
+  },
+  {
+    "id": "tkan-bd-9311",
+    "slug": "tkan-bd-9311",
+    "title": {
+      "ua": "Тканина BD 9311",
+      "ru": "Ткань BD 9311"
+    },
+    "category": "industrial",
+    "isNew": false,
+    "images": [],
+    "description": {},
+    "attributes": {
+      "fabricType": "twill",
+      "density": "335",
+      "width": null,
+      "colors": [
+        "99"
+      ],
+      "composition": {
+        "cotton": 0,
+        "polyester": 0,
+        "spandex": 0,
+        "rayon": 0,
+        "viscose": 0,
+        "pbt": 0
+      }
+    }
+  },
+  {
+    "id": "tkan-ks-52",
+    "slug": "tkan-ks-52",
+    "title": {
+      "ua": "Тканина KS52",
+      "ru": "Ткань KS52"
+    },
+    "category": "industrial",
+    "isNew": false,
+    "images": [],
+    "description": {},
+    "attributes": {
+      "fabricType": "twill",
+      "density": "335",
+      "width": null,
+      "colors": [
+        "100"
+      ],
+      "composition": {
+        "cotton": 0,
+        "polyester": 0,
+        "spandex": 0,
+        "rayon": 0,
+        "viscose": 0,
+        "pbt": 0
+      }
+    }
+  },
+  {
+    "id": "tkan-xc-9001",
+    "slug": "tkan-xc-9001",
+    "title": {
+      "ua": "Тканина XC 9001",
+      "ru": "Ткань XC 9001"
+    },
+    "category": "industrial",
+    "isNew": false,
+    "images": [],
+    "description": {},
+    "attributes": {
+      "fabricType": "twill",
+      "density": "265",
+      "width": null,
+      "colors": [
+        "84"
+      ],
+      "composition": {
+        "cotton": 0,
+        "polyester": 0,
+        "spandex": 0,
+        "rayon": 0,
+        "viscose": 0,
+        "pbt": 0
+      }
+    }
+  },
+  {
+    "id": "tkan-xa-9001",
+    "slug": "tkan-xa-9001",
+    "title": {
+      "ua": "Тканина XA 9001",
+      "ru": "Ткань XA 9001"
+    },
+    "category": "industrial",
+    "isNew": false,
+    "images": [],
+    "description": {},
+    "attributes": {
+      "fabricType": "twill",
+      "density": "320",
+      "width": null,
+      "colors": [
+        "45"
+      ],
+      "composition": {
+        "cotton": 0,
+        "polyester": 0,
+        "spandex": 0,
+        "rayon": 0,
+        "viscose": 0,
+        "pbt": 0
+      }
+    }
+  },
+  {
+    "id": "tkan-xb-9340",
+    "slug": "tkan-xb-9340",
+    "title": {
+      "ua": "Тканина XB 9340",
+      "ru": "Ткань XB 9340"
+    },
+    "category": "industrial",
+    "isNew": false,
+    "images": [],
+    "description": {},
+    "attributes": {
+      "fabricType": "twill",
+      "density": "340",
+      "width": null,
+      "colors": [
+        "74"
+      ],
+      "composition": {
+        "cotton": 0,
+        "polyester": 0,
+        "spandex": 0,
+        "rayon": 0,
+        "viscose": 0,
+        "pbt": 0
+      }
+    }
+  },
+  {
+    "id": "tkan-xl-9300",
+    "slug": "tkan-xl-9300",
+    "title": {
+      "ua": "Тканина XL 9300",
+      "ru": "Ткань XL 9300"
+    },
+    "category": "industrial",
+    "isNew": false,
+    "images": [],
+    "description": {},
+    "attributes": {
+      "fabricType": "twill",
+      "density": "300",
+      "width": null,
+      "colors": [
+        "0"
+      ],
+      "composition": {
+        "cotton": 0,
+        "polyester": 0,
+        "spandex": 0,
+        "rayon": 0,
+        "viscose": 0,
+        "pbt": 0
+      }
+    }
+  },
+  {
+    "id": "tkan-xl-9325",
+    "slug": "tkan-xl-9325",
+    "title": {
+      "ua": "Тканина XL 9325",
+      "ru": "Ткань XL 9325"
+    },
+    "category": "industrial",
+    "isNew": false,
+    "images": [],
+    "description": {},
+    "attributes": {
+      "fabricType": "twill",
+      "density": "325",
+      "width": null,
+      "colors": [
+        "0"
+      ],
+      "composition": {
+        "cotton": 0,
+        "polyester": 0,
+        "spandex": 0,
+        "rayon": 0,
+        "viscose": 0,
+        "pbt": 0
+      }
+    }
+  },
+  {
+    "id": "tkan-av-9400",
+    "slug": "tkan-av-9400",
+    "title": {
+      "ua": "Тканина AV 9400",
+      "ru": "Ткань AV 9400"
+    },
+    "category": "industrial",
+    "isNew": false,
+    "images": [],
+    "description": {},
+    "attributes": {
+      "fabricType": "twill",
+      "density": "200",
+      "width": null,
+      "colors": [
+        "0"
+      ],
+      "composition": {
+        "cotton": 0,
+        "polyester": 0,
+        "spandex": 0,
+        "rayon": 0,
+        "viscose": 0,
+        "pbt": 0
+      }
+    }
+  },
+  {
+    "id": "tkan-bv-9120",
+    "slug": "tkan-bv-9120",
+    "title": {
+      "ua": "Тканина BV 9120",
+      "ru": "Ткань BV 9120"
+    },
+    "category": "industrial",
+    "isNew": false,
+    "images": [],
+    "description": {},
+    "attributes": {
+      "fabricType": "twill",
+      "density": "265",
+      "width": null,
+      "colors": [
+        "0"
+      ],
+      "composition": {
+        "cotton": 0,
+        "polyester": 0,
+        "spandex": 0,
+        "rayon": 0,
+        "viscose": 0,
+        "pbt": 0
+      }
+    }
+  },
+  {
+    "id": "tkan-fr-9129",
+    "slug": "tkan-fr-9129",
+    "title": {
+      "ua": "Тканина 9129 FR",
+      "ru": "Ткань 9129 FR"
+    },
+    "category": "industrial",
+    "isNew": false,
+    "images": [],
+    "description": {},
+    "attributes": {
+      "fabricType": "twill",
+      "density": "290",
+      "width": null,
+      "colors": [
+        "42"
+      ],
+      "composition": {
+        "cotton": 6,
+        "polyester": 0,
+        "spandex": 0,
+        "rayon": 0,
+        "viscose": 0,
+        "pbt": 0
+      }
+    }
+  },
+  {
+    "id": "tkan-tr-2120",
+    "slug": "tkan-tr-2120",
+    "title": {
+      "ua": "Тканина TR-2120",
+      "ru": "Ткань TR-2120"
+    },
+    "category": "personal",
+    "isNew": false,
+    "images": [],
+    "description": {},
+    "attributes": {
+      "fabricType": "twill",
+      "density": "200",
+      "width": null,
+      "colors": [
+        "33"
+      ],
+      "composition": {
+        "cotton": 63,
+        "polyester": 4,
+        "spandex": 0,
+        "rayon": 0,
+        "viscose": 0,
+        "pbt": 0
+      }
+    }
+  },
+  {
+    "id": "tkan-rc-215-spx",
+    "slug": "tkan-rc-215-spx",
+    "title": {
+      "ua": "Тканина RC-215 SPX",
+      "ru": "Ткань RC-215 SPX"
+    },
+    "category": "personal",
+    "isNew": false,
+    "images": [],
+    "description": {},
+    "attributes": {
+      "fabricType": "twill",
+      "density": "215",
+      "width": null,
+      "colors": [
+        "33"
+      ],
+      "composition": {
+        "cotton": 61,
+        "polyester": 6,
+        "spandex": 0,
+        "rayon": 0,
+        "viscose": 0,
+        "pbt": 0
+      }
+    }
+  },
+  {
+    "id": "tkan-tr-150",
+    "slug": "tkan-tr-150",
+    "title": {
+      "ua": "Тканина TR-150",
+      "ru": "Ткань TR-150"
+    },
+    "category": "personal",
+    "isNew": false,
+    "images": [],
+    "description": {},
+    "attributes": {
+      "fabricType": "twill",
+      "density": "150",
+      "width": null,
+      "colors": [
+        "35"
+      ],
+      "composition": {
+        "cotton": 65,
+        "polyester": 0,
+        "spandex": 0,
+        "rayon": 0,
+        "viscose": 0,
+        "pbt": 0
+      }
+    }
+  },
+  {
+    "id": "tkan-kg-027",
+    "slug": "tkan-kg-027",
+    "title": {
+      "ua": "Тканина KG-027",
+      "ru": "Ткань KG-027"
+    },
+    "category": "personal",
+    "isNew": false,
+    "images": [],
+    "description": {},
+    "attributes": {
+      "fabricType": "twill",
+      "density": "160",
+      "width": null,
+      "colors": [
+        "35"
+      ],
+      "composition": {
+        "cotton": 65,
+        "polyester": 0,
+        "spandex": 0,
+        "rayon": 0,
+        "viscose": 0,
+        "pbt": 0
+      }
+    }
+  },
+  {
+    "id": "tkan-9541",
+    "slug": "tkan-9541",
+    "title": {
+      "ua": "Тканина 9541",
+      "ru": "Ткань 9541"
+    },
+    "category": "personal",
+    "isNew": false,
+    "images": [],
+    "description": {},
+    "attributes": {
+      "fabricType": "twill",
+      "density": "160",
+      "width": null,
+      "colors": [
+        "35"
+      ],
+      "composition": {
+        "cotton": 65,
+        "polyester": 0,
+        "spandex": 0,
+        "rayon": 0,
+        "viscose": 0,
+        "pbt": 0
+      }
+    }
+  },
+  {
+    "id": "tkan-9515",
+    "slug": "tkan-9515",
+    "title": {
+      "ua": "Тканина 9515",
+      "ru": "Ткань 9515"
+    },
+    "category": "personal",
+    "isNew": false,
+    "images": [],
+    "description": {},
+    "attributes": {
+      "fabricType": "twill",
+      "density": "195",
+      "width": null,
+      "colors": [
+        "35"
+      ],
+      "composition": {
+        "cotton": 65,
+        "polyester": 0,
+        "spandex": 0,
+        "rayon": 0,
+        "viscose": 0,
+        "pbt": 0
+      }
+    }
+  },
+  {
+    "id": "tkan-rc-194",
+    "slug": "tkan-rc-194",
+    "title": {
+      "ua": "Тканина RC-194",
+      "ru": "Ткань RC-194"
+    },
+    "category": "personal",
+    "isNew": false,
+    "images": [],
+    "description": {},
+    "attributes": {
+      "fabricType": "twill",
+      "density": "194",
+      "width": null,
+      "colors": [
+        "35"
+      ],
+      "composition": {
+        "cotton": 65,
+        "polyester": 0,
+        "spandex": 0,
+        "rayon": 0,
+        "viscose": 0,
+        "pbt": 0
+      }
+    }
+  },
+  {
+    "id": "tkan-kg-337",
+    "slug": "tkan-kg-337",
+    "title": {
+      "ua": "Тканина KG-337",
+      "ru": "Ткань KG-337"
+    },
+    "category": "personal",
+    "isNew": false,
+    "images": [],
+    "description": {},
+    "attributes": {
+      "fabricType": "twill",
+      "density": "195",
+      "width": null,
+      "colors": [
+        "35"
+      ],
+      "composition": {
+        "cotton": 65,
+        "polyester": 0,
+        "spandex": 0,
+        "rayon": 0,
+        "viscose": 0,
+        "pbt": 0
+      }
+    }
+  },
+  {
+    "id": "tkan-tr-med",
+    "slug": "tkan-tr-med",
+    "title": {
+      "ua": "Тканина TR-MED",
+      "ru": "Ткань TR-MED"
+    },
+    "category": "personal",
+    "isNew": false,
+    "images": [],
+    "description": {},
+    "attributes": {
+      "fabricType": "twill",
+      "density": "195",
+      "width": null,
+      "colors": [
+        "35"
+      ],
+      "composition": {
+        "cotton": 65,
+        "polyester": 0,
+        "spandex": 0,
+        "rayon": 0,
+        "viscose": 0,
+        "pbt": 0
+      }
+    }
+  },
+  {
+    "id": "tkan-kg-317",
+    "slug": "tkan-kg-317",
+    "title": {
+      "ua": "Тканина KG-317",
+      "ru": "Ткань KG-317"
+    },
+    "category": "personal",
+    "isNew": false,
+    "images": [],
+    "description": {},
+    "attributes": {
+      "fabricType": "twill",
+      "density": "215",
+      "width": null,
+      "colors": [
+        "35"
+      ],
+      "composition": {
+        "cotton": 65,
+        "polyester": 0,
+        "spandex": 0,
+        "rayon": 0,
+        "viscose": 0,
+        "pbt": 0
+      }
+    }
+  },
+  {
+    "id": "tkan-rc-234",
+    "slug": "tkan-rc-234",
+    "title": {
+      "ua": "Тканина RC-234",
+      "ru": "Ткань RC-234"
+    },
+    "category": "personal",
+    "isNew": false,
+    "images": [],
+    "description": {},
+    "attributes": {
+      "fabricType": "twill",
+      "density": "234",
+      "width": null,
+      "colors": [
+        "35"
+      ],
+      "composition": {
+        "cotton": 65,
+        "polyester": 0,
+        "spandex": 0,
+        "rayon": 0,
+        "viscose": 0,
+        "pbt": 0
+      }
+    }
+  },
+  {
+    "id": "tkan-kg-308",
+    "slug": "tkan-kg-308",
+    "title": {
+      "ua": "Тканина KG-308",
+      "ru": "Ткань KG-308"
+    },
+    "category": "personal",
+    "isNew": false,
+    "images": [],
+    "description": {},
+    "attributes": {
+      "fabricType": "twill",
+      "density": "245",
+      "width": null,
+      "colors": [
+        "35"
+      ],
+      "composition": {
+        "cotton": 65,
+        "polyester": 0,
+        "spandex": 0,
+        "rayon": 0,
+        "viscose": 0,
+        "pbt": 0
+      }
+    }
+  },
+  {
+    "id": "tkan-tr-35",
+    "slug": "tkan-tr-35",
+    "title": {
+      "ua": "Тканина TR-35",
+      "ru": "Ткань TR-35"
+    },
+    "category": "personal",
+    "isNew": false,
+    "images": [],
+    "description": {},
+    "attributes": {
+      "fabricType": "twill",
+      "density": "245",
+      "width": null,
+      "colors": [
+        "35"
+      ],
+      "composition": {
+        "cotton": 65,
+        "polyester": 0,
+        "spandex": 0,
+        "rayon": 0,
+        "viscose": 0,
+        "pbt": 0
+      }
+    }
+  },
+  {
+    "id": "tkan-9511",
+    "slug": "tkan-9511",
+    "title": {
+      "ua": "Тканина 9511",
+      "ru": "Ткань 9511"
+    },
+    "category": "personal",
+    "isNew": false,
+    "images": [],
+    "description": {},
+    "attributes": {
+      "fabricType": "twill",
+      "density": "245",
+      "width": null,
+      "colors": [
+        "35"
+      ],
+      "composition": {
+        "cotton": 65,
+        "polyester": 0,
+        "spandex": 0,
+        "rayon": 0,
+        "viscose": 0,
+        "pbt": 0
+      }
+    }
+  },
+  {
+    "id": "tkan-vvt-2163",
+    "slug": "tkan-vvt-2163",
+    "title": {
+      "ua": "Тканина VVT-2163",
+      "ru": "Ткань VVT-2163"
+    },
+    "category": "personal",
+    "isNew": false,
+    "images": [],
+    "description": {},
+    "attributes": {
+      "fabricType": "twill",
+      "density": "210",
+      "width": null,
+      "colors": [
+        "40"
+      ],
+      "composition": {
+        "cotton": 60,
+        "polyester": 0,
+        "spandex": 0,
+        "rayon": 0,
+        "viscose": 0,
+        "pbt": 0
+      }
+    }
+  },
+  {
+    "id": "tkan-tr-50-lt",
+    "slug": "tkan-tr-50-lt",
+    "title": {
+      "ua": "Тканина TR-50 LT",
+      "ru": "Ткань TR-50 LT"
+    },
+    "category": "personal",
+    "isNew": false,
+    "images": [],
+    "description": {},
+    "attributes": {
+      "fabricType": "twill",
+      "density": "145",
+      "width": null,
+      "colors": [
+        "50"
+      ],
+      "composition": {
+        "cotton": 50,
+        "polyester": 0,
+        "spandex": 0,
+        "rayon": 0,
+        "viscose": 0,
+        "pbt": 0
+      }
+    }
+  },
+  {
+    "id": "tkan-tr-50",
+    "slug": "tkan-tr-50",
+    "title": {
+      "ua": "Тканина TR-50",
+      "ru": "Ткань TR-50"
+    },
+    "category": "personal",
+    "isNew": false,
+    "images": [],
+    "description": {},
+    "attributes": {
+      "fabricType": "twill",
+      "density": "180",
+      "width": null,
+      "colors": [
+        "50"
+      ],
+      "composition": {
+        "cotton": 50,
+        "polyester": 0,
+        "spandex": 0,
+        "rayon": 0,
+        "viscose": 0,
+        "pbt": 0
+      }
+    }
+  },
+  {
+    "id": "tkan-trs-48",
+    "slug": "tkan-trs-48",
+    "title": {
+      "ua": "Тканина TRS-48",
+      "ru": "Ткань TRS-48"
+    },
+    "category": "personal",
+    "isNew": false,
+    "images": [],
+    "description": {},
+    "attributes": {
+      "fabricType": "twill",
+      "density": "200",
+      "width": null,
+      "colors": [
+        "50"
+      ],
+      "composition": {
+        "cotton": 50,
+        "polyester": 0,
+        "spandex": 0,
+        "rayon": 0,
+        "viscose": 0,
+        "pbt": 0
+      }
+    }
+  },
+  {
+    "id": "tkan-tr-163",
+    "slug": "tkan-tr-163",
+    "title": {
+      "ua": "Тканина TR-163",
+      "ru": "Ткань TR-163"
+    },
+    "category": "personal",
+    "isNew": false,
+    "images": [],
+    "description": {},
+    "attributes": {
+      "fabricType": "twill",
+      "density": "163",
+      "width": null,
+      "colors": [
+        "49.5"
+      ],
+      "composition": {
+        "cotton": 47.5,
+        "polyester": 3,
+        "spandex": 0,
+        "rayon": 0,
+        "viscose": 0,
+        "pbt": 0
+      }
+    }
+  },
+  {
+    "id": "tkan-vfg-2160",
+    "slug": "tkan-vfg-2160",
+    "title": {
+      "ua": "Тканина VFG-2160",
+      "ru": "Ткань VFG-2160"
+    },
+    "category": "personal",
+    "isNew": false,
+    "images": [],
+    "description": {},
+    "attributes": {
+      "fabricType": "twill",
+      "density": "175",
+      "width": null,
+      "colors": [
+        "51"
+      ],
+      "composition": {
+        "cotton": 49,
+        "polyester": 0,
+        "spandex": 0,
+        "rayon": 0,
+        "viscose": 0,
+        "pbt": 0
+      }
+    }
+  },
+  {
+    "id": "tkan-3928",
+    "slug": "tkan-3928",
+    "title": {
+      "ua": "Тканина 3928",
+      "ru": "Ткань 3928"
+    },
+    "category": "personal",
+    "isNew": false,
+    "images": [],
+    "description": {},
+    "attributes": {
+      "fabricType": "denim",
+      "density": "280",
+      "width": null,
+      "colors": [
+        "48"
+      ],
+      "composition": {
+        "cotton": 48,
+        "polyester": 4,
+        "spandex": 0,
+        "rayon": 0,
+        "viscose": 0,
+        "pbt": 0
+      }
+    }
+  },
+  {
+    "id": "tkan-vlp-4206",
+    "slug": "tkan-vlp-4206",
+    "title": {
+      "ua": "Тканина VLP-4206",
+      "ru": "Ткань VLP-4206"
+    },
+    "category": "personal",
+    "isNew": false,
+    "images": [],
+    "description": {},
+    "attributes": {
+      "fabricType": "twill",
+      "density": "140",
+      "width": null,
+      "colors": [
+        "57"
+      ],
+      "composition": {
+        "cotton": 39,
+        "polyester": 4,
+        "spandex": 0,
+        "rayon": 0,
+        "viscose": 0,
+        "pbt": 0
+      }
+    }
+  },
+  {
+    "id": "tkan-vvt-2164",
+    "slug": "tkan-vvt-2164",
+    "title": {
+      "ua": "Тканина VVT-2164",
+      "ru": "Ткань VVT-2164"
+    },
+    "category": "personal",
+    "isNew": false,
+    "images": [],
+    "description": {},
+    "attributes": {
+      "fabricType": "twill",
+      "density": "210",
+      "width": null,
+      "colors": [
+        "60"
+      ],
+      "composition": {
+        "cotton": 40,
+        "polyester": 0,
+        "spandex": 0,
+        "rayon": 0,
+        "viscose": 0,
+        "pbt": 0
+      }
+    }
+  },
+  {
+    "id": "tkan-cotton-twill-250",
+    "slug": "tkan-cotton-twill-250",
+    "title": {
+      "ua": "Тканина Cotton Twill",
+      "ru": "Ткань Cotton Twill"
+    },
+    "category": "personal",
+    "isNew": false,
+    "images": [],
+    "description": {},
+    "attributes": {
+      "fabricType": "twill",
+      "density": "250",
+      "width": null,
+      "colors": [
+        "65"
+      ],
+      "composition": {
+        "cotton": 35,
+        "polyester": 0,
+        "spandex": 0,
+        "rayon": 0,
+        "viscose": 0,
+        "pbt": 0
+      }
+    }
+  },
+  {
+    "id": "tkan-8852",
+    "slug": "tkan-8852",
+    "title": {
+      "ua": "Тканина 8852",
+      "ru": "Ткань 8852"
+    },
+    "category": "personal",
+    "isNew": false,
+    "images": [],
+    "description": {},
+    "attributes": {
+      "fabricType": "twill",
+      "density": "235",
+      "width": null,
+      "colors": [
+        "0"
+      ],
+      "composition": {
+        "cotton": 80,
+        "polyester": 5,
+        "spandex": 0,
+        "rayon": 15,
+        "viscose": 0,
+        "pbt": 0
+      }
+    }
+  },
+  {
+    "id": "tkan-washed-denim-stretch",
+    "slug": "tkan-washed-denim-stretch",
+    "title": {
+      "ua": "Тканина Washed Denim Stretch",
+      "ru": "Ткань Washed Denim Stretch"
+    },
+    "category": "personal",
+    "isNew": false,
+    "images": [],
+    "description": {},
+    "attributes": {
+      "fabricType": "denim",
+      "density": "300",
+      "width": null,
+      "colors": [
+        "80"
+      ],
+      "composition": {
+        "cotton": 18,
+        "polyester": 2,
+        "spandex": 0,
+        "rayon": 0,
+        "viscose": 0,
+        "pbt": 0
+      }
+    }
+  },
+  {
+    "id": "tkan-5076",
+    "slug": "tkan-5076",
+    "title": {
+      "ua": "Тканина 5076",
+      "ru": "Ткань 5076"
+    },
+    "category": "personal",
+    "isNew": false,
+    "images": [],
+    "description": {},
+    "attributes": {
+      "fabricType": "twill",
+      "density": "230",
+      "width": null,
+      "colors": [
+        "96"
+      ],
+      "composition": {
+        "cotton": 0,
+        "polyester": 4,
+        "spandex": 0,
+        "rayon": 0,
+        "viscose": 0,
+        "pbt": 0
+      }
+    }
+  },
+  {
+    "id": "tkan-l-859",
+    "slug": "tkan-l-859",
+    "title": {
+      "ua": "Тканина L 859",
+      "ru": "Ткань L 859"
+    },
+    "category": "personal",
+    "isNew": false,
+    "images": [],
+    "description": {},
+    "attributes": {
+      "fabricType": "twill",
+      "density": "232",
+      "width": null,
+      "colors": [
+        "100"
+      ],
+      "composition": {
+        "cotton": 0,
+        "polyester": 0,
+        "spandex": 0,
+        "rayon": 0,
+        "viscose": 0,
+        "pbt": 0
+      }
+    }
+  },
+  {
+    "id": "tkan-ct-1666",
+    "slug": "tkan-ct-1666",
+    "title": {
+      "ua": "Тканина CT 1666",
+      "ru": "Ткань CT 1666"
+    },
+    "category": "personal",
+    "isNew": false,
+    "images": [],
+    "description": {},
+    "attributes": {
+      "fabricType": "twill",
+      "density": "240",
+      "width": null,
+      "colors": [
+        "100"
+      ],
+      "composition": {
+        "cotton": 0,
+        "polyester": 0,
+        "spandex": 0,
+        "rayon": 0,
+        "viscose": 0,
+        "pbt": 0
+      }
+    }
+  },
+  {
+    "id": "tkan-rc-250-ct",
+    "slug": "tkan-rc-250-ct",
+    "title": {
+      "ua": "Тканина RC 250 CT",
+      "ru": "Ткань RC 250 CT"
+    },
+    "category": "personal",
+    "isNew": false,
+    "images": [],
+    "description": {},
+    "attributes": {
+      "fabricType": "twill",
+      "density": "250",
+      "width": null,
+      "colors": [
+        "100"
+      ],
+      "composition": {
+        "cotton": 0,
+        "polyester": 0,
+        "spandex": 0,
+        "rayon": 0,
+        "viscose": 0,
+        "pbt": 0
+      }
+    }
+  },
+  {
+    "id": "tkan-canvas-9060",
+    "slug": "tkan-canvas-9060",
+    "title": {
+      "ua": "Тканина Canvas 9060",
+      "ru": "Ткань Canvas 9060"
+    },
+    "category": "personal",
+    "isNew": false,
+    "images": [],
+    "description": {},
+    "attributes": {
+      "fabricType": "canvas",
+      "density": "250",
+      "width": null,
+      "colors": [
+        "100"
+      ],
+      "composition": {
+        "cotton": 0,
+        "polyester": 0,
+        "spandex": 0,
+        "rayon": 0,
+        "viscose": 0,
+        "pbt": 0
+      }
+    }
+  },
+  {
+    "id": "tkan-l-389",
+    "slug": "tkan-l-389",
+    "title": {
+      "ua": "Тканина L 389",
+      "ru": "Ткань L 389"
+    },
+    "category": "personal",
+    "isNew": false,
+    "images": [],
+    "description": {},
+    "attributes": {
+      "fabricType": "twill",
+      "density": "260",
+      "width": null,
+      "colors": [
+        "100"
+      ],
+      "composition": {
+        "cotton": 0,
+        "polyester": 0,
+        "spandex": 0,
+        "rayon": 0,
+        "viscose": 0,
+        "pbt": 0
+      }
+    }
+  },
+  {
+    "id": "tkan-9318",
+    "slug": "tkan-9318",
+    "title": {
+      "ua": "Тканина 9318",
+      "ru": "Ткань 9318"
+    },
+    "category": "personal",
+    "isNew": false,
+    "images": [],
+    "description": {},
+    "attributes": {
+      "fabricType": "denim",
+      "density": "270",
+      "width": null,
+      "colors": [
+        "100"
+      ],
+      "composition": {
+        "cotton": 0,
+        "polyester": 0,
+        "spandex": 0,
+        "rayon": 0,
+        "viscose": 0,
+        "pbt": 0
+      }
+    }
+  },
+  {
+    "id": "tkan-l-714",
+    "slug": "tkan-l-714",
+    "title": {
+      "ua": "Тканина L 714",
+      "ru": "Ткань L 714"
+    },
+    "category": "personal",
+    "isNew": false,
+    "images": [],
+    "description": {},
+    "attributes": {
+      "fabricType": "twill",
+      "density": "270",
+      "width": null,
+      "colors": [
+        "97"
+      ],
+      "composition": {
+        "cotton": 0,
+        "polyester": 3,
+        "spandex": 0,
+        "rayon": 0,
+        "viscose": 0,
+        "pbt": 0
+      }
+    }
+  },
+  {
+    "id": "tkan-canvas-wt",
+    "slug": "tkan-canvas-wt",
+    "title": {
+      "ua": "Тканина Canvas WT",
+      "ru": "Ткань Canvas WT"
+    },
+    "category": "personal",
+    "isNew": false,
+    "images": [],
+    "description": {},
+    "attributes": {
+      "fabricType": "canvas",
+      "density": "350",
+      "width": null,
+      "colors": [
+        "100"
+      ],
+      "composition": {
+        "cotton": 0,
+        "polyester": 0,
+        "spandex": 0,
+        "rayon": 0,
+        "viscose": 0,
+        "pbt": 0
+      }
+    }
+  },
+  {
+    "id": "tkan-lt-3084",
+    "slug": "tkan-lt-3084",
+    "title": {
+      "ua": "Тканина LT-3084",
+      "ru": "Ткань LT-3084"
+    },
+    "category": "personal",
+    "isNew": false,
+    "images": [],
+    "description": {},
+    "attributes": {
+      "fabricType": "twill",
+      "density": "150",
+      "width": null,
+      "colors": [
+        "0"
+      ],
+      "composition": {
+        "cotton": 100,
+        "polyester": 0,
+        "spandex": 0,
+        "rayon": 0,
+        "viscose": 0,
+        "pbt": 0
+      }
+    }
+  },
+  {
+    "id": "tkan-8878",
+    "slug": "tkan-8878",
+    "title": {
+      "ua": "Тканина 8878",
+      "ru": "Ткань 8878"
+    },
+    "category": "personal",
+    "isNew": false,
+    "images": [],
+    "description": {},
+    "attributes": {
+      "fabricType": "twill",
+      "density": "230",
+      "width": null,
+      "colors": [
+        "0"
+      ],
+      "composition": {
+        "cotton": 80,
+        "polyester": 5,
+        "spandex": 0,
+        "rayon": 15,
+        "viscose": 0,
+        "pbt": 0
+      }
+    }
+  },
+  {
+    "id": "tkan-rc-206-ray",
+    "slug": "tkan-rc-206-ray",
+    "title": {
+      "ua": "Тканина RC 206 RAY",
+      "ru": "Ткань RC 206 RAY"
+    },
+    "category": "personal",
+    "isNew": false,
+    "images": [],
+    "description": {},
+    "attributes": {
+      "fabricType": "twill",
+      "density": "206",
+      "width": null,
+      "colors": [
+        "0"
+      ],
+      "composition": {
+        "cotton": 40,
+        "polyester": 0,
+        "spandex": 60,
+        "rayon": 0,
+        "viscose": 0,
+        "pbt": 0
+      }
+    }
+  },
+  {
+    "id": "tkan-9652",
+    "slug": "tkan-9652",
+    "title": {
+      "ua": "Тканина 9652",
+      "ru": "Ткань 9652"
+    },
+    "category": "personal",
+    "isNew": false,
+    "images": [],
+    "description": {},
+    "attributes": {
+      "fabricType": "twill",
+      "density": "218",
+      "width": null,
+      "colors": [
+        "35"
+      ],
+      "composition": {
+        "cotton": 65,
+        "polyester": 0,
+        "spandex": 0,
+        "rayon": 0,
+        "viscose": 0,
+        "pbt": 0
+      }
+    }
+  },
+  {
+    "id": "tkan-9641",
+    "slug": "tkan-9641",
+    "title": {
+      "ua": "Тканина 9641",
+      "ru": "Ткань 9641"
+    },
+    "category": "personal",
+    "isNew": false,
+    "images": [],
+    "description": {},
+    "attributes": {
+      "fabricType": "twill",
+      "density": "218",
+      "width": null,
+      "colors": [
+        "35"
+      ],
+      "composition": {
+        "cotton": 65,
+        "polyester": 0,
+        "spandex": 0,
+        "rayon": 0,
+        "viscose": 0,
+        "pbt": 0
+      }
+    }
+  },
+  {
+    "id": "tkan-9651",
+    "slug": "tkan-9651",
+    "title": {
+      "ua": "Тканина 9651",
+      "ru": "Ткань 9651"
+    },
+    "category": "personal",
+    "isNew": false,
+    "images": [],
+    "description": {},
+    "attributes": {
+      "fabricType": "twill",
+      "density": "218",
+      "width": null,
+      "colors": [
+        "35"
+      ],
+      "composition": {
+        "cotton": 65,
+        "polyester": 0,
+        "spandex": 0,
+        "rayon": 0,
+        "viscose": 0,
+        "pbt": 0
+      }
+    }
+  },
+  {
+    "id": "tkan-9653",
+    "slug": "tkan-9653",
+    "title": {
+      "ua": "Тканина 9653",
+      "ru": "Ткань 9653"
+    },
+    "category": "personal",
+    "isNew": false,
+    "images": [],
+    "description": {},
+    "attributes": {
+      "fabricType": "twill",
+      "density": "218",
+      "width": null,
+      "colors": [
+        "35"
+      ],
+      "composition": {
+        "cotton": 65,
+        "polyester": 0,
+        "spandex": 0,
+        "rayon": 0,
+        "viscose": 0,
+        "pbt": 0
+      }
+    }
+  },
+  {
+    "id": "tkan-t045",
+    "slug": "tkan-t045",
+    "title": {
+      "ua": "Тканина T045",
+      "ru": "Ткань T045"
+    },
+    "category": "personal",
+    "isNew": false,
+    "images": [],
+    "description": {},
+    "attributes": {
+      "fabricType": "plain",
+      "density": "174",
+      "width": null,
+      "colors": [
+        "35"
+      ],
+      "composition": {
+        "cotton": 65,
+        "polyester": 0,
+        "spandex": 0,
+        "rayon": 0,
+        "viscose": 0,
+        "pbt": 0
+      }
+    }
+  },
+  {
     "id": "bg-9035",
     "slug": "bg-9035",
     "title": {
@@ -372,6 +3506,90 @@
         "spandex": 0,
         "rayon": 0,
         "viscose": 0,
+        "pbt": 0
+      }
+    }
+  },
+  {
+    "id": "defender-m-dm-9210",
+    "slug": "defender-m-dm-9210",
+    "title": {
+      "ua": "Тканина Defender® M DM 9210",
+      "ru": "Ткань Defender® M DM 9210"
+    },
+    "category": "army",
+    "isNew": false,
+    "images": [],
+    "description": {},
+    "attributes": {
+      "fabricType": "twill",
+      "density": "210",
+      "width": null,
+      "colors": [
+        "0"
+      ],
+      "composition": {
+        "cotton": 0,
+        "polyester": 0,
+        "spandex": 0,
+        "rayon": 0,
+        "viscose": 0,
+        "pbt": 0
+      }
+    }
+  },
+  {
+    "id": "defender-m-dp-9210",
+    "slug": "defender-m-dp-9210",
+    "title": {
+      "ua": "Тканина Defender® M DP 9210",
+      "ru": "Ткань Defender® M DP 9210"
+    },
+    "category": "army",
+    "isNew": false,
+    "images": [],
+    "description": {},
+    "attributes": {
+      "fabricType": "twill",
+      "density": "210",
+      "width": null,
+      "colors": [
+        "0"
+      ],
+      "composition": {
+        "cotton": 0,
+        "polyester": 0,
+        "spandex": 0,
+        "rayon": 0,
+        "viscose": 0,
+        "pbt": 0
+      }
+    }
+  },
+  {
+    "id": "263",
+    "slug": "263",
+    "title": {
+      "ua": "Тканина А263",
+      "ru": "Ткань А263"
+    },
+    "category": "shirts",
+    "isNew": false,
+    "images": [],
+    "description": {},
+    "attributes": {
+      "fabricType": "twill",
+      "density": "125",
+      "width": "14",
+      "colors": [
+        "14"
+      ],
+      "composition": {
+        "cotton": 14,
+        "polyester": 14,
+        "spandex": 14,
+        "rayon": 14,
+        "viscose": 14,
         "pbt": 0
       }
     }
