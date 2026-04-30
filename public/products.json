@@ -3567,10 +3567,9 @@
     }
   },
   {
-    "id": "263",
-    "slug": "263",
+    "id": "",
+    "slug": "",
     "title": {
-      "ua": "Тканина А263",
       "ru": "Ткань А263"
     },
     "category": "shirts",
@@ -3578,18 +3577,508 @@
     "images": [],
     "description": {},
     "attributes": {
-      "fabricType": "twill",
+      "fabricType": "полотно",
       "density": "125",
-      "width": "14",
-      "colors": [
-        "14"
-      ],
+      "width": "148",
+      "colors": [],
       "composition": {
-        "cotton": 14,
-        "polyester": 14,
-        "spandex": 14,
-        "rayon": 14,
-        "viscose": 14,
+        "cotton": 0,
+        "polyester": 0,
+        "spandex": 0,
+        "rayon": 0,
+        "viscose": 0,
+        "pbt": 0
+      }
+    }
+  },
+  {
+    "id": "",
+    "slug": "",
+    "title": {
+      "ru": "Ткань FLASH F1"
+    },
+    "category": "shirts",
+    "isNew": false,
+    "images": [],
+    "description": {},
+    "attributes": {
+      "fabricType": "полотно",
+      "density": "120",
+      "width": "148",
+      "colors": [],
+      "composition": {
+        "cotton": 0,
+        "polyester": 0,
+        "spandex": 0,
+        "rayon": 0,
+        "viscose": 0,
+        "pbt": 0
+      }
+    }
+  },
+  {
+    "id": "",
+    "slug": "",
+    "title": {
+      "ru": "Ткань 9327"
+    },
+    "category": "shirts",
+    "isNew": false,
+    "images": [],
+    "description": {},
+    "attributes": {
+      "fabricType": "полотно",
+      "density": "240",
+      "width": "148",
+      "colors": [],
+      "composition": {
+        "cotton": 0,
+        "polyester": 0,
+        "spandex": 0,
+        "rayon": 0,
+        "viscose": 0,
+        "pbt": 0
+      }
+    }
+  },
+  {
+    "id": "",
+    "slug": "",
+    "title": {
+      "ru": "Ткань LINEN VISCOSE"
+    },
+    "category": "shirts",
+    "isNew": false,
+    "images": [],
+    "description": {},
+    "attributes": {
+      "fabricType": "полотно",
+      "density": "200",
+      "width": "148",
+      "colors": [],
+      "composition": {
+        "cotton": 0,
+        "polyester": 0,
+        "spandex": 0,
+        "rayon": 0,
+        "viscose": 20,
+        "pbt": 0
+      }
+    }
+  },
+  {
+    "id": "",
+    "slug": "",
+    "title": {
+      "ru": "Ткань 02699"
+    },
+    "category": "shirts",
+    "isNew": false,
+    "images": [],
+    "description": {},
+    "attributes": {
+      "fabricType": "полотно",
+      "density": "230",
+      "width": "148",
+      "colors": [],
+      "composition": {
+        "cotton": 25,
+        "polyester": 0,
+        "spandex": 0,
+        "rayon": 0,
+        "viscose": 0,
+        "pbt": 0
+      }
+    }
+  },
+  {
+    "id": "",
+    "slug": "",
+    "title": {
+      "ru": "Ткань А353"
+    },
+    "category": "shirts",
+    "isNew": false,
+    "images": [],
+    "description": {},
+    "attributes": {
+      "fabricType": "саржа",
+      "density": "118",
+      "width": "150",
+      "colors": [],
+      "composition": {
+        "cotton": 100,
+        "polyester": 0,
+        "spandex": 0,
+        "rayon": 0,
+        "viscose": 0,
+        "pbt": 0
+      }
+    }
+  },
+  {
+    "id": "",
+    "slug": "",
+    "title": {
+      "ru": "Ткань А331"
+    },
+    "category": "shirts",
+    "isNew": false,
+    "images": [],
+    "description": {},
+    "attributes": {
+      "fabricType": "саржа фланель",
+      "density": "140",
+      "width": "150",
+      "colors": [],
+      "composition": {
+        "cotton": 100,
+        "polyester": 0,
+        "spandex": 0,
+        "rayon": 0,
+        "viscose": 0,
+        "pbt": 0
+      }
+    }
+  },
+  {
+    "id": "",
+    "slug": "",
+    "title": {
+      "ru": "Ткань А939"
+    },
+    "category": "shirts",
+    "isNew": false,
+    "images": [],
+    "description": {},
+    "attributes": {
+      "fabricType": "складне",
+      "density": "258",
+      "width": "150",
+      "colors": [],
+      "composition": {
+        "cotton": 0,
+        "polyester": 0,
+        "spandex": 0,
+        "rayon": 0,
+        "viscose": 0,
+        "pbt": 0
+      }
+    }
+  },
+  {
+    "id": "",
+    "slug": "",
+    "title": {
+      "ru": "Ткань А386"
+    },
+    "category": "shirts",
+    "isNew": false,
+    "images": [],
+    "description": {},
+    "attributes": {
+      "fabricType": "складне",
+      "density": "100",
+      "width": "150",
+      "colors": [],
+      "composition": {
+        "cotton": 100,
+        "polyester": 0,
+        "spandex": 0,
+        "rayon": 0,
+        "viscose": 0,
+        "pbt": 0
+      }
+    }
+  },
+  {
+    "id": "",
+    "slug": "",
+    "title": {
+      "ru": "Ткань 4664"
+    },
+    "category": "shirts",
+    "isNew": false,
+    "images": [],
+    "description": {},
+    "attributes": {
+      "fabricType": "полотно",
+      "density": "126",
+      "width": "150",
+      "colors": [],
+      "composition": {
+        "cotton": 100,
+        "polyester": 0,
+        "spandex": 0,
+        "rayon": 0,
+        "viscose": 0,
+        "pbt": 0
+      }
+    }
+  },
+  {
+    "id": "",
+    "slug": "",
+    "title": {
+      "ru": "Ткань А112"
+    },
+    "category": "shirts",
+    "isNew": false,
+    "images": [],
+    "description": {},
+    "attributes": {
+      "fabricType": "полотно",
+      "density": "120",
+      "width": "150",
+      "colors": [],
+      "composition": {
+        "cotton": 100,
+        "polyester": 0,
+        "spandex": 0,
+        "rayon": 0,
+        "viscose": 0,
+        "pbt": 0
+      }
+    }
+  },
+  {
+    "id": "",
+    "slug": "",
+    "title": {
+      "ru": "Ткань 5845"
+    },
+    "category": "shirts",
+    "isNew": false,
+    "images": [],
+    "description": {},
+    "attributes": {
+      "fabricType": "полотно",
+      "density": "106",
+      "width": "150",
+      "colors": [],
+      "composition": {
+        "cotton": 60,
+        "polyester": 40,
+        "spandex": 0,
+        "rayon": 0,
+        "viscose": 0,
+        "pbt": 0
+      }
+    }
+  },
+  {
+    "id": "",
+    "slug": "",
+    "title": {
+      "ru": "Ткань 5939"
+    },
+    "category": "shirts",
+    "isNew": false,
+    "images": [],
+    "description": {},
+    "attributes": {
+      "fabricType": "полотно",
+      "density": "110",
+      "width": "150",
+      "colors": [],
+      "composition": {
+        "cotton": 60,
+        "polyester": 40,
+        "spandex": 0,
+        "rayon": 0,
+        "viscose": 0,
+        "pbt": 0
+      }
+    }
+  },
+  {
+    "id": "",
+    "slug": "",
+    "title": {
+      "ru": "Ткань 5507"
+    },
+    "category": "shirts",
+    "isNew": false,
+    "images": [],
+    "description": {},
+    "attributes": {
+      "fabricType": "",
+      "density": "151",
+      "width": "150",
+      "colors": [],
+      "composition": {
+        "cotton": 60,
+        "polyester": 40,
+        "spandex": 0,
+        "rayon": 0,
+        "viscose": 0,
+        "pbt": 0
+      }
+    }
+  },
+  {
+    "id": "",
+    "slug": "",
+    "title": {
+      "ru": "Ткань 5764"
+    },
+    "category": "shirts",
+    "isNew": false,
+    "images": [],
+    "description": {},
+    "attributes": {
+      "fabricType": "",
+      "density": "104",
+      "width": "150",
+      "colors": [],
+      "composition": {
+        "cotton": 50,
+        "polyester": 50,
+        "spandex": 0,
+        "rayon": 0,
+        "viscose": 0,
+        "pbt": 0
+      }
+    }
+  },
+  {
+    "id": "",
+    "slug": "",
+    "title": {
+      "ru": "Ткань 7251"
+    },
+    "category": "shirts",
+    "isNew": false,
+    "images": [],
+    "description": {},
+    "attributes": {
+      "fabricType": "полотно",
+      "density": "113",
+      "width": "150",
+      "colors": [],
+      "composition": {
+        "cotton": 55,
+        "polyester": 45,
+        "spandex": 0,
+        "rayon": 0,
+        "viscose": 0,
+        "pbt": 0
+      }
+    }
+  },
+  {
+    "id": "",
+    "slug": "",
+    "title": {
+      "ru": "Ткань RC113CV"
+    },
+    "category": "shirts",
+    "isNew": false,
+    "images": [],
+    "description": {},
+    "attributes": {
+      "fabricType": "полотно",
+      "density": "116",
+      "width": "150",
+      "colors": [],
+      "composition": {
+        "cotton": 55,
+        "polyester": 45,
+        "spandex": 0,
+        "rayon": 0,
+        "viscose": 0,
+        "pbt": 0
+      }
+    }
+  },
+  {
+    "id": "",
+    "slug": "",
+    "title": {
+      "ru": "Ткань LT2111"
+    },
+    "category": "shirts",
+    "isNew": false,
+    "images": [],
+    "description": {},
+    "attributes": {
+      "fabricType": "полотно",
+      "density": "112",
+      "width": "150",
+      "colors": [],
+      "composition": {
+        "cotton": 55,
+        "polyester": 45,
+        "spandex": 0,
+        "rayon": 0,
+        "viscose": 0,
+        "pbt": 0
+      }
+    }
+  },
+  {
+    "id": "",
+    "slug": "",
+    "title": {},
+    "category": "shirts",
+    "isNew": false,
+    "images": [],
+    "description": {},
+    "attributes": {
+      "width": null,
+      "colors": [],
+      "composition": {
+        "cotton": 0,
+        "polyester": 0,
+        "spandex": 0,
+        "rayon": 0,
+        "viscose": 0,
+        "pbt": 0
+      }
+    }
+  },
+  {
+    "id": "",
+    "slug": "",
+    "title": {},
+    "category": "shirts",
+    "isNew": false,
+    "images": [],
+    "description": {},
+    "attributes": {
+      "width": null,
+      "colors": [],
+      "composition": {
+        "cotton": 0,
+        "polyester": 0,
+        "spandex": 0,
+        "rayon": 0,
+        "viscose": 0,
+        "pbt": 0
+      }
+    }
+  },
+  {
+    "id": "",
+    "slug": "",
+    "title": {
+      "ru": ""
+    },
+    "category": "shirts",
+    "isNew": false,
+    "images": [],
+    "description": {},
+    "attributes": {
+      "fabricType": "",
+      "density": "",
+      "width": " ",
+      "colors": [],
+      "composition": {
+        "cotton": 0,
+        "polyester": 0,
+        "spandex": 0,
+        "rayon": 0,
+        "viscose": 0,
         "pbt": 0
       }
     }
