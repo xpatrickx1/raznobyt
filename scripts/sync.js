@@ -9,7 +9,8 @@ const CATEGORYES = [
   'personal',
   'fire',
   'army',
-  'shirts'
+  'shirts',
+  'jackets'
 ]
 
 const fetchSheet = async (sheetName) => {
@@ -72,6 +73,7 @@ async function main() {
         density: row.density,
         width: row.width || null,
         colors: row.colors ? row.colors.split(",") : [],
+        properties: row.properties ? row.properties.split(",").map(s => s.trim()).filter(Boolean) : [],
         composition: {
           cotton: Number(row.cotton) || 0,
           polyester: Number(row.polyester) || 0,
