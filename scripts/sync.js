@@ -53,12 +53,12 @@ async function main() {
 
     return {
       id: slug,
+      category: row.category,
       slug,
       title: {
         ua: row.title_ua,
         ru: row.title_ru,
       },
-      category: row.category,
       isNew: row.isNew === "true",
 
       images: row.images ? row.images.split(",") : [],

@@ -296,7 +296,7 @@ export default function CategoryPage() {
 
   const cat = categories.find(c => c.slug === slug);
   const localProducts = cat ? (productsByCategory[cat.id] || []) : [];
-  const categoryProducts = productData.length > 0 ? productData : localProducts;
+  const categoryProducts = productData.length > 0 ? productData.filter(p => p.category === cat?.id) : localProducts;
 
   const FABRIC_TYPES = useMemo(() => [...new Set(categoryProducts.map(p => p.attributes.fabricType))], [categoryProducts]);
   const COLORS = useMemo(() => {
