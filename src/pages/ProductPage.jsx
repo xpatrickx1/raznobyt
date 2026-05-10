@@ -85,7 +85,7 @@ export default function ProductPage() {
     <>
       <SEO
         title={product.title[lang]}
-        description={product.description[lang].slice(0, 160)}
+        description={product.description[lang] ? product.description[lang].slice(0, 160) : ""}
         keywords={`тканина, ${cat?.title[lang]}, ${t(`fabricTypes.${product.attributes.fabricType}`)}`}
       />
 
