@@ -28,15 +28,15 @@ const slugs = new Set();
 const cleanTitle = (text = "") =>
   text
     .toLowerCase()
-    .replace(/тканина|ткань/g, "") // прибираємо службові слова
+    .replace(/тканина|ткань/g, "")
     .trim();
 
-const slugify = (text = "") =>
+const slugify = (text = "", category = "") =>
   text
     .toLowerCase()
     .trim()
     .replace(/\s+/g, "-")
-    .replace(/[^\w-]+/g, "");
+    .replace(/[^\w-]+/g, "") + `-${category}`;
 
 async function main() {
   console.log("🚀 Fetching data from Google Sheets...");
@@ -48,8 +48,21 @@ async function main() {
   console.log(`📦 Rows: ${flatData.length}`);
 
   const products = flatData.map((row) => {
-    const slug = row.slug || slugify(cleanTitle(row.title_ua));
+    let slug = row.slug || slugify(cleanTitle(row.title_ua), row.category);
 
+    if (slugs.has(slug)) {
+      slug = `${slug}-${row.category}`;
+    }
+
+    let counter = 1;
+    let originalSlug = slug;
+    while (slugs.has(slug)) {
+      slug = `${originalSlug}-${counter}`;
+      counter++;
+    }
+    slugs.add(slug);
+
+    console.log(slug);
     return {
       id: slug,
       slug,
@@ -79,17 +92,13 @@ async function main() {
           rayon: Number(row.rayon) || 0,
           viscose: Number(row.viscose) || 0,
           pbt: Number(row.pbt) || 0,
+          lyon: Number(row.lyon) || 0,
         },
       },
     };
   });
 
-  products.forEach((p) => {
-    if (slugs.has(p.slug)) {
-      console.warn("⚠️ duplicate slug:", p.slug);
-    }
-    slugs.add(p.slug);
-  });
+
 
   //   const products = data.map((row) => {
   //     const slug = row.slug || slugify(row.title_ua);

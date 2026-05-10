@@ -4,6 +4,7 @@ import { useLang } from '../i18n/LangContext';
 import categories from '../data/categories.json';
 import placeholder from '../assets/images/placeholder.svg';
 import { getProductImage, COLOR_MAP } from '../assets/utils/imageLoader.js';
+import { formatComposition } from '../data/compositions.js';
 
 export default function ProductCard({ product }) {
   const { lang, t } = useLang();
@@ -20,6 +21,9 @@ export default function ProductCard({ product }) {
     };
     loadImage();
   }, [product]);
+
+  console.log(product);
+  console.log(imageUrl);
 
 
   return (
@@ -41,18 +45,27 @@ export default function ProductCard({ product }) {
           <span className="product-card__view-btn">{t('common.viewDetails') || 'View Details'}</span>
         </div>
 
-        <div className="product-character" bis_skin_checked="1">
+        <div className="product-character">
           {product.attributes.width && (
-            <div>
-              <div>Ширина:</div>
-              <div className="product-character-value" bis_skin_checked="1">{product.attributes.width} см</div>
+            <div className="product-character-row">
+              <div className="product-character-label">Ширина:</div>
+              <div className="product-character-value">{product.attributes.width} см</div>
             </div>
           )}
-          <div bis_skin_checked="1">Щільність:</div>
-          <div className="product-character-value" bis_skin_checked="1">{product.attributes.density} г/м.кв</div>
-          <div bis_skin_checked="1">Склад:</div>
-
-          <div className="product-character-value" bis_skin_checked="1">Еластан 2%, Поліестер 58%, Віскоза 40%</div>
+          {product.attributes.density && (
+            <div className="product-character-row">
+              <div className="product-character-label">Щільність:</div>
+              <div className="product-character-value">{product.attributes.density} г/м.кв</div>
+            </div>
+          )}
+          {product.attributes.composition && formatComposition(product.attributes.composition, lang) && (
+            <div className="product-character-row">
+              <div className="product-character-label">Склад:</div>
+              <div className="product-character-value">
+                {formatComposition(product.attributes.composition, lang)}
+              </div>
+            </div>
+          )}
         </div>
       </div>
       <div className="product-card__body">

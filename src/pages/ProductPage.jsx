@@ -3,7 +3,6 @@ import { useParams, Link, Navigate } from 'react-router-dom';
 import { useLang } from '../i18n/LangContext';
 import SEO from '../components/SEO';
 import ProductCard from '../components/ProductCard';
-import products from '../data/products.js';
 import categories from '../data/categories.json';
 import { formatComposition } from '../data/compositions.js';
 import { getProductImage, COLOR_MAP } from '../assets/utils/imageLoader.js';
@@ -13,29 +12,41 @@ import phoneIcon from '@/assets/images/icons/phone.svg';
 export default function ProductPage() {
   const { slug } = useParams();
   const { lang, t } = useLang();
-  const product = products.find(p => p.slug === slug);
+  const [allProducts, setAllProducts] = useState(null);
   const [activeImg, setActiveImg] = useState(0);
   const [phone, setPhone] = useState('');
   const [sent, setSent] = useState(false);
   const [imageUrls, setImageUrls] = useState([]);
 
-  if (!product) return <Navigate to="/catalog" replace />;
-
-  const cat = categories.find(c => c.id === product.category);
-  const related = products.filter(p => p.category === product.category && p.id !== product.id).slice(0, 4);
-
-  // Завантаження зображень при монтуванні компонента
   useEffect(() => {
+    fetch('/products.json')
+      .then(r => r.json())
+      .then(data => setAllProducts(data))
+      .catch(() => setAllProducts([]));
+  }, []);
+
+  const product = allProducts?.find(p => p.slug === slug) ?? null;
+
+  // Load images whenever product changes (including null — guard inside)
+  useEffect(() => {
+    if (!product) return;
     const loadImages = async () => {
-      const imagesToLoad = product?.images || [];
+      const imagesToLoad = product.images || [];
       const urls = await Promise.all(
         imagesToLoad.map(img => getProductImage(img))
       );
       setImageUrls(urls);
     };
-    window.scrollTo(0, 0); // Scroll to top on mount
+    window.scrollTo(0, 0);
     loadImages();
   }, [product]);
+
+  // All hooks done — now safe to return early
+  if (allProducts === null) return null;
+  if (!product) return <Navigate to="/catalog" replace />;
+
+  const cat = categories.find(c => c.id === product.category);
+  const related = allProducts.filter(p => p.category === product.category && p.id !== product.id).slice(0, 4);
 
   const handleSend = (e) => {
     e.preventDefault();
