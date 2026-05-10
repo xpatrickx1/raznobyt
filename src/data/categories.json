@@ -126,8 +126,8 @@
     "image": "/images/categories/cotton.jpg"
   },
   {
-    "id": "jacket",
-    "slug": "jacket",
+    "id": "jackets",
+    "slug": "jackets",
     "title": {
       "ua": "Курткові тканини",
       "ru": "Ткани для курток"

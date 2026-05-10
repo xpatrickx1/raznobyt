@@ -1,22 +1,23 @@
 [
   {
     "id": "tkan-3265",
+    "category": "workwear",
     "slug": "tkan-3265",
     "title": {
       "ua": "Тканина 3265",
       "ru": "Ткань 3265"
     },
-    "category": "workwear",
     "isNew": false,
     "images": [],
     "description": {},
     "attributes": {
       "fabricType": "twill",
       "density": "240",
-      "width": null,
+      "width": "150",
       "colors": [
         "14"
       ],
+      "properties": [],
       "composition": {
         "cotton": 83,
         "polyester": 3,
@@ -29,22 +30,23 @@
   },
   {
     "id": "tkan-nb-1043",
+    "category": "workwear",
     "slug": "tkan-nb-1043",
     "title": {
       "ua": "Тканина NB-1043",
       "ru": "Ткань NB-1043"
     },
-    "category": "workwear",
     "isNew": false,
     "images": [],
     "description": {},
     "attributes": {
       "fabricType": "twill",
       "density": "220",
-      "width": null,
+      "width": "150",
       "colors": [
         "20"
       ],
+      "properties": [],
       "composition": {
         "cotton": 80,
         "polyester": 0,
@@ -57,12 +59,12 @@
   },
   {
     "id": "tkan-rc-182-rs",
+    "category": "workwear",
     "slug": "tkan-rc-182-rs",
     "title": {
       "ua": "Тканина RC-182 RS",
       "ru": "Ткань RC-182 RS"
     },
-    "category": "workwear",
     "isNew": false,
     "images": [],
     "description": {},
@@ -73,6 +75,7 @@
       "colors": [
         "23"
       ],
+      "properties": [],
       "composition": {
         "cotton": 42,
         "polyester": 0,
@@ -85,12 +88,12 @@
   },
   {
     "id": "tkan-tr-2120",
+    "category": "workwear",
     "slug": "tkan-tr-2120",
     "title": {
       "ua": "Тканина TR-2120",
       "ru": "Ткань TR-2120"
     },
-    "category": "workwear",
     "isNew": false,
     "images": [],
     "description": {},
@@ -101,6 +104,7 @@
       "colors": [
         "33"
       ],
+      "properties": [],
       "composition": {
         "cotton": 63,
         "polyester": 4,
@@ -113,12 +117,12 @@
   },
   {
     "id": "tkan-rc-215-spx",
+    "category": "workwear",
     "slug": "tkan-rc-215-spx",
     "title": {
       "ua": "Тканина RC-215 SPX",
       "ru": "Ткань RC-215 SPX"
     },
-    "category": "workwear",
     "isNew": false,
     "images": [],
     "description": {},
@@ -129,6 +133,7 @@
       "colors": [
         "33"
       ],
+      "properties": [],
       "composition": {
         "cotton": 61,
         "polyester": 6,
@@ -140,15 +145,19 @@
     }
   },
   {
-    "id": "tkan-tr-150",
-    "slug": "tkan-tr-150",
+    "id": "tr-150",
+    "category": "workwear",
+    "slug": "tr-150",
     "title": {
       "ua": "Тканина TR-150",
       "ru": "Ткань TR-150"
     },
-    "category": "workwear",
     "isNew": false,
-    "images": [],
+    "images": [
+      "https://apolo.cds.com.ua/home/raznobyt/sites/catalog.raznobyt.com/images/products/tr-150-black.jpg",
+      " https://apolo.cds.com.ua/home/raznobyt/sites/catalog.raznobyt.com/images/products/tr-150-brown.jpg",
+      " https://apolo.cds.com.ua/home/raznobyt/sites/catalog.raznobyt.com/images/products/tr-150-white.jpg"
+    ],
     "description": {},
     "attributes": {
       "fabricType": "twill",
@@ -157,6 +166,7 @@
       "colors": [
         "35"
       ],
+      "properties": [],
       "composition": {
         "cotton": 65,
         "polyester": 0,
@@ -169,12 +179,12 @@
   },
   {
     "id": "tkan-kg-027",
+    "category": "workwear",
     "slug": "tkan-kg-027",
     "title": {
       "ua": "Тканина KG-027",
       "ru": "Ткань KG-027"
     },
-    "category": "workwear",
     "isNew": false,
     "images": [],
     "description": {},
@@ -185,6 +195,7 @@
       "colors": [
         "35"
       ],
+      "properties": [],
       "composition": {
         "cotton": 65,
         "polyester": 0,
@@ -197,12 +208,12 @@
   },
   {
     "id": "tkan-9541",
+    "category": "workwear",
     "slug": "tkan-9541",
     "title": {
       "ua": "Тканина 9541",
       "ru": "Ткань 9541"
     },
-    "category": "workwear",
     "isNew": false,
     "images": [],
     "description": {},
@@ -213,6 +224,7 @@
       "colors": [
         "35"
       ],
+      "properties": [],
       "composition": {
         "cotton": 65,
         "polyester": 0,
@@ -225,12 +237,12 @@
   },
   {
     "id": "tkan-9515",
+    "category": "workwear",
     "slug": "tkan-9515",
     "title": {
       "ua": "Тканина 9515",
       "ru": "Ткань 9515"
     },
-    "category": "workwear",
     "isNew": false,
     "images": [],
     "description": {},
@@ -241,6 +253,7 @@
       "colors": [
         "35"
       ],
+      "properties": [],
       "composition": {
         "cotton": 65,
         "polyester": 0,
@@ -253,12 +266,12 @@
   },
   {
     "id": "tkan-rc-194",
+    "category": "workwear",
     "slug": "tkan-rc-194",
     "title": {
       "ua": "Тканина RC-194",
       "ru": "Ткань RC-194"
     },
-    "category": "workwear",
     "isNew": false,
     "images": [],
     "description": {},
@@ -269,6 +282,7 @@
       "colors": [
         "35"
       ],
+      "properties": [],
       "composition": {
         "cotton": 65,
         "polyester": 0,
@@ -281,12 +295,12 @@
   },
   {
     "id": "tkan-kg-337",
+    "category": "workwear",
     "slug": "tkan-kg-337",
     "title": {
       "ua": "Тканина KG-337",
       "ru": "Ткань KG-337"
     },
-    "category": "workwear",
     "isNew": false,
     "images": [],
     "description": {},
@@ -297,6 +311,7 @@
       "colors": [
         "35"
       ],
+      "properties": [],
       "composition": {
         "cotton": 65,
         "polyester": 0,
@@ -309,12 +324,12 @@
   },
   {
     "id": "tkan-tr-med",
+    "category": "workwear",
     "slug": "tkan-tr-med",
     "title": {
       "ua": "Тканина TR-MED",
       "ru": "Ткань TR-MED"
     },
-    "category": "workwear",
     "isNew": false,
     "images": [],
     "description": {},
@@ -325,6 +340,7 @@
       "colors": [
         "35"
       ],
+      "properties": [],
       "composition": {
         "cotton": 65,
         "polyester": 0,
@@ -337,12 +353,12 @@
   },
   {
     "id": "tkan-kg-317",
+    "category": "workwear",
     "slug": "tkan-kg-317",
     "title": {
       "ua": "Тканина KG-317",
       "ru": "Ткань KG-317"
     },
-    "category": "workwear",
     "isNew": false,
     "images": [],
     "description": {},
@@ -353,6 +369,7 @@
       "colors": [
         "35"
       ],
+      "properties": [],
       "composition": {
         "cotton": 65,
         "polyester": 0,
@@ -365,12 +382,12 @@
   },
   {
     "id": "tkan-rc-234",
+    "category": "workwear",
     "slug": "tkan-rc-234",
     "title": {
       "ua": "Тканина RC-234",
       "ru": "Ткань RC-234"
     },
-    "category": "workwear",
     "isNew": false,
     "images": [],
     "description": {},
@@ -381,6 +398,7 @@
       "colors": [
         "35"
       ],
+      "properties": [],
       "composition": {
         "cotton": 65,
         "polyester": 0,
@@ -393,12 +411,12 @@
   },
   {
     "id": "tkan-kg-308",
+    "category": "workwear",
     "slug": "tkan-kg-308",
     "title": {
       "ua": "Тканина KG-308",
       "ru": "Ткань KG-308"
     },
-    "category": "workwear",
     "isNew": false,
     "images": [],
     "description": {},
@@ -409,6 +427,7 @@
       "colors": [
         "35"
       ],
+      "properties": [],
       "composition": {
         "cotton": 65,
         "polyester": 0,
@@ -421,12 +440,12 @@
   },
   {
     "id": "tkan-tr-35",
+    "category": "workwear",
     "slug": "tkan-tr-35",
     "title": {
       "ua": "Тканина TR-35",
       "ru": "Ткань TR-35"
     },
-    "category": "workwear",
     "isNew": false,
     "images": [],
     "description": {},
@@ -437,6 +456,7 @@
       "colors": [
         "35"
       ],
+      "properties": [],
       "composition": {
         "cotton": 65,
         "polyester": 0,
@@ -449,12 +469,12 @@
   },
   {
     "id": "tkan-9511",
+    "category": "workwear",
     "slug": "tkan-9511",
     "title": {
       "ua": "Тканина 9511",
       "ru": "Ткань 9511"
     },
-    "category": "workwear",
     "isNew": false,
     "images": [],
     "description": {},
@@ -465,6 +485,7 @@
       "colors": [
         "35"
       ],
+      "properties": [],
       "composition": {
         "cotton": 65,
         "polyester": 0,
@@ -477,12 +498,12 @@
   },
   {
     "id": "tkan-6601",
+    "category": "workwear",
     "slug": "tkan-6601",
     "title": {
       "ua": "Тканина 6601",
       "ru": "Ткань 6601"
     },
-    "category": "workwear",
     "isNew": false,
     "images": [],
     "description": {},
@@ -493,6 +514,7 @@
       "colors": [
         "35"
       ],
+      "properties": [],
       "composition": {
         "cotton": 65,
         "polyester": 0,
@@ -505,12 +527,12 @@
   },
   {
     "id": "tkan-2183",
+    "category": "workwear",
     "slug": "tkan-2183",
     "title": {
       "ua": "Тканина 2183",
       "ru": "Ткань 2183"
     },
-    "category": "workwear",
     "isNew": false,
     "images": [],
     "description": {},
@@ -521,6 +543,7 @@
       "colors": [
         "35"
       ],
+      "properties": [],
       "composition": {
         "cotton": 65,
         "polyester": 0,
@@ -533,12 +556,12 @@
   },
   {
     "id": "tkan-kg-316",
+    "category": "workwear",
     "slug": "tkan-kg-316",
     "title": {
       "ua": "Тканина KG-316",
       "ru": "Ткань KG-316"
     },
-    "category": "workwear",
     "isNew": false,
     "images": [],
     "description": {},
@@ -549,6 +572,7 @@
       "colors": [
         "35"
       ],
+      "properties": [],
       "composition": {
         "cotton": 65,
         "polyester": 0,
@@ -561,12 +585,12 @@
   },
   {
     "id": "tkan-vvt-2163",
+    "category": "workwear",
     "slug": "tkan-vvt-2163",
     "title": {
       "ua": "Тканина VVT-2163",
       "ru": "Ткань VVT-2163"
     },
-    "category": "workwear",
     "isNew": false,
     "images": [],
     "description": {},
@@ -577,6 +601,7 @@
       "colors": [
         "40"
       ],
+      "properties": [],
       "composition": {
         "cotton": 60,
         "polyester": 0,
@@ -589,12 +614,12 @@
   },
   {
     "id": "tkan-tr-55",
+    "category": "workwear",
     "slug": "tkan-tr-55",
     "title": {
       "ua": "Тканина TR-55",
       "ru": "Ткань TR-55"
     },
-    "category": "workwear",
     "isNew": false,
     "images": [],
     "description": {},
@@ -605,6 +630,7 @@
       "colors": [
         "40"
       ],
+      "properties": [],
       "composition": {
         "cotton": 60,
         "polyester": 0,
@@ -617,12 +643,12 @@
   },
   {
     "id": "tkan-kg-0725",
+    "category": "workwear",
     "slug": "tkan-kg-0725",
     "title": {
       "ua": "Тканина KG-0725",
       "ru": "Ткань KG-0725"
     },
-    "category": "workwear",
     "isNew": false,
     "images": [],
     "description": {},
@@ -633,6 +659,7 @@
       "colors": [
         "40"
       ],
+      "properties": [],
       "composition": {
         "cotton": 60,
         "polyester": 0,
@@ -645,12 +672,12 @@
   },
   {
     "id": "tkan-tr-50-lt",
+    "category": "workwear",
     "slug": "tkan-tr-50-lt",
     "title": {
       "ua": "Тканина TR-50 LT",
       "ru": "Ткань TR-50 LT"
     },
-    "category": "workwear",
     "isNew": false,
     "images": [],
     "description": {},
@@ -661,6 +688,7 @@
       "colors": [
         "50"
       ],
+      "properties": [],
       "composition": {
         "cotton": 50,
         "polyester": 0,
@@ -673,12 +701,12 @@
   },
   {
     "id": "tkan-tr-50",
+    "category": "workwear",
     "slug": "tkan-tr-50",
     "title": {
       "ua": "Тканина TR-50",
       "ru": "Ткань TR-50"
     },
-    "category": "workwear",
     "isNew": false,
     "images": [],
     "description": {},
@@ -689,6 +717,7 @@
       "colors": [
         "50"
       ],
+      "properties": [],
       "composition": {
         "cotton": 50,
         "polyester": 0,
@@ -701,12 +730,12 @@
   },
   {
     "id": "tkan-trs-48",
+    "category": "workwear",
     "slug": "tkan-trs-48",
     "title": {
       "ua": "Тканина TRS-48",
       "ru": "Ткань TRS-48"
     },
-    "category": "workwear",
     "isNew": false,
     "images": [],
     "description": {},
@@ -717,6 +746,7 @@
       "colors": [
         "50"
       ],
+      "properties": [],
       "composition": {
         "cotton": 50,
         "polyester": 0,
@@ -729,12 +759,12 @@
   },
   {
     "id": "tkan-tr-163",
+    "category": "workwear",
     "slug": "tkan-tr-163",
     "title": {
       "ua": "Тканина TR-163",
       "ru": "Ткань TR-163"
     },
-    "category": "workwear",
     "isNew": false,
     "images": [],
     "description": {},
@@ -745,6 +775,7 @@
       "colors": [
         "49.5"
       ],
+      "properties": [],
       "composition": {
         "cotton": 47.5,
         "polyester": 3,
@@ -757,12 +788,12 @@
   },
   {
     "id": "tkan-vfg-2160",
+    "category": "workwear",
     "slug": "tkan-vfg-2160",
     "title": {
       "ua": "Тканина VFG-2160",
       "ru": "Ткань VFG-2160"
     },
-    "category": "workwear",
     "isNew": false,
     "images": [],
     "description": {},
@@ -773,6 +804,7 @@
       "colors": [
         "51"
       ],
+      "properties": [],
       "composition": {
         "cotton": 49,
         "polyester": 0,
@@ -785,12 +817,12 @@
   },
   {
     "id": "tkan-9129",
+    "category": "workwear",
     "slug": "tkan-9129",
     "title": {
       "ua": "Тканина 9129",
       "ru": "Ткань 9129"
     },
-    "category": "workwear",
     "isNew": false,
     "images": [],
     "description": {},
@@ -801,6 +833,7 @@
       "colors": [
         "42"
       ],
+      "properties": [],
       "composition": {
         "cotton": 6,
         "polyester": 0,
@@ -813,12 +846,12 @@
   },
   {
     "id": "tkan-3585",
+    "category": "workwear",
     "slug": "tkan-3585",
     "title": {
       "ua": "Тканина 3585",
       "ru": "Ткань 3585"
     },
-    "category": "workwear",
     "isNew": false,
     "images": [],
     "description": {},
@@ -829,6 +862,7 @@
       "colors": [
         "50"
       ],
+      "properties": [],
       "composition": {
         "cotton": 49,
         "polyester": 0,
@@ -841,12 +875,12 @@
   },
   {
     "id": "tkan-l-542",
+    "category": "workwear",
     "slug": "tkan-l-542",
     "title": {
       "ua": "Тканина L 542",
       "ru": "Ткань L 542"
     },
-    "category": "workwear",
     "isNew": false,
     "images": [],
     "description": {},
@@ -857,6 +891,7 @@
       "colors": [
         "59"
       ],
+      "properties": [],
       "composition": {
         "cotton": 39,
         "polyester": 2,
@@ -869,12 +904,12 @@
   },
   {
     "id": "tkan-3928",
+    "category": "workwear",
     "slug": "tkan-3928",
     "title": {
       "ua": "Тканина 3928",
       "ru": "Ткань 3928"
     },
-    "category": "workwear",
     "isNew": false,
     "images": [],
     "description": {},
@@ -885,6 +920,7 @@
       "colors": [
         "48"
       ],
+      "properties": [],
       "composition": {
         "cotton": 48,
         "polyester": 4,
@@ -897,12 +933,12 @@
   },
   {
     "id": "tkan-vlp-4206",
+    "category": "workwear",
     "slug": "tkan-vlp-4206",
     "title": {
       "ua": "Тканина VLP-4206",
       "ru": "Ткань VLP-4206"
     },
-    "category": "workwear",
     "isNew": false,
     "images": [],
     "description": {},
@@ -913,6 +949,7 @@
       "colors": [
         "57"
       ],
+      "properties": [],
       "composition": {
         "cotton": 39,
         "polyester": 4,
@@ -925,12 +962,12 @@
   },
   {
     "id": "tkan-vvt-2164",
+    "category": "workwear",
     "slug": "tkan-vvt-2164",
     "title": {
       "ua": "Тканина VVT-2164",
       "ru": "Ткань VVT-2164"
     },
-    "category": "workwear",
     "isNew": false,
     "images": [],
     "description": {},
@@ -941,6 +978,7 @@
       "colors": [
         "60"
       ],
+      "properties": [],
       "composition": {
         "cotton": 40,
         "polyester": 0,
@@ -953,12 +991,12 @@
   },
   {
     "id": "tkan-6509",
+    "category": "workwear",
     "slug": "tkan-6509",
     "title": {
       "ua": "Тканина 6509",
       "ru": "Ткань 6509"
     },
-    "category": "workwear",
     "isNew": false,
     "images": [],
     "description": {},
@@ -969,6 +1007,7 @@
       "colors": [
         "60"
       ],
+      "properties": [],
       "composition": {
         "cotton": 40,
         "polyester": 0,
@@ -980,13 +1019,13 @@
     }
   },
   {
-    "id": "tkan-tr-150",
-    "slug": "tkan-tr-150",
+    "id": "tr-150",
+    "category": "medical",
+    "slug": "tr-150",
     "title": {
       "ua": "Тканина TR-150",
       "ru": "Ткань TR-150"
     },
-    "category": "medical",
     "isNew": false,
     "images": [
       "tr-150-white.jpg",
@@ -1003,6 +1042,7 @@
         "black",
         "brown"
       ],
+      "properties": [],
       "composition": {
         "cotton": 35,
         "polyester": 65,
@@ -1014,13 +1054,13 @@
     }
   },
   {
-    "id": "tkan-kg-027",
-    "slug": "tkan-kg-027",
+    "id": "kg-027",
+    "category": "medical",
+    "slug": "kg-027",
     "title": {
       "ua": "Тканина KG-027",
       "ru": "Ткань KG-027"
     },
-    "category": "medical",
     "isNew": false,
     "images": [],
     "description": {},
@@ -1029,6 +1069,7 @@
       "density": "160",
       "width": null,
       "colors": [],
+      "properties": [],
       "composition": {
         "cotton": 35,
         "polyester": 65,
@@ -1040,13 +1081,13 @@
     }
   },
   {
-    "id": "tkan-9541",
-    "slug": "tkan-9541",
+    "id": "9541",
+    "category": "medical",
+    "slug": "9541",
     "title": {
       "ua": "Тканина 9541",
       "ru": "Ткань 9541"
     },
-    "category": "medical",
     "isNew": false,
     "images": [],
     "description": {},
@@ -1055,6 +1096,7 @@
       "density": "160",
       "width": null,
       "colors": [],
+      "properties": [],
       "composition": {
         "cotton": 35,
         "polyester": 65,
@@ -1066,13 +1108,13 @@
     }
   },
   {
-    "id": "tkan-9515",
-    "slug": "tkan-9515",
+    "id": "9515",
+    "category": "medical",
+    "slug": "9515",
     "title": {
       "ua": "Тканина 9515",
       "ru": "Ткань 9515"
     },
-    "category": "medical",
     "isNew": false,
     "images": [],
     "description": {},
@@ -1081,6 +1123,7 @@
       "density": "195",
       "width": null,
       "colors": [],
+      "properties": [],
       "composition": {
         "cotton": 35,
         "polyester": 65,
@@ -1092,13 +1135,13 @@
     }
   },
   {
-    "id": "tkan-kg-337",
-    "slug": "tkan-kg-337",
+    "id": "kg-337",
+    "category": "medical",
+    "slug": "kg-337",
     "title": {
       "ua": "Тканина KG-337",
       "ru": "Ткань KG-337"
     },
-    "category": "medical",
     "isNew": false,
     "images": [],
     "description": {},
@@ -1107,6 +1150,7 @@
       "density": "195",
       "width": null,
       "colors": [],
+      "properties": [],
       "composition": {
         "cotton": 35,
         "polyester": 65,
@@ -1118,13 +1162,13 @@
     }
   },
   {
-    "id": "tkan-tr-med",
-    "slug": "tkan-tr-med",
+    "id": "tr-med",
+    "category": "medical",
+    "slug": "tr-med",
     "title": {
       "ua": "Тканина TR-MED",
       "ru": "Ткань TR-MED"
     },
-    "category": "medical",
     "isNew": false,
     "images": [],
     "description": {},
@@ -1133,6 +1177,7 @@
       "density": "195",
       "width": null,
       "colors": [],
+      "properties": [],
       "composition": {
         "cotton": 35,
         "polyester": 65,
@@ -1144,13 +1189,13 @@
     }
   },
   {
-    "id": "tkan-rc-194",
-    "slug": "tkan-rc-194",
+    "id": "rc-194",
+    "category": "medical",
+    "slug": "rc-194",
     "title": {
       "ua": "Тканина RC-194",
       "ru": "Ткань RC-194"
     },
-    "category": "medical",
     "isNew": false,
     "images": [],
     "description": {},
@@ -1159,6 +1204,7 @@
       "density": "194",
       "width": null,
       "colors": [],
+      "properties": [],
       "composition": {
         "cotton": 35,
         "polyester": 65,
@@ -1170,13 +1216,13 @@
     }
   },
   {
-    "id": "tkan-tr-2120",
-    "slug": "tkan-tr-2120",
+    "id": "tr-2120",
+    "category": "medical",
+    "slug": "tr-2120",
     "title": {
       "ua": "Тканина TR-2120",
       "ru": "Ткань TR-2120"
     },
-    "category": "medical",
     "isNew": false,
     "images": [],
     "description": {},
@@ -1185,6 +1231,7 @@
       "density": "200",
       "width": null,
       "colors": [],
+      "properties": [],
       "composition": {
         "cotton": 33,
         "polyester": 63,
@@ -1196,13 +1243,13 @@
     }
   },
   {
-    "id": "tkan-trs-48",
-    "slug": "tkan-trs-48",
+    "id": "trs-48",
+    "category": "medical",
+    "slug": "trs-48",
     "title": {
       "ua": "Тканина TRS-48",
       "ru": "Ткань TRS-48"
     },
-    "category": "medical",
     "isNew": false,
     "images": [],
     "description": {},
@@ -1211,6 +1258,7 @@
       "density": "200",
       "width": null,
       "colors": [],
+      "properties": [],
       "composition": {
         "cotton": 50,
         "polyester": 50,
@@ -1222,13 +1270,13 @@
     }
   },
   {
-    "id": "tkan-rc-215-spx",
-    "slug": "tkan-rc-215-spx",
+    "id": "rc-215-spx",
+    "category": "medical",
+    "slug": "rc-215-spx",
     "title": {
       "ua": "Тканина RC-215 SPX",
       "ru": "Ткань RC-215 SPX"
     },
-    "category": "medical",
     "isNew": false,
     "images": [],
     "description": {},
@@ -1237,6 +1285,7 @@
       "density": "215",
       "width": null,
       "colors": [],
+      "properties": [],
       "composition": {
         "cotton": 33,
         "polyester": 61,
@@ -1248,13 +1297,13 @@
     }
   },
   {
-    "id": "tkan-vvt-2163",
-    "slug": "tkan-vvt-2163",
+    "id": "vvt-2163",
+    "category": "medical",
+    "slug": "vvt-2163",
     "title": {
       "ua": "Тканина VVT-2163",
       "ru": "Ткань VVT-2163"
     },
-    "category": "medical",
     "isNew": false,
     "images": [],
     "description": {},
@@ -1263,6 +1312,7 @@
       "density": "210",
       "width": null,
       "colors": [],
+      "properties": [],
       "composition": {
         "cotton": 40,
         "polyester": 60,
@@ -1274,13 +1324,13 @@
     }
   },
   {
-    "id": "tkan-tr-163",
-    "slug": "tkan-tr-163",
+    "id": "tr-163",
+    "category": "medical",
+    "slug": "tr-163",
     "title": {
       "ua": "Тканина TR-163",
       "ru": "Ткань TR-163"
     },
-    "category": "medical",
     "isNew": false,
     "images": [],
     "description": {},
@@ -1289,6 +1339,7 @@
       "density": "163",
       "width": null,
       "colors": [],
+      "properties": [],
       "composition": {
         "cotton": 49.5,
         "polyester": 47.5,
@@ -1300,13 +1351,13 @@
     }
   },
   {
-    "id": "tkan-tr-50-lt",
-    "slug": "tkan-tr-50-lt",
+    "id": "tr-50-lt",
+    "category": "medical",
+    "slug": "tr-50-lt",
     "title": {
       "ua": "Тканина TR-50 LT",
       "ru": "Ткань TR-50 LT"
     },
-    "category": "medical",
     "isNew": false,
     "images": [],
     "description": {},
@@ -1315,6 +1366,7 @@
       "density": "145",
       "width": null,
       "colors": [],
+      "properties": [],
       "composition": {
         "cotton": 50,
         "polyester": 50,
@@ -1326,13 +1378,13 @@
     }
   },
   {
-    "id": "tkan-tr-50",
-    "slug": "tkan-tr-50",
+    "id": "tr-50",
+    "category": "medical",
+    "slug": "tr-50",
     "title": {
       "ua": "Тканина TR-50",
       "ru": "Ткань TR-50"
     },
-    "category": "medical",
     "isNew": false,
     "images": [],
     "description": {},
@@ -1341,6 +1393,7 @@
       "density": "180",
       "width": null,
       "colors": [],
+      "properties": [],
       "composition": {
         "cotton": 50,
         "polyester": 50,
@@ -1352,13 +1405,13 @@
     }
   },
   {
-    "id": "tkan-vfg-2160",
-    "slug": "tkan-vfg-2160",
+    "id": "vfg-2160",
+    "category": "medical",
+    "slug": "vfg-2160",
     "title": {
       "ua": "Тканина VFG-2160",
       "ru": "Ткань VFG-2160"
     },
-    "category": "medical",
     "isNew": false,
     "images": [],
     "description": {},
@@ -1367,6 +1420,7 @@
       "density": "175",
       "width": null,
       "colors": [],
+      "properties": [],
       "composition": {
         "cotton": 51,
         "polyester": 49,
@@ -1378,13 +1432,13 @@
     }
   },
   {
-    "id": "tkan-vlp-4206",
-    "slug": "tkan-vlp-4206",
+    "id": "vlp-4206",
+    "category": "medical",
+    "slug": "vlp-4206",
     "title": {
       "ua": "Тканина VLP-4206",
       "ru": "Ткань VLP-4206"
     },
-    "category": "medical",
     "isNew": false,
     "images": [],
     "description": {},
@@ -1393,6 +1447,7 @@
       "density": "140",
       "width": null,
       "colors": [],
+      "properties": [],
       "composition": {
         "cotton": 57,
         "polyester": 39,
@@ -1404,13 +1459,13 @@
     }
   },
   {
-    "id": "tkan-vvt-2164",
-    "slug": "tkan-vvt-2164",
+    "id": "vvt-2164",
+    "category": "medical",
+    "slug": "vvt-2164",
     "title": {
       "ua": "Тканина VVT-2164",
       "ru": "Ткань VVT-2164"
     },
-    "category": "medical",
     "isNew": false,
     "images": [],
     "description": {},
@@ -1419,6 +1474,7 @@
       "density": "210",
       "width": null,
       "colors": [],
+      "properties": [],
       "composition": {
         "cotton": 60,
         "polyester": 40,
@@ -1430,13 +1486,13 @@
     }
   },
   {
-    "id": "tkan-eg-225",
-    "slug": "tkan-eg-225",
+    "id": "eg-225",
+    "category": "medical",
+    "slug": "eg-225",
     "title": {
       "ua": "Тканина EG-225",
       "ru": "Ткань EG-225"
     },
-    "category": "medical",
     "isNew": false,
     "images": [],
     "description": {},
@@ -1445,6 +1501,7 @@
       "density": "225",
       "width": null,
       "colors": [],
+      "properties": [],
       "composition": {
         "cotton": 0,
         "polyester": 65,
@@ -1456,13 +1513,13 @@
     }
   },
   {
-    "id": "tkan-lt-3084",
-    "slug": "tkan-lt-3084",
+    "id": "lt-3084",
+    "category": "medical",
+    "slug": "lt-3084",
     "title": {
       "ua": "Тканина LT-3084",
       "ru": "Ткань LT-3084"
     },
-    "category": "medical",
     "isNew": false,
     "images": [],
     "description": {},
@@ -1471,6 +1528,7 @@
       "density": "150",
       "width": null,
       "colors": [],
+      "properties": [],
       "composition": {
         "cotton": 0,
         "polyester": 100,
@@ -1483,12 +1541,12 @@
   },
   {
     "id": "tkan-bg-9030",
+    "category": "industrial",
     "slug": "tkan-bg-9030",
     "title": {
       "ua": "Тканина BG 9030",
       "ru": "Ткань BG 9030"
     },
-    "category": "industrial",
     "isNew": false,
     "images": [],
     "description": {},
@@ -1499,6 +1557,7 @@
       "colors": [
         "79"
       ],
+      "properties": [],
       "composition": {
         "cotton": 20,
         "polyester": 0,
@@ -1511,12 +1570,12 @@
   },
   {
     "id": "tkan-bg-9035",
+    "category": "industrial",
     "slug": "tkan-bg-9035",
     "title": {
       "ua": "Тканина BG 9035",
       "ru": "Ткань BG 9035"
     },
-    "category": "industrial",
     "isNew": false,
     "images": [],
     "description": {},
@@ -1527,6 +1586,7 @@
       "colors": [
         "79"
       ],
+      "properties": [],
       "composition": {
         "cotton": 20,
         "polyester": 0,
@@ -1539,12 +1599,12 @@
   },
   {
     "id": "tkan-bg-9045",
+    "category": "industrial",
     "slug": "tkan-bg-9045",
     "title": {
       "ua": "Тканина BG 9045",
       "ru": "Ткань BG 9045"
     },
-    "category": "industrial",
     "isNew": false,
     "images": [],
     "description": {},
@@ -1555,6 +1615,7 @@
       "colors": [
         "79"
       ],
+      "properties": [],
       "composition": {
         "cotton": 20,
         "polyester": 0,
@@ -1567,12 +1628,12 @@
   },
   {
     "id": "tkan-bg-9500",
+    "category": "industrial",
     "slug": "tkan-bg-9500",
     "title": {
       "ua": "Тканина BG 9500",
       "ru": "Ткань BG 9500"
     },
-    "category": "industrial",
     "isNew": false,
     "images": [],
     "description": {},
@@ -1583,6 +1644,7 @@
       "colors": [
         "64"
       ],
+      "properties": [],
       "composition": {
         "cotton": 35,
         "polyester": 0,
@@ -1595,12 +1657,12 @@
   },
   {
     "id": "tkan-bg-9600",
+    "category": "industrial",
     "slug": "tkan-bg-9600",
     "title": {
       "ua": "Тканина BG 9600",
       "ru": "Ткань BG 9600"
     },
-    "category": "industrial",
     "isNew": false,
     "images": [],
     "description": {},
@@ -1611,6 +1673,7 @@
       "colors": [
         "64"
       ],
+      "properties": [],
       "composition": {
         "cotton": 35,
         "polyester": 0,
@@ -1623,12 +1686,12 @@
   },
   {
     "id": "tkan-bd-9011",
+    "category": "industrial",
     "slug": "tkan-bd-9011",
     "title": {
       "ua": "Тканина BD 9011",
       "ru": "Ткань BD 9011"
     },
-    "category": "industrial",
     "isNew": false,
     "images": [],
     "description": {},
@@ -1639,6 +1702,7 @@
       "colors": [
         "100"
       ],
+      "properties": [],
       "composition": {
         "cotton": 0,
         "polyester": 0,
@@ -1651,12 +1715,12 @@
   },
   {
     "id": "tkan-bd-9311",
+    "category": "industrial",
     "slug": "tkan-bd-9311",
     "title": {
       "ua": "Тканина BD 9311",
       "ru": "Ткань BD 9311"
     },
-    "category": "industrial",
     "isNew": false,
     "images": [],
     "description": {},
@@ -1667,6 +1731,7 @@
       "colors": [
         "99"
       ],
+      "properties": [],
       "composition": {
         "cotton": 0,
         "polyester": 0,
@@ -1679,12 +1744,12 @@
   },
   {
     "id": "tkan-ks-52",
+    "category": "industrial",
     "slug": "tkan-ks-52",
     "title": {
       "ua": "Тканина KS52",
       "ru": "Ткань KS52"
     },
-    "category": "industrial",
     "isNew": false,
     "images": [],
     "description": {},
@@ -1695,6 +1760,7 @@
       "colors": [
         "100"
       ],
+      "properties": [],
       "composition": {
         "cotton": 0,
         "polyester": 0,
@@ -1707,12 +1773,12 @@
   },
   {
     "id": "tkan-xc-9001",
+    "category": "industrial",
     "slug": "tkan-xc-9001",
     "title": {
       "ua": "Тканина XC 9001",
       "ru": "Ткань XC 9001"
     },
-    "category": "industrial",
     "isNew": false,
     "images": [],
     "description": {},
@@ -1723,6 +1789,7 @@
       "colors": [
         "84"
       ],
+      "properties": [],
       "composition": {
         "cotton": 0,
         "polyester": 0,
@@ -1735,12 +1802,12 @@
   },
   {
     "id": "tkan-xa-9001",
+    "category": "industrial",
     "slug": "tkan-xa-9001",
     "title": {
       "ua": "Тканина XA 9001",
       "ru": "Ткань XA 9001"
     },
-    "category": "industrial",
     "isNew": false,
     "images": [],
     "description": {},
@@ -1751,6 +1818,7 @@
       "colors": [
         "45"
       ],
+      "properties": [],
       "composition": {
         "cotton": 0,
         "polyester": 0,
@@ -1763,12 +1831,12 @@
   },
   {
     "id": "tkan-xb-9340",
+    "category": "industrial",
     "slug": "tkan-xb-9340",
     "title": {
       "ua": "Тканина XB 9340",
       "ru": "Ткань XB 9340"
     },
-    "category": "industrial",
     "isNew": false,
     "images": [],
     "description": {},
@@ -1779,6 +1847,7 @@
       "colors": [
         "74"
       ],
+      "properties": [],
       "composition": {
         "cotton": 0,
         "polyester": 0,
@@ -1791,12 +1860,12 @@
   },
   {
     "id": "tkan-xl-9300",
+    "category": "industrial",
     "slug": "tkan-xl-9300",
     "title": {
       "ua": "Тканина XL 9300",
       "ru": "Ткань XL 9300"
     },
-    "category": "industrial",
     "isNew": false,
     "images": [],
     "description": {},
@@ -1807,6 +1876,7 @@
       "colors": [
         "0"
       ],
+      "properties": [],
       "composition": {
         "cotton": 0,
         "polyester": 0,
@@ -1819,12 +1889,12 @@
   },
   {
     "id": "tkan-xl-9325",
+    "category": "industrial",
     "slug": "tkan-xl-9325",
     "title": {
       "ua": "Тканина XL 9325",
       "ru": "Ткань XL 9325"
     },
-    "category": "industrial",
     "isNew": false,
     "images": [],
     "description": {},
@@ -1835,6 +1905,7 @@
       "colors": [
         "0"
       ],
+      "properties": [],
       "composition": {
         "cotton": 0,
         "polyester": 0,
@@ -1847,12 +1918,12 @@
   },
   {
     "id": "tkan-av-9400",
+    "category": "industrial",
     "slug": "tkan-av-9400",
     "title": {
       "ua": "Тканина AV 9400",
       "ru": "Ткань AV 9400"
     },
-    "category": "industrial",
     "isNew": false,
     "images": [],
     "description": {},
@@ -1863,6 +1934,7 @@
       "colors": [
         "0"
       ],
+      "properties": [],
       "composition": {
         "cotton": 0,
         "polyester": 0,
@@ -1875,12 +1947,12 @@
   },
   {
     "id": "tkan-bv-9120",
+    "category": "industrial",
     "slug": "tkan-bv-9120",
     "title": {
       "ua": "Тканина BV 9120",
       "ru": "Ткань BV 9120"
     },
-    "category": "industrial",
     "isNew": false,
     "images": [],
     "description": {},
@@ -1891,6 +1963,7 @@
       "colors": [
         "0"
       ],
+      "properties": [],
       "composition": {
         "cotton": 0,
         "polyester": 0,
@@ -1903,12 +1976,12 @@
   },
   {
     "id": "tkan-fr-9129",
+    "category": "industrial",
     "slug": "tkan-fr-9129",
     "title": {
       "ua": "Тканина 9129 FR",
       "ru": "Ткань 9129 FR"
     },
-    "category": "industrial",
     "isNew": false,
     "images": [],
     "description": {},
@@ -1919,6 +1992,7 @@
       "colors": [
         "42"
       ],
+      "properties": [],
       "composition": {
         "cotton": 6,
         "polyester": 0,
@@ -1931,12 +2005,12 @@
   },
   {
     "id": "tkan-tr-2120",
+    "category": "personal",
     "slug": "tkan-tr-2120",
     "title": {
       "ua": "Тканина TR-2120",
       "ru": "Ткань TR-2120"
     },
-    "category": "personal",
     "isNew": false,
     "images": [],
     "description": {},
@@ -1947,6 +2021,7 @@
       "colors": [
         "33"
       ],
+      "properties": [],
       "composition": {
         "cotton": 63,
         "polyester": 4,
@@ -1959,12 +2034,12 @@
   },
   {
     "id": "tkan-rc-215-spx",
+    "category": "personal",
     "slug": "tkan-rc-215-spx",
     "title": {
       "ua": "Тканина RC-215 SPX",
       "ru": "Ткань RC-215 SPX"
     },
-    "category": "personal",
     "isNew": false,
     "images": [],
     "description": {},
@@ -1975,6 +2050,7 @@
       "colors": [
         "33"
       ],
+      "properties": [],
       "composition": {
         "cotton": 61,
         "polyester": 6,
@@ -1987,12 +2063,12 @@
   },
   {
     "id": "tkan-tr-150",
+    "category": "personal",
     "slug": "tkan-tr-150",
     "title": {
       "ua": "Тканина TR-150",
       "ru": "Ткань TR-150"
     },
-    "category": "personal",
     "isNew": false,
     "images": [],
     "description": {},
@@ -2003,6 +2079,7 @@
       "colors": [
         "35"
       ],
+      "properties": [],
       "composition": {
         "cotton": 65,
         "polyester": 0,
@@ -2015,12 +2092,12 @@
   },
   {
     "id": "tkan-kg-027",
+    "category": "personal",
     "slug": "tkan-kg-027",
     "title": {
       "ua": "Тканина KG-027",
       "ru": "Ткань KG-027"
     },
-    "category": "personal",
     "isNew": false,
     "images": [],
     "description": {},
@@ -2031,6 +2108,7 @@
       "colors": [
         "35"
       ],
+      "properties": [],
       "composition": {
         "cotton": 65,
         "polyester": 0,
@@ -2043,12 +2121,12 @@
   },
   {
     "id": "tkan-9541",
+    "category": "personal",
     "slug": "tkan-9541",
     "title": {
       "ua": "Тканина 9541",
       "ru": "Ткань 9541"
     },
-    "category": "personal",
     "isNew": false,
     "images": [],
     "description": {},
@@ -2059,6 +2137,7 @@
       "colors": [
         "35"
       ],
+      "properties": [],
       "composition": {
         "cotton": 65,
         "polyester": 0,
@@ -2071,12 +2150,12 @@
   },
   {
     "id": "tkan-9515",
+    "category": "personal",
     "slug": "tkan-9515",
     "title": {
       "ua": "Тканина 9515",
       "ru": "Ткань 9515"
     },
-    "category": "personal",
     "isNew": false,
     "images": [],
     "description": {},
@@ -2087,6 +2166,7 @@
       "colors": [
         "35"
       ],
+      "properties": [],
       "composition": {
         "cotton": 65,
         "polyester": 0,
@@ -2099,12 +2179,12 @@
   },
   {
     "id": "tkan-rc-194",
+    "category": "personal",
     "slug": "tkan-rc-194",
     "title": {
       "ua": "Тканина RC-194",
       "ru": "Ткань RC-194"
     },
-    "category": "personal",
     "isNew": false,
     "images": [],
     "description": {},
@@ -2115,6 +2195,7 @@
       "colors": [
         "35"
       ],
+      "properties": [],
       "composition": {
         "cotton": 65,
         "polyester": 0,
@@ -2127,12 +2208,12 @@
   },
   {
     "id": "tkan-kg-337",
+    "category": "personal",
     "slug": "tkan-kg-337",
     "title": {
       "ua": "Тканина KG-337",
       "ru": "Ткань KG-337"
     },
-    "category": "personal",
     "isNew": false,
     "images": [],
     "description": {},
@@ -2143,6 +2224,7 @@
       "colors": [
         "35"
       ],
+      "properties": [],
       "composition": {
         "cotton": 65,
         "polyester": 0,
@@ -2155,12 +2237,12 @@
   },
   {
     "id": "tkan-tr-med",
+    "category": "personal",
     "slug": "tkan-tr-med",
     "title": {
       "ua": "Тканина TR-MED",
       "ru": "Ткань TR-MED"
     },
-    "category": "personal",
     "isNew": false,
     "images": [],
     "description": {},
@@ -2171,6 +2253,7 @@
       "colors": [
         "35"
       ],
+      "properties": [],
       "composition": {
         "cotton": 65,
         "polyester": 0,
@@ -2183,12 +2266,12 @@
   },
   {
     "id": "tkan-kg-317",
+    "category": "personal",
     "slug": "tkan-kg-317",
     "title": {
       "ua": "Тканина KG-317",
       "ru": "Ткань KG-317"
     },
-    "category": "personal",
     "isNew": false,
     "images": [],
     "description": {},
@@ -2199,6 +2282,7 @@
       "colors": [
         "35"
       ],
+      "properties": [],
       "composition": {
         "cotton": 65,
         "polyester": 0,
@@ -2211,12 +2295,12 @@
   },
   {
     "id": "tkan-rc-234",
+    "category": "personal",
     "slug": "tkan-rc-234",
     "title": {
       "ua": "Тканина RC-234",
       "ru": "Ткань RC-234"
     },
-    "category": "personal",
     "isNew": false,
     "images": [],
     "description": {},
@@ -2227,6 +2311,7 @@
       "colors": [
         "35"
       ],
+      "properties": [],
       "composition": {
         "cotton": 65,
         "polyester": 0,
@@ -2239,12 +2324,12 @@
   },
   {
     "id": "tkan-kg-308",
+    "category": "personal",
     "slug": "tkan-kg-308",
     "title": {
       "ua": "Тканина KG-308",
       "ru": "Ткань KG-308"
     },
-    "category": "personal",
     "isNew": false,
     "images": [],
     "description": {},
@@ -2255,6 +2340,7 @@
       "colors": [
         "35"
       ],
+      "properties": [],
       "composition": {
         "cotton": 65,
         "polyester": 0,
@@ -2267,12 +2353,12 @@
   },
   {
     "id": "tkan-tr-35",
+    "category": "personal",
     "slug": "tkan-tr-35",
     "title": {
       "ua": "Тканина TR-35",
       "ru": "Ткань TR-35"
     },
-    "category": "personal",
     "isNew": false,
     "images": [],
     "description": {},
@@ -2283,6 +2369,7 @@
       "colors": [
         "35"
       ],
+      "properties": [],
       "composition": {
         "cotton": 65,
         "polyester": 0,
@@ -2295,12 +2382,12 @@
   },
   {
     "id": "tkan-9511",
+    "category": "personal",
     "slug": "tkan-9511",
     "title": {
       "ua": "Тканина 9511",
       "ru": "Ткань 9511"
     },
-    "category": "personal",
     "isNew": false,
     "images": [],
     "description": {},
@@ -2311,6 +2398,7 @@
       "colors": [
         "35"
       ],
+      "properties": [],
       "composition": {
         "cotton": 65,
         "polyester": 0,
@@ -2323,12 +2411,12 @@
   },
   {
     "id": "tkan-vvt-2163",
+    "category": "personal",
     "slug": "tkan-vvt-2163",
     "title": {
       "ua": "Тканина VVT-2163",
       "ru": "Ткань VVT-2163"
     },
-    "category": "personal",
     "isNew": false,
     "images": [],
     "description": {},
@@ -2339,6 +2427,7 @@
       "colors": [
         "40"
       ],
+      "properties": [],
       "composition": {
         "cotton": 60,
         "polyester": 0,
@@ -2351,12 +2440,12 @@
   },
   {
     "id": "tkan-tr-50-lt",
+    "category": "personal",
     "slug": "tkan-tr-50-lt",
     "title": {
       "ua": "Тканина TR-50 LT",
       "ru": "Ткань TR-50 LT"
     },
-    "category": "personal",
     "isNew": false,
     "images": [],
     "description": {},
@@ -2367,6 +2456,7 @@
       "colors": [
         "50"
       ],
+      "properties": [],
       "composition": {
         "cotton": 50,
         "polyester": 0,
@@ -2379,12 +2469,12 @@
   },
   {
     "id": "tkan-tr-50",
+    "category": "personal",
     "slug": "tkan-tr-50",
     "title": {
       "ua": "Тканина TR-50",
       "ru": "Ткань TR-50"
     },
-    "category": "personal",
     "isNew": false,
     "images": [],
     "description": {},
@@ -2395,6 +2485,7 @@
       "colors": [
         "50"
       ],
+      "properties": [],
       "composition": {
         "cotton": 50,
         "polyester": 0,
@@ -2407,12 +2498,12 @@
   },
   {
     "id": "tkan-trs-48",
+    "category": "personal",
     "slug": "tkan-trs-48",
     "title": {
       "ua": "Тканина TRS-48",
       "ru": "Ткань TRS-48"
     },
-    "category": "personal",
     "isNew": false,
     "images": [],
     "description": {},
@@ -2423,6 +2514,7 @@
       "colors": [
         "50"
       ],
+      "properties": [],
       "composition": {
         "cotton": 50,
         "polyester": 0,
@@ -2435,12 +2527,12 @@
   },
   {
     "id": "tkan-tr-163",
+    "category": "personal",
     "slug": "tkan-tr-163",
     "title": {
       "ua": "Тканина TR-163",
       "ru": "Ткань TR-163"
     },
-    "category": "personal",
     "isNew": false,
     "images": [],
     "description": {},
@@ -2451,6 +2543,7 @@
       "colors": [
         "49.5"
       ],
+      "properties": [],
       "composition": {
         "cotton": 47.5,
         "polyester": 3,
@@ -2463,12 +2556,12 @@
   },
   {
     "id": "tkan-vfg-2160",
+    "category": "personal",
     "slug": "tkan-vfg-2160",
     "title": {
       "ua": "Тканина VFG-2160",
       "ru": "Ткань VFG-2160"
     },
-    "category": "personal",
     "isNew": false,
     "images": [],
     "description": {},
@@ -2479,6 +2572,7 @@
       "colors": [
         "51"
       ],
+      "properties": [],
       "composition": {
         "cotton": 49,
         "polyester": 0,
@@ -2491,12 +2585,12 @@
   },
   {
     "id": "tkan-3928",
+    "category": "personal",
     "slug": "tkan-3928",
     "title": {
       "ua": "Тканина 3928",
       "ru": "Ткань 3928"
     },
-    "category": "personal",
     "isNew": false,
     "images": [],
     "description": {},
@@ -2507,6 +2601,7 @@
       "colors": [
         "48"
       ],
+      "properties": [],
       "composition": {
         "cotton": 48,
         "polyester": 4,
@@ -2519,12 +2614,12 @@
   },
   {
     "id": "tkan-vlp-4206",
+    "category": "personal",
     "slug": "tkan-vlp-4206",
     "title": {
       "ua": "Тканина VLP-4206",
       "ru": "Ткань VLP-4206"
     },
-    "category": "personal",
     "isNew": false,
     "images": [],
     "description": {},
@@ -2535,6 +2630,7 @@
       "colors": [
         "57"
       ],
+      "properties": [],
       "composition": {
         "cotton": 39,
         "polyester": 4,
@@ -2547,12 +2643,12 @@
   },
   {
     "id": "tkan-vvt-2164",
+    "category": "personal",
     "slug": "tkan-vvt-2164",
     "title": {
       "ua": "Тканина VVT-2164",
       "ru": "Ткань VVT-2164"
     },
-    "category": "personal",
     "isNew": false,
     "images": [],
     "description": {},
@@ -2563,6 +2659,7 @@
       "colors": [
         "60"
       ],
+      "properties": [],
       "composition": {
         "cotton": 40,
         "polyester": 0,
@@ -2575,12 +2672,12 @@
   },
   {
     "id": "tkan-cotton-twill-250",
+    "category": "personal",
     "slug": "tkan-cotton-twill-250",
     "title": {
       "ua": "Тканина Cotton Twill",
       "ru": "Ткань Cotton Twill"
     },
-    "category": "personal",
     "isNew": false,
     "images": [],
     "description": {},
@@ -2591,6 +2688,7 @@
       "colors": [
         "65"
       ],
+      "properties": [],
       "composition": {
         "cotton": 35,
         "polyester": 0,
@@ -2603,12 +2701,12 @@
   },
   {
     "id": "tkan-8852",
+    "category": "personal",
     "slug": "tkan-8852",
     "title": {
       "ua": "Тканина 8852",
       "ru": "Ткань 8852"
     },
-    "category": "personal",
     "isNew": false,
     "images": [],
     "description": {},
@@ -2619,6 +2717,7 @@
       "colors": [
         "0"
       ],
+      "properties": [],
       "composition": {
         "cotton": 80,
         "polyester": 5,
@@ -2631,12 +2730,12 @@
   },
   {
     "id": "tkan-washed-denim-stretch",
+    "category": "personal",
     "slug": "tkan-washed-denim-stretch",
     "title": {
       "ua": "Тканина Washed Denim Stretch",
       "ru": "Ткань Washed Denim Stretch"
     },
-    "category": "personal",
     "isNew": false,
     "images": [],
     "description": {},
@@ -2647,6 +2746,7 @@
       "colors": [
         "80"
       ],
+      "properties": [],
       "composition": {
         "cotton": 18,
         "polyester": 2,
@@ -2659,12 +2759,12 @@
   },
   {
     "id": "tkan-5076",
+    "category": "personal",
     "slug": "tkan-5076",
     "title": {
       "ua": "Тканина 5076",
       "ru": "Ткань 5076"
     },
-    "category": "personal",
     "isNew": false,
     "images": [],
     "description": {},
@@ -2675,6 +2775,7 @@
       "colors": [
         "96"
       ],
+      "properties": [],
       "composition": {
         "cotton": 0,
         "polyester": 4,
@@ -2687,12 +2788,12 @@
   },
   {
     "id": "tkan-l-859",
+    "category": "personal",
     "slug": "tkan-l-859",
     "title": {
       "ua": "Тканина L 859",
       "ru": "Ткань L 859"
     },
-    "category": "personal",
     "isNew": false,
     "images": [],
     "description": {},
@@ -2703,6 +2804,7 @@
       "colors": [
         "100"
       ],
+      "properties": [],
       "composition": {
         "cotton": 0,
         "polyester": 0,
@@ -2715,12 +2817,12 @@
   },
   {
     "id": "tkan-ct-1666",
+    "category": "personal",
     "slug": "tkan-ct-1666",
     "title": {
       "ua": "Тканина CT 1666",
       "ru": "Ткань CT 1666"
     },
-    "category": "personal",
     "isNew": false,
     "images": [],
     "description": {},
@@ -2731,6 +2833,7 @@
       "colors": [
         "100"
       ],
+      "properties": [],
       "composition": {
         "cotton": 0,
         "polyester": 0,
@@ -2743,12 +2846,12 @@
   },
   {
     "id": "tkan-rc-250-ct",
+    "category": "personal",
     "slug": "tkan-rc-250-ct",
     "title": {
       "ua": "Тканина RC 250 CT",
       "ru": "Ткань RC 250 CT"
     },
-    "category": "personal",
     "isNew": false,
     "images": [],
     "description": {},
@@ -2759,6 +2862,7 @@
       "colors": [
         "100"
       ],
+      "properties": [],
       "composition": {
         "cotton": 0,
         "polyester": 0,
@@ -2771,12 +2875,12 @@
   },
   {
     "id": "tkan-canvas-9060",
+    "category": "personal",
     "slug": "tkan-canvas-9060",
     "title": {
       "ua": "Тканина Canvas 9060",
       "ru": "Ткань Canvas 9060"
     },
-    "category": "personal",
     "isNew": false,
     "images": [],
     "description": {},
@@ -2787,6 +2891,7 @@
       "colors": [
         "100"
       ],
+      "properties": [],
       "composition": {
         "cotton": 0,
         "polyester": 0,
@@ -2799,12 +2904,12 @@
   },
   {
     "id": "tkan-l-389",
+    "category": "personal",
     "slug": "tkan-l-389",
     "title": {
       "ua": "Тканина L 389",
       "ru": "Ткань L 389"
     },
-    "category": "personal",
     "isNew": false,
     "images": [],
     "description": {},
@@ -2815,6 +2920,7 @@
       "colors": [
         "100"
       ],
+      "properties": [],
       "composition": {
         "cotton": 0,
         "polyester": 0,
@@ -2827,12 +2933,12 @@
   },
   {
     "id": "tkan-9318",
+    "category": "personal",
     "slug": "tkan-9318",
     "title": {
       "ua": "Тканина 9318",
       "ru": "Ткань 9318"
     },
-    "category": "personal",
     "isNew": false,
     "images": [],
     "description": {},
@@ -2843,6 +2949,7 @@
       "colors": [
         "100"
       ],
+      "properties": [],
       "composition": {
         "cotton": 0,
         "polyester": 0,
@@ -2855,12 +2962,12 @@
   },
   {
     "id": "tkan-l-714",
+    "category": "personal",
     "slug": "tkan-l-714",
     "title": {
       "ua": "Тканина L 714",
       "ru": "Ткань L 714"
     },
-    "category": "personal",
     "isNew": false,
     "images": [],
     "description": {},
@@ -2871,6 +2978,7 @@
       "colors": [
         "97"
       ],
+      "properties": [],
       "composition": {
         "cotton": 0,
         "polyester": 3,
@@ -2883,12 +2991,12 @@
   },
   {
     "id": "tkan-canvas-wt",
+    "category": "personal",
     "slug": "tkan-canvas-wt",
     "title": {
       "ua": "Тканина Canvas WT",
       "ru": "Ткань Canvas WT"
     },
-    "category": "personal",
     "isNew": false,
     "images": [],
     "description": {},
@@ -2899,6 +3007,7 @@
       "colors": [
         "100"
       ],
+      "properties": [],
       "composition": {
         "cotton": 0,
         "polyester": 0,
@@ -2911,12 +3020,12 @@
   },
   {
     "id": "tkan-lt-3084",
+    "category": "personal",
     "slug": "tkan-lt-3084",
     "title": {
       "ua": "Тканина LT-3084",
       "ru": "Ткань LT-3084"
     },
-    "category": "personal",
     "isNew": false,
     "images": [],
     "description": {},
@@ -2927,6 +3036,7 @@
       "colors": [
         "0"
       ],
+      "properties": [],
       "composition": {
         "cotton": 100,
         "polyester": 0,
@@ -2939,12 +3049,12 @@
   },
   {
     "id": "tkan-8878",
+    "category": "personal",
     "slug": "tkan-8878",
     "title": {
       "ua": "Тканина 8878",
       "ru": "Ткань 8878"
     },
-    "category": "personal",
     "isNew": false,
     "images": [],
     "description": {},
@@ -2955,6 +3065,7 @@
       "colors": [
         "0"
       ],
+      "properties": [],
       "composition": {
         "cotton": 80,
         "polyester": 5,
@@ -2967,12 +3078,12 @@
   },
   {
     "id": "tkan-rc-206-ray",
+    "category": "personal",
     "slug": "tkan-rc-206-ray",
     "title": {
       "ua": "Тканина RC 206 RAY",
       "ru": "Ткань RC 206 RAY"
     },
-    "category": "personal",
     "isNew": false,
     "images": [],
     "description": {},
@@ -2983,6 +3094,7 @@
       "colors": [
         "0"
       ],
+      "properties": [],
       "composition": {
         "cotton": 40,
         "polyester": 0,
@@ -2995,12 +3107,12 @@
   },
   {
     "id": "tkan-9652",
+    "category": "personal",
     "slug": "tkan-9652",
     "title": {
       "ua": "Тканина 9652",
       "ru": "Ткань 9652"
     },
-    "category": "personal",
     "isNew": false,
     "images": [],
     "description": {},
@@ -3011,6 +3123,7 @@
       "colors": [
         "35"
       ],
+      "properties": [],
       "composition": {
         "cotton": 65,
         "polyester": 0,
@@ -3023,12 +3136,12 @@
   },
   {
     "id": "tkan-9641",
+    "category": "personal",
     "slug": "tkan-9641",
     "title": {
       "ua": "Тканина 9641",
       "ru": "Ткань 9641"
     },
-    "category": "personal",
     "isNew": false,
     "images": [],
     "description": {},
@@ -3039,6 +3152,7 @@
       "colors": [
         "35"
       ],
+      "properties": [],
       "composition": {
         "cotton": 65,
         "polyester": 0,
@@ -3051,12 +3165,12 @@
   },
   {
     "id": "tkan-9651",
+    "category": "personal",
     "slug": "tkan-9651",
     "title": {
       "ua": "Тканина 9651",
       "ru": "Ткань 9651"
     },
-    "category": "personal",
     "isNew": false,
     "images": [],
     "description": {},
@@ -3067,6 +3181,7 @@
       "colors": [
         "35"
       ],
+      "properties": [],
       "composition": {
         "cotton": 65,
         "polyester": 0,
@@ -3079,12 +3194,12 @@
   },
   {
     "id": "tkan-9653",
+    "category": "personal",
     "slug": "tkan-9653",
     "title": {
       "ua": "Тканина 9653",
       "ru": "Ткань 9653"
     },
-    "category": "personal",
     "isNew": false,
     "images": [],
     "description": {},
@@ -3095,6 +3210,7 @@
       "colors": [
         "35"
       ],
+      "properties": [],
       "composition": {
         "cotton": 65,
         "polyester": 0,
@@ -3107,12 +3223,12 @@
   },
   {
     "id": "tkan-t045",
+    "category": "personal",
     "slug": "tkan-t045",
     "title": {
       "ua": "Тканина T045",
       "ru": "Ткань T045"
     },
-    "category": "personal",
     "isNew": false,
     "images": [],
     "description": {},
@@ -3123,6 +3239,7 @@
       "colors": [
         "35"
       ],
+      "properties": [],
       "composition": {
         "cotton": 65,
         "polyester": 0,
@@ -3135,12 +3252,12 @@
   },
   {
     "id": "bg-9035",
+    "category": "fire",
     "slug": "bg-9035",
     "title": {
       "ua": "Тканина BG 9035",
       "ru": "Ткань BG 9035"
     },
-    "category": "fire",
     "isNew": false,
     "images": [],
     "description": {
@@ -3152,6 +3269,7 @@
       "density": "350",
       "width": null,
       "colors": [],
+      "properties": [],
       "composition": {
         "cotton": 79,
         "polyester": 20,
@@ -3164,12 +3282,12 @@
   },
   {
     "id": "bg-9045",
+    "category": "fire",
     "slug": "bg-9045",
     "title": {
       "ua": "Тканина BG 9045",
       "ru": "Ткань BG 9045"
     },
-    "category": "fire",
     "isNew": false,
     "images": [],
     "description": {
@@ -3181,6 +3299,7 @@
       "density": "450",
       "width": null,
       "colors": [],
+      "properties": [],
       "composition": {
         "cotton": 79,
         "polyester": 20,
@@ -3193,12 +3312,12 @@
   },
   {
     "id": "bg-9500",
+    "category": "fire",
     "slug": "bg-9500",
     "title": {
       "ua": "Тканина BG 9500",
       "ru": "Ткань BG 9500"
     },
-    "category": "fire",
     "isNew": false,
     "images": [],
     "description": {
@@ -3210,6 +3329,7 @@
       "density": "350",
       "width": null,
       "colors": [],
+      "properties": [],
       "composition": {
         "cotton": 64,
         "polyester": 35,
@@ -3222,12 +3342,12 @@
   },
   {
     "id": "ks52",
+    "category": "fire",
     "slug": "ks52",
     "title": {
       "ua": "Тканина KS52",
       "ru": "Ткань KS52"
     },
-    "category": "fire",
     "isNew": false,
     "images": [],
     "description": {
@@ -3239,6 +3359,7 @@
       "density": "335",
       "width": null,
       "colors": [],
+      "properties": [],
       "composition": {
         "cotton": 100,
         "polyester": 0,
@@ -3251,12 +3372,12 @@
   },
   {
     "id": "xa-9001",
+    "category": "fire",
     "slug": "xa-9001",
     "title": {
       "ua": "Тканина XA 9001",
       "ru": "Ткань XA 9001"
     },
-    "category": "fire",
     "isNew": false,
     "images": [],
     "description": {
@@ -3268,6 +3389,7 @@
       "density": "320",
       "width": null,
       "colors": [],
+      "properties": [],
       "composition": {
         "cotton": 45,
         "polyester": 0,
@@ -3280,12 +3402,12 @@
   },
   {
     "id": "xb-9340",
+    "category": "fire",
     "slug": "xb-9340",
     "title": {
       "ua": "Тканина XB 9340",
       "ru": "Ткань XB 9340"
     },
-    "category": "fire",
     "isNew": false,
     "images": [],
     "description": {
@@ -3297,6 +3419,7 @@
       "density": "340",
       "width": null,
       "colors": [],
+      "properties": [],
       "composition": {
         "cotton": 74,
         "polyester": 0,
@@ -3309,12 +3432,12 @@
   },
   {
     "id": "xl-9300",
+    "category": "fire",
     "slug": "xl-9300",
     "title": {
       "ua": "Тканина XL 9300",
       "ru": "Ткань XL 9300"
     },
-    "category": "fire",
     "isNew": false,
     "images": [],
     "description": {
@@ -3326,6 +3449,7 @@
       "density": "300",
       "width": null,
       "colors": [],
+      "properties": [],
       "composition": {
         "cotton": 0,
         "polyester": 0,
@@ -3338,12 +3462,12 @@
   },
   {
     "id": "xl-9325",
+    "category": "fire",
     "slug": "xl-9325",
     "title": {
       "ua": "Тканина XL 9325",
       "ru": "Ткань XL 9325"
     },
-    "category": "fire",
     "isNew": false,
     "images": [],
     "description": {
@@ -3355,6 +3479,7 @@
       "density": "325",
       "width": null,
       "colors": [],
+      "properties": [],
       "composition": {
         "cotton": 0,
         "polyester": 0,
@@ -3367,12 +3492,12 @@
   },
   {
     "id": "av-9400",
+    "category": "fire",
     "slug": "av-9400",
     "title": {
       "ua": "Тканина AV 9400",
       "ru": "Ткань AV 9400"
     },
-    "category": "fire",
     "isNew": false,
     "images": [],
     "description": {
@@ -3384,6 +3509,7 @@
       "density": "200",
       "width": null,
       "colors": [],
+      "properties": [],
       "composition": {
         "cotton": 0,
         "polyester": 0,
@@ -3396,12 +3522,12 @@
   },
   {
     "id": "bv-9120",
+    "category": "fire",
     "slug": "bv-9120",
     "title": {
       "ua": "Тканина BV 9120",
       "ru": "Ткань BV 9120"
     },
-    "category": "fire",
     "isNew": false,
     "images": [],
     "description": {
@@ -3413,6 +3539,7 @@
       "density": "265",
       "width": null,
       "colors": [],
+      "properties": [],
       "composition": {
         "cotton": 0,
         "polyester": 0,
@@ -3425,12 +3552,12 @@
   },
   {
     "id": "pbi-peak5",
+    "category": "fire",
     "slug": "pbi-peak5",
     "title": {
       "ua": "Тканина PBI® Peak5®",
       "ru": "Ткань PBI® Peak5®"
     },
-    "category": "fire",
     "isNew": false,
     "images": [],
     "description": {
@@ -3442,6 +3569,7 @@
       "density": "180",
       "width": null,
       "colors": [],
+      "properties": [],
       "composition": {
         "cotton": 0,
         "polyester": 0,
@@ -3454,12 +3582,12 @@
   },
   {
     "id": "defender-m---cq-760",
+    "category": "fire",
     "slug": "defender-m---cq-760",
     "title": {
       "ua": "Тканина Defender® M - CQ 760",
       "ru": "Ткань Defender® M - CQ 760"
     },
-    "category": "fire",
     "isNew": false,
     "images": [],
     "description": {
@@ -3471,6 +3599,7 @@
       "density": "220",
       "width": null,
       "colors": [],
+      "properties": [],
       "composition": {
         "cotton": 0,
         "polyester": 0,
@@ -3483,12 +3612,12 @@
   },
   {
     "id": "ara-shield-kr-9610",
+    "category": "fire",
     "slug": "ara-shield-kr-9610",
     "title": {
       "ua": "Тканина Ara-Shield KR 9610",
       "ru": "Ткань Ara-Shield KR 9610"
     },
-    "category": "fire",
     "isNew": false,
     "images": [],
     "description": {
@@ -3500,6 +3629,7 @@
       "density": "540",
       "width": null,
       "colors": [],
+      "properties": [],
       "composition": {
         "cotton": 0,
         "polyester": 0,
@@ -3512,12 +3642,12 @@
   },
   {
     "id": "defender-m-dm-9210",
+    "category": "army",
     "slug": "defender-m-dm-9210",
     "title": {
       "ua": "Тканина Defender® M DM 9210",
       "ru": "Ткань Defender® M DM 9210"
     },
-    "category": "army",
     "isNew": false,
     "images": [],
     "description": {},
@@ -3528,6 +3658,7 @@
       "colors": [
         "0"
       ],
+      "properties": [],
       "composition": {
         "cotton": 0,
         "polyester": 0,
@@ -3540,12 +3671,12 @@
   },
   {
     "id": "defender-m-dp-9210",
+    "category": "army",
     "slug": "defender-m-dp-9210",
     "title": {
       "ua": "Тканина Defender® M DP 9210",
       "ru": "Ткань Defender® M DP 9210"
     },
-    "category": "army",
     "isNew": false,
     "images": [],
     "description": {},
@@ -3556,6 +3687,7 @@
       "colors": [
         "0"
       ],
+      "properties": [],
       "composition": {
         "cotton": 0,
         "polyester": 0,
@@ -3567,12 +3699,13 @@
     }
   },
   {
-    "id": "",
-    "slug": "",
+    "id": "tkan-А263",
+    "category": "shirts",
+    "slug": "tkan-А263",
     "title": {
+      "ua": "Тканина А263",
       "ru": "Ткань А263"
     },
-    "category": "shirts",
     "isNew": false,
     "images": [],
     "description": {},
@@ -3581,6 +3714,7 @@
       "density": "125",
       "width": "148",
       "colors": [],
+      "properties": [],
       "composition": {
         "cotton": 0,
         "polyester": 0,
@@ -3592,12 +3726,13 @@
     }
   },
   {
-    "id": "",
-    "slug": "",
+    "id": "tkan-FLASH F1",
+    "category": "shirts",
+    "slug": "tkan-FLASH F1",
     "title": {
+      "ua": "Тканина FLASH F1",
       "ru": "Ткань FLASH F1"
     },
-    "category": "shirts",
     "isNew": false,
     "images": [],
     "description": {},
@@ -3606,6 +3741,7 @@
       "density": "120",
       "width": "148",
       "colors": [],
+      "properties": [],
       "composition": {
         "cotton": 0,
         "polyester": 0,
@@ -3617,12 +3753,13 @@
     }
   },
   {
-    "id": "",
-    "slug": "",
+    "id": "tkan-9327",
+    "category": "shirts",
+    "slug": "tkan-9327",
     "title": {
+      "ua": "Тканина 9327",
       "ru": "Ткань 9327"
     },
-    "category": "shirts",
     "isNew": false,
     "images": [],
     "description": {},
@@ -3631,6 +3768,7 @@
       "density": "240",
       "width": "148",
       "colors": [],
+      "properties": [],
       "composition": {
         "cotton": 0,
         "polyester": 0,
@@ -3642,12 +3780,13 @@
     }
   },
   {
-    "id": "",
-    "slug": "",
+    "id": "tkan-LINEN VISCOSE",
+    "category": "shirts",
+    "slug": "tkan-LINEN VISCOSE",
     "title": {
+      "ua": "Тканина LINEN VISCOSE",
       "ru": "Ткань LINEN VISCOSE"
     },
-    "category": "shirts",
     "isNew": false,
     "images": [],
     "description": {},
@@ -3656,6 +3795,7 @@
       "density": "200",
       "width": "148",
       "colors": [],
+      "properties": [],
       "composition": {
         "cotton": 0,
         "polyester": 0,
@@ -3667,12 +3807,13 @@
     }
   },
   {
-    "id": "",
-    "slug": "",
+    "id": "tkan-2699",
+    "category": "shirts",
+    "slug": "tkan-2699",
     "title": {
+      "ua": "Тканина 02699",
       "ru": "Ткань 02699"
     },
-    "category": "shirts",
     "isNew": false,
     "images": [],
     "description": {},
@@ -3681,6 +3822,7 @@
       "density": "230",
       "width": "148",
       "colors": [],
+      "properties": [],
       "composition": {
         "cotton": 25,
         "polyester": 0,
@@ -3692,12 +3834,13 @@
     }
   },
   {
-    "id": "",
-    "slug": "",
+    "id": "tkan-А353",
+    "category": "shirts",
+    "slug": "tkan-А353",
     "title": {
+      "ua": "Тканина А353",
       "ru": "Ткань А353"
     },
-    "category": "shirts",
     "isNew": false,
     "images": [],
     "description": {},
@@ -3706,6 +3849,7 @@
       "density": "118",
       "width": "150",
       "colors": [],
+      "properties": [],
       "composition": {
         "cotton": 100,
         "polyester": 0,
@@ -3717,12 +3861,13 @@
     }
   },
   {
-    "id": "",
-    "slug": "",
+    "id": "tkan-А331",
+    "category": "shirts",
+    "slug": "tkan-А331",
     "title": {
+      "ua": "Тканина А331",
       "ru": "Ткань А331"
     },
-    "category": "shirts",
     "isNew": false,
     "images": [],
     "description": {},
@@ -3731,6 +3876,7 @@
       "density": "140",
       "width": "150",
       "colors": [],
+      "properties": [],
       "composition": {
         "cotton": 100,
         "polyester": 0,
@@ -3742,12 +3888,13 @@
     }
   },
   {
-    "id": "",
-    "slug": "",
+    "id": "tkan-А939",
+    "category": "shirts",
+    "slug": "tkan-А939",
     "title": {
+      "ua": "Тканина А939",
       "ru": "Ткань А939"
     },
-    "category": "shirts",
     "isNew": false,
     "images": [],
     "description": {},
@@ -3756,6 +3903,7 @@
       "density": "258",
       "width": "150",
       "colors": [],
+      "properties": [],
       "composition": {
         "cotton": 0,
         "polyester": 0,
@@ -3767,12 +3915,13 @@
     }
   },
   {
-    "id": "",
-    "slug": "",
+    "id": "tkan-А386",
+    "category": "shirts",
+    "slug": "tkan-А386",
     "title": {
+      "ua": "Тканина А386",
       "ru": "Ткань А386"
     },
-    "category": "shirts",
     "isNew": false,
     "images": [],
     "description": {},
@@ -3781,6 +3930,7 @@
       "density": "100",
       "width": "150",
       "colors": [],
+      "properties": [],
       "composition": {
         "cotton": 100,
         "polyester": 0,
@@ -3792,12 +3942,13 @@
     }
   },
   {
-    "id": "",
-    "slug": "",
+    "id": "tkan-4664",
+    "category": "shirts",
+    "slug": "tkan-4664",
     "title": {
+      "ua": "Тканина 4664",
       "ru": "Ткань 4664"
     },
-    "category": "shirts",
     "isNew": false,
     "images": [],
     "description": {},
@@ -3806,6 +3957,7 @@
       "density": "126",
       "width": "150",
       "colors": [],
+      "properties": [],
       "composition": {
         "cotton": 100,
         "polyester": 0,
@@ -3817,12 +3969,13 @@
     }
   },
   {
-    "id": "",
-    "slug": "",
+    "id": "tkan-А112",
+    "category": "shirts",
+    "slug": "tkan-А112",
     "title": {
+      "ua": "Тканина А112",
       "ru": "Ткань А112"
     },
-    "category": "shirts",
     "isNew": false,
     "images": [],
     "description": {},
@@ -3831,6 +3984,7 @@
       "density": "120",
       "width": "150",
       "colors": [],
+      "properties": [],
       "composition": {
         "cotton": 100,
         "polyester": 0,
@@ -3842,12 +3996,13 @@
     }
   },
   {
-    "id": "",
-    "slug": "",
+    "id": "tkan-5845",
+    "category": "shirts",
+    "slug": "tkan-5845",
     "title": {
+      "ua": "Тканина 5845",
       "ru": "Ткань 5845"
     },
-    "category": "shirts",
     "isNew": false,
     "images": [],
     "description": {},
@@ -3856,6 +4011,7 @@
       "density": "106",
       "width": "150",
       "colors": [],
+      "properties": [],
       "composition": {
         "cotton": 60,
         "polyester": 40,
@@ -3867,12 +4023,13 @@
     }
   },
   {
-    "id": "",
-    "slug": "",
+    "id": "tkan-5939",
+    "category": "shirts",
+    "slug": "tkan-5939",
     "title": {
+      "ua": "Тканина 5939",
       "ru": "Ткань 5939"
     },
-    "category": "shirts",
     "isNew": false,
     "images": [],
     "description": {},
@@ -3881,6 +4038,7 @@
       "density": "110",
       "width": "150",
       "colors": [],
+      "properties": [],
       "composition": {
         "cotton": 60,
         "polyester": 40,
@@ -3892,12 +4050,13 @@
     }
   },
   {
-    "id": "",
-    "slug": "",
+    "id": "tkan-5507",
+    "category": "shirts",
+    "slug": "tkan-5507",
     "title": {
+      "ua": "Тканина 5507",
       "ru": "Ткань 5507"
     },
-    "category": "shirts",
     "isNew": false,
     "images": [],
     "description": {},
@@ -3906,6 +4065,7 @@
       "density": "151",
       "width": "150",
       "colors": [],
+      "properties": [],
       "composition": {
         "cotton": 60,
         "polyester": 40,
@@ -3917,12 +4077,13 @@
     }
   },
   {
-    "id": "",
-    "slug": "",
+    "id": "tkan-5764",
+    "category": "shirts",
+    "slug": "tkan-5764",
     "title": {
+      "ua": "Тканина 5764",
       "ru": "Ткань 5764"
     },
-    "category": "shirts",
     "isNew": false,
     "images": [],
     "description": {},
@@ -3931,6 +4092,7 @@
       "density": "104",
       "width": "150",
       "colors": [],
+      "properties": [],
       "composition": {
         "cotton": 50,
         "polyester": 50,
@@ -3942,12 +4104,13 @@
     }
   },
   {
-    "id": "",
-    "slug": "",
+    "id": "tkan-7251",
+    "category": "shirts",
+    "slug": "tkan-7251",
     "title": {
+      "ua": "Тканина 7251  ",
       "ru": "Ткань 7251"
     },
-    "category": "shirts",
     "isNew": false,
     "images": [],
     "description": {},
@@ -3956,6 +4119,7 @@
       "density": "113",
       "width": "150",
       "colors": [],
+      "properties": [],
       "composition": {
         "cotton": 55,
         "polyester": 45,
@@ -3967,12 +4131,13 @@
     }
   },
   {
-    "id": "",
-    "slug": "",
+    "id": "tkan-RC113CV  ",
+    "category": "shirts",
+    "slug": "tkan-RC113CV  ",
     "title": {
+      "ua": "Тканина RC113CV  ",
       "ru": "Ткань RC113CV"
     },
-    "category": "shirts",
     "isNew": false,
     "images": [],
     "description": {},
@@ -3981,6 +4146,7 @@
       "density": "116",
       "width": "150",
       "colors": [],
+      "properties": [],
       "composition": {
         "cotton": 55,
         "polyester": 45,
@@ -3992,12 +4158,13 @@
     }
   },
   {
-    "id": "",
-    "slug": "",
+    "id": "tkan-LT2111  ",
+    "category": "shirts",
+    "slug": "tkan-LT2111  ",
     "title": {
+      "ua": "Тканина LT2111  ",
       "ru": "Ткань LT2111"
     },
-    "category": "shirts",
     "isNew": false,
     "images": [],
     "description": {},
@@ -4006,6 +4173,7 @@
       "density": "112",
       "width": "150",
       "colors": [],
+      "properties": [],
       "composition": {
         "cotton": 55,
         "polyester": 45,
@@ -4017,65 +4185,1834 @@
     }
   },
   {
-    "id": "",
-    "slug": "",
-    "title": {},
+    "id": "tkan-А196",
     "category": "shirts",
-    "isNew": false,
-    "images": [],
-    "description": {},
-    "attributes": {
-      "width": null,
-      "colors": [],
-      "composition": {
-        "cotton": 0,
-        "polyester": 0,
-        "spandex": 0,
-        "rayon": 0,
-        "viscose": 0,
-        "pbt": 0
-      }
-    }
-  },
-  {
-    "id": "",
-    "slug": "",
-    "title": {},
-    "category": "shirts",
-    "isNew": false,
-    "images": [],
-    "description": {},
-    "attributes": {
-      "width": null,
-      "colors": [],
-      "composition": {
-        "cotton": 0,
-        "polyester": 0,
-        "spandex": 0,
-        "rayon": 0,
-        "viscose": 0,
-        "pbt": 0
-      }
-    }
-  },
-  {
-    "id": "",
-    "slug": "",
+    "slug": "tkan-А196",
     "title": {
-      "ru": ""
+      "ua": "Тканина А196",
+      "ru": "Ткань А196"
     },
+    "isNew": false,
+    "images": [],
+    "description": {},
+    "attributes": {
+      "fabricType": "складне",
+      "density": "162",
+      "width": "150",
+      "colors": [],
+      "properties": [],
+      "composition": {
+        "cotton": 100,
+        "polyester": 0,
+        "spandex": 0,
+        "rayon": 0,
+        "viscose": 0,
+        "pbt": 0
+      }
+    }
+  },
+  {
+    "id": "tkan-А359",
     "category": "shirts",
+    "slug": "tkan-А359",
+    "title": {
+      "ua": "Тканина А359",
+      "ru": "Ткань А196"
+    },
     "isNew": false,
     "images": [],
     "description": {},
     "attributes": {
       "fabricType": "",
-      "density": "",
-      "width": " ",
+      "density": "128",
+      "width": "150",
       "colors": [],
+      "properties": [],
+      "composition": {
+        "cotton": 100,
+        "polyester": 0,
+        "spandex": 0,
+        "rayon": 0,
+        "viscose": 0,
+        "pbt": 0
+      }
+    }
+  },
+  {
+    "id": "tkan-1021",
+    "category": "shirts",
+    "slug": "tkan-1021",
+    "title": {
+      "ua": "Тканина 1021",
+      "ru": "Ткань 1021"
+    },
+    "isNew": false,
+    "images": [],
+    "description": {},
+    "attributes": {
+      "fabricType": "полотно",
+      "density": "130",
+      "width": "150",
+      "colors": [],
+      "properties": [],
+      "composition": {
+        "cotton": 100,
+        "polyester": 0,
+        "spandex": 0,
+        "rayon": 0,
+        "viscose": 0,
+        "pbt": 0
+      }
+    }
+  },
+  {
+    "id": "tkan-А573",
+    "category": "shirts",
+    "slug": "tkan-А573",
+    "title": {
+      "ua": "Тканина А573",
+      "ru": "Ткань А573"
+    },
+    "isNew": false,
+    "images": [],
+    "description": {},
+    "attributes": {
+      "fabricType": "полотно",
+      "density": "116",
+      "width": "150",
+      "colors": [],
+      "properties": [],
+      "composition": {
+        "cotton": 100,
+        "polyester": 0,
+        "spandex": 0,
+        "rayon": 0,
+        "viscose": 0,
+        "pbt": 0
+      }
+    }
+  },
+  {
+    "id": "tkan-L678",
+    "category": "shirts",
+    "slug": "tkan-L678",
+    "title": {
+      "ua": "Тканина L678",
+      "ru": "Ткань L678"
+    },
+    "isNew": false,
+    "images": [],
+    "description": {},
+    "attributes": {
+      "fabricType": "полотно",
+      "density": "120",
+      "width": "150",
+      "colors": [],
+      "properties": [],
+      "composition": {
+        "cotton": 100,
+        "polyester": 0,
+        "spandex": 0,
+        "rayon": 0,
+        "viscose": 0,
+        "pbt": 0
+      }
+    }
+  },
+  {
+    "id": "tkan-L493",
+    "category": "shirts",
+    "slug": "tkan-L493",
+    "title": {
+      "ua": "Тканина L493",
+      "ru": "Ткань L493"
+    },
+    "isNew": false,
+    "images": [],
+    "description": {},
+    "attributes": {
+      "fabricType": "полотно ",
+      "density": "122",
+      "width": "150",
+      "colors": [],
+      "properties": [],
+      "composition": {
+        "cotton": 100,
+        "polyester": 0,
+        "spandex": 0,
+        "rayon": 0,
+        "viscose": 0,
+        "pbt": 0
+      }
+    }
+  },
+  {
+    "id": "tkan-А477",
+    "category": "shirts",
+    "slug": "tkan-А477",
+    "title": {
+      "ua": "Тканина А477",
+      "ru": "Ткань А477"
+    },
+    "isNew": false,
+    "images": [],
+    "description": {},
+    "attributes": {
+      "fabricType": "полотно",
+      "density": "115",
+      "width": "150",
+      "colors": [],
+      "properties": [],
+      "composition": {
+        "cotton": 100,
+        "polyester": 0,
+        "spandex": 0,
+        "rayon": 0,
+        "viscose": 0,
+        "pbt": 0
+      }
+    }
+  },
+  {
+    "id": "tkan-2161",
+    "category": "shirts",
+    "slug": "tkan-2161",
+    "title": {
+      "ua": "Тканина 2161",
+      "ru": "Ткань 2161"
+    },
+    "isNew": false,
+    "images": [],
+    "description": {},
+    "attributes": {
+      "fabricType": "саржа",
+      "density": "109",
+      "width": "150",
+      "colors": [],
+      "properties": [],
+      "composition": {
+        "cotton": 100,
+        "polyester": 0,
+        "spandex": 0,
+        "rayon": 0,
+        "viscose": 0,
+        "pbt": 0
+      }
+    }
+  },
+  {
+    "id": "tkan-0533",
+    "category": "shirts",
+    "slug": "tkan-0533",
+    "title": {
+      "ua": "Тканина 0533",
+      "ru": "Ткань 0533"
+    },
+    "isNew": false,
+    "images": [],
+    "description": {},
+    "attributes": {
+      "fabricType": "полотно",
+      "density": "125",
+      "width": "150",
+      "colors": [],
+      "properties": [],
+      "composition": {
+        "cotton": 100,
+        "polyester": 0,
+        "spandex": 0,
+        "rayon": 0,
+        "viscose": 0,
+        "pbt": 0
+      }
+    }
+  },
+  {
+    "id": "tkan-0738",
+    "category": "shirts",
+    "slug": "tkan-0738",
+    "title": {
+      "ua": "Тканина 0738",
+      "ru": "Ткань 0738"
+    },
+    "isNew": false,
+    "images": [],
+    "description": {},
+    "attributes": {
+      "fabricType": "складне",
+      "density": "112",
+      "width": "150",
+      "colors": [],
+      "properties": [],
+      "composition": {
+        "cotton": 100,
+        "polyester": 0,
+        "spandex": 0,
+        "rayon": 0,
+        "viscose": 0,
+        "pbt": 0
+      }
+    }
+  },
+  {
+    "id": "tkan-А202",
+    "category": "shirts",
+    "slug": "tkan-А202",
+    "title": {
+      "ua": "Тканина А202",
+      "ru": "Ткань А202"
+    },
+    "isNew": false,
+    "images": [],
+    "description": {},
+    "attributes": {
+      "fabricType": "складне",
+      "density": "161",
+      "width": "150",
+      "colors": [],
+      "properties": [],
+      "composition": {
+        "cotton": 100,
+        "polyester": 0,
+        "spandex": 0,
+        "rayon": 0,
+        "viscose": 0,
+        "pbt": 0
+      }
+    }
+  },
+  {
+    "id": "tkan-0437",
+    "category": "shirts",
+    "slug": "tkan-0437",
+    "title": {
+      "ua": "Тканина 0437",
+      "ru": "Ткань 0437"
+    },
+    "isNew": false,
+    "images": [],
+    "description": {},
+    "attributes": {
+      "fabricType": "складне",
+      "density": "112",
+      "width": "150",
+      "colors": [],
+      "properties": [],
+      "composition": {
+        "cotton": 100,
+        "polyester": 0,
+        "spandex": 0,
+        "rayon": 0,
+        "viscose": 0,
+        "pbt": 0
+      }
+    }
+  },
+  {
+    "id": "tkan-0893",
+    "category": "shirts",
+    "slug": "tkan-0893",
+    "title": {
+      "ua": "Тканина 0893",
+      "ru": "Ткань 0893"
+    },
+    "isNew": false,
+    "images": [],
+    "description": {},
+    "attributes": {
+      "fabricType": "складне",
+      "density": "109",
+      "width": "150",
+      "colors": [],
+      "properties": [],
+      "composition": {
+        "cotton": 100,
+        "polyester": 0,
+        "spandex": 0,
+        "rayon": 0,
+        "viscose": 0,
+        "pbt": 0
+      }
+    }
+  },
+  {
+    "id": "tkan-0734",
+    "category": "shirts",
+    "slug": "tkan-0734",
+    "title": {
+      "ua": "Тканина 0734  ",
+      "ru": "Ткань 0734"
+    },
+    "isNew": false,
+    "images": [],
+    "description": {},
+    "attributes": {
+      "fabricType": "складне",
+      "density": "115",
+      "width": "150",
+      "colors": [],
+      "properties": [],
+      "composition": {
+        "cotton": 100,
+        "polyester": 0,
+        "spandex": 0,
+        "rayon": 0,
+        "viscose": 0,
+        "pbt": 0
+      }
+    }
+  },
+  {
+    "id": "tkan-SOLID",
+    "category": "shirts",
+    "slug": "tkan-SOLID",
+    "title": {
+      "ua": "Тканина SOLID ",
+      "ru": "Ткань SOLID"
+    },
+    "isNew": false,
+    "images": [],
+    "description": {},
+    "attributes": {
+      "fabricType": "складне",
+      "density": "121",
+      "width": "150",
+      "colors": [],
+      "properties": [],
+      "composition": {
+        "cotton": 100,
+        "polyester": 0,
+        "spandex": 0,
+        "rayon": 0,
+        "viscose": 0,
+        "pbt": 0
+      }
+    }
+  },
+  {
+    "id": "tkan-А561  ",
+    "category": "shirts",
+    "slug": "tkan-А561  ",
+    "title": {
+      "ua": "Тканина А561",
+      "ru": "Ткань А561"
+    },
+    "isNew": false,
+    "images": [],
+    "description": {},
+    "attributes": {
+      "fabricType": "складне",
+      "density": "116",
+      "width": "150",
+      "colors": [],
+      "properties": [],
+      "composition": {
+        "cotton": 100,
+        "polyester": 0,
+        "spandex": 0,
+        "rayon": 0,
+        "viscose": 0,
+        "pbt": 0
+      }
+    }
+  },
+  {
+    "id": "tkan-А489",
+    "category": "shirts",
+    "slug": "tkan-А489",
+    "title": {
+      "ua": "Тканина А489",
+      "ru": "Ткань А489"
+    },
+    "isNew": false,
+    "images": [],
+    "description": {},
+    "attributes": {
+      "fabricType": "складне",
+      "density": "122",
+      "width": "150",
+      "colors": [],
+      "properties": [],
+      "composition": {
+        "cotton": 100,
+        "polyester": 0,
+        "spandex": 0,
+        "rayon": 0,
+        "viscose": 0,
+        "pbt": 0
+      }
+    }
+  },
+  {
+    "id": "tkan-А469",
+    "category": "shirts",
+    "slug": "tkan-А469",
+    "title": {
+      "ua": "Тканина А469",
+      "ru": "Ткань А489"
+    },
+    "isNew": false,
+    "images": [],
+    "description": {},
+    "attributes": {
+      "fabricType": "складне",
+      "density": "122",
+      "width": "150",
+      "colors": [],
+      "properties": [],
+      "composition": {
+        "cotton": 100,
+        "polyester": 0,
+        "spandex": 0,
+        "rayon": 0,
+        "viscose": 0,
+        "pbt": 0
+      }
+    }
+  },
+  {
+    "id": "tkan-А325",
+    "category": "shirts",
+    "slug": "tkan-А325",
+    "title": {
+      "ua": "Тканина А325",
+      "ru": "Ткань А325"
+    },
+    "isNew": false,
+    "images": [],
+    "description": {},
+    "attributes": {
+      "fabricType": "полотно",
+      "density": "114",
+      "width": "150",
+      "colors": [],
+      "properties": [],
+      "composition": {
+        "cotton": 100,
+        "polyester": 0,
+        "spandex": 0,
+        "rayon": 0,
+        "viscose": 0,
+        "pbt": 0
+      }
+    }
+  },
+  {
+    "id": "tkan-А197",
+    "category": "shirts",
+    "slug": "tkan-А197",
+    "title": {
+      "ua": "Тканина А197",
+      "ru": "Ткань А197"
+    },
+    "isNew": false,
+    "images": [],
+    "description": {},
+    "attributes": {
+      "fabricType": "складне",
+      "density": "162",
+      "width": "150",
+      "colors": [],
+      "properties": [],
+      "composition": {
+        "cotton": 100,
+        "polyester": 0,
+        "spandex": 0,
+        "rayon": 0,
+        "viscose": 0,
+        "pbt": 0
+      }
+    }
+  },
+  {
+    "id": "tkan-L927",
+    "category": "shirts",
+    "slug": "tkan-L927",
+    "title": {
+      "ua": "Тканина L927",
+      "ru": "Ткань L927"
+    },
+    "isNew": false,
+    "images": [],
+    "description": {},
+    "attributes": {
+      "fabricType": "полотно",
+      "density": "213",
+      "width": "150",
+      "colors": [],
+      "properties": [],
+      "composition": {
+        "cotton": 100,
+        "polyester": 0,
+        "spandex": 0,
+        "rayon": 0,
+        "viscose": 0,
+        "pbt": 0
+      }
+    }
+  },
+  {
+    "id": "tkan-8845 ",
+    "category": "shirts",
+    "slug": "tkan-8845 ",
+    "title": {
+      "ua": "Тканина 8845",
+      "ru": "Ткань 8845"
+    },
+    "isNew": false,
+    "images": [],
+    "description": {},
+    "attributes": {
+      "fabricType": "полотно",
+      "density": "100",
+      "width": "150",
+      "colors": [],
+      "properties": [],
+      "composition": {
+        "cotton": 60,
+        "polyester": 40,
+        "spandex": 0,
+        "rayon": 0,
+        "viscose": 0,
+        "pbt": 0
+      }
+    }
+  },
+  {
+    "id": "tkan-COTTON TEX F907  ",
+    "category": "shirts",
+    "slug": "tkan-COTTON TEX F907  ",
+    "title": {
+      "ua": "Тканина COTTON TEX F907   ",
+      "ru": "Ткань COTTON TEX F907 "
+    },
+    "isNew": false,
+    "images": [],
+    "description": {},
+    "attributes": {
+      "fabricType": "полотно",
+      "density": "95",
+      "width": "150",
+      "colors": [],
+      "properties": [],
+      "composition": {
+        "cotton": 60,
+        "polyester": 40,
+        "spandex": 0,
+        "rayon": 0,
+        "viscose": 0,
+        "pbt": 0
+      }
+    }
+  },
+  {
+    "id": "tkan- 5844",
+    "category": "shirts",
+    "slug": "tkan- 5844",
+    "title": {
+      "ua": "Тканина 5844  ",
+      "ru": "Ткань  5844"
+    },
+    "isNew": false,
+    "images": [],
+    "description": {},
+    "attributes": {
+      "fabricType": "полотно",
+      "density": "106",
+      "width": "150",
+      "colors": [],
+      "properties": [],
+      "composition": {
+        "cotton": 60,
+        "polyester": 40,
+        "spandex": 0,
+        "rayon": 0,
+        "viscose": 0,
+        "pbt": 0
+      }
+    }
+  },
+  {
+    "id": "tkan-5834",
+    "category": "shirts",
+    "slug": "tkan-5834",
+    "title": {
+      "ua": "Тканина 5834",
+      "ru": "Ткань 5834"
+    },
+    "isNew": false,
+    "images": [],
+    "description": {},
+    "attributes": {
+      "fabricType": "полотно",
+      "density": "146",
+      "width": "150",
+      "colors": [],
+      "properties": [],
+      "composition": {
+        "cotton": 60,
+        "polyester": 40,
+        "spandex": 0,
+        "rayon": 0,
+        "viscose": 0,
+        "pbt": 0
+      }
+    }
+  },
+  {
+    "id": "tkan-9600",
+    "category": "shirts",
+    "slug": "tkan-9600",
+    "title": {
+      "ua": "Тканина 9600",
+      "ru": "Ткань 9600"
+    },
+    "isNew": false,
+    "images": [],
+    "description": {},
+    "attributes": {
+      "fabricType": "полотно",
+      "density": "150",
+      "width": "150",
+      "colors": [],
+      "properties": [],
+      "composition": {
+        "cotton": 35,
+        "polyester": 65,
+        "spandex": 0,
+        "rayon": 0,
+        "viscose": 0,
+        "pbt": 0
+      }
+    }
+  },
+  {
+    "id": "tkan-А509",
+    "category": "shirts",
+    "slug": "tkan-А509",
+    "title": {
+      "ua": "Тканина А509",
+      "ru": "Ткань А509"
+    },
+    "isNew": false,
+    "images": [],
+    "description": {},
+    "attributes": {
+      "fabricType": "полотно",
+      "density": "115",
+      "width": "150",
+      "colors": [],
+      "properties": [],
+      "composition": {
+        "cotton": 100,
+        "polyester": 0,
+        "spandex": 0,
+        "rayon": 0,
+        "viscose": 0,
+        "pbt": 0
+      }
+    }
+  },
+  {
+    "id": "tkan-А044",
+    "category": "shirts",
+    "slug": "tkan-А044",
+    "title": {
+      "ua": "Тканина А044",
+      "ru": "Ткань А044"
+    },
+    "isNew": false,
+    "images": [],
+    "description": {},
+    "attributes": {
+      "fabricType": "полотно",
+      "density": "110",
+      "width": "150",
+      "colors": [],
+      "properties": [],
+      "composition": {
+        "cotton": 100,
+        "polyester": 0,
+        "spandex": 0,
+        "rayon": 0,
+        "viscose": 0,
+        "pbt": 0
+      }
+    }
+  },
+  {
+    "id": "tkan-А042",
+    "category": "shirts",
+    "slug": "tkan-А042",
+    "title": {
+      "ua": "Тканина А042",
+      "ru": "Ткань А042"
+    },
+    "isNew": false,
+    "images": [],
+    "description": {},
+    "attributes": {
+      "fabricType": "",
+      "density": "110",
+      "width": "150",
+      "colors": [],
+      "properties": [],
+      "composition": {
+        "cotton": 100,
+        "polyester": 0,
+        "spandex": 0,
+        "rayon": 0,
+        "viscose": 0,
+        "pbt": 0
+      }
+    }
+  },
+  {
+    "id": "tkan-9862",
+    "category": "shirts",
+    "slug": "tkan-9862",
+    "title": {
+      "ua": "Тканина 9862",
+      "ru": "Ткань 9862"
+    },
+    "isNew": false,
+    "images": [],
+    "description": {},
+    "attributes": {
+      "fabricType": "полотно",
+      "density": "110",
+      "width": "150",
+      "colors": [],
+      "properties": [],
+      "composition": {
+        "cotton": 35,
+        "polyester": 65,
+        "spandex": 0,
+        "rayon": 0,
+        "viscose": 0,
+        "pbt": 0
+      }
+    }
+  },
+  {
+    "id": "tkan-9700",
+    "category": "shirts",
+    "slug": "tkan-9700",
+    "title": {
+      "ua": "Тканина 9700",
+      "ru": "Ткань 9700"
+    },
+    "isNew": false,
+    "images": [],
+    "description": {},
+    "attributes": {
+      "fabricType": "полотно",
+      "density": "110",
+      "width": "150",
+      "colors": [],
+      "properties": [],
+      "composition": {
+        "cotton": 35,
+        "polyester": 65,
+        "spandex": 0,
+        "rayon": 0,
+        "viscose": 0,
+        "pbt": 0
+      }
+    }
+  },
+  {
+    "id": "tkan-9998",
+    "category": "shirts",
+    "slug": "tkan-9998",
+    "title": {
+      "ua": "Тканина 9998",
+      "ru": "Ткань 9998"
+    },
+    "isNew": false,
+    "images": [],
+    "description": {},
+    "attributes": {
+      "fabricType": "полотно",
+      "density": "117",
+      "width": "150",
+      "colors": [],
+      "properties": [],
+      "composition": {
+        "cotton": 35,
+        "polyester": 65,
+        "spandex": 0,
+        "rayon": 0,
+        "viscose": 0,
+        "pbt": 0
+      }
+    }
+  },
+  {
+    "id": "tkan-0480",
+    "category": "shirts",
+    "slug": "tkan-0480",
+    "title": {
+      "ua": "Тканина 0480",
+      "ru": "Ткань 0480"
+    },
+    "isNew": false,
+    "images": [],
+    "description": {},
+    "attributes": {
+      "fabricType": "полотно",
+      "density": "126",
+      "width": "150",
+      "colors": [],
+      "properties": [],
+      "composition": {
+        "cotton": 97,
+        "polyester": 0,
+        "spandex": 3,
+        "rayon": 0,
+        "viscose": 0,
+        "pbt": 0
+      }
+    }
+  },
+  {
+    "id": "tkan-1030",
+    "category": "shirts",
+    "slug": "tkan-1030",
+    "title": {
+      "ua": "Тканина 1030",
+      "ru": "Ткань 1030"
+    },
+    "isNew": false,
+    "images": [],
+    "description": {},
+    "attributes": {
+      "fabricType": "полотно",
+      "density": "110",
+      "width": "150",
+      "colors": [],
+      "properties": [],
+      "composition": {
+        "cotton": 80,
+        "polyester": 20,
+        "spandex": 0,
+        "rayon": 0,
+        "viscose": 0,
+        "pbt": 0
+      }
+    }
+  },
+  {
+    "id": "tkan- RC118C",
+    "category": "shirts",
+    "slug": "tkan- RC118C",
+    "title": {
+      "ua": "Тканина  RC118C",
+      "ru": "Ткань  RC118C"
+    },
+    "isNew": false,
+    "images": [],
+    "description": {},
+    "attributes": {
+      "fabricType": "полотно",
+      "density": "120",
+      "width": "150",
+      "colors": [],
+      "properties": [],
+      "composition": {
+        "cotton": 80,
+        "polyester": 20,
+        "spandex": 0,
+        "rayon": 0,
+        "viscose": 0,
+        "pbt": 0
+      }
+    }
+  },
+  {
+    "id": "tkan- 1199",
+    "category": "shirts",
+    "slug": "tkan- 1199",
+    "title": {
+      "ua": "Тканина  1199",
+      "ru": "Ткань  1199"
+    },
+    "isNew": false,
+    "images": [],
+    "description": {},
+    "attributes": {
+      "fabricType": "полотно",
+      "density": "135",
+      "width": "150",
+      "colors": [],
+      "properties": [],
+      "composition": {
+        "cotton": 75,
+        "polyester": 25,
+        "spandex": 0,
+        "rayon": 0,
+        "viscose": 0,
+        "pbt": 0
+      }
+    }
+  },
+  {
+    "id": "tkan- В112",
+    "category": "shirts",
+    "slug": "tkan- В112",
+    "title": {
+      "ua": "Тканина  В112",
+      "ru": "Ткань  В112"
+    },
+    "isNew": false,
+    "images": [],
+    "description": {},
+    "attributes": {
+      "fabricType": "полотно",
+      "density": "125",
+      "width": "150",
+      "colors": [],
+      "properties": [],
+      "composition": {
+        "cotton": 75,
+        "polyester": 25,
+        "spandex": 0,
+        "rayon": 0,
+        "viscose": 0,
+        "pbt": 0
+      }
+    }
+  },
+  {
+    "id": "tkan-LT1109",
+    "category": "shirts",
+    "slug": "tkan-LT1109",
+    "title": {
+      "ua": "Тканина LT1109",
+      "ru": "Ткань LT1109"
+    },
+    "isNew": false,
+    "images": [],
+    "description": {},
+    "attributes": {
+      "fabricType": "полотно",
+      "density": "124",
+      "width": "144",
+      "colors": [],
+      "properties": [],
+      "composition": {
+        "cotton": 72,
+        "polyester": 24,
+        "spandex": 4,
+        "rayon": 0,
+        "viscose": 0,
+        "pbt": 0
+      }
+    }
+  },
+  {
+    "id": "tkan-5767",
+    "category": "shirts",
+    "slug": "tkan-5767",
+    "title": {
+      "ua": "Тканина 5767",
+      "ru": "Ткань 5767"
+    },
+    "isNew": false,
+    "images": [],
+    "description": {},
+    "attributes": {
+      "fabricType": "полотно",
+      "density": "135",
+      "width": "149",
+      "colors": [],
+      "properties": [],
+      "composition": {
+        "cotton": 63,
+        "polyester": 34,
+        "spandex": 3,
+        "rayon": 0,
+        "viscose": 0,
+        "pbt": 0
+      }
+    }
+  },
+  {
+    "id": "tkan-3009",
+    "category": "shirts",
+    "slug": "tkan-3009",
+    "title": {
+      "ua": "Тканина 3009",
+      "ru": "Ткань 3009"
+    },
+    "isNew": false,
+    "images": [],
+    "description": {},
+    "attributes": {
+      "fabricType": "полотно",
+      "density": "138",
+      "width": "150",
+      "colors": [],
+      "properties": [],
+      "composition": {
+        "cotton": 60,
+        "polyester": 40,
+        "spandex": 0,
+        "rayon": 0,
+        "viscose": 0,
+        "pbt": 0
+      }
+    }
+  },
+  {
+    "id": "tkan-TR251",
+    "category": "shirts",
+    "slug": "tkan-TR251",
+    "title": {
+      "ua": "Тканина TR251",
+      "ru": "Ткань  TR251"
+    },
+    "isNew": false,
+    "images": [],
+    "description": {},
+    "attributes": {
+      "fabricType": "полотно",
+      "density": "117",
+      "width": "150",
+      "colors": [],
+      "properties": [],
+      "composition": {
+        "cotton": 60,
+        "polyester": 40,
+        "spandex": 0,
+        "rayon": 0,
+        "viscose": 0,
+        "pbt": 0
+      }
+    }
+  },
+  {
+    "id": "tkan- TR-65",
+    "category": "shirts",
+    "slug": "tkan- TR-65",
+    "title": {
+      "ua": "Тканина TR-65",
+      "ru": "Ткань  TR-65"
+    },
+    "isNew": false,
+    "images": [],
+    "description": {},
+    "attributes": {
+      "fabricType": "полотно",
+      "density": "115",
+      "width": "150",
+      "colors": [],
+      "properties": [],
+      "composition": {
+        "cotton": 65,
+        "polyester": 35,
+        "spandex": 0,
+        "rayon": 0,
+        "viscose": 0,
+        "pbt": 0
+      }
+    }
+  },
+  {
+    "id": "tkan- 9037",
+    "category": "shirts",
+    "slug": "tkan- 9037",
+    "title": {
+      "ua": "Тканина 9037",
+      "ru": "Ткань  9037"
+    },
+    "isNew": false,
+    "images": [],
+    "description": {},
+    "attributes": {
+      "fabricType": "полотно",
+      "density": "100",
+      "width": "150",
+      "colors": [],
+      "properties": [],
+      "composition": {
+        "cotton": 65,
+        "polyester": 35,
+        "spandex": 0,
+        "rayon": 0,
+        "viscose": 0,
+        "pbt": 0
+      }
+    }
+  },
+  {
+    "id": "tkan-9065",
+    "category": "shirts",
+    "slug": "tkan-9065",
+    "title": {
+      "ua": "Тканина 9065",
+      "ru": "Ткань 9065"
+    },
+    "isNew": false,
+    "images": [],
+    "description": {},
+    "attributes": {
+      "fabricType": "полотно",
+      "density": "113",
+      "width": "150",
+      "colors": [],
+      "properties": [],
+      "composition": {
+        "cotton": 65,
+        "polyester": 35,
+        "spandex": 0,
+        "rayon": 0,
+        "viscose": 0,
+        "pbt": 0
+      }
+    }
+  },
+  {
+    "id": "tkan-L601 ",
+    "category": "shirts",
+    "slug": "tkan-L601 ",
+    "title": {
+      "ua": "Тканина L601 ",
+      "ru": "Ткань  L601 "
+    },
+    "isNew": false,
+    "images": [],
+    "description": {},
+    "attributes": {
+      "fabricType": "саржа",
+      "density": "125",
+      "width": "150",
+      "colors": [],
+      "properties": [],
+      "composition": {
+        "cotton": 0,
+        "polyester": 50,
+        "spandex": 0,
+        "rayon": 0,
+        "viscose": 50,
+        "pbt": 0
+      }
+    }
+  },
+  {
+    "id": "tkan-KG 245",
+    "category": "jackets",
+    "slug": "tkan-KG 245",
+    "title": {
+      "ua": "Тканина KG 245",
+      "ru": "Ткань KG 245"
+    },
+    "isNew": false,
+    "images": [],
+    "description": {},
+    "attributes": {
+      "fabricType": "канвас",
+      "density": "245",
+      "width": "150",
+      "colors": [],
+      "properties": [],
+      "composition": {
+        "cotton": 35,
+        "polyester": 65,
+        "spandex": 0,
+        "rayon": 0,
+        "viscose": 0,
+        "pbt": 0
+      }
+    }
+  },
+  {
+    "id": "tkan-NB-1043",
+    "category": "jackets",
+    "slug": "tkan-NB-1043",
+    "title": {
+      "ua": "Тканина NB-1043",
+      "ru": "Ткань NB-1043"
+    },
+    "isNew": false,
+    "images": [],
+    "description": {},
+    "attributes": {
+      "fabricType": "саржа",
+      "density": "220",
+      "width": "150",
+      "colors": [],
+      "properties": [],
+      "composition": {
+        "cotton": 20,
+        "polyester": 80,
+        "spandex": 0,
+        "rayon": 0,
+        "viscose": 0,
+        "pbt": 0
+      }
+    }
+  },
+  {
+    "id": "tkan-NNT-1152",
+    "category": "jackets",
+    "slug": "tkan-NNT-1152",
+    "title": {
+      "ua": "Тканина NNT-1152",
+      "ru": "Ткань NNT-1152"
+    },
+    "isNew": false,
+    "images": [],
+    "description": {},
+    "attributes": {
+      "fabricType": "саржа",
+      "density": "255",
+      "width": "150",
+      "colors": [],
+      "properties": [],
+      "composition": {
+        "cotton": 20,
+        "polyester": 80,
+        "spandex": 0,
+        "rayon": 0,
+        "viscose": 0,
+        "pbt": 0
+      }
+    }
+  },
+  {
+    "id": "tkan-VVT-2164",
+    "category": "jackets",
+    "slug": "tkan-VVT-2164",
+    "title": {
+      "ua": "Тканина VVT-2164",
+      "ru": "Ткань VVT-2164"
+    },
+    "isNew": false,
+    "images": [],
+    "description": {},
+    "attributes": {
+      "fabricType": "саржа",
+      "density": "210",
+      "width": "150",
+      "colors": [],
+      "properties": [],
+      "composition": {
+        "cotton": 60,
+        "polyester": 40,
+        "spandex": 0,
+        "rayon": 0,
+        "viscose": 0,
+        "pbt": 0
+      }
+    }
+  },
+  {
+    "id": "tkan-MK-9014",
+    "category": "jackets",
+    "slug": "tkan-MK-9014",
+    "title": {
+      "ua": "Тканина MK-9014",
+      "ru": "Ткань MK-9014"
+    },
+    "isNew": false,
+    "images": [],
+    "description": {},
+    "attributes": {
+      "fabricType": "полотно",
+      "density": "290",
+      "width": "160",
+      "colors": [],
+      "properties": [],
+      "composition": {
+        "cotton": 0,
+        "polyester": 99,
+        "spandex": 0,
+        "rayon": 0,
+        "viscose": 0,
+        "pbt": 0
+      }
+    }
+  },
+  {
+    "id": "tkan-6584 ",
+    "category": "jackets",
+    "slug": "tkan-6584 ",
+    "title": {
+      "ua": "Тканина 6584 ",
+      "ru": "Ткань 6584 "
+    },
+    "isNew": false,
+    "images": [],
+    "description": {},
+    "attributes": {
+      "fabricType": "саржа",
+      "density": "390",
+      "width": "150",
+      "colors": [],
+      "properties": [],
+      "composition": {
+        "cotton": 100,
+        "polyester": 0,
+        "spandex": 0,
+        "rayon": 0,
+        "viscose": 0,
+        "pbt": 0
+      }
+    }
+  },
+  {
+    "id": "tkan-6585",
+    "category": "jackets",
+    "slug": "tkan-6585",
+    "title": {
+      "ua": "Тканина 6585",
+      "ru": "Ткань 6585"
+    },
+    "isNew": false,
+    "images": [],
+    "description": {},
+    "attributes": {
+      "fabricType": "саржа",
+      "density": "390",
+      "width": "150",
+      "colors": [],
+      "properties": [],
+      "composition": {
+        "cotton": 100,
+        "polyester": 0,
+        "spandex": 0,
+        "rayon": 0,
+        "viscose": 0,
+        "pbt": 0
+      }
+    }
+  },
+  {
+    "id": "tkan-22001",
+    "category": "jackets",
+    "slug": "tkan-22001",
+    "title": {
+      "ua": "Тканина 22001",
+      "ru": "Ткань 22001"
+    },
+    "isNew": false,
+    "images": [],
+    "description": {},
+    "attributes": {
+      "fabricType": "канвас",
+      "density": "300",
+      "width": "150",
+      "colors": [],
+      "properties": [],
+      "composition": {
+        "cotton": 65,
+        "polyester": 35,
+        "spandex": 0,
+        "rayon": 0,
+        "viscose": 0,
+        "pbt": 0
+      }
+    }
+  },
+  {
+    "id": "tkan-6509",
+    "category": "jackets",
+    "slug": "tkan-6509",
+    "title": {
+      "ua": "Тканина 6509",
+      "ru": "Ткань 6509"
+    },
+    "isNew": false,
+    "images": [],
+    "description": {},
+    "attributes": {
+      "fabricType": "канвас",
+      "density": "330",
+      "width": "150",
+      "colors": [],
+      "properties": [],
+      "composition": {
+        "cotton": 60,
+        "polyester": 40,
+        "spandex": 0,
+        "rayon": 0,
+        "viscose": 0,
+        "pbt": 0
+      }
+    }
+  },
+  {
+    "id": "tkan-6527EN",
+    "category": "jackets",
+    "slug": "tkan-6527EN",
+    "title": {
+      "ua": "Тканина 6527EN",
+      "ru": "Ткань 6527EN"
+    },
+    "isNew": false,
+    "images": [],
+    "description": {},
+    "attributes": {
+      "fabricType": "канвас",
+      "density": "330",
+      "width": "150",
+      "colors": [],
+      "properties": [],
+      "composition": {
+        "cotton": 60,
+        "polyester": 40,
+        "spandex": 0,
+        "rayon": 0,
+        "viscose": 0,
+        "pbt": 0
+      }
+    }
+  },
+  {
+    "id": "3265tkan-",
+    "category": "jackets",
+    "slug": "3265tkan-",
+    "title": {
+      "ua": "Тканина 3265",
+      "ru": "Ткань 3265"
+    },
+    "isNew": false,
+    "images": [],
+    "description": {},
+    "attributes": {
+      "fabricType": "саржа",
+      "density": "240",
+      "width": "144",
+      "colors": [],
+      "properties": [],
+      "composition": {
+        "cotton": 14,
+        "polyester": 83,
+        "spandex": 3,
+        "rayon": 0,
+        "viscose": 0,
+        "pbt": 0
+      }
+    }
+  },
+  {
+    "id": "tkan- 6793EN ",
+    "category": "jackets",
+    "slug": "tkan- 6793EN ",
+    "title": {
+      "ua": "Тканина  6793EN ",
+      "ru": "Ткань  6793EN "
+    },
+    "isNew": false,
+    "images": [],
+    "description": {},
+    "attributes": {
+      "fabricType": "саржа",
+      "density": "320",
+      "width": "150",
+      "colors": [],
+      "properties": [],
+      "composition": {
+        "cotton": 42,
+        "polyester": 6,
+        "spandex": 0,
+        "rayon": 0,
+        "viscose": 0,
+        "pbt": 0
+      }
+    }
+  },
+  {
+    "id": "tkan-3118",
+    "category": "jackets",
+    "slug": "tkan-3118",
+    "title": {
+      "ua": "Тканина 3118",
+      "ru": "Ткань 3118 "
+    },
+    "isNew": false,
+    "images": [],
+    "description": {},
+    "attributes": {
+      "fabricType": "саржа",
+      "density": "255",
+      "width": "150",
+      "colors": [],
+      "properties": [],
+      "composition": {
+        "cotton": 0,
+        "polyester": 100,
+        "spandex": 0,
+        "rayon": 0,
+        "viscose": 0,
+        "pbt": 0
+      }
+    }
+  },
+  {
+    "id": "tkan-3117",
+    "category": "jackets",
+    "slug": "tkan-3117",
+    "title": {
+      "ua": "Тканина 3117",
+      "ru": "Ткань 3117"
+    },
+    "isNew": false,
+    "images": [],
+    "description": {},
+    "attributes": {
+      "fabricType": "саржа",
+      "density": "255",
+      "width": "150",
+      "colors": [],
+      "properties": [],
+      "composition": {
+        "cotton": 0,
+        "polyester": 100,
+        "spandex": 0,
+        "rayon": 0,
+        "viscose": 0,
+        "pbt": 0
+      }
+    }
+  },
+  {
+    "id": "tkan- 3585",
+    "category": "jackets",
+    "slug": "tkan- 3585",
+    "title": {
+      "ua": "Тканина  3585",
+      "ru": "Ткань  3585"
+    },
+    "isNew": false,
+    "images": [],
+    "description": {},
+    "attributes": {
+      "fabricType": "ріп-стоп",
+      "density": "275",
+      "width": "150",
+      "colors": [],
+      "properties": [],
       "composition": {
         "cotton": 0,
         "polyester": 0,
+        "spandex": 0,
+        "rayon": 0,
+        "viscose": 0,
+        "pbt": 0
+      }
+    }
+  },
+  {
+    "id": "9129tkan-",
+    "category": "jackets",
+    "slug": "9129tkan-",
+    "title": {
+      "ua": "Тканина 9129",
+      "ru": "Ткань 9129"
+    },
+    "isNew": false,
+    "images": [],
+    "description": {},
+    "attributes": {
+      "fabricType": "саржа",
+      "density": "290",
+      "width": "150",
+      "colors": [],
+      "properties": [],
+      "composition": {
+        "cotton": 0,
+        "polyester": 0,
+        "spandex": 0,
+        "rayon": 0,
+        "viscose": 0,
+        "pbt": 0
+      }
+    }
+  },
+  {
+    "id": "tkan-259",
+    "category": "jackets",
+    "slug": "tkan-259",
+    "title": {
+      "ua": "Тканина 259",
+      "ru": "Ткань 259"
+    },
+    "isNew": false,
+    "images": [],
+    "description": {},
+    "attributes": {
+      "fabricType": "саржа",
+      "density": "270",
+      "width": "150",
+      "colors": [],
+      "properties": [],
+      "composition": {
+        "cotton": 41,
+        "polyester": 0,
+        "spandex": 0,
+        "rayon": 0,
+        "viscose": 0,
+        "pbt": 0
+      }
+    }
+  },
+  {
+    "id": "tkan-4825",
+    "category": "jackets",
+    "slug": "tkan-4825",
+    "title": {
+      "ua": "Тканина 4825",
+      "ru": "Ткань 4825"
+    },
+    "isNew": false,
+    "images": [],
+    "description": {},
+    "attributes": {
+      "fabricType": "ріп-стоп",
+      "density": "125",
+      "width": "149",
+      "colors": [],
+      "properties": [],
+      "composition": {
+        "cotton": 0,
+        "polyester": 0,
+        "spandex": 0,
+        "rayon": 0,
+        "viscose": 0,
+        "pbt": 0
+      }
+    }
+  },
+  {
+    "id": "tkan- F97",
+    "category": "jackets",
+    "slug": "tkan- F97",
+    "title": {
+      "ua": "Тканина  F97",
+      "ru": "Ткань  F97"
+    },
+    "isNew": false,
+    "images": [],
+    "description": {},
+    "attributes": {
+      "fabricType": "саржа",
+      "density": "165",
+      "width": "150",
+      "colors": [],
+      "properties": [],
+      "composition": {
+        "cotton": 0,
+        "polyester": 100,
+        "spandex": 0,
+        "rayon": 0,
+        "viscose": 0,
+        "pbt": 0
+      }
+    }
+  },
+  {
+    "id": "tkan- 5297",
+    "category": "jackets",
+    "slug": "tkan- 5297",
+    "title": {
+      "ua": "Тканина  5297",
+      "ru": "Ткань  5297"
+    },
+    "isNew": false,
+    "images": [],
+    "description": {},
+    "attributes": {
+      "fabricType": "полотно",
+      "density": "220",
+      "width": "143",
+      "colors": [],
+      "properties": [],
+      "composition": {
+        "cotton": 0,
+        "polyester": 100,
+        "spandex": 0,
+        "rayon": 0,
+        "viscose": 0,
+        "pbt": 0
+      }
+    }
+  },
+  {
+    "id": "tkan-5537",
+    "category": "jackets",
+    "slug": "tkan-5537",
+    "title": {
+      "ua": "Тканина 5537",
+      "ru": "Ткань 5537"
+    },
+    "isNew": false,
+    "images": [],
+    "description": {},
+    "attributes": {
+      "fabricType": "полотно",
+      "density": "220",
+      "width": "144",
+      "colors": [],
+      "properties": [],
+      "composition": {
+        "cotton": 0,
+        "polyester": 100,
+        "spandex": 0,
+        "rayon": 0,
+        "viscose": 0,
+        "pbt": 0
+      }
+    }
+  },
+  {
+    "id": "tkan-3637 ",
+    "category": "jackets",
+    "slug": "tkan-3637 ",
+    "title": {
+      "ua": "Тканина 3637 ",
+      "ru": "Ткань 3637 "
+    },
+    "isNew": false,
+    "images": [],
+    "description": {},
+    "attributes": {
+      "fabricType": "полотно",
+      "density": "240",
+      "width": "148",
+      "colors": [],
+      "properties": [],
+      "composition": {
+        "cotton": 0,
+        "polyester": 100,
+        "spandex": 0,
+        "rayon": 0,
+        "viscose": 0,
+        "pbt": 0
+      }
+    }
+  },
+  {
+    "id": "tkan-3188",
+    "category": "jackets",
+    "slug": "tkan-3188",
+    "title": {
+      "ua": "Тканина 3188",
+      "ru": "Ткань 3188"
+    },
+    "isNew": false,
+    "images": [],
+    "description": {},
+    "attributes": {
+      "fabricType": "саржа",
+      "density": "300",
+      "width": "150",
+      "colors": [],
+      "properties": [],
+      "composition": {
+        "cotton": 75,
+        "polyester": 24,
         "spandex": 0,
         "rayon": 0,
         "viscose": 0,

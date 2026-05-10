@@ -9,7 +9,8 @@ const CATEGORYES = [
   'personal',
   'fire',
   'army',
-  'shirts'
+  'shirts',
+  'jackets'
 ]
 
 const fetchSheet = async (sheetName) => {
@@ -65,12 +66,12 @@ async function main() {
     console.log(slug);
     return {
       id: slug,
+      category: row.category,
       slug,
       title: {
         ua: row.title_ua,
         ru: row.title_ru,
       },
-      category: row.category,
       isNew: row.isNew === "true",
 
       images: row.images ? row.images.split(",") : [],
@@ -85,6 +86,7 @@ async function main() {
         density: row.density,
         width: row.width || null,
         colors: row.colors ? row.colors.split(",") : [],
+        properties: row.properties ? row.properties.split(",").map(s => s.trim()).filter(Boolean) : [],
         composition: {
           cotton: Number(row.cotton) || 0,
           polyester: Number(row.polyester) || 0,
