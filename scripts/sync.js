@@ -78,8 +78,8 @@ async function main() {
       images: row.images ? row.images.split(",") : [],
 
       description: {
-        ua: row.description_ua,
-        ru: row.description_ru,
+        ua: row.desc_ua,
+        ru: row.desc_ru,
       },
 
       attributes: {
