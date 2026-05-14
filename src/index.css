@@ -329,6 +329,23 @@ button {
   padding: 8px 0;
   z-index: 101;
   animation: fadeInDropdown 0.2s ease-out forwards;
+  max-height: calc(100vh - 160px);
+  overflow-y: auto;
+  scrollbar-width: thin;
+  scrollbar-color: var(--c-border) transparent;
+}
+
+.catalog-dropdown::-webkit-scrollbar {
+  width: 4px;
+}
+
+.catalog-dropdown::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.catalog-dropdown::-webkit-scrollbar-thumb {
+  background: var(--c-border);
+  border-radius: 4px;
 }
 
 .catalog-dropdown-item {
