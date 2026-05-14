@@ -11,7 +11,8 @@ const CATEGORYES = [
   'army',
   'shirts',
   'jackets',
-  'interlinings'
+  'interlinings',
+  'cotton'
 ]
 
 const fetchSheet = async (sheetName) => {
