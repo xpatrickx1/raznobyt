@@ -6,6 +6,9 @@ export const COMPOSITION_OPTIONS = [
     { id: 'spandex', label: 'Спандекс/Стрейч', labelRu: 'Спандекс/Стретч' },
     { id: 'pbt', label: 'PBT', labelRu: 'PBT' },
     { id: 'lyon', label: 'Льон', labelRu: 'Лён' },
+    { id: 'polyamide', label: 'Поліамід', labelRu: 'Полиамид' },
+    { id: 'polypropylene', label: 'Поліпропілен', labelRu: 'Полипропилен' },
+    { id: 'paraAramid', label: 'Пара-арамід', labelRu: 'Пара-арамид' },
 ];
 
 export const formatComposition = (compObj, lang) => {

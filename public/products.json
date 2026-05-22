@@ -26,7 +26,10 @@
         "rayon": 0,
         "viscose": 0,
         "pbt": 0,
-        "lyon": 0
+        "lyon": 0,
+        "polyamide": 0,
+        "polypropylene": 0,
+        "paraAramid": 0
       }
     }
   },
@@ -57,7 +60,10 @@
         "rayon": 0,
         "viscose": 0,
         "pbt": 0,
-        "lyon": 0
+        "lyon": 0,
+        "polyamide": 0,
+        "polypropylene": 0,
+        "paraAramid": 0
       }
     }
   },
@@ -78,7 +84,7 @@
     "attributes": {
       "fabricType": "ripstop",
       "density": "182",
-      "width": null,
+      "width": "150",
       "colors": [],
       "properties": [],
       "composition": {
@@ -88,7 +94,10 @@
         "rayon": 0,
         "viscose": 0,
         "pbt": 35,
-        "lyon": 0
+        "lyon": 0,
+        "polyamide": 0,
+        "polypropylene": 0,
+        "paraAramid": 0
       }
     }
   },
@@ -109,7 +118,7 @@
     "attributes": {
       "fabricType": "twill",
       "density": "200",
-      "width": null,
+      "width": "150",
       "colors": [],
       "properties": [],
       "composition": {
@@ -119,7 +128,10 @@
         "rayon": 0,
         "viscose": 0,
         "pbt": 0,
-        "lyon": 0
+        "lyon": 0,
+        "polyamide": 0,
+        "polypropylene": 0,
+        "paraAramid": 0
       }
     }
   },
@@ -140,7 +152,7 @@
     "attributes": {
       "fabricType": "twill",
       "density": "215",
-      "width": null,
+      "width": "150",
       "colors": [],
       "properties": [],
       "composition": {
@@ -150,7 +162,10 @@
         "rayon": 0,
         "viscose": 0,
         "pbt": 0,
-        "lyon": 0
+        "lyon": 0,
+        "polyamide": 0,
+        "polypropylene": 0,
+        "paraAramid": 0
       }
     }
   },
@@ -175,7 +190,7 @@
     "attributes": {
       "fabricType": "twill",
       "density": "150",
-      "width": null,
+      "width": "150",
       "colors": [],
       "properties": [],
       "composition": {
@@ -185,7 +200,10 @@
         "rayon": 0,
         "viscose": 0,
         "pbt": 0,
-        "lyon": 0
+        "lyon": 0,
+        "polyamide": 0,
+        "polypropylene": 0,
+        "paraAramid": 0
       }
     }
   },
@@ -206,7 +224,7 @@
     "attributes": {
       "fabricType": "twill",
       "density": "160",
-      "width": null,
+      "width": "150",
       "colors": [],
       "properties": [],
       "composition": {
@@ -216,7 +234,10 @@
         "rayon": 0,
         "viscose": 0,
         "pbt": 0,
-        "lyon": 0
+        "lyon": 0,
+        "polyamide": 0,
+        "polypropylene": 0,
+        "paraAramid": 0
       }
     }
   },
@@ -237,7 +258,7 @@
     "attributes": {
       "fabricType": "twill",
       "density": "160",
-      "width": null,
+      "width": "150",
       "colors": [],
       "properties": [],
       "composition": {
@@ -247,7 +268,10 @@
         "rayon": 0,
         "viscose": 0,
         "pbt": 0,
-        "lyon": 0
+        "lyon": 0,
+        "polyamide": 0,
+        "polypropylene": 0,
+        "paraAramid": 0
       }
     }
   },
@@ -268,7 +292,7 @@
     "attributes": {
       "fabricType": "twill",
       "density": "195",
-      "width": null,
+      "width": "150",
       "colors": [],
       "properties": [],
       "composition": {
@@ -278,7 +302,10 @@
         "rayon": 0,
         "viscose": 0,
         "pbt": 0,
-        "lyon": 0
+        "lyon": 0,
+        "polyamide": 0,
+        "polypropylene": 0,
+        "paraAramid": 0
       }
     }
   },
@@ -299,7 +326,7 @@
     "attributes": {
       "fabricType": "twill",
       "density": "194",
-      "width": null,
+      "width": "150",
       "colors": [],
       "properties": [],
       "composition": {
@@ -309,7 +336,10 @@
         "rayon": 0,
         "viscose": 0,
         "pbt": 0,
-        "lyon": 0
+        "lyon": 0,
+        "polyamide": 0,
+        "polypropylene": 0,
+        "paraAramid": 0
       }
     }
   },
@@ -330,7 +360,7 @@
     "attributes": {
       "fabricType": "twill",
       "density": "195",
-      "width": null,
+      "width": "150",
       "colors": [],
       "properties": [],
       "composition": {
@@ -340,7 +370,10 @@
         "rayon": 0,
         "viscose": 0,
         "pbt": 0,
-        "lyon": 0
+        "lyon": 0,
+        "polyamide": 0,
+        "polypropylene": 0,
+        "paraAramid": 0
       }
     }
   },
@@ -361,7 +394,7 @@
     "attributes": {
       "fabricType": "twill",
       "density": "195",
-      "width": null,
+      "width": "150",
       "colors": [],
       "properties": [],
       "composition": {
@@ -371,7 +404,10 @@
         "rayon": 0,
         "viscose": 0,
         "pbt": 0,
-        "lyon": 0
+        "lyon": 0,
+        "polyamide": 0,
+        "polypropylene": 0,
+        "paraAramid": 0
       }
     }
   },
@@ -392,7 +428,7 @@
     "attributes": {
       "fabricType": "twill",
       "density": "215",
-      "width": null,
+      "width": "150",
       "colors": [],
       "properties": [],
       "composition": {
@@ -402,7 +438,10 @@
         "rayon": 0,
         "viscose": 0,
         "pbt": 0,
-        "lyon": 0
+        "lyon": 0,
+        "polyamide": 0,
+        "polypropylene": 0,
+        "paraAramid": 0
       }
     }
   },
@@ -423,7 +462,7 @@
     "attributes": {
       "fabricType": "twill",
       "density": "234",
-      "width": null,
+      "width": "150",
       "colors": [],
       "properties": [],
       "composition": {
@@ -433,7 +472,10 @@
         "rayon": 0,
         "viscose": 0,
         "pbt": 0,
-        "lyon": 0
+        "lyon": 0,
+        "polyamide": 0,
+        "polypropylene": 0,
+        "paraAramid": 0
       }
     }
   },
@@ -454,7 +496,7 @@
     "attributes": {
       "fabricType": "twill",
       "density": "245",
-      "width": null,
+      "width": "150",
       "colors": [],
       "properties": [],
       "composition": {
@@ -464,7 +506,10 @@
         "rayon": 0,
         "viscose": 0,
         "pbt": 0,
-        "lyon": 0
+        "lyon": 0,
+        "polyamide": 0,
+        "polypropylene": 0,
+        "paraAramid": 0
       }
     }
   },
@@ -485,7 +530,7 @@
     "attributes": {
       "fabricType": "twill",
       "density": "245",
-      "width": null,
+      "width": "150",
       "colors": [],
       "properties": [],
       "composition": {
@@ -495,7 +540,10 @@
         "rayon": 0,
         "viscose": 0,
         "pbt": 0,
-        "lyon": 0
+        "lyon": 0,
+        "polyamide": 0,
+        "polypropylene": 0,
+        "paraAramid": 0
       }
     }
   },
@@ -516,7 +564,7 @@
     "attributes": {
       "fabricType": "twill",
       "density": "245",
-      "width": null,
+      "width": "150",
       "colors": [],
       "properties": [],
       "composition": {
@@ -526,7 +574,10 @@
         "rayon": 0,
         "viscose": 0,
         "pbt": 0,
-        "lyon": 0
+        "lyon": 0,
+        "polyamide": 0,
+        "polypropylene": 0,
+        "paraAramid": 0
       }
     }
   },
@@ -547,7 +598,7 @@
     "attributes": {
       "fabricType": "twill",
       "density": "245",
-      "width": null,
+      "width": "150",
       "colors": [],
       "properties": [],
       "composition": {
@@ -557,7 +608,10 @@
         "rayon": 0,
         "viscose": 0,
         "pbt": 0,
-        "lyon": 0
+        "lyon": 0,
+        "polyamide": 0,
+        "polypropylene": 0,
+        "paraAramid": 0
       }
     }
   },
@@ -578,7 +632,7 @@
     "attributes": {
       "fabricType": "twill",
       "density": "325",
-      "width": null,
+      "width": "150",
       "colors": [],
       "properties": [],
       "composition": {
@@ -588,7 +642,10 @@
         "rayon": 0,
         "viscose": 0,
         "pbt": 0,
-        "lyon": 0
+        "lyon": 0,
+        "polyamide": 0,
+        "polypropylene": 0,
+        "paraAramid": 0
       }
     }
   },
@@ -609,7 +666,7 @@
     "attributes": {
       "fabricType": "twill",
       "density": "325",
-      "width": null,
+      "width": "150",
       "colors": [],
       "properties": [],
       "composition": {
@@ -619,7 +676,10 @@
         "rayon": 0,
         "viscose": 0,
         "pbt": 0,
-        "lyon": 0
+        "lyon": 0,
+        "polyamide": 0,
+        "polypropylene": 0,
+        "paraAramid": 0
       }
     }
   },
@@ -640,7 +700,7 @@
     "attributes": {
       "fabricType": "twill",
       "density": "210",
-      "width": null,
+      "width": "150",
       "colors": [],
       "properties": [],
       "composition": {
@@ -650,7 +710,10 @@
         "rayon": 0,
         "viscose": 0,
         "pbt": 0,
-        "lyon": 0
+        "lyon": 0,
+        "polyamide": 0,
+        "polypropylene": 0,
+        "paraAramid": 0
       }
     }
   },
@@ -671,7 +734,7 @@
     "attributes": {
       "fabricType": "twill",
       "density": "245",
-      "width": null,
+      "width": "150",
       "colors": [],
       "properties": [],
       "composition": {
@@ -681,7 +744,10 @@
         "rayon": 0,
         "viscose": 0,
         "pbt": 0,
-        "lyon": 0
+        "lyon": 0,
+        "polyamide": 0,
+        "polypropylene": 0,
+        "paraAramid": 0
       }
     }
   },
@@ -702,7 +768,7 @@
     "attributes": {
       "fabricType": "twill",
       "density": "250",
-      "width": null,
+      "width": "150",
       "colors": [],
       "properties": [],
       "composition": {
@@ -712,7 +778,10 @@
         "rayon": 0,
         "viscose": 0,
         "pbt": 0,
-        "lyon": 0
+        "lyon": 0,
+        "polyamide": 0,
+        "polypropylene": 0,
+        "paraAramid": 0
       }
     }
   },
@@ -733,7 +802,7 @@
     "attributes": {
       "fabricType": "twill",
       "density": "145",
-      "width": null,
+      "width": "150",
       "colors": [],
       "properties": [],
       "composition": {
@@ -743,7 +812,10 @@
         "rayon": 0,
         "viscose": 0,
         "pbt": 0,
-        "lyon": 0
+        "lyon": 0,
+        "polyamide": 0,
+        "polypropylene": 0,
+        "paraAramid": 0
       }
     }
   },
@@ -764,7 +836,7 @@
     "attributes": {
       "fabricType": "twill",
       "density": "180",
-      "width": null,
+      "width": "150",
       "colors": [],
       "properties": [],
       "composition": {
@@ -774,7 +846,10 @@
         "rayon": 0,
         "viscose": 0,
         "pbt": 0,
-        "lyon": 0
+        "lyon": 0,
+        "polyamide": 0,
+        "polypropylene": 0,
+        "paraAramid": 0
       }
     }
   },
@@ -795,7 +870,7 @@
     "attributes": {
       "fabricType": "twill",
       "density": "200",
-      "width": null,
+      "width": "150",
       "colors": [],
       "properties": [],
       "composition": {
@@ -805,7 +880,10 @@
         "rayon": 0,
         "viscose": 0,
         "pbt": 0,
-        "lyon": 0
+        "lyon": 0,
+        "polyamide": 0,
+        "polypropylene": 0,
+        "paraAramid": 0
       }
     }
   },
@@ -826,7 +904,7 @@
     "attributes": {
       "fabricType": "twill",
       "density": "163",
-      "width": null,
+      "width": "150",
       "colors": [],
       "properties": [],
       "composition": {
@@ -836,7 +914,10 @@
         "rayon": 0,
         "viscose": 0,
         "pbt": 0,
-        "lyon": 0
+        "lyon": 0,
+        "polyamide": 0,
+        "polypropylene": 0,
+        "paraAramid": 0
       }
     }
   },
@@ -857,7 +938,7 @@
     "attributes": {
       "fabricType": "twill",
       "density": "175",
-      "width": null,
+      "width": "150",
       "colors": [],
       "properties": [],
       "composition": {
@@ -867,7 +948,10 @@
         "rayon": 0,
         "viscose": 0,
         "pbt": 0,
-        "lyon": 0
+        "lyon": 0,
+        "polyamide": 0,
+        "polypropylene": 0,
+        "paraAramid": 0
       }
     }
   },
@@ -888,7 +972,7 @@
     "attributes": {
       "fabricType": "twill",
       "density": "290",
-      "width": null,
+      "width": "150",
       "colors": [],
       "properties": [],
       "composition": {
@@ -898,7 +982,10 @@
         "rayon": 0,
         "viscose": 0,
         "pbt": 0,
-        "lyon": 0
+        "lyon": 0,
+        "polyamide": 0,
+        "polypropylene": 0,
+        "paraAramid": 0
       }
     }
   },
@@ -919,7 +1006,7 @@
     "attributes": {
       "fabricType": "ripstop",
       "density": "275",
-      "width": null,
+      "width": "150",
       "colors": [],
       "properties": [],
       "composition": {
@@ -929,7 +1016,10 @@
         "rayon": 0,
         "viscose": 0,
         "pbt": 0,
-        "lyon": 0
+        "lyon": 0,
+        "polyamide": 0,
+        "polypropylene": 0,
+        "paraAramid": 0
       }
     }
   },
@@ -950,7 +1040,7 @@
     "attributes": {
       "fabricType": "twill",
       "density": "250",
-      "width": null,
+      "width": "150",
       "colors": [],
       "properties": [],
       "composition": {
@@ -960,7 +1050,10 @@
         "rayon": 0,
         "viscose": 0,
         "pbt": 0,
-        "lyon": 0
+        "lyon": 0,
+        "polyamide": 0,
+        "polypropylene": 0,
+        "paraAramid": 0
       }
     }
   },
@@ -981,7 +1074,7 @@
     "attributes": {
       "fabricType": "denim",
       "density": "280",
-      "width": null,
+      "width": "150",
       "colors": [],
       "properties": [],
       "composition": {
@@ -991,7 +1084,10 @@
         "rayon": 0,
         "viscose": 0,
         "pbt": 0,
-        "lyon": 0
+        "lyon": 0,
+        "polyamide": 0,
+        "polypropylene": 0,
+        "paraAramid": 0
       }
     }
   },
@@ -1012,7 +1108,7 @@
     "attributes": {
       "fabricType": "twill",
       "density": "140",
-      "width": null,
+      "width": "150",
       "colors": [],
       "properties": [],
       "composition": {
@@ -1022,7 +1118,10 @@
         "rayon": 0,
         "viscose": 0,
         "pbt": 0,
-        "lyon": 0
+        "lyon": 0,
+        "polyamide": 0,
+        "polypropylene": 0,
+        "paraAramid": 0
       }
     }
   },
@@ -1043,7 +1142,7 @@
     "attributes": {
       "fabricType": "twill",
       "density": "210",
-      "width": null,
+      "width": "150",
       "colors": [],
       "properties": [],
       "composition": {
@@ -1053,7 +1152,10 @@
         "rayon": 0,
         "viscose": 0,
         "pbt": 0,
-        "lyon": 0
+        "lyon": 0,
+        "polyamide": 0,
+        "polypropylene": 0,
+        "paraAramid": 0
       }
     }
   },
@@ -1074,7 +1176,7 @@
     "attributes": {
       "fabricType": "canvas",
       "density": "330",
-      "width": null,
+      "width": "150",
       "colors": [],
       "properties": [],
       "composition": {
@@ -1084,7 +1186,10 @@
         "rayon": 0,
         "viscose": 0,
         "pbt": 0,
-        "lyon": 0
+        "lyon": 0,
+        "polyamide": 0,
+        "polypropylene": 0,
+        "paraAramid": 0
       }
     }
   },
@@ -1109,7 +1214,7 @@
     "attributes": {
       "fabricType": "twill",
       "density": "150",
-      "width": null,
+      "width": "150",
       "colors": [
         "white",
         "black",
@@ -1123,7 +1228,10 @@
         "rayon": 0,
         "viscose": 0,
         "pbt": 0,
-        "lyon": 0
+        "lyon": 0,
+        "polyamide": 0,
+        "polypropylene": 0,
+        "paraAramid": 0
       }
     }
   },
@@ -1144,7 +1252,7 @@
     "attributes": {
       "fabricType": "twill",
       "density": "160",
-      "width": null,
+      "width": "150",
       "colors": [],
       "properties": [],
       "composition": {
@@ -1154,7 +1262,10 @@
         "rayon": 0,
         "viscose": 0,
         "pbt": 0,
-        "lyon": 0
+        "lyon": 0,
+        "polyamide": 0,
+        "polypropylene": 0,
+        "paraAramid": 0
       }
     }
   },
@@ -1175,7 +1286,7 @@
     "attributes": {
       "fabricType": "twill",
       "density": "160",
-      "width": null,
+      "width": "150",
       "colors": [],
       "properties": [],
       "composition": {
@@ -1185,7 +1296,10 @@
         "rayon": 0,
         "viscose": 0,
         "pbt": 0,
-        "lyon": 0
+        "lyon": 0,
+        "polyamide": 0,
+        "polypropylene": 0,
+        "paraAramid": 0
       }
     }
   },
@@ -1206,7 +1320,7 @@
     "attributes": {
       "fabricType": "twill",
       "density": "195",
-      "width": null,
+      "width": "150",
       "colors": [],
       "properties": [],
       "composition": {
@@ -1216,7 +1330,10 @@
         "rayon": 0,
         "viscose": 0,
         "pbt": 0,
-        "lyon": 0
+        "lyon": 0,
+        "polyamide": 0,
+        "polypropylene": 0,
+        "paraAramid": 0
       }
     }
   },
@@ -1237,7 +1354,7 @@
     "attributes": {
       "fabricType": "twill",
       "density": "195",
-      "width": null,
+      "width": "150",
       "colors": [],
       "properties": [],
       "composition": {
@@ -1247,7 +1364,10 @@
         "rayon": 0,
         "viscose": 0,
         "pbt": 0,
-        "lyon": 0
+        "lyon": 0,
+        "polyamide": 0,
+        "polypropylene": 0,
+        "paraAramid": 0
       }
     }
   },
@@ -1268,7 +1388,7 @@
     "attributes": {
       "fabricType": "twill",
       "density": "195",
-      "width": null,
+      "width": "150",
       "colors": [],
       "properties": [],
       "composition": {
@@ -1278,7 +1398,10 @@
         "rayon": 0,
         "viscose": 0,
         "pbt": 0,
-        "lyon": 0
+        "lyon": 0,
+        "polyamide": 0,
+        "polypropylene": 0,
+        "paraAramid": 0
       }
     }
   },
@@ -1299,7 +1422,7 @@
     "attributes": {
       "fabricType": "twill",
       "density": "194",
-      "width": null,
+      "width": "150",
       "colors": [],
       "properties": [],
       "composition": {
@@ -1309,7 +1432,10 @@
         "rayon": 0,
         "viscose": 0,
         "pbt": 0,
-        "lyon": 0
+        "lyon": 0,
+        "polyamide": 0,
+        "polypropylene": 0,
+        "paraAramid": 0
       }
     }
   },
@@ -1330,17 +1456,20 @@
     "attributes": {
       "fabricType": "twill",
       "density": "200",
-      "width": null,
+      "width": "150",
       "colors": [],
       "properties": [],
       "composition": {
         "cotton": 33,
         "polyester": 63,
-        "spandex": 0,
+        "spandex": 4,
         "rayon": 0,
         "viscose": 0,
         "pbt": 0,
-        "lyon": 0
+        "lyon": 0,
+        "polyamide": 0,
+        "polypropylene": 0,
+        "paraAramid": 0
       }
     }
   },
@@ -1361,7 +1490,7 @@
     "attributes": {
       "fabricType": "twill",
       "density": "200",
-      "width": null,
+      "width": "150",
       "colors": [],
       "properties": [],
       "composition": {
@@ -1371,7 +1500,10 @@
         "rayon": 0,
         "viscose": 0,
         "pbt": 0,
-        "lyon": 0
+        "lyon": 0,
+        "polyamide": 0,
+        "polypropylene": 0,
+        "paraAramid": 0
       }
     }
   },
@@ -1392,17 +1524,20 @@
     "attributes": {
       "fabricType": "twill",
       "density": "215",
-      "width": null,
+      "width": "150",
       "colors": [],
       "properties": [],
       "composition": {
         "cotton": 33,
         "polyester": 61,
-        "spandex": 0,
+        "spandex": 6,
         "rayon": 0,
         "viscose": 0,
         "pbt": 0,
-        "lyon": 0
+        "lyon": 0,
+        "polyamide": 0,
+        "polypropylene": 0,
+        "paraAramid": 0
       }
     }
   },
@@ -1423,7 +1558,7 @@
     "attributes": {
       "fabricType": "twill",
       "density": "210",
-      "width": null,
+      "width": "150",
       "colors": [],
       "properties": [],
       "composition": {
@@ -1433,7 +1568,10 @@
         "rayon": 0,
         "viscose": 0,
         "pbt": 0,
-        "lyon": 0
+        "lyon": 0,
+        "polyamide": 0,
+        "polypropylene": 0,
+        "paraAramid": 0
       }
     }
   },
@@ -1454,17 +1592,20 @@
     "attributes": {
       "fabricType": "twill",
       "density": "163",
-      "width": null,
+      "width": "150",
       "colors": [],
       "properties": [],
       "composition": {
         "cotton": 49.5,
         "polyester": 47.5,
-        "spandex": 0,
+        "spandex": 3,
         "rayon": 0,
         "viscose": 0,
         "pbt": 0,
-        "lyon": 0
+        "lyon": 0,
+        "polyamide": 0,
+        "polypropylene": 0,
+        "paraAramid": 0
       }
     }
   },
@@ -1485,7 +1626,7 @@
     "attributes": {
       "fabricType": "twill",
       "density": "145",
-      "width": null,
+      "width": "150",
       "colors": [],
       "properties": [],
       "composition": {
@@ -1495,7 +1636,10 @@
         "rayon": 0,
         "viscose": 0,
         "pbt": 0,
-        "lyon": 0
+        "lyon": 0,
+        "polyamide": 0,
+        "polypropylene": 0,
+        "paraAramid": 0
       }
     }
   },
@@ -1516,7 +1660,7 @@
     "attributes": {
       "fabricType": "twill",
       "density": "180",
-      "width": null,
+      "width": "150",
       "colors": [],
       "properties": [],
       "composition": {
@@ -1526,7 +1670,10 @@
         "rayon": 0,
         "viscose": 0,
         "pbt": 0,
-        "lyon": 0
+        "lyon": 0,
+        "polyamide": 0,
+        "polypropylene": 0,
+        "paraAramid": 0
       }
     }
   },
@@ -1547,7 +1694,7 @@
     "attributes": {
       "fabricType": "twill",
       "density": "175",
-      "width": null,
+      "width": "150",
       "colors": [],
       "properties": [],
       "composition": {
@@ -1557,7 +1704,10 @@
         "rayon": 0,
         "viscose": 0,
         "pbt": 0,
-        "lyon": 0
+        "lyon": 0,
+        "polyamide": 0,
+        "polypropylene": 0,
+        "paraAramid": 0
       }
     }
   },
@@ -1578,17 +1728,20 @@
     "attributes": {
       "fabricType": "twill",
       "density": "140",
-      "width": null,
+      "width": "150",
       "colors": [],
       "properties": [],
       "composition": {
         "cotton": 57,
         "polyester": 39,
-        "spandex": 0,
+        "spandex": 4,
         "rayon": 0,
         "viscose": 0,
         "pbt": 0,
-        "lyon": 0
+        "lyon": 0,
+        "polyamide": 0,
+        "polypropylene": 0,
+        "paraAramid": 0
       }
     }
   },
@@ -1609,7 +1762,7 @@
     "attributes": {
       "fabricType": "twill",
       "density": "210",
-      "width": null,
+      "width": "150",
       "colors": [],
       "properties": [],
       "composition": {
@@ -1619,7 +1772,10 @@
         "rayon": 0,
         "viscose": 0,
         "pbt": 0,
-        "lyon": 0
+        "lyon": 0,
+        "polyamide": 0,
+        "polypropylene": 0,
+        "paraAramid": 0
       }
     }
   },
@@ -1640,7 +1796,7 @@
     "attributes": {
       "fabricType": "twill",
       "density": "225",
-      "width": null,
+      "width": "150",
       "colors": [],
       "properties": [],
       "composition": {
@@ -1648,9 +1804,12 @@
         "polyester": 65,
         "spandex": 0,
         "rayon": 0,
-        "viscose": 0,
+        "viscose": 35,
         "pbt": 0,
-        "lyon": 0
+        "lyon": 0,
+        "polyamide": 0,
+        "polypropylene": 0,
+        "paraAramid": 0
       }
     }
   },
@@ -1671,7 +1830,7 @@
     "attributes": {
       "fabricType": "twill",
       "density": "150",
-      "width": null,
+      "width": "150",
       "colors": [],
       "properties": [],
       "composition": {
@@ -1681,7 +1840,10 @@
         "rayon": 0,
         "viscose": 0,
         "pbt": 0,
-        "lyon": 0
+        "lyon": 0,
+        "polyamide": 0,
+        "polypropylene": 0,
+        "paraAramid": 0
       }
     }
   },
@@ -1702,19 +1864,20 @@
     "attributes": {
       "fabricType": "twill",
       "density": "300",
-      "width": null,
-      "colors": [
-        "79"
-      ],
+      "width": "150",
+      "colors": [],
       "properties": [],
       "composition": {
-        "cotton": 20,
-        "polyester": 0,
+        "cotton": 79,
+        "polyester": 20,
         "spandex": 0,
         "rayon": 0,
         "viscose": 0,
         "pbt": 0,
-        "lyon": 0
+        "lyon": 0,
+        "polyamide": 0,
+        "polypropylene": 0,
+        "paraAramid": 0
       }
     }
   },
@@ -1735,19 +1898,20 @@
     "attributes": {
       "fabricType": "twill",
       "density": "350",
-      "width": null,
-      "colors": [
-        "79"
-      ],
+      "width": "150",
+      "colors": [],
       "properties": [],
       "composition": {
-        "cotton": 20,
-        "polyester": 0,
+        "cotton": 79,
+        "polyester": 20,
         "spandex": 0,
         "rayon": 0,
         "viscose": 0,
         "pbt": 0,
-        "lyon": 0
+        "lyon": 0,
+        "polyamide": 0,
+        "polypropylene": 0,
+        "paraAramid": 0
       }
     }
   },
@@ -1768,19 +1932,20 @@
     "attributes": {
       "fabricType": "twill",
       "density": "450",
-      "width": null,
-      "colors": [
-        "79"
-      ],
+      "width": "150",
+      "colors": [],
       "properties": [],
       "composition": {
-        "cotton": 20,
-        "polyester": 0,
+        "cotton": 79,
+        "polyester": 20,
         "spandex": 0,
         "rayon": 0,
         "viscose": 0,
         "pbt": 0,
-        "lyon": 0
+        "lyon": 0,
+        "polyamide": 0,
+        "polypropylene": 0,
+        "paraAramid": 0
       }
     }
   },
@@ -1801,19 +1966,20 @@
     "attributes": {
       "fabricType": "twill",
       "density": "350",
-      "width": null,
-      "colors": [
-        "64"
-      ],
+      "width": "150",
+      "colors": [],
       "properties": [],
       "composition": {
-        "cotton": 35,
-        "polyester": 0,
+        "cotton": 64,
+        "polyester": 35,
         "spandex": 0,
         "rayon": 0,
         "viscose": 0,
         "pbt": 0,
-        "lyon": 0
+        "lyon": 0,
+        "polyamide": 0,
+        "polypropylene": 0,
+        "paraAramid": 0
       }
     }
   },
@@ -1834,19 +2000,20 @@
     "attributes": {
       "fabricType": "twill",
       "density": "350",
-      "width": null,
-      "colors": [
-        "64"
-      ],
+      "width": "150",
+      "colors": [],
       "properties": [],
       "composition": {
-        "cotton": 35,
-        "polyester": 0,
+        "cotton": 64,
+        "polyester": 35,
         "spandex": 0,
         "rayon": 0,
         "viscose": 0,
         "pbt": 0,
-        "lyon": 0
+        "lyon": 0,
+        "polyamide": 0,
+        "polypropylene": 0,
+        "paraAramid": 0
       }
     }
   },
@@ -1867,19 +2034,20 @@
     "attributes": {
       "fabricType": "twill",
       "density": "230",
-      "width": null,
-      "colors": [
-        "100"
-      ],
+      "width": "150",
+      "colors": [],
       "properties": [],
       "composition": {
-        "cotton": 0,
+        "cotton": 100,
         "polyester": 0,
         "spandex": 0,
         "rayon": 0,
         "viscose": 0,
         "pbt": 0,
-        "lyon": 0
+        "lyon": 0,
+        "polyamide": 0,
+        "polypropylene": 0,
+        "paraAramid": 0
       }
     }
   },
@@ -1900,19 +2068,20 @@
     "attributes": {
       "fabricType": "twill",
       "density": "335",
-      "width": null,
-      "colors": [
-        "99"
-      ],
+      "width": "150",
+      "colors": [],
       "properties": [],
       "composition": {
-        "cotton": 0,
+        "cotton": 99,
         "polyester": 0,
         "spandex": 0,
         "rayon": 0,
         "viscose": 0,
         "pbt": 0,
-        "lyon": 0
+        "lyon": 0,
+        "polyamide": 0,
+        "polypropylene": 0,
+        "paraAramid": 0
       }
     }
   },
@@ -1933,19 +2102,20 @@
     "attributes": {
       "fabricType": "twill",
       "density": "335",
-      "width": null,
-      "colors": [
-        "100"
-      ],
+      "width": "150",
+      "colors": [],
       "properties": [],
       "composition": {
-        "cotton": 0,
+        "cotton": 100,
         "polyester": 0,
         "spandex": 0,
         "rayon": 0,
         "viscose": 0,
         "pbt": 0,
-        "lyon": 0
+        "lyon": 0,
+        "polyamide": 0,
+        "polypropylene": 0,
+        "paraAramid": 0
       }
     }
   },
@@ -1966,19 +2136,20 @@
     "attributes": {
       "fabricType": "twill",
       "density": "265",
-      "width": null,
-      "colors": [
-        "84"
-      ],
+      "width": "150",
+      "colors": [],
       "properties": [],
       "composition": {
-        "cotton": 0,
+        "cotton": 84,
         "polyester": 0,
         "spandex": 0,
         "rayon": 0,
         "viscose": 0,
         "pbt": 0,
-        "lyon": 0
+        "lyon": 0,
+        "polyamide": 15,
+        "polypropylene": 0,
+        "paraAramid": 0
       }
     }
   },
@@ -1999,19 +2170,20 @@
     "attributes": {
       "fabricType": "twill",
       "density": "320",
-      "width": null,
-      "colors": [
-        "45"
-      ],
+      "width": "150",
+      "colors": [],
       "properties": [],
       "composition": {
-        "cotton": 0,
+        "cotton": 45,
         "polyester": 0,
         "spandex": 0,
         "rayon": 0,
         "viscose": 0,
         "pbt": 0,
-        "lyon": 0
+        "lyon": 0,
+        "polyamide": 0,
+        "polypropylene": 54,
+        "paraAramid": 0
       }
     }
   },
@@ -2032,19 +2204,20 @@
     "attributes": {
       "fabricType": "twill",
       "density": "340",
-      "width": null,
-      "colors": [
-        "74"
-      ],
+      "width": "150",
+      "colors": [],
       "properties": [],
       "composition": {
-        "cotton": 0,
+        "cotton": 74,
         "polyester": 0,
         "spandex": 0,
         "rayon": 0,
         "viscose": 0,
         "pbt": 0,
-        "lyon": 0
+        "lyon": 0,
+        "polyamide": 0,
+        "polypropylene": 0,
+        "paraAramid": 25
       }
     }
   },
@@ -2065,10 +2238,8 @@
     "attributes": {
       "fabricType": "twill",
       "density": "300",
-      "width": null,
-      "colors": [
-        "0"
-      ],
+      "width": "150",
+      "colors": [],
       "properties": [],
       "composition": {
         "cotton": 0,
@@ -2077,7 +2248,10 @@
         "rayon": 0,
         "viscose": 0,
         "pbt": 0,
-        "lyon": 0
+        "lyon": 0,
+        "polyamide": 0,
+        "polypropylene": 0,
+        "paraAramid": 0
       }
     }
   },
@@ -2098,10 +2272,8 @@
     "attributes": {
       "fabricType": "twill",
       "density": "325",
-      "width": null,
-      "colors": [
-        "0"
-      ],
+      "width": "150",
+      "colors": [],
       "properties": [],
       "composition": {
         "cotton": 0,
@@ -2110,7 +2282,10 @@
         "rayon": 0,
         "viscose": 0,
         "pbt": 0,
-        "lyon": 0
+        "lyon": 0,
+        "polyamide": 0,
+        "polypropylene": 0,
+        "paraAramid": 0
       }
     }
   },
@@ -2131,10 +2306,8 @@
     "attributes": {
       "fabricType": "twill",
       "density": "200",
-      "width": null,
-      "colors": [
-        "0"
-      ],
+      "width": "150",
+      "colors": [],
       "properties": [],
       "composition": {
         "cotton": 0,
@@ -2143,7 +2316,10 @@
         "rayon": 0,
         "viscose": 0,
         "pbt": 0,
-        "lyon": 0
+        "lyon": 0,
+        "polyamide": 0,
+        "polypropylene": 0,
+        "paraAramid": 0
       }
     }
   },
@@ -2164,10 +2340,8 @@
     "attributes": {
       "fabricType": "twill",
       "density": "265",
-      "width": null,
-      "colors": [
-        "0"
-      ],
+      "width": "150",
+      "colors": [],
       "properties": [],
       "composition": {
         "cotton": 0,
@@ -2176,7 +2350,10 @@
         "rayon": 0,
         "viscose": 0,
         "pbt": 0,
-        "lyon": 0
+        "lyon": 0,
+        "polyamide": 0,
+        "polypropylene": 0,
+        "paraAramid": 0
       }
     }
   },
@@ -2197,19 +2374,20 @@
     "attributes": {
       "fabricType": "twill",
       "density": "290",
-      "width": null,
-      "colors": [
-        "42"
-      ],
+      "width": "150",
+      "colors": [],
       "properties": [],
       "composition": {
-        "cotton": 6,
-        "polyester": 0,
+        "cotton": 42,
+        "polyester": 6,
         "spandex": 0,
         "rayon": 0,
         "viscose": 0,
         "pbt": 0,
-        "lyon": 0
+        "lyon": 0,
+        "polyamide": 0,
+        "polypropylene": 0,
+        "paraAramid": 0
       }
     }
   },
@@ -2230,19 +2408,20 @@
     "attributes": {
       "fabricType": "twill",
       "density": "200",
-      "width": null,
-      "colors": [
-        "33"
-      ],
+      "width": "150",
+      "colors": [],
       "properties": [],
       "composition": {
-        "cotton": 63,
-        "polyester": 4,
-        "spandex": 0,
+        "cotton": 33,
+        "polyester": 63,
+        "spandex": 4,
         "rayon": 0,
         "viscose": 0,
         "pbt": 0,
-        "lyon": 0
+        "lyon": 0,
+        "polyamide": 0,
+        "polypropylene": 0,
+        "paraAramid": 0
       }
     }
   },
@@ -2263,19 +2442,20 @@
     "attributes": {
       "fabricType": "twill",
       "density": "215",
-      "width": null,
-      "colors": [
-        "33"
-      ],
+      "width": "150",
+      "colors": [],
       "properties": [],
       "composition": {
-        "cotton": 61,
-        "polyester": 6,
-        "spandex": 0,
+        "cotton": 33,
+        "polyester": 61,
+        "spandex": 6,
         "rayon": 0,
         "viscose": 0,
         "pbt": 0,
-        "lyon": 0
+        "lyon": 0,
+        "polyamide": 0,
+        "polypropylene": 0,
+        "paraAramid": 0
       }
     }
   },
@@ -2296,19 +2476,20 @@
     "attributes": {
       "fabricType": "twill",
       "density": "150",
-      "width": null,
-      "colors": [
-        "35"
-      ],
+      "width": "150",
+      "colors": [],
       "properties": [],
       "composition": {
-        "cotton": 65,
-        "polyester": 0,
+        "cotton": 35,
+        "polyester": 65,
         "spandex": 0,
         "rayon": 0,
         "viscose": 0,
         "pbt": 0,
-        "lyon": 0
+        "lyon": 0,
+        "polyamide": 0,
+        "polypropylene": 0,
+        "paraAramid": 0
       }
     }
   },
@@ -2329,19 +2510,20 @@
     "attributes": {
       "fabricType": "twill",
       "density": "160",
-      "width": null,
-      "colors": [
-        "35"
-      ],
+      "width": "150",
+      "colors": [],
       "properties": [],
       "composition": {
-        "cotton": 65,
-        "polyester": 0,
+        "cotton": 35,
+        "polyester": 65,
         "spandex": 0,
         "rayon": 0,
         "viscose": 0,
         "pbt": 0,
-        "lyon": 0
+        "lyon": 0,
+        "polyamide": 0,
+        "polypropylene": 0,
+        "paraAramid": 0
       }
     }
   },
@@ -2362,19 +2544,20 @@
     "attributes": {
       "fabricType": "twill",
       "density": "160",
-      "width": null,
-      "colors": [
-        "35"
-      ],
+      "width": "150",
+      "colors": [],
       "properties": [],
       "composition": {
-        "cotton": 65,
-        "polyester": 0,
+        "cotton": 35,
+        "polyester": 65,
         "spandex": 0,
         "rayon": 0,
         "viscose": 0,
         "pbt": 0,
-        "lyon": 0
+        "lyon": 0,
+        "polyamide": 0,
+        "polypropylene": 0,
+        "paraAramid": 0
       }
     }
   },
@@ -2395,19 +2578,20 @@
     "attributes": {
       "fabricType": "twill",
       "density": "195",
-      "width": null,
-      "colors": [
-        "35"
-      ],
+      "width": "150",
+      "colors": [],
       "properties": [],
       "composition": {
-        "cotton": 65,
-        "polyester": 0,
+        "cotton": 35,
+        "polyester": 65,
         "spandex": 0,
         "rayon": 0,
         "viscose": 0,
         "pbt": 0,
-        "lyon": 0
+        "lyon": 0,
+        "polyamide": 0,
+        "polypropylene": 0,
+        "paraAramid": 0
       }
     }
   },
@@ -2428,19 +2612,20 @@
     "attributes": {
       "fabricType": "twill",
       "density": "194",
-      "width": null,
-      "colors": [
-        "35"
-      ],
+      "width": "150",
+      "colors": [],
       "properties": [],
       "composition": {
-        "cotton": 65,
-        "polyester": 0,
+        "cotton": 35,
+        "polyester": 65,
         "spandex": 0,
         "rayon": 0,
         "viscose": 0,
         "pbt": 0,
-        "lyon": 0
+        "lyon": 0,
+        "polyamide": 0,
+        "polypropylene": 0,
+        "paraAramid": 0
       }
     }
   },
@@ -2461,19 +2646,20 @@
     "attributes": {
       "fabricType": "twill",
       "density": "195",
-      "width": null,
-      "colors": [
-        "35"
-      ],
+      "width": "150",
+      "colors": [],
       "properties": [],
       "composition": {
-        "cotton": 65,
-        "polyester": 0,
+        "cotton": 35,
+        "polyester": 65,
         "spandex": 0,
         "rayon": 0,
         "viscose": 0,
         "pbt": 0,
-        "lyon": 0
+        "lyon": 0,
+        "polyamide": 0,
+        "polypropylene": 0,
+        "paraAramid": 0
       }
     }
   },
@@ -2494,19 +2680,20 @@
     "attributes": {
       "fabricType": "twill",
       "density": "195",
-      "width": null,
-      "colors": [
-        "35"
-      ],
+      "width": "150",
+      "colors": [],
       "properties": [],
       "composition": {
-        "cotton": 65,
-        "polyester": 0,
+        "cotton": 35,
+        "polyester": 65,
         "spandex": 0,
         "rayon": 0,
         "viscose": 0,
         "pbt": 0,
-        "lyon": 0
+        "lyon": 0,
+        "polyamide": 0,
+        "polypropylene": 0,
+        "paraAramid": 0
       }
     }
   },
@@ -2527,19 +2714,20 @@
     "attributes": {
       "fabricType": "twill",
       "density": "215",
-      "width": null,
-      "colors": [
-        "35"
-      ],
+      "width": "150",
+      "colors": [],
       "properties": [],
       "composition": {
-        "cotton": 65,
-        "polyester": 0,
+        "cotton": 35,
+        "polyester": 65,
         "spandex": 0,
         "rayon": 0,
         "viscose": 0,
         "pbt": 0,
-        "lyon": 0
+        "lyon": 0,
+        "polyamide": 0,
+        "polypropylene": 0,
+        "paraAramid": 0
       }
     }
   },
@@ -2560,19 +2748,20 @@
     "attributes": {
       "fabricType": "twill",
       "density": "234",
-      "width": null,
-      "colors": [
-        "35"
-      ],
+      "width": "150",
+      "colors": [],
       "properties": [],
       "composition": {
-        "cotton": 65,
-        "polyester": 0,
+        "cotton": 35,
+        "polyester": 65,
         "spandex": 0,
         "rayon": 0,
         "viscose": 0,
         "pbt": 0,
-        "lyon": 0
+        "lyon": 0,
+        "polyamide": 0,
+        "polypropylene": 0,
+        "paraAramid": 0
       }
     }
   },
@@ -2593,19 +2782,20 @@
     "attributes": {
       "fabricType": "twill",
       "density": "245",
-      "width": null,
-      "colors": [
-        "35"
-      ],
+      "width": "150",
+      "colors": [],
       "properties": [],
       "composition": {
-        "cotton": 65,
-        "polyester": 0,
+        "cotton": 35,
+        "polyester": 65,
         "spandex": 0,
         "rayon": 0,
         "viscose": 0,
         "pbt": 0,
-        "lyon": 0
+        "lyon": 0,
+        "polyamide": 0,
+        "polypropylene": 0,
+        "paraAramid": 0
       }
     }
   },
@@ -2626,19 +2816,20 @@
     "attributes": {
       "fabricType": "twill",
       "density": "245",
-      "width": null,
-      "colors": [
-        "35"
-      ],
+      "width": "150",
+      "colors": [],
       "properties": [],
       "composition": {
-        "cotton": 65,
-        "polyester": 0,
+        "cotton": 35,
+        "polyester": 65,
         "spandex": 0,
         "rayon": 0,
         "viscose": 0,
         "pbt": 0,
-        "lyon": 0
+        "lyon": 0,
+        "polyamide": 0,
+        "polypropylene": 0,
+        "paraAramid": 0
       }
     }
   },
@@ -2659,19 +2850,20 @@
     "attributes": {
       "fabricType": "twill",
       "density": "245",
-      "width": null,
-      "colors": [
-        "35"
-      ],
+      "width": "150",
+      "colors": [],
       "properties": [],
       "composition": {
-        "cotton": 65,
-        "polyester": 0,
+        "cotton": 35,
+        "polyester": 65,
         "spandex": 0,
         "rayon": 0,
         "viscose": 0,
         "pbt": 0,
-        "lyon": 0
+        "lyon": 0,
+        "polyamide": 0,
+        "polypropylene": 0,
+        "paraAramid": 0
       }
     }
   },
@@ -2692,19 +2884,20 @@
     "attributes": {
       "fabricType": "twill",
       "density": "210",
-      "width": null,
-      "colors": [
-        "40"
-      ],
+      "width": "150",
+      "colors": [],
       "properties": [],
       "composition": {
-        "cotton": 60,
-        "polyester": 0,
+        "cotton": 40,
+        "polyester": 60,
         "spandex": 0,
         "rayon": 0,
         "viscose": 0,
         "pbt": 0,
-        "lyon": 0
+        "lyon": 0,
+        "polyamide": 0,
+        "polypropylene": 0,
+        "paraAramid": 0
       }
     }
   },
@@ -2725,19 +2918,20 @@
     "attributes": {
       "fabricType": "twill",
       "density": "145",
-      "width": null,
-      "colors": [
-        "50"
-      ],
+      "width": "150",
+      "colors": [],
       "properties": [],
       "composition": {
         "cotton": 50,
-        "polyester": 0,
+        "polyester": 50,
         "spandex": 0,
         "rayon": 0,
         "viscose": 0,
         "pbt": 0,
-        "lyon": 0
+        "lyon": 0,
+        "polyamide": 0,
+        "polypropylene": 0,
+        "paraAramid": 0
       }
     }
   },
@@ -2758,19 +2952,20 @@
     "attributes": {
       "fabricType": "twill",
       "density": "180",
-      "width": null,
-      "colors": [
-        "50"
-      ],
+      "width": "150",
+      "colors": [],
       "properties": [],
       "composition": {
         "cotton": 50,
-        "polyester": 0,
+        "polyester": 50,
         "spandex": 0,
         "rayon": 0,
         "viscose": 0,
         "pbt": 0,
-        "lyon": 0
+        "lyon": 0,
+        "polyamide": 0,
+        "polypropylene": 0,
+        "paraAramid": 0
       }
     }
   },
@@ -2791,19 +2986,20 @@
     "attributes": {
       "fabricType": "twill",
       "density": "200",
-      "width": null,
-      "colors": [
-        "50"
-      ],
+      "width": "150",
+      "colors": [],
       "properties": [],
       "composition": {
         "cotton": 50,
-        "polyester": 0,
+        "polyester": 50,
         "spandex": 0,
         "rayon": 0,
         "viscose": 0,
         "pbt": 0,
-        "lyon": 0
+        "lyon": 0,
+        "polyamide": 0,
+        "polypropylene": 0,
+        "paraAramid": 0
       }
     }
   },
@@ -2824,19 +3020,20 @@
     "attributes": {
       "fabricType": "twill",
       "density": "163",
-      "width": null,
-      "colors": [
-        "49.5"
-      ],
+      "width": "150",
+      "colors": [],
       "properties": [],
       "composition": {
-        "cotton": 47.5,
-        "polyester": 3,
-        "spandex": 0,
+        "cotton": 49.5,
+        "polyester": 47.5,
+        "spandex": 3,
         "rayon": 0,
         "viscose": 0,
         "pbt": 0,
-        "lyon": 0
+        "lyon": 0,
+        "polyamide": 0,
+        "polypropylene": 0,
+        "paraAramid": 0
       }
     }
   },
@@ -2857,19 +3054,20 @@
     "attributes": {
       "fabricType": "twill",
       "density": "175",
-      "width": null,
-      "colors": [
-        "51"
-      ],
+      "width": "150",
+      "colors": [],
       "properties": [],
       "composition": {
-        "cotton": 49,
-        "polyester": 0,
+        "cotton": 51,
+        "polyester": 49,
         "spandex": 0,
         "rayon": 0,
         "viscose": 0,
         "pbt": 0,
-        "lyon": 0
+        "lyon": 0,
+        "polyamide": 0,
+        "polypropylene": 0,
+        "paraAramid": 0
       }
     }
   },
@@ -2890,19 +3088,20 @@
     "attributes": {
       "fabricType": "denim",
       "density": "280",
-      "width": null,
-      "colors": [
-        "48"
-      ],
+      "width": "150",
+      "colors": [],
       "properties": [],
       "composition": {
         "cotton": 48,
-        "polyester": 4,
-        "spandex": 0,
+        "polyester": 48,
+        "spandex": 4,
         "rayon": 0,
         "viscose": 0,
         "pbt": 0,
-        "lyon": 0
+        "lyon": 0,
+        "polyamide": 0,
+        "polypropylene": 0,
+        "paraAramid": 0
       }
     }
   },
@@ -2923,19 +3122,20 @@
     "attributes": {
       "fabricType": "twill",
       "density": "140",
-      "width": null,
-      "colors": [
-        "57"
-      ],
+      "width": "150",
+      "colors": [],
       "properties": [],
       "composition": {
-        "cotton": 39,
-        "polyester": 4,
-        "spandex": 0,
+        "cotton": 57,
+        "polyester": 39,
+        "spandex": 4,
         "rayon": 0,
         "viscose": 0,
         "pbt": 0,
-        "lyon": 0
+        "lyon": 0,
+        "polyamide": 0,
+        "polypropylene": 0,
+        "paraAramid": 0
       }
     }
   },
@@ -2956,19 +3156,20 @@
     "attributes": {
       "fabricType": "twill",
       "density": "210",
-      "width": null,
-      "colors": [
-        "60"
-      ],
+      "width": "150",
+      "colors": [],
       "properties": [],
       "composition": {
-        "cotton": 40,
-        "polyester": 0,
+        "cotton": 60,
+        "polyester": 40,
         "spandex": 0,
         "rayon": 0,
         "viscose": 0,
         "pbt": 0,
-        "lyon": 0
+        "lyon": 0,
+        "polyamide": 0,
+        "polypropylene": 0,
+        "paraAramid": 0
       }
     }
   },
@@ -2989,19 +3190,20 @@
     "attributes": {
       "fabricType": "twill",
       "density": "250",
-      "width": null,
-      "colors": [
-        "65"
-      ],
+      "width": "150",
+      "colors": [],
       "properties": [],
       "composition": {
-        "cotton": 35,
-        "polyester": 0,
+        "cotton": 65,
+        "polyester": 35,
         "spandex": 0,
         "rayon": 0,
         "viscose": 0,
         "pbt": 0,
-        "lyon": 0
+        "lyon": 0,
+        "polyamide": 0,
+        "polypropylene": 0,
+        "paraAramid": 0
       }
     }
   },
@@ -3022,19 +3224,20 @@
     "attributes": {
       "fabricType": "twill",
       "density": "235",
-      "width": null,
-      "colors": [
-        "0"
-      ],
+      "width": "150",
+      "colors": [],
       "properties": [],
       "composition": {
-        "cotton": 80,
-        "polyester": 5,
-        "spandex": 0,
+        "cotton": 0,
+        "polyester": 80,
+        "spandex": 5,
         "rayon": 15,
         "viscose": 0,
         "pbt": 0,
-        "lyon": 0
+        "lyon": 0,
+        "polyamide": 0,
+        "polypropylene": 0,
+        "paraAramid": 0
       }
     }
   },
@@ -3055,19 +3258,20 @@
     "attributes": {
       "fabricType": "denim",
       "density": "300",
-      "width": null,
-      "colors": [
-        "80"
-      ],
+      "width": "150",
+      "colors": [],
       "properties": [],
       "composition": {
-        "cotton": 18,
-        "polyester": 2,
-        "spandex": 0,
+        "cotton": 80,
+        "polyester": 18,
+        "spandex": 2,
         "rayon": 0,
         "viscose": 0,
         "pbt": 0,
-        "lyon": 0
+        "lyon": 0,
+        "polyamide": 0,
+        "polypropylene": 0,
+        "paraAramid": 0
       }
     }
   },
@@ -3088,19 +3292,20 @@
     "attributes": {
       "fabricType": "twill",
       "density": "230",
-      "width": null,
-      "colors": [
-        "96"
-      ],
+      "width": "150",
+      "colors": [],
       "properties": [],
       "composition": {
-        "cotton": 0,
-        "polyester": 4,
-        "spandex": 0,
+        "cotton": 96,
+        "polyester": 0,
+        "spandex": 4,
         "rayon": 0,
         "viscose": 0,
         "pbt": 0,
-        "lyon": 0
+        "lyon": 0,
+        "polyamide": 0,
+        "polypropylene": 0,
+        "paraAramid": 0
       }
     }
   },
@@ -3121,19 +3326,20 @@
     "attributes": {
       "fabricType": "twill",
       "density": "232",
-      "width": null,
-      "colors": [
-        "100"
-      ],
+      "width": "150",
+      "colors": [],
       "properties": [],
       "composition": {
-        "cotton": 0,
+        "cotton": 100,
         "polyester": 0,
         "spandex": 0,
         "rayon": 0,
         "viscose": 0,
         "pbt": 0,
-        "lyon": 0
+        "lyon": 0,
+        "polyamide": 0,
+        "polypropylene": 0,
+        "paraAramid": 0
       }
     }
   },
@@ -3154,19 +3360,20 @@
     "attributes": {
       "fabricType": "twill",
       "density": "240",
-      "width": null,
-      "colors": [
-        "100"
-      ],
+      "width": "150",
+      "colors": [],
       "properties": [],
       "composition": {
-        "cotton": 0,
+        "cotton": 100,
         "polyester": 0,
         "spandex": 0,
         "rayon": 0,
         "viscose": 0,
         "pbt": 0,
-        "lyon": 0
+        "lyon": 0,
+        "polyamide": 0,
+        "polypropylene": 0,
+        "paraAramid": 0
       }
     }
   },
@@ -3187,19 +3394,20 @@
     "attributes": {
       "fabricType": "twill",
       "density": "250",
-      "width": null,
-      "colors": [
-        "100"
-      ],
+      "width": "150",
+      "colors": [],
       "properties": [],
       "composition": {
-        "cotton": 0,
+        "cotton": 100,
         "polyester": 0,
         "spandex": 0,
         "rayon": 0,
         "viscose": 0,
         "pbt": 0,
-        "lyon": 0
+        "lyon": 0,
+        "polyamide": 0,
+        "polypropylene": 0,
+        "paraAramid": 0
       }
     }
   },
@@ -3220,19 +3428,20 @@
     "attributes": {
       "fabricType": "canvas",
       "density": "250",
-      "width": null,
-      "colors": [
-        "100"
-      ],
+      "width": "150",
+      "colors": [],
       "properties": [],
       "composition": {
-        "cotton": 0,
+        "cotton": 100,
         "polyester": 0,
         "spandex": 0,
         "rayon": 0,
         "viscose": 0,
         "pbt": 0,
-        "lyon": 0
+        "lyon": 0,
+        "polyamide": 0,
+        "polypropylene": 0,
+        "paraAramid": 0
       }
     }
   },
@@ -3253,19 +3462,20 @@
     "attributes": {
       "fabricType": "twill",
       "density": "260",
-      "width": null,
-      "colors": [
-        "100"
-      ],
+      "width": "150",
+      "colors": [],
       "properties": [],
       "composition": {
-        "cotton": 0,
+        "cotton": 100,
         "polyester": 0,
         "spandex": 0,
         "rayon": 0,
         "viscose": 0,
         "pbt": 0,
-        "lyon": 0
+        "lyon": 0,
+        "polyamide": 0,
+        "polypropylene": 0,
+        "paraAramid": 0
       }
     }
   },
@@ -3286,19 +3496,20 @@
     "attributes": {
       "fabricType": "denim",
       "density": "270",
-      "width": null,
-      "colors": [
-        "100"
-      ],
+      "width": "150",
+      "colors": [],
       "properties": [],
       "composition": {
-        "cotton": 0,
+        "cotton": 100,
         "polyester": 0,
         "spandex": 0,
         "rayon": 0,
         "viscose": 0,
         "pbt": 0,
-        "lyon": 0
+        "lyon": 0,
+        "polyamide": 0,
+        "polypropylene": 0,
+        "paraAramid": 0
       }
     }
   },
@@ -3319,19 +3530,20 @@
     "attributes": {
       "fabricType": "twill",
       "density": "270",
-      "width": null,
-      "colors": [
-        "97"
-      ],
+      "width": "150",
+      "colors": [],
       "properties": [],
       "composition": {
-        "cotton": 0,
-        "polyester": 3,
-        "spandex": 0,
+        "cotton": 97,
+        "polyester": 0,
+        "spandex": 3,
         "rayon": 0,
         "viscose": 0,
         "pbt": 0,
-        "lyon": 0
+        "lyon": 0,
+        "polyamide": 0,
+        "polypropylene": 0,
+        "paraAramid": 0
       }
     }
   },
@@ -3352,19 +3564,20 @@
     "attributes": {
       "fabricType": "canvas",
       "density": "350",
-      "width": null,
-      "colors": [
-        "100"
-      ],
+      "width": "150",
+      "colors": [],
       "properties": [],
       "composition": {
-        "cotton": 0,
+        "cotton": 100,
         "polyester": 0,
         "spandex": 0,
         "rayon": 0,
         "viscose": 0,
         "pbt": 0,
-        "lyon": 0
+        "lyon": 0,
+        "polyamide": 0,
+        "polypropylene": 0,
+        "paraAramid": 0
       }
     }
   },
@@ -3385,19 +3598,20 @@
     "attributes": {
       "fabricType": "twill",
       "density": "150",
-      "width": null,
-      "colors": [
-        "0"
-      ],
+      "width": "150",
+      "colors": [],
       "properties": [],
       "composition": {
-        "cotton": 100,
-        "polyester": 0,
+        "cotton": 0,
+        "polyester": 100,
         "spandex": 0,
         "rayon": 0,
         "viscose": 0,
         "pbt": 0,
-        "lyon": 0
+        "lyon": 0,
+        "polyamide": 0,
+        "polypropylene": 0,
+        "paraAramid": 0
       }
     }
   },
@@ -3418,19 +3632,20 @@
     "attributes": {
       "fabricType": "twill",
       "density": "230",
-      "width": null,
-      "colors": [
-        "0"
-      ],
+      "width": "150",
+      "colors": [],
       "properties": [],
       "composition": {
-        "cotton": 80,
-        "polyester": 5,
-        "spandex": 0,
+        "cotton": 0,
+        "polyester": 80,
+        "spandex": 5,
         "rayon": 15,
         "viscose": 0,
         "pbt": 0,
-        "lyon": 0
+        "lyon": 0,
+        "polyamide": 0,
+        "polypropylene": 0,
+        "paraAramid": 0
       }
     }
   },
@@ -3451,19 +3666,20 @@
     "attributes": {
       "fabricType": "twill",
       "density": "206",
-      "width": null,
-      "colors": [
-        "0"
-      ],
+      "width": "150",
+      "colors": [],
       "properties": [],
       "composition": {
-        "cotton": 40,
-        "polyester": 0,
-        "spandex": 60,
+        "cotton": 0,
+        "polyester": 40,
+        "spandex": 0,
         "rayon": 0,
         "viscose": 0,
         "pbt": 0,
-        "lyon": 0
+        "lyon": 0,
+        "polyamide": 0,
+        "polypropylene": 0,
+        "paraAramid": 0
       }
     }
   },
@@ -3484,19 +3700,20 @@
     "attributes": {
       "fabricType": "twill",
       "density": "218",
-      "width": null,
-      "colors": [
-        "35"
-      ],
+      "width": "150",
+      "colors": [],
       "properties": [],
       "composition": {
-        "cotton": 65,
-        "polyester": 0,
+        "cotton": 35,
+        "polyester": 65,
         "spandex": 0,
         "rayon": 0,
         "viscose": 0,
         "pbt": 0,
-        "lyon": 0
+        "lyon": 0,
+        "polyamide": 0,
+        "polypropylene": 0,
+        "paraAramid": 0
       }
     }
   },
@@ -3517,19 +3734,20 @@
     "attributes": {
       "fabricType": "twill",
       "density": "218",
-      "width": null,
-      "colors": [
-        "35"
-      ],
+      "width": "150",
+      "colors": [],
       "properties": [],
       "composition": {
-        "cotton": 65,
-        "polyester": 0,
+        "cotton": 35,
+        "polyester": 65,
         "spandex": 0,
         "rayon": 0,
         "viscose": 0,
         "pbt": 0,
-        "lyon": 0
+        "lyon": 0,
+        "polyamide": 0,
+        "polypropylene": 0,
+        "paraAramid": 0
       }
     }
   },
@@ -3550,19 +3768,20 @@
     "attributes": {
       "fabricType": "twill",
       "density": "218",
-      "width": null,
-      "colors": [
-        "35"
-      ],
+      "width": "150",
+      "colors": [],
       "properties": [],
       "composition": {
-        "cotton": 65,
-        "polyester": 0,
+        "cotton": 35,
+        "polyester": 65,
         "spandex": 0,
         "rayon": 0,
         "viscose": 0,
         "pbt": 0,
-        "lyon": 0
+        "lyon": 0,
+        "polyamide": 0,
+        "polypropylene": 0,
+        "paraAramid": 0
       }
     }
   },
@@ -3583,19 +3802,20 @@
     "attributes": {
       "fabricType": "twill",
       "density": "218",
-      "width": null,
-      "colors": [
-        "35"
-      ],
+      "width": "150",
+      "colors": [],
       "properties": [],
       "composition": {
-        "cotton": 65,
-        "polyester": 0,
+        "cotton": 35,
+        "polyester": 65,
         "spandex": 0,
         "rayon": 0,
         "viscose": 0,
         "pbt": 0,
-        "lyon": 0
+        "lyon": 0,
+        "polyamide": 0,
+        "polypropylene": 0,
+        "paraAramid": 0
       }
     }
   },
@@ -3616,19 +3836,20 @@
     "attributes": {
       "fabricType": "plain",
       "density": "174",
-      "width": null,
-      "colors": [
-        "35"
-      ],
+      "width": "150",
+      "colors": [],
       "properties": [],
       "composition": {
-        "cotton": 65,
-        "polyester": 0,
+        "cotton": 35,
+        "polyester": 65,
         "spandex": 0,
         "rayon": 0,
         "viscose": 0,
         "pbt": 0,
-        "lyon": 0
+        "lyon": 0,
+        "polyamide": 0,
+        "polypropylene": 0,
+        "paraAramid": 0
       }
     }
   },
@@ -3646,7 +3867,7 @@
     "attributes": {
       "fabricType": "twill",
       "density": "350",
-      "width": null,
+      "width": "150",
       "colors": [],
       "properties": [],
       "composition": {
@@ -3656,7 +3877,10 @@
         "rayon": 0,
         "viscose": 0,
         "pbt": 0,
-        "lyon": 0
+        "lyon": 0,
+        "polyamide": 0,
+        "polypropylene": 0,
+        "paraAramid": 0
       }
     }
   },
@@ -3674,7 +3898,7 @@
     "attributes": {
       "fabricType": "twill",
       "density": "450",
-      "width": null,
+      "width": "150",
       "colors": [],
       "properties": [],
       "composition": {
@@ -3684,7 +3908,10 @@
         "rayon": 0,
         "viscose": 0,
         "pbt": 0,
-        "lyon": 0
+        "lyon": 0,
+        "polyamide": 0,
+        "polypropylene": 0,
+        "paraAramid": 0
       }
     }
   },
@@ -3702,7 +3929,7 @@
     "attributes": {
       "fabricType": "twill",
       "density": "350",
-      "width": null,
+      "width": "150",
       "colors": [],
       "properties": [],
       "composition": {
@@ -3712,7 +3939,10 @@
         "rayon": 0,
         "viscose": 0,
         "pbt": 0,
-        "lyon": 0
+        "lyon": 0,
+        "polyamide": 0,
+        "polypropylene": 0,
+        "paraAramid": 0
       }
     }
   },
@@ -3730,7 +3960,7 @@
     "attributes": {
       "fabricType": "twill",
       "density": "335",
-      "width": null,
+      "width": "150",
       "colors": [],
       "properties": [],
       "composition": {
@@ -3740,7 +3970,10 @@
         "rayon": 0,
         "viscose": 0,
         "pbt": 0,
-        "lyon": 0
+        "lyon": 0,
+        "polyamide": 0,
+        "polypropylene": 0,
+        "paraAramid": 0
       }
     }
   },
@@ -3758,7 +3991,7 @@
     "attributes": {
       "fabricType": "twill",
       "density": "320",
-      "width": null,
+      "width": "150",
       "colors": [],
       "properties": [],
       "composition": {
@@ -3768,7 +4001,10 @@
         "rayon": 0,
         "viscose": 0,
         "pbt": 0,
-        "lyon": 0
+        "lyon": 0,
+        "polyamide": 0,
+        "polypropylene": 54,
+        "paraAramid": 0
       }
     }
   },
@@ -3786,7 +4022,7 @@
     "attributes": {
       "fabricType": "twill",
       "density": "340",
-      "width": null,
+      "width": "150",
       "colors": [],
       "properties": [],
       "composition": {
@@ -3796,7 +4032,10 @@
         "rayon": 0,
         "viscose": 0,
         "pbt": 0,
-        "lyon": 0
+        "lyon": 0,
+        "polyamide": 0,
+        "polypropylene": 0,
+        "paraAramid": 24
       }
     }
   },
@@ -3814,7 +4053,7 @@
     "attributes": {
       "fabricType": "twill",
       "density": "300",
-      "width": null,
+      "width": "150",
       "colors": [],
       "properties": [],
       "composition": {
@@ -3824,7 +4063,10 @@
         "rayon": 0,
         "viscose": 0,
         "pbt": 0,
-        "lyon": 0
+        "lyon": 0,
+        "polyamide": 0,
+        "polypropylene": 0,
+        "paraAramid": 0
       }
     }
   },
@@ -3842,7 +4084,7 @@
     "attributes": {
       "fabricType": "twill",
       "density": "325",
-      "width": null,
+      "width": "150",
       "colors": [],
       "properties": [],
       "composition": {
@@ -3852,7 +4094,10 @@
         "rayon": 0,
         "viscose": 0,
         "pbt": 0,
-        "lyon": 0
+        "lyon": 0,
+        "polyamide": 0,
+        "polypropylene": 0,
+        "paraAramid": 0
       }
     }
   },
@@ -3870,7 +4115,7 @@
     "attributes": {
       "fabricType": "twill",
       "density": "200",
-      "width": null,
+      "width": "150",
       "colors": [],
       "properties": [],
       "composition": {
@@ -3880,7 +4125,10 @@
         "rayon": 0,
         "viscose": 0,
         "pbt": 0,
-        "lyon": 0
+        "lyon": 0,
+        "polyamide": 0,
+        "polypropylene": 0,
+        "paraAramid": 0
       }
     }
   },
@@ -3898,7 +4146,7 @@
     "attributes": {
       "fabricType": "twill",
       "density": "265",
-      "width": null,
+      "width": "150",
       "colors": [],
       "properties": [],
       "composition": {
@@ -3908,7 +4156,10 @@
         "rayon": 0,
         "viscose": 0,
         "pbt": 0,
-        "lyon": 0
+        "lyon": 0,
+        "polyamide": 0,
+        "polypropylene": 0,
+        "paraAramid": 0
       }
     }
   },
@@ -3926,7 +4177,7 @@
     "attributes": {
       "fabricType": "twill",
       "density": "180",
-      "width": null,
+      "width": "150",
       "colors": [],
       "properties": [],
       "composition": {
@@ -3936,7 +4187,10 @@
         "rayon": 0,
         "viscose": 0,
         "pbt": 0,
-        "lyon": 0
+        "lyon": 0,
+        "polyamide": 0,
+        "polypropylene": 0,
+        "paraAramid": 0
       }
     }
   },
@@ -3954,7 +4208,7 @@
     "attributes": {
       "fabricType": "multilayer",
       "density": "220",
-      "width": null,
+      "width": "150",
       "colors": [],
       "properties": [],
       "composition": {
@@ -3964,7 +4218,10 @@
         "rayon": 0,
         "viscose": 0,
         "pbt": 0,
-        "lyon": 0
+        "lyon": 0,
+        "polyamide": 0,
+        "polypropylene": 0,
+        "paraAramid": 0
       }
     }
   },
@@ -3982,7 +4239,7 @@
     "attributes": {
       "fabricType": "coated",
       "density": "540",
-      "width": null,
+      "width": "150",
       "colors": [],
       "properties": [],
       "composition": {
@@ -3992,7 +4249,10 @@
         "rayon": 0,
         "viscose": 0,
         "pbt": 0,
-        "lyon": 0
+        "lyon": 0,
+        "polyamide": 0,
+        "polypropylene": 0,
+        "paraAramid": 0
       }
     }
   },
@@ -4013,10 +4273,8 @@
     "attributes": {
       "fabricType": "twill",
       "density": "210",
-      "width": null,
-      "colors": [
-        "0"
-      ],
+      "width": "163",
+      "colors": [],
       "properties": [],
       "composition": {
         "cotton": 0,
@@ -4025,7 +4283,10 @@
         "rayon": 0,
         "viscose": 0,
         "pbt": 0,
-        "lyon": 0
+        "lyon": 0,
+        "polyamide": 0,
+        "polypropylene": 0,
+        "paraAramid": 0
       }
     }
   },
@@ -4046,10 +4307,8 @@
     "attributes": {
       "fabricType": "twill",
       "density": "210",
-      "width": null,
-      "colors": [
-        "0"
-      ],
+      "width": "163",
+      "colors": [],
       "properties": [],
       "composition": {
         "cotton": 0,
@@ -4058,7 +4317,10 @@
         "rayon": 0,
         "viscose": 0,
         "pbt": 0,
-        "lyon": 0
+        "lyon": 0,
+        "polyamide": 0,
+        "polypropylene": 0,
+        "paraAramid": 0
       }
     }
   },
@@ -4089,7 +4351,10 @@
         "rayon": 0,
         "viscose": 0,
         "pbt": 0,
-        "lyon": 100
+        "lyon": 100,
+        "polyamide": 0,
+        "polypropylene": 0,
+        "paraAramid": 0
       }
     }
   },
@@ -4120,7 +4385,10 @@
         "rayon": 0,
         "viscose": 0,
         "pbt": 0,
-        "lyon": 100
+        "lyon": 100,
+        "polyamide": 0,
+        "polypropylene": 0,
+        "paraAramid": 0
       }
     }
   },
@@ -4151,7 +4419,10 @@
         "rayon": 0,
         "viscose": 0,
         "pbt": 0,
-        "lyon": 100
+        "lyon": 100,
+        "polyamide": 0,
+        "polypropylene": 0,
+        "paraAramid": 0
       }
     }
   },
@@ -4182,7 +4453,10 @@
         "rayon": 0,
         "viscose": 20,
         "pbt": 0,
-        "lyon": 80
+        "lyon": 80,
+        "polyamide": 0,
+        "polypropylene": 0,
+        "paraAramid": 0
       }
     }
   },
@@ -4213,7 +4487,10 @@
         "rayon": 0,
         "viscose": 0,
         "pbt": 0,
-        "lyon": 75
+        "lyon": 75,
+        "polyamide": 0,
+        "polypropylene": 0,
+        "paraAramid": 0
       }
     }
   },
@@ -4244,7 +4521,10 @@
         "rayon": 0,
         "viscose": 0,
         "pbt": 0,
-        "lyon": 0
+        "lyon": 0,
+        "polyamide": 0,
+        "polypropylene": 0,
+        "paraAramid": 0
       }
     }
   },
@@ -4275,7 +4555,10 @@
         "rayon": 0,
         "viscose": 0,
         "pbt": 0,
-        "lyon": 0
+        "lyon": 0,
+        "polyamide": 0,
+        "polypropylene": 0,
+        "paraAramid": 0
       }
     }
   },
@@ -4306,7 +4589,10 @@
         "rayon": 0,
         "viscose": 0,
         "pbt": 0,
-        "lyon": 0
+        "lyon": 0,
+        "polyamide": 0,
+        "polypropylene": 0,
+        "paraAramid": 0
       }
     }
   },
@@ -4337,7 +4623,10 @@
         "rayon": 0,
         "viscose": 0,
         "pbt": 0,
-        "lyon": 0
+        "lyon": 0,
+        "polyamide": 0,
+        "polypropylene": 0,
+        "paraAramid": 0
       }
     }
   },
@@ -4368,7 +4657,10 @@
         "rayon": 0,
         "viscose": 0,
         "pbt": 0,
-        "lyon": 0
+        "lyon": 0,
+        "polyamide": 0,
+        "polypropylene": 0,
+        "paraAramid": 0
       }
     }
   },
@@ -4399,7 +4691,10 @@
         "rayon": 0,
         "viscose": 0,
         "pbt": 0,
-        "lyon": 0
+        "lyon": 0,
+        "polyamide": 0,
+        "polypropylene": 0,
+        "paraAramid": 0
       }
     }
   },
@@ -4430,7 +4725,10 @@
         "rayon": 0,
         "viscose": 0,
         "pbt": 0,
-        "lyon": 0
+        "lyon": 0,
+        "polyamide": 0,
+        "polypropylene": 0,
+        "paraAramid": 0
       }
     }
   },
@@ -4461,7 +4759,10 @@
         "rayon": 0,
         "viscose": 0,
         "pbt": 0,
-        "lyon": 0
+        "lyon": 0,
+        "polyamide": 0,
+        "polypropylene": 0,
+        "paraAramid": 0
       }
     }
   },
@@ -4492,7 +4793,10 @@
         "rayon": 0,
         "viscose": 0,
         "pbt": 0,
-        "lyon": 0
+        "lyon": 0,
+        "polyamide": 0,
+        "polypropylene": 0,
+        "paraAramid": 0
       }
     }
   },
@@ -4523,7 +4827,10 @@
         "rayon": 0,
         "viscose": 0,
         "pbt": 0,
-        "lyon": 0
+        "lyon": 0,
+        "polyamide": 0,
+        "polypropylene": 0,
+        "paraAramid": 0
       }
     }
   },
@@ -4554,7 +4861,10 @@
         "rayon": 0,
         "viscose": 0,
         "pbt": 0,
-        "lyon": 0
+        "lyon": 0,
+        "polyamide": 0,
+        "polypropylene": 0,
+        "paraAramid": 0
       }
     }
   },
@@ -4585,7 +4895,10 @@
         "rayon": 0,
         "viscose": 0,
         "pbt": 0,
-        "lyon": 0
+        "lyon": 0,
+        "polyamide": 0,
+        "polypropylene": 0,
+        "paraAramid": 0
       }
     }
   },
@@ -4616,7 +4929,10 @@
         "rayon": 0,
         "viscose": 0,
         "pbt": 0,
-        "lyon": 0
+        "lyon": 0,
+        "polyamide": 0,
+        "polypropylene": 0,
+        "paraAramid": 0
       }
     }
   },
@@ -4647,7 +4963,10 @@
         "rayon": 0,
         "viscose": 0,
         "pbt": 0,
-        "lyon": 0
+        "lyon": 0,
+        "polyamide": 0,
+        "polypropylene": 0,
+        "paraAramid": 0
       }
     }
   },
@@ -4678,7 +4997,10 @@
         "rayon": 0,
         "viscose": 0,
         "pbt": 0,
-        "lyon": 0
+        "lyon": 0,
+        "polyamide": 0,
+        "polypropylene": 0,
+        "paraAramid": 0
       }
     }
   },
@@ -4709,7 +5031,10 @@
         "rayon": 0,
         "viscose": 0,
         "pbt": 0,
-        "lyon": 0
+        "lyon": 0,
+        "polyamide": 0,
+        "polypropylene": 0,
+        "paraAramid": 0
       }
     }
   },
@@ -4740,7 +5065,10 @@
         "rayon": 0,
         "viscose": 0,
         "pbt": 0,
-        "lyon": 0
+        "lyon": 0,
+        "polyamide": 0,
+        "polypropylene": 0,
+        "paraAramid": 0
       }
     }
   },
@@ -4771,7 +5099,10 @@
         "rayon": 0,
         "viscose": 0,
         "pbt": 0,
-        "lyon": 0
+        "lyon": 0,
+        "polyamide": 0,
+        "polypropylene": 0,
+        "paraAramid": 0
       }
     }
   },
@@ -4802,7 +5133,10 @@
         "rayon": 0,
         "viscose": 0,
         "pbt": 0,
-        "lyon": 0
+        "lyon": 0,
+        "polyamide": 0,
+        "polypropylene": 0,
+        "paraAramid": 0
       }
     }
   },
@@ -4833,7 +5167,10 @@
         "rayon": 0,
         "viscose": 0,
         "pbt": 0,
-        "lyon": 0
+        "lyon": 0,
+        "polyamide": 0,
+        "polypropylene": 0,
+        "paraAramid": 0
       }
     }
   },
@@ -4864,7 +5201,10 @@
         "rayon": 0,
         "viscose": 0,
         "pbt": 0,
-        "lyon": 0
+        "lyon": 0,
+        "polyamide": 0,
+        "polypropylene": 0,
+        "paraAramid": 0
       }
     }
   },
@@ -4895,7 +5235,10 @@
         "rayon": 0,
         "viscose": 0,
         "pbt": 0,
-        "lyon": 0
+        "lyon": 0,
+        "polyamide": 0,
+        "polypropylene": 0,
+        "paraAramid": 0
       }
     }
   },
@@ -4926,7 +5269,10 @@
         "rayon": 0,
         "viscose": 0,
         "pbt": 0,
-        "lyon": 0
+        "lyon": 0,
+        "polyamide": 0,
+        "polypropylene": 0,
+        "paraAramid": 0
       }
     }
   },
@@ -4957,7 +5303,10 @@
         "rayon": 0,
         "viscose": 0,
         "pbt": 0,
-        "lyon": 0
+        "lyon": 0,
+        "polyamide": 0,
+        "polypropylene": 0,
+        "paraAramid": 0
       }
     }
   },
@@ -4988,7 +5337,10 @@
         "rayon": 0,
         "viscose": 0,
         "pbt": 0,
-        "lyon": 0
+        "lyon": 0,
+        "polyamide": 0,
+        "polypropylene": 0,
+        "paraAramid": 0
       }
     }
   },
@@ -5019,7 +5371,10 @@
         "rayon": 0,
         "viscose": 0,
         "pbt": 0,
-        "lyon": 0
+        "lyon": 0,
+        "polyamide": 0,
+        "polypropylene": 0,
+        "paraAramid": 0
       }
     }
   },
@@ -5050,7 +5405,10 @@
         "rayon": 0,
         "viscose": 0,
         "pbt": 0,
-        "lyon": 0
+        "lyon": 0,
+        "polyamide": 0,
+        "polypropylene": 0,
+        "paraAramid": 0
       }
     }
   },
@@ -5081,7 +5439,10 @@
         "rayon": 0,
         "viscose": 0,
         "pbt": 0,
-        "lyon": 0
+        "lyon": 0,
+        "polyamide": 0,
+        "polypropylene": 0,
+        "paraAramid": 0
       }
     }
   },
@@ -5112,7 +5473,10 @@
         "rayon": 0,
         "viscose": 0,
         "pbt": 0,
-        "lyon": 0
+        "lyon": 0,
+        "polyamide": 0,
+        "polypropylene": 0,
+        "paraAramid": 0
       }
     }
   },
@@ -5143,7 +5507,10 @@
         "rayon": 0,
         "viscose": 0,
         "pbt": 0,
-        "lyon": 0
+        "lyon": 0,
+        "polyamide": 0,
+        "polypropylene": 0,
+        "paraAramid": 0
       }
     }
   },
@@ -5174,7 +5541,10 @@
         "rayon": 0,
         "viscose": 0,
         "pbt": 0,
-        "lyon": 0
+        "lyon": 0,
+        "polyamide": 0,
+        "polypropylene": 0,
+        "paraAramid": 0
       }
     }
   },
@@ -5205,7 +5575,10 @@
         "rayon": 0,
         "viscose": 0,
         "pbt": 0,
-        "lyon": 0
+        "lyon": 0,
+        "polyamide": 0,
+        "polypropylene": 0,
+        "paraAramid": 0
       }
     }
   },
@@ -5236,7 +5609,10 @@
         "rayon": 0,
         "viscose": 0,
         "pbt": 0,
-        "lyon": 0
+        "lyon": 0,
+        "polyamide": 0,
+        "polypropylene": 0,
+        "paraAramid": 0
       }
     }
   },
@@ -5267,7 +5643,10 @@
         "rayon": 0,
         "viscose": 0,
         "pbt": 0,
-        "lyon": 0
+        "lyon": 0,
+        "polyamide": 0,
+        "polypropylene": 0,
+        "paraAramid": 0
       }
     }
   },
@@ -5298,7 +5677,10 @@
         "rayon": 0,
         "viscose": 0,
         "pbt": 0,
-        "lyon": 0
+        "lyon": 0,
+        "polyamide": 0,
+        "polypropylene": 0,
+        "paraAramid": 0
       }
     }
   },
@@ -5329,7 +5711,10 @@
         "rayon": 0,
         "viscose": 0,
         "pbt": 0,
-        "lyon": 0
+        "lyon": 0,
+        "polyamide": 0,
+        "polypropylene": 0,
+        "paraAramid": 0
       }
     }
   },
@@ -5360,7 +5745,10 @@
         "rayon": 0,
         "viscose": 0,
         "pbt": 0,
-        "lyon": 0
+        "lyon": 0,
+        "polyamide": 0,
+        "polypropylene": 0,
+        "paraAramid": 0
       }
     }
   },
@@ -5391,7 +5779,10 @@
         "rayon": 0,
         "viscose": 0,
         "pbt": 0,
-        "lyon": 0
+        "lyon": 0,
+        "polyamide": 0,
+        "polypropylene": 0,
+        "paraAramid": 0
       }
     }
   },
@@ -5422,7 +5813,10 @@
         "rayon": 0,
         "viscose": 0,
         "pbt": 0,
-        "lyon": 0
+        "lyon": 0,
+        "polyamide": 0,
+        "polypropylene": 0,
+        "paraAramid": 0
       }
     }
   },
@@ -5453,7 +5847,10 @@
         "rayon": 0,
         "viscose": 0,
         "pbt": 0,
-        "lyon": 0
+        "lyon": 0,
+        "polyamide": 0,
+        "polypropylene": 0,
+        "paraAramid": 0
       }
     }
   },
@@ -5484,7 +5881,10 @@
         "rayon": 0,
         "viscose": 0,
         "pbt": 0,
-        "lyon": 0
+        "lyon": 0,
+        "polyamide": 0,
+        "polypropylene": 0,
+        "paraAramid": 0
       }
     }
   },
@@ -5515,7 +5915,10 @@
         "rayon": 0,
         "viscose": 0,
         "pbt": 0,
-        "lyon": 0
+        "lyon": 0,
+        "polyamide": 0,
+        "polypropylene": 0,
+        "paraAramid": 0
       }
     }
   },
@@ -5546,7 +5949,10 @@
         "rayon": 0,
         "viscose": 0,
         "pbt": 0,
-        "lyon": 0
+        "lyon": 0,
+        "polyamide": 0,
+        "polypropylene": 0,
+        "paraAramid": 0
       }
     }
   },
@@ -5577,7 +5983,10 @@
         "rayon": 0,
         "viscose": 0,
         "pbt": 0,
-        "lyon": 0
+        "lyon": 0,
+        "polyamide": 0,
+        "polypropylene": 0,
+        "paraAramid": 0
       }
     }
   },
@@ -5608,7 +6017,10 @@
         "rayon": 0,
         "viscose": 0,
         "pbt": 0,
-        "lyon": 0
+        "lyon": 0,
+        "polyamide": 0,
+        "polypropylene": 0,
+        "paraAramid": 0
       }
     }
   },
@@ -5639,7 +6051,10 @@
         "rayon": 0,
         "viscose": 0,
         "pbt": 0,
-        "lyon": 0
+        "lyon": 0,
+        "polyamide": 0,
+        "polypropylene": 0,
+        "paraAramid": 0
       }
     }
   },
@@ -5670,7 +6085,10 @@
         "rayon": 0,
         "viscose": 0,
         "pbt": 0,
-        "lyon": 0
+        "lyon": 0,
+        "polyamide": 0,
+        "polypropylene": 0,
+        "paraAramid": 0
       }
     }
   },
@@ -5701,7 +6119,10 @@
         "rayon": 0,
         "viscose": 0,
         "pbt": 0,
-        "lyon": 0
+        "lyon": 0,
+        "polyamide": 0,
+        "polypropylene": 0,
+        "paraAramid": 0
       }
     }
   },
@@ -5732,7 +6153,10 @@
         "rayon": 0,
         "viscose": 0,
         "pbt": 0,
-        "lyon": 0
+        "lyon": 0,
+        "polyamide": 0,
+        "polypropylene": 0,
+        "paraAramid": 0
       }
     }
   },
@@ -5763,7 +6187,10 @@
         "rayon": 0,
         "viscose": 0,
         "pbt": 0,
-        "lyon": 0
+        "lyon": 0,
+        "polyamide": 0,
+        "polypropylene": 0,
+        "paraAramid": 0
       }
     }
   },
@@ -5794,7 +6221,10 @@
         "rayon": 0,
         "viscose": 0,
         "pbt": 0,
-        "lyon": 0
+        "lyon": 0,
+        "polyamide": 0,
+        "polypropylene": 0,
+        "paraAramid": 0
       }
     }
   },
@@ -5825,7 +6255,10 @@
         "rayon": 0,
         "viscose": 0,
         "pbt": 0,
-        "lyon": 0
+        "lyon": 0,
+        "polyamide": 0,
+        "polypropylene": 0,
+        "paraAramid": 0
       }
     }
   },
@@ -5856,7 +6289,10 @@
         "rayon": 0,
         "viscose": 0,
         "pbt": 0,
-        "lyon": 0
+        "lyon": 0,
+        "polyamide": 0,
+        "polypropylene": 0,
+        "paraAramid": 0
       }
     }
   },
@@ -5887,7 +6323,10 @@
         "rayon": 0,
         "viscose": 0,
         "pbt": 0,
-        "lyon": 0
+        "lyon": 0,
+        "polyamide": 0,
+        "polypropylene": 0,
+        "paraAramid": 0
       }
     }
   },
@@ -5918,7 +6357,10 @@
         "rayon": 0,
         "viscose": 0,
         "pbt": 0,
-        "lyon": 0
+        "lyon": 0,
+        "polyamide": 0,
+        "polypropylene": 0,
+        "paraAramid": 0
       }
     }
   },
@@ -5949,7 +6391,10 @@
         "rayon": 0,
         "viscose": 0,
         "pbt": 0,
-        "lyon": 0
+        "lyon": 0,
+        "polyamide": 0,
+        "polypropylene": 0,
+        "paraAramid": 0
       }
     }
   },
@@ -5980,7 +6425,10 @@
         "rayon": 0,
         "viscose": 0,
         "pbt": 0,
-        "lyon": 0
+        "lyon": 0,
+        "polyamide": 0,
+        "polypropylene": 0,
+        "paraAramid": 0
       }
     }
   },
@@ -6011,7 +6459,10 @@
         "rayon": 0,
         "viscose": 50,
         "pbt": 0,
-        "lyon": 0
+        "lyon": 0,
+        "polyamide": 0,
+        "polypropylene": 0,
+        "paraAramid": 0
       }
     }
   },
@@ -6042,7 +6493,10 @@
         "rayon": 0,
         "viscose": 0,
         "pbt": 0,
-        "lyon": 0
+        "lyon": 0,
+        "polyamide": 0,
+        "polypropylene": 0,
+        "paraAramid": 0
       }
     }
   },
@@ -6073,7 +6527,10 @@
         "rayon": 0,
         "viscose": 0,
         "pbt": 0,
-        "lyon": 0
+        "lyon": 0,
+        "polyamide": 0,
+        "polypropylene": 0,
+        "paraAramid": 0
       }
     }
   },
@@ -6104,7 +6561,10 @@
         "rayon": 0,
         "viscose": 0,
         "pbt": 0,
-        "lyon": 0
+        "lyon": 0,
+        "polyamide": 0,
+        "polypropylene": 0,
+        "paraAramid": 0
       }
     }
   },
@@ -6135,7 +6595,10 @@
         "rayon": 0,
         "viscose": 0,
         "pbt": 0,
-        "lyon": 0
+        "lyon": 0,
+        "polyamide": 0,
+        "polypropylene": 0,
+        "paraAramid": 0
       }
     }
   },
@@ -6166,7 +6629,10 @@
         "rayon": 0,
         "viscose": 0,
         "pbt": 0,
-        "lyon": 0
+        "lyon": 0,
+        "polyamide": 0,
+        "polypropylene": 0,
+        "paraAramid": 0
       }
     }
   },
@@ -6197,7 +6663,10 @@
         "rayon": 0,
         "viscose": 0,
         "pbt": 0,
-        "lyon": 0
+        "lyon": 0,
+        "polyamide": 0,
+        "polypropylene": 0,
+        "paraAramid": 0
       }
     }
   },
@@ -6228,7 +6697,10 @@
         "rayon": 0,
         "viscose": 0,
         "pbt": 0,
-        "lyon": 0
+        "lyon": 0,
+        "polyamide": 0,
+        "polypropylene": 0,
+        "paraAramid": 0
       }
     }
   },
@@ -6259,7 +6731,10 @@
         "rayon": 0,
         "viscose": 0,
         "pbt": 0,
-        "lyon": 0
+        "lyon": 0,
+        "polyamide": 0,
+        "polypropylene": 0,
+        "paraAramid": 0
       }
     }
   },
@@ -6290,7 +6765,10 @@
         "rayon": 0,
         "viscose": 0,
         "pbt": 0,
-        "lyon": 0
+        "lyon": 0,
+        "polyamide": 0,
+        "polypropylene": 0,
+        "paraAramid": 0
       }
     }
   },
@@ -6321,7 +6799,10 @@
         "rayon": 0,
         "viscose": 0,
         "pbt": 0,
-        "lyon": 0
+        "lyon": 0,
+        "polyamide": 0,
+        "polypropylene": 0,
+        "paraAramid": 0
       }
     }
   },
@@ -6352,7 +6833,10 @@
         "rayon": 0,
         "viscose": 0,
         "pbt": 0,
-        "lyon": 0
+        "lyon": 0,
+        "polyamide": 0,
+        "polypropylene": 0,
+        "paraAramid": 0
       }
     }
   },
@@ -6383,7 +6867,10 @@
         "rayon": 0,
         "viscose": 0,
         "pbt": 0,
-        "lyon": 0
+        "lyon": 0,
+        "polyamide": 0,
+        "polypropylene": 0,
+        "paraAramid": 0
       }
     }
   },
@@ -6414,7 +6901,10 @@
         "rayon": 0,
         "viscose": 0,
         "pbt": 0,
-        "lyon": 0
+        "lyon": 0,
+        "polyamide": 0,
+        "polypropylene": 0,
+        "paraAramid": 0
       }
     }
   },
@@ -6445,7 +6935,10 @@
         "rayon": 0,
         "viscose": 0,
         "pbt": 0,
-        "lyon": 0
+        "lyon": 0,
+        "polyamide": 0,
+        "polypropylene": 0,
+        "paraAramid": 0
       }
     }
   },
@@ -6476,7 +6969,10 @@
         "rayon": 0,
         "viscose": 0,
         "pbt": 0,
-        "lyon": 0
+        "lyon": 0,
+        "polyamide": 0,
+        "polypropylene": 0,
+        "paraAramid": 0
       }
     }
   },
@@ -6501,13 +6997,16 @@
       "colors": [],
       "properties": [],
       "composition": {
-        "cotton": 0,
-        "polyester": 0,
+        "cotton": 42,
+        "polyester": 6,
         "spandex": 0,
         "rayon": 0,
         "viscose": 0,
         "pbt": 0,
-        "lyon": 0
+        "lyon": 0,
+        "polyamide": 0,
+        "polypropylene": 0,
+        "paraAramid": 0
       }
     }
   },
@@ -6538,7 +7037,10 @@
         "rayon": 0,
         "viscose": 0,
         "pbt": 0,
-        "lyon": 0
+        "lyon": 0,
+        "polyamide": 0,
+        "polypropylene": 0,
+        "paraAramid": 0
       }
     }
   },
@@ -6569,7 +7071,10 @@
         "rayon": 0,
         "viscose": 0,
         "pbt": 0,
-        "lyon": 0
+        "lyon": 0,
+        "polyamide": 0,
+        "polypropylene": 0,
+        "paraAramid": 0
       }
     }
   },
@@ -6600,7 +7105,10 @@
         "rayon": 0,
         "viscose": 0,
         "pbt": 0,
-        "lyon": 0
+        "lyon": 0,
+        "polyamide": 0,
+        "polypropylene": 0,
+        "paraAramid": 0
       }
     }
   },
@@ -6631,7 +7139,10 @@
         "rayon": 0,
         "viscose": 0,
         "pbt": 0,
-        "lyon": 0
+        "lyon": 0,
+        "polyamide": 0,
+        "polypropylene": 0,
+        "paraAramid": 0
       }
     }
   },
@@ -6662,7 +7173,10 @@
         "rayon": 0,
         "viscose": 0,
         "pbt": 0,
-        "lyon": 0
+        "lyon": 0,
+        "polyamide": 0,
+        "polypropylene": 0,
+        "paraAramid": 0
       }
     }
   },
@@ -6693,7 +7207,10 @@
         "rayon": 0,
         "viscose": 0,
         "pbt": 0,
-        "lyon": 0
+        "lyon": 0,
+        "polyamide": 0,
+        "polypropylene": 0,
+        "paraAramid": 0
       }
     }
   },
@@ -6724,7 +7241,10 @@
         "rayon": 0,
         "viscose": 0,
         "pbt": 0,
-        "lyon": 0
+        "lyon": 0,
+        "polyamide": 0,
+        "polypropylene": 0,
+        "paraAramid": 0
       }
     }
   },
@@ -6758,7 +7278,10 @@
         "rayon": 0,
         "viscose": 0,
         "pbt": 0,
-        "lyon": 0
+        "lyon": 0,
+        "polyamide": 0,
+        "polypropylene": 0,
+        "paraAramid": 0
       }
     }
   },
@@ -6792,7 +7315,10 @@
         "rayon": 0,
         "viscose": 0,
         "pbt": 0,
-        "lyon": 0
+        "lyon": 0,
+        "polyamide": 0,
+        "polypropylene": 0,
+        "paraAramid": 0
       }
     }
   },
@@ -6826,7 +7352,10 @@
         "rayon": 0,
         "viscose": 0,
         "pbt": 0,
-        "lyon": 0
+        "lyon": 0,
+        "polyamide": 0,
+        "polypropylene": 0,
+        "paraAramid": 0
       }
     }
   },
@@ -6859,7 +7388,10 @@
         "rayon": 0,
         "viscose": 100,
         "pbt": 0,
-        "lyon": 0
+        "lyon": 0,
+        "polyamide": 0,
+        "polypropylene": 0,
+        "paraAramid": 0
       }
     }
   },
@@ -6893,7 +7425,10 @@
         "rayon": 0,
         "viscose": 0,
         "pbt": 0,
-        "lyon": 0
+        "lyon": 0,
+        "polyamide": 0,
+        "polypropylene": 0,
+        "paraAramid": 0
       }
     }
   },
@@ -6927,7 +7462,10 @@
         "rayon": 0,
         "viscose": 0,
         "pbt": 0,
-        "lyon": 0
+        "lyon": 0,
+        "polyamide": 0,
+        "polypropylene": 0,
+        "paraAramid": 0
       }
     }
   },
@@ -6961,7 +7499,10 @@
         "rayon": 0,
         "viscose": 0,
         "pbt": 0,
-        "lyon": 0
+        "lyon": 0,
+        "polyamide": 0,
+        "polypropylene": 0,
+        "paraAramid": 0
       }
     }
   },
@@ -6994,7 +7535,10 @@
         "rayon": 0,
         "viscose": 0,
         "pbt": 0,
-        "lyon": 0
+        "lyon": 0,
+        "polyamide": 0,
+        "polypropylene": 0,
+        "paraAramid": 0
       }
     }
   },
@@ -7027,7 +7571,10 @@
         "rayon": 0,
         "viscose": 0,
         "pbt": 0,
-        "lyon": 0
+        "lyon": 0,
+        "polyamide": 0,
+        "polypropylene": 0,
+        "paraAramid": 0
       }
     }
   },
@@ -7061,7 +7608,10 @@
         "rayon": 0,
         "viscose": 0,
         "pbt": 0,
-        "lyon": 0
+        "lyon": 0,
+        "polyamide": 0,
+        "polypropylene": 0,
+        "paraAramid": 0
       }
     }
   },
@@ -7094,7 +7644,10 @@
         "rayon": 0,
         "viscose": 0,
         "pbt": 0,
-        "lyon": 0
+        "lyon": 0,
+        "polyamide": 0,
+        "polypropylene": 0,
+        "paraAramid": 0
       }
     }
   },
@@ -7127,7 +7680,10 @@
         "rayon": 0,
         "viscose": 0,
         "pbt": 0,
-        "lyon": 0
+        "lyon": 0,
+        "polyamide": 0,
+        "polypropylene": 0,
+        "paraAramid": 0
       }
     }
   },
@@ -7160,7 +7716,10 @@
         "rayon": 0,
         "viscose": 0,
         "pbt": 0,
-        "lyon": 0
+        "lyon": 0,
+        "polyamide": 0,
+        "polypropylene": 0,
+        "paraAramid": 0
       }
     }
   },
@@ -7193,7 +7752,10 @@
         "rayon": 0,
         "viscose": 0,
         "pbt": 0,
-        "lyon": 0
+        "lyon": 0,
+        "polyamide": 0,
+        "polypropylene": 0,
+        "paraAramid": 0
       }
     }
   },
@@ -7226,7 +7788,10 @@
         "rayon": 0,
         "viscose": 0,
         "pbt": 0,
-        "lyon": 0
+        "lyon": 0,
+        "polyamide": 0,
+        "polypropylene": 0,
+        "paraAramid": 0
       }
     }
   },
@@ -7259,7 +7824,10 @@
         "rayon": 0,
         "viscose": 0,
         "pbt": 0,
-        "lyon": 0
+        "lyon": 0,
+        "polyamide": 0,
+        "polypropylene": 0,
+        "paraAramid": 0
       }
     }
   },
@@ -7292,7 +7860,10 @@
         "rayon": 0,
         "viscose": 0,
         "pbt": 0,
-        "lyon": 0
+        "lyon": 0,
+        "polyamide": 0,
+        "polypropylene": 0,
+        "paraAramid": 0
       }
     }
   },
@@ -7325,7 +7896,10 @@
         "rayon": 0,
         "viscose": 0,
         "pbt": 0,
-        "lyon": 0
+        "lyon": 0,
+        "polyamide": 0,
+        "polypropylene": 0,
+        "paraAramid": 0
       }
     }
   },
@@ -7359,7 +7933,10 @@
         "rayon": 0,
         "viscose": 0,
         "pbt": 0,
-        "lyon": 0
+        "lyon": 0,
+        "polyamide": 0,
+        "polypropylene": 0,
+        "paraAramid": 0
       }
     }
   },
@@ -7393,7 +7970,10 @@
         "rayon": 0,
         "viscose": 0,
         "pbt": 0,
-        "lyon": 0
+        "lyon": 0,
+        "polyamide": 0,
+        "polypropylene": 0,
+        "paraAramid": 0
       }
     }
   },
@@ -7427,7 +8007,10 @@
         "rayon": 0,
         "viscose": 0,
         "pbt": 0,
-        "lyon": 0
+        "lyon": 0,
+        "polyamide": 0,
+        "polypropylene": 0,
+        "paraAramid": 0
       }
     }
   },
@@ -7460,7 +8043,10 @@
         "rayon": 0,
         "viscose": 80,
         "pbt": 0,
-        "lyon": 0
+        "lyon": 0,
+        "polyamide": 0,
+        "polypropylene": 0,
+        "paraAramid": 0
       }
     }
   },
@@ -7494,7 +8080,10 @@
         "rayon": 0,
         "viscose": 0,
         "pbt": 0,
-        "lyon": 0
+        "lyon": 0,
+        "polyamide": 0,
+        "polypropylene": 0,
+        "paraAramid": 0
       }
     }
   },
@@ -7527,7 +8116,10 @@
         "rayon": 0,
         "viscose": 80,
         "pbt": 0,
-        "lyon": 0
+        "lyon": 0,
+        "polyamide": 0,
+        "polypropylene": 0,
+        "paraAramid": 0
       }
     }
   },
@@ -7564,7 +8156,10 @@
         "rayon": 0,
         "viscose": 0,
         "pbt": 0,
-        "lyon": 0
+        "lyon": 0,
+        "polyamide": 0,
+        "polypropylene": 0,
+        "paraAramid": 0
       }
     }
   },
@@ -7601,7 +8196,10 @@
         "rayon": 0,
         "viscose": 0,
         "pbt": 0,
-        "lyon": 0
+        "lyon": 0,
+        "polyamide": 0,
+        "polypropylene": 0,
+        "paraAramid": 0
       }
     }
   },
@@ -7638,7 +8236,10 @@
         "rayon": 0,
         "viscose": 0,
         "pbt": 0,
-        "lyon": 0
+        "lyon": 0,
+        "polyamide": 0,
+        "polypropylene": 0,
+        "paraAramid": 0
       }
     }
   },
@@ -7675,7 +8276,10 @@
         "rayon": 0,
         "viscose": 0,
         "pbt": 0,
-        "lyon": 0
+        "lyon": 0,
+        "polyamide": 0,
+        "polypropylene": 0,
+        "paraAramid": 0
       }
     }
   },
@@ -7712,7 +8316,10 @@
         "rayon": 0,
         "viscose": 0,
         "pbt": 0,
-        "lyon": 0
+        "lyon": 0,
+        "polyamide": 0,
+        "polypropylene": 0,
+        "paraAramid": 0
       }
     }
   },
@@ -7749,7 +8356,10 @@
         "rayon": 0,
         "viscose": 0,
         "pbt": 0,
-        "lyon": 0
+        "lyon": 0,
+        "polyamide": 0,
+        "polypropylene": 0,
+        "paraAramid": 0
       }
     }
   },
@@ -7786,7 +8396,10 @@
         "rayon": 0,
         "viscose": 0,
         "pbt": 0,
-        "lyon": 0
+        "lyon": 0,
+        "polyamide": 0,
+        "polypropylene": 0,
+        "paraAramid": 0
       }
     }
   },
@@ -7823,7 +8436,10 @@
         "rayon": 0,
         "viscose": 0,
         "pbt": 0,
-        "lyon": 0
+        "lyon": 0,
+        "polyamide": 0,
+        "polypropylene": 0,
+        "paraAramid": 0
       }
     }
   },
@@ -7860,7 +8476,10 @@
         "rayon": 0,
         "viscose": 0,
         "pbt": 0,
-        "lyon": 0
+        "lyon": 0,
+        "polyamide": 0,
+        "polypropylene": 0,
+        "paraAramid": 0
       }
     }
   },
@@ -7897,7 +8516,10 @@
         "rayon": 0,
         "viscose": 0,
         "pbt": 0,
-        "lyon": 0
+        "lyon": 0,
+        "polyamide": 0,
+        "polypropylene": 0,
+        "paraAramid": 0
       }
     }
   },
@@ -7934,7 +8556,10 @@
         "rayon": 0,
         "viscose": 0,
         "pbt": 0,
-        "lyon": 0
+        "lyon": 0,
+        "polyamide": 0,
+        "polypropylene": 0,
+        "paraAramid": 0
       }
     }
   },
@@ -7971,7 +8596,10 @@
         "rayon": 0,
         "viscose": 0,
         "pbt": 0,
-        "lyon": 0
+        "lyon": 0,
+        "polyamide": 0,
+        "polypropylene": 0,
+        "paraAramid": 0
       }
     }
   },
@@ -8008,7 +8636,10 @@
         "rayon": 0,
         "viscose": 0,
         "pbt": 0,
-        "lyon": 0
+        "lyon": 0,
+        "polyamide": 0,
+        "polypropylene": 0,
+        "paraAramid": 0
       }
     }
   },
@@ -8045,7 +8676,10 @@
         "rayon": 0,
         "viscose": 0,
         "pbt": 0,
-        "lyon": 0
+        "lyon": 0,
+        "polyamide": 0,
+        "polypropylene": 0,
+        "paraAramid": 0
       }
     }
   },
@@ -8082,7 +8716,10 @@
         "rayon": 0,
         "viscose": 0,
         "pbt": 0,
-        "lyon": 0
+        "lyon": 0,
+        "polyamide": 0,
+        "polypropylene": 0,
+        "paraAramid": 0
       }
     }
   },
@@ -8113,7 +8750,10 @@
         "rayon": 0,
         "viscose": 0,
         "pbt": 0,
-        "lyon": 0
+        "lyon": 0,
+        "polyamide": 0,
+        "polypropylene": 0,
+        "paraAramid": 0
       }
     }
   },
@@ -8144,7 +8784,10 @@
         "rayon": 0,
         "viscose": 0,
         "pbt": 0,
-        "lyon": 0
+        "lyon": 0,
+        "polyamide": 0,
+        "polypropylene": 0,
+        "paraAramid": 0
       }
     }
   },
@@ -8175,7 +8818,10 @@
         "rayon": 0,
         "viscose": 0,
         "pbt": 0,
-        "lyon": 0
+        "lyon": 0,
+        "polyamide": 0,
+        "polypropylene": 0,
+        "paraAramid": 0
       }
     }
   },
@@ -8206,7 +8852,10 @@
         "rayon": 0,
         "viscose": 0,
         "pbt": 0,
-        "lyon": 0
+        "lyon": 0,
+        "polyamide": 0,
+        "polypropylene": 0,
+        "paraAramid": 0
       }
     }
   },
@@ -8237,7 +8886,10 @@
         "rayon": 0,
         "viscose": 20,
         "pbt": 0,
-        "lyon": 0
+        "lyon": 0,
+        "polyamide": 0,
+        "polypropylene": 0,
+        "paraAramid": 0
       }
     }
   },
@@ -8268,7 +8920,10 @@
         "rayon": 0,
         "viscose": 0,
         "pbt": 0,
-        "lyon": 0
+        "lyon": 0,
+        "polyamide": 0,
+        "polypropylene": 0,
+        "paraAramid": 0
       }
     }
   },
@@ -8299,7 +8954,10 @@
         "rayon": 0,
         "viscose": 0,
         "pbt": 0,
-        "lyon": 0
+        "lyon": 0,
+        "polyamide": 0,
+        "polypropylene": 0,
+        "paraAramid": 0
       }
     }
   },
@@ -8330,38 +8988,316 @@
         "rayon": 0,
         "viscose": 20,
         "pbt": 0,
-        "lyon": 0
+        "lyon": 0,
+        "polyamide": 0,
+        "polypropylene": 0,
+        "paraAramid": 0
       }
     }
   },
   {
-    "id": "-linen",
-    "category": "linen",
-    "slug": "-linen",
+    "id": "tkan-WASHED DENIM STRETCH",
+    "category": "jeans",
+    "slug": "tkan-WASHED DENIM STRETCH",
     "title": {
-      "ua": "",
-      "ru": ""
+      "ua": "Тканина WASHED DENIM STRETCH",
+      "ru": "ткань WASHED DENIM STRETCH"
     },
     "isNew": false,
     "images": [],
     "description": {
-      "ua": "",
-      "ru": ""
+      "ua": "80% бавовна,  18% поліестер,  2% стрейч,  300 г/м.кв,  саржа,  145см",
+      "ru": "80% хлопок,  18% полиестер,  2% стрейч,  300 г/м.кв,  саржа,  145см"
     },
     "attributes": {
-      "fabricType": "",
-      "density": "",
-      "width": null,
+      "fabricType": "саржа",
+      "density": "300",
+      "width": "150",
       "colors": [],
       "properties": [],
       "composition": {
-        "cotton": 0,
+        "cotton": 80,
+        "polyester": 18,
+        "spandex": 2,
+        "rayon": 0,
+        "viscose": 0,
+        "pbt": 0,
+        "lyon": 0,
+        "polyamide": 0,
+        "polypropylene": 0,
+        "paraAramid": 0
+      }
+    }
+  },
+  {
+    "id": "tkan-WASHED JEANS",
+    "category": "jeans",
+    "slug": "tkan-WASHED JEANS",
+    "title": {
+      "ua": "Тканина WASHED JEANS",
+      "ru": "ткань WASHED JEANS"
+    },
+    "isNew": false,
+    "images": [],
+    "description": {
+      "ua": "100% бавовна,  270 г/м.кв,  саржв,  150см",
+      "ru": "100% хлопок,  270 г/м.кв,  саржв,  150см"
+    },
+    "attributes": {
+      "fabricType": "саржа",
+      "density": "270",
+      "width": "150",
+      "colors": [],
+      "properties": [],
+      "composition": {
+        "cotton": 100,
         "polyester": 0,
         "spandex": 0,
         "rayon": 0,
         "viscose": 0,
         "pbt": 0,
-        "lyon": 0
+        "lyon": 0,
+        "polyamide": 0,
+        "polypropylene": 0,
+        "paraAramid": 0
+      }
+    }
+  },
+  {
+    "id": "tkan-3928-jeans",
+    "category": "jeans",
+    "slug": "tkan-3928-jeans",
+    "title": {
+      "ua": "Тканина 3928",
+      "ru": "ткань 3928"
+    },
+    "isNew": false,
+    "images": [],
+    "description": {
+      "ua": "48% бавовна,  48% поліестер,  4% стрейч,  280 г/м.кв,  саржа,  140см",
+      "ru": "48% хлопок,  48% полиестер,  4% стрейч,  280 г/м.кв,  саржа,  140см"
+    },
+    "attributes": {
+      "fabricType": "саржа",
+      "density": "280",
+      "width": "150",
+      "colors": [],
+      "properties": [],
+      "composition": {
+        "cotton": 48,
+        "polyester": 48,
+        "spandex": 4,
+        "rayon": 0,
+        "viscose": 0,
+        "pbt": 0,
+        "lyon": 0,
+        "polyamide": 0,
+        "polypropylene": 0,
+        "paraAramid": 0
+      }
+    }
+  },
+  {
+    "id": "tkan-Т138",
+    "category": "jeans",
+    "slug": "tkan-Т138",
+    "title": {
+      "ua": "Тканина Т138",
+      "ru": "ткань Т138"
+    },
+    "isNew": false,
+    "images": [],
+    "description": {
+      "ua": "35% бавовна,  65% поліестер,  230 г/м.кв,  саржа,  150см",
+      "ru": "35% хлопок,  65% полиестер,  230 г/м.кв,  саржа,  150см"
+    },
+    "attributes": {
+      "fabricType": "саржа",
+      "density": "230",
+      "width": "150",
+      "colors": [],
+      "properties": [],
+      "composition": {
+        "cotton": 35,
+        "polyester": 65,
+        "spandex": 0,
+        "rayon": 0,
+        "viscose": 0,
+        "pbt": 0,
+        "lyon": 0,
+        "polyamide": 0,
+        "polypropylene": 0,
+        "paraAramid": 0
+      }
+    }
+  },
+  {
+    "id": "tkan-Т144",
+    "category": "jeans",
+    "slug": "tkan-Т144",
+    "title": {
+      "ua": "Тканина Т144",
+      "ru": "ткань Т144"
+    },
+    "isNew": false,
+    "images": [],
+    "description": {
+      "ua": "35% бавовна,  65% поліестер,  220 г/м.кв,  саржа,  150см",
+      "ru": "35% хлопок,  65% полиестер,  220 г/м.кв,  саржа,  150см"
+    },
+    "attributes": {
+      "fabricType": "саржа",
+      "density": "220",
+      "width": "150",
+      "colors": [],
+      "properties": [],
+      "composition": {
+        "cotton": 35,
+        "polyester": 65,
+        "spandex": 0,
+        "rayon": 0,
+        "viscose": 0,
+        "pbt": 0,
+        "lyon": 0,
+        "polyamide": 0,
+        "polypropylene": 0,
+        "paraAramid": 0
+      }
+    }
+  },
+  {
+    "id": "fleece-9112",
+    "category": "fleece",
+    "slug": "fleece-9112",
+    "title": {
+      "ua": "флис 9112",
+      "ru": "флис 9112"
+    },
+    "isNew": false,
+    "images": [],
+    "description": {
+      "ua": "100% поліестер,  250 г/м.кв,  трикотажне,  150см",
+      "ru": "100% полиестер,  250 г/м.кв,  трикотажне,  150см"
+    },
+    "attributes": {
+      "fabricType": "трикотажне",
+      "density": "250",
+      "width": "150",
+      "colors": [],
+      "properties": [],
+      "composition": {
+        "cotton": 0,
+        "polyester": 100,
+        "spandex": 0,
+        "rayon": 0,
+        "viscose": 0,
+        "pbt": 0,
+        "lyon": 0,
+        "polyamide": 0,
+        "polypropylene": 0,
+        "paraAramid": 0
+      }
+    }
+  },
+  {
+    "id": "fleece-22105",
+    "category": "fleece",
+    "slug": "fleece-22105",
+    "title": {
+      "ua": "флис 22105",
+      "ru": "флис 22105"
+    },
+    "isNew": false,
+    "images": [],
+    "description": {
+      "ua": "100% поліестер,  250 г/м.кв,  трикотажне,  150см",
+      "ru": "100% полиестер,  250 г/м.кв,  трикотажне,  150см"
+    },
+    "attributes": {
+      "fabricType": "трикотажне",
+      "density": "250",
+      "width": "150",
+      "colors": [],
+      "properties": [],
+      "composition": {
+        "cotton": 0,
+        "polyester": 100,
+        "spandex": 0,
+        "rayon": 0,
+        "viscose": 0,
+        "pbt": 0,
+        "lyon": 0,
+        "polyamide": 0,
+        "polypropylene": 0,
+        "paraAramid": 0
+      }
+    }
+  },
+  {
+    "id": "fleece-POLAR FLEECE",
+    "category": "fleece",
+    "slug": "fleece-POLAR FLEECE",
+    "title": {
+      "ua": "флис POLAR FLEECE",
+      "ru": "флис POLAR FLEECE"
+    },
+    "isNew": false,
+    "images": [],
+    "description": {
+      "ua": "100% поліестер,  антипілінг,  270г/м.кв,  150см",
+      "ru": "100% полиестер, антипілінг,  270г/м.кв,  150см"
+    },
+    "attributes": {
+      "fabricType": "трикотажне",
+      "density": "270",
+      "width": "150",
+      "colors": [],
+      "properties": [],
+      "composition": {
+        "cotton": 0,
+        "polyester": 100,
+        "spandex": 0,
+        "rayon": 0,
+        "viscose": 0,
+        "pbt": 0,
+        "lyon": 0,
+        "polyamide": 0,
+        "polypropylene": 0,
+        "paraAramid": 0
+      }
+    }
+  },
+  {
+    "id": "fleece-4796",
+    "category": "fleece",
+    "slug": "fleece-4796",
+    "title": {
+      "ua": "флис 4796",
+      "ru": "флис 4796"
+    },
+    "isNew": false,
+    "images": [],
+    "description": {
+      "ua": "100% бавовна,  даблфліс,  260г/м.кв,  трикотажне,  150см",
+      "ru": "100% хлопок,  даблфлис,  260г/м.кв,  трикотажне,  150см"
+    },
+    "attributes": {
+      "fabricType": "трикотажне",
+      "density": "260",
+      "width": "150",
+      "colors": [],
+      "properties": [],
+      "composition": {
+        "cotton": 100,
+        "polyester": 0,
+        "spandex": 0,
+        "rayon": 0,
+        "viscose": 0,
+        "pbt": 0,
+        "lyon": 0,
+        "polyamide": 0,
+        "polypropylene": 0,
+        "paraAramid": 0
       }
     }
   }

@@ -13,7 +13,9 @@ const CATEGORYES = [
   'jackets',
   'interlinings',
   'cotton',
-  'linen'
+  'linen',
+  'jeans',
+  'fleece'
 ]
 
 const fetchSheet = async (sheetName) => {
@@ -98,6 +100,9 @@ async function main() {
           viscose: Number(row.viscose) || 0,
           pbt: Number(row.pbt) || 0,
           lyon: Number(row.lyon) || 0,
+          polyamide: Number(row["polyamide PA"]) || 0,
+          polypropylene: Number(row["polypropylene PP"]) || 0,
+          paraAramid: Number(row["para aramid"]) || 0,
         },
       },
     };

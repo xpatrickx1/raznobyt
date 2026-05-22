@@ -1672,7 +1672,7 @@ button {
 
 .product-desc {
   font-size: 15px;
-  color: var(--c-text-muted);
+  color: var(--c-text);
   line-height: 1.75;
   margin-bottom: 28px;
   padding-bottom: 28px;
@@ -1700,7 +1700,7 @@ button {
   font-weight: 600;
   text-transform: uppercase;
   letter-spacing: 0.08em;
-  color: var(--c-text-muted);
+  color: var(--c-text);
   width: 45%;
 }
 
