@@ -11,6 +11,13 @@ export const COMPOSITION_OPTIONS = [
     { id: 'paraAramid', label: 'Пара-арамід', labelRu: 'Пара-арамид' },
 ];
 
+export const OPTIONAL_OPTIONS = [
+    { id: 'antistatic', label: 'Антистатичний', labelRu: 'Антистатический' },
+    { id: 'Modacrylic/Lyocell/Static-Control™', label: 'Модакрил/Ліоцел/Static-Control™', labelRu: 'Модакрил/Лиоцелл/Static-Control™' },
+    { id: 'Nomex®/Kevlar®/Anti-Static', label: 'Nomex®/Kevlar®/Anti-Static', labelRu: 'Nomex®/Kevlar®/Anti-Static' },
+    { id: 'Nomex®/Para-Aramid/p140', label: 'Nomex®/Para-Aramid/p140', labelRu: 'Nomex®/Para-Aramid/p140' },
+];
+
 export const formatComposition = (compObj, lang) => {
     if (!compObj) return '';
     if (typeof compObj === 'string') return compObj;

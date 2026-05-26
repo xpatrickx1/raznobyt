@@ -79,7 +79,13 @@ async function main() {
       },
       isNew: row.isNew === "true",
 
-      images: row.images ? row.images.split(",") : [],
+      images: row.images ? row.images.split(",").map(img => {
+        let trimmed = img.trim();
+        if (trimmed && !trimmed.startsWith("http")) {
+          return `https://catalog.raznobyt.com/images/products/${trimmed}`;
+        }
+        return trimmed;
+      }).filter(Boolean) : [],
 
       description: {
         ua: row.desc_ua,

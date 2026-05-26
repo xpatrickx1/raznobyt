@@ -33,7 +33,7 @@ export default function ProductPage() {
     const loadImages = async () => {
       const imagesToLoad = product.images || [];
       const urls = await Promise.all(
-        imagesToLoad.map(img => getProductImage(img))
+        imagesToLoad.map(img => getProductImage(img.trim()))
       );
       setImageUrls(urls);
     };

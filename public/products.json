@@ -178,11 +178,7 @@
       "ru": "Ткань TR-150"
     },
     "isNew": false,
-    "images": [
-      "https://apolo.cds.com.ua/home/raznobyt/sites/catalog.raznobyt.com/images/products/tr-150-black.jpg",
-      " https://apolo.cds.com.ua/home/raznobyt/sites/catalog.raznobyt.com/images/products/tr-150-brown.jpg",
-      " https://apolo.cds.com.ua/home/raznobyt/sites/catalog.raznobyt.com/images/products/tr-150-white.jpg"
-    ],
+    "images": [],
     "description": {
       "ua": "Легка змішана тканина саржевого переплетення. Склад: 35% бавовна, 65% поліестр. Щільність 150 г/м². Оптимальний вибір для літнього робочого одягу.",
       "ru": "Легкая смесовая ткань саржевого переплетения. Состав: 35% хлопок, 65% полиэстер. Плотность 150 г/м². Оптимальный выбор для летней рабочей одежды."
@@ -420,7 +416,12 @@
       "ru": "Ткань KG-317"
     },
     "isNew": false,
-    "images": [],
+    "images": [
+      "https://catalog.raznobyt.com/images/products/KG-317/60563.jpg",
+      "https://catalog.raznobyt.com/images/products/KG-317/colors/60372.jpg",
+      "https://catalog.raznobyt.com/images/products/KG-317/colors/62685.jpg",
+      "https://catalog.raznobyt.com/images/products/KG-317/colors/62709.jpg"
+    ],
     "description": {
       "ua": "Щільна змішана тканина саржевого переплетення. Склад: 35% бавовна, 65% поліестр. Щільність 215 г/м². Висока зносостійкість.",
       "ru": "Плотная смесовая ткань саржевого переплетения. Состав: 35% хлопок, 65% полиэстер. Плотность 215 г/м². Высокая износостойкость."
@@ -760,7 +761,10 @@
       "ru": "Ткань KG-0725"
     },
     "isNew": false,
-    "images": [],
+    "images": [
+      "https://catalog.raznobyt.com/images/products/KG-0725I/MG_20260521_0001.jpg",
+      "https://catalog.raznobyt.com/images/products/KG-0725I/colors/65466.jpg"
+    ],
     "description": {
       "ua": "Змішана тканина з механічним стрейчем. Склад: 40% бавовна, 60% поліестр. Щільність 250 г/м². Саржеве переплетення 2/1.",
       "ru": "Смесовая ткань с механическим стретчем. Состав: 40% хлопок, 60% полиэстер. Плотность 250 г/м². Саржевое переплетение 2/1."
@@ -794,7 +798,20 @@
       "ru": "Ткань TR-50 LT"
     },
     "isNew": false,
-    "images": [],
+    "images": [
+      "https://catalog.raznobyt.com/images/products/TR-50/IMG_20260521_0008.jpg",
+      "https://catalog.raznobyt.com/images/products/TR-50/colors/112 Sky.jpg",
+      "https://catalog.raznobyt.com/images/products/TR-50/colors/138 New Slate.jpg",
+      "https://catalog.raznobyt.com/images/products/TR-50/colors/142 Lavender.jpg",
+      "https://catalog.raznobyt.com/images/products/TR-50/colors/335 NAVY.jpg",
+      "https://catalog.raznobyt.com/images/products/TR-50/colors/506 Black.jpg",
+      "https://catalog.raznobyt.com/images/products/TR-50/colors/144194.jpg",
+      "https://catalog.raznobyt.com/images/products/TR-50/colors/A-451.jpg",
+      "https://catalog.raznobyt.com/images/products/TR-50/colors/AG-143.jpg",
+      "https://catalog.raznobyt.com/images/products/TR-50/colors/AG-184.jpg",
+      "https://catalog.raznobyt.com/images/products/TR-50/colors/New 140 Eau De Nil.jpg",
+      "https://catalog.raznobyt.com/images/products/TR-50/colors/Ф-138.jpg"
+    ],
     "description": {
       "ua": "Легка змішана тканина саржевого переплетення. Склад: 50% бавовна, 50% поліестр. Щільність 145 г/м². Ідеальна для літнього одягу.",
       "ru": "Легкая смесовая ткань саржевого переплетения. Состав: 50% хлопок, 50% полиэстер. Плотность 145 г/м². Идеальна для летней одежды."
@@ -828,7 +845,12 @@
       "ru": "Ткань TR-50"
     },
     "isNew": false,
-    "images": [],
+    "images": [
+      "https://catalog.raznobyt.com/images/products/TR-50/754 Royal Box.jpg",
+      "https://catalog.raznobyt.com/images/products/TR-50/colors/701 White.jpg",
+      "https://catalog.raznobyt.com/images/products/TR-50/colors/760 Aqua.jpg",
+      "https://catalog.raznobyt.com/images/products/TR-50/colors/794 Black.jpg"
+    ],
     "description": {
       "ua": "Змішана тканина саржевого переплетення. Склад: 50% бавовна, 50% поліестр. Щільність 180 г/м². Універсальне рішення.",
       "ru": "Смесовая ткань саржевого переплетения. Состав: 50% хлопок, 50% полиэстер. Плотность 180 г/м². Универсальное решение."
@@ -896,7 +918,16 @@
       "ru": "Ткань TR-163"
     },
     "isNew": false,
-    "images": [],
+    "images": [
+      "https://catalog.raznobyt.com/images/products/TR-163/IMG_20260521_0005.jpg",
+      "https://catalog.raznobyt.com/images/products/TR-163/colors/112 Sky PF.jpg",
+      "https://catalog.raznobyt.com/images/products/TR-163/colors/506 Black PF.jpg",
+      "https://catalog.raznobyt.com/images/products/TR-163/colors/701 White.jpg",
+      "https://catalog.raznobyt.com/images/products/TR-163/colors/752 Sky.jpg",
+      "https://catalog.raznobyt.com/images/products/TR-163/colors/758 Indigo.jpg",
+      "https://catalog.raznobyt.com/images/products/TR-163/colors/ TR-163/colors/Blue Stone PF.jpg",
+      "https://catalog.raznobyt.com/images/products/TR-163/colors/ TR-163/colors/Dark Green PF.jpg"
+    ],
     "description": {
       "ua": "Легка змішана тканина з ефектом стрейч. Склад: 49.5% бавовна, 47.5% поліестр, 3% стрейч. Щільність 163 г/м². Саржеве переплетення.",
       "ru": "Легкая смесовая ткань с эффектом стретч. Состав: 49.5% хлопок, 47.5% полиэстер, 3% стретч. Плотность 163 г/м². Саржевое переплетение."
@@ -1203,9 +1234,9 @@
     },
     "isNew": false,
     "images": [
-      "tr-150-white.jpg",
-      "tr-150-black.jpg",
-      "tr-150-brown.jpg"
+      "https://catalog.raznobyt.com/images/products/tr-150-white.jpg",
+      "https://catalog.raznobyt.com/images/products/tr-150-black.jpg",
+      "https://catalog.raznobyt.com/images/products/tr-150-brown.jpg"
     ],
     "description": {
       "ua": "Змішана тканина. Склад: 35% бавовна, 65% поліестр. Щільність 150. Саржеве переплетення 2/1.",

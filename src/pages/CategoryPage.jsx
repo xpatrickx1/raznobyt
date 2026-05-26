@@ -1,17 +1,14 @@
 import { useState, useMemo, useEffect, useRef } from 'react';
-import { useParams, Navigate, Link, useLocation, useSearchParams } from 'react-router-dom';
+import { useParams, Navigate, useLocation, useSearchParams } from 'react-router-dom';
 import { useLang } from '../i18n/LangContext';
 import SEO from '../components/SEO';
 import ProductCard from '../components/ProductCard';
+import CategorySidebar from '../components/CategorySidebar';
 import { productsByCategory } from '../data/products.js';
 import { textByCategory } from '../components/categoryText/catText.js';
 import categories from '../data/categories.json';
-// import searchIcon from '@/assets/images/icons/search.svg';
 import HeroSection from '../components/HeroSection';
 import { COMPOSITION_OPTIONS } from '../data/compositions.js';
-
-
-const PAGE_SIZE = 9;
 
 const COLOR_MAP = {
   navy: '#1A3B6E', white: '#F0F0F0', khaki: '#7B7B4E', blue: '#2563EB',
@@ -19,176 +16,9 @@ const COLOR_MAP = {
   multicam: '#6B7A4A', yellow: '#FACC15', beige: '#C8B99A', brown: '#5D4037',
 };
 
-// console.log(textByCategory);
+const PAGE_SIZE = 9;
 
-const SidebarContent = ({
-  mobileFilters,
-  t,
-  hasFilters,
-  clearAll,
-  FABRIC_TYPES,
-  toggleSection,
-  expandedSections,
-  selectedTypes,
-  toggle,
-  COLORS,
-  selectedColors,
-  COLOR_MAP,
-  DENSITIES,
-  selectedDensities,
-  lang,
-  COMPOSITIONS,
-  selectedCompositions,
-  WIDTHS,
-  selectedWidths,
-  setSelectedTypes,
-  setSelectedColors,
-  setSelectedDensities,
-  setSelectedCompositions,
-  setSelectedWidths
-}) => (
-  <aside className={`sidebar ${mobileFilters ? 'mobile-open' : ''}`}>
-    <div className="sidebar__title">
-      {t('catalog.filters')}
-      {hasFilters && <button className="clear-btn" onClick={clearAll}>{t('catalog.clearFilters')}</button>}
-    </div>
 
-    {/* {FABRIC_TYPES.length > 1 && ( */}
-    <div className="sidebar__section">
-      <div
-        className="sidebar__section-title collapsible-header"
-        onClick={() => toggleSection('type')}
-      >
-        {t('catalog.fabricType')}
-        <span className={`chevron ${expandedSections.includes('type') ? 'open' : ''}`}>›</span>
-      </div>
-      <div className={`sidebar__section-content ${expandedSections.includes('type') ? 'is-expanded' : ''}`}>
-        <div className="sidebar__section-inner">
-          {FABRIC_TYPES.map(ft => (
-            <label key={ft} className={`filter-option ${selectedTypes.includes(ft) ? 'active' : ''}`}>
-              <input
-                type="checkbox"
-                checked={selectedTypes.includes(ft)}
-                onChange={() => toggle(selectedTypes, setSelectedTypes, ft)}
-              />
-              {t(`fabricTypes.${ft}`)}
-            </label>
-          ))}
-        </div>
-      </div>
-    </div>
-    {/* )} */}
-
-    {COLORS.length > 1 && (
-      <div className="sidebar__section">
-        <div
-          className="sidebar__section-title collapsible-header"
-          onClick={() => toggleSection('color')}
-        >
-          {t('catalog.color')}
-          <span className={`chevron ${expandedSections.includes('color') ? 'open' : ''}`}>›</span>
-        </div>
-        <div className={`sidebar__section-content ${expandedSections.includes('color') ? 'is-expanded' : ''}`}>
-          <div className="sidebar__section-inner">
-            {COLORS.map(c => (
-              <label key={c} className={`filter-option ${selectedColors.includes(c) ? 'active' : ''}`}>
-                <input
-                  type="checkbox"
-                  checked={selectedColors.includes(c)}
-                  onChange={() => toggle(selectedColors, setSelectedColors, c)}
-                />
-                <span className="color-swatch" style={{ background: COLOR_MAP[c] || '#ccc' }} />
-                {t(`colors.${c}`)}
-              </label>
-            ))}
-          </div>
-        </div>
-      </div>
-    )}
-
-    {DENSITIES.length > 1 && (
-      <div className="sidebar__section">
-        <div
-          className="sidebar__section-title collapsible-header"
-          onClick={() => toggleSection('density')}
-        >
-          {lang === 'ua' ? 'Щільність (г/м²)' : 'Плотность (г/м²)'}
-          <span className={`chevron ${expandedSections.includes('density') ? 'open' : ''}`}>›</span>
-        </div>
-        <div className={`sidebar__section-content ${expandedSections.includes('density') ? 'is-expanded' : ''}`}>
-          <div className="sidebar__section-inner">
-            {DENSITIES.map(d => (
-              <label key={d} className={`filter-option ${selectedDensities.includes(d) ? 'active' : ''}`}>
-                <input
-                  type="checkbox"
-                  checked={selectedDensities.includes(d)}
-                  onChange={() => toggle(selectedDensities, setSelectedDensities, d)}
-                />
-                {d}
-              </label>
-            ))}
-          </div>
-        </div>
-      </div>
-    )}
-
-    {COMPOSITIONS.length > 1 && (
-      <div className="sidebar__section">
-        <div
-          className="sidebar__section-title collapsible-header"
-          onClick={() => toggleSection('composition')}
-        >
-          {lang === 'ua' ? 'Склад' : 'Состав'}
-          <span className={`chevron ${expandedSections.includes('composition') ? 'open' : ''}`}>›</span>
-        </div>
-        <div className={`sidebar__section-content ${expandedSections.includes('composition') ? 'is-expanded' : ''}`}>
-          <div className="sidebar__section-inner">
-            {COMPOSITIONS.map(c => {
-              const opt = COMPOSITION_OPTIONS.find(o => o.id === c);
-              const labelText = opt ? (lang === 'ua' ? opt.label : opt.labelRu) : c;
-              return (
-                <label key={c} className={`filter-option ${selectedCompositions.includes(c) ? 'active' : ''}`}>
-                  <input
-                    type="checkbox"
-                    checked={selectedCompositions.includes(c)}
-                    onChange={() => toggle(selectedCompositions, setSelectedCompositions, c)}
-                  />
-                  {labelText}
-                </label>
-              );
-            })}
-          </div>
-        </div>
-      </div>
-    )}
-
-    {WIDTHS.length > 1 && (
-      <div className="sidebar__section">
-        <div
-          className="sidebar__section-title collapsible-header"
-          onClick={() => toggleSection('width')}
-        >
-          {lang === 'ua' ? 'Ширина' : 'Ширина'}
-          <span className={`chevron ${expandedSections.includes('width') ? 'open' : ''}`}>›</span>
-        </div>
-        <div className={`sidebar__section-content ${expandedSections.includes('width') ? 'is-expanded' : ''}`}>
-          <div className="sidebar__section-inner">
-            {WIDTHS.map(w => (
-              <label key={w} className={`filter-option ${selectedWidths.includes(w) ? 'active' : ''}`}>
-                <input
-                  type="checkbox"
-                  checked={selectedWidths.includes(w)}
-                  onChange={() => toggle(selectedWidths, setSelectedWidths, w)}
-                />
-                {w}
-              </label>
-            ))}
-          </div>
-        </div>
-      </div>
-    )}
-  </aside>
-);
 
 export default function CategoryPage() {
   const { slug } = useParams();
@@ -415,7 +245,7 @@ export default function CategoryPage() {
 
       <div ref={targetRef} className="container section-sm">
         <div className="catalog-layout">
-          <SidebarContent
+          <CategorySidebar
             mobileFilters={mobileFilters}
             t={t}
             hasFilters={hasFilters}
@@ -427,7 +257,6 @@ export default function CategoryPage() {
             toggle={toggle}
             COLORS={COLORS}
             selectedColors={selectedColors}
-            COLOR_MAP={COLOR_MAP}
             DENSITIES={DENSITIES}
             selectedDensities={selectedDensities}
             lang={lang}

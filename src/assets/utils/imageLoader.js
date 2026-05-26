@@ -19,10 +19,10 @@ export async function getImage(path, basePath = '/') {
     }
 
     // Якщо шлях починається з http/https - зовнішнє зображення
-    // if (path.startsWith('http://') || path.startsWith('https://')) {
-    //     imageCache.set(path, path);
-    //     return path;
-    // }
+    if (path.startsWith('http://') || path.startsWith('https://')) {
+        imageCache.set(path, path);
+        return path;
+    }
 
     // Якщо шлях вже починається з /images/ або /uploads/
     // if (path.startsWith('/images/') || path.startsWith('/uploads/')) {

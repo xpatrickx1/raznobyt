@@ -10,20 +10,18 @@ export default function ProductCard({ product }) {
   const { lang, t } = useLang();
   const cat = categories.find(c => c.id === product.category);
 
-  const [imageUrl, setImageUrl] = useState([]);
-  const [productData, setProducts] = useState([]);
+  const [imageUrl, setImageUrl] = useState(null);
 
   useEffect(() => {
     const loadImage = async () => {
-      const imageToLoad = product?.images[0] || [];
+      const imageToLoad = product?.images?.[0]?.trim() || null;
+      if (!imageToLoad) return;
       const url = await getProductImage(imageToLoad);
+      console.log('url', url);
       setImageUrl(url);
     };
     loadImage();
   }, [product]);
-
-  console.log(product);
-  console.log(imageUrl);
 
 
   return (
