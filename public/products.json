@@ -884,7 +884,29 @@
       "ru": "Ткань TRS-48"
     },
     "isNew": false,
-    "images": [],
+    "images": [
+      "https://catalog.raznobyt.com/images/products/TR S-48/740-Deep Purple.jpg",
+      "https://catalog.raznobyt.com/images/products/TR S-48/colors/701-White.jpg",
+      "https://catalog.raznobyt.com/images/products/TR S-48/colors/730-Red.jpg",
+      "https://catalog.raznobyt.com/images/products/TR S-48/colors/735-Maroon.jpg",
+      "https://catalog.raznobyt.com/images/products/TR S-48/colors/740-Deep Purple.jpg",
+      "https://catalog.raznobyt.com/images/products/TR S-48/colors/750-Turquoise.jpg",
+      "https://catalog.raznobyt.com/images/products/TR S-48/colors/752-Sky.jpg",
+      "https://catalog.raznobyt.com/images/products/TR S-48/colors/757-Navy.jpg",
+      "https://catalog.raznobyt.com/images/products/TR S-48/colors/760-Aqua.jpg",
+      "https://catalog.raznobyt.com/images/products/TR S-48/colors/761-Opal.jpg",
+      "https://catalog.raznobyt.com/images/products/TR S-48/colors/768-Olive Green.jpg",
+      "https://catalog.raznobyt.com/images/products/TR S-48/colors/773-Sand.jpg",
+      "https://catalog.raznobyt.com/images/products/TR S-48/colors/776-Khaki.jpg",
+      "https://catalog.raznobyt.com/images/products/TR S-48/colors/777-Cedar.jpg",
+      "https://catalog.raznobyt.com/images/products/TR S-48/colors/778-Chokolate.jpg",
+      "https://catalog.raznobyt.com/images/products/TR S-48/colors/781-Silver.jpg",
+      "https://catalog.raznobyt.com/images/products/TR S-48/colors/784-Grey.jpg",
+      "https://catalog.raznobyt.com/images/products/TR S-48/colors/785-Steel.jpg",
+      "https://catalog.raznobyt.com/images/products/TR S-48/colors/786-Charcoal.jpg",
+      "https://catalog.raznobyt.com/images/products/TR S-48/colors/789-Charcoal.jpg",
+      "https://catalog.raznobyt.com/images/products/TR S-48/colors/794-Black.jpg"
+    ],
     "description": {
       "ua": "Змішана тканина саржевого переплетення. Склад: 50% бавовна, 50% поліестр. Щільність 200 г/м². Для корпоративного одягу.",
       "ru": "Смесовая ткань саржевого переплетения. Состав: 50% хлопок, 50% полиэстер. Плотность 200 г/м². Для корпоративной одежды."

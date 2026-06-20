@@ -14,6 +14,7 @@ export default function ProductPage() {
   const { lang, t } = useLang();
   const [allProducts, setAllProducts] = useState(null);
   const [activeImg, setActiveImg] = useState(0);
+  const [thumbOffset, setThumbOffset] = useState(0);
   const [phone, setPhone] = useState('');
   const [sent, setSent] = useState(false);
   const [imageUrls, setImageUrls] = useState([]);
@@ -33,7 +34,7 @@ export default function ProductPage() {
     const loadImages = async () => {
       const imagesToLoad = product.images || [];
       const urls = await Promise.all(
-        imagesToLoad.map(img => getProductImage(img.trim()))
+        imagesToLoad.map(img => getProductImage(img))
       );
       setImageUrls(urls);
     };
@@ -52,6 +53,13 @@ export default function ProductPage() {
     e.preventDefault();
     if (phone.trim()) { setSent(true); setPhone(''); }
   };
+
+  const THUMB_SIZE = 82; // width + gap
+  const VISIBLE_THUMBS = 5;
+  const maxOffset = Math.max(0, imageUrls.length - VISIBLE_THUMBS);
+
+  const prevThumbs = () => setThumbOffset(o => Math.max(0, o - 1));
+  const nextThumbs = () => setThumbOffset(o => Math.min(maxOffset, o + 1));
 
   const attrs = [
     { label: t('product.composition'), value: formatComposition(product.attributes.composition, lang) },
@@ -123,18 +131,35 @@ export default function ProductPage() {
                 </div>
               )}
               {imageUrls.length > 1 && (
-                <div className="product-thumbs">
-                  {imageUrls.map((img, i) => (
-                    <img
-                      key={i}
-                      src={img}
-                      alt=""
-                      className={`product-thumb ${activeImg === i ? 'active' : ''}`}
-                      onClick={() => setActiveImg(i)}
-                      loading="lazy"
-                      onError={(e) => { e.target.src = placeholder; }}
-                    />
-                  ))}
+                <div className="product-thumbs-slider">
+                  {thumbOffset > 0 && (
+                    <button className="thumbs-arrow thumbs-arrow--prev" onClick={prevThumbs} aria-label="Попередні">
+                      ‹
+                    </button>
+                  )}
+                  <div className="product-thumbs-viewport">
+                    <div
+                      className="product-thumbs"
+                      style={{ transform: `translateX(-${thumbOffset * THUMB_SIZE}px)` }}
+                    >
+                      {imageUrls.map((img, i) => (
+                        <img
+                          key={i}
+                          src={img}
+                          alt=""
+                          className={`product-thumb ${activeImg === i ? 'active' : ''}`}
+                          onClick={() => setActiveImg(i)}
+                          loading="lazy"
+                          onError={(e) => { e.target.src = placeholder; }}
+                        />
+                      ))}
+                    </div>
+                  </div>
+                  {thumbOffset < maxOffset && (
+                    <button className="thumbs-arrow thumbs-arrow--next" onClick={nextThumbs} aria-label="Наступні">
+                      ›
+                    </button>
+                  )}
                 </div>
               )}
             </div>
