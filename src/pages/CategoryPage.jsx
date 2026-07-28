@@ -19,7 +19,6 @@ const COLOR_MAP = {
 const PAGE_SIZE = 9;
 
 
-
 export default function CategoryPage() {
   const { slug } = useParams();
   const location = useLocation();
