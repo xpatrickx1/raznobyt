@@ -1,4 +1,4 @@
-import { COMPOSITION_OPTIONS } from '../data/compositions.js';
+import { getCompositionOption } from '../data/compositions.js';
 
 const COLOR_MAP = {
   navy: '#1A3B6E', white: '#F0F0F0', khaki: '#7B7B4E', blue: '#2563EB',
@@ -131,7 +131,7 @@ export default function CategorySidebar({
           <div className={`sidebar__section-content ${expandedSections.includes('composition') ? 'is-expanded' : ''}`}>
             <div className="sidebar__section-inner">
               {COMPOSITIONS.map(c => {
-                const opt = COMPOSITION_OPTIONS.find(o => o.id === c);
+                const opt = getCompositionOption(c);
                 const labelText = opt ? (lang === 'ua' ? opt.label : opt.labelRu) : c;
                 return (
                   <label key={c} className={`filter-option ${selectedCompositions.includes(c) ? 'active' : ''}`}>

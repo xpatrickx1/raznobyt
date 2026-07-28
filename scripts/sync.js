@@ -16,7 +16,7 @@ const CATEGORYES = [
   'linen',
   'jeans',
   'fleece'
-]
+];
 
 const fetchSheet = async (sheetName) => {
   const url = `https://opensheet.elk.sh/${SHEET_ID}/${sheetName}`;
@@ -44,31 +44,79 @@ const slugify = (text = "", category = "") =>
     .replace(/\s+/g, "-")
     .replace(/[^\w-]+/g, "") + `-${category}`;
 
+// 🔥 НОВА ФУНКЦІЯ ДЛЯ ПАРСИНГУ КОЛЬОРІВ
+const parseColors = (colorsStr) => {
+  if (!colorsStr || colorsStr.trim() === "") return [];
+
+  try {
+    const parsed = JSON.parse(colorsStr);
+    if (Array.isArray(parsed)) {
+      return parsed;
+    }
+    if (parsed.colors) return parsed.colors;
+    if (parsed.items) return parsed.items;
+    return [];
+  } catch (e) {
+    // Якщо це звичайний рядок з комами
+    return colorsStr.split(",").map(s => s.trim()).filter(Boolean);
+  }
+};
+
+// 🔥 НОВА ФУНКЦІЯ ДЛЯ ПАРСИНГУ ЗОБРАЖЕНЬ (щоб не обрізало JSON)
+const parseImages = (imagesStr) => {
+  if (!imagesStr || imagesStr.trim() === "") return [];
+
+  // Спершу пробуємо як JSON
+  try {
+    const parsed = JSON.parse(imagesStr);
+    if (Array.isArray(parsed)) {
+      return parsed.map(img => {
+        let trimmed = img.trim();
+        if (trimmed && !trimmed.startsWith("http")) {
+          return `https://catalog.raznobyt.com/images/products/${trimmed}`;
+        }
+        return trimmed;
+      }).filter(Boolean);
+    }
+  } catch (e) {
+    // Якщо не JSON — розбиваємо по комах
+    return imagesStr.split(",").map(img => {
+      let trimmed = img.trim();
+      if (trimmed && !trimmed.startsWith("http")) {
+        return `https://catalog.raznobyt.com/images/products/${trimmed}`;
+      }
+      return trimmed;
+    }).filter(Boolean);
+  }
+
+  return [];
+};
+
 async function main() {
   console.log("🚀 Fetching data from Google Sheets...");
 
   const res = await Promise.all(CATEGORYES.map(fetchSheet));
-  //   const data = await res.json();
   const flatData = res.flat();
 
   console.log(`📦 Rows: ${flatData.length}`);
 
   const products = flatData.map((row) => {
-    let slug = row.slug || slugify(cleanTitle(row.title_ua), row.category);
+    let slug = `tkan-${row.category}-${cleanTitle(row.title_ua).replace(/\s+/g, '-').replace(/[^\w-]+/g, '')}`;
 
-    if (slugs.has(slug)) {
-      slug = `${slug}-${row.category}`;
-    }
+    // if (slugs.has(slug)) {
+    //   slug = `${slug}`;
+    // }
 
-    let counter = 1;
-    let originalSlug = slug;
-    while (slugs.has(slug)) {
-      slug = `${originalSlug}-${counter}`;
-      counter++;
-    }
+    // let counter = 1;
+    // let originalSlug = slug;
+    // while (slugs.has(slug)) {
+    //   slug = `${originalSlug}-${counter}`;
+    //   counter++;
+    // }
     slugs.add(slug);
 
     console.log(slug);
+
     return {
       id: slug,
       category: row.category,
@@ -78,25 +126,21 @@ async function main() {
         ru: row.title_ru,
       },
       isNew: row.isNew === "true",
-
-      images: row.images ? row.images.split(",").map(img => {
-        let trimmed = img.trim();
-        if (trimmed && !trimmed.startsWith("http")) {
-          return `https://catalog.raznobyt.com/images/products/${trimmed}`;
-        }
-        return trimmed;
-      }).filter(Boolean) : [],
-
+      images: parseColors(row.colors)
+        .filter(c => c.image)
+        .map(c => {
+          const img = c.image.trim();
+          return img.startsWith("http") ? img : `https://catalog.raznobyt.com/images/products/${img}`;
+        }),
       description: {
         ua: row.desc_ua,
         ru: row.desc_ru,
       },
-
       attributes: {
         fabricType: row.fabricType,
         density: row.density,
         width: row.width || null,
-        colors: row.colors ? row.colors.split(",") : [],
+        colors: parseColors(row.colors),
         properties: row.properties ? row.properties.split(",").map(s => s.trim()).filter(Boolean) : [],
         composition: {
           cotton: Number(row.cotton) || 0,
@@ -114,51 +158,27 @@ async function main() {
     };
   });
 
-
-
-  //   const products = data.map((row) => {
-  //     const slug = row.slug || slugify(row.title_ua);
-
-  //     return {
-  //       id: slug,
-  //       slug,
-  //       title: {
-  //         ua: row.title_ua,
-  //         ru: row.title_ru,
-  //       },
-  //       category: row.category,
-  //       isNew: row.isNew === "true",
-
-  //       images: row.images ? row.images.split(",") : [],
-
-  //       description: {
-  //         ua: row.description_ua,
-  //         ru: row.description_ru,
-  //       },
-
-  //       attributes: {
-  //         fabricType: row.fabricType,
-  //         density: row.density,
-  //         width: row.width || null,
-  //         colors: row.colors ? row.colors.split(",") : [],
-  //         composition: {
-  //           cotton: Number(row.cotton) || 0,
-  //           polyester: Number(row.polyester) || 0,
-  //           spandex: Number(row.spandex) || 0,
-  //           rayon: Number(row.rayon) || 0,
-  //           viscose: Number(row.viscose) || 0,
-  //           pbt: Number(row.pbt) || 0,
-  //         },
-  //       },
-  //     };
-  //   });
-
   await fs.writeFile(
     "public/products.json",
     JSON.stringify(products, null, 2)
   );
 
-  console.log("✅ products.json updated");
+  // Write per-category JSON files
+  const byCategory = {};
+  for (const p of products) {
+    if (!byCategory[p.category]) byCategory[p.category] = [];
+    byCategory[p.category].push(p);
+  }
+
+  for (const [cat, items] of Object.entries(byCategory)) {
+    await fs.writeFile(
+      `src/data/products/${cat}.json`,
+      JSON.stringify(items, null, 2)
+    );
+    console.log(`  📁 ${cat}.json (${items.length} products)`);
+  }
+
+  console.log("✅ products.json and per-category files updated");
 }
 
 main().catch((err) => {

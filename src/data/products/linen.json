@@ -1,0 +1,370 @@
+[
+  {
+    "id": "tkan-linen-128",
+    "category": "linen",
+    "slug": "tkan-linen-128",
+    "title": {
+      "ua": "Тканина В128",
+      "ru": "Ткань В128"
+    },
+    "isNew": false,
+    "images": [],
+    "description": {
+      "ua": "55% льон,  45% бавовна,  260 г/м.кв,  саржа,  150см",
+      "ru": "55% лен,  45% хлопок,  260 г/м.кв,  саржа,  150см"
+    },
+    "attributes": {
+      "fabricType": "саржа",
+      "density": "260",
+      "width": "150",
+      "colors": [],
+      "properties": [],
+      "composition": {
+        "cotton": 45,
+        "polyester": 0,
+        "spandex": 0,
+        "rayon": 0,
+        "viscose": 0,
+        "pbt": 0,
+        "lyon": 0,
+        "linen": 55,
+        "polyamide": 0,
+        "polypropylene": 0,
+        "paraAramid": 0,
+        "nylon": 0,
+        "mac": 0,
+        "pu": 0,
+        "antistatic": 0,
+        "Modacrylic/Lyocell/Static-Control™": 0,
+        "Nomex®/Kevlar®/Anti-Static": 0,
+        "Nomex®/Para-Aramid/p140": 0,
+        "PBI®/Kevlar®/Antistatic": 0,
+        "Lenzing FR®/Aramid": 0,
+        "Para-aramid/Solid polymer coating": 0,
+        "FR Rayon/пара-арамід/поліамід/антистатик": 0
+      }
+    }
+  },
+  {
+    "id": "tkan-linen-0873",
+    "category": "linen",
+    "slug": "tkan-linen-0873",
+    "title": {
+      "ua": "Тканина 0873",
+      "ru": "Ткань 0873"
+    },
+    "isNew": false,
+    "images": [],
+    "description": {
+      "ua": "55% льон,  45% бавовна,  126 г/м.кв,  саржа,  150см",
+      "ru": "55% лен,  45% хлопок,  126 г/м.кв,  полотно,  150см"
+    },
+    "attributes": {
+      "fabricType": "полотно",
+      "density": "126",
+      "width": "150",
+      "colors": [],
+      "properties": [],
+      "composition": {
+        "cotton": 45,
+        "polyester": 0,
+        "spandex": 0,
+        "rayon": 0,
+        "viscose": 0,
+        "pbt": 0,
+        "lyon": 0,
+        "linen": 55,
+        "polyamide": 0,
+        "polypropylene": 0,
+        "paraAramid": 0,
+        "nylon": 0,
+        "mac": 0,
+        "pu": 0,
+        "antistatic": 0,
+        "Modacrylic/Lyocell/Static-Control™": 0,
+        "Nomex®/Kevlar®/Anti-Static": 0,
+        "Nomex®/Para-Aramid/p140": 0,
+        "PBI®/Kevlar®/Antistatic": 0,
+        "Lenzing FR®/Aramid": 0,
+        "Para-aramid/Solid polymer coating": 0,
+        "FR Rayon/пара-арамід/поліамід/антистатик": 0
+      }
+    }
+  },
+  {
+    "id": "tkan-linen-flash-f1",
+    "category": "linen",
+    "slug": "tkan-linen-flash-f1",
+    "title": {
+      "ua": "Тканина FLASH F1",
+      "ru": "Ткань FLASH F1"
+    },
+    "isNew": false,
+    "images": [],
+    "description": {
+      "ua": "100% льон,  120г/м.кв,  полотно,  150см",
+      "ru": "100% лен,  120 г/м.кв,  полотно,  150см"
+    },
+    "attributes": {
+      "fabricType": "полотно",
+      "density": "120",
+      "width": "150",
+      "colors": [],
+      "properties": [],
+      "composition": {
+        "cotton": 0,
+        "polyester": 0,
+        "spandex": 0,
+        "rayon": 0,
+        "viscose": 0,
+        "pbt": 0,
+        "lyon": 0,
+        "linen": 100,
+        "polyamide": 0,
+        "polypropylene": 0,
+        "paraAramid": 0,
+        "nylon": 0,
+        "mac": 0,
+        "pu": 0,
+        "antistatic": 0,
+        "Modacrylic/Lyocell/Static-Control™": 0,
+        "Nomex®/Kevlar®/Anti-Static": 0,
+        "Nomex®/Para-Aramid/p140": 0,
+        "PBI®/Kevlar®/Antistatic": 0,
+        "Lenzing FR®/Aramid": 0,
+        "Para-aramid/Solid polymer coating": 0,
+        "FR Rayon/пара-арамід/поліамід/антистатик": 0
+      }
+    }
+  },
+  {
+    "id": "tkan-linen-263",
+    "category": "linen",
+    "slug": "tkan-linen-263",
+    "title": {
+      "ua": "Тканина А263",
+      "ru": "Ткань А263"
+    },
+    "isNew": false,
+    "images": [],
+    "description": {
+      "ua": "100% льон,  125г/м.кв,  полотно,  150см",
+      "ru": "100% лен,  125 г/м.кв,  полотно,  150см"
+    },
+    "attributes": {
+      "fabricType": "полотно",
+      "density": "125",
+      "width": "150",
+      "colors": [],
+      "properties": [],
+      "composition": {
+        "cotton": 0,
+        "polyester": 0,
+        "spandex": 0,
+        "rayon": 0,
+        "viscose": 0,
+        "pbt": 0,
+        "lyon": 0,
+        "linen": 100,
+        "polyamide": 0,
+        "polypropylene": 0,
+        "paraAramid": 0,
+        "nylon": 0,
+        "mac": 0,
+        "pu": 0,
+        "antistatic": 0,
+        "Modacrylic/Lyocell/Static-Control™": 0,
+        "Nomex®/Kevlar®/Anti-Static": 0,
+        "Nomex®/Para-Aramid/p140": 0,
+        "PBI®/Kevlar®/Antistatic": 0,
+        "Lenzing FR®/Aramid": 0,
+        "Para-aramid/Solid polymer coating": 0,
+        "FR Rayon/пара-арамід/поліамід/антистатик": 0
+      }
+    }
+  },
+  {
+    "id": "tkan-linen-linen-viscose",
+    "category": "linen",
+    "slug": "tkan-linen-linen-viscose",
+    "title": {
+      "ua": "Тканина  LINEN VISCOSE",
+      "ru": "Ткань  LINEN VISCOSE"
+    },
+    "isNew": false,
+    "images": [],
+    "description": {
+      "ua": "80% льон,  20% віскоза,  200 г/м.кв,  полотно,  150см",
+      "ru": "80% лен,  20% вискоза,  200 г/м.кв,  полотно,  150см"
+    },
+    "attributes": {
+      "fabricType": "полотно",
+      "density": "200",
+      "width": "150",
+      "colors": [],
+      "properties": [],
+      "composition": {
+        "cotton": 0,
+        "polyester": 0,
+        "spandex": 0,
+        "rayon": 0,
+        "viscose": 20,
+        "pbt": 0,
+        "lyon": 0,
+        "linen": 80,
+        "polyamide": 0,
+        "polypropylene": 0,
+        "paraAramid": 0,
+        "nylon": 0,
+        "mac": 0,
+        "pu": 0,
+        "antistatic": 0,
+        "Modacrylic/Lyocell/Static-Control™": 0,
+        "Nomex®/Kevlar®/Anti-Static": 0,
+        "Nomex®/Para-Aramid/p140": 0,
+        "PBI®/Kevlar®/Antistatic": 0,
+        "Lenzing FR®/Aramid": 0,
+        "Para-aramid/Solid polymer coating": 0,
+        "FR Rayon/пара-арамід/поліамід/антистатик": 0
+      }
+    }
+  },
+  {
+    "id": "tkan-linen-9327",
+    "category": "linen",
+    "slug": "tkan-linen-9327",
+    "title": {
+      "ua": "Тканина 9327",
+      "ru": "Ткань 9327"
+    },
+    "isNew": false,
+    "images": [],
+    "description": {
+      "ua": "100 %льон,  240 г/м.кв,  полотно,  140см",
+      "ru": "100% лен,  240 г/м.кв,  полотно,  140см"
+    },
+    "attributes": {
+      "fabricType": "полотно",
+      "density": "240",
+      "width": "140",
+      "colors": [],
+      "properties": [],
+      "composition": {
+        "cotton": 0,
+        "polyester": 0,
+        "spandex": 0,
+        "rayon": 0,
+        "viscose": 0,
+        "pbt": 0,
+        "lyon": 0,
+        "linen": 100,
+        "polyamide": 0,
+        "polypropylene": 0,
+        "paraAramid": 0,
+        "nylon": 0,
+        "mac": 0,
+        "pu": 0,
+        "antistatic": 0,
+        "Modacrylic/Lyocell/Static-Control™": 0,
+        "Nomex®/Kevlar®/Anti-Static": 0,
+        "Nomex®/Para-Aramid/p140": 0,
+        "PBI®/Kevlar®/Antistatic": 0,
+        "Lenzing FR®/Aramid": 0,
+        "Para-aramid/Solid polymer coating": 0,
+        "FR Rayon/пара-арамід/поліамід/антистатик": 0
+      }
+    }
+  },
+  {
+    "id": "tkan-linen-02699",
+    "category": "linen",
+    "slug": "tkan-linen-02699",
+    "title": {
+      "ua": "Тканина 02699",
+      "ru": "Ткань 02699"
+    },
+    "isNew": false,
+    "images": [],
+    "description": {
+      "ua": "75% льон,  25% бавовна,  230 г/м.кв,  138см",
+      "ru": "75% лен,  25% хлопок,  230 г/м.кв,  полотно,  138 см"
+    },
+    "attributes": {
+      "fabricType": "полотно",
+      "density": "230",
+      "width": "138",
+      "colors": [],
+      "properties": [],
+      "composition": {
+        "cotton": 25,
+        "polyester": 0,
+        "spandex": 0,
+        "rayon": 0,
+        "viscose": 0,
+        "pbt": 0,
+        "lyon": 0,
+        "linen": 75,
+        "polyamide": 0,
+        "polypropylene": 0,
+        "paraAramid": 0,
+        "nylon": 0,
+        "mac": 0,
+        "pu": 0,
+        "antistatic": 0,
+        "Modacrylic/Lyocell/Static-Control™": 0,
+        "Nomex®/Kevlar®/Anti-Static": 0,
+        "Nomex®/Para-Aramid/p140": 0,
+        "PBI®/Kevlar®/Antistatic": 0,
+        "Lenzing FR®/Aramid": 0,
+        "Para-aramid/Solid polymer coating": 0,
+        "FR Rayon/пара-арамід/поліамід/антистатик": 0
+      }
+    }
+  },
+  {
+    "id": "tkan-linen-741",
+    "category": "linen",
+    "slug": "tkan-linen-741",
+    "title": {
+      "ua": "Тканина А741",
+      "ru": "Ткань А741"
+    },
+    "isNew": false,
+    "images": [],
+    "description": {
+      "ua": "100% льон,  130 г/м.кв,  полотно, 150см",
+      "ru": "100% лен,  130 г/м.кв,  полотно,  150см"
+    },
+    "attributes": {
+      "fabricType": "полотно",
+      "density": "130",
+      "width": "150",
+      "colors": [],
+      "properties": [],
+      "composition": {
+        "cotton": 0,
+        "polyester": 0,
+        "spandex": 0,
+        "rayon": 0,
+        "viscose": 20,
+        "pbt": 0,
+        "lyon": 0,
+        "linen": 80,
+        "polyamide": 0,
+        "polypropylene": 0,
+        "paraAramid": 0,
+        "nylon": 0,
+        "mac": 0,
+        "pu": 0,
+        "antistatic": 0,
+        "Modacrylic/Lyocell/Static-Control™": 0,
+        "Nomex®/Kevlar®/Anti-Static": 0,
+        "Nomex®/Para-Aramid/p140": 0,
+        "PBI®/Kevlar®/Antistatic": 0,
+        "Lenzing FR®/Aramid": 0,
+        "Para-aramid/Solid polymer coating": 0,
+        "FR Rayon/пара-арамід/поліамід/антистатик": 0
+      }
+    }
+  }
+]

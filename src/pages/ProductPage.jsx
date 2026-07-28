@@ -5,7 +5,7 @@ import SEO from '../components/SEO';
 import ProductCard from '../components/ProductCard';
 import categories from '../data/categories.json';
 import { formatComposition } from '../data/compositions.js';
-import { getProductImage, COLOR_MAP } from '../assets/utils/imageLoader.js';
+import { getProductImage } from '../assets/utils/imageLoader.js';
 import placeholder from '../assets/images/placeholder.svg';
 import phoneIcon from '@/assets/images/icons/phone.svg';
 
@@ -32,11 +32,16 @@ export default function ProductPage() {
   useEffect(() => {
     if (!product) return;
     const loadImages = async () => {
-      const imagesToLoad = product.images || [];
-      const urls = await Promise.all(
-        imagesToLoad.map(img => getProductImage(img))
-      );
-      setImageUrls(urls);
+      // Main image from images array (first one)
+      const mainImages = product.images?.length > 0 ? [product.images[0]] : [];
+      const mainUrls = await Promise.all(mainImages.map(img => getProductImage(img)));
+
+      // Color swatch images
+      const colorImages = (product.attributes?.colors || [])
+        .filter(c => c.image)
+        .map(c => c.image.startsWith('http') ? c.image : `https://catalog.raznobyt.com/images/products/${c.image}`);
+
+      setImageUrls([...mainUrls, ...colorImages]);
     };
     window.scrollTo(0, 0);
     loadImages();
@@ -61,31 +66,35 @@ export default function ProductPage() {
   const prevThumbs = () => setThumbOffset(o => Math.max(0, o - 1));
   const nextThumbs = () => setThumbOffset(o => Math.min(maxOffset, o + 1));
 
+  const colors = product.attributes.colors || [];
+  const colorName = (c) => typeof c === 'string' ? c : (lang === 'ru' ? (c.color_ru || c.color) : c.color);
+
   const attrs = [
     { label: t('product.composition'), value: formatComposition(product.attributes.composition, lang) },
     { label: t('product.density'), value: product.attributes.density },
     { label: t('product.width'), value: product.attributes.width },
-    {
+    ...(colors.length > 0 ? [{
       label: t('product.color'), value: (
-        <span style={{ display: 'flex', alignItems: 'center', gap: 8, flexWrap: 'wrap' }}>
-          {Array.isArray(product.attributes.color) ? (
-            product.attributes.color.map((c, idx) => (
-              <span key={c} style={{ display: 'inline-flex', alignItems: 'center', cursor: 'pointer' }} onClick={() => {
-                if (idx < imageUrls.length) setActiveImg(idx);
-              }}>
-                <span className={`color-dot ${idx === activeImg ? 'active' : ''}`} style={{ background: COLOR_MAP[c] || '#ccc', display: 'inline-block', width: 22, height: 22, borderRadius: '50%', marginRight: 6, verticalAlign: 'middle', border: '1px solid rgba(0,0,0,0.1)' }} />
-                {t(`colors.${c}`)}{idx < product.attributes.color.length - 1 ? ', ' : ''}
+        <span className="color-thumbs-row">
+          {colors.map((c, idx) => (
+            c.image ? (
+              <span key={idx} className="color-thumb-wrap" data-tooltip={colorName(c)}>
+                <img
+                  src={c.image.startsWith('http') ? c.image : `https://catalog.raznobyt.com/images/products/${c.image}`}
+                  alt={colorName(c)}
+                  className="color-thumb-img"
+                  loading="lazy"
+                />
               </span>
-            ))
-          ) : (
-            <span>
-              <span className="color-dot" style={{ background: COLOR_MAP[product.attributes.color] || '#ccc', display: 'inline-block', width: 12, height: 12, borderRadius: '50%', marginRight: 6, verticalAlign: 'middle', border: '1px solid rgba(0,0,0,0.1)' }} />
-              {t(`colors.${product.attributes.color}`)}
-            </span>
-          )}
+            ) : (
+              <span key={idx} className="color-text-wrap" style={{ marginRight: '6px' }}>
+                {colorName(c)}{idx < colors.length - 1 ? ',' : ''}
+              </span>
+            )
+          ))}
         </span>
       )
-    },
+    }] : []),
     { label: t('product.fabricType'), value: t(`fabricTypes.${product.attributes.fabricType}`) },
   ];
 

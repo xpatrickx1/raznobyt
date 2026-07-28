@@ -1,18 +1,14 @@
 [
   {
-    "id": "tr-150",
-    "slug": "tkan-tr-150",
+    "id": "tkan-medical-tr-150",
+    "category": "medical",
+    "slug": "tkan-medical-tr-150",
     "title": {
       "ua": "Тканина TR-150",
       "ru": "Ткань TR-150"
     },
-    "category": "medical",
     "isNew": false,
-    "images": [
-      "tr-150-white.jpg",
-      "tr-150-black.jpg",
-      "tr-150-brown.jpg"
-    ],
+    "images": [],
     "description": {
       "ua": "Змішана тканина. Склад: 35% бавовна, 65% поліестр. Щільність 150. Саржеве переплетення 2/1.",
       "ru": "Смесовая ткань. Состав: 35% хлопок, 65% полиэстер. Плотность 150. Саржевое переплетение 2/1."
@@ -20,26 +16,47 @@
     "attributes": {
       "fabricType": "twill",
       "density": "150",
-      "width": null,
-      "color": [
+      "width": "150",
+      "colors": [
         "white",
         "black",
         "brown"
       ],
+      "properties": [],
       "composition": {
         "cotton": 35,
-        "polyester": 65
+        "polyester": 65,
+        "spandex": 0,
+        "rayon": 0,
+        "viscose": 0,
+        "pbt": 0,
+        "lyon": 0,
+        "linen": 0,
+        "polyamide": 0,
+        "polypropylene": 0,
+        "paraAramid": 0,
+        "nylon": 0,
+        "mac": 0,
+        "pu": 0,
+        "antistatic": 0,
+        "Modacrylic/Lyocell/Static-Control™": 0,
+        "Nomex®/Kevlar®/Anti-Static": 0,
+        "Nomex®/Para-Aramid/p140": 0,
+        "PBI®/Kevlar®/Antistatic": 0,
+        "Lenzing FR®/Aramid": 0,
+        "Para-aramid/Solid polymer coating": 0,
+        "FR Rayon/пара-арамід/поліамід/антистатик": 0
       }
     }
   },
   {
-    "id": "kg-027",
-    "slug": "tkan-kg-027",
+    "id": "tkan-medical-kg-027",
+    "category": "medical",
+    "slug": "tkan-medical-kg-027",
     "title": {
       "ua": "Тканина KG-027",
       "ru": "Ткань KG-027"
     },
-    "category": "medical",
     "isNew": false,
     "images": [],
     "description": {
@@ -49,22 +66,43 @@
     "attributes": {
       "fabricType": "twill",
       "density": "160",
-      "width": null,
-      "color": null,
+      "width": "150",
+      "colors": [],
+      "properties": [],
       "composition": {
         "cotton": 35,
-        "polyester": 65
+        "polyester": 65,
+        "spandex": 0,
+        "rayon": 0,
+        "viscose": 0,
+        "pbt": 0,
+        "lyon": 0,
+        "linen": 0,
+        "polyamide": 0,
+        "polypropylene": 0,
+        "paraAramid": 0,
+        "nylon": 0,
+        "mac": 0,
+        "pu": 0,
+        "antistatic": 0,
+        "Modacrylic/Lyocell/Static-Control™": 0,
+        "Nomex®/Kevlar®/Anti-Static": 0,
+        "Nomex®/Para-Aramid/p140": 0,
+        "PBI®/Kevlar®/Antistatic": 0,
+        "Lenzing FR®/Aramid": 0,
+        "Para-aramid/Solid polymer coating": 0,
+        "FR Rayon/пара-арамід/поліамід/антистатик": 0
       }
     }
   },
   {
-    "id": "9541",
-    "slug": "tkan-9541",
+    "id": "tkan-medical-9541",
+    "category": "medical",
+    "slug": "tkan-medical-9541",
     "title": {
       "ua": "Тканина 9541",
       "ru": "Ткань 9541"
     },
-    "category": "medical",
     "isNew": false,
     "images": [],
     "description": {
@@ -74,22 +112,43 @@
     "attributes": {
       "fabricType": "twill",
       "density": "160",
-      "width": null,
-      "color": null,
+      "width": "150",
+      "colors": [],
+      "properties": [],
       "composition": {
         "cotton": 35,
-        "polyester": 65
+        "polyester": 65,
+        "spandex": 0,
+        "rayon": 0,
+        "viscose": 0,
+        "pbt": 0,
+        "lyon": 0,
+        "linen": 0,
+        "polyamide": 0,
+        "polypropylene": 0,
+        "paraAramid": 0,
+        "nylon": 0,
+        "mac": 0,
+        "pu": 0,
+        "antistatic": 0,
+        "Modacrylic/Lyocell/Static-Control™": 0,
+        "Nomex®/Kevlar®/Anti-Static": 0,
+        "Nomex®/Para-Aramid/p140": 0,
+        "PBI®/Kevlar®/Antistatic": 0,
+        "Lenzing FR®/Aramid": 0,
+        "Para-aramid/Solid polymer coating": 0,
+        "FR Rayon/пара-арамід/поліамід/антистатик": 0
       }
     }
   },
   {
-    "id": "9515",
-    "slug": "tkan-9515",
+    "id": "tkan-medical-9515",
+    "category": "medical",
+    "slug": "tkan-medical-9515",
     "title": {
       "ua": "Тканина 9515",
       "ru": "Ткань 9515"
     },
-    "category": "medical",
     "isNew": false,
     "images": [],
     "description": {
@@ -99,24 +158,47 @@
     "attributes": {
       "fabricType": "twill",
       "density": "195",
-      "width": null,
-      "color": null,
+      "width": "150",
+      "colors": [],
+      "properties": [],
       "composition": {
         "cotton": 35,
-        "polyester": 65
+        "polyester": 65,
+        "spandex": 0,
+        "rayon": 0,
+        "viscose": 0,
+        "pbt": 0,
+        "lyon": 0,
+        "linen": 0,
+        "polyamide": 0,
+        "polypropylene": 0,
+        "paraAramid": 0,
+        "nylon": 0,
+        "mac": 0,
+        "pu": 0,
+        "antistatic": 0,
+        "Modacrylic/Lyocell/Static-Control™": 0,
+        "Nomex®/Kevlar®/Anti-Static": 0,
+        "Nomex®/Para-Aramid/p140": 0,
+        "PBI®/Kevlar®/Antistatic": 0,
+        "Lenzing FR®/Aramid": 0,
+        "Para-aramid/Solid polymer coating": 0,
+        "FR Rayon/пара-арамід/поліамід/антистатик": 0
       }
     }
   },
   {
-    "id": "kg-337",
-    "slug": "tkan-kg-337",
+    "id": "tkan-medical-kg-337",
+    "category": "medical",
+    "slug": "tkan-medical-kg-337",
     "title": {
       "ua": "Тканина KG-337",
       "ru": "Ткань KG-337"
     },
-    "category": "medical",
     "isNew": false,
-    "images": [],
+    "images": [
+      "https://catalog.raznobyt.com/images/products/TR-MED/colors/750-Turquoise.jpg"
+    ],
     "description": {
       "ua": "Змішана тканина. Склад: 35% бавовна, 65% поліестр. Щільність 195. Саржеве переплетення 2/1.",
       "ru": "Смесовая ткань. Состав: 35% хлопок, 65% полиэстер. Плотность 195. Саржевое переплетение 2/1."
@@ -124,24 +206,78 @@
     "attributes": {
       "fabricType": "twill",
       "density": "195",
-      "width": null,
-      "color": null,
+      "width": "150",
+      "colors": [
+        {
+          "color": "Бірюзовий",
+          "color_ru": "Бирюзовый",
+          "image": "TR-MED/colors/750-Turquoise.jpg"
+        }
+      ],
+      "properties": [],
       "composition": {
         "cotton": 35,
-        "polyester": 65
+        "polyester": 65,
+        "spandex": 0,
+        "rayon": 0,
+        "viscose": 0,
+        "pbt": 0,
+        "lyon": 0,
+        "linen": 0,
+        "polyamide": 0,
+        "polypropylene": 0,
+        "paraAramid": 0,
+        "nylon": 0,
+        "mac": 0,
+        "pu": 0,
+        "antistatic": 0,
+        "Modacrylic/Lyocell/Static-Control™": 0,
+        "Nomex®/Kevlar®/Anti-Static": 0,
+        "Nomex®/Para-Aramid/p140": 0,
+        "PBI®/Kevlar®/Antistatic": 0,
+        "Lenzing FR®/Aramid": 0,
+        "Para-aramid/Solid polymer coating": 0,
+        "FR Rayon/пара-арамід/поліамід/антистатик": 0
       }
     }
   },
   {
-    "id": "tr-med",
-    "slug": "tkan-tr-med",
+    "id": "tkan-medical-tr-med",
+    "category": "medical",
+    "slug": "tkan-medical-tr-med",
     "title": {
       "ua": "Тканина TR-MED",
       "ru": "Ткань TR-MED"
     },
-    "category": "medical",
     "isNew": false,
-    "images": [],
+    "images": [
+      "https://catalog.raznobyt.com/images/products/TR-MED/colors/701-White.jpg",
+      "https://catalog.raznobyt.com/images/products/TR-MED/colors/710-Yellow.jpg",
+      "https://catalog.raznobyt.com/images/products/TR-MED/colors/735-Maroon.jpg",
+      "https://catalog.raznobyt.com/images/products/TR-MED/colors/740-Deep Purple.jpg",
+      "https://catalog.raznobyt.com/images/products/TR-MED/colors/749-Lilac.jpg",
+      "https://catalog.raznobyt.com/images/products/TR-MED/colors/750-Turquoise.jpg",
+      "https://catalog.raznobyt.com/images/products/TR-MED/colors/751-Sea Wave.jpg",
+      "https://catalog.raznobyt.com/images/products/TR-MED/colors/752-Sky.jpg",
+      "https://catalog.raznobyt.com/images/products/TR-MED/colors/754-Royal Box.jpg",
+      "https://catalog.raznobyt.com/images/products/TR-MED/colors/755-Blue.jpg",
+      "https://catalog.raznobyt.com/images/products/TR-MED/colors/757-Navy.jpg",
+      "https://catalog.raznobyt.com/images/products/TR-MED/colors/758-Blueberry.jpg",
+      "https://catalog.raznobyt.com/images/products/TR-MED/colors/760-Aqua.jpg",
+      "https://catalog.raznobyt.com/images/products/TR-MED/colors/761-Opal.jpg",
+      "https://catalog.raznobyt.com/images/products/TR-MED/colors/762-Light Green.jpg",
+      "https://catalog.raznobyt.com/images/products/TR-MED/colors/764-Dublin.jpg",
+      "https://catalog.raznobyt.com/images/products/TR-MED/colors/765-Pear Green.jpg",
+      "https://catalog.raznobyt.com/images/products/TR-MED/colors/774-Light Beige.jpg",
+      "https://catalog.raznobyt.com/images/products/TR-MED/colors/778-Chocolate.jpg",
+      "https://catalog.raznobyt.com/images/products/TR-MED/colors/779-Brown.jpg",
+      "https://catalog.raznobyt.com/images/products/TR-MED/colors/781-Silver.jpg",
+      "https://catalog.raznobyt.com/images/products/TR-MED/colors/782-Slate.jpg",
+      "https://catalog.raznobyt.com/images/products/TR-MED/colors/784-Grey.jpg",
+      "https://catalog.raznobyt.com/images/products/TR-MED/colors/785-Steel.jpg",
+      "https://catalog.raznobyt.com/images/products/TR-MED/colors/786-Charcal.jpg",
+      "https://catalog.raznobyt.com/images/products/TR-MED/colors/794-Black.jpg"
+    ],
     "description": {
       "ua": "Змішана тканина. Склад: 35% бавовна, 65% поліестр. Щільність 195. Саржеве переплетення 2/1.",
       "ru": "Смесовая ткань. Состав: 35% хлопок, 65% полиэстер. Плотность 195. Саржевое переплетение 2/1."
@@ -149,22 +285,174 @@
     "attributes": {
       "fabricType": "twill",
       "density": "195",
-      "width": null,
-      "color": null,
+      "width": "150",
+      "colors": [
+        {
+          "color": "Білий",
+          "color_ru": "Белый",
+          "image": "TR-MED/colors/701-White.jpg"
+        },
+        {
+          "color": "Жовтий",
+          "color_ru": "Желтый",
+          "image": "TR-MED/colors/710-Yellow.jpg"
+        },
+        {
+          "color": "Бордовий",
+          "color_ru": "Бордовый",
+          "image": "TR-MED/colors/735-Maroon.jpg"
+        },
+        {
+          "color": "Темно-фіолетовий",
+          "color_ru": "Темно-фиолетовый",
+          "image": "TR-MED/colors/740-Deep Purple.jpg"
+        },
+        {
+          "color": "Бузковий",
+          "color_ru": "Сиреневая",
+          "image": "TR-MED/colors/749-Lilac.jpg"
+        },
+        {
+          "color": "Бірюзовий",
+          "color_ru": "Бирюзовый",
+          "image": "TR-MED/colors/750-Turquoise.jpg"
+        },
+        {
+          "color": "Морська хвиля",
+          "color_ru": "Морская волна",
+          "image": "TR-MED/colors/751-Sea Wave.jpg"
+        },
+        {
+          "color": "Блакитний",
+          "color_ru": "Голубой",
+          "image": "TR-MED/colors/752-Sky.jpg"
+        },
+        {
+          "color": "Роял Бокс",
+          "color_ru": "Роял Бокс",
+          "image": "TR-MED/colors/754-Royal Box.jpg"
+        },
+        {
+          "color": "Синій",
+          "color_ru": "Синий",
+          "image": "TR-MED/colors/755-Blue.jpg"
+        },
+        {
+          "color": "Темно-синій",
+          "color_ru": "Темно-синий",
+          "image": "TR-MED/colors/757-Navy.jpg"
+        },
+        {
+          "color": "Чорниця",
+          "color_ru": "Черника",
+          "image": "TR-MED/colors/758-Blueberry.jpg"
+        },
+        {
+          "color": "Аква",
+          "color_ru": "Аква",
+          "image": "TR-MED/colors/760-Aqua.jpg"
+        },
+        {
+          "color": "Опал",
+          "color_ru": "Опал",
+          "image": "TR-MED/colors/761-Opal.jpg"
+        },
+        {
+          "color": "Світло-зелений",
+          "color_ru": "Светло-зеленый",
+          "image": "TR-MED/colors/762-Light Green.jpg"
+        },
+        {
+          "color": "Дублін",
+          "color_ru": "Дублин",
+          "image": "TR-MED/colors/764-Dublin.jpg"
+        },
+        {
+          "color": "Грушево-зелений",
+          "color_ru": "Грушево-зеленый",
+          "image": "TR-MED/colors/765-Pear Green.jpg"
+        },
+        {
+          "color": "Світло-бежевий",
+          "color_ru": "Светло-бежевый",
+          "image": "TR-MED/colors/774-Light Beige.jpg"
+        },
+        {
+          "color": "Шоколадний",
+          "color_ru": "Шоколадный",
+          "image": "TR-MED/colors/778-Chocolate.jpg"
+        },
+        {
+          "color": "Коричневий",
+          "color_ru": "Коричневый",
+          "image": "TR-MED/colors/779-Brown.jpg"
+        },
+        {
+          "color": "Сріблястий",
+          "color_ru": "Серебристый",
+          "image": "TR-MED/colors/781-Silver.jpg"
+        },
+        {
+          "color": "Сланець",
+          "color_ru": "Сланец",
+          "image": "TR-MED/colors/782-Slate.jpg"
+        },
+        {
+          "color": "Сірий",
+          "color_ru": "Серый",
+          "image": "TR-MED/colors/784-Grey.jpg"
+        },
+        {
+          "color": "Сталевий",
+          "color_ru": "Стальной",
+          "image": "TR-MED/colors/785-Steel.jpg"
+        },
+        {
+          "color": "Антрацит",
+          "color_ru": "Антрацит",
+          "image": "TR-MED/colors/786-Charcal.jpg"
+        },
+        {
+          "color": "Чорний",
+          "color_ru": "Черный",
+          "image": "TR-MED/colors/794-Black.jpg"
+        }
+      ],
+      "properties": [],
       "composition": {
         "cotton": 35,
-        "polyester": 65
+        "polyester": 65,
+        "spandex": 0,
+        "rayon": 0,
+        "viscose": 0,
+        "pbt": 0,
+        "lyon": 0,
+        "linen": 0,
+        "polyamide": 0,
+        "polypropylene": 0,
+        "paraAramid": 0,
+        "nylon": 0,
+        "mac": 0,
+        "pu": 0,
+        "antistatic": 0,
+        "Modacrylic/Lyocell/Static-Control™": 0,
+        "Nomex®/Kevlar®/Anti-Static": 0,
+        "Nomex®/Para-Aramid/p140": 0,
+        "PBI®/Kevlar®/Antistatic": 0,
+        "Lenzing FR®/Aramid": 0,
+        "Para-aramid/Solid polymer coating": 0,
+        "FR Rayon/пара-арамід/поліамід/антистатик": 0
       }
     }
   },
   {
-    "id": "rc-194",
-    "slug": "tkan-rc-194",
+    "id": "tkan-medical-rc-194",
+    "category": "medical",
+    "slug": "tkan-medical-rc-194",
     "title": {
       "ua": "Тканина RC-194",
       "ru": "Ткань RC-194"
     },
-    "category": "medical",
     "isNew": false,
     "images": [],
     "description": {
@@ -174,22 +462,43 @@
     "attributes": {
       "fabricType": "twill",
       "density": "194",
-      "width": null,
-      "color": null,
+      "width": "150",
+      "colors": [],
+      "properties": [],
       "composition": {
         "cotton": 35,
-        "polyester": 65
+        "polyester": 65,
+        "spandex": 0,
+        "rayon": 0,
+        "viscose": 0,
+        "pbt": 0,
+        "lyon": 0,
+        "linen": 0,
+        "polyamide": 0,
+        "polypropylene": 0,
+        "paraAramid": 0,
+        "nylon": 0,
+        "mac": 0,
+        "pu": 0,
+        "antistatic": 0,
+        "Modacrylic/Lyocell/Static-Control™": 0,
+        "Nomex®/Kevlar®/Anti-Static": 0,
+        "Nomex®/Para-Aramid/p140": 0,
+        "PBI®/Kevlar®/Antistatic": 0,
+        "Lenzing FR®/Aramid": 0,
+        "Para-aramid/Solid polymer coating": 0,
+        "FR Rayon/пара-арамід/поліамід/антистатик": 0
       }
     }
   },
   {
-    "id": "tr-2120",
-    "slug": "tkan-tr-2120",
+    "id": "tkan-medical-tr-2120",
+    "category": "medical",
+    "slug": "tkan-medical-tr-2120",
     "title": {
       "ua": "Тканина TR-2120",
       "ru": "Ткань TR-2120"
     },
-    "category": "medical",
     "isNew": false,
     "images": [],
     "description": {
@@ -199,23 +508,43 @@
     "attributes": {
       "fabricType": "twill",
       "density": "200",
-      "width": null,
-      "color": null,
+      "width": "150",
+      "colors": [],
+      "properties": [],
       "composition": {
         "cotton": 33,
         "polyester": 63,
-        "spandex": 4
+        "spandex": 4,
+        "rayon": 0,
+        "viscose": 0,
+        "pbt": 0,
+        "lyon": 0,
+        "linen": 0,
+        "polyamide": 0,
+        "polypropylene": 0,
+        "paraAramid": 0,
+        "nylon": 0,
+        "mac": 0,
+        "pu": 0,
+        "antistatic": 0,
+        "Modacrylic/Lyocell/Static-Control™": 0,
+        "Nomex®/Kevlar®/Anti-Static": 0,
+        "Nomex®/Para-Aramid/p140": 0,
+        "PBI®/Kevlar®/Antistatic": 0,
+        "Lenzing FR®/Aramid": 0,
+        "Para-aramid/Solid polymer coating": 0,
+        "FR Rayon/пара-арамід/поліамід/антистатик": 0
       }
     }
   },
   {
-    "id": "trs-48",
-    "slug": "tkan-trs-48",
+    "id": "tkan-medical-trs-48",
+    "category": "medical",
+    "slug": "tkan-medical-trs-48",
     "title": {
       "ua": "Тканина TRS-48",
       "ru": "Ткань TRS-48"
     },
-    "category": "medical",
     "isNew": false,
     "images": [],
     "description": {
@@ -225,22 +554,43 @@
     "attributes": {
       "fabricType": "twill",
       "density": "200",
-      "width": null,
-      "color": null,
+      "width": "150",
+      "colors": [],
+      "properties": [],
       "composition": {
         "cotton": 50,
-        "polyester": 50
+        "polyester": 50,
+        "spandex": 0,
+        "rayon": 0,
+        "viscose": 0,
+        "pbt": 0,
+        "lyon": 0,
+        "linen": 0,
+        "polyamide": 0,
+        "polypropylene": 0,
+        "paraAramid": 0,
+        "nylon": 0,
+        "mac": 0,
+        "pu": 0,
+        "antistatic": 0,
+        "Modacrylic/Lyocell/Static-Control™": 0,
+        "Nomex®/Kevlar®/Anti-Static": 0,
+        "Nomex®/Para-Aramid/p140": 0,
+        "PBI®/Kevlar®/Antistatic": 0,
+        "Lenzing FR®/Aramid": 0,
+        "Para-aramid/Solid polymer coating": 0,
+        "FR Rayon/пара-арамід/поліамід/антистатик": 0
       }
     }
   },
   {
-    "id": "rc-215-spx",
-    "slug": "tkan-rc-215-spx",
+    "id": "tkan-medical-rc-215-spx",
+    "category": "medical",
+    "slug": "tkan-medical-rc-215-spx",
     "title": {
       "ua": "Тканина RC-215 SPX",
       "ru": "Ткань RC-215 SPX"
     },
-    "category": "medical",
     "isNew": false,
     "images": [],
     "description": {
@@ -250,23 +600,43 @@
     "attributes": {
       "fabricType": "twill",
       "density": "215",
-      "width": null,
-      "color": null,
+      "width": "150",
+      "colors": [],
+      "properties": [],
       "composition": {
         "cotton": 33,
         "polyester": 61,
-        "spandex": 6
+        "spandex": 6,
+        "rayon": 0,
+        "viscose": 0,
+        "pbt": 0,
+        "lyon": 0,
+        "linen": 0,
+        "polyamide": 0,
+        "polypropylene": 0,
+        "paraAramid": 0,
+        "nylon": 0,
+        "mac": 0,
+        "pu": 0,
+        "antistatic": 0,
+        "Modacrylic/Lyocell/Static-Control™": 0,
+        "Nomex®/Kevlar®/Anti-Static": 0,
+        "Nomex®/Para-Aramid/p140": 0,
+        "PBI®/Kevlar®/Antistatic": 0,
+        "Lenzing FR®/Aramid": 0,
+        "Para-aramid/Solid polymer coating": 0,
+        "FR Rayon/пара-арамід/поліамід/антистатик": 0
       }
     }
   },
   {
-    "id": "vvt-2163",
-    "slug": "tkan-vvt-2163",
+    "id": "tkan-medical-vvt-2163",
+    "category": "medical",
+    "slug": "tkan-medical-vvt-2163",
     "title": {
       "ua": "Тканина VVT-2163",
       "ru": "Ткань VVT-2163"
     },
-    "category": "medical",
     "isNew": false,
     "images": [],
     "description": {
@@ -276,22 +646,51 @@
     "attributes": {
       "fabricType": "twill",
       "density": "210",
-      "width": null,
-      "color": null,
+      "width": "150",
+      "colors": [
+        "[\n  {\n    \"color\": \"Білий\"",
+        "\"color_ru\": \"Белый\"",
+        "\"image\": \"VVT-2163/colors/701-White.jpg\"\n  }",
+        "{\n    \"color\": \"Чорний\"",
+        "\"color_ru\": \"Чорный\"",
+        "\"image\": \"VVT-2163/colors/710-Yellow.jpg\"\n  }",
+        "]"
+      ],
+      "properties": [],
       "composition": {
         "cotton": 40,
-        "polyester": 60
+        "polyester": 60,
+        "spandex": 0,
+        "rayon": 0,
+        "viscose": 0,
+        "pbt": 0,
+        "lyon": 0,
+        "linen": 0,
+        "polyamide": 0,
+        "polypropylene": 0,
+        "paraAramid": 0,
+        "nylon": 0,
+        "mac": 0,
+        "pu": 0,
+        "antistatic": 0,
+        "Modacrylic/Lyocell/Static-Control™": 0,
+        "Nomex®/Kevlar®/Anti-Static": 0,
+        "Nomex®/Para-Aramid/p140": 0,
+        "PBI®/Kevlar®/Antistatic": 0,
+        "Lenzing FR®/Aramid": 0,
+        "Para-aramid/Solid polymer coating": 0,
+        "FR Rayon/пара-арамід/поліамід/антистатик": 0
       }
     }
   },
   {
-    "id": "tr-163",
-    "slug": "tkan-tr-163",
+    "id": "tkan-medical-tr-163",
+    "category": "medical",
+    "slug": "tkan-medical-tr-163",
     "title": {
       "ua": "Тканина TR-163",
       "ru": "Ткань TR-163"
     },
-    "category": "medical",
     "isNew": false,
     "images": [],
     "description": {
@@ -301,25 +700,57 @@
     "attributes": {
       "fabricType": "twill",
       "density": "163",
-      "width": null,
-      "color": null,
+      "width": "150",
+      "colors": [],
+      "properties": [],
       "composition": {
         "cotton": 49.5,
         "polyester": 47.5,
-        "spandex": 3
+        "spandex": 3,
+        "rayon": 0,
+        "viscose": 0,
+        "pbt": 0,
+        "lyon": 0,
+        "linen": 0,
+        "polyamide": 0,
+        "polypropylene": 0,
+        "paraAramid": 0,
+        "nylon": 0,
+        "mac": 0,
+        "pu": 0,
+        "antistatic": 0,
+        "Modacrylic/Lyocell/Static-Control™": 0,
+        "Nomex®/Kevlar®/Anti-Static": 0,
+        "Nomex®/Para-Aramid/p140": 0,
+        "PBI®/Kevlar®/Antistatic": 0,
+        "Lenzing FR®/Aramid": 0,
+        "Para-aramid/Solid polymer coating": 0,
+        "FR Rayon/пара-арамід/поліамід/антистатик": 0
       }
     }
   },
   {
-    "id": "tr-50-lt",
-    "slug": "tkan-tr-50-lt",
+    "id": "tkan-medical-tr-50-lt",
+    "category": "medical",
+    "slug": "tkan-medical-tr-50-lt",
     "title": {
       "ua": "Тканина TR-50 LT",
       "ru": "Ткань TR-50 LT"
     },
-    "category": "medical",
     "isNew": false,
-    "images": [],
+    "images": [
+      "https://catalog.raznobyt.com/images/products/TR-50 LIGHT/colors/112 Sky.jpg",
+      "https://catalog.raznobyt.com/images/products/TR-50 LIGHT/colors/138 New Slate.jpg",
+      "https://catalog.raznobyt.com/images/products/TR-50 LIGHT/colors/142 Lavender.jpg",
+      "https://catalog.raznobyt.com/images/products/TR-50 LIGHT/colors/335 NAVY.jpg",
+      "https://catalog.raznobyt.com/images/products/TR-50 LIGHT/colors/506 Black.jpg",
+      "https://catalog.raznobyt.com/images/products/TR-50 LIGHT/colors/144194.jpg",
+      "https://catalog.raznobyt.com/images/products/TR-50 LIGHT/colors/A-451.jpg",
+      "https://catalog.raznobyt.com/images/products/TR-50 LIGHT/colors/AG-143.jpg",
+      "https://catalog.raznobyt.com/images/products/TR-50 LIGHT/colors/AG-184.jpg",
+      "https://catalog.raznobyt.com/images/products/TR-50 LIGHT/colors/New 140 Eau De Nil.jpg",
+      "https://catalog.raznobyt.com/images/products/TR-50 LIGHT/colors/Φ-138.jpg"
+    ],
     "description": {
       "ua": "Змішана тканина. Склад: 50% бавовна, 50% поліестр. Щільність 145. Саржеве переплетення 2/1.",
       "ru": "Смесовая ткань. Состав: 50% хлопок, 50% полиэстер. Плотность 145. Саржевое переплетение 2/1."
@@ -327,22 +758,99 @@
     "attributes": {
       "fabricType": "twill",
       "density": "145",
-      "width": null,
-      "color": null,
+      "width": "150",
+      "colors": [
+        {
+          "color": "Блакитний",
+          "color_ru": "Голубой",
+          "image": "TR-50 LIGHT/colors/112 Sky.jpg"
+        },
+        {
+          "color": "Новий сланець",
+          "color_ru": "Новый сланец",
+          "image": "TR-50 LIGHT/colors/138 New Slate.jpg"
+        },
+        {
+          "color": "Лавандовий",
+          "color_ru": "Лавандовый",
+          "image": "TR-50 LIGHT/colors/142 Lavender.jpg"
+        },
+        {
+          "color": "Темно-синій",
+          "color_ru": "Темно-синий",
+          "image": "TR-50 LIGHT/colors/335 NAVY.jpg"
+        },
+        {
+          "color": "Чорний",
+          "color_ru": "Черный",
+          "image": "TR-50 LIGHT/colors/506 Black.jpg"
+        },
+        {
+          "color": "144194",
+          "color_ru": "144194",
+          "image": "TR-50 LIGHT/colors/144194.jpg"
+        },
+        {
+          "color": "A-451",
+          "color_ru": "A-451",
+          "image": "TR-50 LIGHT/colors/A-451.jpg"
+        },
+        {
+          "color": "AG-143",
+          "color_ru": "AG-143",
+          "image": "TR-50 LIGHT/colors/AG-143.jpg"
+        },
+        {
+          "color": "AG-184",
+          "color_ru": "AG-184",
+          "image": "TR-50 LIGHT/colors/AG-184.jpg"
+        },
+        {
+          "color": "Новий 140 вода Нілу",
+          "color_ru": "Новый 140 вода Нила",
+          "image": "TR-50 LIGHT/colors/New 140 Eau De Nil.jpg"
+        },
+        {
+          "color": "Φ-138",
+          "color_ru": "Φ-138",
+          "image": "TR-50 LIGHT/colors/Φ-138.jpg"
+        }
+      ],
+      "properties": [],
       "composition": {
         "cotton": 50,
-        "polyester": 50
+        "polyester": 50,
+        "spandex": 0,
+        "rayon": 0,
+        "viscose": 0,
+        "pbt": 0,
+        "lyon": 0,
+        "linen": 0,
+        "polyamide": 0,
+        "polypropylene": 0,
+        "paraAramid": 0,
+        "nylon": 0,
+        "mac": 0,
+        "pu": 0,
+        "antistatic": 0,
+        "Modacrylic/Lyocell/Static-Control™": 0,
+        "Nomex®/Kevlar®/Anti-Static": 0,
+        "Nomex®/Para-Aramid/p140": 0,
+        "PBI®/Kevlar®/Antistatic": 0,
+        "Lenzing FR®/Aramid": 0,
+        "Para-aramid/Solid polymer coating": 0,
+        "FR Rayon/пара-арамід/поліамід/антистатик": 0
       }
     }
   },
   {
-    "id": "tr-50",
-    "slug": "tkan-tr-50",
+    "id": "tkan-medical-tr-50",
+    "category": "medical",
+    "slug": "tkan-medical-tr-50",
     "title": {
       "ua": "Тканина TR-50",
       "ru": "Ткань TR-50"
     },
-    "category": "medical",
     "isNew": false,
     "images": [],
     "description": {
@@ -352,22 +860,43 @@
     "attributes": {
       "fabricType": "twill",
       "density": "180",
-      "width": null,
-      "color": null,
+      "width": "150",
+      "colors": [],
+      "properties": [],
       "composition": {
         "cotton": 50,
-        "polyester": 50
+        "polyester": 50,
+        "spandex": 0,
+        "rayon": 0,
+        "viscose": 0,
+        "pbt": 0,
+        "lyon": 0,
+        "linen": 0,
+        "polyamide": 0,
+        "polypropylene": 0,
+        "paraAramid": 0,
+        "nylon": 0,
+        "mac": 0,
+        "pu": 0,
+        "antistatic": 0,
+        "Modacrylic/Lyocell/Static-Control™": 0,
+        "Nomex®/Kevlar®/Anti-Static": 0,
+        "Nomex®/Para-Aramid/p140": 0,
+        "PBI®/Kevlar®/Antistatic": 0,
+        "Lenzing FR®/Aramid": 0,
+        "Para-aramid/Solid polymer coating": 0,
+        "FR Rayon/пара-арамід/поліамід/антистатик": 0
       }
     }
   },
   {
-    "id": "vfg-2160",
-    "slug": "tkan-vfg-2160",
+    "id": "tkan-medical-vfg-2160",
+    "category": "medical",
+    "slug": "tkan-medical-vfg-2160",
     "title": {
       "ua": "Тканина VFG-2160",
       "ru": "Ткань VFG-2160"
     },
-    "category": "medical",
     "isNew": false,
     "images": [],
     "description": {
@@ -377,24 +906,66 @@
     "attributes": {
       "fabricType": "twill",
       "density": "175",
-      "width": null,
-      "color": null,
+      "width": "150",
+      "colors": [],
+      "properties": [],
       "composition": {
         "cotton": 51,
-        "polyester": 49
+        "polyester": 49,
+        "spandex": 0,
+        "rayon": 0,
+        "viscose": 0,
+        "pbt": 0,
+        "lyon": 0,
+        "linen": 0,
+        "polyamide": 0,
+        "polypropylene": 0,
+        "paraAramid": 0,
+        "nylon": 0,
+        "mac": 0,
+        "pu": 0,
+        "antistatic": 0,
+        "Modacrylic/Lyocell/Static-Control™": 0,
+        "Nomex®/Kevlar®/Anti-Static": 0,
+        "Nomex®/Para-Aramid/p140": 0,
+        "PBI®/Kevlar®/Antistatic": 0,
+        "Lenzing FR®/Aramid": 0,
+        "Para-aramid/Solid polymer coating": 0,
+        "FR Rayon/пара-арамід/поліамід/антистатик": 0
       }
     }
   },
   {
-    "id": "vlp-4206",
-    "slug": "tkan-vlp-4206",
+    "id": "tkan-medical-vlp-4206",
+    "category": "medical",
+    "slug": "tkan-medical-vlp-4206",
     "title": {
       "ua": "Тканина VLP-4206",
       "ru": "Ткань VLP-4206"
     },
-    "category": "medical",
     "isNew": false,
-    "images": [],
+    "images": [
+      "https://catalog.raznobyt.com/images/products/colors/784 Grey.jpg",
+      "https://catalog.raznobyt.com/images/products/colors/60563.jpg",
+      "https://catalog.raznobyt.com/images/products/colors/62709.jpg",
+      "https://catalog.raznobyt.com/images/products/colors/95449.jpg",
+      "https://catalog.raznobyt.com/images/products/colors/97019T.jpg",
+      "https://catalog.raznobyt.com/images/products/colors/98060.jpg",
+      "https://catalog.raznobyt.com/images/products/colors/99017.jpg",
+      "https://catalog.raznobyt.com/images/products/colors/Cacao.jpg",
+      "https://catalog.raznobyt.com/images/products/colors/Candy.jpg",
+      "https://catalog.raznobyt.com/images/products/colors/Cornflower Blue.jpg",
+      "https://catalog.raznobyt.com/images/products/colors/Grass.jpg",
+      "https://catalog.raznobyt.com/images/products/colors/Ice White.jpg",
+      "https://catalog.raznobyt.com/images/products/colors/IRIS.jpg",
+      "https://catalog.raznobyt.com/images/products/colors/Mauve.jpg",
+      "https://catalog.raznobyt.com/images/products/colors/Oak Leaf.jpg",
+      "https://catalog.raznobyt.com/images/products/colors/Ocean.jpg",
+      "https://catalog.raznobyt.com/images/products/colors/Purple Ash.jpg",
+      "https://catalog.raznobyt.com/images/products/colors/Tea Rose.jpg",
+      "https://catalog.raznobyt.com/images/products/colors/Teal.jpg",
+      "https://catalog.raznobyt.com/images/products/colors/Vanillian.jpg"
+    ],
     "description": {
       "ua": "Змішана тканина з ефектом стрейч. Склад: 57% бавовна, 39% поліестр, 4% стрейч. Щільність 140. Саржеве переплетення 2/1.",
       "ru": "Смесовая ткань с эффектом стретч. Состав: 57% хлопок, 39% полиэстер, 4% стретч. Плотность 140. Саржевое переплетение 2/1."
@@ -402,23 +973,144 @@
     "attributes": {
       "fabricType": "twill",
       "density": "140",
-      "width": null,
-      "color": null,
+      "width": "150",
+      "colors": [
+        {
+          "color": "Сірий",
+          "color_ru": "Серый",
+          "image": "colors/784 Grey.jpg"
+        },
+        {
+          "color": "Темно-синій",
+          "color_ru": "Темно-синий",
+          "image": "colors/60563.jpg"
+        },
+        {
+          "color": "Бордовий",
+          "color_ru": "Бордовый",
+          "image": "colors/62709.jpg"
+        },
+        {
+          "color": "Салатовий",
+          "color_ru": "Салатовый",
+          "image": "colors/95449.jpg"
+        },
+        {
+          "color": "Темно-сірий",
+          "color_ru": "Темно-серый",
+          "image": "colors/97019T.jpg"
+        },
+        {
+          "color": "Блакитний",
+          "color_ru": "Голубой",
+          "image": "colors/98060.jpg"
+        },
+        {
+          "color": "Оливковий",
+          "color_ru": "Оливковый",
+          "image": "colors/99017.jpg"
+        },
+        {
+          "color": "Какао",
+          "color_ru": "Какао",
+          "image": "colors/Cacao.jpg"
+        },
+        {
+          "color": "Цукерковий",
+          "color_ru": "Конфетный",
+          "image": "colors/Candy.jpg"
+        },
+        {
+          "color": "Волошковий",
+          "color_ru": "Васильковый",
+          "image": "colors/Cornflower Blue.jpg"
+        },
+        {
+          "color": "Трав'яний",
+          "color_ru": "Травяной",
+          "image": "colors/Grass.jpg"
+        },
+        {
+          "color": "Білий",
+          "color_ru": "Белый",
+          "image": "colors/Ice White.jpg"
+        },
+        {
+          "color": "Ірис",
+          "color_ru": "Ирис",
+          "image": "colors/IRIS.jpg"
+        },
+        {
+          "color": "Мальвовий",
+          "color_ru": "Мальвовый",
+          "image": "colors/Mauve.jpg"
+        },
+        {
+          "color": "Дубовий лист",
+          "color_ru": "Дубовый лист",
+          "image": "colors/Oak Leaf.jpg"
+        },
+        {
+          "color": "Океанський",
+          "color_ru": "Океанский",
+          "image": "colors/Ocean.jpg"
+        },
+        {
+          "color": "Фіолетовий попіл",
+          "color_ru": "Фиолетовый пепел",
+          "image": "colors/Purple Ash.jpg"
+        },
+        {
+          "color": "Чайна троянда",
+          "color_ru": "Чайная роза",
+          "image": "colors/Tea Rose.jpg"
+        },
+        {
+          "color": "Тіловий",
+          "color_ru": "Тиловый",
+          "image": "colors/Teal.jpg"
+        },
+        {
+          "color": "Ванільний",
+          "color_ru": "Ванильный",
+          "image": "colors/Vanillian.jpg"
+        }
+      ],
+      "properties": [],
       "composition": {
         "cotton": 57,
         "polyester": 39,
-        "spandex": 4
+        "spandex": 4,
+        "rayon": 0,
+        "viscose": 0,
+        "pbt": 0,
+        "lyon": 0,
+        "linen": 0,
+        "polyamide": 0,
+        "polypropylene": 0,
+        "paraAramid": 0,
+        "nylon": 0,
+        "mac": 0,
+        "pu": 0,
+        "antistatic": 0,
+        "Modacrylic/Lyocell/Static-Control™": 0,
+        "Nomex®/Kevlar®/Anti-Static": 0,
+        "Nomex®/Para-Aramid/p140": 0,
+        "PBI®/Kevlar®/Antistatic": 0,
+        "Lenzing FR®/Aramid": 0,
+        "Para-aramid/Solid polymer coating": 0,
+        "FR Rayon/пара-арамід/поліамід/антистатик": 0
       }
     }
   },
   {
-    "id": "vvt-2164",
-    "slug": "tkan-vvt-2164",
+    "id": "tkan-medical-vvt-2164",
+    "category": "medical",
+    "slug": "tkan-medical-vvt-2164",
     "title": {
       "ua": "Тканина VVT-2164",
       "ru": "Ткань VVT-2164"
     },
-    "category": "medical",
     "isNew": false,
     "images": [],
     "description": {
@@ -428,22 +1120,43 @@
     "attributes": {
       "fabricType": "twill",
       "density": "210",
-      "width": null,
-      "color": null,
+      "width": "150",
+      "colors": [],
+      "properties": [],
       "composition": {
         "cotton": 60,
-        "polyester": 40
+        "polyester": 40,
+        "spandex": 0,
+        "rayon": 0,
+        "viscose": 0,
+        "pbt": 0,
+        "lyon": 0,
+        "linen": 0,
+        "polyamide": 0,
+        "polypropylene": 0,
+        "paraAramid": 0,
+        "nylon": 0,
+        "mac": 0,
+        "pu": 0,
+        "antistatic": 0,
+        "Modacrylic/Lyocell/Static-Control™": 0,
+        "Nomex®/Kevlar®/Anti-Static": 0,
+        "Nomex®/Para-Aramid/p140": 0,
+        "PBI®/Kevlar®/Antistatic": 0,
+        "Lenzing FR®/Aramid": 0,
+        "Para-aramid/Solid polymer coating": 0,
+        "FR Rayon/пара-арамід/поліамід/антистатик": 0
       }
     }
   },
   {
-    "id": "eg-225",
-    "slug": "tkan-eg-225",
+    "id": "tkan-medical-eg-225",
+    "category": "medical",
+    "slug": "tkan-medical-eg-225",
     "title": {
       "ua": "Тканина EG-225",
       "ru": "Ткань EG-225"
     },
-    "category": "medical",
     "isNew": false,
     "images": [],
     "description": {
@@ -453,22 +1166,43 @@
     "attributes": {
       "fabricType": "twill",
       "density": "225",
-      "width": null,
-      "color": null,
+      "width": "150",
+      "colors": [],
+      "properties": [],
       "composition": {
+        "cotton": 0,
+        "polyester": 65,
+        "spandex": 0,
+        "rayon": 0,
         "viscose": 35,
-        "polyester": 65
+        "pbt": 0,
+        "lyon": 0,
+        "linen": 0,
+        "polyamide": 0,
+        "polypropylene": 0,
+        "paraAramid": 0,
+        "nylon": 0,
+        "mac": 0,
+        "pu": 0,
+        "antistatic": 0,
+        "Modacrylic/Lyocell/Static-Control™": 0,
+        "Nomex®/Kevlar®/Anti-Static": 0,
+        "Nomex®/Para-Aramid/p140": 0,
+        "PBI®/Kevlar®/Antistatic": 0,
+        "Lenzing FR®/Aramid": 0,
+        "Para-aramid/Solid polymer coating": 0,
+        "FR Rayon/пара-арамід/поліамід/антистатик": 0
       }
     }
   },
   {
-    "id": "lt-3084",
-    "slug": "tkan-lt-3084",
+    "id": "tkan-medical-lt-3084",
+    "category": "medical",
+    "slug": "tkan-medical-lt-3084",
     "title": {
       "ua": "Тканина LT-3084",
       "ru": "Ткань LT-3084"
     },
-    "category": "medical",
     "isNew": false,
     "images": [],
     "description": {
@@ -478,10 +1212,32 @@
     "attributes": {
       "fabricType": "twill",
       "density": "150",
-      "width": null,
-      "color": null,
+      "width": "150",
+      "colors": [],
+      "properties": [],
       "composition": {
-        "polyester": 100
+        "cotton": 0,
+        "polyester": 100,
+        "spandex": 0,
+        "rayon": 0,
+        "viscose": 0,
+        "pbt": 0,
+        "lyon": 0,
+        "linen": 0,
+        "polyamide": 0,
+        "polypropylene": 0,
+        "paraAramid": 0,
+        "nylon": 0,
+        "mac": 0,
+        "pu": 0,
+        "antistatic": 0,
+        "Modacrylic/Lyocell/Static-Control™": 0,
+        "Nomex®/Kevlar®/Anti-Static": 0,
+        "Nomex®/Para-Aramid/p140": 0,
+        "PBI®/Kevlar®/Antistatic": 0,
+        "Lenzing FR®/Aramid": 0,
+        "Para-aramid/Solid polymer coating": 0,
+        "FR Rayon/пара-арамід/поліамід/антистатик": 0
       }
     }
   }

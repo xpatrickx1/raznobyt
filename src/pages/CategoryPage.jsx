@@ -8,7 +8,7 @@ import { productsByCategory } from '../data/products.js';
 import { textByCategory } from '../components/categoryText/catText.js';
 import categories from '../data/categories.json';
 import HeroSection from '../components/HeroSection';
-import { COMPOSITION_OPTIONS } from '../data/compositions.js';
+import { getCompositionOption } from '../data/compositions.js';
 
 const COLOR_MAP = {
   navy: '#1A3B6E', white: '#F0F0F0', khaki: '#7B7B4E', blue: '#2563EB',
@@ -148,7 +148,9 @@ export default function CategoryPage() {
       const comp = p.attributes?.composition;
       if (!comp) return;
       if (typeof comp === 'object') {
-        Object.keys(comp).forEach(k => comps.add(k));
+        Object.entries(comp).forEach(([k, v]) => {
+          if (v > 0) comps.add(k);
+        });
       } else {
         comps.add(comp);
       }
@@ -184,7 +186,7 @@ export default function CategoryPage() {
       const matchComposition = selectedCompositions.length === 0 || selectedCompositions.some(c => {
         const comp = p.attributes.composition;
         if (!comp) return false;
-        if (typeof comp === 'object') return c in comp;
+        if (typeof comp === 'object') return comp[c] > 0;
         return comp === c;
       });
       return matchSearch && matchType && matchColor && matchDensity && matchWidth && matchComposition;
@@ -310,7 +312,7 @@ export default function CategoryPage() {
                   </span>
                 ))}
                 {selectedCompositions.map(c => {
-                  const opt = COMPOSITION_OPTIONS.find(o => o.id === c);
+                  const opt = getCompositionOption(c);
                   const labelText = opt ? (lang === 'ua' ? opt.label : opt.labelRu) : c;
                   return (
                     <span key={c} className="attr-chip" style={{ cursor: 'pointer' }}

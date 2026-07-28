@@ -1,50 +1,94 @@
 [
   {
-    "id": "6",
-    "slug": "pidkladkova-tkan-atlasna",
+    "id": "tkan-army-defender-m-dm-9210",
+    "category": "army",
+    "slug": "tkan-army-defender-m-dm-9210",
     "title": {
-      "ua": "Підкладкова тканина «Атлас»",
-      "ru": "Подкладочная ткань «Атлас»"
+      "ua": "Тканина Defender® M DM 9210",
+      "ru": "Ткань Defender® M DM 9210"
     },
-    "category": "lining",
-    "images": [
-      "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=600&q=80",
-      "https://images.unsplash.com/photo-1615486364292-76e8a81d4099?w=600&q=80"
-    ],
+    "isNew": false,
+    "images": [],
     "description": {
-      "ua": "Гладка підкладкова тканина з атласним блиском. Чудово ковзає, не електризується. Використовується для підкладки пальт, піджаків, суконь.",
-      "ru": "Гладкая подкладочная ткань с атласным блеском. Отлично скользит, не электризуется. Используется для подкладки пальто, пиджаков, платьев."
+      "ua": "Високоякісна вогнестійка та антистатична тканина з масловодовідштовхувальним просоченням (МВО). Склад: FR Rayon/пара-арамід/поліамід/антистатик. Щільність 210 г/м². Забезпечує надійний захист від термічних ризиків та статичної електрики.",
+      "ru": "Высококачественная огнестойкая и антистатическая ткань с масловодоотталкивающей пропиткой (МВО). Состав: FR Rayon/пара-арамид/полиамид/антистатик. Плотность 210 г/м². Обеспечивает надежную защиту от термических рисков и статического электричества."
     },
     "attributes": {
-      "fabricType": "satin",
-      "density": "90 г/м²",
-      "width": "150 см",
-      "color": "black",
-      "composition": "100% поліестер"
+      "fabricType": "twill",
+      "density": "210",
+      "width": "163",
+      "colors": [],
+      "properties": [],
+      "composition": {
+        "cotton": 0,
+        "polyester": 0,
+        "spandex": 0,
+        "rayon": 0,
+        "viscose": 0,
+        "pbt": 0,
+        "lyon": 0,
+        "linen": 0,
+        "polyamide": 0,
+        "polypropylene": 0,
+        "paraAramid": 0,
+        "nylon": 0,
+        "mac": 0,
+        "pu": 0,
+        "antistatic": 0,
+        "Modacrylic/Lyocell/Static-Control™": 0,
+        "Nomex®/Kevlar®/Anti-Static": 0,
+        "Nomex®/Para-Aramid/p140": 0,
+        "PBI®/Kevlar®/Antistatic": 0,
+        "Lenzing FR®/Aramid": 0,
+        "Para-aramid/Solid polymer coating": 0,
+        "FR Rayon/пара-арамід/поліамід/антистатик": 1
+      }
     }
   },
   {
-    "id": "12",
-    "slug": "pidkladkova-viskoza-premium",
+    "id": "tkan-army-defender-m-dp-9210",
+    "category": "army",
+    "slug": "tkan-army-defender-m-dp-9210",
     "title": {
-      "ua": "Підкладка «Віскоза Преміум»",
-      "ru": "Подкладка «Вискоза Премиум»"
+      "ua": "Тканина Defender® M DP 9210",
+      "ru": "Ткань Defender® M DP 9210"
     },
-    "category": "lining",
-    "images": [
-      "https://images.unsplash.com/photo-1615486364292-76e8a81d4099?w=600&q=80",
-      "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=600&q=80"
-    ],
+    "isNew": false,
+    "images": [],
     "description": {
-      "ua": "Натуральна віскозна підкладка преміум класу. М'яка, приємна на шкірі, добре дихає. Для одягу вищого цінового сегменту.",
-      "ru": "Натуральная вискозная подкладка премиум класса. Мягкая, приятная для кожи, хорошо дышит. Для одежды высшего ценового сегмента."
+      "ua": "Високоякісна вогнестійка та антистатична тканина з масловодовідштовхувальним просоченням (МВО). Склад: FR Rayon/пара-арамід/поліамід/антистатик. Щільність 210 г/м². Забезпечує надійний захист від термічних ризиків та статичної електрики.",
+      "ru": "Высококачественная огнестойкая и антистатическая ткань с масловодоотталкивающей пропиткой (МВО). Состав: FR Rayon/пара-арамид/полиамид/антистатик. Плотность 210 г/м². Обеспечивает надежную защиту от термических рисков и статического электричества."
     },
     "attributes": {
-      "fabricType": "plain",
-      "density": "100 г/м²",
-      "width": "140 см",
-      "color": "beige",
-      "composition": "100% Віскоза"
+      "fabricType": "twill",
+      "density": "210",
+      "width": "163",
+      "colors": [],
+      "properties": [],
+      "composition": {
+        "cotton": 0,
+        "polyester": 0,
+        "spandex": 0,
+        "rayon": 0,
+        "viscose": 0,
+        "pbt": 0,
+        "lyon": 0,
+        "linen": 0,
+        "polyamide": 0,
+        "polypropylene": 0,
+        "paraAramid": 0,
+        "nylon": 0,
+        "mac": 0,
+        "pu": 0,
+        "antistatic": 0,
+        "Modacrylic/Lyocell/Static-Control™": 0,
+        "Nomex®/Kevlar®/Anti-Static": 0,
+        "Nomex®/Para-Aramid/p140": 0,
+        "PBI®/Kevlar®/Antistatic": 0,
+        "Lenzing FR®/Aramid": 0,
+        "Para-aramid/Solid polymer coating": 0,
+        "FR Rayon/пара-арамід/поліамід/антистатик": 1
+      }
     }
   }
 ]

@@ -197,7 +197,8 @@
       "fleece": "Фліс",
       "oxford": "Оксфорд",
       "fr-twill": "FR-Твіл",
-      "canvas": "Канвас"
+      "canvas": "Канвас",
+      "denim": "Денім"
     },
     "colors": {
       "navy": "Темно-синій",
@@ -417,7 +418,8 @@
       "satin": "Атлас",
       "fleece": "Флис",
       "oxford": "Оксфорд",
-      "fr-twill": "FR-Твил"
+      "fr-twill": "FR-Твил",
+      "denim": "Деним"
     },
     "colors": {
       "navy": "Тёмно-синий",

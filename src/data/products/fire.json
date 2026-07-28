@@ -1,50 +1,561 @@
 [
   {
-    "id": "6",
-    "slug": "pidkladkova-tkan-atlasna",
+    "id": "tkan-fire-bg-9035",
+    "category": "fire",
+    "slug": "tkan-fire-bg-9035",
     "title": {
-      "ua": "Підкладкова тканина «Атлас»",
-      "ru": "Подкладочная ткань «Атлас»"
+      "ua": "Тканина BG 9035",
+      "ru": "Ткань BG 9035"
     },
-    "category": "lining",
-    "images": [
-      "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=600&q=80",
-      "https://images.unsplash.com/photo-1615486364292-76e8a81d4099?w=600&q=80"
-    ],
-    "description": {
-      "ua": "Гладка підкладкова тканина з атласним блиском. Чудово ковзає, не електризується. Використовується для підкладки пальт, піджаків, суконь.",
-      "ru": "Гладкая подкладочная ткань с атласным блеском. Отлично скользит, не электризуется. Используется для подкладки пальто, пиджаков, платьев."
-    },
+    "isNew": false,
+    "images": [],
+    "description": {},
     "attributes": {
-      "fabricType": "satin",
-      "density": "90 г/м²",
-      "width": "150 см",
-      "color": "black",
-      "composition": "100% поліестер"
+      "fabricType": "twill",
+      "density": "350",
+      "width": "150",
+      "colors": [],
+      "properties": [],
+      "composition": {
+        "cotton": 79,
+        "polyester": 20,
+        "spandex": 0,
+        "rayon": 0,
+        "viscose": 0,
+        "pbt": 0,
+        "lyon": 0,
+        "linen": 0,
+        "polyamide": 0,
+        "polypropylene": 0,
+        "paraAramid": 0,
+        "nylon": 0,
+        "mac": 0,
+        "pu": 0,
+        "antistatic": 1,
+        "Modacrylic/Lyocell/Static-Control™": 0,
+        "Nomex®/Kevlar®/Anti-Static": 0,
+        "Nomex®/Para-Aramid/p140": 0,
+        "PBI®/Kevlar®/Antistatic": 0,
+        "Lenzing FR®/Aramid": 0,
+        "Para-aramid/Solid polymer coating": 0,
+        "FR Rayon/пара-арамід/поліамід/антистатик": 0
+      }
     }
   },
   {
-    "id": "12",
-    "slug": "pidkladkova-viskoza-premium",
+    "id": "tkan-fire-bg-9045",
+    "category": "fire",
+    "slug": "tkan-fire-bg-9045",
     "title": {
-      "ua": "Підкладка «Віскоза Преміум»",
-      "ru": "Подкладка «Вискоза Премиум»"
+      "ua": "Тканина BG 9045",
+      "ru": "Ткань BG 9045"
     },
-    "category": "lining",
-    "images": [
-      "https://images.unsplash.com/photo-1615486364292-76e8a81d4099?w=600&q=80",
-      "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=600&q=80"
-    ],
-    "description": {
-      "ua": "Натуральна віскозна підкладка преміум класу. М'яка, приємна на шкірі, добре дихає. Для одягу вищого цінового сегменту.",
-      "ru": "Натуральная вискозная подкладка премиум класса. Мягкая, приятная для кожи, хорошо дышит. Для одежды высшего ценового сегмента."
-    },
+    "isNew": false,
+    "images": [],
+    "description": {},
     "attributes": {
-      "fabricType": "plain",
-      "density": "100 г/м²",
-      "width": "140 см",
-      "color": "beige",
-      "composition": "100% Віскоза"
+      "fabricType": "twill",
+      "density": "450",
+      "width": "150",
+      "colors": [],
+      "properties": [],
+      "composition": {
+        "cotton": 79,
+        "polyester": 20,
+        "spandex": 0,
+        "rayon": 0,
+        "viscose": 0,
+        "pbt": 0,
+        "lyon": 0,
+        "linen": 0,
+        "polyamide": 0,
+        "polypropylene": 0,
+        "paraAramid": 0,
+        "nylon": 0,
+        "mac": 0,
+        "pu": 0,
+        "antistatic": 1,
+        "Modacrylic/Lyocell/Static-Control™": 0,
+        "Nomex®/Kevlar®/Anti-Static": 0,
+        "Nomex®/Para-Aramid/p140": 0,
+        "PBI®/Kevlar®/Antistatic": 0,
+        "Lenzing FR®/Aramid": 0,
+        "Para-aramid/Solid polymer coating": 0,
+        "FR Rayon/пара-арамід/поліамід/антистатик": 0
+      }
+    }
+  },
+  {
+    "id": "tkan-fire-bg-9500",
+    "category": "fire",
+    "slug": "tkan-fire-bg-9500",
+    "title": {
+      "ua": "Тканина BG 9500",
+      "ru": "Ткань BG 9500"
+    },
+    "isNew": false,
+    "images": [],
+    "description": {},
+    "attributes": {
+      "fabricType": "twill",
+      "density": "350",
+      "width": "150",
+      "colors": [],
+      "properties": [],
+      "composition": {
+        "cotton": 64,
+        "polyester": 35,
+        "spandex": 0,
+        "rayon": 0,
+        "viscose": 0,
+        "pbt": 0,
+        "lyon": 0,
+        "linen": 0,
+        "polyamide": 0,
+        "polypropylene": 0,
+        "paraAramid": 0,
+        "nylon": 0,
+        "mac": 0,
+        "pu": 0,
+        "antistatic": 1,
+        "Modacrylic/Lyocell/Static-Control™": 0,
+        "Nomex®/Kevlar®/Anti-Static": 0,
+        "Nomex®/Para-Aramid/p140": 0,
+        "PBI®/Kevlar®/Antistatic": 0,
+        "Lenzing FR®/Aramid": 0,
+        "Para-aramid/Solid polymer coating": 0,
+        "FR Rayon/пара-арамід/поліамід/антистатик": 0
+      }
+    }
+  },
+  {
+    "id": "tkan-fire-ks52",
+    "category": "fire",
+    "slug": "tkan-fire-ks52",
+    "title": {
+      "ua": "Тканина KS52",
+      "ru": "Ткань KS52"
+    },
+    "isNew": false,
+    "images": [],
+    "description": {},
+    "attributes": {
+      "fabricType": "twill",
+      "density": "335",
+      "width": "150",
+      "colors": [],
+      "properties": [],
+      "composition": {
+        "cotton": 100,
+        "polyester": 0,
+        "spandex": 0,
+        "rayon": 0,
+        "viscose": 0,
+        "pbt": 0,
+        "lyon": 0,
+        "linen": 0,
+        "polyamide": 0,
+        "polypropylene": 0,
+        "paraAramid": 0,
+        "nylon": 0,
+        "mac": 0,
+        "pu": 0,
+        "antistatic": 0,
+        "Modacrylic/Lyocell/Static-Control™": 0,
+        "Nomex®/Kevlar®/Anti-Static": 0,
+        "Nomex®/Para-Aramid/p140": 0,
+        "PBI®/Kevlar®/Antistatic": 0,
+        "Lenzing FR®/Aramid": 0,
+        "Para-aramid/Solid polymer coating": 0,
+        "FR Rayon/пара-арамід/поліамід/антистатик": 0
+      }
+    }
+  },
+  {
+    "id": "tkan-fire-xa-9001",
+    "category": "fire",
+    "slug": "tkan-fire-xa-9001",
+    "title": {
+      "ua": "Тканина XA 9001",
+      "ru": "Ткань XA 9001"
+    },
+    "isNew": false,
+    "images": [],
+    "description": {},
+    "attributes": {
+      "fabricType": "twill",
+      "density": "320",
+      "width": "150",
+      "colors": [],
+      "properties": [],
+      "composition": {
+        "cotton": 45,
+        "polyester": 0,
+        "spandex": 0,
+        "rayon": 0,
+        "viscose": 0,
+        "pbt": 0,
+        "lyon": 0,
+        "linen": 0,
+        "polyamide": 0,
+        "polypropylene": 54,
+        "paraAramid": 0,
+        "nylon": 0,
+        "mac": 0,
+        "pu": 0,
+        "antistatic": 1,
+        "Modacrylic/Lyocell/Static-Control™": 0,
+        "Nomex®/Kevlar®/Anti-Static": 0,
+        "Nomex®/Para-Aramid/p140": 0,
+        "PBI®/Kevlar®/Antistatic": 0,
+        "Lenzing FR®/Aramid": 0,
+        "Para-aramid/Solid polymer coating": 0,
+        "FR Rayon/пара-арамід/поліамід/антистатик": 0
+      }
+    }
+  },
+  {
+    "id": "tkan-fire-xb-9340",
+    "category": "fire",
+    "slug": "tkan-fire-xb-9340",
+    "title": {
+      "ua": "Тканина XB 9340",
+      "ru": "Ткань XB 9340"
+    },
+    "isNew": false,
+    "images": [],
+    "description": {},
+    "attributes": {
+      "fabricType": "twill",
+      "density": "340",
+      "width": "150",
+      "colors": [],
+      "properties": [],
+      "composition": {
+        "cotton": 74,
+        "polyester": 0,
+        "spandex": 0,
+        "rayon": 0,
+        "viscose": 0,
+        "pbt": 0,
+        "lyon": 0,
+        "linen": 0,
+        "polyamide": 0,
+        "polypropylene": 0,
+        "paraAramid": 24,
+        "nylon": 0,
+        "mac": 0,
+        "pu": 0,
+        "antistatic": 1,
+        "Modacrylic/Lyocell/Static-Control™": 0,
+        "Nomex®/Kevlar®/Anti-Static": 0,
+        "Nomex®/Para-Aramid/p140": 0,
+        "PBI®/Kevlar®/Antistatic": 0,
+        "Lenzing FR®/Aramid": 0,
+        "Para-aramid/Solid polymer coating": 0,
+        "FR Rayon/пара-арамід/поліамід/антистатик": 0
+      }
+    }
+  },
+  {
+    "id": "tkan-fire-xl-9300",
+    "category": "fire",
+    "slug": "tkan-fire-xl-9300",
+    "title": {
+      "ua": "Тканина XL 9300",
+      "ru": "Ткань XL 9300"
+    },
+    "isNew": false,
+    "images": [],
+    "description": {},
+    "attributes": {
+      "fabricType": "twill",
+      "density": "300",
+      "width": "150",
+      "colors": [],
+      "properties": [],
+      "composition": {
+        "cotton": 0,
+        "polyester": 0,
+        "spandex": 0,
+        "rayon": 0,
+        "viscose": 0,
+        "pbt": 0,
+        "lyon": 0,
+        "linen": 0,
+        "polyamide": 0,
+        "polypropylene": 0,
+        "paraAramid": 0,
+        "nylon": 0,
+        "mac": 0,
+        "pu": 0,
+        "antistatic": 0,
+        "Modacrylic/Lyocell/Static-Control™": 1,
+        "Nomex®/Kevlar®/Anti-Static": 0,
+        "Nomex®/Para-Aramid/p140": 0,
+        "PBI®/Kevlar®/Antistatic": 0,
+        "Lenzing FR®/Aramid": 0,
+        "Para-aramid/Solid polymer coating": 0,
+        "FR Rayon/пара-арамід/поліамід/антистатик": 0
+      }
+    }
+  },
+  {
+    "id": "tkan-fire-xl-9325",
+    "category": "fire",
+    "slug": "tkan-fire-xl-9325",
+    "title": {
+      "ua": "Тканина XL 9325",
+      "ru": "Ткань XL 9325"
+    },
+    "isNew": false,
+    "images": [],
+    "description": {},
+    "attributes": {
+      "fabricType": "twill",
+      "density": "325",
+      "width": "150",
+      "colors": [],
+      "properties": [],
+      "composition": {
+        "cotton": 0,
+        "polyester": 0,
+        "spandex": 0,
+        "rayon": 0,
+        "viscose": 0,
+        "pbt": 0,
+        "lyon": 0,
+        "linen": 0,
+        "polyamide": 0,
+        "polypropylene": 0,
+        "paraAramid": 0,
+        "nylon": 0,
+        "mac": 0,
+        "pu": 0,
+        "antistatic": 0,
+        "Modacrylic/Lyocell/Static-Control™": 1,
+        "Nomex®/Kevlar®/Anti-Static": 0,
+        "Nomex®/Para-Aramid/p140": 0,
+        "PBI®/Kevlar®/Antistatic": 0,
+        "Lenzing FR®/Aramid": 0,
+        "Para-aramid/Solid polymer coating": 0,
+        "FR Rayon/пара-арамід/поліамід/антистатик": 0
+      }
+    }
+  },
+  {
+    "id": "tkan-fire-av-9400",
+    "category": "fire",
+    "slug": "tkan-fire-av-9400",
+    "title": {
+      "ua": "Тканина AV 9400",
+      "ru": "Ткань AV 9400"
+    },
+    "isNew": false,
+    "images": [],
+    "description": {},
+    "attributes": {
+      "fabricType": "twill",
+      "density": "200",
+      "width": "150",
+      "colors": [],
+      "properties": [],
+      "composition": {
+        "cotton": 0,
+        "polyester": 0,
+        "spandex": 0,
+        "rayon": 0,
+        "viscose": 0,
+        "pbt": 0,
+        "lyon": 0,
+        "linen": 0,
+        "polyamide": 0,
+        "polypropylene": 0,
+        "paraAramid": 0,
+        "nylon": 0,
+        "mac": 0,
+        "pu": 0,
+        "antistatic": 0,
+        "Modacrylic/Lyocell/Static-Control™": 0,
+        "Nomex®/Kevlar®/Anti-Static": 1,
+        "Nomex®/Para-Aramid/p140": 0,
+        "PBI®/Kevlar®/Antistatic": 0,
+        "Lenzing FR®/Aramid": 0,
+        "Para-aramid/Solid polymer coating": 0,
+        "FR Rayon/пара-арамід/поліамід/антистатик": 0
+      }
+    }
+  },
+  {
+    "id": "tkan-fire-bv-9120",
+    "category": "fire",
+    "slug": "tkan-fire-bv-9120",
+    "title": {
+      "ua": "Тканина BV 9120",
+      "ru": "Ткань BV 9120"
+    },
+    "isNew": false,
+    "images": [],
+    "description": {},
+    "attributes": {
+      "fabricType": "twill",
+      "density": "265",
+      "width": "150",
+      "colors": [],
+      "properties": [],
+      "composition": {
+        "cotton": 0,
+        "polyester": 0,
+        "spandex": 0,
+        "rayon": 0,
+        "viscose": 0,
+        "pbt": 0,
+        "lyon": 0,
+        "linen": 0,
+        "polyamide": 0,
+        "polypropylene": 0,
+        "paraAramid": 0,
+        "nylon": 0,
+        "mac": 0,
+        "pu": 0,
+        "antistatic": 0,
+        "Modacrylic/Lyocell/Static-Control™": 0,
+        "Nomex®/Kevlar®/Anti-Static": 0,
+        "Nomex®/Para-Aramid/p140": 1,
+        "PBI®/Kevlar®/Antistatic": 0,
+        "Lenzing FR®/Aramid": 0,
+        "Para-aramid/Solid polymer coating": 0,
+        "FR Rayon/пара-арамід/поліамід/антистатик": 0
+      }
+    }
+  },
+  {
+    "id": "tkan-fire-pbi-peak5",
+    "category": "fire",
+    "slug": "tkan-fire-pbi-peak5",
+    "title": {
+      "ua": "Тканина PBI® Peak5®",
+      "ru": "Ткань PBI® Peak5®"
+    },
+    "isNew": false,
+    "images": [],
+    "description": {},
+    "attributes": {
+      "fabricType": "twill",
+      "density": "180",
+      "width": "150",
+      "colors": [],
+      "properties": [],
+      "composition": {
+        "cotton": 0,
+        "polyester": 0,
+        "spandex": 0,
+        "rayon": 0,
+        "viscose": 0,
+        "pbt": 0,
+        "lyon": 0,
+        "linen": 0,
+        "polyamide": 0,
+        "polypropylene": 0,
+        "paraAramid": 0,
+        "nylon": 0,
+        "mac": 0,
+        "pu": 0,
+        "antistatic": 0,
+        "Modacrylic/Lyocell/Static-Control™": 0,
+        "Nomex®/Kevlar®/Anti-Static": 0,
+        "Nomex®/Para-Aramid/p140": 0,
+        "PBI®/Kevlar®/Antistatic": 1,
+        "Lenzing FR®/Aramid": 0,
+        "Para-aramid/Solid polymer coating": 0,
+        "FR Rayon/пара-арамід/поліамід/антистатик": 0
+      }
+    }
+  },
+  {
+    "id": "tkan-fire-defender-m---cq-760",
+    "category": "fire",
+    "slug": "tkan-fire-defender-m---cq-760",
+    "title": {
+      "ua": "Тканина Defender® M - CQ 760",
+      "ru": "Ткань Defender® M - CQ 760"
+    },
+    "isNew": false,
+    "images": [],
+    "description": {},
+    "attributes": {
+      "fabricType": "multilayer",
+      "density": "220",
+      "width": "150",
+      "colors": [],
+      "properties": [],
+      "composition": {
+        "cotton": 0,
+        "polyester": 0,
+        "spandex": 0,
+        "rayon": 0,
+        "viscose": 0,
+        "pbt": 0,
+        "lyon": 0,
+        "linen": 0,
+        "polyamide": 0,
+        "polypropylene": 0,
+        "paraAramid": 0,
+        "nylon": 0,
+        "mac": 0,
+        "pu": 0,
+        "antistatic": 0,
+        "Modacrylic/Lyocell/Static-Control™": 0,
+        "Nomex®/Kevlar®/Anti-Static": 0,
+        "Nomex®/Para-Aramid/p140": 0,
+        "PBI®/Kevlar®/Antistatic": 0,
+        "Lenzing FR®/Aramid": 1,
+        "Para-aramid/Solid polymer coating": 0,
+        "FR Rayon/пара-арамід/поліамід/антистатик": 0
+      }
+    }
+  },
+  {
+    "id": "tkan-fire-ara-shield-kr-9610",
+    "category": "fire",
+    "slug": "tkan-fire-ara-shield-kr-9610",
+    "title": {
+      "ua": "Тканина Ara-Shield KR 9610",
+      "ru": "Ткань Ara-Shield KR 9610"
+    },
+    "isNew": false,
+    "images": [],
+    "description": {},
+    "attributes": {
+      "fabricType": "coated",
+      "density": "540",
+      "width": "150",
+      "colors": [],
+      "properties": [],
+      "composition": {
+        "cotton": 0,
+        "polyester": 0,
+        "spandex": 0,
+        "rayon": 0,
+        "viscose": 0,
+        "pbt": 0,
+        "lyon": 0,
+        "linen": 0,
+        "polyamide": 0,
+        "polypropylene": 0,
+        "paraAramid": 0,
+        "nylon": 0,
+        "mac": 0,
+        "pu": 0,
+        "antistatic": 0,
+        "Modacrylic/Lyocell/Static-Control™": 0,
+        "Nomex®/Kevlar®/Anti-Static": 0,
+        "Nomex®/Para-Aramid/p140": 0,
+        "PBI®/Kevlar®/Antistatic": 0,
+        "Lenzing FR®/Aramid": 0,
+        "Para-aramid/Solid polymer coating": 1,
+        "FR Rayon/пара-арамід/поліамід/антистатик": 0
+      }
     }
   }
 ]

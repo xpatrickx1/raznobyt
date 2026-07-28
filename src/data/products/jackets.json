@@ -1,0 +1,1060 @@
+[
+  {
+    "id": "tkan-jackets-kg-245",
+    "category": "jackets",
+    "slug": "tkan-jackets-kg-245",
+    "title": {
+      "ua": "Тканина KG 245",
+      "ru": "Ткань KG 245"
+    },
+    "isNew": false,
+    "images": [],
+    "description": {
+      "ua": "35% бавовна, 65% поліестр  245г/м.кв",
+      "ru": "35% хлопок, 65% полиестр  245г/м.кв"
+    },
+    "attributes": {
+      "fabricType": "канвас",
+      "density": "245",
+      "width": "150",
+      "colors": [],
+      "properties": [],
+      "composition": {
+        "cotton": 35,
+        "polyester": 65,
+        "spandex": 0,
+        "rayon": 0,
+        "viscose": 0,
+        "pbt": 0,
+        "lyon": 0,
+        "linen": 0,
+        "polyamide": 0,
+        "polypropylene": 0,
+        "paraAramid": 0,
+        "nylon": 0,
+        "mac": 0,
+        "pu": 0,
+        "antistatic": 0,
+        "Modacrylic/Lyocell/Static-Control™": 0,
+        "Nomex®/Kevlar®/Anti-Static": 0,
+        "Nomex®/Para-Aramid/p140": 0,
+        "PBI®/Kevlar®/Antistatic": 0,
+        "Lenzing FR®/Aramid": 0,
+        "Para-aramid/Solid polymer coating": 0,
+        "FR Rayon/пара-арамід/поліамід/антистатик": 0
+      }
+    }
+  },
+  {
+    "id": "tkan-jackets-nb-1043",
+    "category": "jackets",
+    "slug": "tkan-jackets-nb-1043",
+    "title": {
+      "ua": "Тканина NB-1043",
+      "ru": "Ткань NB-1043"
+    },
+    "isNew": false,
+    "images": [],
+    "description": {
+      "ua": "20% бавовни, 80% поліестр  220г/м.кв teflon",
+      "ru": "20% хлопок, 80% полиестр  220г/м.кв teflon"
+    },
+    "attributes": {
+      "fabricType": "саржа",
+      "density": "220",
+      "width": "150",
+      "colors": [],
+      "properties": [],
+      "composition": {
+        "cotton": 20,
+        "polyester": 80,
+        "spandex": 0,
+        "rayon": 0,
+        "viscose": 0,
+        "pbt": 0,
+        "lyon": 0,
+        "linen": 0,
+        "polyamide": 0,
+        "polypropylene": 0,
+        "paraAramid": 0,
+        "nylon": 0,
+        "mac": 0,
+        "pu": 0,
+        "antistatic": 0,
+        "Modacrylic/Lyocell/Static-Control™": 0,
+        "Nomex®/Kevlar®/Anti-Static": 0,
+        "Nomex®/Para-Aramid/p140": 0,
+        "PBI®/Kevlar®/Antistatic": 0,
+        "Lenzing FR®/Aramid": 0,
+        "Para-aramid/Solid polymer coating": 0,
+        "FR Rayon/пара-арамід/поліамід/антистатик": 0
+      }
+    }
+  },
+  {
+    "id": "tkan-jackets-nnt-1152",
+    "category": "jackets",
+    "slug": "tkan-jackets-nnt-1152",
+    "title": {
+      "ua": "Тканина NNT-1152",
+      "ru": "Ткань NNT-1152"
+    },
+    "isNew": false,
+    "images": [],
+    "description": {
+      "ua": "80% бавовна, 20% поліестер антистатик МВВ 255г/м.кв Масловодовідштовхуюча",
+      "ru": "80% хлопок, 20% полиестер антистатик МВВ 255г/м.кв Масловодоотталкивающая"
+    },
+    "attributes": {
+      "fabricType": "саржа",
+      "density": "255",
+      "width": "150",
+      "colors": [],
+      "properties": [],
+      "composition": {
+        "cotton": 20,
+        "polyester": 80,
+        "spandex": 0,
+        "rayon": 0,
+        "viscose": 0,
+        "pbt": 0,
+        "lyon": 0,
+        "linen": 0,
+        "polyamide": 0,
+        "polypropylene": 0,
+        "paraAramid": 0,
+        "nylon": 0,
+        "mac": 0,
+        "pu": 0,
+        "antistatic": 0,
+        "Modacrylic/Lyocell/Static-Control™": 0,
+        "Nomex®/Kevlar®/Anti-Static": 0,
+        "Nomex®/Para-Aramid/p140": 0,
+        "PBI®/Kevlar®/Antistatic": 0,
+        "Lenzing FR®/Aramid": 0,
+        "Para-aramid/Solid polymer coating": 0,
+        "FR Rayon/пара-арамід/поліамід/антистатик": 0
+      }
+    }
+  },
+  {
+    "id": "tkan-jackets-vvt-2164",
+    "category": "jackets",
+    "slug": "tkan-jackets-vvt-2164",
+    "title": {
+      "ua": "Тканина VVT-2164",
+      "ru": "Ткань VVT-2164"
+    },
+    "isNew": false,
+    "images": [],
+    "description": {
+      "ua": "60% бавовна, 40% поліестер антистатик МВВ 210г/м.кв  Масловодовідштовхуюча",
+      "ru": "60% хлопок, 40% полиестер антистатик МВВ 210г/м.кв Масловодоотталкивающая"
+    },
+    "attributes": {
+      "fabricType": "саржа",
+      "density": "210",
+      "width": "150",
+      "colors": [],
+      "properties": [],
+      "composition": {
+        "cotton": 60,
+        "polyester": 40,
+        "spandex": 0,
+        "rayon": 0,
+        "viscose": 0,
+        "pbt": 0,
+        "lyon": 0,
+        "linen": 0,
+        "polyamide": 0,
+        "polypropylene": 0,
+        "paraAramid": 0,
+        "nylon": 0,
+        "mac": 0,
+        "pu": 0,
+        "antistatic": 0,
+        "Modacrylic/Lyocell/Static-Control™": 0,
+        "Nomex®/Kevlar®/Anti-Static": 0,
+        "Nomex®/Para-Aramid/p140": 0,
+        "PBI®/Kevlar®/Antistatic": 0,
+        "Lenzing FR®/Aramid": 0,
+        "Para-aramid/Solid polymer coating": 0,
+        "FR Rayon/пара-арамід/поліамід/антистатик": 0
+      }
+    }
+  },
+  {
+    "id": "tkan-jackets-mk-9014",
+    "category": "jackets",
+    "slug": "tkan-jackets-mk-9014",
+    "title": {
+      "ua": "Тканина MK-9014",
+      "ru": "Ткань MK-9014"
+    },
+    "isNew": false,
+    "images": [],
+    "description": {
+      "ua": "99% поліестер, 1% антистатична нитка 290г/м.кв Кислотозахисна",
+      "ru": "99% полиестер, 1% антистатическая нить 290г/м.кв Кислотозащитная"
+    },
+    "attributes": {
+      "fabricType": "полотно",
+      "density": "290",
+      "width": "160",
+      "colors": [],
+      "properties": [],
+      "composition": {
+        "cotton": 0,
+        "polyester": 99,
+        "spandex": 0,
+        "rayon": 0,
+        "viscose": 0,
+        "pbt": 0,
+        "lyon": 0,
+        "linen": 0,
+        "polyamide": 0,
+        "polypropylene": 0,
+        "paraAramid": 0,
+        "nylon": 0,
+        "mac": 0,
+        "pu": 0,
+        "antistatic": 1,
+        "Modacrylic/Lyocell/Static-Control™": 0,
+        "Nomex®/Kevlar®/Anti-Static": 0,
+        "Nomex®/Para-Aramid/p140": 0,
+        "PBI®/Kevlar®/Antistatic": 0,
+        "Lenzing FR®/Aramid": 0,
+        "Para-aramid/Solid polymer coating": 0,
+        "FR Rayon/пара-арамід/поліамід/антистатик": 0
+      }
+    }
+  },
+  {
+    "id": "tkan-jackets-6584",
+    "category": "jackets",
+    "slug": "tkan-jackets-6584",
+    "title": {
+      "ua": "Тканина 6584 ",
+      "ru": "Ткань 6584 "
+    },
+    "isNew": false,
+    "images": [],
+    "description": {
+      "ua": "100% бавовна ВО  водовідштовхуюча  390г/м.кв",
+      "ru": "100% хлопок ВО  водоотталкивающая  390г/м.кв"
+    },
+    "attributes": {
+      "fabricType": "саржа",
+      "density": "390",
+      "width": "150",
+      "colors": [],
+      "properties": [],
+      "composition": {
+        "cotton": 100,
+        "polyester": 0,
+        "spandex": 0,
+        "rayon": 0,
+        "viscose": 0,
+        "pbt": 0,
+        "lyon": 0,
+        "linen": 0,
+        "polyamide": 0,
+        "polypropylene": 0,
+        "paraAramid": 0,
+        "nylon": 0,
+        "mac": 0,
+        "pu": 0,
+        "antistatic": 0,
+        "Modacrylic/Lyocell/Static-Control™": 0,
+        "Nomex®/Kevlar®/Anti-Static": 0,
+        "Nomex®/Para-Aramid/p140": 0,
+        "PBI®/Kevlar®/Antistatic": 0,
+        "Lenzing FR®/Aramid": 0,
+        "Para-aramid/Solid polymer coating": 0,
+        "FR Rayon/пара-арамід/поліамід/антистатик": 0
+      }
+    }
+  },
+  {
+    "id": "tkan-jackets-6585",
+    "category": "jackets",
+    "slug": "tkan-jackets-6585",
+    "title": {
+      "ua": "Тканина 6585",
+      "ru": "Ткань 6585"
+    },
+    "isNew": false,
+    "images": [],
+    "description": {
+      "ua": "100% бавовна ВО  водовідштовхуюча  390г/м.кв",
+      "ru": "100% хлопок ВО  водоотталкивающая  390г/м.кв"
+    },
+    "attributes": {
+      "fabricType": "саржа",
+      "density": "390",
+      "width": "150",
+      "colors": [],
+      "properties": [],
+      "composition": {
+        "cotton": 100,
+        "polyester": 0,
+        "spandex": 0,
+        "rayon": 0,
+        "viscose": 0,
+        "pbt": 0,
+        "lyon": 0,
+        "linen": 0,
+        "polyamide": 0,
+        "polypropylene": 0,
+        "paraAramid": 0,
+        "nylon": 0,
+        "mac": 0,
+        "pu": 0,
+        "antistatic": 0,
+        "Modacrylic/Lyocell/Static-Control™": 0,
+        "Nomex®/Kevlar®/Anti-Static": 0,
+        "Nomex®/Para-Aramid/p140": 0,
+        "PBI®/Kevlar®/Antistatic": 0,
+        "Lenzing FR®/Aramid": 0,
+        "Para-aramid/Solid polymer coating": 0,
+        "FR Rayon/пара-арамід/поліамід/антистатик": 0
+      }
+    }
+  },
+  {
+    "id": "tkan-jackets-22001",
+    "category": "jackets",
+    "slug": "tkan-jackets-22001",
+    "title": {
+      "ua": "Тканина 22001",
+      "ru": "Ткань 22001"
+    },
+    "isNew": false,
+    "images": [],
+    "description": {
+      "ua": "65% бавовна, 35% поліестер  300г/м.кв",
+      "ru": "65% хлопок, 35% поиіестер  300г/м.кв"
+    },
+    "attributes": {
+      "fabricType": "канвас",
+      "density": "300",
+      "width": "150",
+      "colors": [],
+      "properties": [],
+      "composition": {
+        "cotton": 65,
+        "polyester": 35,
+        "spandex": 0,
+        "rayon": 0,
+        "viscose": 0,
+        "pbt": 0,
+        "lyon": 0,
+        "linen": 0,
+        "polyamide": 0,
+        "polypropylene": 0,
+        "paraAramid": 0,
+        "nylon": 0,
+        "mac": 0,
+        "pu": 0,
+        "antistatic": 0,
+        "Modacrylic/Lyocell/Static-Control™": 0,
+        "Nomex®/Kevlar®/Anti-Static": 0,
+        "Nomex®/Para-Aramid/p140": 0,
+        "PBI®/Kevlar®/Antistatic": 0,
+        "Lenzing FR®/Aramid": 0,
+        "Para-aramid/Solid polymer coating": 0,
+        "FR Rayon/пара-арамід/поліамід/антистатик": 0
+      }
+    }
+  },
+  {
+    "id": "tkan-jackets-6509",
+    "category": "jackets",
+    "slug": "tkan-jackets-6509",
+    "title": {
+      "ua": "Тканина 6509",
+      "ru": "Ткань 6509"
+    },
+    "isNew": false,
+    "images": [],
+    "description": {
+      "ua": "60% бавовна, 40% поліестер  330г/м.кв ",
+      "ru": "60% хлопок, 40% полиестер  330г/м.кв "
+    },
+    "attributes": {
+      "fabricType": "канвас",
+      "density": "330",
+      "width": "150",
+      "colors": [],
+      "properties": [],
+      "composition": {
+        "cotton": 60,
+        "polyester": 40,
+        "spandex": 0,
+        "rayon": 0,
+        "viscose": 0,
+        "pbt": 0,
+        "lyon": 0,
+        "linen": 0,
+        "polyamide": 0,
+        "polypropylene": 0,
+        "paraAramid": 0,
+        "nylon": 0,
+        "mac": 0,
+        "pu": 0,
+        "antistatic": 0,
+        "Modacrylic/Lyocell/Static-Control™": 0,
+        "Nomex®/Kevlar®/Anti-Static": 0,
+        "Nomex®/Para-Aramid/p140": 0,
+        "PBI®/Kevlar®/Antistatic": 0,
+        "Lenzing FR®/Aramid": 0,
+        "Para-aramid/Solid polymer coating": 0,
+        "FR Rayon/пара-арамід/поліамід/антистатик": 0
+      }
+    }
+  },
+  {
+    "id": "tkan-jackets-6527en",
+    "category": "jackets",
+    "slug": "tkan-jackets-6527en",
+    "title": {
+      "ua": "Тканина 6527EN",
+      "ru": "Ткань 6527EN"
+    },
+    "isNew": false,
+    "images": [],
+    "description": {
+      "ua": "60% бавовна, 40% поліестер  330г/м.кв ",
+      "ru": "60% хлопок, 40% полиестер  330г/м.кв "
+    },
+    "attributes": {
+      "fabricType": "канвас",
+      "density": "330",
+      "width": "150",
+      "colors": [],
+      "properties": [],
+      "composition": {
+        "cotton": 60,
+        "polyester": 40,
+        "spandex": 0,
+        "rayon": 0,
+        "viscose": 0,
+        "pbt": 0,
+        "lyon": 0,
+        "linen": 0,
+        "polyamide": 0,
+        "polypropylene": 0,
+        "paraAramid": 0,
+        "nylon": 0,
+        "mac": 0,
+        "pu": 0,
+        "antistatic": 0,
+        "Modacrylic/Lyocell/Static-Control™": 0,
+        "Nomex®/Kevlar®/Anti-Static": 0,
+        "Nomex®/Para-Aramid/p140": 0,
+        "PBI®/Kevlar®/Antistatic": 0,
+        "Lenzing FR®/Aramid": 0,
+        "Para-aramid/Solid polymer coating": 0,
+        "FR Rayon/пара-арамід/поліамід/антистатик": 0
+      }
+    }
+  },
+  {
+    "id": "tkan-jackets-3265",
+    "category": "jackets",
+    "slug": "tkan-jackets-3265",
+    "title": {
+      "ua": "Тканина 3265",
+      "ru": "Ткань 3265"
+    },
+    "isNew": false,
+    "images": [],
+    "description": {
+      "ua": "14% бавовна, 83% поліестер, 3% еластан ВО  водовідштовхуюча 240г/м.кв",
+      "ru": "14% хлопок, 83% полиестер, 3% эластан ВО  водоотталкивающая 240г/м.кв "
+    },
+    "attributes": {
+      "fabricType": "саржа",
+      "density": "240",
+      "width": "144",
+      "colors": [],
+      "properties": [],
+      "composition": {
+        "cotton": 14,
+        "polyester": 83,
+        "spandex": 3,
+        "rayon": 0,
+        "viscose": 0,
+        "pbt": 0,
+        "lyon": 0,
+        "linen": 0,
+        "polyamide": 0,
+        "polypropylene": 0,
+        "paraAramid": 0,
+        "nylon": 0,
+        "mac": 0,
+        "pu": 0,
+        "antistatic": 0,
+        "Modacrylic/Lyocell/Static-Control™": 0,
+        "Nomex®/Kevlar®/Anti-Static": 0,
+        "Nomex®/Para-Aramid/p140": 0,
+        "PBI®/Kevlar®/Antistatic": 0,
+        "Lenzing FR®/Aramid": 0,
+        "Para-aramid/Solid polymer coating": 0,
+        "FR Rayon/пара-арамід/поліамід/антистатик": 0
+      }
+    }
+  },
+  {
+    "id": "tkan-jackets-6793en",
+    "category": "jackets",
+    "slug": "tkan-jackets-6793en",
+    "title": {
+      "ua": "Тканина  6793EN ",
+      "ru": "Ткань  6793EN "
+    },
+    "isNew": false,
+    "images": [],
+    "description": {
+      "ua": "100% поліестер ВО водовідштовхуюча 320г/м.кв",
+      "ru": "100% полиестер ВО водоотталкивающая 320г/м.кв"
+    },
+    "attributes": {
+      "fabricType": "саржа",
+      "density": "320",
+      "width": "150",
+      "colors": [],
+      "properties": [],
+      "composition": {
+        "cotton": 42,
+        "polyester": 6,
+        "spandex": 0,
+        "rayon": 0,
+        "viscose": 0,
+        "pbt": 0,
+        "lyon": 0,
+        "linen": 0,
+        "polyamide": 0,
+        "polypropylene": 0,
+        "paraAramid": 0,
+        "nylon": 0,
+        "mac": 0,
+        "pu": 0,
+        "antistatic": 0,
+        "Modacrylic/Lyocell/Static-Control™": 0,
+        "Nomex®/Kevlar®/Anti-Static": 0,
+        "Nomex®/Para-Aramid/p140": 0,
+        "PBI®/Kevlar®/Antistatic": 0,
+        "Lenzing FR®/Aramid": 0,
+        "Para-aramid/Solid polymer coating": 0,
+        "FR Rayon/пара-арамід/поліамід/антистатик": 0
+      }
+    }
+  },
+  {
+    "id": "tkan-jackets-3118",
+    "category": "jackets",
+    "slug": "tkan-jackets-3118",
+    "title": {
+      "ua": "Тканина 3118",
+      "ru": "Ткань 3118 "
+    },
+    "isNew": false,
+    "images": [],
+    "description": {
+      "ua": "100% поліестр ВО 255г/м.кв  Водовідштовхувальна",
+      "ru": "100% полиестр ВО 255г/м.кв Водоотталкивающая"
+    },
+    "attributes": {
+      "fabricType": "саржа",
+      "density": "255",
+      "width": "150",
+      "colors": [],
+      "properties": [],
+      "composition": {
+        "cotton": 0,
+        "polyester": 100,
+        "spandex": 0,
+        "rayon": 0,
+        "viscose": 0,
+        "pbt": 0,
+        "lyon": 0,
+        "linen": 0,
+        "polyamide": 0,
+        "polypropylene": 0,
+        "paraAramid": 0,
+        "nylon": 0,
+        "mac": 0,
+        "pu": 0,
+        "antistatic": 0,
+        "Modacrylic/Lyocell/Static-Control™": 0,
+        "Nomex®/Kevlar®/Anti-Static": 0,
+        "Nomex®/Para-Aramid/p140": 0,
+        "PBI®/Kevlar®/Antistatic": 0,
+        "Lenzing FR®/Aramid": 0,
+        "Para-aramid/Solid polymer coating": 0,
+        "FR Rayon/пара-арамід/поліамід/антистатик": 0
+      }
+    }
+  },
+  {
+    "id": "tkan-jackets-3117",
+    "category": "jackets",
+    "slug": "tkan-jackets-3117",
+    "title": {
+      "ua": "Тканина 3117",
+      "ru": "Ткань 3117"
+    },
+    "isNew": false,
+    "images": [],
+    "description": {
+      "ua": "100% поліестер ВО 255г/м.кв  Водовідштовхувальна",
+      "ru": "100% полиестр ВО 255г/м.кв Водоотталкивающая"
+    },
+    "attributes": {
+      "fabricType": "саржа",
+      "density": "255",
+      "width": "150",
+      "colors": [],
+      "properties": [],
+      "composition": {
+        "cotton": 0,
+        "polyester": 100,
+        "spandex": 0,
+        "rayon": 0,
+        "viscose": 0,
+        "pbt": 0,
+        "lyon": 0,
+        "linen": 0,
+        "polyamide": 0,
+        "polypropylene": 0,
+        "paraAramid": 0,
+        "nylon": 0,
+        "mac": 0,
+        "pu": 0,
+        "antistatic": 0,
+        "Modacrylic/Lyocell/Static-Control™": 0,
+        "Nomex®/Kevlar®/Anti-Static": 0,
+        "Nomex®/Para-Aramid/p140": 0,
+        "PBI®/Kevlar®/Antistatic": 0,
+        "Lenzing FR®/Aramid": 0,
+        "Para-aramid/Solid polymer coating": 0,
+        "FR Rayon/пара-арамід/поліамід/антистатик": 0
+      }
+    }
+  },
+  {
+    "id": "tkan-jackets-3585",
+    "category": "jackets",
+    "slug": "tkan-jackets-3585",
+    "title": {
+      "ua": "Тканина  3585",
+      "ru": "Ткань  3585"
+    },
+    "isNew": false,
+    "images": [],
+    "description": {
+      "ua": "50% бавовна, 49% поліестер, 1% антистатик ВО-МЕМБРАНА Водовідштовхувальна 275г/м.кв",
+      "ru": "50% хлопок, 49% полиестер, 1% антистатик ВО-МЕМБРАНА Водоотталкивающая 275г/м.кв"
+    },
+    "attributes": {
+      "fabricType": "ріп-стоп",
+      "density": "275",
+      "width": "150",
+      "colors": [],
+      "properties": [],
+      "composition": {
+        "cotton": 0,
+        "polyester": 0,
+        "spandex": 0,
+        "rayon": 0,
+        "viscose": 0,
+        "pbt": 0,
+        "lyon": 0,
+        "linen": 0,
+        "polyamide": 0,
+        "polypropylene": 0,
+        "paraAramid": 0,
+        "nylon": 0,
+        "mac": 0,
+        "pu": 0,
+        "antistatic": 0,
+        "Modacrylic/Lyocell/Static-Control™": 0,
+        "Nomex®/Kevlar®/Anti-Static": 0,
+        "Nomex®/Para-Aramid/p140": 0,
+        "PBI®/Kevlar®/Antistatic": 0,
+        "Lenzing FR®/Aramid": 0,
+        "Para-aramid/Solid polymer coating": 0,
+        "FR Rayon/пара-арамід/поліамід/антистатик": 0
+      }
+    }
+  },
+  {
+    "id": "tkan-jackets-9129",
+    "category": "jackets",
+    "slug": "tkan-jackets-9129",
+    "title": {
+      "ua": "Тканина 9129",
+      "ru": "Ткань 9129"
+    },
+    "isNew": false,
+    "images": [],
+    "description": {
+      "ua": "42% бавовна, 6% поліестер, 52% МАС  FR-ВОГНЕТРИВКА 290г/м.кв",
+      "ru": "42% хлопок, 6% полиестер, 52% МАС  FR-ОГНЕУПОРНАЯ 290г/м.кв"
+    },
+    "attributes": {
+      "fabricType": "саржа",
+      "density": "290",
+      "width": "150",
+      "colors": [],
+      "properties": [],
+      "composition": {
+        "cotton": 42,
+        "polyester": 6,
+        "spandex": 0,
+        "rayon": 0,
+        "viscose": 0,
+        "pbt": 0,
+        "lyon": 0,
+        "linen": 0,
+        "polyamide": 0,
+        "polypropylene": 0,
+        "paraAramid": 0,
+        "nylon": 0,
+        "mac": 52,
+        "pu": 0,
+        "antistatic": 0,
+        "Modacrylic/Lyocell/Static-Control™": 0,
+        "Nomex®/Kevlar®/Anti-Static": 0,
+        "Nomex®/Para-Aramid/p140": 0,
+        "PBI®/Kevlar®/Antistatic": 0,
+        "Lenzing FR®/Aramid": 0,
+        "Para-aramid/Solid polymer coating": 0,
+        "FR Rayon/пара-арамід/поліамід/антистатик": 0
+      }
+    }
+  },
+  {
+    "id": "tkan-jackets-259",
+    "category": "jackets",
+    "slug": "tkan-jackets-259",
+    "title": {
+      "ua": "Тканина 259",
+      "ru": "Ткань 259"
+    },
+    "isNew": false,
+    "images": [],
+    "description": {
+      "ua": "41% бавовна, 50% МАС, 7% поліуретан FR-ВОГНЕТРИВКА ВО-МЕМБРАНА  Водовідштовхувальна 270г/м.кв",
+      "ru": "41% хлопок, 50% МАС, 7% полиуретан FR-ОГНЕУПОРНАЯ ВО-МЕМБРАНА  Водоотталкивающая 270г/м.кв"
+    },
+    "attributes": {
+      "fabricType": "саржа",
+      "density": "270",
+      "width": "150",
+      "colors": [],
+      "properties": [],
+      "composition": {
+        "cotton": 41,
+        "polyester": 0,
+        "spandex": 0,
+        "rayon": 0,
+        "viscose": 0,
+        "pbt": 0,
+        "lyon": 0,
+        "linen": 0,
+        "polyamide": 0,
+        "polypropylene": 0,
+        "paraAramid": 0,
+        "nylon": 0,
+        "mac": 50,
+        "pu": 7,
+        "antistatic": 2,
+        "Modacrylic/Lyocell/Static-Control™": 0,
+        "Nomex®/Kevlar®/Anti-Static": 0,
+        "Nomex®/Para-Aramid/p140": 0,
+        "PBI®/Kevlar®/Antistatic": 0,
+        "Lenzing FR®/Aramid": 0,
+        "Para-aramid/Solid polymer coating": 0,
+        "FR Rayon/пара-арамід/поліамід/антистатик": 0
+      }
+    }
+  },
+  {
+    "id": "tkan-jackets-4825",
+    "category": "jackets",
+    "slug": "tkan-jackets-4825",
+    "title": {
+      "ua": "Тканина 4825",
+      "ru": "Ткань 4825"
+    },
+    "isNew": false,
+    "images": [],
+    "description": {
+      "ua": "100% нейлон, ВО Водовідштовхувальна 125г/м.кв",
+      "ru": "100% нейлон, ВО  Водоотталкивающая 125г/м.кв"
+    },
+    "attributes": {
+      "fabricType": "ріп-стоп",
+      "density": "125",
+      "width": "149",
+      "colors": [],
+      "properties": [],
+      "composition": {
+        "cotton": 0,
+        "polyester": 0,
+        "spandex": 0,
+        "rayon": 0,
+        "viscose": 0,
+        "pbt": 0,
+        "lyon": 0,
+        "linen": 0,
+        "polyamide": 0,
+        "polypropylene": 0,
+        "paraAramid": 0,
+        "nylon": 100,
+        "mac": 0,
+        "pu": 0,
+        "antistatic": 0,
+        "Modacrylic/Lyocell/Static-Control™": 0,
+        "Nomex®/Kevlar®/Anti-Static": 0,
+        "Nomex®/Para-Aramid/p140": 0,
+        "PBI®/Kevlar®/Antistatic": 0,
+        "Lenzing FR®/Aramid": 0,
+        "Para-aramid/Solid polymer coating": 0,
+        "FR Rayon/пара-арамід/поліамід/антистатик": 0
+      }
+    }
+  },
+  {
+    "id": "tkan-jackets-f97",
+    "category": "jackets",
+    "slug": "tkan-jackets-f97",
+    "title": {
+      "ua": "Тканина  F97",
+      "ru": "Ткань  F97"
+    },
+    "isNew": false,
+    "images": [],
+    "description": {
+      "ua": "100% поліестер, ВО-МЕМБРАНА Водовідштовхувальна 165г/м.кв",
+      "ru": "100% полиестер, ВО-МЕМБРАНА Водоотталкивающая 165г/м.кв"
+    },
+    "attributes": {
+      "fabricType": "саржа",
+      "density": "165",
+      "width": "150",
+      "colors": [],
+      "properties": [],
+      "composition": {
+        "cotton": 0,
+        "polyester": 100,
+        "spandex": 0,
+        "rayon": 0,
+        "viscose": 0,
+        "pbt": 0,
+        "lyon": 0,
+        "linen": 0,
+        "polyamide": 0,
+        "polypropylene": 0,
+        "paraAramid": 0,
+        "nylon": 0,
+        "mac": 0,
+        "pu": 0,
+        "antistatic": 0,
+        "Modacrylic/Lyocell/Static-Control™": 0,
+        "Nomex®/Kevlar®/Anti-Static": 0,
+        "Nomex®/Para-Aramid/p140": 0,
+        "PBI®/Kevlar®/Antistatic": 0,
+        "Lenzing FR®/Aramid": 0,
+        "Para-aramid/Solid polymer coating": 0,
+        "FR Rayon/пара-арамід/поліамід/антистатик": 0
+      }
+    }
+  },
+  {
+    "id": "tkan-jackets-5297",
+    "category": "jackets",
+    "slug": "tkan-jackets-5297",
+    "title": {
+      "ua": "Тканина  5297",
+      "ru": "Ткань  5297"
+    },
+    "isNew": false,
+    "images": [],
+    "description": {
+      "ua": "100% поліестер, ВО-МЕМБРАНА  Водовідштовхувальна 220г/м.кв",
+      "ru": "100% полиестер, ВО-МЕМБРАНА  Водоотталкивающая 220г/м.кв"
+    },
+    "attributes": {
+      "fabricType": "полотно",
+      "density": "220",
+      "width": "143",
+      "colors": [],
+      "properties": [],
+      "composition": {
+        "cotton": 0,
+        "polyester": 100,
+        "spandex": 0,
+        "rayon": 0,
+        "viscose": 0,
+        "pbt": 0,
+        "lyon": 0,
+        "linen": 0,
+        "polyamide": 0,
+        "polypropylene": 0,
+        "paraAramid": 0,
+        "nylon": 0,
+        "mac": 0,
+        "pu": 0,
+        "antistatic": 0,
+        "Modacrylic/Lyocell/Static-Control™": 0,
+        "Nomex®/Kevlar®/Anti-Static": 0,
+        "Nomex®/Para-Aramid/p140": 0,
+        "PBI®/Kevlar®/Antistatic": 0,
+        "Lenzing FR®/Aramid": 0,
+        "Para-aramid/Solid polymer coating": 0,
+        "FR Rayon/пара-арамід/поліамід/антистатик": 0
+      }
+    }
+  },
+  {
+    "id": "tkan-jackets-5537",
+    "category": "jackets",
+    "slug": "tkan-jackets-5537",
+    "title": {
+      "ua": "Тканина 5537",
+      "ru": "Ткань 5537"
+    },
+    "isNew": false,
+    "images": [],
+    "description": {
+      "ua": "100% поліестер,  ВО-МЕМБРАНА Водовідштовхувальна 220г/м.кв",
+      "ru": "100% полиестер,  ВО-МЕМБРАНА Водоотталкивающая 220г/м.кв"
+    },
+    "attributes": {
+      "fabricType": "полотно",
+      "density": "220",
+      "width": "144",
+      "colors": [],
+      "properties": [],
+      "composition": {
+        "cotton": 0,
+        "polyester": 100,
+        "spandex": 0,
+        "rayon": 0,
+        "viscose": 0,
+        "pbt": 0,
+        "lyon": 0,
+        "linen": 0,
+        "polyamide": 0,
+        "polypropylene": 0,
+        "paraAramid": 0,
+        "nylon": 0,
+        "mac": 0,
+        "pu": 0,
+        "antistatic": 0,
+        "Modacrylic/Lyocell/Static-Control™": 0,
+        "Nomex®/Kevlar®/Anti-Static": 0,
+        "Nomex®/Para-Aramid/p140": 0,
+        "PBI®/Kevlar®/Antistatic": 0,
+        "Lenzing FR®/Aramid": 0,
+        "Para-aramid/Solid polymer coating": 0,
+        "FR Rayon/пара-арамід/поліамід/антистатик": 0
+      }
+    }
+  },
+  {
+    "id": "tkan-jackets-3637",
+    "category": "jackets",
+    "slug": "tkan-jackets-3637",
+    "title": {
+      "ua": "Тканина 3637 ",
+      "ru": "Ткань 3637 "
+    },
+    "isNew": false,
+    "images": [],
+    "description": {
+      "ua": "100% поліестер,  ВО-МЕМБРАНА  Водовідштовхувальна 240г/м.кв",
+      "ru": "100% полиестер,  ВО-МЕМБРАНА  Водоотталкивающая 240г/м.кв"
+    },
+    "attributes": {
+      "fabricType": "полотно",
+      "density": "240",
+      "width": "148",
+      "colors": [],
+      "properties": [],
+      "composition": {
+        "cotton": 0,
+        "polyester": 100,
+        "spandex": 0,
+        "rayon": 0,
+        "viscose": 0,
+        "pbt": 0,
+        "lyon": 0,
+        "linen": 0,
+        "polyamide": 0,
+        "polypropylene": 0,
+        "paraAramid": 0,
+        "nylon": 0,
+        "mac": 0,
+        "pu": 0,
+        "antistatic": 0,
+        "Modacrylic/Lyocell/Static-Control™": 0,
+        "Nomex®/Kevlar®/Anti-Static": 0,
+        "Nomex®/Para-Aramid/p140": 0,
+        "PBI®/Kevlar®/Antistatic": 0,
+        "Lenzing FR®/Aramid": 0,
+        "Para-aramid/Solid polymer coating": 0,
+        "FR Rayon/пара-арамід/поліамід/антистатик": 0
+      }
+    }
+  },
+  {
+    "id": "tkan-jackets-3188",
+    "category": "jackets",
+    "slug": "tkan-jackets-3188",
+    "title": {
+      "ua": "Тканина 3188",
+      "ru": "Ткань 3188"
+    },
+    "isNew": false,
+    "images": [],
+    "description": {
+      "ua": "75% бавовна, 24% поліестер, 1% антистат,  ВО Водовідштовхувальна 300г/м.кв",
+      "ru": "75% хлопок, 24% полиестер, 1% антистатик,  ВО Водоотталкивающая 300г/м.кв"
+    },
+    "attributes": {
+      "fabricType": "саржа",
+      "density": "300",
+      "width": "150",
+      "colors": [],
+      "properties": [],
+      "composition": {
+        "cotton": 75,
+        "polyester": 24,
+        "spandex": 0,
+        "rayon": 0,
+        "viscose": 0,
+        "pbt": 0,
+        "lyon": 0,
+        "linen": 0,
+        "polyamide": 0,
+        "polypropylene": 0,
+        "paraAramid": 0,
+        "nylon": 0,
+        "mac": 0,
+        "pu": 0,
+        "antistatic": 1,
+        "Modacrylic/Lyocell/Static-Control™": 0,
+        "Nomex®/Kevlar®/Anti-Static": 0,
+        "Nomex®/Para-Aramid/p140": 0,
+        "PBI®/Kevlar®/Antistatic": 0,
+        "Lenzing FR®/Aramid": 0,
+        "Para-aramid/Solid polymer coating": 0,
+        "FR Rayon/пара-арамід/поліамід/антистатик": 0
+      }
+    }
+  }
+]

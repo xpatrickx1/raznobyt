@@ -18,6 +18,10 @@ export const OPTIONAL_OPTIONS = [
     { id: 'Nomex®/Para-Aramid/p140', label: 'Nomex®/Para-Aramid/p140', labelRu: 'Nomex®/Para-Aramid/p140' },
 ];
 
+export const getCompositionOption = (id) => {
+    return COMPOSITION_OPTIONS.find(o => o.id === id) || OPTIONAL_OPTIONS.find(o => o.id === id);
+};
+
 export const formatComposition = (compObj, lang) => {
     if (!compObj) return '';
     if (typeof compObj === 'string') return compObj;

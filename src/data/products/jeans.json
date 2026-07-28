@@ -1,0 +1,232 @@
+[
+  {
+    "id": "tkan-jeans-washed-denim-stretch",
+    "category": "jeans",
+    "slug": "tkan-jeans-washed-denim-stretch",
+    "title": {
+      "ua": "Тканина WASHED DENIM STRETCH",
+      "ru": "ткань WASHED DENIM STRETCH"
+    },
+    "isNew": false,
+    "images": [],
+    "description": {
+      "ua": "80% бавовна,  18% поліестер,  2% стрейч,  300 г/м.кв,  саржа,  145см",
+      "ru": "80% хлопок,  18% полиестер,  2% стрейч,  300 г/м.кв,  саржа,  145см"
+    },
+    "attributes": {
+      "fabricType": "саржа",
+      "density": "300",
+      "width": "150",
+      "colors": [],
+      "properties": [],
+      "composition": {
+        "cotton": 80,
+        "polyester": 18,
+        "spandex": 2,
+        "rayon": 0,
+        "viscose": 0,
+        "pbt": 0,
+        "lyon": 0,
+        "linen": 0,
+        "polyamide": 0,
+        "polypropylene": 0,
+        "paraAramid": 0,
+        "nylon": 0,
+        "mac": 0,
+        "pu": 0,
+        "antistatic": 0,
+        "Modacrylic/Lyocell/Static-Control™": 0,
+        "Nomex®/Kevlar®/Anti-Static": 0,
+        "Nomex®/Para-Aramid/p140": 0,
+        "PBI®/Kevlar®/Antistatic": 0,
+        "Lenzing FR®/Aramid": 0,
+        "Para-aramid/Solid polymer coating": 0,
+        "FR Rayon/пара-арамід/поліамід/антистатик": 0
+      }
+    }
+  },
+  {
+    "id": "tkan-jeans-washed-jeans",
+    "category": "jeans",
+    "slug": "tkan-jeans-washed-jeans",
+    "title": {
+      "ua": "Тканина WASHED JEANS",
+      "ru": "ткань WASHED JEANS"
+    },
+    "isNew": false,
+    "images": [],
+    "description": {
+      "ua": "100% бавовна,  270 г/м.кв,  саржв,  150см",
+      "ru": "100% хлопок,  270 г/м.кв,  саржв,  150см"
+    },
+    "attributes": {
+      "fabricType": "саржа",
+      "density": "270",
+      "width": "150",
+      "colors": [],
+      "properties": [],
+      "composition": {
+        "cotton": 100,
+        "polyester": 0,
+        "spandex": 0,
+        "rayon": 0,
+        "viscose": 0,
+        "pbt": 0,
+        "lyon": 0,
+        "linen": 0,
+        "polyamide": 0,
+        "polypropylene": 0,
+        "paraAramid": 0,
+        "nylon": 0,
+        "mac": 0,
+        "pu": 0,
+        "antistatic": 0,
+        "Modacrylic/Lyocell/Static-Control™": 0,
+        "Nomex®/Kevlar®/Anti-Static": 0,
+        "Nomex®/Para-Aramid/p140": 0,
+        "PBI®/Kevlar®/Antistatic": 0,
+        "Lenzing FR®/Aramid": 0,
+        "Para-aramid/Solid polymer coating": 0,
+        "FR Rayon/пара-арамід/поліамід/антистатик": 0
+      }
+    }
+  },
+  {
+    "id": "tkan-jeans-3928",
+    "category": "jeans",
+    "slug": "tkan-jeans-3928",
+    "title": {
+      "ua": "Тканина 3928",
+      "ru": "ткань 3928"
+    },
+    "isNew": false,
+    "images": [],
+    "description": {
+      "ua": "48% бавовна,  48% поліестер,  4% стрейч,  280 г/м.кв,  саржа,  140см",
+      "ru": "48% хлопок,  48% полиестер,  4% стрейч,  280 г/м.кв,  саржа,  140см"
+    },
+    "attributes": {
+      "fabricType": "саржа",
+      "density": "280",
+      "width": "150",
+      "colors": [],
+      "properties": [],
+      "composition": {
+        "cotton": 48,
+        "polyester": 48,
+        "spandex": 4,
+        "rayon": 0,
+        "viscose": 0,
+        "pbt": 0,
+        "lyon": 0,
+        "linen": 0,
+        "polyamide": 0,
+        "polypropylene": 0,
+        "paraAramid": 0,
+        "nylon": 0,
+        "mac": 0,
+        "pu": 0,
+        "antistatic": 0,
+        "Modacrylic/Lyocell/Static-Control™": 0,
+        "Nomex®/Kevlar®/Anti-Static": 0,
+        "Nomex®/Para-Aramid/p140": 0,
+        "PBI®/Kevlar®/Antistatic": 0,
+        "Lenzing FR®/Aramid": 0,
+        "Para-aramid/Solid polymer coating": 0,
+        "FR Rayon/пара-арамід/поліамід/антистатик": 0
+      }
+    }
+  },
+  {
+    "id": "tkan-jeans-138",
+    "category": "jeans",
+    "slug": "tkan-jeans-138",
+    "title": {
+      "ua": "Тканина Т138",
+      "ru": "ткань Т138"
+    },
+    "isNew": false,
+    "images": [],
+    "description": {
+      "ua": "35% бавовна,  65% поліестер,  230 г/м.кв,  саржа,  150см",
+      "ru": "35% хлопок,  65% полиестер,  230 г/м.кв,  саржа,  150см"
+    },
+    "attributes": {
+      "fabricType": "саржа",
+      "density": "230",
+      "width": "150",
+      "colors": [],
+      "properties": [],
+      "composition": {
+        "cotton": 35,
+        "polyester": 65,
+        "spandex": 0,
+        "rayon": 0,
+        "viscose": 0,
+        "pbt": 0,
+        "lyon": 0,
+        "linen": 0,
+        "polyamide": 0,
+        "polypropylene": 0,
+        "paraAramid": 0,
+        "nylon": 0,
+        "mac": 0,
+        "pu": 0,
+        "antistatic": 0,
+        "Modacrylic/Lyocell/Static-Control™": 0,
+        "Nomex®/Kevlar®/Anti-Static": 0,
+        "Nomex®/Para-Aramid/p140": 0,
+        "PBI®/Kevlar®/Antistatic": 0,
+        "Lenzing FR®/Aramid": 0,
+        "Para-aramid/Solid polymer coating": 0,
+        "FR Rayon/пара-арамід/поліамід/антистатик": 0
+      }
+    }
+  },
+  {
+    "id": "tkan-jeans-144",
+    "category": "jeans",
+    "slug": "tkan-jeans-144",
+    "title": {
+      "ua": "Тканина Т144",
+      "ru": "ткань Т144"
+    },
+    "isNew": false,
+    "images": [],
+    "description": {
+      "ua": "35% бавовна,  65% поліестер,  220 г/м.кв,  саржа,  150см",
+      "ru": "35% хлопок,  65% полиестер,  220 г/м.кв,  саржа,  150см"
+    },
+    "attributes": {
+      "fabricType": "саржа",
+      "density": "220",
+      "width": "150",
+      "colors": [],
+      "properties": [],
+      "composition": {
+        "cotton": 35,
+        "polyester": 65,
+        "spandex": 0,
+        "rayon": 0,
+        "viscose": 0,
+        "pbt": 0,
+        "lyon": 0,
+        "linen": 0,
+        "polyamide": 0,
+        "polypropylene": 0,
+        "paraAramid": 0,
+        "nylon": 0,
+        "mac": 0,
+        "pu": 0,
+        "antistatic": 0,
+        "Modacrylic/Lyocell/Static-Control™": 0,
+        "Nomex®/Kevlar®/Anti-Static": 0,
+        "Nomex®/Para-Aramid/p140": 0,
+        "PBI®/Kevlar®/Antistatic": 0,
+        "Lenzing FR®/Aramid": 0,
+        "Para-aramid/Solid polymer coating": 0,
+        "FR Rayon/пара-арамід/поліамід/антистатик": 0
+      }
+    }
+  }
+]

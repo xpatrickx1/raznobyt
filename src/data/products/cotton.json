@@ -1,0 +1,782 @@
+[
+  {
+    "id": "tkan-cotton-rc250ct",
+    "category": "cotton",
+    "slug": "tkan-cotton-rc250ct",
+    "title": {
+      "ua": "Тканина RC250CT",
+      "ru": "Ткань RC250CT"
+    },
+    "isNew": false,
+    "images": [],
+    "description": {
+      "ua": "100% бававна,  250г/м.кв,  саржа,  150см,",
+      "ru": "100% хлопок,  250г/м.кв,  саржа,  150см,"
+    },
+    "attributes": {
+      "fabricType": "саржа",
+      "density": "250",
+      "width": "150",
+      "colors": [
+        "чорний",
+        "білий",
+        "червоний",
+        "жовтий",
+        "синій"
+      ],
+      "properties": [],
+      "composition": {
+        "cotton": 100,
+        "polyester": 0,
+        "spandex": 0,
+        "rayon": 0,
+        "viscose": 0,
+        "pbt": 0,
+        "lyon": 0,
+        "linen": 0,
+        "polyamide": 0,
+        "polypropylene": 0,
+        "paraAramid": 0,
+        "nylon": 0,
+        "mac": 0,
+        "pu": 0,
+        "antistatic": 0,
+        "Modacrylic/Lyocell/Static-Control™": 0,
+        "Nomex®/Kevlar®/Anti-Static": 0,
+        "Nomex®/Para-Aramid/p140": 0,
+        "PBI®/Kevlar®/Antistatic": 0,
+        "Lenzing FR®/Aramid": 0,
+        "Para-aramid/Solid polymer coating": 0,
+        "FR Rayon/пара-арамід/поліамід/антистатик": 0
+      }
+    }
+  },
+  {
+    "id": "tkan-cotton-bd-22",
+    "category": "cotton",
+    "slug": "tkan-cotton-bd-22",
+    "title": {
+      "ua": "Тканина BD-22",
+      "ru": "Ткань BD-22"
+    },
+    "isNew": false,
+    "images": [],
+    "description": {
+      "ua": "100% бавовна,  245г/м.кв,  саржа,  150см",
+      "ru": "100% хлопок,  245г/м.кв,  саржа,  150см"
+    },
+    "attributes": {
+      "fabricType": "саржа",
+      "density": "245",
+      "width": "150",
+      "colors": [
+        "чорний",
+        "білий",
+        "червоний",
+        "жовтий",
+        "синій"
+      ],
+      "properties": [],
+      "composition": {
+        "cotton": 100,
+        "polyester": 0,
+        "spandex": 0,
+        "rayon": 0,
+        "viscose": 0,
+        "pbt": 0,
+        "lyon": 0,
+        "linen": 0,
+        "polyamide": 0,
+        "polypropylene": 0,
+        "paraAramid": 0,
+        "nylon": 0,
+        "mac": 0,
+        "pu": 0,
+        "antistatic": 0,
+        "Modacrylic/Lyocell/Static-Control™": 0,
+        "Nomex®/Kevlar®/Anti-Static": 0,
+        "Nomex®/Para-Aramid/p140": 0,
+        "PBI®/Kevlar®/Antistatic": 0,
+        "Lenzing FR®/Aramid": 0,
+        "Para-aramid/Solid polymer coating": 0,
+        "FR Rayon/пара-арамід/поліамід/антистатик": 0
+      }
+    }
+  },
+  {
+    "id": "tkan-cotton-ct-1666",
+    "category": "cotton",
+    "slug": "tkan-cotton-ct-1666",
+    "title": {
+      "ua": "Тканина CT 1666",
+      "ru": " Ткань CT 1666"
+    },
+    "isNew": false,
+    "images": [],
+    "description": {
+      "ua": "100% бавоана,  240г/м.кв,  саржа,  150см",
+      "ru": "100% хлопок,  240г/м.кв,  саржа,  150см"
+    },
+    "attributes": {
+      "fabricType": "саржа",
+      "density": "240",
+      "width": "150",
+      "colors": [
+        "чорний",
+        "білий",
+        "червоний",
+        "жовтий",
+        "синій"
+      ],
+      "properties": [],
+      "composition": {
+        "cotton": 100,
+        "polyester": 0,
+        "spandex": 0,
+        "rayon": 0,
+        "viscose": 0,
+        "pbt": 0,
+        "lyon": 0,
+        "linen": 0,
+        "polyamide": 0,
+        "polypropylene": 0,
+        "paraAramid": 0,
+        "nylon": 0,
+        "mac": 0,
+        "pu": 0,
+        "antistatic": 0,
+        "Modacrylic/Lyocell/Static-Control™": 0,
+        "Nomex®/Kevlar®/Anti-Static": 0,
+        "Nomex®/Para-Aramid/p140": 0,
+        "PBI®/Kevlar®/Antistatic": 0,
+        "Lenzing FR®/Aramid": 0,
+        "Para-aramid/Solid polymer coating": 0,
+        "FR Rayon/пара-арамід/поліамід/антистатик": 0
+      }
+    }
+  },
+  {
+    "id": "tkan-cotton-l-859",
+    "category": "cotton",
+    "slug": "tkan-cotton-l-859",
+    "title": {
+      "ua": "Тканина  L 859",
+      "ru": "Ткань  L 859"
+    },
+    "isNew": false,
+    "images": [],
+    "description": {
+      "ua": "100% бавоана,  232 г/м.кв,  полотно,  150см",
+      "ru": "100% хлопок,  232г/м.кв,  полотно,  150см"
+    },
+    "attributes": {
+      "fabricType": "полотно",
+      "density": "232",
+      "width": "150",
+      "colors": [
+        "чорний",
+        "білий",
+        "червоний",
+        "жовтий",
+        "синій"
+      ],
+      "properties": [],
+      "composition": {
+        "cotton": 100,
+        "polyester": 0,
+        "spandex": 0,
+        "rayon": 0,
+        "viscose": 0,
+        "pbt": 0,
+        "lyon": 0,
+        "linen": 0,
+        "polyamide": 0,
+        "polypropylene": 0,
+        "paraAramid": 0,
+        "nylon": 0,
+        "mac": 0,
+        "pu": 0,
+        "antistatic": 0,
+        "Modacrylic/Lyocell/Static-Control™": 0,
+        "Nomex®/Kevlar®/Anti-Static": 0,
+        "Nomex®/Para-Aramid/p140": 0,
+        "PBI®/Kevlar®/Antistatic": 0,
+        "Lenzing FR®/Aramid": 0,
+        "Para-aramid/Solid polymer coating": 0,
+        "FR Rayon/пара-арамід/поліамід/антистатик": 0
+      }
+    }
+  },
+  {
+    "id": "tkan-cotton-l-389",
+    "category": "cotton",
+    "slug": "tkan-cotton-l-389",
+    "title": {
+      "ua": "Тканина L 389",
+      "ru": "Ткань L 389"
+    },
+    "isNew": false,
+    "images": [],
+    "description": {
+      "ua": "100% бавовна,  260г/м.кв,  складне,  150см",
+      "ru": "100% хлопок, 260г/м.кв,  сложное,  150см"
+    },
+    "attributes": {
+      "fabricType": "складне",
+      "density": "260",
+      "width": "150",
+      "colors": [
+        "чорний",
+        "білий",
+        "червоний",
+        "жовтий",
+        "синій"
+      ],
+      "properties": [],
+      "composition": {
+        "cotton": 100,
+        "polyester": 0,
+        "spandex": 0,
+        "rayon": 0,
+        "viscose": 0,
+        "pbt": 0,
+        "lyon": 0,
+        "linen": 0,
+        "polyamide": 0,
+        "polypropylene": 0,
+        "paraAramid": 0,
+        "nylon": 0,
+        "mac": 0,
+        "pu": 0,
+        "antistatic": 0,
+        "Modacrylic/Lyocell/Static-Control™": 0,
+        "Nomex®/Kevlar®/Anti-Static": 0,
+        "Nomex®/Para-Aramid/p140": 0,
+        "PBI®/Kevlar®/Antistatic": 0,
+        "Lenzing FR®/Aramid": 0,
+        "Para-aramid/Solid polymer coating": 0,
+        "FR Rayon/пара-арамід/поліамід/антистатик": 0
+      }
+    }
+  },
+  {
+    "id": "tkan-cotton-6584",
+    "category": "cotton",
+    "slug": "tkan-cotton-6584",
+    "title": {
+      "ua": "Тканина  6584",
+      "ru": "Ткань  6584"
+    },
+    "isNew": false,
+    "images": [],
+    "description": {
+      "ua": "100% бавовна,  390г/м.кв,  саржа,  150см",
+      "ru": "100% хлопок, 390г/м.кв,  саржа,  150см"
+    },
+    "attributes": {
+      "fabricType": "саржа",
+      "density": "390",
+      "width": "150",
+      "colors": [
+        "чорний",
+        "білий",
+        "червоний",
+        "жовтий",
+        "синій"
+      ],
+      "properties": [],
+      "composition": {
+        "cotton": 100,
+        "polyester": 0,
+        "spandex": 0,
+        "rayon": 0,
+        "viscose": 0,
+        "pbt": 0,
+        "lyon": 0,
+        "linen": 0,
+        "polyamide": 0,
+        "polypropylene": 0,
+        "paraAramid": 0,
+        "nylon": 0,
+        "mac": 0,
+        "pu": 0,
+        "antistatic": 0,
+        "Modacrylic/Lyocell/Static-Control™": 0,
+        "Nomex®/Kevlar®/Anti-Static": 0,
+        "Nomex®/Para-Aramid/p140": 0,
+        "PBI®/Kevlar®/Antistatic": 0,
+        "Lenzing FR®/Aramid": 0,
+        "Para-aramid/Solid polymer coating": 0,
+        "FR Rayon/пара-арамід/поліамід/антистатик": 0
+      }
+    }
+  },
+  {
+    "id": "tkan-cotton-6585",
+    "category": "cotton",
+    "slug": "tkan-cotton-6585",
+    "title": {
+      "ua": "Тканина  6585",
+      "ru": "Ткань  6585"
+    },
+    "isNew": false,
+    "images": [],
+    "description": {
+      "ua": "100% бавовна,  390г/м.кв,  саржа,  150см",
+      "ru": "100% хлопок, 390г/м.кв,  саржа,  150см"
+    },
+    "attributes": {
+      "fabricType": "саржа",
+      "density": "390",
+      "width": "150",
+      "colors": [
+        "чорний",
+        "білий",
+        "червоний",
+        "жовтий",
+        "синій"
+      ],
+      "properties": [],
+      "composition": {
+        "cotton": 100,
+        "polyester": 0,
+        "spandex": 0,
+        "rayon": 0,
+        "viscose": 0,
+        "pbt": 0,
+        "lyon": 0,
+        "linen": 0,
+        "polyamide": 0,
+        "polypropylene": 0,
+        "paraAramid": 0,
+        "nylon": 0,
+        "mac": 0,
+        "pu": 0,
+        "antistatic": 0,
+        "Modacrylic/Lyocell/Static-Control™": 0,
+        "Nomex®/Kevlar®/Anti-Static": 0,
+        "Nomex®/Para-Aramid/p140": 0,
+        "PBI®/Kevlar®/Antistatic": 0,
+        "Lenzing FR®/Aramid": 0,
+        "Para-aramid/Solid polymer coating": 0,
+        "FR Rayon/пара-арамід/поліамід/антистатик": 0
+      }
+    }
+  },
+  {
+    "id": "tkan-cotton-9060",
+    "category": "cotton",
+    "slug": "tkan-cotton-9060",
+    "title": {
+      "ua": "Тканина 9060",
+      "ru": "Ткань 9060"
+    },
+    "isNew": false,
+    "images": [],
+    "description": {
+      "ua": "100% бавовна,  250г/м.кв,  канвас,  150см",
+      "ru": "100% хлопок,  250г/м.кв,  канвас,  150см"
+    },
+    "attributes": {
+      "fabricType": "канвас",
+      "density": "250",
+      "width": "150",
+      "colors": [
+        "чорний",
+        "білий",
+        "червоний",
+        "жовтий",
+        "синій"
+      ],
+      "properties": [],
+      "composition": {
+        "cotton": 100,
+        "polyester": 0,
+        "spandex": 0,
+        "rayon": 0,
+        "viscose": 0,
+        "pbt": 0,
+        "lyon": 0,
+        "linen": 0,
+        "polyamide": 0,
+        "polypropylene": 0,
+        "paraAramid": 0,
+        "nylon": 0,
+        "mac": 0,
+        "pu": 0,
+        "antistatic": 0,
+        "Modacrylic/Lyocell/Static-Control™": 0,
+        "Nomex®/Kevlar®/Anti-Static": 0,
+        "Nomex®/Para-Aramid/p140": 0,
+        "PBI®/Kevlar®/Antistatic": 0,
+        "Lenzing FR®/Aramid": 0,
+        "Para-aramid/Solid polymer coating": 0,
+        "FR Rayon/пара-арамід/поліамід/антистатик": 0
+      }
+    }
+  },
+  {
+    "id": "tkan-cotton-canvas",
+    "category": "cotton",
+    "slug": "tkan-cotton-canvas",
+    "title": {
+      "ua": "Тканина CANVAS",
+      "ru": "Ткань CANVAS"
+    },
+    "isNew": false,
+    "images": [],
+    "description": {
+      "ua": "100% бавовна,  350г/м.кв,  канвас,  150см",
+      "ru": "100% хлопок, 350г/м.кв,  канвас,  150см"
+    },
+    "attributes": {
+      "fabricType": "канвас",
+      "density": "350",
+      "width": "150",
+      "colors": [
+        "чорний",
+        "білий",
+        "червоний",
+        "жовтий",
+        "синій"
+      ],
+      "properties": [],
+      "composition": {
+        "cotton": 100,
+        "polyester": 0,
+        "spandex": 0,
+        "rayon": 0,
+        "viscose": 0,
+        "pbt": 0,
+        "lyon": 0,
+        "linen": 0,
+        "polyamide": 0,
+        "polypropylene": 0,
+        "paraAramid": 0,
+        "nylon": 0,
+        "mac": 0,
+        "pu": 0,
+        "antistatic": 0,
+        "Modacrylic/Lyocell/Static-Control™": 0,
+        "Nomex®/Kevlar®/Anti-Static": 0,
+        "Nomex®/Para-Aramid/p140": 0,
+        "PBI®/Kevlar®/Antistatic": 0,
+        "Lenzing FR®/Aramid": 0,
+        "Para-aramid/Solid polymer coating": 0,
+        "FR Rayon/пара-арамід/поліамід/антистатик": 0
+      }
+    }
+  },
+  {
+    "id": "tkan-cotton-9170",
+    "category": "cotton",
+    "slug": "tkan-cotton-9170",
+    "title": {
+      "ua": "Тканина 9170",
+      "ru": "Ткань 9170"
+    },
+    "isNew": false,
+    "images": [],
+    "description": {
+      "ua": "100% бавовна,  260г/м.кв,  саржа,  148см",
+      "ru": "100% хлопок, 260г/м.кв,  саржа,  148см"
+    },
+    "attributes": {
+      "fabricType": "саржа",
+      "density": "260",
+      "width": "148",
+      "colors": [
+        "чорний",
+        "білий",
+        "червоний",
+        "жовтий",
+        "синій"
+      ],
+      "properties": [],
+      "composition": {
+        "cotton": 100,
+        "polyester": 0,
+        "spandex": 0,
+        "rayon": 0,
+        "viscose": 0,
+        "pbt": 0,
+        "lyon": 0,
+        "linen": 0,
+        "polyamide": 0,
+        "polypropylene": 0,
+        "paraAramid": 0,
+        "nylon": 0,
+        "mac": 0,
+        "pu": 0,
+        "antistatic": 0,
+        "Modacrylic/Lyocell/Static-Control™": 0,
+        "Nomex®/Kevlar®/Anti-Static": 0,
+        "Nomex®/Para-Aramid/p140": 0,
+        "PBI®/Kevlar®/Antistatic": 0,
+        "Lenzing FR®/Aramid": 0,
+        "Para-aramid/Solid polymer coating": 0,
+        "FR Rayon/пара-арамід/поліамід/антистатик": 0
+      }
+    }
+  },
+  {
+    "id": "tkan-cotton-22005",
+    "category": "cotton",
+    "slug": "tkan-cotton-22005",
+    "title": {
+      "ua": "Тканина  22005",
+      "ru": "Ткань  22005"
+    },
+    "isNew": false,
+    "images": [],
+    "description": {
+      "ua": "100% бавовна,  300г/м.кв,  саржа,  149см",
+      "ru": "100% хлопок,  300г/м.кв,  саржа,  149см"
+    },
+    "attributes": {
+      "fabricType": "саржа",
+      "density": "300",
+      "width": "149",
+      "colors": [
+        "чорний",
+        "білий",
+        "червоний",
+        "жовтий",
+        "синій"
+      ],
+      "properties": [],
+      "composition": {
+        "cotton": 100,
+        "polyester": 0,
+        "spandex": 0,
+        "rayon": 0,
+        "viscose": 0,
+        "pbt": 0,
+        "lyon": 0,
+        "linen": 0,
+        "polyamide": 0,
+        "polypropylene": 0,
+        "paraAramid": 0,
+        "nylon": 0,
+        "mac": 0,
+        "pu": 0,
+        "antistatic": 0,
+        "Modacrylic/Lyocell/Static-Control™": 0,
+        "Nomex®/Kevlar®/Anti-Static": 0,
+        "Nomex®/Para-Aramid/p140": 0,
+        "PBI®/Kevlar®/Antistatic": 0,
+        "Lenzing FR®/Aramid": 0,
+        "Para-aramid/Solid polymer coating": 0,
+        "FR Rayon/пара-арамід/поліамід/антистатик": 0
+      }
+    }
+  },
+  {
+    "id": "tkan-cotton-6631",
+    "category": "cotton",
+    "slug": "tkan-cotton-6631",
+    "title": {
+      "ua": "Тканина 6631",
+      "ru": "Ткань 6631"
+    },
+    "isNew": false,
+    "images": [],
+    "description": {
+      "ua": "100% бавовна,  375г/м.кв,  саржа,   148см",
+      "ru": "100% хлопок, 375г/м.кв,  саржа,   148см"
+    },
+    "attributes": {
+      "fabricType": "саржа",
+      "density": "375",
+      "width": "148",
+      "colors": [
+        "чорний",
+        "білий",
+        "червоний",
+        "жовтий",
+        "синій"
+      ],
+      "properties": [],
+      "composition": {
+        "cotton": 100,
+        "polyester": 0,
+        "spandex": 0,
+        "rayon": 0,
+        "viscose": 0,
+        "pbt": 0,
+        "lyon": 0,
+        "linen": 0,
+        "polyamide": 0,
+        "polypropylene": 0,
+        "paraAramid": 0,
+        "nylon": 0,
+        "mac": 0,
+        "pu": 0,
+        "antistatic": 0,
+        "Modacrylic/Lyocell/Static-Control™": 0,
+        "Nomex®/Kevlar®/Anti-Static": 0,
+        "Nomex®/Para-Aramid/p140": 0,
+        "PBI®/Kevlar®/Antistatic": 0,
+        "Lenzing FR®/Aramid": 0,
+        "Para-aramid/Solid polymer coating": 0,
+        "FR Rayon/пара-арамід/поліамід/антистатик": 0
+      }
+    }
+  },
+  {
+    "id": "tkan-cotton-919",
+    "category": "cotton",
+    "slug": "tkan-cotton-919",
+    "title": {
+      "ua": "Тканина А919",
+      "ru": "Ткань А919"
+    },
+    "isNew": false,
+    "images": [],
+    "description": {
+      "ua": "100% бавовна,  216г/м.кв,  саржа,  150см",
+      "ru": "100% хлопок, 216г/м.кв,  саржа,  150см"
+    },
+    "attributes": {
+      "fabricType": "саржа",
+      "density": "216",
+      "width": "150",
+      "colors": [
+        "чорний",
+        "білий",
+        "червоний",
+        "жовтий",
+        "синій"
+      ],
+      "properties": [],
+      "composition": {
+        "cotton": 100,
+        "polyester": 0,
+        "spandex": 0,
+        "rayon": 0,
+        "viscose": 0,
+        "pbt": 0,
+        "lyon": 0,
+        "linen": 0,
+        "polyamide": 0,
+        "polypropylene": 0,
+        "paraAramid": 0,
+        "nylon": 0,
+        "mac": 0,
+        "pu": 0,
+        "antistatic": 0,
+        "Modacrylic/Lyocell/Static-Control™": 0,
+        "Nomex®/Kevlar®/Anti-Static": 0,
+        "Nomex®/Para-Aramid/p140": 0,
+        "PBI®/Kevlar®/Antistatic": 0,
+        "Lenzing FR®/Aramid": 0,
+        "Para-aramid/Solid polymer coating": 0,
+        "FR Rayon/пара-арамід/поліамід/антистатик": 0
+      }
+    }
+  },
+  {
+    "id": "tkan-cotton-l927",
+    "category": "cotton",
+    "slug": "tkan-cotton-l927",
+    "title": {
+      "ua": "Тканина L927",
+      "ru": "Ткань L927"
+    },
+    "isNew": false,
+    "images": [],
+    "description": {
+      "ua": "100% бавовна,  213г/м.кв,  полотно,  150см",
+      "ru": "100% хлопок, 213г/м.кв,  полотно,  150см"
+    },
+    "attributes": {
+      "fabricType": "полотно",
+      "density": "213",
+      "width": "150",
+      "colors": [
+        "чорний",
+        "білий",
+        "червоний",
+        "жовтий",
+        "синій"
+      ],
+      "properties": [],
+      "composition": {
+        "cotton": 100,
+        "polyester": 0,
+        "spandex": 0,
+        "rayon": 0,
+        "viscose": 0,
+        "pbt": 0,
+        "lyon": 0,
+        "linen": 0,
+        "polyamide": 0,
+        "polypropylene": 0,
+        "paraAramid": 0,
+        "nylon": 0,
+        "mac": 0,
+        "pu": 0,
+        "antistatic": 0,
+        "Modacrylic/Lyocell/Static-Control™": 0,
+        "Nomex®/Kevlar®/Anti-Static": 0,
+        "Nomex®/Para-Aramid/p140": 0,
+        "PBI®/Kevlar®/Antistatic": 0,
+        "Lenzing FR®/Aramid": 0,
+        "Para-aramid/Solid polymer coating": 0,
+        "FR Rayon/пара-арамід/поліамід/антистатик": 0
+      }
+    }
+  },
+  {
+    "id": "tkan-cotton-4814",
+    "category": "cotton",
+    "slug": "tkan-cotton-4814",
+    "title": {
+      "ua": "Тканина 4814",
+      "ru": "Ткань 4814"
+    },
+    "isNew": false,
+    "images": [],
+    "description": {
+      "ua": "100% бавовна,  164г/м.кв,  полотно,  150см",
+      "ru": "100% хлопок, 164г/м.кв,  полотно,  150см"
+    },
+    "attributes": {
+      "fabricType": "полотно",
+      "density": "164",
+      "width": "150",
+      "colors": [
+        "чорний",
+        "білий",
+        "червоний",
+        "жовтий",
+        "синій"
+      ],
+      "properties": [],
+      "composition": {
+        "cotton": 100,
+        "polyester": 0,
+        "spandex": 0,
+        "rayon": 0,
+        "viscose": 0,
+        "pbt": 0,
+        "lyon": 0,
+        "linen": 0,
+        "polyamide": 0,
+        "polypropylene": 0,
+        "paraAramid": 0,
+        "nylon": 0,
+        "mac": 0,
+        "pu": 0,
+        "antistatic": 0,
+        "Modacrylic/Lyocell/Static-Control™": 0,
+        "Nomex®/Kevlar®/Anti-Static": 0,
+        "Nomex®/Para-Aramid/p140": 0,
+        "PBI®/Kevlar®/Antistatic": 0,
+        "Lenzing FR®/Aramid": 0,
+        "Para-aramid/Solid polymer coating": 0,
+        "FR Rayon/пара-арамід/поліамід/антистатик": 0
+      }
+    }
+  }
+]

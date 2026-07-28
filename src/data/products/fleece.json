@@ -1,0 +1,186 @@
+[
+  {
+    "id": "tkan-fleece--9112",
+    "category": "fleece",
+    "slug": "tkan-fleece--9112",
+    "title": {
+      "ua": "флис 9112",
+      "ru": "флис 9112"
+    },
+    "isNew": false,
+    "images": [],
+    "description": {
+      "ua": "100% поліестер,  250 г/м.кв,  трикотажне,  150см",
+      "ru": "100% полиестер,  250 г/м.кв,  трикотажне,  150см"
+    },
+    "attributes": {
+      "fabricType": "трикотажне",
+      "density": "250",
+      "width": "150",
+      "colors": [],
+      "properties": [],
+      "composition": {
+        "cotton": 0,
+        "polyester": 100,
+        "spandex": 0,
+        "rayon": 0,
+        "viscose": 0,
+        "pbt": 0,
+        "lyon": 0,
+        "linen": 0,
+        "polyamide": 0,
+        "polypropylene": 0,
+        "paraAramid": 0,
+        "nylon": 0,
+        "mac": 0,
+        "pu": 0,
+        "antistatic": 0,
+        "Modacrylic/Lyocell/Static-Control™": 0,
+        "Nomex®/Kevlar®/Anti-Static": 0,
+        "Nomex®/Para-Aramid/p140": 0,
+        "PBI®/Kevlar®/Antistatic": 0,
+        "Lenzing FR®/Aramid": 0,
+        "Para-aramid/Solid polymer coating": 0,
+        "FR Rayon/пара-арамід/поліамід/антистатик": 0
+      }
+    }
+  },
+  {
+    "id": "tkan-fleece--22105",
+    "category": "fleece",
+    "slug": "tkan-fleece--22105",
+    "title": {
+      "ua": "флис 22105",
+      "ru": "флис 22105"
+    },
+    "isNew": false,
+    "images": [],
+    "description": {
+      "ua": "100% поліестер,  250 г/м.кв,  трикотажне,  150см",
+      "ru": "100% полиестер,  250 г/м.кв,  трикотажне,  150см"
+    },
+    "attributes": {
+      "fabricType": "трикотажне",
+      "density": "250",
+      "width": "150",
+      "colors": [],
+      "properties": [],
+      "composition": {
+        "cotton": 0,
+        "polyester": 100,
+        "spandex": 0,
+        "rayon": 0,
+        "viscose": 0,
+        "pbt": 0,
+        "lyon": 0,
+        "linen": 0,
+        "polyamide": 0,
+        "polypropylene": 0,
+        "paraAramid": 0,
+        "nylon": 0,
+        "mac": 0,
+        "pu": 0,
+        "antistatic": 0,
+        "Modacrylic/Lyocell/Static-Control™": 0,
+        "Nomex®/Kevlar®/Anti-Static": 0,
+        "Nomex®/Para-Aramid/p140": 0,
+        "PBI®/Kevlar®/Antistatic": 0,
+        "Lenzing FR®/Aramid": 0,
+        "Para-aramid/Solid polymer coating": 0,
+        "FR Rayon/пара-арамід/поліамід/антистатик": 0
+      }
+    }
+  },
+  {
+    "id": "tkan-fleece--polar-fleece",
+    "category": "fleece",
+    "slug": "tkan-fleece--polar-fleece",
+    "title": {
+      "ua": "флис POLAR FLEECE",
+      "ru": "флис POLAR FLEECE"
+    },
+    "isNew": false,
+    "images": [],
+    "description": {
+      "ua": "100% поліестер,  антипілінг,  270г/м.кв,  150см",
+      "ru": "100% полиестер, антипілінг,  270г/м.кв,  150см"
+    },
+    "attributes": {
+      "fabricType": "трикотажне",
+      "density": "270",
+      "width": "150",
+      "colors": [],
+      "properties": [],
+      "composition": {
+        "cotton": 0,
+        "polyester": 100,
+        "spandex": 0,
+        "rayon": 0,
+        "viscose": 0,
+        "pbt": 0,
+        "lyon": 0,
+        "linen": 0,
+        "polyamide": 0,
+        "polypropylene": 0,
+        "paraAramid": 0,
+        "nylon": 0,
+        "mac": 0,
+        "pu": 0,
+        "antistatic": 0,
+        "Modacrylic/Lyocell/Static-Control™": 0,
+        "Nomex®/Kevlar®/Anti-Static": 0,
+        "Nomex®/Para-Aramid/p140": 0,
+        "PBI®/Kevlar®/Antistatic": 0,
+        "Lenzing FR®/Aramid": 0,
+        "Para-aramid/Solid polymer coating": 0,
+        "FR Rayon/пара-арамід/поліамід/антистатик": 0
+      }
+    }
+  },
+  {
+    "id": "tkan-fleece--4796",
+    "category": "fleece",
+    "slug": "tkan-fleece--4796",
+    "title": {
+      "ua": "флис 4796",
+      "ru": "флис 4796"
+    },
+    "isNew": false,
+    "images": [],
+    "description": {
+      "ua": "100% бавовна,  даблфліс,  260г/м.кв,  трикотажне,  150см",
+      "ru": "100% хлопок,  даблфлис,  260г/м.кв,  трикотажне,  150см"
+    },
+    "attributes": {
+      "fabricType": "трикотажне",
+      "density": "260",
+      "width": "150",
+      "colors": [],
+      "properties": [],
+      "composition": {
+        "cotton": 100,
+        "polyester": 0,
+        "spandex": 0,
+        "rayon": 0,
+        "viscose": 0,
+        "pbt": 0,
+        "lyon": 0,
+        "linen": 0,
+        "polyamide": 0,
+        "polypropylene": 0,
+        "paraAramid": 0,
+        "nylon": 0,
+        "mac": 0,
+        "pu": 0,
+        "antistatic": 0,
+        "Modacrylic/Lyocell/Static-Control™": 0,
+        "Nomex®/Kevlar®/Anti-Static": 0,
+        "Nomex®/Para-Aramid/p140": 0,
+        "PBI®/Kevlar®/Antistatic": 0,
+        "Lenzing FR®/Aramid": 0,
+        "Para-aramid/Solid polymer coating": 0,
+        "FR Rayon/пара-арамід/поліамід/антистатик": 0
+      }
+    }
+  }
+]

@@ -1,50 +1,2900 @@
 [
   {
-    "id": "4",
-    "slug": "tkan-sorochkova-strajp",
-    "title": {
-      "ua": "Тканина сорочкова «Страйп»",
-      "ru": "Ткань сорочечная «Страйп»"
-    },
+    "id": "tkan-shirts-263",
     "category": "shirts",
-    "images": [
-      "https://images.unsplash.com/photo-1620799140408-edc6dcb6d633?w=600&q=80",
-      "https://images.unsplash.com/photo-1602810316693-3667c854239a?w=600&q=80"
-    ],
+    "slug": "tkan-shirts-263",
+    "title": {
+      "ua": "Тканина А263",
+      "ru": "Ткань А263"
+    },
+    "isNew": false,
+    "images": [],
     "description": {
-      "ua": "Елегантна сорочкова тканина з тонкою смужкою. Приємна на дотик, не м'ятеться. Підходить для офісних сорочок та блузок.",
-      "ru": "Элегантная сорочечная ткань с тонкой полоской. Приятная на ощупь, не мнётся. Подходит для офисных рубашек и блузок."
+      "ua": "100%льон  125г/м.кв легка, комфортна, дихаюча, ",
+      "ru": "100%льон  125г/м.кв легкая, комфортная, дышащая, "
     },
     "attributes": {
-      "fabricType": "poplin",
-      "density": "105 г/м²",
-      "width": "140 см",
-      "color": "blue",
-      "composition": "60% бавовна, 40% поліестер"
+      "fabricType": "полотно",
+      "density": "125",
+      "width": "148",
+      "colors": [],
+      "properties": [],
+      "composition": {
+        "cotton": 0,
+        "polyester": 0,
+        "spandex": 0,
+        "rayon": 0,
+        "viscose": 0,
+        "pbt": 0,
+        "lyon": 100,
+        "linen": 0,
+        "polyamide": 0,
+        "polypropylene": 0,
+        "paraAramid": 0,
+        "nylon": 0,
+        "mac": 0,
+        "pu": 0,
+        "antistatic": 0,
+        "Modacrylic/Lyocell/Static-Control™": 0,
+        "Nomex®/Kevlar®/Anti-Static": 0,
+        "Nomex®/Para-Aramid/p140": 0,
+        "PBI®/Kevlar®/Antistatic": 0,
+        "Lenzing FR®/Aramid": 0,
+        "Para-aramid/Solid polymer coating": 0,
+        "FR Rayon/пара-арамід/поліамід/антистатик": 0
+      }
     }
   },
   {
-    "id": "8",
-    "slug": "tkan-sorochkova-oksford",
-    "title": {
-      "ua": "Тканина «Оксфорд» сорочкова",
-      "ru": "Ткань «Оксфорд» сорочечная"
-    },
+    "id": "tkan-shirts-flash-f1",
     "category": "shirts",
-    "images": [
-      "https://images.unsplash.com/photo-1602810316693-3667c854239a?w=600&q=80",
-      "https://images.unsplash.com/photo-1620799140408-edc6dcb6d633?w=600&q=80"
-    ],
+    "slug": "tkan-shirts-flash-f1",
+    "title": {
+      "ua": "Тканина FLASH F1",
+      "ru": "Ткань FLASH F1"
+    },
+    "isNew": false,
+    "images": [],
     "description": {
-      "ua": "Класична тканина «Оксфорд» для класичних сорочок. М'яка, дихаюча, легко пориться.",
-      "ru": "Классическая ткань «Оксфорд» для классических рубашек. Мягкая, дышащая, легко гладится."
+      "ua": "100% льон 120 г/м.кв. легка, комфортна, дихаюча, ",
+      "ru": "100% льон 120 г/м.кв. легкая, комфортная, дышащая, "
     },
     "attributes": {
-      "fabricType": "oxford",
-      "density": "130 г/м²",
-      "width": "140 см",
-      "color": "white",
-      "composition": "70% бавовна, 30% поліестер"
+      "fabricType": "полотно",
+      "density": "120",
+      "width": "148",
+      "colors": [],
+      "properties": [],
+      "composition": {
+        "cotton": 0,
+        "polyester": 0,
+        "spandex": 0,
+        "rayon": 0,
+        "viscose": 0,
+        "pbt": 0,
+        "lyon": 100,
+        "linen": 0,
+        "polyamide": 0,
+        "polypropylene": 0,
+        "paraAramid": 0,
+        "nylon": 0,
+        "mac": 0,
+        "pu": 0,
+        "antistatic": 0,
+        "Modacrylic/Lyocell/Static-Control™": 0,
+        "Nomex®/Kevlar®/Anti-Static": 0,
+        "Nomex®/Para-Aramid/p140": 0,
+        "PBI®/Kevlar®/Antistatic": 0,
+        "Lenzing FR®/Aramid": 0,
+        "Para-aramid/Solid polymer coating": 0,
+        "FR Rayon/пара-арамід/поліамід/антистатик": 0
+      }
+    }
+  },
+  {
+    "id": "tkan-shirts-9327",
+    "category": "shirts",
+    "slug": "tkan-shirts-9327",
+    "title": {
+      "ua": "Тканина 9327",
+      "ru": "Ткань 9327"
+    },
+    "isNew": false,
+    "images": [],
+    "description": {
+      "ua": "100%льон  240 г/м.кв легка, комфортна, дихаюча,  ",
+      "ru": "100%льон  240 г/м.кв легкая, комфортная, дышащая, "
+    },
+    "attributes": {
+      "fabricType": "полотно",
+      "density": "240",
+      "width": "148",
+      "colors": [],
+      "properties": [],
+      "composition": {
+        "cotton": 0,
+        "polyester": 0,
+        "spandex": 0,
+        "rayon": 0,
+        "viscose": 0,
+        "pbt": 0,
+        "lyon": 100,
+        "linen": 0,
+        "polyamide": 0,
+        "polypropylene": 0,
+        "paraAramid": 0,
+        "nylon": 0,
+        "mac": 0,
+        "pu": 0,
+        "antistatic": 0,
+        "Modacrylic/Lyocell/Static-Control™": 0,
+        "Nomex®/Kevlar®/Anti-Static": 0,
+        "Nomex®/Para-Aramid/p140": 0,
+        "PBI®/Kevlar®/Antistatic": 0,
+        "Lenzing FR®/Aramid": 0,
+        "Para-aramid/Solid polymer coating": 0,
+        "FR Rayon/пара-арамід/поліамід/антистатик": 0
+      }
+    }
+  },
+  {
+    "id": "tkan-shirts-linen-viscose",
+    "category": "shirts",
+    "slug": "tkan-shirts-linen-viscose",
+    "title": {
+      "ua": "Тканина LINEN VISCOSE",
+      "ru": "Ткань LINEN VISCOSE"
+    },
+    "isNew": false,
+    "images": [],
+    "description": {
+      "ua": "80%льон, 20% віскоза,  200 г/м.кв легка, комфортна, дихаюча,",
+      "ru": "80%льон, 20% віскоза,  200 г/м.кв легкая, комфортная, дышащая,"
+    },
+    "attributes": {
+      "fabricType": "полотно",
+      "density": "200",
+      "width": "148",
+      "colors": [],
+      "properties": [],
+      "composition": {
+        "cotton": 0,
+        "polyester": 0,
+        "spandex": 0,
+        "rayon": 0,
+        "viscose": 20,
+        "pbt": 0,
+        "lyon": 80,
+        "linen": 0,
+        "polyamide": 0,
+        "polypropylene": 0,
+        "paraAramid": 0,
+        "nylon": 0,
+        "mac": 0,
+        "pu": 0,
+        "antistatic": 0,
+        "Modacrylic/Lyocell/Static-Control™": 0,
+        "Nomex®/Kevlar®/Anti-Static": 0,
+        "Nomex®/Para-Aramid/p140": 0,
+        "PBI®/Kevlar®/Antistatic": 0,
+        "Lenzing FR®/Aramid": 0,
+        "Para-aramid/Solid polymer coating": 0,
+        "FR Rayon/пара-арамід/поліамід/антистатик": 0
+      }
+    }
+  },
+  {
+    "id": "tkan-shirts-02699",
+    "category": "shirts",
+    "slug": "tkan-shirts-02699",
+    "title": {
+      "ua": "Тканина 02699",
+      "ru": "Ткань 02699"
+    },
+    "isNew": false,
+    "images": [],
+    "description": {
+      "ua": "75%льон, 25% бавовна,  230 г/м.кв легка, комфортна, дихаюча,",
+      "ru": "75%льон, 25% бавовна,  230 г/м.кв легкая, комфортная, дышащая,"
+    },
+    "attributes": {
+      "fabricType": "полотно",
+      "density": "230",
+      "width": "148",
+      "colors": [],
+      "properties": [],
+      "composition": {
+        "cotton": 25,
+        "polyester": 0,
+        "spandex": 0,
+        "rayon": 0,
+        "viscose": 0,
+        "pbt": 0,
+        "lyon": 75,
+        "linen": 0,
+        "polyamide": 0,
+        "polypropylene": 0,
+        "paraAramid": 0,
+        "nylon": 0,
+        "mac": 0,
+        "pu": 0,
+        "antistatic": 0,
+        "Modacrylic/Lyocell/Static-Control™": 0,
+        "Nomex®/Kevlar®/Anti-Static": 0,
+        "Nomex®/Para-Aramid/p140": 0,
+        "PBI®/Kevlar®/Antistatic": 0,
+        "Lenzing FR®/Aramid": 0,
+        "Para-aramid/Solid polymer coating": 0,
+        "FR Rayon/пара-арамід/поліамід/антистатик": 0
+      }
+    }
+  },
+  {
+    "id": "tkan-shirts-353",
+    "category": "shirts",
+    "slug": "tkan-shirts-353",
+    "title": {
+      "ua": "Тканина А353",
+      "ru": "Ткань А353"
+    },
+    "isNew": false,
+    "images": [],
+    "description": {
+      "ua": "100% бавовна 118 г/м.кв. легка, комфортна, дихаюча, ",
+      "ru": "100% хлопок 118 г/м.кв. легкая, комфортная, дышащая,"
+    },
+    "attributes": {
+      "fabricType": "саржа",
+      "density": "118",
+      "width": "150",
+      "colors": [],
+      "properties": [],
+      "composition": {
+        "cotton": 100,
+        "polyester": 0,
+        "spandex": 0,
+        "rayon": 0,
+        "viscose": 0,
+        "pbt": 0,
+        "lyon": 0,
+        "linen": 0,
+        "polyamide": 0,
+        "polypropylene": 0,
+        "paraAramid": 0,
+        "nylon": 0,
+        "mac": 0,
+        "pu": 0,
+        "antistatic": 0,
+        "Modacrylic/Lyocell/Static-Control™": 0,
+        "Nomex®/Kevlar®/Anti-Static": 0,
+        "Nomex®/Para-Aramid/p140": 0,
+        "PBI®/Kevlar®/Antistatic": 0,
+        "Lenzing FR®/Aramid": 0,
+        "Para-aramid/Solid polymer coating": 0,
+        "FR Rayon/пара-арамід/поліамід/антистатик": 0
+      }
+    }
+  },
+  {
+    "id": "tkan-shirts-331",
+    "category": "shirts",
+    "slug": "tkan-shirts-331",
+    "title": {
+      "ua": "Тканина А331",
+      "ru": "Ткань А331"
+    },
+    "isNew": false,
+    "images": [],
+    "description": {
+      "ua": "100% бавовна 140 г/м.кв. легка, комфортна, дихаюча,",
+      "ru": "100% хлопок 140 г/м.кв. легкая, комфортная, дышащая,"
+    },
+    "attributes": {
+      "fabricType": "саржа фланель",
+      "density": "140",
+      "width": "150",
+      "colors": [],
+      "properties": [],
+      "composition": {
+        "cotton": 100,
+        "polyester": 0,
+        "spandex": 0,
+        "rayon": 0,
+        "viscose": 0,
+        "pbt": 0,
+        "lyon": 0,
+        "linen": 0,
+        "polyamide": 0,
+        "polypropylene": 0,
+        "paraAramid": 0,
+        "nylon": 0,
+        "mac": 0,
+        "pu": 0,
+        "antistatic": 0,
+        "Modacrylic/Lyocell/Static-Control™": 0,
+        "Nomex®/Kevlar®/Anti-Static": 0,
+        "Nomex®/Para-Aramid/p140": 0,
+        "PBI®/Kevlar®/Antistatic": 0,
+        "Lenzing FR®/Aramid": 0,
+        "Para-aramid/Solid polymer coating": 0,
+        "FR Rayon/пара-арамід/поліамід/антистатик": 0
+      }
+    }
+  },
+  {
+    "id": "tkan-shirts-939",
+    "category": "shirts",
+    "slug": "tkan-shirts-939",
+    "title": {
+      "ua": "Тканина А939",
+      "ru": "Ткань А939"
+    },
+    "isNew": false,
+    "images": [],
+    "description": {
+      "ua": "100% бавовна 258 г/м.кв. легка, комфортна, дихаюча,",
+      "ru": "100% хлопок 258 г/м.кв. легкая, комфортная, дышащая,"
+    },
+    "attributes": {
+      "fabricType": "складне",
+      "density": "258",
+      "width": "150",
+      "colors": [],
+      "properties": [],
+      "composition": {
+        "cotton": 0,
+        "polyester": 0,
+        "spandex": 0,
+        "rayon": 0,
+        "viscose": 0,
+        "pbt": 0,
+        "lyon": 0,
+        "linen": 0,
+        "polyamide": 0,
+        "polypropylene": 0,
+        "paraAramid": 0,
+        "nylon": 0,
+        "mac": 0,
+        "pu": 0,
+        "antistatic": 0,
+        "Modacrylic/Lyocell/Static-Control™": 0,
+        "Nomex®/Kevlar®/Anti-Static": 0,
+        "Nomex®/Para-Aramid/p140": 0,
+        "PBI®/Kevlar®/Antistatic": 0,
+        "Lenzing FR®/Aramid": 0,
+        "Para-aramid/Solid polymer coating": 0,
+        "FR Rayon/пара-арамід/поліамід/антистатик": 0
+      }
+    }
+  },
+  {
+    "id": "tkan-shirts-386",
+    "category": "shirts",
+    "slug": "tkan-shirts-386",
+    "title": {
+      "ua": "Тканина А386",
+      "ru": "Ткань А386"
+    },
+    "isNew": false,
+    "images": [],
+    "description": {
+      "ua": "100% бавовна 100 г/м.кв. легка, комфортна, дихаюча,",
+      "ru": "100% хлопок 100 г/м.кв. легкая, комфортная, дышащая,"
+    },
+    "attributes": {
+      "fabricType": "складне",
+      "density": "100",
+      "width": "150",
+      "colors": [],
+      "properties": [],
+      "composition": {
+        "cotton": 100,
+        "polyester": 0,
+        "spandex": 0,
+        "rayon": 0,
+        "viscose": 0,
+        "pbt": 0,
+        "lyon": 0,
+        "linen": 0,
+        "polyamide": 0,
+        "polypropylene": 0,
+        "paraAramid": 0,
+        "nylon": 0,
+        "mac": 0,
+        "pu": 0,
+        "antistatic": 0,
+        "Modacrylic/Lyocell/Static-Control™": 0,
+        "Nomex®/Kevlar®/Anti-Static": 0,
+        "Nomex®/Para-Aramid/p140": 0,
+        "PBI®/Kevlar®/Antistatic": 0,
+        "Lenzing FR®/Aramid": 0,
+        "Para-aramid/Solid polymer coating": 0,
+        "FR Rayon/пара-арамід/поліамід/антистатик": 0
+      }
+    }
+  },
+  {
+    "id": "tkan-shirts-4664",
+    "category": "shirts",
+    "slug": "tkan-shirts-4664",
+    "title": {
+      "ua": "Тканина 4664",
+      "ru": "Ткань 4664"
+    },
+    "isNew": false,
+    "images": [],
+    "description": {
+      "ua": "100% бавовна 126 г/м.кв. легка, комфортна, дихаюча, ",
+      "ru": "100% хлопок 126 г/м.кв. легкая, комфортная, дышащая,"
+    },
+    "attributes": {
+      "fabricType": "полотно",
+      "density": "126",
+      "width": "150",
+      "colors": [],
+      "properties": [],
+      "composition": {
+        "cotton": 100,
+        "polyester": 0,
+        "spandex": 0,
+        "rayon": 0,
+        "viscose": 0,
+        "pbt": 0,
+        "lyon": 0,
+        "linen": 0,
+        "polyamide": 0,
+        "polypropylene": 0,
+        "paraAramid": 0,
+        "nylon": 0,
+        "mac": 0,
+        "pu": 0,
+        "antistatic": 0,
+        "Modacrylic/Lyocell/Static-Control™": 0,
+        "Nomex®/Kevlar®/Anti-Static": 0,
+        "Nomex®/Para-Aramid/p140": 0,
+        "PBI®/Kevlar®/Antistatic": 0,
+        "Lenzing FR®/Aramid": 0,
+        "Para-aramid/Solid polymer coating": 0,
+        "FR Rayon/пара-арамід/поліамід/антистатик": 0
+      }
+    }
+  },
+  {
+    "id": "tkan-shirts-112",
+    "category": "shirts",
+    "slug": "tkan-shirts-112",
+    "title": {
+      "ua": "Тканина А112",
+      "ru": "Ткань А112"
+    },
+    "isNew": false,
+    "images": [],
+    "description": {
+      "ua": "100% бавовна 120 г/м.кв. легка, комфортна, дихаюча, ",
+      "ru": "100% хлопок 120 г/м.кв. легкая, комфортная, дышащая,"
+    },
+    "attributes": {
+      "fabricType": "полотно",
+      "density": "120",
+      "width": "150",
+      "colors": [],
+      "properties": [],
+      "composition": {
+        "cotton": 100,
+        "polyester": 0,
+        "spandex": 0,
+        "rayon": 0,
+        "viscose": 0,
+        "pbt": 0,
+        "lyon": 0,
+        "linen": 0,
+        "polyamide": 0,
+        "polypropylene": 0,
+        "paraAramid": 0,
+        "nylon": 0,
+        "mac": 0,
+        "pu": 0,
+        "antistatic": 0,
+        "Modacrylic/Lyocell/Static-Control™": 0,
+        "Nomex®/Kevlar®/Anti-Static": 0,
+        "Nomex®/Para-Aramid/p140": 0,
+        "PBI®/Kevlar®/Antistatic": 0,
+        "Lenzing FR®/Aramid": 0,
+        "Para-aramid/Solid polymer coating": 0,
+        "FR Rayon/пара-арамід/поліамід/антистатик": 0
+      }
+    }
+  },
+  {
+    "id": "tkan-shirts-5845",
+    "category": "shirts",
+    "slug": "tkan-shirts-5845",
+    "title": {
+      "ua": "Тканина 5845",
+      "ru": "Ткань 5845"
+    },
+    "isNew": false,
+    "images": [],
+    "description": {
+      "ua": "60% бавовна, 40% поліестр,  106 г/м.кв легка, комфортна, дихаюча,",
+      "ru": "60% бавовна, 40% поліестр,  106 г/м.кв легкая, комфортная, дышащая,"
+    },
+    "attributes": {
+      "fabricType": "полотно",
+      "density": "106",
+      "width": "150",
+      "colors": [],
+      "properties": [],
+      "composition": {
+        "cotton": 60,
+        "polyester": 40,
+        "spandex": 0,
+        "rayon": 0,
+        "viscose": 0,
+        "pbt": 0,
+        "lyon": 0,
+        "linen": 0,
+        "polyamide": 0,
+        "polypropylene": 0,
+        "paraAramid": 0,
+        "nylon": 0,
+        "mac": 0,
+        "pu": 0,
+        "antistatic": 0,
+        "Modacrylic/Lyocell/Static-Control™": 0,
+        "Nomex®/Kevlar®/Anti-Static": 0,
+        "Nomex®/Para-Aramid/p140": 0,
+        "PBI®/Kevlar®/Antistatic": 0,
+        "Lenzing FR®/Aramid": 0,
+        "Para-aramid/Solid polymer coating": 0,
+        "FR Rayon/пара-арамід/поліамід/антистатик": 0
+      }
+    }
+  },
+  {
+    "id": "tkan-shirts-5939",
+    "category": "shirts",
+    "slug": "tkan-shirts-5939",
+    "title": {
+      "ua": "Тканина 5939",
+      "ru": "Ткань 5939"
+    },
+    "isNew": false,
+    "images": [],
+    "description": {
+      "ua": "60% бавовна, 40% поліестр,  110 г/м.кв легка, комфортна, дихаюча,",
+      "ru": "60% бавовна, 40% поліестр,  110 г/м.кв  легкая, комфортная, дышащая,"
+    },
+    "attributes": {
+      "fabricType": "полотно",
+      "density": "110",
+      "width": "150",
+      "colors": [],
+      "properties": [],
+      "composition": {
+        "cotton": 60,
+        "polyester": 40,
+        "spandex": 0,
+        "rayon": 0,
+        "viscose": 0,
+        "pbt": 0,
+        "lyon": 0,
+        "linen": 0,
+        "polyamide": 0,
+        "polypropylene": 0,
+        "paraAramid": 0,
+        "nylon": 0,
+        "mac": 0,
+        "pu": 0,
+        "antistatic": 0,
+        "Modacrylic/Lyocell/Static-Control™": 0,
+        "Nomex®/Kevlar®/Anti-Static": 0,
+        "Nomex®/Para-Aramid/p140": 0,
+        "PBI®/Kevlar®/Antistatic": 0,
+        "Lenzing FR®/Aramid": 0,
+        "Para-aramid/Solid polymer coating": 0,
+        "FR Rayon/пара-арамід/поліамід/антистатик": 0
+      }
+    }
+  },
+  {
+    "id": "tkan-shirts-5507",
+    "category": "shirts",
+    "slug": "tkan-shirts-5507",
+    "title": {
+      "ua": "Тканина 5507",
+      "ru": "Ткань 5507"
+    },
+    "isNew": false,
+    "images": [],
+    "description": {
+      "ua": "60% бавовна, 40% поліестр,  151 г/м.кв легка, комфортна, дихаюча,",
+      "ru": "60% бавовна, 40% поліестр,  151 г/м.кв  легкая, комфортная, дышащая,"
+    },
+    "attributes": {
+      "fabricType": "",
+      "density": "151",
+      "width": "150",
+      "colors": [],
+      "properties": [],
+      "composition": {
+        "cotton": 60,
+        "polyester": 40,
+        "spandex": 0,
+        "rayon": 0,
+        "viscose": 0,
+        "pbt": 0,
+        "lyon": 0,
+        "linen": 0,
+        "polyamide": 0,
+        "polypropylene": 0,
+        "paraAramid": 0,
+        "nylon": 0,
+        "mac": 0,
+        "pu": 0,
+        "antistatic": 0,
+        "Modacrylic/Lyocell/Static-Control™": 0,
+        "Nomex®/Kevlar®/Anti-Static": 0,
+        "Nomex®/Para-Aramid/p140": 0,
+        "PBI®/Kevlar®/Antistatic": 0,
+        "Lenzing FR®/Aramid": 0,
+        "Para-aramid/Solid polymer coating": 0,
+        "FR Rayon/пара-арамід/поліамід/антистатик": 0
+      }
+    }
+  },
+  {
+    "id": "tkan-shirts-5764",
+    "category": "shirts",
+    "slug": "tkan-shirts-5764",
+    "title": {
+      "ua": "Тканина 5764",
+      "ru": "Ткань 5764"
+    },
+    "isNew": false,
+    "images": [],
+    "description": {
+      "ua": "50% бавовна, 50% поліестр,  104 г/м.кв легка, комфортна, дихаюча,",
+      "ru": "50% бавовна, 50% поліестр,  104 г/м.кв  легкая, комфортная, дышащая,"
+    },
+    "attributes": {
+      "fabricType": "",
+      "density": "104",
+      "width": "150",
+      "colors": [],
+      "properties": [],
+      "composition": {
+        "cotton": 50,
+        "polyester": 50,
+        "spandex": 0,
+        "rayon": 0,
+        "viscose": 0,
+        "pbt": 0,
+        "lyon": 0,
+        "linen": 0,
+        "polyamide": 0,
+        "polypropylene": 0,
+        "paraAramid": 0,
+        "nylon": 0,
+        "mac": 0,
+        "pu": 0,
+        "antistatic": 0,
+        "Modacrylic/Lyocell/Static-Control™": 0,
+        "Nomex®/Kevlar®/Anti-Static": 0,
+        "Nomex®/Para-Aramid/p140": 0,
+        "PBI®/Kevlar®/Antistatic": 0,
+        "Lenzing FR®/Aramid": 0,
+        "Para-aramid/Solid polymer coating": 0,
+        "FR Rayon/пара-арамід/поліамід/антистатик": 0
+      }
+    }
+  },
+  {
+    "id": "tkan-shirts-7251",
+    "category": "shirts",
+    "slug": "tkan-shirts-7251",
+    "title": {
+      "ua": "Тканина 7251  ",
+      "ru": "Ткань 7251"
+    },
+    "isNew": false,
+    "images": [],
+    "description": {
+      "ua": "55% бавовна, 45% поліестр,  113 г/м.кв легка, комфортна, дихаюча,",
+      "ru": "55% бавовна, 45% поліестр,  113 г/м.кв  легкая, комфортная, дышащая,"
+    },
+    "attributes": {
+      "fabricType": "полотно",
+      "density": "113",
+      "width": "150",
+      "colors": [],
+      "properties": [],
+      "composition": {
+        "cotton": 55,
+        "polyester": 45,
+        "spandex": 0,
+        "rayon": 0,
+        "viscose": 0,
+        "pbt": 0,
+        "lyon": 0,
+        "linen": 0,
+        "polyamide": 0,
+        "polypropylene": 0,
+        "paraAramid": 0,
+        "nylon": 0,
+        "mac": 0,
+        "pu": 0,
+        "antistatic": 0,
+        "Modacrylic/Lyocell/Static-Control™": 0,
+        "Nomex®/Kevlar®/Anti-Static": 0,
+        "Nomex®/Para-Aramid/p140": 0,
+        "PBI®/Kevlar®/Antistatic": 0,
+        "Lenzing FR®/Aramid": 0,
+        "Para-aramid/Solid polymer coating": 0,
+        "FR Rayon/пара-арамід/поліамід/антистатик": 0
+      }
+    }
+  },
+  {
+    "id": "tkan-shirts-rc113cv",
+    "category": "shirts",
+    "slug": "tkan-shirts-rc113cv",
+    "title": {
+      "ua": "Тканина RC113CV  ",
+      "ru": "Ткань RC113CV"
+    },
+    "isNew": false,
+    "images": [],
+    "description": {
+      "ua": "55% бавовна, 45% поліестр,  116 г/м.кв легка, комфортна, дихаюча,",
+      "ru": "55% бавовна, 45% поліестр,  116 г/м.кв  легкая, комфортная, дышащая,"
+    },
+    "attributes": {
+      "fabricType": "полотно",
+      "density": "116",
+      "width": "150",
+      "colors": [],
+      "properties": [],
+      "composition": {
+        "cotton": 55,
+        "polyester": 45,
+        "spandex": 0,
+        "rayon": 0,
+        "viscose": 0,
+        "pbt": 0,
+        "lyon": 0,
+        "linen": 0,
+        "polyamide": 0,
+        "polypropylene": 0,
+        "paraAramid": 0,
+        "nylon": 0,
+        "mac": 0,
+        "pu": 0,
+        "antistatic": 0,
+        "Modacrylic/Lyocell/Static-Control™": 0,
+        "Nomex®/Kevlar®/Anti-Static": 0,
+        "Nomex®/Para-Aramid/p140": 0,
+        "PBI®/Kevlar®/Antistatic": 0,
+        "Lenzing FR®/Aramid": 0,
+        "Para-aramid/Solid polymer coating": 0,
+        "FR Rayon/пара-арамід/поліамід/антистатик": 0
+      }
+    }
+  },
+  {
+    "id": "tkan-shirts-lt2111",
+    "category": "shirts",
+    "slug": "tkan-shirts-lt2111",
+    "title": {
+      "ua": "Тканина LT2111  ",
+      "ru": "Ткань LT2111"
+    },
+    "isNew": false,
+    "images": [],
+    "description": {
+      "ua": "55% бавовна, 45% поліестр,  112 г/м.кв легка, комфортна, дихаюча,",
+      "ru": "55% бавовна, 45% поліестр,  112 г/м.кв  легкая, комфортная, дышащая,"
+    },
+    "attributes": {
+      "fabricType": "полотно",
+      "density": "112",
+      "width": "150",
+      "colors": [],
+      "properties": [],
+      "composition": {
+        "cotton": 55,
+        "polyester": 45,
+        "spandex": 0,
+        "rayon": 0,
+        "viscose": 0,
+        "pbt": 0,
+        "lyon": 0,
+        "linen": 0,
+        "polyamide": 0,
+        "polypropylene": 0,
+        "paraAramid": 0,
+        "nylon": 0,
+        "mac": 0,
+        "pu": 0,
+        "antistatic": 0,
+        "Modacrylic/Lyocell/Static-Control™": 0,
+        "Nomex®/Kevlar®/Anti-Static": 0,
+        "Nomex®/Para-Aramid/p140": 0,
+        "PBI®/Kevlar®/Antistatic": 0,
+        "Lenzing FR®/Aramid": 0,
+        "Para-aramid/Solid polymer coating": 0,
+        "FR Rayon/пара-арамід/поліамід/антистатик": 0
+      }
+    }
+  },
+  {
+    "id": "tkan-shirts-196",
+    "category": "shirts",
+    "slug": "tkan-shirts-196",
+    "title": {
+      "ua": "Тканина А196",
+      "ru": "Ткань А196"
+    },
+    "isNew": false,
+    "images": [],
+    "description": {
+      "ua": "100% бавовна легка, комфортна, дихаюча,",
+      "ru": "100% бавовна  легкая, комфортная, дышащая"
+    },
+    "attributes": {
+      "fabricType": "складне",
+      "density": "162",
+      "width": "150",
+      "colors": [],
+      "properties": [],
+      "composition": {
+        "cotton": 100,
+        "polyester": 0,
+        "spandex": 0,
+        "rayon": 0,
+        "viscose": 0,
+        "pbt": 0,
+        "lyon": 0,
+        "linen": 0,
+        "polyamide": 0,
+        "polypropylene": 0,
+        "paraAramid": 0,
+        "nylon": 0,
+        "mac": 0,
+        "pu": 0,
+        "antistatic": 0,
+        "Modacrylic/Lyocell/Static-Control™": 0,
+        "Nomex®/Kevlar®/Anti-Static": 0,
+        "Nomex®/Para-Aramid/p140": 0,
+        "PBI®/Kevlar®/Antistatic": 0,
+        "Lenzing FR®/Aramid": 0,
+        "Para-aramid/Solid polymer coating": 0,
+        "FR Rayon/пара-арамід/поліамід/антистатик": 0
+      }
+    }
+  },
+  {
+    "id": "tkan-shirts-359",
+    "category": "shirts",
+    "slug": "tkan-shirts-359",
+    "title": {
+      "ua": "Тканина А359",
+      "ru": "Ткань А196"
+    },
+    "isNew": false,
+    "images": [],
+    "description": {
+      "ua": "100% бавовна легка, комфортна, дихаюча,",
+      "ru": "100% бавовна  легкая, комфортная, дышащая"
+    },
+    "attributes": {
+      "fabricType": "",
+      "density": "128",
+      "width": "150",
+      "colors": [],
+      "properties": [],
+      "composition": {
+        "cotton": 100,
+        "polyester": 0,
+        "spandex": 0,
+        "rayon": 0,
+        "viscose": 0,
+        "pbt": 0,
+        "lyon": 0,
+        "linen": 0,
+        "polyamide": 0,
+        "polypropylene": 0,
+        "paraAramid": 0,
+        "nylon": 0,
+        "mac": 0,
+        "pu": 0,
+        "antistatic": 0,
+        "Modacrylic/Lyocell/Static-Control™": 0,
+        "Nomex®/Kevlar®/Anti-Static": 0,
+        "Nomex®/Para-Aramid/p140": 0,
+        "PBI®/Kevlar®/Antistatic": 0,
+        "Lenzing FR®/Aramid": 0,
+        "Para-aramid/Solid polymer coating": 0,
+        "FR Rayon/пара-арамід/поліамід/антистатик": 0
+      }
+    }
+  },
+  {
+    "id": "tkan-shirts-1021",
+    "category": "shirts",
+    "slug": "tkan-shirts-1021",
+    "title": {
+      "ua": "Тканина 1021",
+      "ru": "Ткань 1021"
+    },
+    "isNew": false,
+    "images": [],
+    "description": {
+      "ua": "100% бавовна легка, комфортна, дихаюча,",
+      "ru": "100% бавовна  легкая, комфортная, дышащая"
+    },
+    "attributes": {
+      "fabricType": "полотно",
+      "density": "130",
+      "width": "150",
+      "colors": [],
+      "properties": [],
+      "composition": {
+        "cotton": 100,
+        "polyester": 0,
+        "spandex": 0,
+        "rayon": 0,
+        "viscose": 0,
+        "pbt": 0,
+        "lyon": 0,
+        "linen": 0,
+        "polyamide": 0,
+        "polypropylene": 0,
+        "paraAramid": 0,
+        "nylon": 0,
+        "mac": 0,
+        "pu": 0,
+        "antistatic": 0,
+        "Modacrylic/Lyocell/Static-Control™": 0,
+        "Nomex®/Kevlar®/Anti-Static": 0,
+        "Nomex®/Para-Aramid/p140": 0,
+        "PBI®/Kevlar®/Antistatic": 0,
+        "Lenzing FR®/Aramid": 0,
+        "Para-aramid/Solid polymer coating": 0,
+        "FR Rayon/пара-арамід/поліамід/антистатик": 0
+      }
+    }
+  },
+  {
+    "id": "tkan-shirts-573",
+    "category": "shirts",
+    "slug": "tkan-shirts-573",
+    "title": {
+      "ua": "Тканина А573",
+      "ru": "Ткань А573"
+    },
+    "isNew": false,
+    "images": [],
+    "description": {
+      "ua": "100% бавовна легка, комфортна, дихаюча,",
+      "ru": "100% бавовна  легкая, комфортная, дышащая"
+    },
+    "attributes": {
+      "fabricType": "полотно",
+      "density": "116",
+      "width": "150",
+      "colors": [],
+      "properties": [],
+      "composition": {
+        "cotton": 100,
+        "polyester": 0,
+        "spandex": 0,
+        "rayon": 0,
+        "viscose": 0,
+        "pbt": 0,
+        "lyon": 0,
+        "linen": 0,
+        "polyamide": 0,
+        "polypropylene": 0,
+        "paraAramid": 0,
+        "nylon": 0,
+        "mac": 0,
+        "pu": 0,
+        "antistatic": 0,
+        "Modacrylic/Lyocell/Static-Control™": 0,
+        "Nomex®/Kevlar®/Anti-Static": 0,
+        "Nomex®/Para-Aramid/p140": 0,
+        "PBI®/Kevlar®/Antistatic": 0,
+        "Lenzing FR®/Aramid": 0,
+        "Para-aramid/Solid polymer coating": 0,
+        "FR Rayon/пара-арамід/поліамід/антистатик": 0
+      }
+    }
+  },
+  {
+    "id": "tkan-shirts-l678",
+    "category": "shirts",
+    "slug": "tkan-shirts-l678",
+    "title": {
+      "ua": "Тканина L678",
+      "ru": "Ткань L678"
+    },
+    "isNew": false,
+    "images": [],
+    "description": {
+      "ua": "100% бавовна легка, комфортна, дихаюча,",
+      "ru": "100% бавовна  легкая, комфортная, дышащая"
+    },
+    "attributes": {
+      "fabricType": "полотно",
+      "density": "120",
+      "width": "150",
+      "colors": [],
+      "properties": [],
+      "composition": {
+        "cotton": 100,
+        "polyester": 0,
+        "spandex": 0,
+        "rayon": 0,
+        "viscose": 0,
+        "pbt": 0,
+        "lyon": 0,
+        "linen": 0,
+        "polyamide": 0,
+        "polypropylene": 0,
+        "paraAramid": 0,
+        "nylon": 0,
+        "mac": 0,
+        "pu": 0,
+        "antistatic": 0,
+        "Modacrylic/Lyocell/Static-Control™": 0,
+        "Nomex®/Kevlar®/Anti-Static": 0,
+        "Nomex®/Para-Aramid/p140": 0,
+        "PBI®/Kevlar®/Antistatic": 0,
+        "Lenzing FR®/Aramid": 0,
+        "Para-aramid/Solid polymer coating": 0,
+        "FR Rayon/пара-арамід/поліамід/антистатик": 0
+      }
+    }
+  },
+  {
+    "id": "tkan-shirts-l493",
+    "category": "shirts",
+    "slug": "tkan-shirts-l493",
+    "title": {
+      "ua": "Тканина L493",
+      "ru": "Ткань L493"
+    },
+    "isNew": false,
+    "images": [],
+    "description": {
+      "ua": "100% бавовна легка, комфортна, дихаюча,",
+      "ru": "100% бавовна  легкая, комфортная, дышащая"
+    },
+    "attributes": {
+      "fabricType": "полотно ",
+      "density": "122",
+      "width": "150",
+      "colors": [],
+      "properties": [],
+      "composition": {
+        "cotton": 100,
+        "polyester": 0,
+        "spandex": 0,
+        "rayon": 0,
+        "viscose": 0,
+        "pbt": 0,
+        "lyon": 0,
+        "linen": 0,
+        "polyamide": 0,
+        "polypropylene": 0,
+        "paraAramid": 0,
+        "nylon": 0,
+        "mac": 0,
+        "pu": 0,
+        "antistatic": 0,
+        "Modacrylic/Lyocell/Static-Control™": 0,
+        "Nomex®/Kevlar®/Anti-Static": 0,
+        "Nomex®/Para-Aramid/p140": 0,
+        "PBI®/Kevlar®/Antistatic": 0,
+        "Lenzing FR®/Aramid": 0,
+        "Para-aramid/Solid polymer coating": 0,
+        "FR Rayon/пара-арамід/поліамід/антистатик": 0
+      }
+    }
+  },
+  {
+    "id": "tkan-shirts-477",
+    "category": "shirts",
+    "slug": "tkan-shirts-477",
+    "title": {
+      "ua": "Тканина А477",
+      "ru": "Ткань А477"
+    },
+    "isNew": false,
+    "images": [],
+    "description": {
+      "ua": "100% бавовна легка, комфортна, дихаюча,",
+      "ru": "100% бавовна  легкая, комфортная, дышащая"
+    },
+    "attributes": {
+      "fabricType": "полотно",
+      "density": "115",
+      "width": "150",
+      "colors": [],
+      "properties": [],
+      "composition": {
+        "cotton": 100,
+        "polyester": 0,
+        "spandex": 0,
+        "rayon": 0,
+        "viscose": 0,
+        "pbt": 0,
+        "lyon": 0,
+        "linen": 0,
+        "polyamide": 0,
+        "polypropylene": 0,
+        "paraAramid": 0,
+        "nylon": 0,
+        "mac": 0,
+        "pu": 0,
+        "antistatic": 0,
+        "Modacrylic/Lyocell/Static-Control™": 0,
+        "Nomex®/Kevlar®/Anti-Static": 0,
+        "Nomex®/Para-Aramid/p140": 0,
+        "PBI®/Kevlar®/Antistatic": 0,
+        "Lenzing FR®/Aramid": 0,
+        "Para-aramid/Solid polymer coating": 0,
+        "FR Rayon/пара-арамід/поліамід/антистатик": 0
+      }
+    }
+  },
+  {
+    "id": "tkan-shirts-2161",
+    "category": "shirts",
+    "slug": "tkan-shirts-2161",
+    "title": {
+      "ua": "Тканина 2161",
+      "ru": "Ткань 2161"
+    },
+    "isNew": false,
+    "images": [],
+    "description": {
+      "ua": "100% бавовна легка, комфортна, дихаюча,",
+      "ru": "100% бавовна  легкая, комфортная, дышащая"
+    },
+    "attributes": {
+      "fabricType": "саржа",
+      "density": "109",
+      "width": "150",
+      "colors": [],
+      "properties": [],
+      "composition": {
+        "cotton": 100,
+        "polyester": 0,
+        "spandex": 0,
+        "rayon": 0,
+        "viscose": 0,
+        "pbt": 0,
+        "lyon": 0,
+        "linen": 0,
+        "polyamide": 0,
+        "polypropylene": 0,
+        "paraAramid": 0,
+        "nylon": 0,
+        "mac": 0,
+        "pu": 0,
+        "antistatic": 0,
+        "Modacrylic/Lyocell/Static-Control™": 0,
+        "Nomex®/Kevlar®/Anti-Static": 0,
+        "Nomex®/Para-Aramid/p140": 0,
+        "PBI®/Kevlar®/Antistatic": 0,
+        "Lenzing FR®/Aramid": 0,
+        "Para-aramid/Solid polymer coating": 0,
+        "FR Rayon/пара-арамід/поліамід/антистатик": 0
+      }
+    }
+  },
+  {
+    "id": "tkan-shirts-0533",
+    "category": "shirts",
+    "slug": "tkan-shirts-0533",
+    "title": {
+      "ua": "Тканина 0533",
+      "ru": "Ткань 0533"
+    },
+    "isNew": false,
+    "images": [],
+    "description": {
+      "ua": "100% бавовна легка, комфортна, дихаюча,",
+      "ru": "100% бавовна  легкая, комфортная, дышащая"
+    },
+    "attributes": {
+      "fabricType": "полотно",
+      "density": "125",
+      "width": "150",
+      "colors": [],
+      "properties": [],
+      "composition": {
+        "cotton": 100,
+        "polyester": 0,
+        "spandex": 0,
+        "rayon": 0,
+        "viscose": 0,
+        "pbt": 0,
+        "lyon": 0,
+        "linen": 0,
+        "polyamide": 0,
+        "polypropylene": 0,
+        "paraAramid": 0,
+        "nylon": 0,
+        "mac": 0,
+        "pu": 0,
+        "antistatic": 0,
+        "Modacrylic/Lyocell/Static-Control™": 0,
+        "Nomex®/Kevlar®/Anti-Static": 0,
+        "Nomex®/Para-Aramid/p140": 0,
+        "PBI®/Kevlar®/Antistatic": 0,
+        "Lenzing FR®/Aramid": 0,
+        "Para-aramid/Solid polymer coating": 0,
+        "FR Rayon/пара-арамід/поліамід/антистатик": 0
+      }
+    }
+  },
+  {
+    "id": "tkan-shirts-0738",
+    "category": "shirts",
+    "slug": "tkan-shirts-0738",
+    "title": {
+      "ua": "Тканина 0738",
+      "ru": "Ткань 0738"
+    },
+    "isNew": false,
+    "images": [],
+    "description": {
+      "ua": "100% бавовна легка, комфортна, дихаюча,",
+      "ru": "100% бавовна  легкая, комфортная, дышащая"
+    },
+    "attributes": {
+      "fabricType": "складне",
+      "density": "112",
+      "width": "150",
+      "colors": [],
+      "properties": [],
+      "composition": {
+        "cotton": 100,
+        "polyester": 0,
+        "spandex": 0,
+        "rayon": 0,
+        "viscose": 0,
+        "pbt": 0,
+        "lyon": 0,
+        "linen": 0,
+        "polyamide": 0,
+        "polypropylene": 0,
+        "paraAramid": 0,
+        "nylon": 0,
+        "mac": 0,
+        "pu": 0,
+        "antistatic": 0,
+        "Modacrylic/Lyocell/Static-Control™": 0,
+        "Nomex®/Kevlar®/Anti-Static": 0,
+        "Nomex®/Para-Aramid/p140": 0,
+        "PBI®/Kevlar®/Antistatic": 0,
+        "Lenzing FR®/Aramid": 0,
+        "Para-aramid/Solid polymer coating": 0,
+        "FR Rayon/пара-арамід/поліамід/антистатик": 0
+      }
+    }
+  },
+  {
+    "id": "tkan-shirts-202",
+    "category": "shirts",
+    "slug": "tkan-shirts-202",
+    "title": {
+      "ua": "Тканина А202",
+      "ru": "Ткань А202"
+    },
+    "isNew": false,
+    "images": [],
+    "description": {
+      "ua": "100% бавовна легка, комфортна, дихаюча,",
+      "ru": "100% бавовна  легкая, комфортная, дышащая"
+    },
+    "attributes": {
+      "fabricType": "складне",
+      "density": "161",
+      "width": "150",
+      "colors": [],
+      "properties": [],
+      "composition": {
+        "cotton": 100,
+        "polyester": 0,
+        "spandex": 0,
+        "rayon": 0,
+        "viscose": 0,
+        "pbt": 0,
+        "lyon": 0,
+        "linen": 0,
+        "polyamide": 0,
+        "polypropylene": 0,
+        "paraAramid": 0,
+        "nylon": 0,
+        "mac": 0,
+        "pu": 0,
+        "antistatic": 0,
+        "Modacrylic/Lyocell/Static-Control™": 0,
+        "Nomex®/Kevlar®/Anti-Static": 0,
+        "Nomex®/Para-Aramid/p140": 0,
+        "PBI®/Kevlar®/Antistatic": 0,
+        "Lenzing FR®/Aramid": 0,
+        "Para-aramid/Solid polymer coating": 0,
+        "FR Rayon/пара-арамід/поліамід/антистатик": 0
+      }
+    }
+  },
+  {
+    "id": "tkan-shirts-0437",
+    "category": "shirts",
+    "slug": "tkan-shirts-0437",
+    "title": {
+      "ua": "Тканина 0437",
+      "ru": "Ткань 0437"
+    },
+    "isNew": false,
+    "images": [],
+    "description": {
+      "ua": "100% бавовна легка, комфортна, дихаюча,",
+      "ru": "100% бавовна  легкая, комфортная, дышащая"
+    },
+    "attributes": {
+      "fabricType": "складне",
+      "density": "112",
+      "width": "150",
+      "colors": [],
+      "properties": [],
+      "composition": {
+        "cotton": 100,
+        "polyester": 0,
+        "spandex": 0,
+        "rayon": 0,
+        "viscose": 0,
+        "pbt": 0,
+        "lyon": 0,
+        "linen": 0,
+        "polyamide": 0,
+        "polypropylene": 0,
+        "paraAramid": 0,
+        "nylon": 0,
+        "mac": 0,
+        "pu": 0,
+        "antistatic": 0,
+        "Modacrylic/Lyocell/Static-Control™": 0,
+        "Nomex®/Kevlar®/Anti-Static": 0,
+        "Nomex®/Para-Aramid/p140": 0,
+        "PBI®/Kevlar®/Antistatic": 0,
+        "Lenzing FR®/Aramid": 0,
+        "Para-aramid/Solid polymer coating": 0,
+        "FR Rayon/пара-арамід/поліамід/антистатик": 0
+      }
+    }
+  },
+  {
+    "id": "tkan-shirts-0893",
+    "category": "shirts",
+    "slug": "tkan-shirts-0893",
+    "title": {
+      "ua": "Тканина 0893",
+      "ru": "Ткань 0893"
+    },
+    "isNew": false,
+    "images": [],
+    "description": {
+      "ua": "100% бавовна легка, комфортна, дихаюча,",
+      "ru": "100% бавовна  легкая, комфортная, дышащая"
+    },
+    "attributes": {
+      "fabricType": "складне",
+      "density": "109",
+      "width": "150",
+      "colors": [],
+      "properties": [],
+      "composition": {
+        "cotton": 100,
+        "polyester": 0,
+        "spandex": 0,
+        "rayon": 0,
+        "viscose": 0,
+        "pbt": 0,
+        "lyon": 0,
+        "linen": 0,
+        "polyamide": 0,
+        "polypropylene": 0,
+        "paraAramid": 0,
+        "nylon": 0,
+        "mac": 0,
+        "pu": 0,
+        "antistatic": 0,
+        "Modacrylic/Lyocell/Static-Control™": 0,
+        "Nomex®/Kevlar®/Anti-Static": 0,
+        "Nomex®/Para-Aramid/p140": 0,
+        "PBI®/Kevlar®/Antistatic": 0,
+        "Lenzing FR®/Aramid": 0,
+        "Para-aramid/Solid polymer coating": 0,
+        "FR Rayon/пара-арамід/поліамід/антистатик": 0
+      }
+    }
+  },
+  {
+    "id": "tkan-shirts-0734",
+    "category": "shirts",
+    "slug": "tkan-shirts-0734",
+    "title": {
+      "ua": "Тканина 0734  ",
+      "ru": "Ткань 0734"
+    },
+    "isNew": false,
+    "images": [],
+    "description": {
+      "ua": "100% бавовна легка, комфортна, дихаюча,",
+      "ru": "100% бавовна  легкая, комфортная, дышащая"
+    },
+    "attributes": {
+      "fabricType": "складне",
+      "density": "115",
+      "width": "150",
+      "colors": [],
+      "properties": [],
+      "composition": {
+        "cotton": 100,
+        "polyester": 0,
+        "spandex": 0,
+        "rayon": 0,
+        "viscose": 0,
+        "pbt": 0,
+        "lyon": 0,
+        "linen": 0,
+        "polyamide": 0,
+        "polypropylene": 0,
+        "paraAramid": 0,
+        "nylon": 0,
+        "mac": 0,
+        "pu": 0,
+        "antistatic": 0,
+        "Modacrylic/Lyocell/Static-Control™": 0,
+        "Nomex®/Kevlar®/Anti-Static": 0,
+        "Nomex®/Para-Aramid/p140": 0,
+        "PBI®/Kevlar®/Antistatic": 0,
+        "Lenzing FR®/Aramid": 0,
+        "Para-aramid/Solid polymer coating": 0,
+        "FR Rayon/пара-арамід/поліамід/антистатик": 0
+      }
+    }
+  },
+  {
+    "id": "tkan-shirts-solid",
+    "category": "shirts",
+    "slug": "tkan-shirts-solid",
+    "title": {
+      "ua": "Тканина SOLID ",
+      "ru": "Ткань SOLID"
+    },
+    "isNew": false,
+    "images": [],
+    "description": {
+      "ua": "100% бавовна легка, комфортна, дихаюча,",
+      "ru": "100% бавовна  легкая, комфортная, дышащая"
+    },
+    "attributes": {
+      "fabricType": "складне",
+      "density": "121",
+      "width": "150",
+      "colors": [],
+      "properties": [],
+      "composition": {
+        "cotton": 100,
+        "polyester": 0,
+        "spandex": 0,
+        "rayon": 0,
+        "viscose": 0,
+        "pbt": 0,
+        "lyon": 0,
+        "linen": 0,
+        "polyamide": 0,
+        "polypropylene": 0,
+        "paraAramid": 0,
+        "nylon": 0,
+        "mac": 0,
+        "pu": 0,
+        "antistatic": 0,
+        "Modacrylic/Lyocell/Static-Control™": 0,
+        "Nomex®/Kevlar®/Anti-Static": 0,
+        "Nomex®/Para-Aramid/p140": 0,
+        "PBI®/Kevlar®/Antistatic": 0,
+        "Lenzing FR®/Aramid": 0,
+        "Para-aramid/Solid polymer coating": 0,
+        "FR Rayon/пара-арамід/поліамід/антистатик": 0
+      }
+    }
+  },
+  {
+    "id": "tkan-shirts-561",
+    "category": "shirts",
+    "slug": "tkan-shirts-561",
+    "title": {
+      "ua": "Тканина А561",
+      "ru": "Ткань А561"
+    },
+    "isNew": false,
+    "images": [],
+    "description": {
+      "ua": "100% бавовна легка, комфортна, дихаюча,",
+      "ru": "100% бавовна  легкая, комфортная, дышащая"
+    },
+    "attributes": {
+      "fabricType": "складне",
+      "density": "116",
+      "width": "150",
+      "colors": [],
+      "properties": [],
+      "composition": {
+        "cotton": 100,
+        "polyester": 0,
+        "spandex": 0,
+        "rayon": 0,
+        "viscose": 0,
+        "pbt": 0,
+        "lyon": 0,
+        "linen": 0,
+        "polyamide": 0,
+        "polypropylene": 0,
+        "paraAramid": 0,
+        "nylon": 0,
+        "mac": 0,
+        "pu": 0,
+        "antistatic": 0,
+        "Modacrylic/Lyocell/Static-Control™": 0,
+        "Nomex®/Kevlar®/Anti-Static": 0,
+        "Nomex®/Para-Aramid/p140": 0,
+        "PBI®/Kevlar®/Antistatic": 0,
+        "Lenzing FR®/Aramid": 0,
+        "Para-aramid/Solid polymer coating": 0,
+        "FR Rayon/пара-арамід/поліамід/антистатик": 0
+      }
+    }
+  },
+  {
+    "id": "tkan-shirts-489",
+    "category": "shirts",
+    "slug": "tkan-shirts-489",
+    "title": {
+      "ua": "Тканина А489",
+      "ru": "Ткань А489"
+    },
+    "isNew": false,
+    "images": [],
+    "description": {
+      "ua": "100% бавовна легка, комфортна, дихаюча,",
+      "ru": "100% бавовна  легкая, комфортная, дышащая"
+    },
+    "attributes": {
+      "fabricType": "складне",
+      "density": "122",
+      "width": "150",
+      "colors": [],
+      "properties": [],
+      "composition": {
+        "cotton": 100,
+        "polyester": 0,
+        "spandex": 0,
+        "rayon": 0,
+        "viscose": 0,
+        "pbt": 0,
+        "lyon": 0,
+        "linen": 0,
+        "polyamide": 0,
+        "polypropylene": 0,
+        "paraAramid": 0,
+        "nylon": 0,
+        "mac": 0,
+        "pu": 0,
+        "antistatic": 0,
+        "Modacrylic/Lyocell/Static-Control™": 0,
+        "Nomex®/Kevlar®/Anti-Static": 0,
+        "Nomex®/Para-Aramid/p140": 0,
+        "PBI®/Kevlar®/Antistatic": 0,
+        "Lenzing FR®/Aramid": 0,
+        "Para-aramid/Solid polymer coating": 0,
+        "FR Rayon/пара-арамід/поліамід/антистатик": 0
+      }
+    }
+  },
+  {
+    "id": "tkan-shirts-469",
+    "category": "shirts",
+    "slug": "tkan-shirts-469",
+    "title": {
+      "ua": "Тканина А469",
+      "ru": "Ткань А489"
+    },
+    "isNew": false,
+    "images": [],
+    "description": {
+      "ua": "100% бавовна легка, комфортна, дихаюча,",
+      "ru": "100% бавовна  легкая, комфортная, дышащая"
+    },
+    "attributes": {
+      "fabricType": "складне",
+      "density": "122",
+      "width": "150",
+      "colors": [],
+      "properties": [],
+      "composition": {
+        "cotton": 100,
+        "polyester": 0,
+        "spandex": 0,
+        "rayon": 0,
+        "viscose": 0,
+        "pbt": 0,
+        "lyon": 0,
+        "linen": 0,
+        "polyamide": 0,
+        "polypropylene": 0,
+        "paraAramid": 0,
+        "nylon": 0,
+        "mac": 0,
+        "pu": 0,
+        "antistatic": 0,
+        "Modacrylic/Lyocell/Static-Control™": 0,
+        "Nomex®/Kevlar®/Anti-Static": 0,
+        "Nomex®/Para-Aramid/p140": 0,
+        "PBI®/Kevlar®/Antistatic": 0,
+        "Lenzing FR®/Aramid": 0,
+        "Para-aramid/Solid polymer coating": 0,
+        "FR Rayon/пара-арамід/поліамід/антистатик": 0
+      }
+    }
+  },
+  {
+    "id": "tkan-shirts-325",
+    "category": "shirts",
+    "slug": "tkan-shirts-325",
+    "title": {
+      "ua": "Тканина А325",
+      "ru": "Ткань А325"
+    },
+    "isNew": false,
+    "images": [],
+    "description": {
+      "ua": "100% бавовна легка, комфортна, дихаюча,",
+      "ru": "100% бавовна  легкая, комфортная, дышащая"
+    },
+    "attributes": {
+      "fabricType": "полотно",
+      "density": "114",
+      "width": "150",
+      "colors": [],
+      "properties": [],
+      "composition": {
+        "cotton": 100,
+        "polyester": 0,
+        "spandex": 0,
+        "rayon": 0,
+        "viscose": 0,
+        "pbt": 0,
+        "lyon": 0,
+        "linen": 0,
+        "polyamide": 0,
+        "polypropylene": 0,
+        "paraAramid": 0,
+        "nylon": 0,
+        "mac": 0,
+        "pu": 0,
+        "antistatic": 0,
+        "Modacrylic/Lyocell/Static-Control™": 0,
+        "Nomex®/Kevlar®/Anti-Static": 0,
+        "Nomex®/Para-Aramid/p140": 0,
+        "PBI®/Kevlar®/Antistatic": 0,
+        "Lenzing FR®/Aramid": 0,
+        "Para-aramid/Solid polymer coating": 0,
+        "FR Rayon/пара-арамід/поліамід/антистатик": 0
+      }
+    }
+  },
+  {
+    "id": "tkan-shirts-197",
+    "category": "shirts",
+    "slug": "tkan-shirts-197",
+    "title": {
+      "ua": "Тканина А197",
+      "ru": "Ткань А197"
+    },
+    "isNew": false,
+    "images": [],
+    "description": {
+      "ua": "100% бавовна легка, комфортна, дихаюча,",
+      "ru": "100% бавовна  легкая, комфортная, дышащая"
+    },
+    "attributes": {
+      "fabricType": "складне",
+      "density": "162",
+      "width": "150",
+      "colors": [],
+      "properties": [],
+      "composition": {
+        "cotton": 100,
+        "polyester": 0,
+        "spandex": 0,
+        "rayon": 0,
+        "viscose": 0,
+        "pbt": 0,
+        "lyon": 0,
+        "linen": 0,
+        "polyamide": 0,
+        "polypropylene": 0,
+        "paraAramid": 0,
+        "nylon": 0,
+        "mac": 0,
+        "pu": 0,
+        "antistatic": 0,
+        "Modacrylic/Lyocell/Static-Control™": 0,
+        "Nomex®/Kevlar®/Anti-Static": 0,
+        "Nomex®/Para-Aramid/p140": 0,
+        "PBI®/Kevlar®/Antistatic": 0,
+        "Lenzing FR®/Aramid": 0,
+        "Para-aramid/Solid polymer coating": 0,
+        "FR Rayon/пара-арамід/поліамід/антистатик": 0
+      }
+    }
+  },
+  {
+    "id": "tkan-shirts-l927",
+    "category": "shirts",
+    "slug": "tkan-shirts-l927",
+    "title": {
+      "ua": "Тканина L927",
+      "ru": "Ткань L927"
+    },
+    "isNew": false,
+    "images": [],
+    "description": {
+      "ua": "100% бавовна легка, комфортна, дихаюча,",
+      "ru": "100% бавовна  легкая, комфортная, дышащая"
+    },
+    "attributes": {
+      "fabricType": "полотно",
+      "density": "213",
+      "width": "150",
+      "colors": [],
+      "properties": [],
+      "composition": {
+        "cotton": 100,
+        "polyester": 0,
+        "spandex": 0,
+        "rayon": 0,
+        "viscose": 0,
+        "pbt": 0,
+        "lyon": 0,
+        "linen": 0,
+        "polyamide": 0,
+        "polypropylene": 0,
+        "paraAramid": 0,
+        "nylon": 0,
+        "mac": 0,
+        "pu": 0,
+        "antistatic": 0,
+        "Modacrylic/Lyocell/Static-Control™": 0,
+        "Nomex®/Kevlar®/Anti-Static": 0,
+        "Nomex®/Para-Aramid/p140": 0,
+        "PBI®/Kevlar®/Antistatic": 0,
+        "Lenzing FR®/Aramid": 0,
+        "Para-aramid/Solid polymer coating": 0,
+        "FR Rayon/пара-арамід/поліамід/антистатик": 0
+      }
+    }
+  },
+  {
+    "id": "tkan-shirts-8845",
+    "category": "shirts",
+    "slug": "tkan-shirts-8845",
+    "title": {
+      "ua": "Тканина 8845",
+      "ru": "Ткань 8845"
+    },
+    "isNew": false,
+    "images": [],
+    "description": {
+      "ua": "60% бавовна, 40% поліестр,  легка, комфортна, дихаюча,",
+      "ru": "60% бавовна, 40% поліестр,  легкая, комфортная, дышащая,"
+    },
+    "attributes": {
+      "fabricType": "полотно",
+      "density": "100",
+      "width": "150",
+      "colors": [],
+      "properties": [],
+      "composition": {
+        "cotton": 60,
+        "polyester": 40,
+        "spandex": 0,
+        "rayon": 0,
+        "viscose": 0,
+        "pbt": 0,
+        "lyon": 0,
+        "linen": 0,
+        "polyamide": 0,
+        "polypropylene": 0,
+        "paraAramid": 0,
+        "nylon": 0,
+        "mac": 0,
+        "pu": 0,
+        "antistatic": 0,
+        "Modacrylic/Lyocell/Static-Control™": 0,
+        "Nomex®/Kevlar®/Anti-Static": 0,
+        "Nomex®/Para-Aramid/p140": 0,
+        "PBI®/Kevlar®/Antistatic": 0,
+        "Lenzing FR®/Aramid": 0,
+        "Para-aramid/Solid polymer coating": 0,
+        "FR Rayon/пара-арамід/поліамід/антистатик": 0
+      }
+    }
+  },
+  {
+    "id": "tkan-shirts-cotton-tex-f907",
+    "category": "shirts",
+    "slug": "tkan-shirts-cotton-tex-f907",
+    "title": {
+      "ua": "Тканина COTTON TEX F907   ",
+      "ru": "Ткань COTTON TEX F907 "
+    },
+    "isNew": false,
+    "images": [],
+    "description": {
+      "ua": "60% бавовна, 40% поліестр,  легка, комфортна, дихаюча,",
+      "ru": "60% бавовна, 40% поліестр,  легкая, комфортная, дышащая,"
+    },
+    "attributes": {
+      "fabricType": "полотно",
+      "density": "95",
+      "width": "150",
+      "colors": [],
+      "properties": [],
+      "composition": {
+        "cotton": 60,
+        "polyester": 40,
+        "spandex": 0,
+        "rayon": 0,
+        "viscose": 0,
+        "pbt": 0,
+        "lyon": 0,
+        "linen": 0,
+        "polyamide": 0,
+        "polypropylene": 0,
+        "paraAramid": 0,
+        "nylon": 0,
+        "mac": 0,
+        "pu": 0,
+        "antistatic": 0,
+        "Modacrylic/Lyocell/Static-Control™": 0,
+        "Nomex®/Kevlar®/Anti-Static": 0,
+        "Nomex®/Para-Aramid/p140": 0,
+        "PBI®/Kevlar®/Antistatic": 0,
+        "Lenzing FR®/Aramid": 0,
+        "Para-aramid/Solid polymer coating": 0,
+        "FR Rayon/пара-арамід/поліамід/антистатик": 0
+      }
+    }
+  },
+  {
+    "id": "tkan-shirts-5844",
+    "category": "shirts",
+    "slug": "tkan-shirts-5844",
+    "title": {
+      "ua": "Тканина 5844  ",
+      "ru": "Ткань  5844"
+    },
+    "isNew": false,
+    "images": [],
+    "description": {
+      "ua": "60% бавовна, 40% поліестр,  легка, комфортна, дихаюча,",
+      "ru": "60% бавовна, 40% поліестр,  легкая, комфортная, дышащая,"
+    },
+    "attributes": {
+      "fabricType": "полотно",
+      "density": "106",
+      "width": "150",
+      "colors": [],
+      "properties": [],
+      "composition": {
+        "cotton": 60,
+        "polyester": 40,
+        "spandex": 0,
+        "rayon": 0,
+        "viscose": 0,
+        "pbt": 0,
+        "lyon": 0,
+        "linen": 0,
+        "polyamide": 0,
+        "polypropylene": 0,
+        "paraAramid": 0,
+        "nylon": 0,
+        "mac": 0,
+        "pu": 0,
+        "antistatic": 0,
+        "Modacrylic/Lyocell/Static-Control™": 0,
+        "Nomex®/Kevlar®/Anti-Static": 0,
+        "Nomex®/Para-Aramid/p140": 0,
+        "PBI®/Kevlar®/Antistatic": 0,
+        "Lenzing FR®/Aramid": 0,
+        "Para-aramid/Solid polymer coating": 0,
+        "FR Rayon/пара-арамід/поліамід/антистатик": 0
+      }
+    }
+  },
+  {
+    "id": "tkan-shirts-5834",
+    "category": "shirts",
+    "slug": "tkan-shirts-5834",
+    "title": {
+      "ua": "Тканина 5834",
+      "ru": "Ткань 5834"
+    },
+    "isNew": false,
+    "images": [],
+    "description": {
+      "ua": "60% бавовна, 40% поліестр,  легка, комфортна, дихаюча,",
+      "ru": "60% бавовна, 40% поліестр,  легкая, комфортная, дышащая,"
+    },
+    "attributes": {
+      "fabricType": "полотно",
+      "density": "146",
+      "width": "150",
+      "colors": [],
+      "properties": [],
+      "composition": {
+        "cotton": 60,
+        "polyester": 40,
+        "spandex": 0,
+        "rayon": 0,
+        "viscose": 0,
+        "pbt": 0,
+        "lyon": 0,
+        "linen": 0,
+        "polyamide": 0,
+        "polypropylene": 0,
+        "paraAramid": 0,
+        "nylon": 0,
+        "mac": 0,
+        "pu": 0,
+        "antistatic": 0,
+        "Modacrylic/Lyocell/Static-Control™": 0,
+        "Nomex®/Kevlar®/Anti-Static": 0,
+        "Nomex®/Para-Aramid/p140": 0,
+        "PBI®/Kevlar®/Antistatic": 0,
+        "Lenzing FR®/Aramid": 0,
+        "Para-aramid/Solid polymer coating": 0,
+        "FR Rayon/пара-арамід/поліамід/антистатик": 0
+      }
+    }
+  },
+  {
+    "id": "tkan-shirts-9600",
+    "category": "shirts",
+    "slug": "tkan-shirts-9600",
+    "title": {
+      "ua": "Тканина 9600",
+      "ru": "Ткань 9600"
+    },
+    "isNew": false,
+    "images": [],
+    "description": {
+      "ua": "35% бавовна, 65% поліестр,  легка, комфортна, дихаюча,",
+      "ru": "35% бавовна, 65% поліестр,  легкая, комфортная, дышащая,"
+    },
+    "attributes": {
+      "fabricType": "полотно",
+      "density": "150",
+      "width": "150",
+      "colors": [],
+      "properties": [],
+      "composition": {
+        "cotton": 35,
+        "polyester": 65,
+        "spandex": 0,
+        "rayon": 0,
+        "viscose": 0,
+        "pbt": 0,
+        "lyon": 0,
+        "linen": 0,
+        "polyamide": 0,
+        "polypropylene": 0,
+        "paraAramid": 0,
+        "nylon": 0,
+        "mac": 0,
+        "pu": 0,
+        "antistatic": 0,
+        "Modacrylic/Lyocell/Static-Control™": 0,
+        "Nomex®/Kevlar®/Anti-Static": 0,
+        "Nomex®/Para-Aramid/p140": 0,
+        "PBI®/Kevlar®/Antistatic": 0,
+        "Lenzing FR®/Aramid": 0,
+        "Para-aramid/Solid polymer coating": 0,
+        "FR Rayon/пара-арамід/поліамід/антистатик": 0
+      }
+    }
+  },
+  {
+    "id": "tkan-shirts-509",
+    "category": "shirts",
+    "slug": "tkan-shirts-509",
+    "title": {
+      "ua": "Тканина А509",
+      "ru": "Ткань А509"
+    },
+    "isNew": false,
+    "images": [],
+    "description": {
+      "ua": "100% бавовна легка, комфортна, дихаюча,",
+      "ru": "100% бавовна  легкая, комфортная, дышащая"
+    },
+    "attributes": {
+      "fabricType": "полотно",
+      "density": "115",
+      "width": "150",
+      "colors": [],
+      "properties": [],
+      "composition": {
+        "cotton": 100,
+        "polyester": 0,
+        "spandex": 0,
+        "rayon": 0,
+        "viscose": 0,
+        "pbt": 0,
+        "lyon": 0,
+        "linen": 0,
+        "polyamide": 0,
+        "polypropylene": 0,
+        "paraAramid": 0,
+        "nylon": 0,
+        "mac": 0,
+        "pu": 0,
+        "antistatic": 0,
+        "Modacrylic/Lyocell/Static-Control™": 0,
+        "Nomex®/Kevlar®/Anti-Static": 0,
+        "Nomex®/Para-Aramid/p140": 0,
+        "PBI®/Kevlar®/Antistatic": 0,
+        "Lenzing FR®/Aramid": 0,
+        "Para-aramid/Solid polymer coating": 0,
+        "FR Rayon/пара-арамід/поліамід/антистатик": 0
+      }
+    }
+  },
+  {
+    "id": "tkan-shirts-044",
+    "category": "shirts",
+    "slug": "tkan-shirts-044",
+    "title": {
+      "ua": "Тканина А044",
+      "ru": "Ткань А044"
+    },
+    "isNew": false,
+    "images": [],
+    "description": {
+      "ua": "100% бавовна легка, комфортна, дихаюча,",
+      "ru": "100% бавовна  легкая, комфортная, дышащая"
+    },
+    "attributes": {
+      "fabricType": "полотно",
+      "density": "110",
+      "width": "150",
+      "colors": [],
+      "properties": [],
+      "composition": {
+        "cotton": 100,
+        "polyester": 0,
+        "spandex": 0,
+        "rayon": 0,
+        "viscose": 0,
+        "pbt": 0,
+        "lyon": 0,
+        "linen": 0,
+        "polyamide": 0,
+        "polypropylene": 0,
+        "paraAramid": 0,
+        "nylon": 0,
+        "mac": 0,
+        "pu": 0,
+        "antistatic": 0,
+        "Modacrylic/Lyocell/Static-Control™": 0,
+        "Nomex®/Kevlar®/Anti-Static": 0,
+        "Nomex®/Para-Aramid/p140": 0,
+        "PBI®/Kevlar®/Antistatic": 0,
+        "Lenzing FR®/Aramid": 0,
+        "Para-aramid/Solid polymer coating": 0,
+        "FR Rayon/пара-арамід/поліамід/антистатик": 0
+      }
+    }
+  },
+  {
+    "id": "tkan-shirts-042",
+    "category": "shirts",
+    "slug": "tkan-shirts-042",
+    "title": {
+      "ua": "Тканина А042",
+      "ru": "Ткань А042"
+    },
+    "isNew": false,
+    "images": [],
+    "description": {
+      "ua": "100% бавовна легка, комфортна, дихаюча,",
+      "ru": "100% бавовна  легкая, комфортная, дышащая"
+    },
+    "attributes": {
+      "fabricType": "",
+      "density": "110",
+      "width": "150",
+      "colors": [],
+      "properties": [],
+      "composition": {
+        "cotton": 100,
+        "polyester": 0,
+        "spandex": 0,
+        "rayon": 0,
+        "viscose": 0,
+        "pbt": 0,
+        "lyon": 0,
+        "linen": 0,
+        "polyamide": 0,
+        "polypropylene": 0,
+        "paraAramid": 0,
+        "nylon": 0,
+        "mac": 0,
+        "pu": 0,
+        "antistatic": 0,
+        "Modacrylic/Lyocell/Static-Control™": 0,
+        "Nomex®/Kevlar®/Anti-Static": 0,
+        "Nomex®/Para-Aramid/p140": 0,
+        "PBI®/Kevlar®/Antistatic": 0,
+        "Lenzing FR®/Aramid": 0,
+        "Para-aramid/Solid polymer coating": 0,
+        "FR Rayon/пара-арамід/поліамід/антистатик": 0
+      }
+    }
+  },
+  {
+    "id": "tkan-shirts-9862",
+    "category": "shirts",
+    "slug": "tkan-shirts-9862",
+    "title": {
+      "ua": "Тканина 9862",
+      "ru": "Ткань 9862"
+    },
+    "isNew": false,
+    "images": [],
+    "description": {
+      "ua": "35% бавовна, 65% поліестр,  легкая, комфортная, дышащая,",
+      "ru": "35% бавовна, 65% поліестр,  легкая, комфортная, дышащая,"
+    },
+    "attributes": {
+      "fabricType": "полотно",
+      "density": "110",
+      "width": "150",
+      "colors": [],
+      "properties": [],
+      "composition": {
+        "cotton": 35,
+        "polyester": 65,
+        "spandex": 0,
+        "rayon": 0,
+        "viscose": 0,
+        "pbt": 0,
+        "lyon": 0,
+        "linen": 0,
+        "polyamide": 0,
+        "polypropylene": 0,
+        "paraAramid": 0,
+        "nylon": 0,
+        "mac": 0,
+        "pu": 0,
+        "antistatic": 0,
+        "Modacrylic/Lyocell/Static-Control™": 0,
+        "Nomex®/Kevlar®/Anti-Static": 0,
+        "Nomex®/Para-Aramid/p140": 0,
+        "PBI®/Kevlar®/Antistatic": 0,
+        "Lenzing FR®/Aramid": 0,
+        "Para-aramid/Solid polymer coating": 0,
+        "FR Rayon/пара-арамід/поліамід/антистатик": 0
+      }
+    }
+  },
+  {
+    "id": "tkan-shirts-9700",
+    "category": "shirts",
+    "slug": "tkan-shirts-9700",
+    "title": {
+      "ua": "Тканина 9700",
+      "ru": "Ткань 9700"
+    },
+    "isNew": false,
+    "images": [],
+    "description": {
+      "ua": "35% бавовна, 65% поліестр,  легкая, комфортная, дышащая,",
+      "ru": "35% бавовна, 65% поліестр,  легкая, комфортная, дышащая,"
+    },
+    "attributes": {
+      "fabricType": "полотно",
+      "density": "110",
+      "width": "150",
+      "colors": [],
+      "properties": [],
+      "composition": {
+        "cotton": 35,
+        "polyester": 65,
+        "spandex": 0,
+        "rayon": 0,
+        "viscose": 0,
+        "pbt": 0,
+        "lyon": 0,
+        "linen": 0,
+        "polyamide": 0,
+        "polypropylene": 0,
+        "paraAramid": 0,
+        "nylon": 0,
+        "mac": 0,
+        "pu": 0,
+        "antistatic": 0,
+        "Modacrylic/Lyocell/Static-Control™": 0,
+        "Nomex®/Kevlar®/Anti-Static": 0,
+        "Nomex®/Para-Aramid/p140": 0,
+        "PBI®/Kevlar®/Antistatic": 0,
+        "Lenzing FR®/Aramid": 0,
+        "Para-aramid/Solid polymer coating": 0,
+        "FR Rayon/пара-арамід/поліамід/антистатик": 0
+      }
+    }
+  },
+  {
+    "id": "tkan-shirts-9998",
+    "category": "shirts",
+    "slug": "tkan-shirts-9998",
+    "title": {
+      "ua": "Тканина 9998",
+      "ru": "Ткань 9998"
+    },
+    "isNew": false,
+    "images": [],
+    "description": {
+      "ua": "35% бавовна, 65% поліестр,  легкая, комфортная, дышащая,",
+      "ru": "35% бавовна, 65% поліестр,  легкая, комфортная, дышащая,"
+    },
+    "attributes": {
+      "fabricType": "полотно",
+      "density": "117",
+      "width": "150",
+      "colors": [],
+      "properties": [],
+      "composition": {
+        "cotton": 35,
+        "polyester": 65,
+        "spandex": 0,
+        "rayon": 0,
+        "viscose": 0,
+        "pbt": 0,
+        "lyon": 0,
+        "linen": 0,
+        "polyamide": 0,
+        "polypropylene": 0,
+        "paraAramid": 0,
+        "nylon": 0,
+        "mac": 0,
+        "pu": 0,
+        "antistatic": 0,
+        "Modacrylic/Lyocell/Static-Control™": 0,
+        "Nomex®/Kevlar®/Anti-Static": 0,
+        "Nomex®/Para-Aramid/p140": 0,
+        "PBI®/Kevlar®/Antistatic": 0,
+        "Lenzing FR®/Aramid": 0,
+        "Para-aramid/Solid polymer coating": 0,
+        "FR Rayon/пара-арамід/поліамід/антистатик": 0
+      }
+    }
+  },
+  {
+    "id": "tkan-shirts-0480",
+    "category": "shirts",
+    "slug": "tkan-shirts-0480",
+    "title": {
+      "ua": "Тканина 0480",
+      "ru": "Ткань 0480"
+    },
+    "isNew": false,
+    "images": [],
+    "description": {
+      "ua": "97% бавовна, 3% еластан. легка, комфортна, дихаюча,",
+      "ru": "97% бавовна, 3% еластан.  легкая, комфортная, дышащая"
+    },
+    "attributes": {
+      "fabricType": "полотно",
+      "density": "126",
+      "width": "150",
+      "colors": [],
+      "properties": [],
+      "composition": {
+        "cotton": 97,
+        "polyester": 0,
+        "spandex": 3,
+        "rayon": 0,
+        "viscose": 0,
+        "pbt": 0,
+        "lyon": 0,
+        "linen": 0,
+        "polyamide": 0,
+        "polypropylene": 0,
+        "paraAramid": 0,
+        "nylon": 0,
+        "mac": 0,
+        "pu": 0,
+        "antistatic": 0,
+        "Modacrylic/Lyocell/Static-Control™": 0,
+        "Nomex®/Kevlar®/Anti-Static": 0,
+        "Nomex®/Para-Aramid/p140": 0,
+        "PBI®/Kevlar®/Antistatic": 0,
+        "Lenzing FR®/Aramid": 0,
+        "Para-aramid/Solid polymer coating": 0,
+        "FR Rayon/пара-арамід/поліамід/антистатик": 0
+      }
+    }
+  },
+  {
+    "id": "tkan-shirts-1030",
+    "category": "shirts",
+    "slug": "tkan-shirts-1030",
+    "title": {
+      "ua": "Тканина 1030",
+      "ru": "Ткань 1030"
+    },
+    "isNew": false,
+    "images": [],
+    "description": {
+      "ua": "80% бавовна, 20% поліестр,  легка, комфортна, дихаюча,",
+      "ru": "80% бавовна, 20% поліестр,  легкая, комфортная, дышащая,"
+    },
+    "attributes": {
+      "fabricType": "полотно",
+      "density": "110",
+      "width": "150",
+      "colors": [],
+      "properties": [],
+      "composition": {
+        "cotton": 80,
+        "polyester": 20,
+        "spandex": 0,
+        "rayon": 0,
+        "viscose": 0,
+        "pbt": 0,
+        "lyon": 0,
+        "linen": 0,
+        "polyamide": 0,
+        "polypropylene": 0,
+        "paraAramid": 0,
+        "nylon": 0,
+        "mac": 0,
+        "pu": 0,
+        "antistatic": 0,
+        "Modacrylic/Lyocell/Static-Control™": 0,
+        "Nomex®/Kevlar®/Anti-Static": 0,
+        "Nomex®/Para-Aramid/p140": 0,
+        "PBI®/Kevlar®/Antistatic": 0,
+        "Lenzing FR®/Aramid": 0,
+        "Para-aramid/Solid polymer coating": 0,
+        "FR Rayon/пара-арамід/поліамід/антистатик": 0
+      }
+    }
+  },
+  {
+    "id": "tkan-shirts-rc118c",
+    "category": "shirts",
+    "slug": "tkan-shirts-rc118c",
+    "title": {
+      "ua": "Тканина  RC118C",
+      "ru": "Ткань  RC118C"
+    },
+    "isNew": false,
+    "images": [],
+    "description": {
+      "ua": "80% бавовна, 20% поліестр,  легка, комфортна, дихаюча,",
+      "ru": "80% бавовна, 20% поліестр,  легкая, комфортная, дышащая,"
+    },
+    "attributes": {
+      "fabricType": "полотно",
+      "density": "120",
+      "width": "150",
+      "colors": [],
+      "properties": [],
+      "composition": {
+        "cotton": 80,
+        "polyester": 20,
+        "spandex": 0,
+        "rayon": 0,
+        "viscose": 0,
+        "pbt": 0,
+        "lyon": 0,
+        "linen": 0,
+        "polyamide": 0,
+        "polypropylene": 0,
+        "paraAramid": 0,
+        "nylon": 0,
+        "mac": 0,
+        "pu": 0,
+        "antistatic": 0,
+        "Modacrylic/Lyocell/Static-Control™": 0,
+        "Nomex®/Kevlar®/Anti-Static": 0,
+        "Nomex®/Para-Aramid/p140": 0,
+        "PBI®/Kevlar®/Antistatic": 0,
+        "Lenzing FR®/Aramid": 0,
+        "Para-aramid/Solid polymer coating": 0,
+        "FR Rayon/пара-арамід/поліамід/антистатик": 0
+      }
+    }
+  },
+  {
+    "id": "tkan-shirts-1199",
+    "category": "shirts",
+    "slug": "tkan-shirts-1199",
+    "title": {
+      "ua": "Тканина  1199",
+      "ru": "Ткань  1199"
+    },
+    "isNew": false,
+    "images": [],
+    "description": {
+      "ua": "75% бавовна, 25% поліестр,  легка, комфортна, дихаюча,",
+      "ru": "75% бавовна, 25% поліестр,  легкая, комфортная, дышащая,"
+    },
+    "attributes": {
+      "fabricType": "полотно",
+      "density": "135",
+      "width": "150",
+      "colors": [],
+      "properties": [],
+      "composition": {
+        "cotton": 75,
+        "polyester": 25,
+        "spandex": 0,
+        "rayon": 0,
+        "viscose": 0,
+        "pbt": 0,
+        "lyon": 0,
+        "linen": 0,
+        "polyamide": 0,
+        "polypropylene": 0,
+        "paraAramid": 0,
+        "nylon": 0,
+        "mac": 0,
+        "pu": 0,
+        "antistatic": 0,
+        "Modacrylic/Lyocell/Static-Control™": 0,
+        "Nomex®/Kevlar®/Anti-Static": 0,
+        "Nomex®/Para-Aramid/p140": 0,
+        "PBI®/Kevlar®/Antistatic": 0,
+        "Lenzing FR®/Aramid": 0,
+        "Para-aramid/Solid polymer coating": 0,
+        "FR Rayon/пара-арамід/поліамід/антистатик": 0
+      }
+    }
+  },
+  {
+    "id": "tkan-shirts-112",
+    "category": "shirts",
+    "slug": "tkan-shirts-112",
+    "title": {
+      "ua": "Тканина  В112",
+      "ru": "Ткань  В112"
+    },
+    "isNew": false,
+    "images": [],
+    "description": {
+      "ua": "75% бавовна, 25% поліестр,  легка, комфортна, дихаюча,",
+      "ru": "75% бавовна, 25% поліестр,  легкая, комфортная, дышащая,"
+    },
+    "attributes": {
+      "fabricType": "полотно",
+      "density": "125",
+      "width": "150",
+      "colors": [],
+      "properties": [],
+      "composition": {
+        "cotton": 75,
+        "polyester": 25,
+        "spandex": 0,
+        "rayon": 0,
+        "viscose": 0,
+        "pbt": 0,
+        "lyon": 0,
+        "linen": 0,
+        "polyamide": 0,
+        "polypropylene": 0,
+        "paraAramid": 0,
+        "nylon": 0,
+        "mac": 0,
+        "pu": 0,
+        "antistatic": 0,
+        "Modacrylic/Lyocell/Static-Control™": 0,
+        "Nomex®/Kevlar®/Anti-Static": 0,
+        "Nomex®/Para-Aramid/p140": 0,
+        "PBI®/Kevlar®/Antistatic": 0,
+        "Lenzing FR®/Aramid": 0,
+        "Para-aramid/Solid polymer coating": 0,
+        "FR Rayon/пара-арамід/поліамід/антистатик": 0
+      }
+    }
+  },
+  {
+    "id": "tkan-shirts-lt1109",
+    "category": "shirts",
+    "slug": "tkan-shirts-lt1109",
+    "title": {
+      "ua": "Тканина LT1109",
+      "ru": "Ткань LT1109"
+    },
+    "isNew": false,
+    "images": [],
+    "description": {
+      "ua": "72% бавовна, 24% поліестр, 4% еластан. легка, комфортна, дихаюча,",
+      "ru": "72% бавовна, 24% поліестр, 4% еластан.,  легкая, комфортная, дышащая,"
+    },
+    "attributes": {
+      "fabricType": "полотно",
+      "density": "124",
+      "width": "144",
+      "colors": [],
+      "properties": [],
+      "composition": {
+        "cotton": 72,
+        "polyester": 24,
+        "spandex": 4,
+        "rayon": 0,
+        "viscose": 0,
+        "pbt": 0,
+        "lyon": 0,
+        "linen": 0,
+        "polyamide": 0,
+        "polypropylene": 0,
+        "paraAramid": 0,
+        "nylon": 0,
+        "mac": 0,
+        "pu": 0,
+        "antistatic": 0,
+        "Modacrylic/Lyocell/Static-Control™": 0,
+        "Nomex®/Kevlar®/Anti-Static": 0,
+        "Nomex®/Para-Aramid/p140": 0,
+        "PBI®/Kevlar®/Antistatic": 0,
+        "Lenzing FR®/Aramid": 0,
+        "Para-aramid/Solid polymer coating": 0,
+        "FR Rayon/пара-арамід/поліамід/антистатик": 0
+      }
+    }
+  },
+  {
+    "id": "tkan-shirts-5767",
+    "category": "shirts",
+    "slug": "tkan-shirts-5767",
+    "title": {
+      "ua": "Тканина 5767",
+      "ru": "Ткань 5767"
+    },
+    "isNew": false,
+    "images": [],
+    "description": {
+      "ua": "63% бавовна, 34% поліестр, 3% еластан.  легка, комфортна, дихаюча,",
+      "ru": "63% бавовна, 34% поліестр, 3% еластан.,  легкая, комфортная, дышащая,"
+    },
+    "attributes": {
+      "fabricType": "полотно",
+      "density": "135",
+      "width": "149",
+      "colors": [],
+      "properties": [],
+      "composition": {
+        "cotton": 63,
+        "polyester": 34,
+        "spandex": 3,
+        "rayon": 0,
+        "viscose": 0,
+        "pbt": 0,
+        "lyon": 0,
+        "linen": 0,
+        "polyamide": 0,
+        "polypropylene": 0,
+        "paraAramid": 0,
+        "nylon": 0,
+        "mac": 0,
+        "pu": 0,
+        "antistatic": 0,
+        "Modacrylic/Lyocell/Static-Control™": 0,
+        "Nomex®/Kevlar®/Anti-Static": 0,
+        "Nomex®/Para-Aramid/p140": 0,
+        "PBI®/Kevlar®/Antistatic": 0,
+        "Lenzing FR®/Aramid": 0,
+        "Para-aramid/Solid polymer coating": 0,
+        "FR Rayon/пара-арамід/поліамід/антистатик": 0
+      }
+    }
+  },
+  {
+    "id": "tkan-shirts-3009",
+    "category": "shirts",
+    "slug": "tkan-shirts-3009",
+    "title": {
+      "ua": "Тканина 3009",
+      "ru": "Ткань 3009"
+    },
+    "isNew": false,
+    "images": [],
+    "description": {
+      "ua": "60% бавовна, 40% поліестр,  легка, комфортна, дихаюча,",
+      "ru": "60% бавовна, 40% поліестр,  легкая, комфортная, дышащая,"
+    },
+    "attributes": {
+      "fabricType": "полотно",
+      "density": "138",
+      "width": "150",
+      "colors": [],
+      "properties": [],
+      "composition": {
+        "cotton": 60,
+        "polyester": 40,
+        "spandex": 0,
+        "rayon": 0,
+        "viscose": 0,
+        "pbt": 0,
+        "lyon": 0,
+        "linen": 0,
+        "polyamide": 0,
+        "polypropylene": 0,
+        "paraAramid": 0,
+        "nylon": 0,
+        "mac": 0,
+        "pu": 0,
+        "antistatic": 0,
+        "Modacrylic/Lyocell/Static-Control™": 0,
+        "Nomex®/Kevlar®/Anti-Static": 0,
+        "Nomex®/Para-Aramid/p140": 0,
+        "PBI®/Kevlar®/Antistatic": 0,
+        "Lenzing FR®/Aramid": 0,
+        "Para-aramid/Solid polymer coating": 0,
+        "FR Rayon/пара-арамід/поліамід/антистатик": 0
+      }
+    }
+  },
+  {
+    "id": "tkan-shirts-tr251",
+    "category": "shirts",
+    "slug": "tkan-shirts-tr251",
+    "title": {
+      "ua": "Тканина TR251",
+      "ru": "Ткань  TR251"
+    },
+    "isNew": false,
+    "images": [],
+    "description": {
+      "ua": "60% бавовна, 40% поліестр,  легка, комфортна, дихаюча,",
+      "ru": "60% бавовна, 40% поліестр,  легкая, комфортная, дышащая,"
+    },
+    "attributes": {
+      "fabricType": "полотно",
+      "density": "117",
+      "width": "150",
+      "colors": [],
+      "properties": [],
+      "composition": {
+        "cotton": 60,
+        "polyester": 40,
+        "spandex": 0,
+        "rayon": 0,
+        "viscose": 0,
+        "pbt": 0,
+        "lyon": 0,
+        "linen": 0,
+        "polyamide": 0,
+        "polypropylene": 0,
+        "paraAramid": 0,
+        "nylon": 0,
+        "mac": 0,
+        "pu": 0,
+        "antistatic": 0,
+        "Modacrylic/Lyocell/Static-Control™": 0,
+        "Nomex®/Kevlar®/Anti-Static": 0,
+        "Nomex®/Para-Aramid/p140": 0,
+        "PBI®/Kevlar®/Antistatic": 0,
+        "Lenzing FR®/Aramid": 0,
+        "Para-aramid/Solid polymer coating": 0,
+        "FR Rayon/пара-арамід/поліамід/антистатик": 0
+      }
+    }
+  },
+  {
+    "id": "tkan-shirts-tr-65",
+    "category": "shirts",
+    "slug": "tkan-shirts-tr-65",
+    "title": {
+      "ua": "Тканина TR-65",
+      "ru": "Ткань  TR-65"
+    },
+    "isNew": false,
+    "images": [],
+    "description": {
+      "ua": "35% бавовна, 65% поліестр,  легка, комфортна, дихаюча,",
+      "ru": "35% бавовна, 65% поліестр,  легкая, комфортная, дышащая,"
+    },
+    "attributes": {
+      "fabricType": "полотно",
+      "density": "115",
+      "width": "150",
+      "colors": [],
+      "properties": [],
+      "composition": {
+        "cotton": 65,
+        "polyester": 35,
+        "spandex": 0,
+        "rayon": 0,
+        "viscose": 0,
+        "pbt": 0,
+        "lyon": 0,
+        "linen": 0,
+        "polyamide": 0,
+        "polypropylene": 0,
+        "paraAramid": 0,
+        "nylon": 0,
+        "mac": 0,
+        "pu": 0,
+        "antistatic": 0,
+        "Modacrylic/Lyocell/Static-Control™": 0,
+        "Nomex®/Kevlar®/Anti-Static": 0,
+        "Nomex®/Para-Aramid/p140": 0,
+        "PBI®/Kevlar®/Antistatic": 0,
+        "Lenzing FR®/Aramid": 0,
+        "Para-aramid/Solid polymer coating": 0,
+        "FR Rayon/пара-арамід/поліамід/антистатик": 0
+      }
+    }
+  },
+  {
+    "id": "tkan-shirts-9037",
+    "category": "shirts",
+    "slug": "tkan-shirts-9037",
+    "title": {
+      "ua": "Тканина 9037",
+      "ru": "Ткань  9037"
+    },
+    "isNew": false,
+    "images": [],
+    "description": {
+      "ua": "35% бавовна, 65% поліестр,  легка, комфортна, дихаюча,",
+      "ru": "35% бавовна, 65% поліестр,  легкая, комфортная, дышащая,"
+    },
+    "attributes": {
+      "fabricType": "полотно",
+      "density": "100",
+      "width": "150",
+      "colors": [],
+      "properties": [],
+      "composition": {
+        "cotton": 65,
+        "polyester": 35,
+        "spandex": 0,
+        "rayon": 0,
+        "viscose": 0,
+        "pbt": 0,
+        "lyon": 0,
+        "linen": 0,
+        "polyamide": 0,
+        "polypropylene": 0,
+        "paraAramid": 0,
+        "nylon": 0,
+        "mac": 0,
+        "pu": 0,
+        "antistatic": 0,
+        "Modacrylic/Lyocell/Static-Control™": 0,
+        "Nomex®/Kevlar®/Anti-Static": 0,
+        "Nomex®/Para-Aramid/p140": 0,
+        "PBI®/Kevlar®/Antistatic": 0,
+        "Lenzing FR®/Aramid": 0,
+        "Para-aramid/Solid polymer coating": 0,
+        "FR Rayon/пара-арамід/поліамід/антистатик": 0
+      }
+    }
+  },
+  {
+    "id": "tkan-shirts-9065",
+    "category": "shirts",
+    "slug": "tkan-shirts-9065",
+    "title": {
+      "ua": "Тканина 9065",
+      "ru": "Ткань 9065"
+    },
+    "isNew": false,
+    "images": [],
+    "description": {
+      "ua": "35% бавовна, 65% поліестр,  легка, комфортна, дихаюча,",
+      "ru": "35% бавовна, 65% поліестр,  легкая, комфортная, дышащая,"
+    },
+    "attributes": {
+      "fabricType": "полотно",
+      "density": "113",
+      "width": "150",
+      "colors": [],
+      "properties": [],
+      "composition": {
+        "cotton": 65,
+        "polyester": 35,
+        "spandex": 0,
+        "rayon": 0,
+        "viscose": 0,
+        "pbt": 0,
+        "lyon": 0,
+        "linen": 0,
+        "polyamide": 0,
+        "polypropylene": 0,
+        "paraAramid": 0,
+        "nylon": 0,
+        "mac": 0,
+        "pu": 0,
+        "antistatic": 0,
+        "Modacrylic/Lyocell/Static-Control™": 0,
+        "Nomex®/Kevlar®/Anti-Static": 0,
+        "Nomex®/Para-Aramid/p140": 0,
+        "PBI®/Kevlar®/Antistatic": 0,
+        "Lenzing FR®/Aramid": 0,
+        "Para-aramid/Solid polymer coating": 0,
+        "FR Rayon/пара-арамід/поліамід/антистатик": 0
+      }
+    }
+  },
+  {
+    "id": "tkan-shirts-l601",
+    "category": "shirts",
+    "slug": "tkan-shirts-l601",
+    "title": {
+      "ua": "Тканина L601 ",
+      "ru": "Ткань  L601 "
+    },
+    "isNew": false,
+    "images": [],
+    "description": {
+      "ua": "50%віскоза50%поліестер. легка, комфортна, дихаюча",
+      "ru": "50%віскоза50%поліестер. легкая, комфортная, дышащая,"
+    },
+    "attributes": {
+      "fabricType": "саржа",
+      "density": "125",
+      "width": "150",
+      "colors": [],
+      "properties": [],
+      "composition": {
+        "cotton": 0,
+        "polyester": 50,
+        "spandex": 0,
+        "rayon": 0,
+        "viscose": 50,
+        "pbt": 0,
+        "lyon": 0,
+        "linen": 0,
+        "polyamide": 0,
+        "polypropylene": 0,
+        "paraAramid": 0,
+        "nylon": 0,
+        "mac": 0,
+        "pu": 0,
+        "antistatic": 0,
+        "Modacrylic/Lyocell/Static-Control™": 0,
+        "Nomex®/Kevlar®/Anti-Static": 0,
+        "Nomex®/Para-Aramid/p140": 0,
+        "PBI®/Kevlar®/Antistatic": 0,
+        "Lenzing FR®/Aramid": 0,
+        "Para-aramid/Solid polymer coating": 0,
+        "FR Rayon/пара-арамід/поліамід/антистатик": 0
+      }
     }
   }
 ]
