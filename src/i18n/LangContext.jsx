@@ -4,12 +4,19 @@ import translations from './translations.json';
 const LangContext = createContext();
 
 export function LangProvider({ children }) {
-  const [lang, setLang] = useState(() => localStorage.getItem('lang') || 'ua');
+  const [lang, setLang] = useState(() => {
+    if (typeof window !== 'undefined') {
+      return localStorage.getItem('lang') || 'ua';
+    }
+    return 'ua';
+  });
 
   const toggleLang = () => {
     const next = lang === 'ua' ? 'ru' : 'ua';
     setLang(next);
-    localStorage.setItem('lang', next);
+    if (typeof window !== 'undefined') {
+      localStorage.setItem('lang', next);
+    }
   };
 
   const t = (key) => {
