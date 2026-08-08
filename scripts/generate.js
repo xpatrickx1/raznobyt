@@ -121,8 +121,9 @@ ${urlsXml}
     console.log('✓ Generated sitemap.xml');
 
     // Generate robots.txt
+    // Allow: /
     const robots = `User-agent: *
-Allow: /
+Disallow: /
 
 Sitemap: ${DOMAIN}/sitemap.xml
 `;

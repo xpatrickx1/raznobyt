@@ -2,16 +2,13 @@ import { useState, useEffect } from 'react';
 import placeholder from '../assets/images/placeholder.svg';
 
 const Image = ({ src, alt, className, loading = 'lazy', ...props }) => {
-    const [error, setError] = useState(false);
-    const [loaded, setLoaded] = useState(false);
+    const [state, setState] = useState({ src, error: false, loaded: false });
 
-    // Reset state if src changes
-    useEffect(() => {
-        setError(false);
-        setLoaded(false);
-    }, [src]);
+    if (state.src !== src) {
+        setState({ src, error: false, loaded: false });
+    }
 
-    if (error || !src) {
+    if (state.error || !src) {
         return (
             <div className={`image-fallback ${className || ''}`}>
                 <img
@@ -28,9 +25,9 @@ const Image = ({ src, alt, className, loading = 'lazy', ...props }) => {
             src={src}
             alt={alt}
             loading={loading}
-            className={`${className || ''} ${loaded ? 'img-loaded' : 'img-loading'}`}
-            onLoad={() => setLoaded(true)}
-            onError={() => setError(true)}
+            className={`${className || ''} ${state.loaded ? 'img-loaded' : 'img-loading'}`}
+            onLoad={() => setState(prev => ({ ...prev, loaded: true }))}
+            onError={() => setState(prev => ({ ...prev, error: true }))}
             {...props}
         />
     );

@@ -6,9 +6,8 @@
   "scripts": {
     "sync": "node scripts/sync.js",
     "dev": "vite",
-    "build": "vite build",
-    "preview": "vite preview",
-    "build:ssg": "npm run sync && node scripts/generate.js"
+    "build": "npm run sync && vite build && node scripts/generate.js",
+    "preview": "vite preview"
   },
   "dependencies": {
     "react": "^18.3.1",

@@ -1,9 +1,10 @@
 import { useState, useEffect } from 'react';
-import { useParams, Navigate, useInRouterContext, MemoryRouter } from 'react-router-dom';
+import { useParams, Navigate } from 'react-router-dom';
+import withRouter from '../lib/withRouter';
 import { getProductBySlug, getProductsByCategory } from '../lib/products';
 import ProductView from '../components/Product/ProductView';
 
-function ProductPageInner({ slug: externalSlug = null }) {
+function ProductPage({ slug: externalSlug = null }) {
   const { slug: paramSlug } = useParams();
   const slug = externalSlug ?? paramSlug;
 
@@ -29,14 +30,4 @@ function ProductPageInner({ slug: externalSlug = null }) {
   return <ProductView product={product} related={related} />;
 }
 
-export default function ProductPage(props) {
-  const inRouter = useInRouterContext();
-  if (!inRouter) {
-    return (
-      <MemoryRouter>
-        <ProductPageInner {...props} />
-      </MemoryRouter>
-    );
-  }
-  return <ProductPageInner {...props} />;
-}
+export default withRouter(ProductPage);

@@ -294,8 +294,7 @@ button {
   width: 270px;
   text-transform: uppercase;
   color: var(--c-white);
-  /* background: #006baa; */
-  background: #d863d8;
+  background: #006baa;
   border-radius: 0;
 }
 

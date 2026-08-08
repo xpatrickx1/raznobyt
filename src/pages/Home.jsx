@@ -1,5 +1,6 @@
-import { useState, useEffect } from 'react';
-import { Link, useInRouterContext, MemoryRouter } from 'react-router-dom';
+import { useState } from 'react';
+import { Link } from 'react-router-dom';
+import withRouter from '../lib/withRouter';
 import { useLang } from '../i18n/LangContext';
 import Image from '../components/Image';
 import SEO from '../components/SEO';
@@ -8,17 +9,10 @@ import categories from '../data/categories.json';
 import products from '../data/products.js';
 import AnimatedStat from '../components/AnimatedStat';
 import PricePopup from '../components/PricePopup';
+import HeroSlider from '../components/Home/HeroSlider';
+import ContactBlock from '../components/Home/ContactBlock';
 
-import slide1 from '../assets/images/slider/slide1.png';
-import slide2 from '../assets/images/slider/slide2.png';
-import slide3 from '../assets/images/slider/slide3.png';
 import canvasAll from '../assets/images/canvas.png';
-
-const slides = [
-  { id: 1, image: slide1, align: 'left' },
-  { id: 2, image: slide2, align: 'right' },
-  { id: 3, image: slide3, align: 'left' }
-];
 
 const WHY_ICONS = [
   <svg key="1" xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"><path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"></path><polyline points="3.27 6.96 12 12.01 20.73 6.96"></polyline><line x1="12" y1="22.08" x2="12" y2="12"></line></svg>,
@@ -27,20 +21,11 @@ const WHY_ICONS = [
   <svg key="4" xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path><polyline points="9 12 11 14 15 10"></polyline></svg>
 ];
 
-function HomeInner() {
+function Home() {
   const { lang, t } = useLang();
   const featured = products.slice(0, 4);
   const whyItems = t('home.whyUsItems');
-  const contactList = t('home.contactBlockList') || [];
-  const [currentSlide, setCurrentSlide] = useState(0);
   const [isPricePopupOpen, setIsPricePopupOpen] = useState(false);
-
-  useEffect(() => {
-    const timer = setInterval(() => {
-      setCurrentSlide((prev) => (prev + 1) % slides.length);
-    }, 5000);
-    return () => clearInterval(timer);
-  }, []);
 
   return (
     <>
@@ -50,147 +35,8 @@ function HomeInner() {
         keywords="тканини, спецодяг, медичні тканини, робочий одяг, текстиль"
       />
 
-      {/* HERO */}
-      <section className="hero-slider">
-        {slides.map((slide, index) => {
-          const isActive = index === currentSlide;
-
-          return (
-            <div key={slide.id} className={`hero-slide ${isActive ? 'active' : ''}`}>
-              <div className="hero-slide__bg" style={{ backgroundImage: `url(${slide.image})` }} />
-              <div className="hero-slide__overlay" />
-              <div className="container" style={{ height: '100%' }}>
-                <div className={`hero-slide__content align-${slide.align} ${isActive ? 'fade-in-active' : ''}`}>
-                  <div className="hero__eyebrow">Голландські текстильні традиції</div>
-                  <h1 dangerouslySetInnerHTML={{ __html: t(`hero.title${slide.id}`) }} />
-                  <p className="hero__sub">{t(`hero.subtitle${slide.id}`)}</p>
-                  <div className="hero__btns">
-                    <Link to="/catalog" className="btn btn-primary">
-                      {lang === 'ua' ? 'Переглянути тканини' : 'Посмотреть ткани'}
-                    </Link>
-                    <button onClick={() => setIsPricePopupOpen(true)} className="btn btn-outline">
-                      {lang === 'ua' ? 'Отримати прайс' : 'Получить прайс'}
-                    </button>
-                  </div>
-                </div>
-              </div>
-            </div>
-          );
-        })}
-
-        {/* Slider dots */}
-        <div className="hero-slider__dots">
-          {slides.map((_, index) => (
-            <button
-              key={index}
-              className={`hero-slider__dot ${index === currentSlide ? 'active' : ''}`}
-              onClick={() => setCurrentSlide(index)}
-              aria-label={`Slide ${index + 1}`}
-            />
-          ))}
-        </div>
-      </section>
-
-
-
-      {/* CONTACT BLOCK UNDER HERO */}
-      <section className="section" style={{ background: 'var(--c-bg)', position: 'relative', zIndex: 2 }}>
-        <div className="container">
-          <div className="contact-block-grid">
-            <div className="contact-block-left fade-up fade-up-1">
-              <h2 className="section__title" style={{ textAlign: 'left', marginBottom: 16 }}>
-                {t('home.contactBlockTitle')}
-              </h2>
-              <p className="section__sub" style={{ textAlign: 'left', marginBottom: 32, fontSize: 16 }}>
-                {t('home.contactBlockSub')}
-              </p>
-              <ul className="contact-block-list">
-                {Array.isArray(contactList) && contactList.map((item, i) => (
-                  <li key={i}><span className="chk">✔</span> {item}</li>
-                ))}
-              </ul>
-            </div>
-            <div className="contact-block-right fade-up fade-up-2">
-              <div className="contact-form-card">
-                <form
-                  action="https://formsubmit.co/info@riznobyt.com"
-                  method="POST"
-                  className="contact-block-form"
-                  onSubmit={async (e) => {
-                    e.preventDefault();
-                    const form = e.target;
-                    const formData = new FormData(form);
-                    const btn = form.querySelector('button[type="submit"]');
-                    const originalText = btn.innerText;
-
-                    try {
-                      btn.innerText = t('home.formSending');
-                      btn.disabled = true;
-                      const res = await fetch(form.action, {
-                        method: "POST",
-                        body: formData,
-                        headers: { 'Accept': 'application/json' }
-                      });
-                      if (res.ok) {
-                        alert(t('home.formSuccess'));
-                        form.reset();
-                      } else {
-                        alert(t('home.formError'));
-                      }
-                    } catch (error) {
-                      alert(t('home.formNetworkError'));
-                    } finally {
-                      btn.innerText = originalText;
-                      btn.disabled = false;
-                    }
-                  }}
-                >
-                  {/* Вкажіть тут вашу робочу пошту замість info@riznobyt.com */}
-                  <input type="hidden" name="_subject" value="Нова заявка з сайту Різнобит!" />
-                  <input type="hidden" name="_captcha" value="false" />
-                  <input type="hidden" name="_template" value="table" />
-
-                  <div className="form-group">
-                    <label className="form-label">{t('home.formName')}</label>
-                    <input
-                      type="text"
-                      name="name"
-                      className="form-input"
-                      // placeholder={t('home.formNamePlaceholder')} 
-                      required
-                    />
-                  </div>
-                  <div className="form-group">
-                    <label className="form-label">{t('home.formContact')}</label>
-                    <input
-                      type="text"
-                      name="contact"
-                      className="form-input"
-                      // placeholder={t('home.formContactPlaceholder')} 
-                      required
-                    />
-                  </div>
-                  <div className="form-group">
-                    <label className="form-label">{t('home.formMessage')}</label>
-                    <textarea
-                      name="message"
-                      className="form-textarea"
-                      // placeholder={t('home.formMessagePlaceholder')} 
-                      rows="3"
-                      required></textarea>
-                  </div>
-                  <button type="submit" className="btn btn-primary" style={{ width: '100%', justifyContent: 'center' }}>
-                    {t('home.formSubmit')}
-                  </button>
-                  <p style={{ fontSize: 11, color: 'var(--c-text-muted)', textAlign: 'center', marginTop: 12 }}>
-                    {t('home.formTerms')}
-                  </p>
-                </form>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
+      <HeroSlider onPriceClick={() => setIsPricePopupOpen(true)} />
+      <ContactBlock />
 
       {/* CATEGORIES */}
       <section className="section">
@@ -325,14 +171,4 @@ function HomeInner() {
   );
 }
 
-export default function Home(props) {
-  const inRouter = useInRouterContext();
-  if (!inRouter) {
-    return (
-      <MemoryRouter>
-        <HomeInner {...props} />
-      </MemoryRouter>
-    );
-  }
-  return <HomeInner {...props} />;
-}
+export default withRouter(Home);

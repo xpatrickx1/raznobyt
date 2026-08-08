@@ -43,33 +43,42 @@ export default function CategoryView({
         }
     }, [locationSearch]);
 
-    // Derived filter options
-    const FABRIC_TYPES = useMemo(() => [...new Set(products.map(p => p.attributes.fabricType))], [products]);
-    const COLORS = useMemo(() => {
+    const { FABRIC_TYPES, COLORS, DENSITIES, WIDTHS, COMPOSITIONS } = useMemo(() => {
+        const types = new Set();
         const cols = new Set();
+        const dens = new Set();
+        const wids = new Set();
+        const comps = new Set();
+
         products.forEach(p => {
+            if (p.attributes.fabricType) types.add(p.attributes.fabricType);
+
             if (Array.isArray(p.attributes.color)) {
                 p.attributes.color.forEach(c => cols.add(c));
             } else if (p.attributes.color) {
                 cols.add(p.attributes.color);
             }
-        });
-        return [...cols];
-    }, [products]);
-    const DENSITIES = useMemo(() => [...new Set(products.map(p => p.attributes.density))].sort((a, b) => parseInt(a) - parseInt(b)), [products]);
-    const WIDTHS = useMemo(() => [...new Set(products.map(p => p.attributes.width))], [products]);
-    const COMPOSITIONS = useMemo(() => {
-        const comps = new Set();
-        products.forEach(p => {
+
+            if (p.attributes.density) dens.add(p.attributes.density);
+            if (p.attributes.width) wids.add(p.attributes.width);
+
             const comp = p.attributes?.composition;
-            if (!comp) return;
-            if (typeof comp === 'object') {
-                Object.entries(comp).forEach(([k, v]) => { if (v > 0) comps.add(k); });
-            } else {
-                comps.add(comp);
+            if (comp) {
+                if (typeof comp === 'object') {
+                    Object.entries(comp).forEach(([k, v]) => { if (v > 0) comps.add(k); });
+                } else {
+                    comps.add(comp);
+                }
             }
         });
-        return [...comps];
+
+        return {
+            FABRIC_TYPES: [...types],
+            COLORS: [...cols],
+            DENSITIES: [...dens].sort((a, b) => parseInt(a) - parseInt(b)),
+            WIDTHS: [...wids],
+            COMPOSITIONS: [...comps]
+        };
     }, [products]);
 
     const toggleSection = (section) => {

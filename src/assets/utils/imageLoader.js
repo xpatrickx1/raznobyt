@@ -10,7 +10,7 @@
 // Кеш для завантажених зображень
 const imageCache = new Map();
 
-export async function getImage(path, basePath = '/') {
+export function getImage(path, basePath = '/') {
     if (!path) return null;
 
     // Якщо вже в кеші
@@ -19,17 +19,17 @@ export async function getImage(path, basePath = '/') {
     }
 
     // Якщо шлях починається з http/https - зовнішнє зображення
-    // if (path.startsWith('http://') || path.startsWith('https://')) {
-    //     imageCache.set(path, path);
-    //     return path;
-    // }
+    if (path.startsWith('http://') || path.startsWith('https://')) {
+        imageCache.set(path, path);
+        return path;
+    }
 
     // Якщо шлях вже починається з /images/ або /uploads/
-    // if (path.startsWith('/images/') || path.startsWith('/uploads/')) {
-    //     // Для публічних файлів повертаємо як є
-    //     imageCache.set(path, path);
-    //     return path;
-    // }
+    if (path.startsWith('/images/') || path.startsWith('/uploads/')) {
+        // Для публічних файлів повертаємо як є
+        imageCache.set(path, path);
+        return path;
+    }
 
     // Якщо передано тільки ім'я файлу, будуємо повний шлях
     const fullPath = `${basePath}${path}`;
@@ -38,7 +38,7 @@ export async function getImage(path, basePath = '/') {
 }
 
 // Спеціалізовані функції для різних типів контенту
-export const getProductImage = (imagePath) => getImage(imagePath, '');
+export const getProductImage = (imagePath) => getImage(imagePath, '/images/products/');
 export const getCategoryImage = (imagePath) => getImage(imagePath, '/images/categories/');
 export const getIconImage = (imagePath) => getImage(imagePath, '/images/icons/');
 

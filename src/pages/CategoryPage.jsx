@@ -1,10 +1,11 @@
 import { useState, useEffect } from 'react';
-import { useParams, Navigate, useLocation, useSearchParams, useInRouterContext, MemoryRouter } from 'react-router-dom';
+import { useParams, Navigate, useLocation, useSearchParams } from 'react-router-dom';
+import withRouter from '../lib/withRouter';
 import { getProductsByCategory } from '../lib/products';
 import categories from '../data/categories.json';
 import CategoryView from '../components/Category/CategoryView';
 
-function CategoryPageInner({ slug: externalSlug = null }) {
+function CategoryPage({ slug: externalSlug = null }) {
   const { slug: paramSlug } = useParams();
   const location = useLocation();
   const [searchParams, setSearchParams] = useSearchParams();
@@ -83,14 +84,4 @@ function CategoryPageInner({ slug: externalSlug = null }) {
   );
 }
 
-export default function CategoryPage(props) {
-  const inRouter = useInRouterContext();
-  if (!inRouter) {
-    return (
-      <MemoryRouter>
-        <CategoryPageInner {...props} />
-      </MemoryRouter>
-    );
-  }
-  return <CategoryPageInner {...props} />;
-}
+export default withRouter(CategoryPage);
