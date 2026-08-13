@@ -87,6 +87,168 @@ button {
   padding: 0 24px;
 }
 
+/* ========== TOP BAR ========== */
+.topbar {
+  background: #f9f9f9;
+  color: #000000;
+  font-size: 13px;
+  line-height: 1.3;
+}
+
+.topbar__inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  min-height: 36px;
+  gap: 16px;
+}
+
+.topbar__left {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.status-dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: #22c55e;
+  box-shadow: 0 0 0 0 rgba(34, 197, 94, 0.6);
+  animation: pulse-dot 1.5s infinite;
+  flex-shrink: 0;
+}
+
+@keyframes pulse-dot {
+  0% {
+    box-shadow: 0 0 0 0 rgba(34, 197, 94, 0.55);
+  }
+
+  70% {
+    box-shadow: 0 0 0 8px rgba(34, 197, 94, 0);
+  }
+
+  100% {
+    box-shadow: 0 0 0 0 rgba(34, 197, 94, 0);
+  }
+}
+
+.topbar__schedule {
+  opacity: 0.9;
+  white-space: nowrap;
+}
+
+.topbar__right {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.topbar__lang .lang-btn {
+  color: rgba(0, 0, 0, 0.7);
+  background: transparent;
+  border: none;
+  font-size: 12px;
+  font-weight: 600;
+  padding: 2px 6px;
+  cursor: pointer;
+  transition: color 0.2s;
+}
+
+.topbar__lang .lang-btn.active,
+.topbar__lang .lang-btn:hover {
+  color: #000000;
+}
+
+.topbar__phone {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  color: #000;
+  font-weight: 600;
+  text-decoration: none;
+  white-space: nowrap;
+  transition: opacity 0.2s;
+}
+
+.topbar__phone:hover {
+  opacity: 0.85;
+}
+
+/* .topbar__phone img {
+  filter: brightness(0) invert(1);
+} */
+
+/* ========== NAVBAR CTA ========== */
+.navbar__cta {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 18px;
+  background: none;
+  border: 1px solid #000;
+  /* фірмовий акцент, підлаштуй під свій */
+  color: #d16116;
+  font-size: 14px;
+  font-weight: 600;
+  border-radius: 6px;
+  text-decoration: none;
+  white-space: nowrap;
+  transition: background 0.2s, transform 0.15s;
+}
+
+.navbar__cta:hover {
+  background: #000;
+  color: #fff;
+}
+
+/* ========== MOBILE CTA ========== */
+.mobile-menu__cta {
+  display: block;
+  margin: 16px 20px 12px;
+  padding: 14px 18px;
+  background: #b08a4e;
+  color: #fff;
+  text-align: center;
+  font-weight: 600;
+  border-radius: 8px;
+  text-decoration: none;
+}
+
+/* ========== ADAPTIVE ========== */
+@media (max-width: 1024px) {
+  .navbar__nav {
+    display: none;
+  }
+
+  .navbar__cta {
+    display: none;
+    /* на планшеті/мобільному CTA йде в бургер */
+  }
+}
+
+@media (max-width: 640px) {
+  .topbar__schedule {
+    font-size: 12px;
+  }
+
+  .topbar__phone span {
+    display: none;
+    /* на дуже маленьких екранах залишаємо тільки іконку */
+  }
+
+  .topbar__phone {
+    padding: 4px;
+  }
+}
+
+@media (max-width: 480px) {
+  .topbar__lang {
+    display: none;
+    /* мову залишаємо тільки в бургер-меню */
+  }
+}
+
 .navbar {
   position: sticky;
   top: 0;
@@ -98,8 +260,8 @@ button {
 .navbar__inner {
   display: flex;
   align-items: center;
-  padding-top: 16px;
-  padding-bottom: 16px;
+  padding-top: 8px;
+  padding-bottom: 8px;
   gap: 32px;
   transition: padding 0.3s ease;
 }
@@ -291,7 +453,7 @@ button {
   padding: 13px 28px;
   font-size: 15px;
   min-height: 45px;
-  width: 270px;
+  width: 240px;
   text-transform: uppercase;
   color: var(--c-white);
   background: #006baa;
@@ -448,7 +610,6 @@ button {
 .navbar__right {
   display: flex;
   align-items: center;
-  gap: 16px;
 }
 
 .navbar__right a {
@@ -460,9 +621,7 @@ button {
   letter-spacing: 0.02em;
 }
 
-.navbar__right a:hover {
-  color: var(--c-accent);
-}
+
 
 .navbar__actions {
   position: relative;
@@ -502,9 +661,10 @@ button {
   font-size: 14px;
   font-weight: 600;
   letter-spacing: 0.08em;
-  color: #cecece;
+  color: #777777;
   transition: all 0.18s;
   background: transparent;
+
 }
 
 .lang-btn:hover {
@@ -3850,5 +4010,81 @@ button {
   .delivery-card {
     flex-direction: column;
     align-items: flex-start;
+  }
+}
+
+
+/* ========== SUPPLIERS STRIP ========== */
+.suppliers-strip {
+  background: #fff;
+  border-top: 1px solid #eee;
+  border-bottom: 1px solid #eee;
+  padding: 28px 0 32px;
+}
+
+.suppliers-strip__header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.suppliers-strip__label {
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: #8a8478;
+}
+
+.suppliers-strip__logos {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 48px;
+  flex-wrap: wrap;
+}
+
+.suppliers-strip__item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 42px;
+  opacity: 0.75;
+  transition: opacity 0.25s ease, transform 0.25s ease;
+  filter: grayscale(100%);
+}
+
+.suppliers-strip__item:hover {
+  opacity: 1;
+  filter: grayscale(0%);
+  transform: translateY(-2px);
+}
+
+.suppliers-strip__logo {
+  max-height: 36px;
+  max-width: 140px;
+  width: auto;
+  height: auto;
+  object-fit: contain;
+}
+
+/* Адаптив */
+@media (max-width: 900px) {
+  .suppliers-strip__logos {
+    gap: 32px;
+  }
+}
+
+@media (max-width: 600px) {
+  .suppliers-strip {
+    padding: 22px 0 26px;
+  }
+
+  .suppliers-strip__logos {
+    gap: 24px 28px;
+  }
+
+  .suppliers-strip__logo {
+    max-height: 30px;
+    max-width: 110px;
   }
 }

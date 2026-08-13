@@ -9,7 +9,7 @@ import slide3 from '../../assets/images/slider/slide3.png';
 const slides = [
     { id: 1, image: slide1, align: 'left' },
     { id: 2, image: slide2, align: 'right' },
-    { id: 3, image: slide3, align: 'left' }
+    // { id: 3, image: slide3, align: 'left' }
 ];
 
 export default function HeroSlider({ onPriceClick }) {

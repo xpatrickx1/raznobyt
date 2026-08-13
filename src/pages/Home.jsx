@@ -11,6 +11,7 @@ import AnimatedStat from '../components/AnimatedStat';
 import PricePopup from '../components/PricePopup';
 import HeroSlider from '../components/Home/HeroSlider';
 import ContactBlock from '../components/Home/ContactBlock';
+import Trust from '../components/Home/Trust';
 
 import canvasAll from '../assets/images/canvas.png';
 
@@ -36,6 +37,7 @@ function Home() {
       />
 
       <HeroSlider onPriceClick={() => setIsPricePopupOpen(true)} />
+      <Trust />
       <ContactBlock />
 
       {/* CATEGORIES */}
