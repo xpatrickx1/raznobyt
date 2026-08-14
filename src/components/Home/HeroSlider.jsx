@@ -2,14 +2,14 @@ import { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import { useLang } from '../../i18n/LangContext';
 
-import slide1 from '../../assets/images/slider/slide1.png';
-import slide2 from '../../assets/images/slider/slide2.png';
-import slide3 from '../../assets/images/slider/slide3.png';
+// import slide1 from '../../assets/images/slider/slide1.png';
+// import slide2 from '../../assets/images/slider/slide2.png';
+import slide3 from '../../assets/images/slider/slide1.png';
 
 const slides = [
-    { id: 1, image: slide1, align: 'left' },
-    { id: 2, image: slide2, align: 'right' },
-    // { id: 3, image: slide3, align: 'left' }
+    // { id: 1, image: slide1, align: 'left' },
+    // { id: 2, image: slide2, align: 'right' },
+    { id: 3, image: slide3, align: 'left' }
 ];
 
 export default function HeroSlider({ onPriceClick }) {

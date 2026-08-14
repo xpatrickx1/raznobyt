@@ -4,6 +4,7 @@ import { createRef, useEffect } from 'react';
 import { HelmetProvider } from 'react-helmet-async';
 import { LangProvider } from './i18n/LangContext';
 import Footer from './components/Footer';
+import FloatingContacts from './components/FloatingContacts';
 import Navbar from './components/Navbar';
 import Home from './pages/Home';
 import Catalog from './pages/Catalog';
@@ -61,7 +62,7 @@ function ScrollToTop() {
 function Layout() {
   const location = useLocation();
   const currentOutlet = useOutlet();
-  
+
   if (location.pathname !== '/' && !location.pathname.endsWith('/')) {
     return <Navigate to={`${location.pathname}/${location.search}${location.hash}`} replace />;
   }
@@ -119,6 +120,7 @@ function Layout() {
           </SwitchTransition>
         </main>
         <Footer />
+        <FloatingContacts />
       </div>
     </>
   );

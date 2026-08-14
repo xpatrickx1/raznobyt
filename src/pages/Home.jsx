@@ -12,6 +12,7 @@ import PricePopup from '../components/PricePopup';
 import HeroSlider from '../components/Home/HeroSlider';
 import ContactBlock from '../components/Home/ContactBlock';
 import Trust from '../components/Home/Trust';
+import Reviews from '../components/Reviews';
 
 import canvasAll from '../assets/images/canvas.png';
 
@@ -95,13 +96,13 @@ function Home() {
       </section>
 
       {/* STATS INTRO */}
-      <section className="section" style={{ background: 'var(--c-bg)', paddingBottom: 0 }}>
+      {/* <section className="section" style={{ background: 'var(--c-bg)', paddingBottom: 0 }}>
         <div className="container">
           <p style={{ maxWidth: '900px', margin: '0 auto', textAlign: 'center', fontSize: '1.05rem', lineHeight: '1.6', color: 'var(--c-text)' }}>
             {t('home.statsIntro')}
           </p>
         </div>
-      </section>
+      </section> */}
 
       {/* STATS BLOCK */}
       <section className="section" style={{ background: 'var(--c-bg)' }}>
@@ -150,6 +151,8 @@ function Home() {
           </div>
         </div>
       </section>
+
+      <Reviews />
 
       {/* CTA BANNER */}
       <section style={{ background: 'var(--c-accent)', padding: '56px 0' }}>
