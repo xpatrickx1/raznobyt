@@ -1,4 +1,9 @@
 import { useLang } from '../../i18n/LangContext';
+import ten from '@/assets/images/suppliers/postavka-ten-cate.png';
+// import tootal from '@/assets/images/suppliers/tootal.svg';
+import concordia from '@/assets/images/suppliers/concordia.svg';
+import tencatePermess from '@/assets/images/suppliers/permess.png';
+import toray from '@/assets/images/suppliers/toray.png';
 
 export default function Trust() {
     const { lang, t } = useLang();
@@ -15,7 +20,7 @@ export default function Trust() {
                 <div className="suppliers-strip__logos">
                     <div className="suppliers-strip__item" title="Ten Cate Protect">
                         <img
-                            src="/images/suppliers/tencate.svg"
+                            src={ten}
                             alt="Ten Cate Protect"
                             className="suppliers-strip__logo"
                             loading="lazy"
@@ -24,7 +29,7 @@ export default function Trust() {
 
                     <div className="suppliers-strip__item" title="Tootal">
                         <img
-                            src="/images/suppliers/tootal.svg"
+                            // src={tootal}
                             alt="Tootal"
                             className="suppliers-strip__logo"
                             loading="lazy"
@@ -33,7 +38,7 @@ export default function Trust() {
 
                     <div className="suppliers-strip__item" title="Concordia">
                         <img
-                            src="/images/suppliers/concordia.svg"
+                            src={concordia}
                             alt="Concordia"
                             className="suppliers-strip__logo"
                             loading="lazy"
@@ -42,7 +47,7 @@ export default function Trust() {
 
                     <div className="suppliers-strip__item" title="Ten Cate Permess">
                         <img
-                            src="/images/suppliers/tencate-permess.svg"
+                            src={tencatePermess}
                             alt="Ten Cate Permess"
                             className="suppliers-strip__logo"
                             loading="lazy"
@@ -51,7 +56,7 @@ export default function Trust() {
 
                     <div className="suppliers-strip__item" title="Toray">
                         <img
-                            src="/images/suppliers/toray.svg"
+                            src={toray}
                             alt="Toray"
                             className="suppliers-strip__logo"
                             loading="lazy"
