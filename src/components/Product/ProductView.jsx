@@ -24,7 +24,8 @@ export default function ProductView({ product, related = [] }) {
 
             const colorImages = (product.attributes?.colors || [])
                 .filter(c => c.image)
-                .map(c => c.image.startsWith('http') ? c.image : `https://catalog.raznobyt.com/images/products/${c.image}`);
+                // .map(c => c.image.startsWith('http') ? c.image : `https://catalog.raznobyt.com/images/products/${c.image}`);
+                .map(c => `http://catalog.raznobyt.com/images/products/${c.image}`);
 
             setImageUrls([...mainUrls, ...colorImages]);
         };
@@ -60,7 +61,8 @@ export default function ProductView({ product, related = [] }) {
                         c.image ? (
                             <span key={idx} className="color-thumb-wrap" data-tooltip={colorName(c)}>
                                 <img
-                                    src={c.image.startsWith('http') ? c.image : `https://catalog.raznobyt.com/images/products/${c.image}`}
+                                    // src={c.image.startsWith('http') ? c.image : `https://catalog.raznobyt.com/images/products/${c.image}`}
+                                    src={`http://catalog.raznobyt.com/images/products/${c.image}`}
                                     alt={colorName(c)}
                                     className="color-thumb-img"
                                     loading="lazy"

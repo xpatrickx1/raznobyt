@@ -130,7 +130,8 @@ async function main() {
         .filter(c => c.image)
         .map(c => {
           const img = c.image.trim();
-          return img.startsWith("http") ? img : `https://catalog.raznobyt.com/images/products/${img}`;
+          // return img.startsWith("http") ? img : `https://catalog.raznobyt.com/images/products/${img}`;
+          return img.startsWith("http") ? img : `http://catalog.raznobyt.com/images/products/${img}`;
         }),
       description: {
         ua: row.desc_ua,
