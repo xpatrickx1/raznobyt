@@ -18,23 +18,29 @@ export function getImage(path, basePath = '/') {
         return imageCache.get(path);
     }
 
-    // Якщо шлях починається з http/https - зовнішнє зображення
-    if (path.startsWith('http://') || path.startsWith('https://')) {
-        imageCache.set(path, path);
-        return path;
+    let resolvedPath = path;
+
+    // Якщо шлях веде на наш домен, прибираємо домен для локальної обробки
+    if (resolvedPath.startsWith('http://catalog.raznobyt.com/') || resolvedPath.startsWith('https://catalog.raznobyt.com/')) {
+        resolvedPath = resolvedPath.replace(/^https?:\/\/catalog\.raznobyt\.com/, '');
     }
 
-    // Якщо шлях вже починається з /images/ або /uploads/
-    if (path.startsWith('/images/') || path.startsWith('/uploads/')) {
-        // Для публічних файлів повертаємо як є
-        imageCache.set(path, path);
-        return path;
+    // Якщо шлях все ще починається з http/https - це стороннє зовнішнє зображення
+    if (resolvedPath.startsWith('http://') || resolvedPath.startsWith('https://')) {
+        imageCache.set(path, resolvedPath);
+        return resolvedPath;
     }
 
     // Якщо передано тільки ім'я файлу, будуємо повний шлях
-    const fullPath = `${basePath}${path}`;
-    imageCache.set(path, fullPath);
-    return fullPath;
+    if (!resolvedPath.startsWith('/images/') && !resolvedPath.startsWith('/uploads/')) {
+        resolvedPath = `${basePath}${resolvedPath}`;
+    }
+
+    // Конвертуємо розширення в .webp
+    resolvedPath = resolvedPath.replace(/\.(jpe?g|png)$/i, '.webp');
+
+    imageCache.set(path, resolvedPath);
+    return resolvedPath;
 }
 
 // Спеціалізовані функції для різних типів контенту

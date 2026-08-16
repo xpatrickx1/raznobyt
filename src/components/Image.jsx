@@ -15,6 +15,7 @@ const Image = ({ src, alt, className, loading = 'lazy', ...props }) => {
                     src={placeholder}
                     alt="Placeholder"
                     className="image-fallback__inner"
+                    loading="lazy"
                 />
             </div>
         );

@@ -31,11 +31,12 @@ export default function ProductCard({ product }) {
               src={imageUrl}
               alt={product.title[lang]}
               className="product-main-img"
+              loading="lazy"
               onError={(e) => { e.target.src = placeholder; }}
             />
           ) : (
             <div className="product-main-img image-fallback">
-              <img src={placeholder} alt="Placeholder" className="image-fallback__inner" />
+              <img src={placeholder} alt="Placeholder" className="image-fallback__inner" loading="lazy" />
             </div>
           )}
           <div className="product-card__overlay">

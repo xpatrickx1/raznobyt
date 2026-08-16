@@ -1,6 +1,7 @@
 import { Link } from 'react-router-dom';
 import { useLang } from '../i18n/LangContext';
 import Image from '../components/Image';
+import { getCategoryImage } from '../assets/utils/imageLoader.js';
 import SEO from '../components/SEO';
 import categories from '../data/categories.json';
 import products from '../data/products.js';
@@ -44,7 +45,7 @@ export default function Catalog() {
               >
                 <div className="category-card__image-wrap">
                   <Image
-                    src={cat.image}
+                    src={getCategoryImage(cat.image)}
                     alt={cat.title[lang]}
                     className="category-card__image"
                     loading="lazy"

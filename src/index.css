@@ -1846,6 +1846,12 @@ button {
   color: #fff;
 }
 
+@media (max-width: 900px) {
+  .thumbs-arrow {
+    display: none;
+  }
+}
+
 
 .product-info .breadcrumbs__link {
   color: var(--c-text);

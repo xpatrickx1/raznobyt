@@ -1,6 +1,6 @@
 import { useLang } from '../../i18n/LangContext';
 import ten from '@/assets/images/suppliers/postavka-ten-cate.png';
-// import tootal from '@/assets/images/suppliers/tootal.svg';
+import tootal from '@/assets/images/suppliers/tootal.jpg';
 import concordia from '@/assets/images/suppliers/concordia.svg';
 import tencatePermess from '@/assets/images/suppliers/permess.png';
 import toray from '@/assets/images/suppliers/toray.png';
@@ -29,7 +29,7 @@ export default function Trust() {
 
                     <div className="suppliers-strip__item" title="Tootal">
                         <img
-                            // src={tootal}
+                            src={tootal}
                             alt="Tootal"
                             className="suppliers-strip__logo"
                             loading="lazy"

@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import withRouter from '../lib/withRouter';
 import { useLang } from '../i18n/LangContext';
 import Image from '../components/Image';
+import { getCategoryImage } from '../assets/utils/imageLoader.js';
 import SEO from '../components/SEO';
 import ProductCard from '../components/ProductCard';
 import categories from '../data/categories.json';
@@ -13,6 +14,8 @@ import HeroSlider from '../components/Home/HeroSlider';
 import ContactBlock from '../components/Home/ContactBlock';
 import Trust from '../components/Home/Trust';
 import Reviews from '../components/Reviews';
+import Hww from '../components/Hww';
+import FAQ from '../components/FAQ';
 
 import canvasAll from '../assets/images/canvas.png';
 
@@ -40,7 +43,7 @@ function Home() {
       <HeroSlider onPriceClick={() => setIsPricePopupOpen(true)} />
       <Trust />
       <ContactBlock />
-
+      <Hww />
       {/* CATEGORIES */}
       <section className="section">
         {/* <div className="container"> */}
@@ -53,7 +56,7 @@ function Home() {
           {categories.slice(0, 5).map(cat => (
             <Link to={`/category/${cat.id}`} key={cat.id} className="category-card">
               <Image
-                src={cat.image}
+                src={getCategoryImage(cat.image)}
                 alt={cat.title[lang]}
                 className="category-card__img"
                 loading="lazy"
@@ -153,6 +156,8 @@ function Home() {
       </section>
 
       <Reviews />
+
+      <FAQ />
 
       {/* CTA BANNER */}
       <section style={{ background: 'var(--c-accent)', padding: '56px 0' }}>
