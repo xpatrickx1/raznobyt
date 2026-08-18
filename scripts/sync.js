@@ -20,8 +20,21 @@ const CATEGORYES = [
 
 const fetchSheet = async (sheetName) => {
   const url = `https://opensheet.elk.sh/${SHEET_ID}/${sheetName}`;
-  const res = await fetch(url);
+  const res = await fetch(url, {
+    headers: {
+      "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+    }
+  });
+  if (!res.ok) {
+    const errorText = await res.text().catch(() => "");
+    throw new Error(`HTTP error! status: ${res.status} for sheet ${sheetName}. Response: ${errorText}`);
+  }
   const data = await res.json();
+
+  if (!Array.isArray(data)) {
+    console.error(`Received invalid JSON for sheet "${sheetName}":`, data);
+    throw new Error(`Data is not an array for sheet ${sheetName}`);
+  }
 
   return data.map((row) => ({
     ...row,
@@ -95,7 +108,25 @@ const parseImages = (imagesStr) => {
 async function main() {
   console.log("🚀 Fetching data from Google Sheets...");
 
-  const res = await Promise.all(CATEGORYES.map(fetchSheet));
+  const res = [];
+  for (const category of CATEGORYES) {
+    let data;
+    let attempts = 3;
+    while (attempts > 0) {
+      try {
+        data = await fetchSheet(category);
+        break;
+      } catch (err) {
+        attempts--;
+        console.warn(`  ⚠️ Failed fetching "${category}". Error: ${err.message}. Retrying... (attempts left: ${attempts})`);
+        if (attempts === 0) throw err;
+        await new Promise(resolve => setTimeout(resolve, 1500));
+      }
+    }
+    res.push(data);
+    // 300ms delay to avoid rate limits
+    await new Promise(resolve => setTimeout(resolve, 300));
+  }
   const flatData = res.flat();
 
   console.log(`📦 Rows: ${flatData.length}`);

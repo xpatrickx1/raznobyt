@@ -11,6 +11,7 @@ import SampleOrderModal from './SampleOrderModal';
 export default function ProductCard({ product }) {
   const { lang, t } = useLang();
   const cat = categories.find(c => c.id === product.category);
+  const catSlug = cat ? cat.slug : 'unknown';
   const [modalOpen, setModalOpen] = useState(false);
 
   const imageToLoad = product?.images?.[0]?.trim() || null;
@@ -24,7 +25,7 @@ export default function ProductCard({ product }) {
 
   return (
     <>
-      <Link to={`/product/${product.slug}/`} className="product-card fade-up">
+      <Link to={`/catalog/${catSlug}/${product.slug}/`} className="product-card fade-up">
         <div className="product-card__img-wrap">
           {product.images.length > 0 ? (
             <img

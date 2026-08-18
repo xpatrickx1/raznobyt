@@ -4084,7 +4084,7 @@ button {
 }
 
 .suppliers-strip__logo {
-  max-height: 46px;
+  max-height: 106px;
   max-width: 140px;
   width: auto;
   height: auto;
@@ -4108,7 +4108,7 @@ button {
   }
 
   .suppliers-strip__logo {
-    max-height: 30px;
+    max-height: 80px;
     max-width: 110px;
   }
 }

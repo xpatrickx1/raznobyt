@@ -66,7 +66,9 @@ async function generate() {
     }
 
     for (const prod of products) {
-        pages.push({ url: `/product/${prod.slug}/`, component: 'ProductPage', props: { slug: prod.slug } });
+        const cat = categories.find(c => c.id === prod.category);
+        const catSlug = cat ? cat.slug : 'unknown';
+        pages.push({ url: `/catalog/${catSlug}/${prod.slug}/`, component: 'ProductPage', props: { slug: prod.slug } });
     }
 
     console.log(`Pre-rendering ${pages.length} pages...`);

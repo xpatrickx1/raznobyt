@@ -19,6 +19,14 @@ import News from './pages/News';
 import NotFound from './pages/NotFound';
 import './index.css';
 
+// Перевірка відповідності шляху шаблону (наприклад, /catalog/:slug/ та /catalog/workwear/)
+const matchRoute = (pattern, path) => {
+  const patternParts = pattern.split('/').filter(Boolean);
+  const pathParts = path.split('/').filter(Boolean);
+  if (patternParts.length !== pathParts.length) return false;
+  return patternParts.every((part, i) => part.startsWith(':') || part === pathParts[i]);
+};
+
 // Всі шляхи зі слешем в кінці
 const ROUTES = {
   static: [
@@ -34,7 +42,7 @@ const ROUTES = {
   ],
   dynamic: [
     { path: '/catalog/:slug/', element: <CategoryPage />, parentPath: '/catalog/' },
-    { path: '/product/:slug/', element: <ProductPage />, parentPath: null },
+    { path: '/catalog/:category/:slug/', element: <ProductPage />, parentPath: null },
   ],
 };
 
@@ -78,8 +86,7 @@ function Layout() {
 
     // Перевіряємо динамічні роути
     for (const dynamicRoute of ROUTES.dynamic) {
-      const basePath = dynamicRoute.path.split('/:')[0];
-      if (normalizedPathname.startsWith(basePath)) {
+      if (matchRoute(dynamicRoute.path, normalizedPathname)) {
         if (dynamicRoute.parentPath) {
           const parentRoute = staticRoutesWithRefs.find(
             r => r.path === dynamicRoute.parentPath

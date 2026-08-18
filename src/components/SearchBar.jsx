@@ -61,27 +61,31 @@ export default function SearchBar() {
             {showResults && searchQuery.trim().length > 0 && (
                 <div className="search-results">
                     {filteredProducts.length > 0 ? (
-                        filteredProducts.map(p => (
-                            <Link
-                                key={p.id}
-                                to={`/product/${p.slug}`}
-                                className="search-result-item"
-                                onClick={() => {
-                                    setShowResults(false);
-                                    setSearchQuery('');
-                                }}
-                            >
-                                <div className="suggestion-thumbnail">
-                                    <Image src={p.images[0]} alt="" className="search-result-img" />
-                                </div>
-                                <div className="search-result-info">
-                                    <div className="search-result-title">{lang === 'ua' ? p.title.ua : p.title.ru}</div>
-                                    <div className="search-result-cat">
-                                        {categories.find(c => c.id === p.category)?.title[lang]}
+                        filteredProducts.map(p => {
+                            const cat = categories.find(c => c.id === p.category);
+                            const catSlug = cat ? cat.slug : 'unknown';
+                            return (
+                                <Link
+                                    key={p.id}
+                                    to={`/catalog/${catSlug}/${p.slug}/`}
+                                    className="search-result-item"
+                                    onClick={() => {
+                                        setShowResults(false);
+                                        setSearchQuery('');
+                                    }}
+                                >
+                                    <div className="suggestion-thumbnail">
+                                        <Image src={p.images[0]} alt="" className="search-result-img" />
                                     </div>
-                                </div>
-                            </Link>
-                        ))
+                                    <div className="search-result-info">
+                                        <div className="search-result-title">{lang === 'ua' ? p.title.ua : p.title.ru}</div>
+                                        <div className="search-result-cat">
+                                            {cat?.title[lang]}
+                                        </div>
+                                    </div>
+                                </Link>
+                            );
+                        })
                     ) : (
                         <div className="search-result-empty">
                             {lang === 'ua' ? 'Нічого не знайдено' : 'Ничего не найдено'}
