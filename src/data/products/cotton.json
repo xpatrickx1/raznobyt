@@ -18,11 +18,31 @@
       "density": "250",
       "width": "150",
       "colors": [
-        "чорний",
-        "білий",
-        "червоний",
-        "жовтий",
-        "синій"
+        {
+          "color": "чорний",
+          "image": "http://catalog.raznobyt.com/images/products/чорний",
+          "isMain": true
+        },
+        {
+          "color": "білий",
+          "image": "http://catalog.raznobyt.com/images/products/білий",
+          "isMain": false
+        },
+        {
+          "color": "червоний",
+          "image": "http://catalog.raznobyt.com/images/products/червоний",
+          "isMain": false
+        },
+        {
+          "color": "жовтий",
+          "image": "http://catalog.raznobyt.com/images/products/жовтий",
+          "isMain": false
+        },
+        {
+          "color": "синій",
+          "image": "http://catalog.raznobyt.com/images/products/синій",
+          "isMain": false
+        }
       ],
       "properties": [],
       "composition": {
@@ -35,7 +55,19 @@
         "lyon": 0,
         "polyamide": 0,
         "polypropylene": 0,
-        "paraAramid": 0
+        "paraAramid": 0,
+        "antistatic": 0,
+        "Modacrylic/Lyocell/Static-Control™": 0,
+        "Nomex®/Kevlar®/Anti-Static": 0,
+        "Nomex®/Para-Aramid/p140": 0,
+        "PBI®/Kevlar®/Antistatic": 0,
+        "Lenzing FR®/Aramid": 0,
+        "Para-aramid/Solid polymer coating": 0,
+        "FR Rayon/пара-арамід/поліамід/антистатик": 0,
+        "polyamide PA": 0,
+        "polypropylene PP": 0,
+        "para aramid": 0,
+        "MAC": 0
       }
     }
   },
@@ -58,11 +90,31 @@
       "density": "245",
       "width": "150",
       "colors": [
-        "чорний",
-        "білий",
-        "червоний",
-        "жовтий",
-        "синій"
+        {
+          "color": "чорний",
+          "image": "http://catalog.raznobyt.com/images/products/чорний",
+          "isMain": true
+        },
+        {
+          "color": "білий",
+          "image": "http://catalog.raznobyt.com/images/products/білий",
+          "isMain": false
+        },
+        {
+          "color": "червоний",
+          "image": "http://catalog.raznobyt.com/images/products/червоний",
+          "isMain": false
+        },
+        {
+          "color": "жовтий",
+          "image": "http://catalog.raznobyt.com/images/products/жовтий",
+          "isMain": false
+        },
+        {
+          "color": "синій",
+          "image": "http://catalog.raznobyt.com/images/products/синій",
+          "isMain": false
+        }
       ],
       "properties": [],
       "composition": {
@@ -75,7 +127,19 @@
         "lyon": 0,
         "polyamide": 0,
         "polypropylene": 0,
-        "paraAramid": 0
+        "paraAramid": 0,
+        "antistatic": 0,
+        "Modacrylic/Lyocell/Static-Control™": 0,
+        "Nomex®/Kevlar®/Anti-Static": 0,
+        "Nomex®/Para-Aramid/p140": 0,
+        "PBI®/Kevlar®/Antistatic": 0,
+        "Lenzing FR®/Aramid": 0,
+        "Para-aramid/Solid polymer coating": 0,
+        "FR Rayon/пара-арамід/поліамід/антистатик": 0,
+        "polyamide PA": 0,
+        "polypropylene PP": 0,
+        "para aramid": 0,
+        "MAC": 0
       }
     }
   },
@@ -98,11 +162,31 @@
       "density": "240",
       "width": "150",
       "colors": [
-        "чорний",
-        "білий",
-        "червоний",
-        "жовтий",
-        "синій"
+        {
+          "color": "чорний",
+          "image": "http://catalog.raznobyt.com/images/products/чорний",
+          "isMain": true
+        },
+        {
+          "color": "білий",
+          "image": "http://catalog.raznobyt.com/images/products/білий",
+          "isMain": false
+        },
+        {
+          "color": "червоний",
+          "image": "http://catalog.raznobyt.com/images/products/червоний",
+          "isMain": false
+        },
+        {
+          "color": "жовтий",
+          "image": "http://catalog.raznobyt.com/images/products/жовтий",
+          "isMain": false
+        },
+        {
+          "color": "синій",
+          "image": "http://catalog.raznobyt.com/images/products/синій",
+          "isMain": false
+        }
       ],
       "properties": [],
       "composition": {
@@ -115,7 +199,19 @@
         "lyon": 0,
         "polyamide": 0,
         "polypropylene": 0,
-        "paraAramid": 0
+        "paraAramid": 0,
+        "antistatic": 0,
+        "Modacrylic/Lyocell/Static-Control™": 0,
+        "Nomex®/Kevlar®/Anti-Static": 0,
+        "Nomex®/Para-Aramid/p140": 0,
+        "PBI®/Kevlar®/Antistatic": 0,
+        "Lenzing FR®/Aramid": 0,
+        "Para-aramid/Solid polymer coating": 0,
+        "FR Rayon/пара-арамід/поліамід/антистатик": 0,
+        "polyamide PA": 0,
+        "polypropylene PP": 0,
+        "para aramid": 0,
+        "MAC": 0
       }
     }
   },
@@ -138,11 +234,31 @@
       "density": "232",
       "width": "150",
       "colors": [
-        "чорний",
-        "білий",
-        "червоний",
-        "жовтий",
-        "синій"
+        {
+          "color": "чорний",
+          "image": "http://catalog.raznobyt.com/images/products/чорний",
+          "isMain": true
+        },
+        {
+          "color": "білий",
+          "image": "http://catalog.raznobyt.com/images/products/білий",
+          "isMain": false
+        },
+        {
+          "color": "червоний",
+          "image": "http://catalog.raznobyt.com/images/products/червоний",
+          "isMain": false
+        },
+        {
+          "color": "жовтий",
+          "image": "http://catalog.raznobyt.com/images/products/жовтий",
+          "isMain": false
+        },
+        {
+          "color": "синій",
+          "image": "http://catalog.raznobyt.com/images/products/синій",
+          "isMain": false
+        }
       ],
       "properties": [],
       "composition": {
@@ -155,7 +271,19 @@
         "lyon": 0,
         "polyamide": 0,
         "polypropylene": 0,
-        "paraAramid": 0
+        "paraAramid": 0,
+        "antistatic": 0,
+        "Modacrylic/Lyocell/Static-Control™": 0,
+        "Nomex®/Kevlar®/Anti-Static": 0,
+        "Nomex®/Para-Aramid/p140": 0,
+        "PBI®/Kevlar®/Antistatic": 0,
+        "Lenzing FR®/Aramid": 0,
+        "Para-aramid/Solid polymer coating": 0,
+        "FR Rayon/пара-арамід/поліамід/антистатик": 0,
+        "polyamide PA": 0,
+        "polypropylene PP": 0,
+        "para aramid": 0,
+        "MAC": 0
       }
     }
   },
@@ -178,11 +306,31 @@
       "density": "260",
       "width": "150",
       "colors": [
-        "чорний",
-        "білий",
-        "червоний",
-        "жовтий",
-        "синій"
+        {
+          "color": "чорний",
+          "image": "http://catalog.raznobyt.com/images/products/чорний",
+          "isMain": true
+        },
+        {
+          "color": "білий",
+          "image": "http://catalog.raznobyt.com/images/products/білий",
+          "isMain": false
+        },
+        {
+          "color": "червоний",
+          "image": "http://catalog.raznobyt.com/images/products/червоний",
+          "isMain": false
+        },
+        {
+          "color": "жовтий",
+          "image": "http://catalog.raznobyt.com/images/products/жовтий",
+          "isMain": false
+        },
+        {
+          "color": "синій",
+          "image": "http://catalog.raznobyt.com/images/products/синій",
+          "isMain": false
+        }
       ],
       "properties": [],
       "composition": {
@@ -195,7 +343,19 @@
         "lyon": 0,
         "polyamide": 0,
         "polypropylene": 0,
-        "paraAramid": 0
+        "paraAramid": 0,
+        "antistatic": 0,
+        "Modacrylic/Lyocell/Static-Control™": 0,
+        "Nomex®/Kevlar®/Anti-Static": 0,
+        "Nomex®/Para-Aramid/p140": 0,
+        "PBI®/Kevlar®/Antistatic": 0,
+        "Lenzing FR®/Aramid": 0,
+        "Para-aramid/Solid polymer coating": 0,
+        "FR Rayon/пара-арамід/поліамід/антистатик": 0,
+        "polyamide PA": 0,
+        "polypropylene PP": 0,
+        "para aramid": 0,
+        "MAC": 0
       }
     }
   },
@@ -218,11 +378,31 @@
       "density": "390",
       "width": "150",
       "colors": [
-        "чорний",
-        "білий",
-        "червоний",
-        "жовтий",
-        "синій"
+        {
+          "color": "чорний",
+          "image": "http://catalog.raznobyt.com/images/products/чорний",
+          "isMain": true
+        },
+        {
+          "color": "білий",
+          "image": "http://catalog.raznobyt.com/images/products/білий",
+          "isMain": false
+        },
+        {
+          "color": "червоний",
+          "image": "http://catalog.raznobyt.com/images/products/червоний",
+          "isMain": false
+        },
+        {
+          "color": "жовтий",
+          "image": "http://catalog.raznobyt.com/images/products/жовтий",
+          "isMain": false
+        },
+        {
+          "color": "синій",
+          "image": "http://catalog.raznobyt.com/images/products/синій",
+          "isMain": false
+        }
       ],
       "properties": [],
       "composition": {
@@ -235,7 +415,19 @@
         "lyon": 0,
         "polyamide": 0,
         "polypropylene": 0,
-        "paraAramid": 0
+        "paraAramid": 0,
+        "antistatic": 0,
+        "Modacrylic/Lyocell/Static-Control™": 0,
+        "Nomex®/Kevlar®/Anti-Static": 0,
+        "Nomex®/Para-Aramid/p140": 0,
+        "PBI®/Kevlar®/Antistatic": 0,
+        "Lenzing FR®/Aramid": 0,
+        "Para-aramid/Solid polymer coating": 0,
+        "FR Rayon/пара-арамід/поліамід/антистатик": 0,
+        "polyamide PA": 0,
+        "polypropylene PP": 0,
+        "para aramid": 0,
+        "MAC": 0
       }
     }
   },
@@ -258,11 +450,31 @@
       "density": "390",
       "width": "150",
       "colors": [
-        "чорний",
-        "білий",
-        "червоний",
-        "жовтий",
-        "синій"
+        {
+          "color": "чорний",
+          "image": "http://catalog.raznobyt.com/images/products/чорний",
+          "isMain": true
+        },
+        {
+          "color": "білий",
+          "image": "http://catalog.raznobyt.com/images/products/білий",
+          "isMain": false
+        },
+        {
+          "color": "червоний",
+          "image": "http://catalog.raznobyt.com/images/products/червоний",
+          "isMain": false
+        },
+        {
+          "color": "жовтий",
+          "image": "http://catalog.raznobyt.com/images/products/жовтий",
+          "isMain": false
+        },
+        {
+          "color": "синій",
+          "image": "http://catalog.raznobyt.com/images/products/синій",
+          "isMain": false
+        }
       ],
       "properties": [],
       "composition": {
@@ -275,7 +487,19 @@
         "lyon": 0,
         "polyamide": 0,
         "polypropylene": 0,
-        "paraAramid": 0
+        "paraAramid": 0,
+        "antistatic": 0,
+        "Modacrylic/Lyocell/Static-Control™": 0,
+        "Nomex®/Kevlar®/Anti-Static": 0,
+        "Nomex®/Para-Aramid/p140": 0,
+        "PBI®/Kevlar®/Antistatic": 0,
+        "Lenzing FR®/Aramid": 0,
+        "Para-aramid/Solid polymer coating": 0,
+        "FR Rayon/пара-арамід/поліамід/антистатик": 0,
+        "polyamide PA": 0,
+        "polypropylene PP": 0,
+        "para aramid": 0,
+        "MAC": 0
       }
     }
   },
@@ -298,11 +522,31 @@
       "density": "250",
       "width": "150",
       "colors": [
-        "чорний",
-        "білий",
-        "червоний",
-        "жовтий",
-        "синій"
+        {
+          "color": "чорний",
+          "image": "http://catalog.raznobyt.com/images/products/чорний",
+          "isMain": true
+        },
+        {
+          "color": "білий",
+          "image": "http://catalog.raznobyt.com/images/products/білий",
+          "isMain": false
+        },
+        {
+          "color": "червоний",
+          "image": "http://catalog.raznobyt.com/images/products/червоний",
+          "isMain": false
+        },
+        {
+          "color": "жовтий",
+          "image": "http://catalog.raznobyt.com/images/products/жовтий",
+          "isMain": false
+        },
+        {
+          "color": "синій",
+          "image": "http://catalog.raznobyt.com/images/products/синій",
+          "isMain": false
+        }
       ],
       "properties": [],
       "composition": {
@@ -315,7 +559,19 @@
         "lyon": 0,
         "polyamide": 0,
         "polypropylene": 0,
-        "paraAramid": 0
+        "paraAramid": 0,
+        "antistatic": 0,
+        "Modacrylic/Lyocell/Static-Control™": 0,
+        "Nomex®/Kevlar®/Anti-Static": 0,
+        "Nomex®/Para-Aramid/p140": 0,
+        "PBI®/Kevlar®/Antistatic": 0,
+        "Lenzing FR®/Aramid": 0,
+        "Para-aramid/Solid polymer coating": 0,
+        "FR Rayon/пара-арамід/поліамід/антистатик": 0,
+        "polyamide PA": 0,
+        "polypropylene PP": 0,
+        "para aramid": 0,
+        "MAC": 0
       }
     }
   },
@@ -338,11 +594,31 @@
       "density": "350",
       "width": "150",
       "colors": [
-        "чорний",
-        "білий",
-        "червоний",
-        "жовтий",
-        "синій"
+        {
+          "color": "чорний",
+          "image": "http://catalog.raznobyt.com/images/products/чорний",
+          "isMain": true
+        },
+        {
+          "color": "білий",
+          "image": "http://catalog.raznobyt.com/images/products/білий",
+          "isMain": false
+        },
+        {
+          "color": "червоний",
+          "image": "http://catalog.raznobyt.com/images/products/червоний",
+          "isMain": false
+        },
+        {
+          "color": "жовтий",
+          "image": "http://catalog.raznobyt.com/images/products/жовтий",
+          "isMain": false
+        },
+        {
+          "color": "синій",
+          "image": "http://catalog.raznobyt.com/images/products/синій",
+          "isMain": false
+        }
       ],
       "properties": [],
       "composition": {
@@ -355,7 +631,19 @@
         "lyon": 0,
         "polyamide": 0,
         "polypropylene": 0,
-        "paraAramid": 0
+        "paraAramid": 0,
+        "antistatic": 0,
+        "Modacrylic/Lyocell/Static-Control™": 0,
+        "Nomex®/Kevlar®/Anti-Static": 0,
+        "Nomex®/Para-Aramid/p140": 0,
+        "PBI®/Kevlar®/Antistatic": 0,
+        "Lenzing FR®/Aramid": 0,
+        "Para-aramid/Solid polymer coating": 0,
+        "FR Rayon/пара-арамід/поліамід/антистатик": 0,
+        "polyamide PA": 0,
+        "polypropylene PP": 0,
+        "para aramid": 0,
+        "MAC": 0
       }
     }
   },
@@ -378,11 +666,31 @@
       "density": "260",
       "width": "148",
       "colors": [
-        "чорний",
-        "білий",
-        "червоний",
-        "жовтий",
-        "синій"
+        {
+          "color": "чорний",
+          "image": "http://catalog.raznobyt.com/images/products/чорний",
+          "isMain": true
+        },
+        {
+          "color": "білий",
+          "image": "http://catalog.raznobyt.com/images/products/білий",
+          "isMain": false
+        },
+        {
+          "color": "червоний",
+          "image": "http://catalog.raznobyt.com/images/products/червоний",
+          "isMain": false
+        },
+        {
+          "color": "жовтий",
+          "image": "http://catalog.raznobyt.com/images/products/жовтий",
+          "isMain": false
+        },
+        {
+          "color": "синій",
+          "image": "http://catalog.raznobyt.com/images/products/синій",
+          "isMain": false
+        }
       ],
       "properties": [],
       "composition": {
@@ -395,7 +703,19 @@
         "lyon": 0,
         "polyamide": 0,
         "polypropylene": 0,
-        "paraAramid": 0
+        "paraAramid": 0,
+        "antistatic": 0,
+        "Modacrylic/Lyocell/Static-Control™": 0,
+        "Nomex®/Kevlar®/Anti-Static": 0,
+        "Nomex®/Para-Aramid/p140": 0,
+        "PBI®/Kevlar®/Antistatic": 0,
+        "Lenzing FR®/Aramid": 0,
+        "Para-aramid/Solid polymer coating": 0,
+        "FR Rayon/пара-арамід/поліамід/антистатик": 0,
+        "polyamide PA": 0,
+        "polypropylene PP": 0,
+        "para aramid": 0,
+        "MAC": 0
       }
     }
   },
@@ -418,11 +738,31 @@
       "density": "300",
       "width": "149",
       "colors": [
-        "чорний",
-        "білий",
-        "червоний",
-        "жовтий",
-        "синій"
+        {
+          "color": "чорний",
+          "image": "http://catalog.raznobyt.com/images/products/чорний",
+          "isMain": true
+        },
+        {
+          "color": "білий",
+          "image": "http://catalog.raznobyt.com/images/products/білий",
+          "isMain": false
+        },
+        {
+          "color": "червоний",
+          "image": "http://catalog.raznobyt.com/images/products/червоний",
+          "isMain": false
+        },
+        {
+          "color": "жовтий",
+          "image": "http://catalog.raznobyt.com/images/products/жовтий",
+          "isMain": false
+        },
+        {
+          "color": "синій",
+          "image": "http://catalog.raznobyt.com/images/products/синій",
+          "isMain": false
+        }
       ],
       "properties": [],
       "composition": {
@@ -435,7 +775,19 @@
         "lyon": 0,
         "polyamide": 0,
         "polypropylene": 0,
-        "paraAramid": 0
+        "paraAramid": 0,
+        "antistatic": 0,
+        "Modacrylic/Lyocell/Static-Control™": 0,
+        "Nomex®/Kevlar®/Anti-Static": 0,
+        "Nomex®/Para-Aramid/p140": 0,
+        "PBI®/Kevlar®/Antistatic": 0,
+        "Lenzing FR®/Aramid": 0,
+        "Para-aramid/Solid polymer coating": 0,
+        "FR Rayon/пара-арамід/поліамід/антистатик": 0,
+        "polyamide PA": 0,
+        "polypropylene PP": 0,
+        "para aramid": 0,
+        "MAC": 0
       }
     }
   },
@@ -458,11 +810,31 @@
       "density": "375",
       "width": "148",
       "colors": [
-        "чорний",
-        "білий",
-        "червоний",
-        "жовтий",
-        "синій"
+        {
+          "color": "чорний",
+          "image": "http://catalog.raznobyt.com/images/products/чорний",
+          "isMain": true
+        },
+        {
+          "color": "білий",
+          "image": "http://catalog.raznobyt.com/images/products/білий",
+          "isMain": false
+        },
+        {
+          "color": "червоний",
+          "image": "http://catalog.raznobyt.com/images/products/червоний",
+          "isMain": false
+        },
+        {
+          "color": "жовтий",
+          "image": "http://catalog.raznobyt.com/images/products/жовтий",
+          "isMain": false
+        },
+        {
+          "color": "синій",
+          "image": "http://catalog.raznobyt.com/images/products/синій",
+          "isMain": false
+        }
       ],
       "properties": [],
       "composition": {
@@ -475,7 +847,19 @@
         "lyon": 0,
         "polyamide": 0,
         "polypropylene": 0,
-        "paraAramid": 0
+        "paraAramid": 0,
+        "antistatic": 0,
+        "Modacrylic/Lyocell/Static-Control™": 0,
+        "Nomex®/Kevlar®/Anti-Static": 0,
+        "Nomex®/Para-Aramid/p140": 0,
+        "PBI®/Kevlar®/Antistatic": 0,
+        "Lenzing FR®/Aramid": 0,
+        "Para-aramid/Solid polymer coating": 0,
+        "FR Rayon/пара-арамід/поліамід/антистатик": 0,
+        "polyamide PA": 0,
+        "polypropylene PP": 0,
+        "para aramid": 0,
+        "MAC": 0
       }
     }
   },
@@ -498,11 +882,31 @@
       "density": "216",
       "width": "150",
       "colors": [
-        "чорний",
-        "білий",
-        "червоний",
-        "жовтий",
-        "синій"
+        {
+          "color": "чорний",
+          "image": "http://catalog.raznobyt.com/images/products/чорний",
+          "isMain": true
+        },
+        {
+          "color": "білий",
+          "image": "http://catalog.raznobyt.com/images/products/білий",
+          "isMain": false
+        },
+        {
+          "color": "червоний",
+          "image": "http://catalog.raznobyt.com/images/products/червоний",
+          "isMain": false
+        },
+        {
+          "color": "жовтий",
+          "image": "http://catalog.raznobyt.com/images/products/жовтий",
+          "isMain": false
+        },
+        {
+          "color": "синій",
+          "image": "http://catalog.raznobyt.com/images/products/синій",
+          "isMain": false
+        }
       ],
       "properties": [],
       "composition": {
@@ -515,7 +919,19 @@
         "lyon": 0,
         "polyamide": 0,
         "polypropylene": 0,
-        "paraAramid": 0
+        "paraAramid": 0,
+        "antistatic": 0,
+        "Modacrylic/Lyocell/Static-Control™": 0,
+        "Nomex®/Kevlar®/Anti-Static": 0,
+        "Nomex®/Para-Aramid/p140": 0,
+        "PBI®/Kevlar®/Antistatic": 0,
+        "Lenzing FR®/Aramid": 0,
+        "Para-aramid/Solid polymer coating": 0,
+        "FR Rayon/пара-арамід/поліамід/антистатик": 0,
+        "polyamide PA": 0,
+        "polypropylene PP": 0,
+        "para aramid": 0,
+        "MAC": 0
       }
     }
   },
@@ -538,11 +954,31 @@
       "density": "213",
       "width": "150",
       "colors": [
-        "чорний",
-        "білий",
-        "червоний",
-        "жовтий",
-        "синій"
+        {
+          "color": "чорний",
+          "image": "http://catalog.raznobyt.com/images/products/чорний",
+          "isMain": true
+        },
+        {
+          "color": "білий",
+          "image": "http://catalog.raznobyt.com/images/products/білий",
+          "isMain": false
+        },
+        {
+          "color": "червоний",
+          "image": "http://catalog.raznobyt.com/images/products/червоний",
+          "isMain": false
+        },
+        {
+          "color": "жовтий",
+          "image": "http://catalog.raznobyt.com/images/products/жовтий",
+          "isMain": false
+        },
+        {
+          "color": "синій",
+          "image": "http://catalog.raznobyt.com/images/products/синій",
+          "isMain": false
+        }
       ],
       "properties": [],
       "composition": {
@@ -555,7 +991,19 @@
         "lyon": 0,
         "polyamide": 0,
         "polypropylene": 0,
-        "paraAramid": 0
+        "paraAramid": 0,
+        "antistatic": 0,
+        "Modacrylic/Lyocell/Static-Control™": 0,
+        "Nomex®/Kevlar®/Anti-Static": 0,
+        "Nomex®/Para-Aramid/p140": 0,
+        "PBI®/Kevlar®/Antistatic": 0,
+        "Lenzing FR®/Aramid": 0,
+        "Para-aramid/Solid polymer coating": 0,
+        "FR Rayon/пара-арамід/поліамід/антистатик": 0,
+        "polyamide PA": 0,
+        "polypropylene PP": 0,
+        "para aramid": 0,
+        "MAC": 0
       }
     }
   },
@@ -578,11 +1026,31 @@
       "density": "164",
       "width": "150",
       "colors": [
-        "чорний",
-        "білий",
-        "червоний",
-        "жовтий",
-        "синій"
+        {
+          "color": "чорний",
+          "image": "http://catalog.raznobyt.com/images/products/чорний",
+          "isMain": true
+        },
+        {
+          "color": "білий",
+          "image": "http://catalog.raznobyt.com/images/products/білий",
+          "isMain": false
+        },
+        {
+          "color": "червоний",
+          "image": "http://catalog.raznobyt.com/images/products/червоний",
+          "isMain": false
+        },
+        {
+          "color": "жовтий",
+          "image": "http://catalog.raznobyt.com/images/products/жовтий",
+          "isMain": false
+        },
+        {
+          "color": "синій",
+          "image": "http://catalog.raznobyt.com/images/products/синій",
+          "isMain": false
+        }
       ],
       "properties": [],
       "composition": {
@@ -595,7 +1063,19 @@
         "lyon": 0,
         "polyamide": 0,
         "polypropylene": 0,
-        "paraAramid": 0
+        "paraAramid": 0,
+        "antistatic": 0,
+        "Modacrylic/Lyocell/Static-Control™": 0,
+        "Nomex®/Kevlar®/Anti-Static": 0,
+        "Nomex®/Para-Aramid/p140": 0,
+        "PBI®/Kevlar®/Antistatic": 0,
+        "Lenzing FR®/Aramid": 0,
+        "Para-aramid/Solid polymer coating": 0,
+        "FR Rayon/пара-арамід/поліамід/антистатик": 0,
+        "polyamide PA": 0,
+        "polypropylene PP": 0,
+        "para aramid": 0,
+        "MAC": 0
       }
     }
   }

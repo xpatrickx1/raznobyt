@@ -19,14 +19,10 @@ export default function ProductView({ product, related = [] }) {
 
     useEffect(() => {
         const loadImages = async () => {
-            const mainImages = product.images?.length > 0 ? [product.images[0]] : [];
-            const mainUrls = await Promise.all(mainImages.map(img => getProductImage(img)));
-
-            const colorImages = (product.attributes?.colors || [])
-                .filter(c => c.image)
-                .map(c => getProductImage(c.image));
-
-            setImageUrls([...mainUrls, ...colorImages]);
+            // images[] вже містять повні URL із sync.js
+            const urls = (product.images?.length > 0 ? product.images : [])
+                .map(img => getProductImage(img));
+            setImageUrls(await Promise.all(urls));
         };
         window.scrollTo(0, 0);
         loadImages();
@@ -47,7 +43,7 @@ export default function ProductView({ product, related = [] }) {
     const nextThumbs = () => setThumbOffset(o => Math.min(maxOffset, o + 1));
 
     const colors = product.attributes.colors || [];
-    const colorName = (c) => typeof c === 'string' ? c : (lang === 'ru' ? (c.color_ru || c.color) : c.color);
+    const colorName = (c) => typeof c === 'string' ? c : (c.color ?? '');
 
     const attrs = [
         { label: t('product.composition'), value: formatComposition(product.attributes.composition, lang) },
@@ -107,6 +103,12 @@ export default function ProductView({ product, related = [] }) {
                     <div className="product-grid">
                         {/* Images */}
                         <div className="product-images fade-up fade-up-1">
+                            <img
+                                src={imageUrls[activeImg]}
+                                alt={product.title[lang]}
+                                className="product-main-img"
+                                loading="lazy"
+                            />
                             {imageUrls.length > 0 ? (
                                 <img
                                     src={imageUrls[activeImg]}
@@ -169,7 +171,7 @@ export default function ProductView({ product, related = [] }) {
                                     {attrs.map((a, i) => (
                                         <tr key={i}>
                                             <th>{a.label}</th>
-                                            <td>{a.value}</td>
+                                            <td>{a.value === 1 ? '' : a.value}</td>
                                         </tr>
                                     ))}
                                 </tbody>

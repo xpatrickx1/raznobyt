@@ -6,6 +6,7 @@ import logo from '@/assets/images/logo.png';
 import phoneIcon from '@/assets/images/icons/phone.svg';
 import categories from '../data/categories.json';
 import SearchBar from './SearchBar';
+import QuizModal from './QuizModal';
 
 export default function Navbar() {
   const { lang, toggleLang, t } = useLang();
@@ -13,6 +14,7 @@ export default function Navbar() {
   const [dropdownOpen, setDropdownOpen] = useState(false);
   const [isScrolled, setIsScrolled] = useState(false);
   const dropdownRef = useRef(null);
+  const [quizOpen, setQuizOpen] = useState(false);
 
   useEffect(() => {
     let ticking = false;
@@ -114,9 +116,18 @@ export default function Navbar() {
 
             <div className="navbar__right">
               {/* CTA замість телефону */}
-              <Link to="/contacts" className="navbar__cta">
+              {/* <Link to="/contacts" className="navbar__cta">
                 {lang === 'ua' ? 'Отримати прайс' : 'Получить прайс'}
-              </Link>
+              </Link> */}
+              <button
+                type="button"
+                className="navbar__cta"
+                onClick={() => setQuizOpen(true)}
+              >
+                {lang === 'ua' ? 'Отримати прайс' : 'Получить прайс'}
+              </button>
+
+              <QuizModal isOpen={quizOpen} onClose={() => setQuizOpen(false)} />
 
               <div className="navbar__actions">
                 <button
@@ -208,13 +219,24 @@ export default function Navbar() {
         </div>
 
         {/* CTA в мобільному меню */}
-        <Link
+        {/* <Link
           to="/contacts"
           className="mobile-menu__cta"
           onClick={() => setMobileOpen(false)}
         >
           {lang === 'ua' ? 'Отримати прайс' : 'Получить прайс'}
-        </Link>
+        </Link> */}
+
+        <button
+          type="button"
+          className="mobile-menu__cta"
+          onClick={() => {
+            setMobileOpen(false);
+            setQuizOpen(true);
+          }}
+        >
+          {lang === 'ua' ? 'Отримати прайс' : 'Получить прайс'}
+        </button>
 
         <a href="tel:+380445070680" className="mobile-menu__phone">
           <img src={phoneIcon} alt="" width="18" height="18" loading="lazy" />

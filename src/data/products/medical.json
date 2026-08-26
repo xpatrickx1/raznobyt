@@ -8,7 +8,11 @@
       "ru": "Ткань TR-150"
     },
     "isNew": false,
-    "images": [],
+    "images": [
+      "http://catalog.raznobyt.com/images/products/tr-150-white.jpg",
+      "http://catalog.raznobyt.com/images/products/tr-150-black.jpg",
+      "http://catalog.raznobyt.com/images/products/tr-150-brown.jpg"
+    ],
     "description": {
       "ua": "Змішана тканина. Склад: 35% бавовна, 65% поліестр. Щільність 150. Саржеве переплетення 2/1.",
       "ru": "Смесовая ткань. Состав: 35% хлопок, 65% полиэстер. Плотность 150. Саржевое переплетение 2/1."
@@ -18,9 +22,21 @@
       "density": "150",
       "width": "150",
       "colors": [
-        "white",
-        "black",
-        "brown"
+        {
+          "color": "white",
+          "image": "http://catalog.raznobyt.com/images/products/white",
+          "isMain": true
+        },
+        {
+          "color": "black",
+          "image": "http://catalog.raznobyt.com/images/products/black",
+          "isMain": false
+        },
+        {
+          "color": "brown",
+          "image": "http://catalog.raznobyt.com/images/products/brown",
+          "isMain": false
+        }
       ],
       "properties": [],
       "composition": {
@@ -33,7 +49,19 @@
         "lyon": 0,
         "polyamide": 0,
         "polypropylene": 0,
-        "paraAramid": 0
+        "paraAramid": 0,
+        "antistatic": 0,
+        "Modacrylic/Lyocell/Static-Control™": 0,
+        "Nomex®/Kevlar®/Anti-Static": 0,
+        "Nomex®/Para-Aramid/p140": 0,
+        "PBI®/Kevlar®/Antistatic": 0,
+        "Lenzing FR®/Aramid": 0,
+        "Para-aramid/Solid polymer coating": 0,
+        "FR Rayon/пара-арамід/поліамід/антистатик": 0,
+        "polyamide PA": 0,
+        "polypropylene PP": 0,
+        "para aramid": 0,
+        "MAC": 0
       }
     }
   },
@@ -67,7 +95,19 @@
         "lyon": 0,
         "polyamide": 0,
         "polypropylene": 0,
-        "paraAramid": 0
+        "paraAramid": 0,
+        "antistatic": 0,
+        "Modacrylic/Lyocell/Static-Control™": 0,
+        "Nomex®/Kevlar®/Anti-Static": 0,
+        "Nomex®/Para-Aramid/p140": 0,
+        "PBI®/Kevlar®/Antistatic": 0,
+        "Lenzing FR®/Aramid": 0,
+        "Para-aramid/Solid polymer coating": 0,
+        "FR Rayon/пара-арамід/поліамід/антистатик": 0,
+        "polyamide PA": 0,
+        "polypropylene PP": 0,
+        "para aramid": 0,
+        "MAC": 0
       }
     }
   },
@@ -101,7 +141,19 @@
         "lyon": 0,
         "polyamide": 0,
         "polypropylene": 0,
-        "paraAramid": 0
+        "paraAramid": 0,
+        "antistatic": 0,
+        "Modacrylic/Lyocell/Static-Control™": 0,
+        "Nomex®/Kevlar®/Anti-Static": 0,
+        "Nomex®/Para-Aramid/p140": 0,
+        "PBI®/Kevlar®/Antistatic": 0,
+        "Lenzing FR®/Aramid": 0,
+        "Para-aramid/Solid polymer coating": 0,
+        "FR Rayon/пара-арамід/поліамід/антистатик": 0,
+        "polyamide PA": 0,
+        "polypropylene PP": 0,
+        "para aramid": 0,
+        "MAC": 0
       }
     }
   },
@@ -135,7 +187,19 @@
         "lyon": 0,
         "polyamide": 0,
         "polypropylene": 0,
-        "paraAramid": 0
+        "paraAramid": 0,
+        "antistatic": 0,
+        "Modacrylic/Lyocell/Static-Control™": 0,
+        "Nomex®/Kevlar®/Anti-Static": 0,
+        "Nomex®/Para-Aramid/p140": 0,
+        "PBI®/Kevlar®/Antistatic": 0,
+        "Lenzing FR®/Aramid": 0,
+        "Para-aramid/Solid polymer coating": 0,
+        "FR Rayon/пара-арамід/поліамід/антистатик": 0,
+        "polyamide PA": 0,
+        "polypropylene PP": 0,
+        "para aramid": 0,
+        "MAC": 0
       }
     }
   },
@@ -149,7 +213,7 @@
     },
     "isNew": false,
     "images": [
-      "http://catalog.raznobyt.com/images/products/TR-MED/colors/750-Turquoise.jpg"
+      "http://catalog.raznobyt.com/images/products/KG-337/62110.jpg"
     ],
     "description": {
       "ua": "Змішана тканина. Склад: 35% бавовна, 65% поліестр. Щільність 195. Саржеве переплетення 2/1.",
@@ -162,8 +226,8 @@
       "colors": [
         {
           "color": "Бірюзовий",
-          "color_ru": "Бирюзовый",
-          "image": "TR-MED/colors/750-Turquoise.jpg"
+          "image": "http://catalog.raznobyt.com/images/products/TR-MED/colors/750-Turquoise.jpg",
+          "isMain": true
         }
       ],
       "properties": [],
@@ -177,7 +241,19 @@
         "lyon": 0,
         "polyamide": 0,
         "polypropylene": 0,
-        "paraAramid": 0
+        "paraAramid": 0,
+        "antistatic": 0,
+        "Modacrylic/Lyocell/Static-Control™": 0,
+        "Nomex®/Kevlar®/Anti-Static": 0,
+        "Nomex®/Para-Aramid/p140": 0,
+        "PBI®/Kevlar®/Antistatic": 0,
+        "Lenzing FR®/Aramid": 0,
+        "Para-aramid/Solid polymer coating": 0,
+        "FR Rayon/пара-арамід/поліамід/антистатик": 0,
+        "polyamide PA": 0,
+        "polypropylene PP": 0,
+        "para aramid": 0,
+        "MAC": 0
       }
     }
   },
@@ -190,34 +266,7 @@
       "ru": "Ткань TR-MED"
     },
     "isNew": false,
-    "images": [
-      "http://catalog.raznobyt.com/images/products/TR-MED/colors/701-White.jpg",
-      "http://catalog.raznobyt.com/images/products/TR-MED/colors/710-Yellow.jpg",
-      "http://catalog.raznobyt.com/images/products/TR-MED/colors/735-Maroon.jpg",
-      "http://catalog.raznobyt.com/images/products/TR-MED/colors/740-Deep Purple.jpg",
-      "http://catalog.raznobyt.com/images/products/TR-MED/colors/749-Lilac.jpg",
-      "http://catalog.raznobyt.com/images/products/TR-MED/colors/750-Turquoise.jpg",
-      "http://catalog.raznobyt.com/images/products/TR-MED/colors/751-Sea Wave.jpg",
-      "http://catalog.raznobyt.com/images/products/TR-MED/colors/752-Sky.jpg",
-      "http://catalog.raznobyt.com/images/products/TR-MED/colors/754-Royal Box.jpg",
-      "http://catalog.raznobyt.com/images/products/TR-MED/colors/755-Blue.jpg",
-      "http://catalog.raznobyt.com/images/products/TR-MED/colors/757-Navy.jpg",
-      "http://catalog.raznobyt.com/images/products/TR-MED/colors/758-Blueberry.jpg",
-      "http://catalog.raznobyt.com/images/products/TR-MED/colors/760-Aqua.jpg",
-      "http://catalog.raznobyt.com/images/products/TR-MED/colors/761-Opal.jpg",
-      "http://catalog.raznobyt.com/images/products/TR-MED/colors/762-Light Green.jpg",
-      "http://catalog.raznobyt.com/images/products/TR-MED/colors/764-Dublin.jpg",
-      "http://catalog.raznobyt.com/images/products/TR-MED/colors/765-Pear Green.jpg",
-      "http://catalog.raznobyt.com/images/products/TR-MED/colors/774-Light Beige.jpg",
-      "http://catalog.raznobyt.com/images/products/TR-MED/colors/778-Chocolate.jpg",
-      "http://catalog.raznobyt.com/images/products/TR-MED/colors/779-Brown.jpg",
-      "http://catalog.raznobyt.com/images/products/TR-MED/colors/781-Silver.jpg",
-      "http://catalog.raznobyt.com/images/products/TR-MED/colors/782-Slate.jpg",
-      "http://catalog.raznobyt.com/images/products/TR-MED/colors/784-Grey.jpg",
-      "http://catalog.raznobyt.com/images/products/TR-MED/colors/785-Steel.jpg",
-      "http://catalog.raznobyt.com/images/products/TR-MED/colors/786-Charcal.jpg",
-      "http://catalog.raznobyt.com/images/products/TR-MED/colors/794-Black.jpg"
-    ],
+    "images": [],
     "description": {
       "ua": "Змішана тканина. Склад: 35% бавовна, 65% поліестр. Щільність 195. Саржеве переплетення 2/1.",
       "ru": "Смесовая ткань. Состав: 35% хлопок, 65% полиэстер. Плотность 195. Саржевое переплетение 2/1."
@@ -229,133 +278,133 @@
       "colors": [
         {
           "color": "Білий",
-          "color_ru": "Белый",
-          "image": "TR-MED/colors/701-White.jpg"
+          "image": "http://catalog.raznobyt.com/images/products/TR-MED/colors/701-White.jpg",
+          "isMain": true
         },
         {
           "color": "Жовтий",
-          "color_ru": "Желтый",
-          "image": "TR-MED/colors/710-Yellow.jpg"
+          "image": "http://catalog.raznobyt.com/images/products/TR-MED/colors/710-Yellow.jpg",
+          "isMain": false
         },
         {
           "color": "Бордовий",
-          "color_ru": "Бордовый",
-          "image": "TR-MED/colors/735-Maroon.jpg"
+          "image": "http://catalog.raznobyt.com/images/products/TR-MED/colors/735-Maroon.jpg",
+          "isMain": false
         },
         {
           "color": "Темно-фіолетовий",
-          "color_ru": "Темно-фиолетовый",
-          "image": "TR-MED/colors/740-Deep Purple.jpg"
+          "image": "http://catalog.raznobyt.com/images/products/TR-MED/colors/740-Deep Purple.jpg",
+          "isMain": false
         },
         {
           "color": "Бузковий",
-          "color_ru": "Сиреневая",
-          "image": "TR-MED/colors/749-Lilac.jpg"
+          "image": "http://catalog.raznobyt.com/images/products/TR-MED/colors/749-Lilac.jpg",
+          "isMain": false
         },
         {
           "color": "Бірюзовий",
-          "color_ru": "Бирюзовый",
-          "image": "TR-MED/colors/750-Turquoise.jpg"
+          "image": "http://catalog.raznobyt.com/images/products/TR-MED/colors/750-Turquoise.jpg",
+          "isMain": false
         },
         {
           "color": "Морська хвиля",
-          "color_ru": "Морская волна",
-          "image": "TR-MED/colors/751-Sea Wave.jpg"
+          "image": "http://catalog.raznobyt.com/images/products/TR-MED/colors/751-Sea Wave.jpg",
+          "isMain": false
         },
         {
           "color": "Блакитний",
-          "color_ru": "Голубой",
-          "image": "TR-MED/colors/752-Sky.jpg"
+          "image": "http://catalog.raznobyt.com/images/products/TR-MED/colors/752-Sky.jpg",
+          "isMain": false
         },
         {
           "color": "Роял Бокс",
-          "color_ru": "Роял Бокс",
-          "image": "TR-MED/colors/754-Royal Box.jpg"
+          "image": "http://catalog.raznobyt.com/images/products/TR-MED/colors/754-Royal Box.jpg",
+          "isMain": false
         },
         {
           "color": "Синій",
-          "color_ru": "Синий",
-          "image": "TR-MED/colors/755-Blue.jpg"
+          "image": "http://catalog.raznobyt.com/images/products/TR-MED/colors/755-Blue.jpg",
+          "isMain": false
         },
         {
           "color": "Темно-синій",
-          "color_ru": "Темно-синий",
-          "image": "TR-MED/colors/757-Navy.jpg"
+          "image": "http://catalog.raznobyt.com/images/products/TR-MED/colors/757-Navy.jpg",
+          "isMain": false
         },
         {
           "color": "Чорниця",
-          "color_ru": "Черника",
-          "image": "TR-MED/colors/758-Blueberry.jpg"
+          "image": "http://catalog.raznobyt.com/images/products/TR-MED/colors/758-Blueberry.jpg",
+          "isMain": false
         },
         {
           "color": "Аква",
-          "color_ru": "Аква",
-          "image": "TR-MED/colors/760-Aqua.jpg"
+          "image": "http://catalog.raznobyt.com/images/products/TR-MED/colors/760-Aqua.jpg",
+          "isMain": false
         },
         {
           "color": "Опал",
-          "color_ru": "Опал",
-          "image": "TR-MED/colors/761-Opal.jpg"
+          "image": "http://catalog.raznobyt.com/images/products/TR-MED/colors/761-Opal.jpg",
+          "isMain": false
         },
         {
           "color": "Світло-зелений",
-          "color_ru": "Светло-зеленый",
-          "image": "TR-MED/colors/762-Light Green.jpg"
+          "image": "http://catalog.raznobyt.com/images/products/TR-MED/colors/762-Light Green.jpg",
+          "isMain": false
         },
         {
           "color": "Дублін",
-          "color_ru": "Дублин",
-          "image": "TR-MED/colors/764-Dublin.jpg"
+          "image": "http://catalog.raznobyt.com/images/products/TR-MED/colors/764-Dublin.jpg",
+          "isMain": false
         },
         {
           "color": "Грушево-зелений",
-          "color_ru": "Грушево-зеленый",
-          "image": "TR-MED/colors/765-Pear Green.jpg"
+          "image": "http://catalog.raznobyt.com/images/products/TR-MED/colors/765-Pear Green.jpg",
+          "isMain": false
         },
         {
           "color": "Світло-бежевий",
-          "color_ru": "Светло-бежевый",
-          "image": "TR-MED/colors/774-Light Beige.jpg"
+          "image": "http://catalog.raznobyt.com/images/products/TR-MED/colors/774-Light Beige.jpg",
+          "isMain": false
         },
         {
           "color": "Шоколадний",
-          "color_ru": "Шоколадный",
-          "image": "TR-MED/colors/778-Chocolate.jpg"
+          "image": "http://catalog.raznobyt.com/images/products/TR-MED/colors/778-Chocolate.jpg",
+          "isMain": false
         },
         {
           "color": "Коричневий",
-          "color_ru": "Коричневый",
-          "image": "TR-MED/colors/779-Brown.jpg"
+          "image": "http://catalog.raznobyt.com/images/products/TR-MED/colors/779-Brown.jpg",
+          "isMain": false
         },
         {
           "color": "Сріблястий",
-          "color_ru": "Серебристый",
-          "image": "TR-MED/colors/781-Silver.jpg"
+          "image": "http://catalog.raznobyt.com/images/products/TR-MED/colors/781-Silver.jpg",
+          "isMain": false
         },
         {
           "color": "Сланець",
-          "color_ru": "Сланец",
-          "image": "TR-MED/colors/782-Slate.jpg"
+          "image": "http://catalog.raznobyt.com/images/products/TR-MED/colors/782-Slate.jpg",
+          "isMain": false
         },
         {
           "color": "Сірий",
-          "color_ru": "Серый",
-          "image": "TR-MED/colors/784-Grey.jpg"
+          "image": "http://catalog.raznobyt.com/images/products/TR-MED/colors/784-Grey.jpg",
+          "isMain": false
         },
         {
           "color": "Сталевий",
-          "color_ru": "Стальной",
-          "image": "TR-MED/colors/785-Steel.jpg"
+          "image": "http://catalog.raznobyt.com/images/products/TR-MED/colors/785-Steel.jpg",
+          "isMain": false
         },
         {
           "color": "Антрацит",
-          "color_ru": "Антрацит",
-          "image": "TR-MED/colors/786-Charcal.jpg"
+          "image": "http://catalog.raznobyt.com/images/products/TR-MED/colors/786-Charcal.jpg",
+          "isMain": false
         },
         {
           "color": "Чорний",
-          "color_ru": "Черный",
-          "image": "TR-MED/colors/794-Black.jpg"
+          "image": "http://catalog.raznobyt.com/images/products/TR-MED/colors/794-Black.jpg",
+          "isMain": false
         }
       ],
       "properties": [],
@@ -369,7 +418,19 @@
         "lyon": 0,
         "polyamide": 0,
         "polypropylene": 0,
-        "paraAramid": 0
+        "paraAramid": 0,
+        "antistatic": 0,
+        "Modacrylic/Lyocell/Static-Control™": 0,
+        "Nomex®/Kevlar®/Anti-Static": 0,
+        "Nomex®/Para-Aramid/p140": 0,
+        "PBI®/Kevlar®/Antistatic": 0,
+        "Lenzing FR®/Aramid": 0,
+        "Para-aramid/Solid polymer coating": 0,
+        "FR Rayon/пара-арамід/поліамід/антистатик": 0,
+        "polyamide PA": 0,
+        "polypropylene PP": 0,
+        "para aramid": 0,
+        "MAC": 0
       }
     }
   },
@@ -403,7 +464,19 @@
         "lyon": 0,
         "polyamide": 0,
         "polypropylene": 0,
-        "paraAramid": 0
+        "paraAramid": 0,
+        "antistatic": 0,
+        "Modacrylic/Lyocell/Static-Control™": 0,
+        "Nomex®/Kevlar®/Anti-Static": 0,
+        "Nomex®/Para-Aramid/p140": 0,
+        "PBI®/Kevlar®/Antistatic": 0,
+        "Lenzing FR®/Aramid": 0,
+        "Para-aramid/Solid polymer coating": 0,
+        "FR Rayon/пара-арамід/поліамід/антистатик": 0,
+        "polyamide PA": 0,
+        "polypropylene PP": 0,
+        "para aramid": 0,
+        "MAC": 0
       }
     }
   },
@@ -437,7 +510,19 @@
         "lyon": 0,
         "polyamide": 0,
         "polypropylene": 0,
-        "paraAramid": 0
+        "paraAramid": 0,
+        "antistatic": 0,
+        "Modacrylic/Lyocell/Static-Control™": 0,
+        "Nomex®/Kevlar®/Anti-Static": 0,
+        "Nomex®/Para-Aramid/p140": 0,
+        "PBI®/Kevlar®/Antistatic": 0,
+        "Lenzing FR®/Aramid": 0,
+        "Para-aramid/Solid polymer coating": 0,
+        "FR Rayon/пара-арамід/поліамід/антистатик": 0,
+        "polyamide PA": 0,
+        "polypropylene PP": 0,
+        "para aramid": 0,
+        "MAC": 0
       }
     }
   },
@@ -471,7 +556,19 @@
         "lyon": 0,
         "polyamide": 0,
         "polypropylene": 0,
-        "paraAramid": 0
+        "paraAramid": 0,
+        "antistatic": 0,
+        "Modacrylic/Lyocell/Static-Control™": 0,
+        "Nomex®/Kevlar®/Anti-Static": 0,
+        "Nomex®/Para-Aramid/p140": 0,
+        "PBI®/Kevlar®/Antistatic": 0,
+        "Lenzing FR®/Aramid": 0,
+        "Para-aramid/Solid polymer coating": 0,
+        "FR Rayon/пара-арамід/поліамід/антистатик": 0,
+        "polyamide PA": 0,
+        "polypropylene PP": 0,
+        "para aramid": 0,
+        "MAC": 0
       }
     }
   },
@@ -505,7 +602,19 @@
         "lyon": 0,
         "polyamide": 0,
         "polypropylene": 0,
-        "paraAramid": 0
+        "paraAramid": 0,
+        "antistatic": 0,
+        "Modacrylic/Lyocell/Static-Control™": 0,
+        "Nomex®/Kevlar®/Anti-Static": 0,
+        "Nomex®/Para-Aramid/p140": 0,
+        "PBI®/Kevlar®/Antistatic": 0,
+        "Lenzing FR®/Aramid": 0,
+        "Para-aramid/Solid polymer coating": 0,
+        "FR Rayon/пара-арамід/поліамід/антистатик": 0,
+        "polyamide PA": 0,
+        "polypropylene PP": 0,
+        "para aramid": 0,
+        "MAC": 0
       }
     }
   },
@@ -528,13 +637,41 @@
       "density": "210",
       "width": "150",
       "colors": [
-        "[\n  {\n    \"color\": \"Білий\"",
-        "\"color_ru\": \"Белый\"",
-        "\"image\": \"VVT-2163/colors/701-White.jpg\"\n  }",
-        "{\n    \"color\": \"Чорний\"",
-        "\"color_ru\": \"Чорный\"",
-        "\"image\": \"VVT-2163/colors/710-Yellow.jpg\"\n  }",
-        "]"
+        {
+          "color": "[\n  {\n    \"color\": \"Білий\"",
+          "image": "http://catalog.raznobyt.com/images/products/[\n  {\n    \"color\": \"Білий\"",
+          "isMain": true
+        },
+        {
+          "color": "\"color_ru\": \"Белый\"",
+          "image": "http://catalog.raznobyt.com/images/products/\"color_ru\": \"Белый\"",
+          "isMain": false
+        },
+        {
+          "color": "colors",
+          "image": "http://catalog.raznobyt.com/images/products/\"image\": \"VVT-2163/colors/701-White.jpg\"\n  }",
+          "isMain": false
+        },
+        {
+          "color": "{\n    \"color\": \"Чорний\"",
+          "image": "http://catalog.raznobyt.com/images/products/{\n    \"color\": \"Чорний\"",
+          "isMain": false
+        },
+        {
+          "color": "\"color_ru\": \"Чорный\"",
+          "image": "http://catalog.raznobyt.com/images/products/\"color_ru\": \"Чорный\"",
+          "isMain": false
+        },
+        {
+          "color": "colors",
+          "image": "http://catalog.raznobyt.com/images/products/\"image\": \"VVT-2163/colors/710-Yellow.jpg\"\n  }",
+          "isMain": false
+        },
+        {
+          "color": "]",
+          "image": "http://catalog.raznobyt.com/images/products/]",
+          "isMain": false
+        }
       ],
       "properties": [],
       "composition": {
@@ -547,7 +684,19 @@
         "lyon": 0,
         "polyamide": 0,
         "polypropylene": 0,
-        "paraAramid": 0
+        "paraAramid": 0,
+        "antistatic": 0,
+        "Modacrylic/Lyocell/Static-Control™": 0,
+        "Nomex®/Kevlar®/Anti-Static": 0,
+        "Nomex®/Para-Aramid/p140": 0,
+        "PBI®/Kevlar®/Antistatic": 0,
+        "Lenzing FR®/Aramid": 0,
+        "Para-aramid/Solid polymer coating": 0,
+        "FR Rayon/пара-арамід/поліамід/антистатик": 0,
+        "polyamide PA": 0,
+        "polypropylene PP": 0,
+        "para aramid": 0,
+        "MAC": 0
       }
     }
   },
@@ -581,7 +730,19 @@
         "lyon": 0,
         "polyamide": 0,
         "polypropylene": 0,
-        "paraAramid": 0
+        "paraAramid": 0,
+        "antistatic": 0,
+        "Modacrylic/Lyocell/Static-Control™": 0,
+        "Nomex®/Kevlar®/Anti-Static": 0,
+        "Nomex®/Para-Aramid/p140": 0,
+        "PBI®/Kevlar®/Antistatic": 0,
+        "Lenzing FR®/Aramid": 0,
+        "Para-aramid/Solid polymer coating": 0,
+        "FR Rayon/пара-арамід/поліамід/антистатик": 0,
+        "polyamide PA": 0,
+        "polypropylene PP": 0,
+        "para aramid": 0,
+        "MAC": 0
       }
     }
   },
@@ -595,17 +756,7 @@
     },
     "isNew": false,
     "images": [
-      "http://catalog.raznobyt.com/images/products/TR-50 LIGHT/colors/112 Sky.jpg",
-      "http://catalog.raznobyt.com/images/products/TR-50 LIGHT/colors/138 New Slate.jpg",
-      "http://catalog.raznobyt.com/images/products/TR-50 LIGHT/colors/142 Lavender.jpg",
-      "http://catalog.raznobyt.com/images/products/TR-50 LIGHT/colors/335 NAVY.jpg",
-      "http://catalog.raznobyt.com/images/products/TR-50 LIGHT/colors/506 Black.jpg",
-      "http://catalog.raznobyt.com/images/products/TR-50 LIGHT/colors/144194.jpg",
-      "http://catalog.raznobyt.com/images/products/TR-50 LIGHT/colors/A-451.jpg",
-      "http://catalog.raznobyt.com/images/products/TR-50 LIGHT/colors/AG-143.jpg",
-      "http://catalog.raznobyt.com/images/products/TR-50 LIGHT/colors/AG-184.jpg",
-      "http://catalog.raznobyt.com/images/products/TR-50 LIGHT/colors/New 140 Eau De Nil.jpg",
-      "http://catalog.raznobyt.com/images/products/TR-50 LIGHT/colors/Φ-138.jpg"
+      "http://catalog.raznobyt.com/images/products/TR-50 LIGHT/IMG_20260521_0008.jpg"
     ],
     "description": {
       "ua": "Змішана тканина. Склад: 50% бавовна, 50% поліестр. Щільність 145. Саржеве переплетення 2/1.",
@@ -618,58 +769,58 @@
       "colors": [
         {
           "color": "Блакитний",
-          "color_ru": "Голубой",
-          "image": "TR-50 LIGHT/colors/112 Sky.jpg"
+          "image": "http://catalog.raznobyt.com/images/products/TR-50 LIGHT/colors/112 Sky.jpg",
+          "isMain": true
         },
         {
           "color": "Новий сланець",
-          "color_ru": "Новый сланец",
-          "image": "TR-50 LIGHT/colors/138 New Slate.jpg"
+          "image": "http://catalog.raznobyt.com/images/products/TR-50 LIGHT/colors/138 New Slate.jpg",
+          "isMain": false
         },
         {
           "color": "Лавандовий",
-          "color_ru": "Лавандовый",
-          "image": "TR-50 LIGHT/colors/142 Lavender.jpg"
+          "image": "http://catalog.raznobyt.com/images/products/TR-50 LIGHT/colors/142 Lavender.jpg",
+          "isMain": false
         },
         {
           "color": "Темно-синій",
-          "color_ru": "Темно-синий",
-          "image": "TR-50 LIGHT/colors/335 NAVY.jpg"
+          "image": "http://catalog.raznobyt.com/images/products/TR-50 LIGHT/colors/335 NAVY.jpg",
+          "isMain": false
         },
         {
           "color": "Чорний",
-          "color_ru": "Черный",
-          "image": "TR-50 LIGHT/colors/506 Black.jpg"
+          "image": "http://catalog.raznobyt.com/images/products/TR-50 LIGHT/colors/506 Black.jpg",
+          "isMain": false
         },
         {
           "color": "144194",
-          "color_ru": "144194",
-          "image": "TR-50 LIGHT/colors/144194.jpg"
+          "image": "http://catalog.raznobyt.com/images/products/TR-50 LIGHT/colors/144194.jpg",
+          "isMain": false
         },
         {
           "color": "A-451",
-          "color_ru": "A-451",
-          "image": "TR-50 LIGHT/colors/A-451.jpg"
+          "image": "http://catalog.raznobyt.com/images/products/TR-50 LIGHT/colors/A-451.jpg",
+          "isMain": false
         },
         {
           "color": "AG-143",
-          "color_ru": "AG-143",
-          "image": "TR-50 LIGHT/colors/AG-143.jpg"
+          "image": "http://catalog.raznobyt.com/images/products/TR-50 LIGHT/colors/AG-143.jpg",
+          "isMain": false
         },
         {
           "color": "AG-184",
-          "color_ru": "AG-184",
-          "image": "TR-50 LIGHT/colors/AG-184.jpg"
+          "image": "http://catalog.raznobyt.com/images/products/TR-50 LIGHT/colors/AG-184.jpg",
+          "isMain": false
         },
         {
           "color": "Новий 140 вода Нілу",
-          "color_ru": "Новый 140 вода Нила",
-          "image": "TR-50 LIGHT/colors/New 140 Eau De Nil.jpg"
+          "image": "http://catalog.raznobyt.com/images/products/TR-50 LIGHT/colors/New 140 Eau De Nil.jpg",
+          "isMain": false
         },
         {
           "color": "Φ-138",
-          "color_ru": "Φ-138",
-          "image": "TR-50 LIGHT/colors/Φ-138.jpg"
+          "image": "http://catalog.raznobyt.com/images/products/TR-50 LIGHT/colors/Φ-138.jpg",
+          "isMain": false
         }
       ],
       "properties": [],
@@ -683,7 +834,19 @@
         "lyon": 0,
         "polyamide": 0,
         "polypropylene": 0,
-        "paraAramid": 0
+        "paraAramid": 0,
+        "antistatic": 0,
+        "Modacrylic/Lyocell/Static-Control™": 0,
+        "Nomex®/Kevlar®/Anti-Static": 0,
+        "Nomex®/Para-Aramid/p140": 0,
+        "PBI®/Kevlar®/Antistatic": 0,
+        "Lenzing FR®/Aramid": 0,
+        "Para-aramid/Solid polymer coating": 0,
+        "FR Rayon/пара-арамід/поліамід/антистатик": 0,
+        "polyamide PA": 0,
+        "polypropylene PP": 0,
+        "para aramid": 0,
+        "MAC": 0
       }
     }
   },
@@ -717,7 +880,19 @@
         "lyon": 0,
         "polyamide": 0,
         "polypropylene": 0,
-        "paraAramid": 0
+        "paraAramid": 0,
+        "antistatic": 0,
+        "Modacrylic/Lyocell/Static-Control™": 0,
+        "Nomex®/Kevlar®/Anti-Static": 0,
+        "Nomex®/Para-Aramid/p140": 0,
+        "PBI®/Kevlar®/Antistatic": 0,
+        "Lenzing FR®/Aramid": 0,
+        "Para-aramid/Solid polymer coating": 0,
+        "FR Rayon/пара-арамід/поліамід/антистатик": 0,
+        "polyamide PA": 0,
+        "polypropylene PP": 0,
+        "para aramid": 0,
+        "MAC": 0
       }
     }
   },
@@ -751,7 +926,19 @@
         "lyon": 0,
         "polyamide": 0,
         "polypropylene": 0,
-        "paraAramid": 0
+        "paraAramid": 0,
+        "antistatic": 0,
+        "Modacrylic/Lyocell/Static-Control™": 0,
+        "Nomex®/Kevlar®/Anti-Static": 0,
+        "Nomex®/Para-Aramid/p140": 0,
+        "PBI®/Kevlar®/Antistatic": 0,
+        "Lenzing FR®/Aramid": 0,
+        "Para-aramid/Solid polymer coating": 0,
+        "FR Rayon/пара-арамід/поліамід/антистатик": 0,
+        "polyamide PA": 0,
+        "polypropylene PP": 0,
+        "para aramid": 0,
+        "MAC": 0
       }
     }
   },
@@ -765,26 +952,27 @@
     },
     "isNew": false,
     "images": [
-      "http://catalog.raznobyt.com/images/products/colors/784 Grey.jpg",
-      "http://catalog.raznobyt.com/images/products/colors/60563.jpg",
-      "http://catalog.raznobyt.com/images/products/colors/62709.jpg",
-      "http://catalog.raznobyt.com/images/products/colors/95449.jpg",
-      "http://catalog.raznobyt.com/images/products/colors/97019T.jpg",
-      "http://catalog.raznobyt.com/images/products/colors/98060.jpg",
-      "http://catalog.raznobyt.com/images/products/colors/99017.jpg",
-      "http://catalog.raznobyt.com/images/products/colors/Cacao.jpg",
-      "http://catalog.raznobyt.com/images/products/colors/Candy.jpg",
-      "http://catalog.raznobyt.com/images/products/colors/Cornflower Blue.jpg",
-      "http://catalog.raznobyt.com/images/products/colors/Grass.jpg",
-      "http://catalog.raznobyt.com/images/products/colors/Ice White.jpg",
-      "http://catalog.raznobyt.com/images/products/colors/IRIS.jpg",
-      "http://catalog.raznobyt.com/images/products/colors/Mauve.jpg",
-      "http://catalog.raznobyt.com/images/products/colors/Oak Leaf.jpg",
-      "http://catalog.raznobyt.com/images/products/colors/Ocean.jpg",
-      "http://catalog.raznobyt.com/images/products/colors/Purple Ash.jpg",
-      "http://catalog.raznobyt.com/images/products/colors/Tea Rose.jpg",
-      "http://catalog.raznobyt.com/images/products/colors/Teal.jpg",
-      "http://catalog.raznobyt.com/images/products/colors/Vanillian.jpg"
+      "http://catalog.raznobyt.com/images/products/VLP-4206/61233.jpg",
+      "http://catalog.raznobyt.com/images/products/VLP-4206/colors/784 Grey.jpg",
+      "http://catalog.raznobyt.com/images/products/VLP-4206/colors/60563.jpg",
+      "http://catalog.raznobyt.com/images/products/VLP-4206/colors/62709.jpg",
+      "http://catalog.raznobyt.com/images/products/VLP-4206/colors/95449.jpg",
+      "http://catalog.raznobyt.com/images/products/VLP-4206/colors/97019T.jpg",
+      "http://catalog.raznobyt.com/images/products/VLP-4206/colors/98060.jpg",
+      "http://catalog.raznobyt.com/images/products/VLP-4206/colors/99017.jpg",
+      "http://catalog.raznobyt.com/images/products/VLP-4206/colors/Cacao.jpg",
+      "http://catalog.raznobyt.com/images/products/VLP-4206/colors/Candy.jpg",
+      "http://catalog.raznobyt.com/images/products/VLP-4206/colors/Cornflower Blue.jpg",
+      "http://catalog.raznobyt.com/images/products/VLP-4206/colors/Grass.jpg",
+      "http://catalog.raznobyt.com/images/products/VLP-4206/colors/Ice White.jpg",
+      "http://catalog.raznobyt.com/images/products/VLP-4206/colors/IRIS.jpg",
+      "http://catalog.raznobyt.com/images/products/VLP-4206/colors/Mauve.jpg",
+      "http://catalog.raznobyt.com/images/products/VLP-4206/colors/Oak Leaf.jpg",
+      "http://catalog.raznobyt.com/images/products/VLP-4206/colors/Ocean.jpg",
+      "http://catalog.raznobyt.com/images/products/VLP-4206/colors/Purple Ash.jpg",
+      "http://catalog.raznobyt.com/images/products/VLP-4206/colors/Tea Rose.jpg",
+      "http://catalog.raznobyt.com/images/products/VLP-4206/colors/Teal.jpg",
+      "http://catalog.raznobyt.com/images/products/VLP-4206/colors/Vanillian.jpg"
     ],
     "description": {
       "ua": "Змішана тканина з ефектом стрейч. Склад: 57% бавовна, 39% поліестр, 4% стрейч. Щільність 140. Саржеве переплетення 2/1.",
@@ -797,103 +985,103 @@
       "colors": [
         {
           "color": "Сірий",
-          "color_ru": "Серый",
-          "image": "colors/784 Grey.jpg"
+          "image": "http://catalog.raznobyt.com/images/products/colors/784 Grey.jpg",
+          "isMain": true
         },
         {
           "color": "Темно-синій",
-          "color_ru": "Темно-синий",
-          "image": "colors/60563.jpg"
+          "image": "http://catalog.raznobyt.com/images/products/colors/60563.jpg",
+          "isMain": false
         },
         {
           "color": "Бордовий",
-          "color_ru": "Бордовый",
-          "image": "colors/62709.jpg"
+          "image": "http://catalog.raznobyt.com/images/products/colors/62709.jpg",
+          "isMain": false
         },
         {
           "color": "Салатовий",
-          "color_ru": "Салатовый",
-          "image": "colors/95449.jpg"
+          "image": "http://catalog.raznobyt.com/images/products/colors/95449.jpg",
+          "isMain": false
         },
         {
           "color": "Темно-сірий",
-          "color_ru": "Темно-серый",
-          "image": "colors/97019T.jpg"
+          "image": "http://catalog.raznobyt.com/images/products/colors/97019T.jpg",
+          "isMain": false
         },
         {
           "color": "Блакитний",
-          "color_ru": "Голубой",
-          "image": "colors/98060.jpg"
+          "image": "http://catalog.raznobyt.com/images/products/colors/98060.jpg",
+          "isMain": false
         },
         {
           "color": "Оливковий",
-          "color_ru": "Оливковый",
-          "image": "colors/99017.jpg"
+          "image": "http://catalog.raznobyt.com/images/products/colors/99017.jpg",
+          "isMain": false
         },
         {
           "color": "Какао",
-          "color_ru": "Какао",
-          "image": "colors/Cacao.jpg"
+          "image": "http://catalog.raznobyt.com/images/products/colors/Cacao.jpg",
+          "isMain": false
         },
         {
           "color": "Цукерковий",
-          "color_ru": "Конфетный",
-          "image": "colors/Candy.jpg"
+          "image": "http://catalog.raznobyt.com/images/products/colors/Candy.jpg",
+          "isMain": false
         },
         {
           "color": "Волошковий",
-          "color_ru": "Васильковый",
-          "image": "colors/Cornflower Blue.jpg"
+          "image": "http://catalog.raznobyt.com/images/products/colors/Cornflower Blue.jpg",
+          "isMain": false
         },
         {
           "color": "Трав'яний",
-          "color_ru": "Травяной",
-          "image": "colors/Grass.jpg"
+          "image": "http://catalog.raznobyt.com/images/products/colors/Grass.jpg",
+          "isMain": false
         },
         {
           "color": "Білий",
-          "color_ru": "Белый",
-          "image": "colors/Ice White.jpg"
+          "image": "http://catalog.raznobyt.com/images/products/colors/Ice White.jpg",
+          "isMain": false
         },
         {
           "color": "Ірис",
-          "color_ru": "Ирис",
-          "image": "colors/IRIS.jpg"
+          "image": "http://catalog.raznobyt.com/images/products/colors/IRIS.jpg",
+          "isMain": false
         },
         {
           "color": "Мальвовий",
-          "color_ru": "Мальвовый",
-          "image": "colors/Mauve.jpg"
+          "image": "http://catalog.raznobyt.com/images/products/colors/Mauve.jpg",
+          "isMain": false
         },
         {
           "color": "Дубовий лист",
-          "color_ru": "Дубовый лист",
-          "image": "colors/Oak Leaf.jpg"
+          "image": "http://catalog.raznobyt.com/images/products/colors/Oak Leaf.jpg",
+          "isMain": false
         },
         {
           "color": "Океанський",
-          "color_ru": "Океанский",
-          "image": "colors/Ocean.jpg"
+          "image": "http://catalog.raznobyt.com/images/products/colors/Ocean.jpg",
+          "isMain": false
         },
         {
           "color": "Фіолетовий попіл",
-          "color_ru": "Фиолетовый пепел",
-          "image": "colors/Purple Ash.jpg"
+          "image": "http://catalog.raznobyt.com/images/products/colors/Purple Ash.jpg",
+          "isMain": false
         },
         {
           "color": "Чайна троянда",
-          "color_ru": "Чайная роза",
-          "image": "colors/Tea Rose.jpg"
+          "image": "http://catalog.raznobyt.com/images/products/colors/Tea Rose.jpg",
+          "isMain": false
         },
         {
           "color": "Тіловий",
-          "color_ru": "Тиловый",
-          "image": "colors/Teal.jpg"
+          "image": "http://catalog.raznobyt.com/images/products/colors/Teal.jpg",
+          "isMain": false
         },
         {
           "color": "Ванільний",
-          "color_ru": "Ванильный",
-          "image": "colors/Vanillian.jpg"
+          "image": "http://catalog.raznobyt.com/images/products/colors/Vanillian.jpg",
+          "isMain": false
         }
       ],
       "properties": [],
@@ -907,7 +1095,19 @@
         "lyon": 0,
         "polyamide": 0,
         "polypropylene": 0,
-        "paraAramid": 0
+        "paraAramid": 0,
+        "antistatic": 0,
+        "Modacrylic/Lyocell/Static-Control™": 0,
+        "Nomex®/Kevlar®/Anti-Static": 0,
+        "Nomex®/Para-Aramid/p140": 0,
+        "PBI®/Kevlar®/Antistatic": 0,
+        "Lenzing FR®/Aramid": 0,
+        "Para-aramid/Solid polymer coating": 0,
+        "FR Rayon/пара-арамід/поліамід/антистатик": 0,
+        "polyamide PA": 0,
+        "polypropylene PP": 0,
+        "para aramid": 0,
+        "MAC": 0
       }
     }
   },
@@ -941,7 +1141,19 @@
         "lyon": 0,
         "polyamide": 0,
         "polypropylene": 0,
-        "paraAramid": 0
+        "paraAramid": 0,
+        "antistatic": 0,
+        "Modacrylic/Lyocell/Static-Control™": 0,
+        "Nomex®/Kevlar®/Anti-Static": 0,
+        "Nomex®/Para-Aramid/p140": 0,
+        "PBI®/Kevlar®/Antistatic": 0,
+        "Lenzing FR®/Aramid": 0,
+        "Para-aramid/Solid polymer coating": 0,
+        "FR Rayon/пара-арамід/поліамід/антистатик": 0,
+        "polyamide PA": 0,
+        "polypropylene PP": 0,
+        "para aramid": 0,
+        "MAC": 0
       }
     }
   },
@@ -975,7 +1187,19 @@
         "lyon": 0,
         "polyamide": 0,
         "polypropylene": 0,
-        "paraAramid": 0
+        "paraAramid": 0,
+        "antistatic": 0,
+        "Modacrylic/Lyocell/Static-Control™": 0,
+        "Nomex®/Kevlar®/Anti-Static": 0,
+        "Nomex®/Para-Aramid/p140": 0,
+        "PBI®/Kevlar®/Antistatic": 0,
+        "Lenzing FR®/Aramid": 0,
+        "Para-aramid/Solid polymer coating": 0,
+        "FR Rayon/пара-арамід/поліамід/антистатик": 0,
+        "polyamide PA": 0,
+        "polypropylene PP": 0,
+        "para aramid": 0,
+        "MAC": 0
       }
     }
   },
@@ -1009,7 +1233,19 @@
         "lyon": 0,
         "polyamide": 0,
         "polypropylene": 0,
-        "paraAramid": 0
+        "paraAramid": 0,
+        "antistatic": 0,
+        "Modacrylic/Lyocell/Static-Control™": 0,
+        "Nomex®/Kevlar®/Anti-Static": 0,
+        "Nomex®/Para-Aramid/p140": 0,
+        "PBI®/Kevlar®/Antistatic": 0,
+        "Lenzing FR®/Aramid": 0,
+        "Para-aramid/Solid polymer coating": 0,
+        "FR Rayon/пара-арамід/поліамід/антистатик": 0,
+        "polyamide PA": 0,
+        "polypropylene PP": 0,
+        "para aramid": 0,
+        "MAC": 0
       }
     }
   }

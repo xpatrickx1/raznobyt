@@ -15,7 +15,7 @@ const CATEGORYES = [
   'cotton',
   'linen',
   'jeans',
-  'fleece'
+  'fleece',
 ];
 
 const fetchSheet = async (sheetName) => {
@@ -57,52 +57,53 @@ const slugify = (text = "", category = "") =>
     .replace(/\s+/g, "-")
     .replace(/[^\w-]+/g, "") + `-${category}`;
 
-// 🔥 НОВА ФУНКЦІЯ ДЛЯ ПАРСИНГУ КОЛЬОРІВ
+// Парсинг кольорів з гібридною підтримкою:
+//  • Старий формат (JSON у клітинці): [{color, color_ru, image}]
+//    image зберігається як відносний шлях, отримуємо повний URL
+//  • Новий формат (рядок з комами): "path1, path2, ..."
+//    Колір = підпапка або ім'я файлу без розширення
 const parseColors = (colorsStr) => {
   if (!colorsStr || colorsStr.trim() === "") return [];
 
+  // 1. Спробуємо JSON (старий формат)
   try {
     const parsed = JSON.parse(colorsStr);
-    if (Array.isArray(parsed)) {
-      return parsed;
+    if (Array.isArray(parsed) && parsed.length > 0 && parsed[0].image) {
+      return parsed.map((c, idx) => {
+        const imgPath = c.image.trim();
+        const imageUrl = imgPath.startsWith("http")
+          ? imgPath
+          : `http://catalog.raznobyt.com/images/products/${imgPath}`;
+        return {
+          color: c.color || imgPath.replace(/\.[^.]+$/, ""),
+          image: imageUrl,
+          isMain: idx === 0,
+        };
+      });
     }
-    if (parsed.colors) return parsed.colors;
-    if (parsed.items) return parsed.items;
-    return [];
-  } catch (e) {
-    // Якщо це звичайний рядок з комами
-    return colorsStr.split(",").map(s => s.trim()).filter(Boolean);
-  }
-};
-
-// 🔥 НОВА ФУНКЦІЯ ДЛЯ ПАРСИНГУ ЗОБРАЖЕНЬ (щоб не обрізало JSON)
-const parseImages = (imagesStr) => {
-  if (!imagesStr || imagesStr.trim() === "") return [];
-
-  // Спершу пробуємо як JSON
-  try {
-    const parsed = JSON.parse(imagesStr);
-    if (Array.isArray(parsed)) {
-      return parsed.map(img => {
-        let trimmed = img.trim();
-        if (trimmed && !trimmed.startsWith("http")) {
-          return `https://catalog.raznobyt.com/images/products/${trimmed}`;
-        }
-        return trimmed;
-      }).filter(Boolean);
-    }
-  } catch (e) {
-    // Якщо не JSON — розбиваємо по комах
-    return imagesStr.split(",").map(img => {
-      let trimmed = img.trim();
-      if (trimmed && !trimmed.startsWith("http")) {
-        return `https://catalog.raznobyt.com/images/products/${trimmed}`;
-      }
-      return trimmed;
-    }).filter(Boolean);
+  } catch (_) {
+    // не JSON — йдемо далі
   }
 
-  return [];
+  // 2. Новий формат: рядок з комами (шляхи до файлів)
+  return colorsStr.split(",").map((s, idx) => {
+    const path = s.trim();
+    if (!path) return null;
+
+    const parts = path.replace(/\\/g, "/").split("/");
+    const filename = parts[parts.length - 1];
+    const colorName = parts.length >= 3
+      ? parts[parts.length - 2]          // підпапка = назва кольору
+      : filename.replace(/\.[^.]+$/, ""); // ім'я файлу без розширення
+
+    const imageUrl = `http://catalog.raznobyt.com/images/products/${path}`;
+
+    return {
+      color: colorName,
+      image: imageUrl,
+      isMain: idx === 0,
+    };
+  }).filter(Boolean);
 };
 
 async function main() {
@@ -157,13 +158,7 @@ async function main() {
         ru: row.title_ru,
       },
       isNew: row.isNew === "true",
-      images: parseColors(row.colors)
-        .filter(c => c.image)
-        .map(c => {
-          const img = c.image.trim();
-          // return img.startsWith("http") ? img : `https://catalog.raznobyt.com/images/products/${img}`;
-          return img.startsWith("http") ? img : `http://catalog.raznobyt.com/images/products/${img}`;
-        }),
+      images: parseColors(row.images).map(c => c.image),
       description: {
         ua: row.desc_ua,
         ru: row.desc_ru,
@@ -172,7 +167,7 @@ async function main() {
         fabricType: row.fabricType,
         density: row.density,
         width: row.width || null,
-        colors: parseColors(row.colors),
+        colors: parseColors(row.colors), // [{ color, image, isMain }]
         properties: row.properties ? row.properties.split(",").map(s => s.trim()).filter(Boolean) : [],
         composition: {
           cotton: Number(row.cotton) || 0,
@@ -185,6 +180,22 @@ async function main() {
           polyamide: Number(row["polyamide PA"]) || 0,
           polypropylene: Number(row["polypropylene PP"]) || 0,
           paraAramid: Number(row["para aramid"]) || 0,
+          antistatic: Number(row.antistatic) || 0,
+          'Modacrylic/Lyocell/Static-Control™': Number(row["Modacrylic/Lyocell/Static-Control™"]) || 0,
+          'Nomex®/Kevlar®/Anti-Static': Number(row["Nomex®/Kevlar®/Anti-Static"]) || 0,
+          'Nomex®/Para-Aramid/p140': Number(row["Nomex®/Para-Aramid/p140"]) || 0,
+          'PBI®/Kevlar®/Antistatic': Number(row["PBI®/Kevlar®/Antistatic"]) || 0,
+          'Lenzing FR®/Aramid': Number(row["Lenzing FR®/Aramid"]) || 0,
+          'Para-aramid/Solid polymer coating': Number(row["Para-aramid/Solid polymer coating"]) || 0,
+          'FR Rayon/пара-арамід/поліамід/антистатик': Number(row["FR Rayon/пара-арамід/поліамід/антистатик"]) || 0,
+          'viscose': Number(row.viscose) || 0,
+          'polyamide PA': Number(row["polyamide PA"]) || 0,
+          'polypropylene PP': Number(row["polypropylene PP"]) || 0,
+          'para aramid': Number(row["para aramid"]) || 0,
+          'MAC': Number(row["MAC"]) || 0,
+          'spandex': Number(row.spandex) || 0,
+          'pbt': Number(row.pbt) || 0,
+          'rayon': Number(row.rayon) || 0
         },
       },
     };

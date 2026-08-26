@@ -9,9 +9,6 @@ export const COMPOSITION_OPTIONS = [
     { id: 'polyamide', label: 'Поліамід', labelRu: 'Полиамид' },
     { id: 'polypropylene', label: 'Поліпропілен', labelRu: 'Полипропилен' },
     { id: 'paraAramid', label: 'Пара-арамід', labelRu: 'Пара-арамид' },
-];
-
-export const OPTIONAL_OPTIONS = [
     { id: 'antistatic', label: 'Антистатичний', labelRu: 'Антистатический' },
     { id: 'Modacrylic/Lyocell/Static-Control™', label: 'Модакрил/Ліоцел/Static-Control™', labelRu: 'Модакрил/Лиоцелл/Static-Control™' },
     { id: 'Nomex®/Kevlar®/Anti-Static', label: 'Nomex®/Kevlar®/Anti-Static', labelRu: 'Nomex®/Kevlar®/Anti-Static' },
@@ -19,7 +16,7 @@ export const OPTIONAL_OPTIONS = [
 ];
 
 export const getCompositionOption = (id) => {
-    return COMPOSITION_OPTIONS.find(o => o.id === id) || OPTIONAL_OPTIONS.find(o => o.id === id);
+    return COMPOSITION_OPTIONS.find(o => o.id === id)
 };
 
 export const formatComposition = (compObj, lang) => {
@@ -32,11 +29,7 @@ export const formatComposition = (compObj, lang) => {
             const opt = COMPOSITION_OPTIONS.find(o => o.id === key);
             let name = opt ? (lang === 'ua' ? opt.label : opt.labelRu) : key;
 
-            // Convert to lowercase for inline display, except for acronyms like PBT
-            if (name !== 'PBT') {
-                name = name.toLowerCase();
-            }
-
+            if (value === 1) return `${name}`
             return `${value}% ${name}`;
         }).join(', ');
 };
