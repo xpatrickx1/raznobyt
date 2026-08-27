@@ -17,33 +17,7 @@
       "fabricType": "саржа",
       "density": "250",
       "width": "150",
-      "colors": [
-        {
-          "color": "чорний",
-          "image": "http://catalog.raznobyt.com/images/products/чорний",
-          "isMain": true
-        },
-        {
-          "color": "білий",
-          "image": "http://catalog.raznobyt.com/images/products/білий",
-          "isMain": false
-        },
-        {
-          "color": "червоний",
-          "image": "http://catalog.raznobyt.com/images/products/червоний",
-          "isMain": false
-        },
-        {
-          "color": "жовтий",
-          "image": "http://catalog.raznobyt.com/images/products/жовтий",
-          "isMain": false
-        },
-        {
-          "color": "синій",
-          "image": "http://catalog.raznobyt.com/images/products/синій",
-          "isMain": false
-        }
-      ],
+      "colors": [],
       "properties": [],
       "composition": {
         "cotton": 100,
@@ -89,33 +63,7 @@
       "fabricType": "саржа",
       "density": "245",
       "width": "150",
-      "colors": [
-        {
-          "color": "чорний",
-          "image": "http://catalog.raznobyt.com/images/products/чорний",
-          "isMain": true
-        },
-        {
-          "color": "білий",
-          "image": "http://catalog.raznobyt.com/images/products/білий",
-          "isMain": false
-        },
-        {
-          "color": "червоний",
-          "image": "http://catalog.raznobyt.com/images/products/червоний",
-          "isMain": false
-        },
-        {
-          "color": "жовтий",
-          "image": "http://catalog.raznobyt.com/images/products/жовтий",
-          "isMain": false
-        },
-        {
-          "color": "синій",
-          "image": "http://catalog.raznobyt.com/images/products/синій",
-          "isMain": false
-        }
-      ],
+      "colors": [],
       "properties": [],
       "composition": {
         "cotton": 100,
@@ -161,33 +109,7 @@
       "fabricType": "саржа",
       "density": "240",
       "width": "150",
-      "colors": [
-        {
-          "color": "чорний",
-          "image": "http://catalog.raznobyt.com/images/products/чорний",
-          "isMain": true
-        },
-        {
-          "color": "білий",
-          "image": "http://catalog.raznobyt.com/images/products/білий",
-          "isMain": false
-        },
-        {
-          "color": "червоний",
-          "image": "http://catalog.raznobyt.com/images/products/червоний",
-          "isMain": false
-        },
-        {
-          "color": "жовтий",
-          "image": "http://catalog.raznobyt.com/images/products/жовтий",
-          "isMain": false
-        },
-        {
-          "color": "синій",
-          "image": "http://catalog.raznobyt.com/images/products/синій",
-          "isMain": false
-        }
-      ],
+      "colors": [],
       "properties": [],
       "composition": {
         "cotton": 100,
@@ -233,33 +155,7 @@
       "fabricType": "полотно",
       "density": "232",
       "width": "150",
-      "colors": [
-        {
-          "color": "чорний",
-          "image": "http://catalog.raznobyt.com/images/products/чорний",
-          "isMain": true
-        },
-        {
-          "color": "білий",
-          "image": "http://catalog.raznobyt.com/images/products/білий",
-          "isMain": false
-        },
-        {
-          "color": "червоний",
-          "image": "http://catalog.raznobyt.com/images/products/червоний",
-          "isMain": false
-        },
-        {
-          "color": "жовтий",
-          "image": "http://catalog.raznobyt.com/images/products/жовтий",
-          "isMain": false
-        },
-        {
-          "color": "синій",
-          "image": "http://catalog.raznobyt.com/images/products/синій",
-          "isMain": false
-        }
-      ],
+      "colors": [],
       "properties": [],
       "composition": {
         "cotton": 100,
@@ -305,33 +201,7 @@
       "fabricType": "складне",
       "density": "260",
       "width": "150",
-      "colors": [
-        {
-          "color": "чорний",
-          "image": "http://catalog.raznobyt.com/images/products/чорний",
-          "isMain": true
-        },
-        {
-          "color": "білий",
-          "image": "http://catalog.raznobyt.com/images/products/білий",
-          "isMain": false
-        },
-        {
-          "color": "червоний",
-          "image": "http://catalog.raznobyt.com/images/products/червоний",
-          "isMain": false
-        },
-        {
-          "color": "жовтий",
-          "image": "http://catalog.raznobyt.com/images/products/жовтий",
-          "isMain": false
-        },
-        {
-          "color": "синій",
-          "image": "http://catalog.raznobyt.com/images/products/синій",
-          "isMain": false
-        }
-      ],
+      "colors": [],
       "properties": [],
       "composition": {
         "cotton": 100,
@@ -377,33 +247,7 @@
       "fabricType": "саржа",
       "density": "390",
       "width": "150",
-      "colors": [
-        {
-          "color": "чорний",
-          "image": "http://catalog.raznobyt.com/images/products/чорний",
-          "isMain": true
-        },
-        {
-          "color": "білий",
-          "image": "http://catalog.raznobyt.com/images/products/білий",
-          "isMain": false
-        },
-        {
-          "color": "червоний",
-          "image": "http://catalog.raznobyt.com/images/products/червоний",
-          "isMain": false
-        },
-        {
-          "color": "жовтий",
-          "image": "http://catalog.raznobyt.com/images/products/жовтий",
-          "isMain": false
-        },
-        {
-          "color": "синій",
-          "image": "http://catalog.raznobyt.com/images/products/синій",
-          "isMain": false
-        }
-      ],
+      "colors": [],
       "properties": [],
       "composition": {
         "cotton": 100,
@@ -449,33 +293,7 @@
       "fabricType": "саржа",
       "density": "390",
       "width": "150",
-      "colors": [
-        {
-          "color": "чорний",
-          "image": "http://catalog.raznobyt.com/images/products/чорний",
-          "isMain": true
-        },
-        {
-          "color": "білий",
-          "image": "http://catalog.raznobyt.com/images/products/білий",
-          "isMain": false
-        },
-        {
-          "color": "червоний",
-          "image": "http://catalog.raznobyt.com/images/products/червоний",
-          "isMain": false
-        },
-        {
-          "color": "жовтий",
-          "image": "http://catalog.raznobyt.com/images/products/жовтий",
-          "isMain": false
-        },
-        {
-          "color": "синій",
-          "image": "http://catalog.raznobyt.com/images/products/синій",
-          "isMain": false
-        }
-      ],
+      "colors": [],
       "properties": [],
       "composition": {
         "cotton": 100,
@@ -521,33 +339,7 @@
       "fabricType": "канвас",
       "density": "250",
       "width": "150",
-      "colors": [
-        {
-          "color": "чорний",
-          "image": "http://catalog.raznobyt.com/images/products/чорний",
-          "isMain": true
-        },
-        {
-          "color": "білий",
-          "image": "http://catalog.raznobyt.com/images/products/білий",
-          "isMain": false
-        },
-        {
-          "color": "червоний",
-          "image": "http://catalog.raznobyt.com/images/products/червоний",
-          "isMain": false
-        },
-        {
-          "color": "жовтий",
-          "image": "http://catalog.raznobyt.com/images/products/жовтий",
-          "isMain": false
-        },
-        {
-          "color": "синій",
-          "image": "http://catalog.raznobyt.com/images/products/синій",
-          "isMain": false
-        }
-      ],
+      "colors": [],
       "properties": [],
       "composition": {
         "cotton": 100,
@@ -593,33 +385,7 @@
       "fabricType": "канвас",
       "density": "350",
       "width": "150",
-      "colors": [
-        {
-          "color": "чорний",
-          "image": "http://catalog.raznobyt.com/images/products/чорний",
-          "isMain": true
-        },
-        {
-          "color": "білий",
-          "image": "http://catalog.raznobyt.com/images/products/білий",
-          "isMain": false
-        },
-        {
-          "color": "червоний",
-          "image": "http://catalog.raznobyt.com/images/products/червоний",
-          "isMain": false
-        },
-        {
-          "color": "жовтий",
-          "image": "http://catalog.raznobyt.com/images/products/жовтий",
-          "isMain": false
-        },
-        {
-          "color": "синій",
-          "image": "http://catalog.raznobyt.com/images/products/синій",
-          "isMain": false
-        }
-      ],
+      "colors": [],
       "properties": [],
       "composition": {
         "cotton": 100,
@@ -665,33 +431,7 @@
       "fabricType": "саржа",
       "density": "260",
       "width": "148",
-      "colors": [
-        {
-          "color": "чорний",
-          "image": "http://catalog.raznobyt.com/images/products/чорний",
-          "isMain": true
-        },
-        {
-          "color": "білий",
-          "image": "http://catalog.raznobyt.com/images/products/білий",
-          "isMain": false
-        },
-        {
-          "color": "червоний",
-          "image": "http://catalog.raznobyt.com/images/products/червоний",
-          "isMain": false
-        },
-        {
-          "color": "жовтий",
-          "image": "http://catalog.raznobyt.com/images/products/жовтий",
-          "isMain": false
-        },
-        {
-          "color": "синій",
-          "image": "http://catalog.raznobyt.com/images/products/синій",
-          "isMain": false
-        }
-      ],
+      "colors": [],
       "properties": [],
       "composition": {
         "cotton": 100,
@@ -737,33 +477,7 @@
       "fabricType": "саржа",
       "density": "300",
       "width": "149",
-      "colors": [
-        {
-          "color": "чорний",
-          "image": "http://catalog.raznobyt.com/images/products/чорний",
-          "isMain": true
-        },
-        {
-          "color": "білий",
-          "image": "http://catalog.raznobyt.com/images/products/білий",
-          "isMain": false
-        },
-        {
-          "color": "червоний",
-          "image": "http://catalog.raznobyt.com/images/products/червоний",
-          "isMain": false
-        },
-        {
-          "color": "жовтий",
-          "image": "http://catalog.raznobyt.com/images/products/жовтий",
-          "isMain": false
-        },
-        {
-          "color": "синій",
-          "image": "http://catalog.raznobyt.com/images/products/синій",
-          "isMain": false
-        }
-      ],
+      "colors": [],
       "properties": [],
       "composition": {
         "cotton": 100,
@@ -809,33 +523,7 @@
       "fabricType": "саржа",
       "density": "375",
       "width": "148",
-      "colors": [
-        {
-          "color": "чорний",
-          "image": "http://catalog.raznobyt.com/images/products/чорний",
-          "isMain": true
-        },
-        {
-          "color": "білий",
-          "image": "http://catalog.raznobyt.com/images/products/білий",
-          "isMain": false
-        },
-        {
-          "color": "червоний",
-          "image": "http://catalog.raznobyt.com/images/products/червоний",
-          "isMain": false
-        },
-        {
-          "color": "жовтий",
-          "image": "http://catalog.raznobyt.com/images/products/жовтий",
-          "isMain": false
-        },
-        {
-          "color": "синій",
-          "image": "http://catalog.raznobyt.com/images/products/синій",
-          "isMain": false
-        }
-      ],
+      "colors": [],
       "properties": [],
       "composition": {
         "cotton": 100,
@@ -881,33 +569,7 @@
       "fabricType": "саржа",
       "density": "216",
       "width": "150",
-      "colors": [
-        {
-          "color": "чорний",
-          "image": "http://catalog.raznobyt.com/images/products/чорний",
-          "isMain": true
-        },
-        {
-          "color": "білий",
-          "image": "http://catalog.raznobyt.com/images/products/білий",
-          "isMain": false
-        },
-        {
-          "color": "червоний",
-          "image": "http://catalog.raznobyt.com/images/products/червоний",
-          "isMain": false
-        },
-        {
-          "color": "жовтий",
-          "image": "http://catalog.raznobyt.com/images/products/жовтий",
-          "isMain": false
-        },
-        {
-          "color": "синій",
-          "image": "http://catalog.raznobyt.com/images/products/синій",
-          "isMain": false
-        }
-      ],
+      "colors": [],
       "properties": [],
       "composition": {
         "cotton": 100,
@@ -953,33 +615,7 @@
       "fabricType": "полотно",
       "density": "213",
       "width": "150",
-      "colors": [
-        {
-          "color": "чорний",
-          "image": "http://catalog.raznobyt.com/images/products/чорний",
-          "isMain": true
-        },
-        {
-          "color": "білий",
-          "image": "http://catalog.raznobyt.com/images/products/білий",
-          "isMain": false
-        },
-        {
-          "color": "червоний",
-          "image": "http://catalog.raznobyt.com/images/products/червоний",
-          "isMain": false
-        },
-        {
-          "color": "жовтий",
-          "image": "http://catalog.raznobyt.com/images/products/жовтий",
-          "isMain": false
-        },
-        {
-          "color": "синій",
-          "image": "http://catalog.raznobyt.com/images/products/синій",
-          "isMain": false
-        }
-      ],
+      "colors": [],
       "properties": [],
       "composition": {
         "cotton": 100,
@@ -1025,33 +661,7 @@
       "fabricType": "полотно",
       "density": "164",
       "width": "150",
-      "colors": [
-        {
-          "color": "чорний",
-          "image": "http://catalog.raznobyt.com/images/products/чорний",
-          "isMain": true
-        },
-        {
-          "color": "білий",
-          "image": "http://catalog.raznobyt.com/images/products/білий",
-          "isMain": false
-        },
-        {
-          "color": "червоний",
-          "image": "http://catalog.raznobyt.com/images/products/червоний",
-          "isMain": false
-        },
-        {
-          "color": "жовтий",
-          "image": "http://catalog.raznobyt.com/images/products/жовтий",
-          "isMain": false
-        },
-        {
-          "color": "синій",
-          "image": "http://catalog.raznobyt.com/images/products/синій",
-          "isMain": false
-        }
-      ],
+      "colors": [],
       "properties": [],
       "composition": {
         "cotton": 100,

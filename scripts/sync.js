@@ -92,9 +92,7 @@ const parseColors = (colorsStr) => {
 
     const parts = path.replace(/\\/g, "/").split("/");
     const filename = parts[parts.length - 1];
-    const colorName = parts.length >= 3
-      ? parts[parts.length - 2]          // підпапка = назва кольору
-      : filename.replace(/\.[^.]+$/, ""); // ім'я файлу без розширення
+    const colorName = filename.replace(/\.[^.]+$/, ""); // ім'я файлу без розширення
 
     const imageUrl = `http://catalog.raznobyt.com/images/products/${path}`;
 
@@ -167,7 +165,7 @@ async function main() {
         fabricType: row.fabricType,
         density: row.density,
         width: row.width || null,
-        colors: parseColors(row.colors), // [{ color, image, isMain }]
+        colors: parseColors(row.images), // [{ color, image, isMain }]
         properties: row.properties ? row.properties.split(",").map(s => s.trim()).filter(Boolean) : [],
         composition: {
           cotton: Number(row.cotton) || 0,

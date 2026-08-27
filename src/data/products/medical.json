@@ -23,18 +23,18 @@
       "width": "150",
       "colors": [
         {
-          "color": "white",
-          "image": "http://catalog.raznobyt.com/images/products/white",
+          "color": "tr-150-white",
+          "image": "http://catalog.raznobyt.com/images/products/tr-150-white.jpg",
           "isMain": true
         },
         {
-          "color": "black",
-          "image": "http://catalog.raznobyt.com/images/products/black",
+          "color": "tr-150-black",
+          "image": "http://catalog.raznobyt.com/images/products/tr-150-black.jpg",
           "isMain": false
         },
         {
-          "color": "brown",
-          "image": "http://catalog.raznobyt.com/images/products/brown",
+          "color": "tr-150-brown",
+          "image": "http://catalog.raznobyt.com/images/products/tr-150-brown.jpg",
           "isMain": false
         }
       ],
@@ -225,8 +225,8 @@
       "width": "150",
       "colors": [
         {
-          "color": "Бірюзовий",
-          "image": "http://catalog.raznobyt.com/images/products/TR-MED/colors/750-Turquoise.jpg",
+          "color": "62110",
+          "image": "http://catalog.raznobyt.com/images/products/KG-337/62110.jpg",
           "isMain": true
         }
       ],
@@ -275,138 +275,7 @@
       "fabricType": "twill",
       "density": "195",
       "width": "150",
-      "colors": [
-        {
-          "color": "Білий",
-          "image": "http://catalog.raznobyt.com/images/products/TR-MED/colors/701-White.jpg",
-          "isMain": true
-        },
-        {
-          "color": "Жовтий",
-          "image": "http://catalog.raznobyt.com/images/products/TR-MED/colors/710-Yellow.jpg",
-          "isMain": false
-        },
-        {
-          "color": "Бордовий",
-          "image": "http://catalog.raznobyt.com/images/products/TR-MED/colors/735-Maroon.jpg",
-          "isMain": false
-        },
-        {
-          "color": "Темно-фіолетовий",
-          "image": "http://catalog.raznobyt.com/images/products/TR-MED/colors/740-Deep Purple.jpg",
-          "isMain": false
-        },
-        {
-          "color": "Бузковий",
-          "image": "http://catalog.raznobyt.com/images/products/TR-MED/colors/749-Lilac.jpg",
-          "isMain": false
-        },
-        {
-          "color": "Бірюзовий",
-          "image": "http://catalog.raznobyt.com/images/products/TR-MED/colors/750-Turquoise.jpg",
-          "isMain": false
-        },
-        {
-          "color": "Морська хвиля",
-          "image": "http://catalog.raznobyt.com/images/products/TR-MED/colors/751-Sea Wave.jpg",
-          "isMain": false
-        },
-        {
-          "color": "Блакитний",
-          "image": "http://catalog.raznobyt.com/images/products/TR-MED/colors/752-Sky.jpg",
-          "isMain": false
-        },
-        {
-          "color": "Роял Бокс",
-          "image": "http://catalog.raznobyt.com/images/products/TR-MED/colors/754-Royal Box.jpg",
-          "isMain": false
-        },
-        {
-          "color": "Синій",
-          "image": "http://catalog.raznobyt.com/images/products/TR-MED/colors/755-Blue.jpg",
-          "isMain": false
-        },
-        {
-          "color": "Темно-синій",
-          "image": "http://catalog.raznobyt.com/images/products/TR-MED/colors/757-Navy.jpg",
-          "isMain": false
-        },
-        {
-          "color": "Чорниця",
-          "image": "http://catalog.raznobyt.com/images/products/TR-MED/colors/758-Blueberry.jpg",
-          "isMain": false
-        },
-        {
-          "color": "Аква",
-          "image": "http://catalog.raznobyt.com/images/products/TR-MED/colors/760-Aqua.jpg",
-          "isMain": false
-        },
-        {
-          "color": "Опал",
-          "image": "http://catalog.raznobyt.com/images/products/TR-MED/colors/761-Opal.jpg",
-          "isMain": false
-        },
-        {
-          "color": "Світло-зелений",
-          "image": "http://catalog.raznobyt.com/images/products/TR-MED/colors/762-Light Green.jpg",
-          "isMain": false
-        },
-        {
-          "color": "Дублін",
-          "image": "http://catalog.raznobyt.com/images/products/TR-MED/colors/764-Dublin.jpg",
-          "isMain": false
-        },
-        {
-          "color": "Грушево-зелений",
-          "image": "http://catalog.raznobyt.com/images/products/TR-MED/colors/765-Pear Green.jpg",
-          "isMain": false
-        },
-        {
-          "color": "Світло-бежевий",
-          "image": "http://catalog.raznobyt.com/images/products/TR-MED/colors/774-Light Beige.jpg",
-          "isMain": false
-        },
-        {
-          "color": "Шоколадний",
-          "image": "http://catalog.raznobyt.com/images/products/TR-MED/colors/778-Chocolate.jpg",
-          "isMain": false
-        },
-        {
-          "color": "Коричневий",
-          "image": "http://catalog.raznobyt.com/images/products/TR-MED/colors/779-Brown.jpg",
-          "isMain": false
-        },
-        {
-          "color": "Сріблястий",
-          "image": "http://catalog.raznobyt.com/images/products/TR-MED/colors/781-Silver.jpg",
-          "isMain": false
-        },
-        {
-          "color": "Сланець",
-          "image": "http://catalog.raznobyt.com/images/products/TR-MED/colors/782-Slate.jpg",
-          "isMain": false
-        },
-        {
-          "color": "Сірий",
-          "image": "http://catalog.raznobyt.com/images/products/TR-MED/colors/784-Grey.jpg",
-          "isMain": false
-        },
-        {
-          "color": "Сталевий",
-          "image": "http://catalog.raznobyt.com/images/products/TR-MED/colors/785-Steel.jpg",
-          "isMain": false
-        },
-        {
-          "color": "Антрацит",
-          "image": "http://catalog.raznobyt.com/images/products/TR-MED/colors/786-Charcal.jpg",
-          "isMain": false
-        },
-        {
-          "color": "Чорний",
-          "image": "http://catalog.raznobyt.com/images/products/TR-MED/colors/794-Black.jpg",
-          "isMain": false
-        }
-      ],
+      "colors": [],
       "properties": [],
       "composition": {
         "cotton": 35,
@@ -636,43 +505,7 @@
       "fabricType": "twill",
       "density": "210",
       "width": "150",
-      "colors": [
-        {
-          "color": "[\n  {\n    \"color\": \"Білий\"",
-          "image": "http://catalog.raznobyt.com/images/products/[\n  {\n    \"color\": \"Білий\"",
-          "isMain": true
-        },
-        {
-          "color": "\"color_ru\": \"Белый\"",
-          "image": "http://catalog.raznobyt.com/images/products/\"color_ru\": \"Белый\"",
-          "isMain": false
-        },
-        {
-          "color": "colors",
-          "image": "http://catalog.raznobyt.com/images/products/\"image\": \"VVT-2163/colors/701-White.jpg\"\n  }",
-          "isMain": false
-        },
-        {
-          "color": "{\n    \"color\": \"Чорний\"",
-          "image": "http://catalog.raznobyt.com/images/products/{\n    \"color\": \"Чорний\"",
-          "isMain": false
-        },
-        {
-          "color": "\"color_ru\": \"Чорный\"",
-          "image": "http://catalog.raznobyt.com/images/products/\"color_ru\": \"Чорный\"",
-          "isMain": false
-        },
-        {
-          "color": "colors",
-          "image": "http://catalog.raznobyt.com/images/products/\"image\": \"VVT-2163/colors/710-Yellow.jpg\"\n  }",
-          "isMain": false
-        },
-        {
-          "color": "]",
-          "image": "http://catalog.raznobyt.com/images/products/]",
-          "isMain": false
-        }
-      ],
+      "colors": [],
       "properties": [],
       "composition": {
         "cotton": 40,
@@ -768,59 +601,9 @@
       "width": "150",
       "colors": [
         {
-          "color": "Блакитний",
-          "image": "http://catalog.raznobyt.com/images/products/TR-50 LIGHT/colors/112 Sky.jpg",
+          "color": "IMG_20260521_0008",
+          "image": "http://catalog.raznobyt.com/images/products/TR-50 LIGHT/IMG_20260521_0008.jpg",
           "isMain": true
-        },
-        {
-          "color": "Новий сланець",
-          "image": "http://catalog.raznobyt.com/images/products/TR-50 LIGHT/colors/138 New Slate.jpg",
-          "isMain": false
-        },
-        {
-          "color": "Лавандовий",
-          "image": "http://catalog.raznobyt.com/images/products/TR-50 LIGHT/colors/142 Lavender.jpg",
-          "isMain": false
-        },
-        {
-          "color": "Темно-синій",
-          "image": "http://catalog.raznobyt.com/images/products/TR-50 LIGHT/colors/335 NAVY.jpg",
-          "isMain": false
-        },
-        {
-          "color": "Чорний",
-          "image": "http://catalog.raznobyt.com/images/products/TR-50 LIGHT/colors/506 Black.jpg",
-          "isMain": false
-        },
-        {
-          "color": "144194",
-          "image": "http://catalog.raznobyt.com/images/products/TR-50 LIGHT/colors/144194.jpg",
-          "isMain": false
-        },
-        {
-          "color": "A-451",
-          "image": "http://catalog.raznobyt.com/images/products/TR-50 LIGHT/colors/A-451.jpg",
-          "isMain": false
-        },
-        {
-          "color": "AG-143",
-          "image": "http://catalog.raznobyt.com/images/products/TR-50 LIGHT/colors/AG-143.jpg",
-          "isMain": false
-        },
-        {
-          "color": "AG-184",
-          "image": "http://catalog.raznobyt.com/images/products/TR-50 LIGHT/colors/AG-184.jpg",
-          "isMain": false
-        },
-        {
-          "color": "Новий 140 вода Нілу",
-          "image": "http://catalog.raznobyt.com/images/products/TR-50 LIGHT/colors/New 140 Eau De Nil.jpg",
-          "isMain": false
-        },
-        {
-          "color": "Φ-138",
-          "image": "http://catalog.raznobyt.com/images/products/TR-50 LIGHT/colors/Φ-138.jpg",
-          "isMain": false
         }
       ],
       "properties": [],
@@ -984,103 +767,108 @@
       "width": "150",
       "colors": [
         {
-          "color": "Сірий",
-          "image": "http://catalog.raznobyt.com/images/products/colors/784 Grey.jpg",
+          "color": "61233",
+          "image": "http://catalog.raznobyt.com/images/products/VLP-4206/61233.jpg",
           "isMain": true
         },
         {
-          "color": "Темно-синій",
-          "image": "http://catalog.raznobyt.com/images/products/colors/60563.jpg",
+          "color": "784 Grey",
+          "image": "http://catalog.raznobyt.com/images/products/VLP-4206/colors/784 Grey.jpg",
           "isMain": false
         },
         {
-          "color": "Бордовий",
-          "image": "http://catalog.raznobyt.com/images/products/colors/62709.jpg",
+          "color": "60563",
+          "image": "http://catalog.raznobyt.com/images/products/VLP-4206/colors/60563.jpg",
           "isMain": false
         },
         {
-          "color": "Салатовий",
-          "image": "http://catalog.raznobyt.com/images/products/colors/95449.jpg",
+          "color": "62709",
+          "image": "http://catalog.raznobyt.com/images/products/VLP-4206/colors/62709.jpg",
           "isMain": false
         },
         {
-          "color": "Темно-сірий",
-          "image": "http://catalog.raznobyt.com/images/products/colors/97019T.jpg",
+          "color": "95449",
+          "image": "http://catalog.raznobyt.com/images/products/VLP-4206/colors/95449.jpg",
           "isMain": false
         },
         {
-          "color": "Блакитний",
-          "image": "http://catalog.raznobyt.com/images/products/colors/98060.jpg",
+          "color": "97019T",
+          "image": "http://catalog.raznobyt.com/images/products/VLP-4206/colors/97019T.jpg",
           "isMain": false
         },
         {
-          "color": "Оливковий",
-          "image": "http://catalog.raznobyt.com/images/products/colors/99017.jpg",
+          "color": "98060",
+          "image": "http://catalog.raznobyt.com/images/products/VLP-4206/colors/98060.jpg",
           "isMain": false
         },
         {
-          "color": "Какао",
-          "image": "http://catalog.raznobyt.com/images/products/colors/Cacao.jpg",
+          "color": "99017",
+          "image": "http://catalog.raznobyt.com/images/products/VLP-4206/colors/99017.jpg",
           "isMain": false
         },
         {
-          "color": "Цукерковий",
-          "image": "http://catalog.raznobyt.com/images/products/colors/Candy.jpg",
+          "color": "Cacao",
+          "image": "http://catalog.raznobyt.com/images/products/VLP-4206/colors/Cacao.jpg",
           "isMain": false
         },
         {
-          "color": "Волошковий",
-          "image": "http://catalog.raznobyt.com/images/products/colors/Cornflower Blue.jpg",
+          "color": "Candy",
+          "image": "http://catalog.raznobyt.com/images/products/VLP-4206/colors/Candy.jpg",
           "isMain": false
         },
         {
-          "color": "Трав'яний",
-          "image": "http://catalog.raznobyt.com/images/products/colors/Grass.jpg",
+          "color": "Cornflower Blue",
+          "image": "http://catalog.raznobyt.com/images/products/VLP-4206/colors/Cornflower Blue.jpg",
           "isMain": false
         },
         {
-          "color": "Білий",
-          "image": "http://catalog.raznobyt.com/images/products/colors/Ice White.jpg",
+          "color": "Grass",
+          "image": "http://catalog.raznobyt.com/images/products/VLP-4206/colors/Grass.jpg",
           "isMain": false
         },
         {
-          "color": "Ірис",
-          "image": "http://catalog.raznobyt.com/images/products/colors/IRIS.jpg",
+          "color": "Ice White",
+          "image": "http://catalog.raznobyt.com/images/products/VLP-4206/colors/Ice White.jpg",
           "isMain": false
         },
         {
-          "color": "Мальвовий",
-          "image": "http://catalog.raznobyt.com/images/products/colors/Mauve.jpg",
+          "color": "IRIS",
+          "image": "http://catalog.raznobyt.com/images/products/VLP-4206/colors/IRIS.jpg",
           "isMain": false
         },
         {
-          "color": "Дубовий лист",
-          "image": "http://catalog.raznobyt.com/images/products/colors/Oak Leaf.jpg",
+          "color": "Mauve",
+          "image": "http://catalog.raznobyt.com/images/products/VLP-4206/colors/Mauve.jpg",
           "isMain": false
         },
         {
-          "color": "Океанський",
-          "image": "http://catalog.raznobyt.com/images/products/colors/Ocean.jpg",
+          "color": "Oak Leaf",
+          "image": "http://catalog.raznobyt.com/images/products/VLP-4206/colors/Oak Leaf.jpg",
           "isMain": false
         },
         {
-          "color": "Фіолетовий попіл",
-          "image": "http://catalog.raznobyt.com/images/products/colors/Purple Ash.jpg",
+          "color": "Ocean",
+          "image": "http://catalog.raznobyt.com/images/products/VLP-4206/colors/Ocean.jpg",
           "isMain": false
         },
         {
-          "color": "Чайна троянда",
-          "image": "http://catalog.raznobyt.com/images/products/colors/Tea Rose.jpg",
+          "color": "Purple Ash",
+          "image": "http://catalog.raznobyt.com/images/products/VLP-4206/colors/Purple Ash.jpg",
           "isMain": false
         },
         {
-          "color": "Тіловий",
-          "image": "http://catalog.raznobyt.com/images/products/colors/Teal.jpg",
+          "color": "Tea Rose",
+          "image": "http://catalog.raznobyt.com/images/products/VLP-4206/colors/Tea Rose.jpg",
           "isMain": false
         },
         {
-          "color": "Ванільний",
-          "image": "http://catalog.raznobyt.com/images/products/colors/Vanillian.jpg",
+          "color": "Teal",
+          "image": "http://catalog.raznobyt.com/images/products/VLP-4206/colors/Teal.jpg",
+          "isMain": false
+        },
+        {
+          "color": "Vanillian",
+          "image": "http://catalog.raznobyt.com/images/products/VLP-4206/colors/Vanillian.jpg",
           "isMain": false
         }
       ],

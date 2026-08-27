@@ -17,18 +17,7 @@
       "fabricType": "нетканий",
       "density": "36",
       "width": "90",
-      "colors": [
-        {
-          "color": "білий",
-          "image": "http://catalog.raznobyt.com/images/products/білий",
-          "isMain": true
-        },
-        {
-          "color": "сірий",
-          "image": "http://catalog.raznobyt.com/images/products/сірий",
-          "isMain": false
-        }
-      ],
+      "colors": [],
       "properties": [],
       "composition": {
         "cotton": 0,
@@ -74,18 +63,7 @@
       "fabricType": "нетканий",
       "density": "37",
       "width": "90",
-      "colors": [
-        {
-          "color": "білий",
-          "image": "http://catalog.raznobyt.com/images/products/білий",
-          "isMain": true
-        },
-        {
-          "color": "сірий",
-          "image": "http://catalog.raznobyt.com/images/products/сірий",
-          "isMain": false
-        }
-      ],
+      "colors": [],
       "properties": [],
       "composition": {
         "cotton": 0,
@@ -131,18 +109,7 @@
       "fabricType": "нетканий",
       "density": "63",
       "width": "90",
-      "colors": [
-        {
-          "color": "білий",
-          "image": "http://catalog.raznobyt.com/images/products/білий",
-          "isMain": true
-        },
-        {
-          "color": "сірий",
-          "image": "http://catalog.raznobyt.com/images/products/сірий",
-          "isMain": false
-        }
-      ],
+      "colors": [],
       "properties": [],
       "composition": {
         "cotton": 0,
@@ -188,13 +155,7 @@
       "fabricType": "нетканий",
       "density": "42",
       "width": "90",
-      "colors": [
-        {
-          "color": "білий",
-          "image": "http://catalog.raznobyt.com/images/products/білий",
-          "isMain": true
-        }
-      ],
+      "colors": [],
       "properties": [],
       "composition": {
         "cotton": 0,
@@ -240,18 +201,7 @@
       "fabricType": "нетканий",
       "density": "43",
       "width": "90",
-      "colors": [
-        {
-          "color": "білий",
-          "image": "http://catalog.raznobyt.com/images/products/білий",
-          "isMain": true
-        },
-        {
-          "color": "сірий",
-          "image": "http://catalog.raznobyt.com/images/products/сірий",
-          "isMain": false
-        }
-      ],
+      "colors": [],
       "properties": [],
       "composition": {
         "cotton": 0,
@@ -297,18 +247,7 @@
       "fabricType": "нетканий",
       "density": "35",
       "width": "90",
-      "colors": [
-        {
-          "color": "білий",
-          "image": "http://catalog.raznobyt.com/images/products/білий",
-          "isMain": true
-        },
-        {
-          "color": "сірий",
-          "image": "http://catalog.raznobyt.com/images/products/сірий",
-          "isMain": false
-        }
-      ],
+      "colors": [],
       "properties": [],
       "composition": {
         "cotton": 0,
@@ -354,18 +293,7 @@
       "fabricType": "нетканий",
       "density": "30",
       "width": "90",
-      "colors": [
-        {
-          "color": "білий",
-          "image": "http://catalog.raznobyt.com/images/products/білий",
-          "isMain": true
-        },
-        {
-          "color": "сірий",
-          "image": "http://catalog.raznobyt.com/images/products/сірий",
-          "isMain": false
-        }
-      ],
+      "colors": [],
       "properties": [],
       "composition": {
         "cotton": 0,
@@ -411,13 +339,7 @@
       "fabricType": "нетканий",
       "density": "130",
       "width": "90",
-      "colors": [
-        {
-          "color": "білий",
-          "image": "http://catalog.raznobyt.com/images/products/білий",
-          "isMain": true
-        }
-      ],
+      "colors": [],
       "properties": [],
       "composition": {
         "cotton": 0,
@@ -463,13 +385,7 @@
       "fabricType": "нетканий",
       "density": "80",
       "width": "90",
-      "colors": [
-        {
-          "color": "білий",
-          "image": "http://catalog.raznobyt.com/images/products/білий",
-          "isMain": true
-        }
-      ],
+      "colors": [],
       "properties": [],
       "composition": {
         "cotton": 0,
@@ -515,18 +431,7 @@
       "fabricType": "тканий",
       "density": "103",
       "width": "90",
-      "colors": [
-        {
-          "color": "білий",
-          "image": "http://catalog.raznobyt.com/images/products/білий",
-          "isMain": true
-        },
-        {
-          "color": "сірий",
-          "image": "http://catalog.raznobyt.com/images/products/сірий",
-          "isMain": false
-        }
-      ],
+      "colors": [],
       "properties": [],
       "composition": {
         "cotton": 100,
@@ -572,13 +477,7 @@
       "fabricType": "тканий",
       "density": "119",
       "width": "90",
-      "colors": [
-        {
-          "color": "білий",
-          "image": "http://catalog.raznobyt.com/images/products/білий",
-          "isMain": true
-        }
-      ],
+      "colors": [],
       "properties": [],
       "composition": {
         "cotton": 100,
@@ -624,13 +523,7 @@
       "fabricType": "тканий",
       "density": "124",
       "width": "90",
-      "colors": [
-        {
-          "color": "білий",
-          "image": "http://catalog.raznobyt.com/images/products/білий",
-          "isMain": true
-        }
-      ],
+      "colors": [],
       "properties": [],
       "composition": {
         "cotton": 100,
@@ -676,13 +569,7 @@
       "fabricType": "тканий",
       "density": "147",
       "width": "90",
-      "colors": [
-        {
-          "color": "білий",
-          "image": "http://catalog.raznobyt.com/images/products/білий",
-          "isMain": true
-        }
-      ],
+      "colors": [],
       "properties": [],
       "composition": {
         "cotton": 100,
@@ -728,13 +615,7 @@
       "fabricType": "тканий",
       "density": "152",
       "width": "90",
-      "colors": [
-        {
-          "color": "білий",
-          "image": "http://catalog.raznobyt.com/images/products/білий",
-          "isMain": true
-        }
-      ],
+      "colors": [],
       "properties": [],
       "composition": {
         "cotton": 100,
@@ -780,13 +661,7 @@
       "fabricType": "тканий",
       "density": "165",
       "width": "90",
-      "colors": [
-        {
-          "color": "білий",
-          "image": "http://catalog.raznobyt.com/images/products/білий",
-          "isMain": true
-        }
-      ],
+      "colors": [],
       "properties": [],
       "composition": {
         "cotton": 100,
@@ -832,13 +707,7 @@
       "fabricType": "тканий",
       "density": "173",
       "width": "90",
-      "colors": [
-        {
-          "color": "білий",
-          "image": "http://catalog.raznobyt.com/images/products/білий",
-          "isMain": true
-        }
-      ],
+      "colors": [],
       "properties": [],
       "composition": {
         "cotton": 100,
@@ -884,13 +753,7 @@
       "fabricType": "тканий",
       "density": "200",
       "width": "90",
-      "colors": [
-        {
-          "color": "білий",
-          "image": "http://catalog.raznobyt.com/images/products/білий",
-          "isMain": true
-        }
-      ],
+      "colors": [],
       "properties": [],
       "composition": {
         "cotton": 100,
@@ -936,13 +799,7 @@
       "fabricType": "тканий",
       "density": "250",
       "width": "90",
-      "colors": [
-        {
-          "color": "білий",
-          "image": "http://catalog.raznobyt.com/images/products/білий",
-          "isMain": true
-        }
-      ],
+      "colors": [],
       "properties": [],
       "composition": {
         "cotton": 100,
@@ -988,18 +845,7 @@
       "fabricType": "тканий",
       "density": "36",
       "width": "150",
-      "colors": [
-        {
-          "color": "білий",
-          "image": "http://catalog.raznobyt.com/images/products/білий",
-          "isMain": true
-        },
-        {
-          "color": "чорний",
-          "image": "http://catalog.raznobyt.com/images/products/чорний",
-          "isMain": false
-        }
-      ],
+      "colors": [],
       "properties": [],
       "composition": {
         "cotton": 0,
@@ -1045,18 +891,7 @@
       "fabricType": "тканий",
       "density": "45",
       "width": "150",
-      "colors": [
-        {
-          "color": "білий",
-          "image": "http://catalog.raznobyt.com/images/products/білий",
-          "isMain": true
-        },
-        {
-          "color": "чорний",
-          "image": "http://catalog.raznobyt.com/images/products/чорний",
-          "isMain": false
-        }
-      ],
+      "colors": [],
       "properties": [],
       "composition": {
         "cotton": 0,
@@ -1102,18 +937,7 @@
       "fabricType": "тканий",
       "density": "45",
       "width": "150",
-      "colors": [
-        {
-          "color": "білий",
-          "image": "http://catalog.raznobyt.com/images/products/білий",
-          "isMain": true
-        },
-        {
-          "color": "чорний",
-          "image": "http://catalog.raznobyt.com/images/products/чорний",
-          "isMain": false
-        }
-      ],
+      "colors": [],
       "properties": [],
       "composition": {
         "cotton": 0,
@@ -1159,13 +983,7 @@
       "fabricType": "тканий",
       "density": "65",
       "width": "150",
-      "colors": [
-        {
-          "color": "білий",
-          "image": "http://catalog.raznobyt.com/images/products/білий",
-          "isMain": true
-        }
-      ],
+      "colors": [],
       "properties": [],
       "composition": {
         "cotton": 0,
@@ -1211,18 +1029,7 @@
       "fabricType": "",
       "density": "65",
       "width": "150",
-      "colors": [
-        {
-          "color": "білий",
-          "image": "http://catalog.raznobyt.com/images/products/білий",
-          "isMain": true
-        },
-        {
-          "color": "чорний",
-          "image": "http://catalog.raznobyt.com/images/products/чорний",
-          "isMain": false
-        }
-      ],
+      "colors": [],
       "properties": [],
       "composition": {
         "cotton": 0,
@@ -1268,13 +1075,7 @@
       "fabricType": "",
       "density": "80",
       "width": "150",
-      "colors": [
-        {
-          "color": "білий",
-          "image": "http://catalog.raznobyt.com/images/products/білий",
-          "isMain": true
-        }
-      ],
+      "colors": [],
       "properties": [],
       "composition": {
         "cotton": 0,

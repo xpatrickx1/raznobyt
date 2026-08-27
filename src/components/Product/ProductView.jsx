@@ -103,12 +103,8 @@ export default function ProductView({ product, related = [] }) {
                     <div className="product-grid">
                         {/* Images */}
                         <div className="product-images fade-up fade-up-1">
-                            <img
-                                src={imageUrls[activeImg]}
-                                alt={product.title[lang]}
-                                className="product-main-img"
-                                loading="lazy"
-                            />
+                            <p>{imageUrls[activeImg]}</p>
+
                             {imageUrls.length > 0 ? (
                                 <img
                                     src={imageUrls[activeImg]}
