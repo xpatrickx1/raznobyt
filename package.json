@@ -4,7 +4,7 @@
   "version": "1.0.0",
   "type": "module",
   "scripts": {
-    "sync": "node scripts/sync.js",
+    "sync": "node scripts/sync.js && node scripts/optimize-images.js",
     "dev": "vite",
     "build": "npm run sync && node scripts/optimize-images.js && vite build && node scripts/generate.js && node scripts/optimize-images.js --cleanup",
     "preview": "vite preview"

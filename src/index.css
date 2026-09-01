@@ -1799,6 +1799,8 @@ button {
 
 .product-thumbs {
   display: flex;
+  align-items: center;
+  min-height: 80px;
   gap: 10px;
   transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1);
 }
