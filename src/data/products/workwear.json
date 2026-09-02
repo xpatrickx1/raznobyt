@@ -135,7 +135,7 @@
     },
     "isNew": false,
     "images": [
-      "http://catalog.raznobyt.com/images/products/RC 182 RS/KHAKI.jpg",
+      "http://catalog.raznobyt.com/images/products/RC 182 RS/main/KHAKI.jpg",
       "http://catalog.raznobyt.com/images/products/RC 182 RS/99014.jpg"
     ],
     "description": {
@@ -149,7 +149,7 @@
       "colors": [
         {
           "color": "KHAKI",
-          "image": "http://catalog.raznobyt.com/images/products/RC 182 RS/KHAKI.jpg",
+          "image": "http://catalog.raznobyt.com/images/products/RC 182 RS/main/KHAKI.jpg",
           "isMain": true
         },
         {

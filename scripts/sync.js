@@ -44,46 +44,37 @@ const fetchSheet = async (sheetName) => {
 
 const slugs = new Set();
 
-const cleanTitle = (text = "") =>
-  text
-    .toLowerCase()
-    .replace(/тканина|ткань/g, "")
-    .trim();
-
-const slugify = (text = "", category = "") =>
-  text
-    .toLowerCase()
+const slugify = (text = '') =>
+  String(text)
     .trim()
-    .replace(/\s+/g, "-")
-    .replace(/[^\w-]+/g, "") + `-${category}`;
+    .toLowerCase()
+    .replace(/\s+/g, '-')
+    .replace(/[^a-z0-9-]/g, '')
+    .replace(/-+/g, '-')
+    .replace(/^-|-$/g, '');
 
-// Парсинг кольорів з гібридною підтримкою:
-//  • Старий формат (JSON у клітинці): [{color, color_ru, image}]
-//    image зберігається як відносний шлях, отримуємо повний URL
-//  • Новий формат (рядок з комами): "path1, path2, ..."
-//    Колір = підпапка або ім'я файлу без розширення
 const parseColors = (colorsStr) => {
   if (!colorsStr || colorsStr.trim() === "") return [];
 
   // 1. Спробуємо JSON (старий формат)
-  try {
-    const parsed = JSON.parse(colorsStr);
-    if (Array.isArray(parsed) && parsed.length > 0 && parsed[0].image) {
-      return parsed.map((c, idx) => {
-        const imgPath = c.image.trim();
-        const imageUrl = imgPath.startsWith("http")
-          ? imgPath
-          : `http://catalog.raznobyt.com/images/products/${imgPath}`;
-        return {
-          color: c.color || imgPath.replace(/\.[^.]+$/, ""),
-          image: imageUrl,
-          isMain: idx === 0,
-        };
-      });
-    }
-  } catch (_) {
-    // не JSON — йдемо далі
-  }
+  // try {
+  //   const parsed = JSON.parse(colorsStr);
+  //   if (Array.isArray(parsed) && parsed.length > 0 && parsed[0].image) {
+  //     return parsed.map((c, idx) => {
+  //       const imgPath = c.image.trim();
+  //       const imageUrl = imgPath.startsWith("http")
+  //         ? imgPath
+  //         : `http://catalog.raznobyt.com/images/products/${imgPath}`;
+  //       return {
+  //         color: c.color || imgPath.replace(/\.[^.]+$/, ""),
+  //         image: imageUrl,
+  //         isMain: idx === 0,
+  //       };
+  //     });
+  //   }
+  // } catch (_) {
+  //   // не JSON — йдемо далі
+  // }
 
   // 2. Новий формат: рядок з комами (шляхи до файлів)
   return colorsStr.split(",").map((s, idx) => {
@@ -107,97 +98,103 @@ const parseColors = (colorsStr) => {
 async function main() {
   console.log("🚀 Fetching data from Google Sheets...");
 
-  const res = [];
-  for (const category of CATEGORYES) {
+  const makeUniqueSlug = (base, category) => {
+    let slug = base ? (category ? `${base}-${category}` : base) : `product-${category}`;
+
+    if (!slugs.has(slug)) {
+      slugs.add(slug);
+      return slug;
+    }
+
+    let i = 2;
+    while (slugs.has(`${slug}-${i}`)) i += 1;
+
+    slug = `${slug}-${i}`;
+    slugs.add(slug);
+    return slug;
+  };
+
+  const products = [];
+  let totalRows = 0;
+
+  for (const sheetName of CATEGORYES) {
     let data;
     let attempts = 3;
     while (attempts > 0) {
       try {
-        data = await fetchSheet(category);
+        data = await fetchSheet(sheetName);
         break;
       } catch (err) {
         attempts--;
-        console.warn(`  ⚠️ Failed fetching "${category}". Error: ${err.message}. Retrying... (attempts left: ${attempts})`);
+        console.warn(`  ⚠️ Failed fetching "${sheetName}". Error: ${err.message}. Retrying... (attempts left: ${attempts})`);
         if (attempts === 0) throw err;
         await new Promise(resolve => setTimeout(resolve, 1500));
       }
     }
-    res.push(data);
     // 300ms delay to avoid rate limits
     await new Promise(resolve => setTimeout(resolve, 300));
-  }
-  const flatData = res.flat();
 
-  console.log(`📦 Rows: ${flatData.length}`);
+    totalRows += data.length;
 
-  const products = flatData.map((row) => {
-    let slug = `tkan-${row.category}-${cleanTitle(row.title_ua).replace(/\s+/g, '-').replace(/[^\w-]+/g, '')}`;
+    for (const row of data) {
+      const baseSlug = `tkan-${sheetName}-${slugify(row.title)}`;
+      const slug = makeUniqueSlug(baseSlug, '');
+      console.log(slug);
 
-    // if (slugs.has(slug)) {
-    //   slug = `${slug}`;
-    // }
-
-    // let counter = 1;
-    // let originalSlug = slug;
-    // while (slugs.has(slug)) {
-    //   slug = `${originalSlug}-${counter}`;
-    //   counter++;
-    // }
-    slugs.add(slug);
-
-    console.log(slug);
-
-    return {
-      id: slug,
-      category: row.category,
-      slug,
-      title: {
-        ua: row.title_ua,
-        ru: row.title_ru,
-      },
-      isNew: row.isNew === "true",
-      images: parseColors(row.images).map(c => c.image),
-      description: {
-        ua: row.desc_ua,
-        ru: row.desc_ru,
-      },
-      attributes: {
-        fabricType: row.fabricType,
-        density: row.density,
-        width: row.width || null,
-        colors: parseColors(row.images), // [{ color, image, isMain }]
-        properties: row.properties ? row.properties.split(",").map(s => s.trim()).filter(Boolean) : [],
-        composition: {
-          cotton: Number(row.cotton) || 0,
-          polyester: Number(row.polyester) || 0,
-          spandex: Number(row.spandex) || 0,
-          rayon: Number(row.rayon) || 0,
-          viscose: Number(row.viscose) || 0,
-          pbt: Number(row.pbt) || 0,
-          lyon: Number(row.lyon) || 0,
-          polyamide: Number(row["polyamide PA"]) || 0,
-          polypropylene: Number(row["polypropylene PP"]) || 0,
-          paraAramid: Number(row["para aramid"]) || 0,
-          antistatic: Number(row.antistatic) || 0,
-          'Modacrylic/Lyocell/Static-Control™': Number(row["Modacrylic/Lyocell/Static-Control™"]) || 0,
-          'Nomex®/Kevlar®/Anti-Static': Number(row["Nomex®/Kevlar®/Anti-Static"]) || 0,
-          'Nomex®/Para-Aramid/p140': Number(row["Nomex®/Para-Aramid/p140"]) || 0,
-          'PBI®/Kevlar®/Antistatic': Number(row["PBI®/Kevlar®/Antistatic"]) || 0,
-          'Lenzing FR®/Aramid': Number(row["Lenzing FR®/Aramid"]) || 0,
-          'Para-aramid/Solid polymer coating': Number(row["Para-aramid/Solid polymer coating"]) || 0,
-          'FR Rayon/пара-арамід/поліамід/антистатик': Number(row["FR Rayon/пара-арамід/поліамід/антистатик"]) || 0,
-          'viscose': Number(row.viscose) || 0,
-          'polyamide PA': Number(row["polyamide PA"]) || 0,
-          'polypropylene PP': Number(row["polypropylene PP"]) || 0,
-          'para aramid': Number(row["para aramid"]) || 0,
-          'MAC': Number(row["MAC"]) || 0,
-          'spandex': Number(row.spandex) || 0,
-          'pbt': Number(row.pbt) || 0,
-          'rayon': Number(row.rayon) || 0
+      products.push({
+        id: slug,
+        category: sheetName,
+        slug,
+        title: {
+          ua: "Тканина " + row.title,
+          ru: "Ткань " + row.title,
         },
-      },
-    };
-  });
+        isNew: row.isNew === "true",
+        images: parseColors(row.images).map(c => c.image),
+        description: {
+          ua: row.desc_ua,
+          ru: row.desc_ru,
+        },
+        attributes: {
+          fabricType: row.fabricType,
+          density: row.density,
+          width: row.width || null,
+          colors: parseColors(row.images), // [{ color, image, isMain }]
+          properties: row.properties ? row.properties.split(",").map(s => s.trim()).filter(Boolean) : [],
+          composition: {
+            cotton: Number(row.cotton) || 0,
+            polyester: Number(row.polyester) || 0,
+            spandex: Number(row.spandex) || 0,
+            rayon: Number(row.rayon) || 0,
+            viscose: Number(row.viscose) || 0,
+            pbt: Number(row.pbt) || 0,
+            lyon: Number(row.lyon) || 0,
+            polyamide: Number(row["polyamide PA"]) || 0,
+            polypropylene: Number(row["polypropylene PP"]) || 0,
+            paraAramid: Number(row["para aramid"]) || 0,
+            antistatic: Number(row.antistatic) || 0,
+            'Modacrylic/Lyocell/Static-Control™': Number(row["Modacrylic/Lyocell/Static-Control™"]) || 0,
+            'Nomex®/Kevlar®/Anti-Static': Number(row["Nomex®/Kevlar®/Anti-Static"]) || 0,
+            'Nomex®/Para-Aramid/p140': Number(row["Nomex®/Para-Aramid/p140"]) || 0,
+            'PBI®/Kevlar®/Antistatic': Number(row["PBI®/Kevlar®/Antistatic"]) || 0,
+            'Lenzing FR®/Aramid': Number(row["Lenzing FR®/Aramid"]) || 0,
+            'Para-aramid/Solid polymer coating': Number(row["Para-aramid/Solid polymer coating"]) || 0,
+            'FR Rayon/пара-арамід/поліамід/антистатик': Number(row["FR Rayon/пара-арамід/поліамід/антистатик"]) || 0,
+            'viscose': Number(row.viscose) || 0,
+            'polyamide PA': Number(row["polyamide PA"]) || 0,
+            'polypropylene PP': Number(row["polypropylene PP"]) || 0,
+            'para aramid': Number(row["para aramid"]) || 0,
+            'MAC': Number(row["MAC"]) || 0,
+            'spandex': Number(row.spandex) || 0,
+            'pbt': Number(row.pbt) || 0,
+            'rayon': Number(row.rayon) || 0
+          },
+        },
+      });
+    }
+  }
+
+  console.log(`📦 Rows: ${totalRows}`);
 
   await fs.writeFile(
     "public/products.json",

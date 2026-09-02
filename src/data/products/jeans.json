@@ -1,11 +1,11 @@
 [
   {
-    "id": "tkan-jeans-washed-denim-stretch",
+    "id": "tkan-jeans-",
     "category": "jeans",
-    "slug": "tkan-jeans-washed-denim-stretch",
+    "slug": "tkan-jeans-",
     "title": {
-      "ua": "Тканина WASHED DENIM STRETCH",
-      "ru": "ткань WASHED DENIM STRETCH"
+      "ua": "Тканина undefined",
+      "ru": "Ткань undefined"
     },
     "isNew": false,
     "images": [],
@@ -46,12 +46,12 @@
     }
   },
   {
-    "id": "tkan-jeans-washed-jeans",
+    "id": "tkan-jeans--2",
     "category": "jeans",
-    "slug": "tkan-jeans-washed-jeans",
+    "slug": "tkan-jeans--2",
     "title": {
-      "ua": "Тканина WASHED JEANS",
-      "ru": "ткань WASHED JEANS"
+      "ua": "Тканина undefined",
+      "ru": "Ткань undefined"
     },
     "isNew": false,
     "images": [],
@@ -92,12 +92,12 @@
     }
   },
   {
-    "id": "tkan-jeans-3928",
+    "id": "tkan-jeans--3",
     "category": "jeans",
-    "slug": "tkan-jeans-3928",
+    "slug": "tkan-jeans--3",
     "title": {
-      "ua": "Тканина 3928",
-      "ru": "ткань 3928"
+      "ua": "Тканина undefined",
+      "ru": "Ткань undefined"
     },
     "isNew": false,
     "images": [],
@@ -138,12 +138,12 @@
     }
   },
   {
-    "id": "tkan-jeans-138",
+    "id": "tkan-jeans--4",
     "category": "jeans",
-    "slug": "tkan-jeans-138",
+    "slug": "tkan-jeans--4",
     "title": {
-      "ua": "Тканина Т138",
-      "ru": "ткань Т138"
+      "ua": "Тканина undefined",
+      "ru": "Ткань undefined"
     },
     "isNew": false,
     "images": [],
@@ -184,12 +184,12 @@
     }
   },
   {
-    "id": "tkan-jeans-144",
+    "id": "tkan-jeans--5",
     "category": "jeans",
-    "slug": "tkan-jeans-144",
+    "slug": "tkan-jeans--5",
     "title": {
-      "ua": "Тканина Т144",
-      "ru": "ткань Т144"
+      "ua": "Тканина undefined",
+      "ru": "Ткань undefined"
     },
     "isNew": false,
     "images": [],
