@@ -20,6 +20,13 @@ const PURPOSE_OPTIONS = [
     { id: 'other', ua: 'Інше', ru: 'Другое' },
 ];
 
+const VOLUME_OPTIONS = [
+    { id: 'small', ua: 'До 100 м', ru: 'До 100 м' },
+    { id: 'medium', ua: '100–500 м', ru: '100–500 м' },
+    { id: 'large', ua: '500–1000 м', ru: '500–1000 м' },
+    { id: 'very_large', ua: '1000+ м', ru: '1000+ м' },
+];
+
 const DEADLINE_OPTIONS = [
     { id: 'asap', ua: 'Якнайшвидше', ru: 'Как можно скорее' },
     { id: 'week', ua: 'Протягом тижня', ru: 'В течение недели' },
@@ -146,13 +153,20 @@ export default function QuizModal({ isOpen, onClose }) {
                             <li>
                                 👍 {t('Голландські тканини Ten Cate / Tootal', 'Голландские ткани Ten Cate / Tootal')}
                             </li>
-                            <li>
+                            {/* <li>
                                 🎁 {t(
                                     'Персональна пропозиція після кількох питань',
                                     'Персональное предложение после нескольких вопросов'
                                 )}
-                            </li>
+                            </li> */}
                         </ul>
+
+                        <p className="quiz-prize">
+                            🎁 {t(
+                                '10% знижки після відповіді на декілька питань',
+                                '10% скидки после ответа на несколько вопросов'
+                            )}
+                        </p>
 
                         <button type="button" className="quiz-btn quiz-btn--primary" onClick={goNext}>
                             {t('Дізнатися пропозицію', 'Узнать предложение')}
@@ -183,7 +197,10 @@ export default function QuizModal({ isOpen, onClose }) {
                                         name="purpose"
                                         value={opt.id}
                                         checked={form.purpose === opt.id}
-                                        onChange={() => setField('purpose', opt.id)}
+                                        onChange={() => {
+                                            setField('purpose', opt.id);
+                                            setTimeout(() => setStep(STEPS.VOLUME), 200);
+                                        }}
                                     />
                                     <span>{lang === 'ua' ? opt.ua : opt.ru}</span>
                                 </label>
@@ -219,16 +236,26 @@ export default function QuizModal({ isOpen, onClose }) {
                         <p className="quiz-hint">
                             {t('Напр. 200 м.п. або 500 виробів', 'Напр. 200 п.м. или 500 изделий')}
                         </p>
-
-                        <input
-                            type="text"
-                            className="quiz-input"
-                            placeholder={t('200 м.п.', '200 п.м.')}
-                            value={form.volume}
-                            onChange={(e) => setField('volume', e.target.value)}
-                            autoFocus
-                        />
-
+                        <div className="quiz-options">
+                            {VOLUME_OPTIONS.map((opt) => (
+                                <label
+                                    key={opt.id}
+                                    className={`quiz-option ${form.volume === opt.id ? 'quiz-option--active' : ''}`}
+                                >
+                                    <input
+                                        type="radio"
+                                        name="volume"
+                                        value={opt.id}
+                                        checked={form.volume === opt.id}
+                                        onChange={() => {
+                                            setField('volume', opt.id);
+                                            setTimeout(() => setStep(STEPS.DEADLINE), 200);
+                                        }}
+                                    />
+                                    <span>{lang === 'ua' ? opt.ua : opt.ru}</span>
+                                </label>
+                            ))}
+                        </div>
                         <div className="quiz-nav">
                             <button type="button" className="quiz-btn quiz-btn--ghost" onClick={goBack}>
                                 ← {t('Назад', 'Назад')}
@@ -237,7 +264,7 @@ export default function QuizModal({ isOpen, onClose }) {
                                 type="button"
                                 className="quiz-btn quiz-btn--primary"
                                 onClick={goNext}
-                                disabled={!form.volume.trim()}
+                                disabled={!form.volume}
                             >
                                 {t('Далі', 'Далее')} →
                             </button>
@@ -267,7 +294,10 @@ export default function QuizModal({ isOpen, onClose }) {
                                         name="deadline"
                                         value={opt.id}
                                         checked={form.deadline === opt.id}
-                                        onChange={() => setField('deadline', opt.id)}
+                                        onChange={() => {
+                                            setField('deadline', opt.id);
+                                            setTimeout(() => setStep(STEPS.CONTACTS), 200);
+                                        }}
                                     />
                                     <span>{lang === 'ua' ? opt.ua : opt.ru}</span>
                                 </label>

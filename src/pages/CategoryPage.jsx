@@ -68,8 +68,21 @@ function CategoryPage({ slug: externalSlug = null }) {
   const setSelectedCompositions = (arr) => update({ compositions: arr, page: undefined });
   const setPage = (val) => update({ page: typeof val === 'function' ? val(page) : val });
 
+  const clearAllFilters = () => {
+    update({
+      q: undefined,
+      types: [],
+      colors: [],
+      densities: [],
+      widths: [],
+      compositions: [],
+      page: undefined
+    });
+  };
+
   return (
     <CategoryView
+      clearAllFilters={clearAllFilters}
       cat={cat}
       products={products}
       search={search}

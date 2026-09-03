@@ -26,6 +26,7 @@ export default function CategoryView({
     selectedWidths, setSelectedWidths,
     selectedCompositions, setSelectedCompositions,
     page, setPage,
+    clearAllFilters,
     // scroll trigger: changes whenever URL search params change
     locationSearch,
 }) {
@@ -93,12 +94,16 @@ export default function CategoryView({
     };
 
     const clearAll = () => {
-        setSelectedTypes([]);
-        setSelectedColors([]);
-        setSelectedDensities([]);
-        setSelectedWidths([]);
-        setSelectedCompositions([]);
-        setPage(1);
+        if (clearAllFilters) {
+            clearAllFilters();
+        } else {
+            setSelectedTypes([]);
+            setSelectedColors([]);
+            setSelectedDensities([]);
+            setSelectedWidths([]);
+            setSelectedCompositions([]);
+            setPage(1);
+        }
     };
 
     const hasFilters =

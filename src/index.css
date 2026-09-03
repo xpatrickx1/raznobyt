@@ -188,13 +188,13 @@ button {
   background: none;
   border: 1px solid #000;
   /* фірмовий акцент, підлаштуй під свій */
-  color: #d16116;
+  color: #000000;
   font-size: 14px;
   font-weight: 600;
   border-radius: 6px;
   text-decoration: none;
   white-space: nowrap;
-  transition: background 0.2s, transform 0.15s;
+  transition: all 0.2s, transform 0.15s;
 }
 
 .navbar__cta:hover {
@@ -537,6 +537,7 @@ button {
   flex-shrink: 0;
   gap: 4px;
   transition: gap 0.3s ease;
+  min-width: 240px;
 }
 
 .navbar--scrolled .navbar__logo {
