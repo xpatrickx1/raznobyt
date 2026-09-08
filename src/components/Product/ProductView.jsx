@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react';
+import { useState, useEffect, useRef, useCallback } from 'react';
 import { Link } from 'react-router-dom';
 import { useLang } from '../../i18n/LangContext';
 import SEO from '../SEO/index';
@@ -12,14 +12,17 @@ import phoneIcon from '@/assets/images/icons/phone.svg';
 export default function ProductView({ product, related = [] }) {
     const { lang, t } = useLang();
     const [activeImg, setActiveImg] = useState(0);
-    const [thumbOffset, setThumbOffset] = useState(0);
     const [phone, setPhone] = useState('');
     const [sent, setSent] = useState(false);
     const [imageUrls, setImageUrls] = useState([]);
+    const [canScrollLeft, setCanScrollLeft] = useState(false);
+    const [canScrollRight, setCanScrollRight] = useState(false);
+
+    const viewportRef = useRef(null);
+    const thumbEls = useRef([]);
 
     useEffect(() => {
         const loadImages = async () => {
-            // images[] вже містять повні URL із sync.js
             const urls = (product.images?.length > 0 ? product.images : [])
                 .map(img => getProductImage(img));
             setImageUrls(await Promise.all(urls));
@@ -28,6 +31,19 @@ export default function ProductView({ product, related = [] }) {
         loadImages();
     }, [product]);
 
+    const checkScroll = useCallback(() => {
+        const v = viewportRef.current;
+        if (!v) return;
+        setCanScrollLeft(v.scrollLeft > 1);
+        setCanScrollRight(v.scrollLeft < v.scrollWidth - v.clientWidth - 1);
+    }, []);
+
+    useEffect(() => {
+        // Перевіряємо стрілки після завантаження зображень
+        const timer = setTimeout(checkScroll, 50);
+        return () => clearTimeout(timer);
+    }, [imageUrls, checkScroll]);
+
     const cat = categories.find(c => c.id === product.category);
 
     const handleSend = (e) => {
@@ -35,15 +51,47 @@ export default function ProductView({ product, related = [] }) {
         if (phone.trim()) { setSent(true); setPhone(''); }
     };
 
-    const THUMB_SIZE = 82;
-    const VISIBLE_THUMBS = 5;
-    const maxOffset = Math.max(0, imageUrls.length - VISIBLE_THUMBS);
+    const THUMB_STEP = 82;
 
-    const prevThumbs = () => setThumbOffset(o => Math.max(0, o - 1));
-    const nextThumbs = () => setThumbOffset(o => Math.min(maxOffset, o + 1));
+    const scrollThumbIntoView = useCallback((idx) => {
+        const v = viewportRef.current;
+        const el = thumbEls.current[idx];
+        if (!v || !el) return;
+        const thumbLeft = el.offsetLeft;
+        const thumbRight = thumbLeft + el.offsetWidth;
+        const vLeft = v.scrollLeft;
+        const vRight = vLeft + v.clientWidth;
+        if (thumbLeft < vLeft) {
+            v.scrollTo({ left: thumbLeft, behavior: 'smooth' });
+        } else if (thumbRight > vRight) {
+            v.scrollTo({ left: thumbRight - v.clientWidth, behavior: 'smooth' });
+        }
+        setTimeout(checkScroll, 320);
+    }, [checkScroll]);
+
+    const prevThumbs = () => {
+        viewportRef.current?.scrollBy({ left: -THUMB_STEP, behavior: 'smooth' });
+        setTimeout(checkScroll, 320);
+    };
+    const nextThumbs = () => {
+        viewportRef.current?.scrollBy({ left: THUMB_STEP, behavior: 'smooth' });
+        setTimeout(checkScroll, 320);
+    };
+
+    const handleColorClick = (colorImage) => {
+        const idx = (product.images || []).indexOf(colorImage);
+        if (idx === -1) return;
+        setActiveImg(idx);
+        scrollThumbIntoView(idx);
+    };
 
     const colors = product.attributes.colors || [];
     const colorName = (c) => typeof c === 'string' ? c : (c.color ?? '');
+
+    const activeImagePath = (product.images || [])[activeImg] || '';
+    const article = activeImagePath
+        ? activeImagePath.split('/').pop().replace(/\.[^.]+$/, '')
+        : '';
 
     const attrs = [
         { label: t('product.composition'), value: formatComposition(product.attributes.composition, lang) },
@@ -54,12 +102,14 @@ export default function ProductView({ product, related = [] }) {
                 <span className="color-thumbs-row">
                     {colors.map((c, idx) => (
                         c.image ? (
-                            <span key={idx} className="color-thumb-wrap" data-tooltip={colorName(c)}>
+                            <span key={idx} className={`color-thumb-wrap${c.image === activeImagePath ? ' active' : ''}`} data-tooltip={colorName(c)}>
                                 <img
                                     src={getProductImage(c.image)}
                                     alt={colorName(c)}
                                     className="color-thumb-img"
                                     loading="lazy"
+                                    style={{ cursor: 'pointer' }}
+                                    onClick={() => handleColorClick(c.image)}
                                 />
                             </span>
                         ) : (
@@ -118,34 +168,38 @@ export default function ProductView({ product, related = [] }) {
                             )}
                             {imageUrls.length > 1 && (
                                 <div className="product-thumbs-slider">
-                                    {thumbOffset > 0 && (
-                                        <button className="thumbs-arrow thumbs-arrow--prev" onClick={prevThumbs} aria-label="Попередні">
-                                            ‹
-                                        </button>
-                                    )}
-                                    <div className="product-thumbs-viewport">
-                                        <div
-                                            className="product-thumbs"
-                                            style={{ transform: `translateX(-${thumbOffset * THUMB_SIZE}px)` }}
-                                        >
+                                    <button
+                                        className="thumbs-arrow thumbs-arrow--prev"
+                                        onClick={prevThumbs}
+                                        aria-label="Попередні"
+                                        style={{ visibility: canScrollLeft ? 'visible' : 'hidden' }}
+                                    >
+                                        ‹
+                                    </button>
+                                    <div className="product-thumbs-viewport" ref={viewportRef} onScroll={checkScroll}>
+                                        <div className="product-thumbs">
                                             {imageUrls.map((img, i) => (
                                                 <img
                                                     key={i}
+                                                    ref={el => { thumbEls.current[i] = el; }}
                                                     src={img}
                                                     alt=""
                                                     className={`product-thumb ${activeImg === i ? 'active' : ''}`}
-                                                    onClick={() => setActiveImg(i)}
+                                                    onClick={() => { setActiveImg(i); scrollThumbIntoView(i); }}
                                                     loading="lazy"
                                                     onError={(e) => { e.target.src = placeholder; }}
                                                 />
                                             ))}
                                         </div>
                                     </div>
-                                    {thumbOffset < maxOffset && (
-                                        <button className="thumbs-arrow thumbs-arrow--next" onClick={nextThumbs} aria-label="Наступні">
-                                            ›
-                                        </button>
-                                    )}
+                                    <button
+                                        className="thumbs-arrow thumbs-arrow--next"
+                                        onClick={nextThumbs}
+                                        aria-label="Наступні"
+                                        style={{ visibility: canScrollRight ? 'visible' : 'hidden' }}
+                                    >
+                                        ›
+                                    </button>
                                 </div>
                             )}
                         </div>
@@ -155,7 +209,14 @@ export default function ProductView({ product, related = [] }) {
                             <div className="hero__content fade-up fade-up-2">
                                 <h1 className="">{product.title[lang]}</h1>
                             </div>
+                            {article && (
+                                <p style={{ fontSize: 13, color: 'var(--c-text-muted)', marginBottom: 14 }}>
+                                    {lang === 'ua' ? 'Артикул' : 'Артикул'}:{' '}
+                                    <strong style={{ color: 'var(--c-text)', letterSpacing: '0.04em' }}>{article}</strong>
+                                </p>
+                            )}
                             <p className="product-desc">{product.description[lang]}</p>
+
 
                             <h3 style={{ fontSize: 13, fontWeight: 700, letterSpacing: '0.12em', textTransform: 'uppercase', color: 'var(--c-text-muted)', marginBottom: 12 }}>
                                 {t('product.characteristics')}
