@@ -26,7 +26,7 @@ export default function Contacts() {
 
   return (
     <>
-      <SEO title={t('contacts.title')} description="Контакти Різнобит Textile Group. Телефони, адреса, форма зв'язку." />
+      <SEO title={t('contacts.title')} description="Контакти Різнобит. Телефони, адреса, форма зв'язку." />
 
       <HeroSection
         title={t('contacts.title')}

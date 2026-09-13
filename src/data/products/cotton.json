@@ -146,7 +146,9 @@
       "ru": "Ткань L 859"
     },
     "isNew": false,
-    "images": [],
+    "images": [
+      "http://catalog.raznobyt.com/images/products/L 859/main/773.jpg"
+    ],
     "description": {
       "ua": "100% бавоана,  232 г/м.кв,  полотно,  150см",
       "ru": "100% хлопок,  232г/м.кв,  полотно,  150см"
@@ -155,7 +157,13 @@
       "fabricType": "полотно",
       "density": "232",
       "width": "150",
-      "colors": [],
+      "colors": [
+        {
+          "color": "773",
+          "image": "http://catalog.raznobyt.com/images/products/L 859/main/773.jpg",
+          "isMain": true
+        }
+      ],
       "properties": [],
       "composition": {
         "cotton": 100,
@@ -192,7 +200,9 @@
       "ru": "Ткань L 389"
     },
     "isNew": false,
-    "images": [],
+    "images": [
+      "http://catalog.raznobyt.com/images/products/L 389/main/L 675.jpg"
+    ],
     "description": {
       "ua": "100% бавовна,  260г/м.кв,  складне,  150см",
       "ru": "100% хлопок, 260г/м.кв,  сложное,  150см"
@@ -201,7 +211,13 @@
       "fabricType": "складне",
       "density": "260",
       "width": "150",
-      "colors": [],
+      "colors": [
+        {
+          "color": "L 675",
+          "image": "http://catalog.raznobyt.com/images/products/L 389/main/L 675.jpg",
+          "isMain": true
+        }
+      ],
       "properties": [],
       "composition": {
         "cotton": 100,

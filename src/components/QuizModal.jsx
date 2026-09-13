@@ -151,7 +151,7 @@ export default function QuizModal({ isOpen, onClose }) {
                                 💰 {t('Гуртові ціни без посередників', 'Оптовые цены без посредников')}
                             </li>
                             <li>
-                                👍 {t('Голландські тканини Ten Cate / Tootal', 'Голландские ткани Ten Cate / Tootal')}
+                                👍 {t('Голландські тканини Ten Cate / Toray', 'Голландские ткани Ten Cate / Toray')}
                             </li>
                             {/* <li>
                                 🎁 {t(

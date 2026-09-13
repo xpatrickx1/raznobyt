@@ -1,7 +1,7 @@
 import { Helmet } from 'react-helmet-async';
 
 export default function SEO({ title, description, keywords }) {
-    const siteName = 'Різнобит Textile Group';
+    const siteName = 'Різнобит';
     const fullTitle = title ? `${title} | ${siteName}` : siteName;
 
     return (

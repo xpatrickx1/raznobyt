@@ -15,7 +15,7 @@ export default function AboutUs() {
     return (
         <>
             <SEO
-                title={t('about.title') + " - Різнобит Textile Group"}
+                title={t('about.title') + " - Різнобит"}
                 description={t('about.subtitle')}
             />
 

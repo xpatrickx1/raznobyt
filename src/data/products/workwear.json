@@ -18,7 +18,7 @@
     "attributes": {
       "fabricType": "twill",
       "density": "240",
-      "width": "150",
+      "width": "144",
       "colors": [
         {
           "color": "ORANGE",
@@ -1172,7 +1172,12 @@
       "ru": "Ткань RC-234"
     },
     "isNew": false,
-    "images": [],
+    "images": [
+      "http://catalog.raznobyt.com/images/products/RC-234/main/98244.jpg",
+      "http://catalog.raznobyt.com/images/products/RC-234/96293.jpg",
+      "http://catalog.raznobyt.com/images/products/RC-234/98314.jpg",
+      "http://catalog.raznobyt.com/images/products/RC-234/99014.jpg"
+    ],
     "description": {
       "ua": "Змішана тканина саржевого переплетення. Склад: 35% бавовна, 65% поліестр. Щільність 234 г/м². Підвищена міцність.",
       "ru": "Смесовая ткань саржевого переплетения. Состав: 35% хлопок, 65% полиэстер. Плотность 234 г/м². Повышенная прочность."
@@ -1181,7 +1186,28 @@
       "fabricType": "twill",
       "density": "234",
       "width": "150",
-      "colors": [],
+      "colors": [
+        {
+          "color": "98244",
+          "image": "http://catalog.raznobyt.com/images/products/RC-234/main/98244.jpg",
+          "isMain": true
+        },
+        {
+          "color": "96293",
+          "image": "http://catalog.raznobyt.com/images/products/RC-234/96293.jpg",
+          "isMain": false
+        },
+        {
+          "color": "98314",
+          "image": "http://catalog.raznobyt.com/images/products/RC-234/98314.jpg",
+          "isMain": false
+        },
+        {
+          "color": "99014",
+          "image": "http://catalog.raznobyt.com/images/products/RC-234/99014.jpg",
+          "isMain": false
+        }
+      ],
       "properties": [],
       "composition": {
         "cotton": 35,
@@ -1500,7 +1526,11 @@
       "ru": "Ткань 9511"
     },
     "isNew": false,
-    "images": [],
+    "images": [
+      "http://catalog.raznobyt.com/images/products/9511/main/95364.jpg",
+      "http://catalog.raznobyt.com/images/products/9511/93255.jpg",
+      "http://catalog.raznobyt.com/images/products/9511/96447.jpg"
+    ],
     "description": {
       "ua": "Змішана тканина саржевого переплетення. Склад: 35% бавовна, 65% поліестр. Щільність 245 г/м². Для важких умов роботи.",
       "ru": "Смесовая ткань саржевого переплетения. Состав: 35% хлопок, 65% полиэстер. Плотность 245 г/м². Для тяжелых условий работы."
@@ -1509,7 +1539,23 @@
       "fabricType": "twill",
       "density": "245",
       "width": "150",
-      "colors": [],
+      "colors": [
+        {
+          "color": "95364",
+          "image": "http://catalog.raznobyt.com/images/products/9511/main/95364.jpg",
+          "isMain": true
+        },
+        {
+          "color": "93255",
+          "image": "http://catalog.raznobyt.com/images/products/9511/93255.jpg",
+          "isMain": false
+        },
+        {
+          "color": "96447",
+          "image": "http://catalog.raznobyt.com/images/products/9511/96447.jpg",
+          "isMain": false
+        }
+      ],
       "properties": [],
       "composition": {
         "cotton": 35,
@@ -1600,7 +1646,9 @@
       "ru": "Ткань 2183"
     },
     "isNew": false,
-    "images": [],
+    "images": [
+      "http://catalog.raznobyt.com/images/products/2183/TRUE BLUE.jpg"
+    ],
     "description": {
       "ua": "Міцна змішана тканина саржевого переплетення. Склад: 35% бавовна, 65% поліестр. Щільність 325 г/м². Для спецодягу в складних умовах.",
       "ru": "Прочная смесовая ткань саржевого переплетения. Состав: 35% хлопок, 65% полиэстер. Плотность 325 г/м². Для спецодежды в сложных условиях."
@@ -1609,7 +1657,13 @@
       "fabricType": "twill",
       "density": "325",
       "width": "150",
-      "colors": [],
+      "colors": [
+        {
+          "color": "TRUE BLUE",
+          "image": "http://catalog.raznobyt.com/images/products/2183/TRUE BLUE.jpg",
+          "isMain": true
+        }
+      ],
       "properties": [],
       "composition": {
         "cotton": 35,
@@ -1646,7 +1700,9 @@
       "ru": "Ткань KG-316"
     },
     "isNew": false,
-    "images": [],
+    "images": [
+      "http://catalog.raznobyt.com/images/products/KG-316/main/60624.jpg"
+    ],
     "description": {
       "ua": "Міцна змішана тканина саржевого переплетення 3/1. Склад: 35% бавовна, 65% поліестр. Щільність 325 г/м². Підвищена зносостійкість.",
       "ru": "Прочная смесовая ткань саржевого переплетения 3/1. Состав: 35% хлопок, 65% полиэстер. Плотность 325 г/м². Повышенная износостойкость."
@@ -1655,7 +1711,13 @@
       "fabricType": "twill",
       "density": "325",
       "width": "150",
-      "colors": [],
+      "colors": [
+        {
+          "color": "60624",
+          "image": "http://catalog.raznobyt.com/images/products/KG-316/main/60624.jpg",
+          "isMain": true
+        }
+      ],
       "properties": [],
       "composition": {
         "cotton": 35,
@@ -2486,7 +2548,9 @@
       "ru": "Ткань 3585"
     },
     "isNew": false,
-    "images": [],
+    "images": [
+      "http://catalog.raznobyt.com/images/products/3585/BLUE GRAPFITE.jpg"
+    ],
     "description": {
       "ua": "Водозахисна тканина з антистатиком. Склад: 50% бавовна, 49% поліестр, 1% антистатик. Щільність 275 г/м². Водовідштовхувальна мембрана МВО. Rip-Stop.",
       "ru": "Водозащитная ткань с антистатиком. Состав: 50% хлопок, 49% полиэстер, 1% антистатик. Плотность 275 г/м². Водоотталкивающая мембрана МВО. Rip-Stop."
@@ -2495,7 +2559,13 @@
       "fabricType": "ripstop",
       "density": "275",
       "width": "150",
-      "colors": [],
+      "colors": [
+        {
+          "color": "BLUE GRAPFITE",
+          "image": "http://catalog.raznobyt.com/images/products/3585/BLUE GRAPFITE.jpg",
+          "isMain": true
+        }
+      ],
       "properties": [],
       "composition": {
         "cotton": 50,
@@ -2808,8 +2878,8 @@
     "isNew": false,
     "images": [],
     "description": {
-      "ua": "Змішана тканина саржевого переплетення. Склад: 60% бавовна, 40% поліестр. Щільність 210 г/м².",
-      "ru": "Смесовая ткань саржевого переплетения. Состав: 60% хлопок, 40% полиэстер. Плотность 210 г/м²."
+      "ua": "Змішана тканина саржевого переплетення. Склад: 60% бавовна, 40% поліестр. Антистатична нитка. МВВ - масловодовідштовхувальна. Щільність 210 г/м².",
+      "ru": "Смесовая ткань саржевого переплетения. Состав: 60% хлопок, 40% полиэстер. Антистатическая нитка. МВО - масловодоотталкивающая.  Плотность 210 г/м²."
     },
     "attributes": {
       "fabricType": "twill",
@@ -2874,6 +2944,160 @@
       "composition": {
         "cotton": 60,
         "polyester": 40,
+        "spandex": 0,
+        "rayon": 0,
+        "viscose": 0,
+        "pbt": 0,
+        "lyon": 0,
+        "polyamide": 0,
+        "polypropylene": 0,
+        "paraAramid": 0,
+        "antistatic": 0,
+        "Modacrylic/Lyocell/Static-Control™": 0,
+        "Nomex®/Kevlar®/Anti-Static": 0,
+        "Nomex®/Para-Aramid/p140": 0,
+        "PBI®/Kevlar®/Antistatic": 0,
+        "Lenzing FR®/Aramid": 0,
+        "Para-aramid/Solid polymer coating": 0,
+        "FR Rayon/пара-арамід/поліамід/антистатик": 0,
+        "polyamide PA": 0,
+        "polypropylene PP": 0,
+        "para aramid": 0,
+        "MAC": 0
+      }
+    }
+  },
+  {
+    "id": "tkan-workwear-nnt-1152",
+    "category": "workwear",
+    "slug": "tkan-workwear-nnt-1152",
+    "title": {
+      "ua": "Тканина NNT-1152",
+      "ru": "Ткань NNT-1152"
+    },
+    "isNew": false,
+    "images": [],
+    "description": {
+      "ua": "Змішана тканина саржевого переплетення. Склад: 80% бавовна, 20% поліестр. Антистатична нитка. МВВ - масловодовідштовхувальна. Щільність 255 г/м².",
+      "ru": "Смесовая ткань саржевого переплетения. Состав: 80% хлопок, 20% полиэстер. Антистатическая нитка. МВО - масловодоотталкивающая.  Плотность 255 г/м²."
+    },
+    "attributes": {
+      "fabricType": "",
+      "density": "255 гр/м.кв.",
+      "width": "150 см",
+      "colors": [],
+      "properties": [],
+      "composition": {
+        "cotton": 80,
+        "polyester": 20,
+        "spandex": 0,
+        "rayon": 0,
+        "viscose": 0,
+        "pbt": 0,
+        "lyon": 0,
+        "polyamide": 0,
+        "polypropylene": 0,
+        "paraAramid": 0,
+        "antistatic": 0,
+        "Modacrylic/Lyocell/Static-Control™": 0,
+        "Nomex®/Kevlar®/Anti-Static": 0,
+        "Nomex®/Para-Aramid/p140": 0,
+        "PBI®/Kevlar®/Antistatic": 0,
+        "Lenzing FR®/Aramid": 0,
+        "Para-aramid/Solid polymer coating": 0,
+        "FR Rayon/пара-арамід/поліамід/антистатик": 0,
+        "polyamide PA": 0,
+        "polypropylene PP": 0,
+        "para aramid": 0,
+        "MAC": 0
+      }
+    }
+  },
+  {
+    "id": "tkan-workwear-6584",
+    "category": "workwear",
+    "slug": "tkan-workwear-6584",
+    "title": {
+      "ua": "Тканина 6584",
+      "ru": "Ткань 6584"
+    },
+    "isNew": false,
+    "images": [
+      "http://catalog.raznobyt.com/images/products/6584/main/NAVY.jpg"
+    ],
+    "description": {
+      "ua": "100% бавовна ВО  водовідштовхуюча  390г/м.кв",
+      "ru": "100% хлопок ВО  водоотталкивающая  390г/м.кв"
+    },
+    "attributes": {
+      "fabricType": "саржа",
+      "density": "390",
+      "width": "150",
+      "colors": [
+        {
+          "color": "NAVY",
+          "image": "http://catalog.raznobyt.com/images/products/6584/main/NAVY.jpg",
+          "isMain": true
+        }
+      ],
+      "properties": [],
+      "composition": {
+        "cotton": 100,
+        "polyester": 0,
+        "spandex": 0,
+        "rayon": 0,
+        "viscose": 0,
+        "pbt": 0,
+        "lyon": 0,
+        "polyamide": 0,
+        "polypropylene": 0,
+        "paraAramid": 0,
+        "antistatic": 0,
+        "Modacrylic/Lyocell/Static-Control™": 0,
+        "Nomex®/Kevlar®/Anti-Static": 0,
+        "Nomex®/Para-Aramid/p140": 0,
+        "PBI®/Kevlar®/Antistatic": 0,
+        "Lenzing FR®/Aramid": 0,
+        "Para-aramid/Solid polymer coating": 0,
+        "FR Rayon/пара-арамід/поліамід/антистатик": 0,
+        "polyamide PA": 0,
+        "polypropylene PP": 0,
+        "para aramid": 0,
+        "MAC": 0
+      }
+    }
+  },
+  {
+    "id": "tkan-workwear-6585",
+    "category": "workwear",
+    "slug": "tkan-workwear-6585",
+    "title": {
+      "ua": "Тканина 6585",
+      "ru": "Ткань 6585"
+    },
+    "isNew": false,
+    "images": [
+      "http://catalog.raznobyt.com/images/products/6585/main/BLACK.jpg"
+    ],
+    "description": {
+      "ua": "100% бавовна ВО  водовідштовхуюча  390г/м.кв",
+      "ru": "100% хлопок ВО  водоотталкивающая  390г/м.кв"
+    },
+    "attributes": {
+      "fabricType": "саржа",
+      "density": "390",
+      "width": "150",
+      "colors": [
+        {
+          "color": "BLACK",
+          "image": "http://catalog.raznobyt.com/images/products/6585/main/BLACK.jpg",
+          "isMain": true
+        }
+      ],
+      "properties": [],
+      "composition": {
+        "cotton": 100,
+        "polyester": 0,
         "spandex": 0,
         "rayon": 0,
         "viscose": 0,

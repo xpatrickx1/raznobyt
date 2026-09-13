@@ -54,7 +54,7 @@ function Home() {
         </div>
         <div className="categories-grid">
           {categories.slice(0, 5).map(cat => (
-            <Link to={`/category/${cat.id}`} key={cat.id} className="category-card">
+            <Link to={`/catalog/${cat.id}`} key={cat.id} className="category-card">
               <Image
                 src={getCategoryImage(cat.image)}
                 alt={cat.title[lang]}

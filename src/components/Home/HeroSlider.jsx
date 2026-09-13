@@ -42,7 +42,7 @@ export default function HeroSlider({ onPriceClick }) {
                                         {lang === 'ua' ? 'Переглянути тканини' : 'Посмотреть ткани'}
                                     </Link>
                                     <button onClick={onPriceClick} className="btn btn-outline">
-                                        {lang === 'ua' ? 'Отримати прайс' : 'Получить прайс'}
+                                        {lang === 'ua' ? 'Отримати зразки' : 'Получить образцы'}
                                     </button>
                                 </div>
                             </div>

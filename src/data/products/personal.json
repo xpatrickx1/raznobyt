@@ -2140,7 +2140,9 @@
       "ru": "Ткань VVT-2164"
     },
     "isNew": false,
-    "images": [],
+    "images": [
+      "http://catalog.raznobyt.com/images/products/VVT-2164/main/BLACK.jpg"
+    ],
     "description": {
       "ua": "Змішана тканина саржевого переплетення. Склад: 60% бавовна, 40% поліестр. Щільність 210 г/м². Для корпоративного одягу.",
       "ru": "Смесовая ткань саржевого переплетения. Состав: 60% хлопок, 40% полиэстер. Плотность 210 г/м². Для корпоративной одежды."
@@ -2149,7 +2151,13 @@
       "fabricType": "twill",
       "density": "210",
       "width": "150",
-      "colors": [],
+      "colors": [
+        {
+          "color": "BLACK",
+          "image": "http://catalog.raznobyt.com/images/products/VVT-2164/main/BLACK.jpg",
+          "isMain": true
+        }
+      ],
       "properties": [],
       "composition": {
         "cotton": 60,
@@ -2876,7 +2884,9 @@
       "ru": "Ткань 9652"
     },
     "isNew": false,
-    "images": [],
+    "images": [
+      "http://catalog.raznobyt.com/images/products/9652/31538.jpg"
+    ],
     "description": {
       "ua": "Змішана тканина саржевого переплетення. Склад: 35% бавовна, 65% поліестр. Щільність 218 г/м². Універсальне рішення для HoReCa.",
       "ru": "Смесовая ткань саржевого переплетения. Состав: 35% хлопок, 65% полиэстер. Плотность 218 г/м². Универсальное решение для HoReCa."
@@ -2885,7 +2895,13 @@
       "fabricType": "twill",
       "density": "218",
       "width": "150",
-      "colors": [],
+      "colors": [
+        {
+          "color": "31538",
+          "image": "http://catalog.raznobyt.com/images/products/9652/31538.jpg",
+          "isMain": true
+        }
+      ],
       "properties": [],
       "composition": {
         "cotton": 35,
@@ -2922,7 +2938,9 @@
       "ru": "Ткань 9641"
     },
     "isNew": false,
-    "images": [],
+    "images": [
+      "http://catalog.raznobyt.com/images/products/9641/main/19920.jpg"
+    ],
     "description": {
       "ua": "Змішана тканина саржевого переплетення. Склад: 35% бавовна, 65% поліестр. Щільність 218 г/м². Для корпоративного одягу.",
       "ru": "Смесовая ткань саржевого переплетения. Состав: 35% хлопок, 65% полиэстер. Плотность 218 г/м². Для корпоративной одежды."
@@ -2931,7 +2949,13 @@
       "fabricType": "twill",
       "density": "218",
       "width": "150",
-      "colors": [],
+      "colors": [
+        {
+          "color": "19920",
+          "image": "http://catalog.raznobyt.com/images/products/9641/main/19920.jpg",
+          "isMain": true
+        }
+      ],
       "properties": [],
       "composition": {
         "cotton": 35,
@@ -2968,7 +2992,9 @@
       "ru": "Ткань 9651"
     },
     "isNew": false,
-    "images": [],
+    "images": [
+      "http://catalog.raznobyt.com/images/products/9651/main/31537.jpg"
+    ],
     "description": {
       "ua": "Змішана тканина саржевого переплетення. Склад: 35% бавовна, 65% поліестр. Щільність 218 г/м². Оптимальне співвідношення ціни та якості.",
       "ru": "Смесовая ткань саржевого переплетения. Состав: 35% хлопок, 65% полиэстер. Плотность 218 г/м². Оптимальное соотношение цены и качества."
@@ -2977,7 +3003,13 @@
       "fabricType": "twill",
       "density": "218",
       "width": "150",
-      "colors": [],
+      "colors": [
+        {
+          "color": "31537",
+          "image": "http://catalog.raznobyt.com/images/products/9651/main/31537.jpg",
+          "isMain": true
+        }
+      ],
       "properties": [],
       "composition": {
         "cotton": 35,
@@ -3014,7 +3046,9 @@
       "ru": "Ткань 9653"
     },
     "isNew": false,
-    "images": [],
+    "images": [
+      "http://catalog.raznobyt.com/images/products/9653/31539.jpg"
+    ],
     "description": {
       "ua": "Змішана тканина саржевого переплетення. Склад: 35% бавовна, 65% поліестр. Щільність 218 г/м². Універсальне рішення для корпоративного одягу.",
       "ru": "Смесовая ткань саржевого переплетения. Состав: 35% хлопок, 65% полиэстер. Плотность 218 г/м². Универсальное решение для корпоративной одежды."
@@ -3023,7 +3057,13 @@
       "fabricType": "twill",
       "density": "218",
       "width": "150",
-      "colors": [],
+      "colors": [
+        {
+          "color": "31539",
+          "image": "http://catalog.raznobyt.com/images/products/9653/31539.jpg",
+          "isMain": true
+        }
+      ],
       "properties": [],
       "composition": {
         "cotton": 35,
@@ -3060,7 +3100,9 @@
       "ru": "Ткань T045"
     },
     "isNew": false,
-    "images": [],
+    "images": [
+      "http://catalog.raznobyt.com/images/products/T045/30669.jpg"
+    ],
     "description": {
       "ua": "Змішана тканина полотняного переплетення. Склад: 35% бавовна, 65% поліестр. Щільність 174 г/м². Легкий дихаючий матеріал для літньої уніформи.",
       "ru": "Смесовая ткань полотняного переплетения. Состав: 35% хлопок, 65% полиэстер. Плотность 174 г/м². Легкий дышащий материал для летней униформы."
@@ -3069,7 +3111,13 @@
       "fabricType": "plain",
       "density": "174",
       "width": "150",
-      "colors": [],
+      "colors": [
+        {
+          "color": "30669",
+          "image": "http://catalog.raznobyt.com/images/products/T045/30669.jpg",
+          "isMain": true
+        }
+      ],
       "properties": [],
       "composition": {
         "cotton": 35,

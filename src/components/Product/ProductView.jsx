@@ -88,8 +88,12 @@ export default function ProductView({ product, related = [] }) {
     const colors = product.attributes.colors || [];
     const colorName = (c) => typeof c === 'string' ? c : (c.color ?? '');
 
+    const fabricArticle = product.title[lang]
+        ? product.title[lang].replace(/^(Тканина|Ткань)\s+/i, '')
+        : '';
+
     const activeImagePath = (product.images || [])[activeImg] || '';
-    const article = activeImagePath
+    const colorCode = activeImagePath
         ? activeImagePath.split('/').pop().replace(/\.[^.]+$/, '')
         : '';
 
@@ -167,12 +171,14 @@ export default function ProductView({ product, related = [] }) {
                                 </div>
                             )}
                             {imageUrls.length > 1 && (
-                                <div className="product-thumbs-slider">
+                                <div className="product-thumbs-slider"
+                                    style={{ gap: canScrollLeft ? '' : '0px' }}
+                                >
                                     <button
                                         className="thumbs-arrow thumbs-arrow--prev"
                                         onClick={prevThumbs}
                                         aria-label="Попередні"
-                                        style={{ visibility: canScrollLeft ? 'visible' : 'hidden' }}
+                                        style={{ visibility: canScrollLeft ? 'visible' : 'hidden', width: canScrollLeft ? '' : '0px' }}
                                     >
                                         ‹
                                     </button>
@@ -209,10 +215,16 @@ export default function ProductView({ product, related = [] }) {
                             <div className="hero__content fade-up fade-up-2">
                                 <h1 className="">{product.title[lang]}</h1>
                             </div>
-                            {article && (
-                                <p style={{ fontSize: 13, color: 'var(--c-text-muted)', marginBottom: 14 }}>
+                            {fabricArticle && (
+                                <p style={{ fontSize: 13, color: 'var(--c-text-muted)', marginBottom: 4 }}>
                                     {lang === 'ua' ? 'Артикул' : 'Артикул'}:{' '}
-                                    <strong style={{ color: 'var(--c-text)', letterSpacing: '0.04em' }}>{article}</strong>
+                                    <strong style={{ color: 'var(--c-text)', letterSpacing: '0.04em' }}>{fabricArticle}</strong>
+                                </p>
+                            )}
+                            {colorCode && (
+                                <p style={{ fontSize: 13, color: 'var(--c-text-muted)', marginBottom: 14 }}>
+                                    {lang === 'ua' ? 'Колір' : 'Цвет'}:{' '}
+                                    <strong style={{ color: 'var(--c-text)', letterSpacing: '0.04em' }}>{colorCode}</strong>
                                 </p>
                             )}
                             <p className="product-desc">{product.description[lang]}</p>
@@ -231,6 +243,12 @@ export default function ProductView({ product, related = [] }) {
                                     ))}
                                 </tbody>
                             </table>
+
+                            <p style={{ fontSize: 12, color: 'var(--c-text-muted)', lineHeight: 1.6, margin: '16px 0' }}>
+                                {lang === 'ua'
+                                    ? 'Будь ласка, зверніть увагу: відтінок тканини на екрані може відрізнятися від реального кольору через індивідуальні налаштування вашого монітора чи смартфона. Колір на фото є ознайомлювальним.'
+                                    : 'Пожалуйста, обратите внимание: оттенок ткани на экране может отличаться от реального цвета из-за индивидуальных настроек вашего монитора или смартфона. Цвет на фото является ознакомительным.'}
+                            </p>
 
                             {/* Inquiry */}
                             <div className="inquiry-box">

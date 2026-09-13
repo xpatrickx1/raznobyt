@@ -58,7 +58,7 @@ export default function Footer() {
         </div>
 
         <div className="footer__bottom">
-          <span>© {year} Різнобит Textile Group. {t('footer.rights')}.</span>
+          <span>© {year} Різнобит. {t('footer.rights')}.</span>
           <span>🇺🇦</span>
         </div>
       </div>

@@ -10,7 +10,7 @@ export default function Delivery() {
   return (
     <>
       <SEO
-        title={`${t('delivery.title')} — Різнобит Textile Group`}
+        title={`${t('delivery.title')} — Різнобит`}
         description={t('delivery.subtitle')}
       />
 

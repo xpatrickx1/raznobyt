@@ -124,7 +124,7 @@ export default function Navbar() {
                 className="navbar__cta"
                 onClick={() => setQuizOpen(true)}
               >
-                {lang === 'ua' ? 'Отримати прайс' : 'Получить прайс'}
+                {lang === 'ua' ? 'Отримати зразки' : 'Получить образцы'}
               </button>
 
               <QuizModal isOpen={quizOpen} onClose={() => setQuizOpen(false)} />
@@ -235,7 +235,7 @@ export default function Navbar() {
             setQuizOpen(true);
           }}
         >
-          {lang === 'ua' ? 'Отримати прайс' : 'Получить прайс'}
+          {lang === 'ua' ? 'Отримати зразки' : 'Получить образцы'}
         </button>
 
         <a href="tel:+380445070680" className="mobile-menu__phone">

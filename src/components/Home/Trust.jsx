@@ -1,7 +1,5 @@
 import { useLang } from '../../i18n/LangContext';
 import ten from '@/assets/images/suppliers/postavka-ten-cate.png';
-import tootal from '@/assets/images/suppliers/tootal.jpg';
-import concordia from '@/assets/images/suppliers/concordia.svg';
 import tencatePermess from '@/assets/images/suppliers/permess.png';
 import toray from '@/assets/images/suppliers/toray.png';
 
@@ -22,24 +20,6 @@ export default function Trust() {
                         <img
                             src={ten}
                             alt="Ten Cate Protect"
-                            className="suppliers-strip__logo"
-                            loading="lazy"
-                        />
-                    </div>
-
-                    <div className="suppliers-strip__item" title="Tootal">
-                        <img
-                            src={tootal}
-                            alt="Tootal"
-                            className="suppliers-strip__logo"
-                            loading="lazy"
-                        />
-                    </div>
-
-                    <div className="suppliers-strip__item" title="Concordia">
-                        <img
-                            src={concordia}
-                            alt="Concordia"
                             className="suppliers-strip__logo"
                             loading="lazy"
                         />

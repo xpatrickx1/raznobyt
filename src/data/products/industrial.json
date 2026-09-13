@@ -1,23 +1,36 @@
 [
   {
-    "id": "tkan-industrial-bg-9030",
+    "id": "tkan-industrial-",
     "category": "industrial",
-    "slug": "tkan-industrial-bg-9030",
+    "slug": "tkan-industrial-",
     "title": {
-      "ua": "Тканина BG 9030",
-      "ru": "Ткань BG 9030"
+      "ua": "Тканина undefined",
+      "ru": "Ткань undefined"
     },
     "isNew": false,
-    "images": [],
+    "images": [
+      "http://catalog.raznobyt.com/images/products/BG 9030/main/65576.jpg",
+      "http://catalog.raznobyt.com/images/products/BG 9030/65615.jpg"
+    ],
     "description": {
       "ua": "Високоякісна вогнестійка та антистатична тканина з масловодовідштовхувальним просоченням (МВО). Склад: 79% бавовна, 20% поліестр, 1% Static-Control™. Щільність 300 г/м². Ідеальний вибір для спецодягу в нафтогазовій, хімічній та енергетичній промисловості.",
       "ru": "Высококачественная огнестойкая и антистатическая ткань с масловодоотталкивающей пропиткой (МВО). Состав: 79% хлопок, 20% полиэстер, 1% Static-Control™. Плотность 300 г/м². Идеальный выбор для спецодежды в нефтегазовой, химической и энергетической промышленности."
     },
     "attributes": {
       "fabricType": "twill",
-      "density": "300",
       "width": "150",
-      "colors": [],
+      "colors": [
+        {
+          "color": "65576",
+          "image": "http://catalog.raznobyt.com/images/products/BG 9030/main/65576.jpg",
+          "isMain": true
+        },
+        {
+          "color": "65615",
+          "image": "http://catalog.raznobyt.com/images/products/BG 9030/65615.jpg",
+          "isMain": false
+        }
+      ],
       "properties": [],
       "composition": {
         "cotton": 79,
@@ -46,24 +59,31 @@
     }
   },
   {
-    "id": "tkan-industrial-bg-9035",
+    "id": "tkan-industrial--2",
     "category": "industrial",
-    "slug": "tkan-industrial-bg-9035",
+    "slug": "tkan-industrial--2",
     "title": {
-      "ua": "Тканина BG 9035",
-      "ru": "Ткань BG 9035"
+      "ua": "Тканина undefined",
+      "ru": "Ткань undefined"
     },
     "isNew": false,
-    "images": [],
+    "images": [
+      "http://catalog.raznobyt.com/images/products/BG 9035/main/BLACK.jpg"
+    ],
     "description": {
       "ua": "Міцна вогнестійка та антистатична тканина з масловодовідштовхувальним просоченням (МВО). Склад: 79% бавовна, 20% поліестр, 1% Static-Control™. Щільність 350 г/м². Підвищена зносостійкість для роботи в складних умовах.",
       "ru": "Прочная огнестойкая и антистатическая ткань с масловодоотталкивающей пропиткой (МВО). Состав: 79% хлопок, 20% полиэстер, 1% Static-Control™. Плотность 350 г/м². Повышенная износостойкость для работы в сложных условиях."
     },
     "attributes": {
       "fabricType": "twill",
-      "density": "350",
       "width": "150",
-      "colors": [],
+      "colors": [
+        {
+          "color": "BLACK",
+          "image": "http://catalog.raznobyt.com/images/products/BG 9035/main/BLACK.jpg",
+          "isMain": true
+        }
+      ],
       "properties": [],
       "composition": {
         "cotton": 79,
@@ -92,24 +112,49 @@
     }
   },
   {
-    "id": "tkan-industrial-bg-9045",
+    "id": "tkan-industrial--3",
     "category": "industrial",
-    "slug": "tkan-industrial-bg-9045",
+    "slug": "tkan-industrial--3",
     "title": {
-      "ua": "Тканина BG 9045",
-      "ru": "Ткань BG 9045"
+      "ua": "Тканина undefined",
+      "ru": "Ткань undefined"
     },
     "isNew": false,
-    "images": [],
+    "images": [
+      "http://catalog.raznobyt.com/images/products/BG 9045/main/65613.jpg",
+      "http://catalog.raznobyt.com/images/products/BG 9045/63805.jpg",
+      "http://catalog.raznobyt.com/images/products/BG 9045/65576.jpg",
+      "http://catalog.raznobyt.com/images/products/BG 9045/66935.jpg"
+    ],
     "description": {
       "ua": "Надзвичайно міцна вогнестійка та антистатична тканина з масловодовідштовхувальним просоченням (МВО). Склад: 79% бавовна, 20% поліестр, 1% Static-Control™. Щільність 450 г/м². Максимальна стійкість до механічних пошкоджень.",
       "ru": "Чрезвычайно прочная огнестойкая и антистатическая ткань с масловодоотталкивающей пропиткой (МВО). Состав: 79% хлопок, 20% полиэстер, 1% Static-Control™. Плотность 450 г/м². Максимальная устойчивость к механическим повреждениям."
     },
     "attributes": {
       "fabricType": "twill",
-      "density": "450",
       "width": "150",
-      "colors": [],
+      "colors": [
+        {
+          "color": "65613",
+          "image": "http://catalog.raznobyt.com/images/products/BG 9045/main/65613.jpg",
+          "isMain": true
+        },
+        {
+          "color": "63805",
+          "image": "http://catalog.raznobyt.com/images/products/BG 9045/63805.jpg",
+          "isMain": false
+        },
+        {
+          "color": "65576",
+          "image": "http://catalog.raznobyt.com/images/products/BG 9045/65576.jpg",
+          "isMain": false
+        },
+        {
+          "color": "66935",
+          "image": "http://catalog.raznobyt.com/images/products/BG 9045/66935.jpg",
+          "isMain": false
+        }
+      ],
       "properties": [],
       "composition": {
         "cotton": 79,
@@ -138,24 +183,55 @@
     }
   },
   {
-    "id": "tkan-industrial-bg-9500",
+    "id": "tkan-industrial--4",
     "category": "industrial",
-    "slug": "tkan-industrial-bg-9500",
+    "slug": "tkan-industrial--4",
     "title": {
-      "ua": "Тканина BG 9500",
-      "ru": "Ткань BG 9500"
+      "ua": "Тканина undefined",
+      "ru": "Ткань undefined"
     },
     "isNew": false,
-    "images": [],
+    "images": [
+      "http://catalog.raznobyt.com/images/products/BG 9500/main/60662.jpg",
+      "http://catalog.raznobyt.com/images/products/BG 9500/66777.jpg",
+      "http://catalog.raznobyt.com/images/products/BG 9500/66907.jpg",
+      "http://catalog.raznobyt.com/images/products/BG 9500/66935.jpg",
+      "http://catalog.raznobyt.com/images/products/BG 9500/HV YELLOW.jpg"
+    ],
     "description": {
       "ua": "Вогнестійка та антистатична тканина підвищеної міцності з масловодовідштовхувальним просоченням (МВО). Склад: 64% бавовна, 35% поліестр, 1% Static-Control™. Щільність 350 г/м². Стійкість до стирання та довговічність.",
       "ru": "Огнестойкая и антистатическая ткань повышенной прочности с масловодоотталкивающей пропиткой (МВО). Состав: 64% хлопок, 35% полиэстер, 1% Static-Control™. Плотность 350 г/м². Устойчивость к истиранию и долговечность."
     },
     "attributes": {
       "fabricType": "twill",
-      "density": "350",
       "width": "150",
-      "colors": [],
+      "colors": [
+        {
+          "color": "60662",
+          "image": "http://catalog.raznobyt.com/images/products/BG 9500/main/60662.jpg",
+          "isMain": true
+        },
+        {
+          "color": "66777",
+          "image": "http://catalog.raznobyt.com/images/products/BG 9500/66777.jpg",
+          "isMain": false
+        },
+        {
+          "color": "66907",
+          "image": "http://catalog.raznobyt.com/images/products/BG 9500/66907.jpg",
+          "isMain": false
+        },
+        {
+          "color": "66935",
+          "image": "http://catalog.raznobyt.com/images/products/BG 9500/66935.jpg",
+          "isMain": false
+        },
+        {
+          "color": "HV YELLOW",
+          "image": "http://catalog.raznobyt.com/images/products/BG 9500/HV YELLOW.jpg",
+          "isMain": false
+        }
+      ],
       "properties": [],
       "composition": {
         "cotton": 64,
@@ -184,24 +260,43 @@
     }
   },
   {
-    "id": "tkan-industrial-bg-9600",
+    "id": "tkan-industrial--5",
     "category": "industrial",
-    "slug": "tkan-industrial-bg-9600",
+    "slug": "tkan-industrial--5",
     "title": {
-      "ua": "Тканина BG 9600",
-      "ru": "Ткань BG 9600"
+      "ua": "Тканина undefined",
+      "ru": "Ткань undefined"
     },
     "isNew": false,
-    "images": [],
+    "images": [
+      "http://catalog.raznobyt.com/images/products/9600/main/66935.jpg",
+      "http://catalog.raznobyt.com/images/products/9600/63805.jpg",
+      "http://catalog.raznobyt.com/images/products/9600/65576.jpg"
+    ],
     "description": {
       "ua": "Універсальна вогнестійка та антистатична тканина з масловодовідштовхувальним просоченням (МВО). Склад: 64% бавовна, 35% поліестр, 1% Static-Control™. Щільність 350 г/м². Поєднує комфорт бавовни з міцністю поліестру.",
       "ru": "Универсальная огнестойкая и антистатическая ткань с масловодоотталкивающей пропиткой (МВО). Состав: 64% хлопок, 35% полиэстер, 1% Static-Control™. Плотность 350 г/м². Сочетает комфорт хлопка с прочностью полиэстера."
     },
     "attributes": {
       "fabricType": "twill",
-      "density": "350",
       "width": "150",
-      "colors": [],
+      "colors": [
+        {
+          "color": "66935",
+          "image": "http://catalog.raznobyt.com/images/products/9600/main/66935.jpg",
+          "isMain": true
+        },
+        {
+          "color": "63805",
+          "image": "http://catalog.raznobyt.com/images/products/9600/63805.jpg",
+          "isMain": false
+        },
+        {
+          "color": "65576",
+          "image": "http://catalog.raznobyt.com/images/products/9600/65576.jpg",
+          "isMain": false
+        }
+      ],
       "properties": [],
       "composition": {
         "cotton": 64,
@@ -230,24 +325,31 @@
     }
   },
   {
-    "id": "tkan-industrial-bd-9011",
+    "id": "tkan-industrial--6",
     "category": "industrial",
-    "slug": "tkan-industrial-bd-9011",
+    "slug": "tkan-industrial--6",
     "title": {
-      "ua": "Тканина BD 9011",
-      "ru": "Ткань BD 9011"
+      "ua": "Тканина undefined",
+      "ru": "Ткань undefined"
     },
     "isNew": false,
-    "images": [],
+    "images": [
+      "http://catalog.raznobyt.com/images/products/BD 011/main/40471.jpg"
+    ],
     "description": {
       "ua": "100% бавовняна вогнестійка тканина. Щільність 230 г/м². Натуральний дихаючий матеріал із вогнезахисним просоченням. Ідеальний вибір для літнього спецодягу.",
       "ru": "100% хлопковая огнестойкая ткань. Плотность 230 г/м². Натуральный дышащий материал с огнезащитной пропиткой. Идеальный выбор для летней спецодежды."
     },
     "attributes": {
       "fabricType": "twill",
-      "density": "230",
       "width": "150",
-      "colors": [],
+      "colors": [
+        {
+          "color": "40471",
+          "image": "http://catalog.raznobyt.com/images/products/BD 011/main/40471.jpg",
+          "isMain": true
+        }
+      ],
       "properties": [],
       "composition": {
         "cotton": 100,
@@ -276,24 +378,37 @@
     }
   },
   {
-    "id": "tkan-industrial-bd-9311",
+    "id": "tkan-industrial--7",
     "category": "industrial",
-    "slug": "tkan-industrial-bd-9311",
+    "slug": "tkan-industrial--7",
     "title": {
-      "ua": "Тканина BD 9311",
-      "ru": "Ткань BD 9311"
+      "ua": "Тканина undefined",
+      "ru": "Ткань undefined"
     },
     "isNew": false,
-    "images": [],
+    "images": [
+      "http://catalog.raznobyt.com/images/products/BD 9311/main/35344.jpg",
+      "http://catalog.raznobyt.com/images/products/BD 9311/42134.jpg"
+    ],
     "description": {
       "ua": "Вогнестійка та антистатична тканина. Склад: 99% бавовна, 1% Static-Control™. Щільність 335 г/м². Поєднує натуральну м'якість бавовни з захистом від статичної електрики.",
       "ru": "Огнестойкая и антистатическая ткань. Состав: 99% хлопок, 1% Static-Control™. Плотность 335 г/м². Сочетает натуральную мягкость хлопка с защитой от статического электричества."
     },
     "attributes": {
       "fabricType": "twill",
-      "density": "335",
       "width": "150",
-      "colors": [],
+      "colors": [
+        {
+          "color": "35344",
+          "image": "http://catalog.raznobyt.com/images/products/BD 9311/main/35344.jpg",
+          "isMain": true
+        },
+        {
+          "color": "42134",
+          "image": "http://catalog.raznobyt.com/images/products/BD 9311/42134.jpg",
+          "isMain": false
+        }
+      ],
       "properties": [],
       "composition": {
         "cotton": 99,
@@ -322,12 +437,12 @@
     }
   },
   {
-    "id": "tkan-industrial-ks52",
+    "id": "tkan-industrial--8",
     "category": "industrial",
-    "slug": "tkan-industrial-ks52",
+    "slug": "tkan-industrial--8",
     "title": {
-      "ua": "Тканина KS52",
-      "ru": "Ткань KS52"
+      "ua": "Тканина undefined",
+      "ru": "Ткань undefined"
     },
     "isNew": false,
     "images": [],
@@ -337,7 +452,6 @@
     },
     "attributes": {
       "fabricType": "twill",
-      "density": "335",
       "width": "150",
       "colors": [],
       "properties": [],
@@ -368,12 +482,12 @@
     }
   },
   {
-    "id": "tkan-industrial-xc-9001",
+    "id": "tkan-industrial--9",
     "category": "industrial",
-    "slug": "tkan-industrial-xc-9001",
+    "slug": "tkan-industrial--9",
     "title": {
-      "ua": "Тканина XC 9001",
-      "ru": "Ткань XC 9001"
+      "ua": "Тканина undefined",
+      "ru": "Ткань undefined"
     },
     "isNew": false,
     "images": [],
@@ -383,7 +497,6 @@
     },
     "attributes": {
       "fabricType": "twill",
-      "density": "265",
       "width": "150",
       "colors": [],
       "properties": [],
@@ -414,24 +527,31 @@
     }
   },
   {
-    "id": "tkan-industrial-xa-9001",
+    "id": "tkan-industrial--10",
     "category": "industrial",
-    "slug": "tkan-industrial-xa-9001",
+    "slug": "tkan-industrial--10",
     "title": {
-      "ua": "Тканина XA 9001",
-      "ru": "Ткань XA 9001"
+      "ua": "Тканина undefined",
+      "ru": "Ткань undefined"
     },
     "isNew": false,
-    "images": [],
+    "images": [
+      "http://catalog.raznobyt.com/images/products/XA 9001/main/89072.jpg"
+    ],
     "description": {
       "ua": "Інноваційна вогнестійка та антистатична тканина з масловодовідштовхувальним просоченням (МВО). Склад: 54% поліпропілен FR, 45% бавовна, 1% Static-Control™. Щільність 320 г/м². Легка, швидко сохне, не вбирає вологу.",
       "ru": "Инновационная огнестойкая и антистатическая ткань с масловодоотталкивающей пропиткой (МВО). Состав: 54% полипропилен FR, 45% хлопок, 1% Static-Control™. Плотность 320 г/м². Легкая, быстро сохнет, не впитывает влагу."
     },
     "attributes": {
       "fabricType": "twill",
-      "density": "320",
       "width": "150",
-      "colors": [],
+      "colors": [
+        {
+          "color": "89072",
+          "image": "http://catalog.raznobyt.com/images/products/XA 9001/main/89072.jpg",
+          "isMain": true
+        }
+      ],
       "properties": [],
       "composition": {
         "cotton": 45,
@@ -460,24 +580,37 @@
     }
   },
   {
-    "id": "tkan-industrial-xb-9340",
+    "id": "tkan-industrial--11",
     "category": "industrial",
-    "slug": "tkan-industrial-xb-9340",
+    "slug": "tkan-industrial--11",
     "title": {
-      "ua": "Тканина XB 9340",
-      "ru": "Ткань XB 9340"
+      "ua": "Тканина undefined",
+      "ru": "Ткань undefined"
     },
     "isNew": false,
-    "images": [],
+    "images": [
+      "http://catalog.raznobyt.com/images/products/XB 9340/main/42049.jpg",
+      "http://catalog.raznobyt.com/images/products/XB 9340/42196.jpg"
+    ],
     "description": {
       "ua": "Високоміцна вогнестійка та антистатична тканина з арамідними волокнами та МВО. Склад: 74% бавовна, 25% пара-арамід, 1% Static-Control™. Щільність 340 г/м². Стійкість до високих температур, порізів та стирання.",
       "ru": "Высокопрочная огнестойкая и антистатическая ткань с арамидными волокнами и МВО. Состав: 74% хлопок, 25% пара-арамид, 1% Static-Control™. Плотность 340 г/м². Устойчивость к высоким температурам, порезам и истиранию."
     },
     "attributes": {
       "fabricType": "twill",
-      "density": "340",
       "width": "150",
-      "colors": [],
+      "colors": [
+        {
+          "color": "42049",
+          "image": "http://catalog.raznobyt.com/images/products/XB 9340/main/42049.jpg",
+          "isMain": true
+        },
+        {
+          "color": "42196",
+          "image": "http://catalog.raznobyt.com/images/products/XB 9340/42196.jpg",
+          "isMain": false
+        }
+      ],
       "properties": [],
       "composition": {
         "cotton": 74,
@@ -506,24 +639,31 @@
     }
   },
   {
-    "id": "tkan-industrial-xl-9300",
+    "id": "tkan-industrial--12",
     "category": "industrial",
-    "slug": "tkan-industrial-xl-9300",
+    "slug": "tkan-industrial--12",
     "title": {
-      "ua": "Тканина XL 9300",
-      "ru": "Ткань XL 9300"
+      "ua": "Тканина undefined",
+      "ru": "Ткань undefined"
     },
     "isNew": false,
-    "images": [],
+    "images": [
+      "http://catalog.raznobyt.com/images/products/XL 9300/main/89250.jpg"
+    ],
     "description": {
       "ua": "Сучасна вогнестійка та антистатична тканина з модакрилу та ліоцелу з МВО. Склад: Modacrylic/Lyocell/Static-Control™. Щільність 300 г/м². Модакрил забезпечує вогнестійкість, ліоцел — м'якість та комфорт.",
       "ru": "Современная огнестойкая и антистатическая ткань из модакрила и лиоцелла с МВО. Состав: Modacrylic/Lyocell/Static-Control™. Плотность 300 г/м². Модакрил обеспечивает огнестойкость, лиоцелл — мягкость и комфорт."
     },
     "attributes": {
       "fabricType": "twill",
-      "density": "300",
       "width": "150",
-      "colors": [],
+      "colors": [
+        {
+          "color": "89250",
+          "image": "http://catalog.raznobyt.com/images/products/XL 9300/main/89250.jpg",
+          "isMain": true
+        }
+      ],
       "properties": [],
       "composition": {
         "cotton": 0,
@@ -552,24 +692,43 @@
     }
   },
   {
-    "id": "tkan-industrial-xl-9325",
+    "id": "tkan-industrial--13",
     "category": "industrial",
-    "slug": "tkan-industrial-xl-9325",
+    "slug": "tkan-industrial--13",
     "title": {
-      "ua": "Тканина XL 9325",
-      "ru": "Ткань XL 9325"
+      "ua": "Тканина undefined",
+      "ru": "Ткань undefined"
     },
     "isNew": false,
-    "images": [],
+    "images": [
+      "http://catalog.raznobyt.com/images/products/XL 9325/main/89253.jpg",
+      "http://catalog.raznobyt.com/images/products/XL 9325/89249.jpg",
+      "http://catalog.raznobyt.com/images/products/XL 9325/89251.jpg"
+    ],
     "description": {
       "ua": "Міцна вогнестійка та антистатична тканина з модакрилу та ліоцелу з МВО. Склад: Modacrylic/Lyocell/Static-Control™. Щільність 325 г/м². Підвищена зносостійкість та захист.",
       "ru": "Прочная огнестойкая и антистатическая ткань из модакрила и лиоцелла с МВО. Состав: Modacrylic/Lyocell/Static-Control™. Плотность 325 г/м². Повышенная износостойкость и защита."
     },
     "attributes": {
       "fabricType": "twill",
-      "density": "325",
       "width": "150",
-      "colors": [],
+      "colors": [
+        {
+          "color": "89253",
+          "image": "http://catalog.raznobyt.com/images/products/XL 9325/main/89253.jpg",
+          "isMain": true
+        },
+        {
+          "color": "89249",
+          "image": "http://catalog.raznobyt.com/images/products/XL 9325/89249.jpg",
+          "isMain": false
+        },
+        {
+          "color": "89251",
+          "image": "http://catalog.raznobyt.com/images/products/XL 9325/89251.jpg",
+          "isMain": false
+        }
+      ],
       "properties": [],
       "composition": {
         "cotton": 0,
@@ -598,24 +757,31 @@
     }
   },
   {
-    "id": "tkan-industrial-av-9400",
+    "id": "tkan-industrial--14",
     "category": "industrial",
-    "slug": "tkan-industrial-av-9400",
+    "slug": "tkan-industrial--14",
     "title": {
-      "ua": "Тканина AV 9400",
-      "ru": "Ткань AV 9400"
+      "ua": "Тканина undefined",
+      "ru": "Ткань undefined"
     },
     "isNew": false,
-    "images": [],
+    "images": [
+      "http://catalog.raznobyt.com/images/products/AV 9400/main/89374.jpg"
+    ],
     "description": {
       "ua": "Преміальна вогнестійка та антистатична тканина з Nomex® та Kevlar® з МВО. Склад: Nomex®/Kevlar®/Anti-Static. Щільність 200 г/м². Легка, ідеальна для пожежників, військових та рятувальників.",
       "ru": "Премиальная огнестойкая и антистатическая ткань из Nomex® и Kevlar® с МВО. Состав: Nomex®/Kevlar®/Anti-Static. Плотность 200 г/м². Легкая, идеальная для пожарных, военных и спасателей."
     },
     "attributes": {
       "fabricType": "twill",
-      "density": "200",
       "width": "150",
-      "colors": [],
+      "colors": [
+        {
+          "color": "89374",
+          "image": "http://catalog.raznobyt.com/images/products/AV 9400/main/89374.jpg",
+          "isMain": true
+        }
+      ],
       "properties": [],
       "composition": {
         "cotton": 0,
@@ -644,24 +810,31 @@
     }
   },
   {
-    "id": "tkan-industrial-bv-9120",
+    "id": "tkan-industrial--15",
     "category": "industrial",
-    "slug": "tkan-industrial-bv-9120",
+    "slug": "tkan-industrial--15",
     "title": {
-      "ua": "Тканина BV 9120",
-      "ru": "Ткань BV 9120"
+      "ua": "Тканина undefined",
+      "ru": "Ткань undefined"
     },
     "isNew": false,
-    "images": [],
+    "images": [
+      "http://catalog.raznobyt.com/images/products/BV 9120/main/89201.jpg"
+    ],
     "description": {
       "ua": "Високоякісна вогнестійка та антистатична тканина з МВО. Склад: Nomex®/Para-Aramid/p140. Щільність 265 г/м². Захист від високих температур та механічних пошкоджень.",
       "ru": "Высококачественная огнестойкая и антистатическая ткань с МВО. Состав: Nomex®/Para-Aramid/p140. Плотность 265 г/м². Защита от высоких температур и механических повреждений."
     },
     "attributes": {
       "fabricType": "twill",
-      "density": "265",
       "width": "150",
-      "colors": [],
+      "colors": [
+        {
+          "color": "89201",
+          "image": "http://catalog.raznobyt.com/images/products/BV 9120/main/89201.jpg",
+          "isMain": true
+        }
+      ],
       "properties": [],
       "composition": {
         "cotton": 0,
@@ -690,22 +863,21 @@
     }
   },
   {
-    "id": "tkan-industrial-9129-fr",
+    "id": "tkan-industrial--16",
     "category": "industrial",
-    "slug": "tkan-industrial-9129-fr",
+    "slug": "tkan-industrial--16",
     "title": {
-      "ua": "Тканина 9129 FR",
-      "ru": "Ткань 9129 FR"
+      "ua": "Тканина undefined",
+      "ru": "Ткань undefined"
     },
     "isNew": false,
     "images": [],
     "description": {
-      "ua": "Вогнетривка тканина саржевого переплетення. Склад: 42% бавовна, 6% поліестр, 52% MAC. Щільність 290 г/м². FR - вогнетривка. Для зварювальників, металургів, нафтогазової галузі.",
-      "ru": "Огнестойкая ткань саржевого переплетения. Состав: 42% хлопок, 6% полиэстер, 52% MAC. Плотность 290 г/м². FR - огнестойкая. Для сварщиков, металлургов, нефтегазовой отрасли."
+      "ua": "Вогнетривка тканина саржевого переплетення. Склад: 42% бавовна, 6% поліестр, 52% MAC. ВО-ламінована. Щільність 290 г/м². FR - вогнетривка. Для зварювальників, металургів, нафтогазової галузі.",
+      "ru": "Огнестойкая ткань саржевого переплетения. Состав: 42% хлопок, 6% полиэстер, 52% MAC. ВО-ламинированная. Плотность 290 г/м². FR - огнестойкая. Для сварщиков, металлургов, нефтегазовой отрасли."
     },
     "attributes": {
       "fabricType": "twill",
-      "density": "290",
       "width": "150",
       "colors": [],
       "properties": [],
@@ -732,6 +904,216 @@
         "polypropylene PP": 0,
         "para aramid": 0,
         "MAC": 52
+      }
+    }
+  },
+  {
+    "id": "tkan-industrial--17",
+    "category": "industrial",
+    "slug": "tkan-industrial--17",
+    "title": {
+      "ua": "Тканина undefined",
+      "ru": "Ткань undefined"
+    },
+    "isNew": false,
+    "images": [
+      "http://catalog.raznobyt.com/images/products/NNT-1152/main/RED.jpg"
+    ],
+    "description": {
+      "ua": "Змішана тканина саржевого переплетення. Склад: 80% бавовна, 20% поліестр. Антистатична нитка. МВВ - масловодовідштовхувальна. Щільність 255 г/м².",
+      "ru": "Смесовая ткань саржевого переплетения. Состав: 80% хлопок, 20% полиэстер. Антистатическая нитка. МВО - масловодоотталкивающая.  Плотность 255 г/м²."
+    },
+    "attributes": {
+      "fabricType": "",
+      "width": "150 см",
+      "colors": [
+        {
+          "color": "RED",
+          "image": "http://catalog.raznobyt.com/images/products/NNT-1152/main/RED.jpg",
+          "isMain": true
+        }
+      ],
+      "properties": [],
+      "composition": {
+        "cotton": 80,
+        "polyester": 20,
+        "spandex": 0,
+        "rayon": 0,
+        "viscose": 0,
+        "pbt": 0,
+        "lyon": 0,
+        "polyamide": 0,
+        "polypropylene": 0,
+        "paraAramid": 0,
+        "antistatic": 0,
+        "Modacrylic/Lyocell/Static-Control™": 0,
+        "Nomex®/Kevlar®/Anti-Static": 0,
+        "Nomex®/Para-Aramid/p140": 0,
+        "PBI®/Kevlar®/Antistatic": 0,
+        "Lenzing FR®/Aramid": 0,
+        "Para-aramid/Solid polymer coating": 0,
+        "FR Rayon/пара-арамід/поліамід/антистатик": 0,
+        "polyamide PA": 0,
+        "polypropylene PP": 0,
+        "para aramid": 0,
+        "MAC": 0
+      }
+    }
+  },
+  {
+    "id": "tkan-industrial--18",
+    "category": "industrial",
+    "slug": "tkan-industrial--18",
+    "title": {
+      "ua": "Тканина undefined",
+      "ru": "Ткань undefined"
+    },
+    "isNew": false,
+    "images": [],
+    "description": {
+      "ua": "Змішана тканина саржевого переплетення. Склад: 60% бавовна, 40% поліестр. Антистатична нитка. МВВ - масловодовідштовхувальна. Щільність 210 г/м².",
+      "ru": "Смесовая ткань саржевого переплетения. Состав: 60% хлопок, 40% полиэстер. Антистатическая нитка. МВО - масловодоотталкивающая.  Плотность 210 г/м²."
+    },
+    "attributes": {
+      "fabricType": "twill",
+      "width": "150",
+      "colors": [],
+      "properties": [],
+      "composition": {
+        "cotton": 60,
+        "polyester": 40,
+        "spandex": 0,
+        "rayon": 0,
+        "viscose": 0,
+        "pbt": 0,
+        "lyon": 0,
+        "polyamide": 0,
+        "polypropylene": 0,
+        "paraAramid": 0,
+        "antistatic": 0,
+        "Modacrylic/Lyocell/Static-Control™": 0,
+        "Nomex®/Kevlar®/Anti-Static": 0,
+        "Nomex®/Para-Aramid/p140": 0,
+        "PBI®/Kevlar®/Antistatic": 0,
+        "Lenzing FR®/Aramid": 0,
+        "Para-aramid/Solid polymer coating": 0,
+        "FR Rayon/пара-арамід/поліамід/антистатик": 0,
+        "polyamide PA": 0,
+        "polypropylene PP": 0,
+        "para aramid": 0,
+        "MAC": 0
+      }
+    }
+  },
+  {
+    "id": "tkan-industrial--19",
+    "category": "industrial",
+    "slug": "tkan-industrial--19",
+    "title": {
+      "ua": "Тканина undefined",
+      "ru": "Ткань undefined"
+    },
+    "isNew": false,
+    "images": [
+      "http://catalog.raznobyt.com/images/products/NA 9350/main/GREY.jpg"
+    ],
+    "description": {
+      "ua": "Високоякісна вогнестійка тканина  з обробкою PROBAN. Склад: 58% бавовна, 30% поліестр, 11% ПАРА АРАМИД.. Щільність 350 г/м².. Захист від високих температур та механічних пошкоджень.",
+      "ru": "Высококачественная огнестойкая ткань. Состав:  58% хлопок, 30% полиэстер, 11% пара-арамид. Плотность 350 г/м². Защита от высоких температур и механических повреждений."
+    },
+    "attributes": {
+      "fabricType": "twill",
+      "width": "150",
+      "colors": [
+        {
+          "color": "GREY",
+          "image": "http://catalog.raznobyt.com/images/products/NA 9350/main/GREY.jpg",
+          "isMain": true
+        }
+      ],
+      "properties": [],
+      "composition": {
+        "cotton": 58,
+        "polyester": 30,
+        "spandex": 0,
+        "rayon": 0,
+        "viscose": 0,
+        "pbt": 0,
+        "lyon": 0,
+        "polyamide": 0,
+        "polypropylene": 0,
+        "paraAramid": 11,
+        "antistatic": 0,
+        "Modacrylic/Lyocell/Static-Control™": 0,
+        "Nomex®/Kevlar®/Anti-Static": 0,
+        "Nomex®/Para-Aramid/p140": 1,
+        "PBI®/Kevlar®/Antistatic": 0,
+        "Lenzing FR®/Aramid": 0,
+        "Para-aramid/Solid polymer coating": 0,
+        "FR Rayon/пара-арамід/поліамід/антистатик": 0,
+        "polyamide PA": 0,
+        "polypropylene PP": 0,
+        "para aramid": 11,
+        "MAC": 0
+      }
+    }
+  },
+  {
+    "id": "tkan-industrial--20",
+    "category": "industrial",
+    "slug": "tkan-industrial--20",
+    "title": {
+      "ua": "Тканина undefined",
+      "ru": "Ткань undefined"
+    },
+    "isNew": false,
+    "images": [
+      "http://catalog.raznobyt.com/images/products/EG 9600/main/60962.jpg",
+      "http://catalog.raznobyt.com/images/products/EG 9600/60475.jpg"
+    ],
+    "description": {
+      "ua": "Перша в своєму роді вогнестійка тканина, що складається на 50% з екологічно безпечних матеріалів, з масловодовідштовхувальним просоченням (МВО). Склад: 50% бавовна, 30% віскоза, 19% поліестер, 1% Static-Control™. Щільність 320 г/м².",
+      "ru": "Первая в своем роде огнестойкая ткань, состоящая на 50% из экологически безопасных материалов, с масловодоотталкивающей пропиткой (МВО). Состав: 50% хлопок, 30% вискоза, 19% полиэстер, 1% Static-Control™. Плотность 320 г/м2."
+    },
+    "attributes": {
+      "fabricType": "",
+      "width": "150",
+      "colors": [
+        {
+          "color": "60962",
+          "image": "http://catalog.raznobyt.com/images/products/EG 9600/main/60962.jpg",
+          "isMain": true
+        },
+        {
+          "color": "60475",
+          "image": "http://catalog.raznobyt.com/images/products/EG 9600/60475.jpg",
+          "isMain": false
+        }
+      ],
+      "properties": [],
+      "composition": {
+        "cotton": 50,
+        "polyester": 19,
+        "spandex": 0,
+        "rayon": 30,
+        "viscose": 0,
+        "pbt": 0,
+        "lyon": 0,
+        "polyamide": 0,
+        "polypropylene": 0,
+        "paraAramid": 0,
+        "antistatic": 1,
+        "Modacrylic/Lyocell/Static-Control™": 0,
+        "Nomex®/Kevlar®/Anti-Static": 0,
+        "Nomex®/Para-Aramid/p140": 0,
+        "PBI®/Kevlar®/Antistatic": 0,
+        "Lenzing FR®/Aramid": 0,
+        "Para-aramid/Solid polymer coating": 0,
+        "FR Rayon/пара-арамід/поліамід/антистатик": 0,
+        "polyamide PA": 0,
+        "polypropylene PP": 0,
+        "para aramid": 0,
+        "MAC": 0
       }
     }
   }

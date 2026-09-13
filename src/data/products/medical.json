@@ -1651,7 +1651,7 @@
     "images": [],
     "description": {
       "ua": "Змішана тканина. Склад: 60% бавовна, 40% поліестр. Щільність 210. Саржеве переплетення 2/1.",
-      "ru": "Смесовая ткань. Состав: 60% хлопок, 40% полиэстер. Плотность 210. Саржевое переплетение 2/1."
+      "ru": "Смесовая ткань. Состав: 60% вискоза, 40% полиэстер. Плотность 206. Саржевое переплетение 2/1."
     },
     "attributes": {
       "fabricType": "twill",
@@ -1757,6 +1757,52 @@
         "spandex": 0,
         "rayon": 0,
         "viscose": 0,
+        "pbt": 0,
+        "lyon": 0,
+        "polyamide": 0,
+        "polypropylene": 0,
+        "paraAramid": 0,
+        "antistatic": 0,
+        "Modacrylic/Lyocell/Static-Control™": 0,
+        "Nomex®/Kevlar®/Anti-Static": 0,
+        "Nomex®/Para-Aramid/p140": 0,
+        "PBI®/Kevlar®/Antistatic": 0,
+        "Lenzing FR®/Aramid": 0,
+        "Para-aramid/Solid polymer coating": 0,
+        "FR Rayon/пара-арамід/поліамід/антистатик": 0,
+        "polyamide PA": 0,
+        "polypropylene PP": 0,
+        "para aramid": 0,
+        "MAC": 0
+      }
+    }
+  },
+  {
+    "id": "tkan-medical-rc-206-ray",
+    "category": "medical",
+    "slug": "tkan-medical-rc-206-ray",
+    "title": {
+      "ua": "Тканина RC-206 RAY",
+      "ru": "Ткань RC-206 RAY"
+    },
+    "isNew": false,
+    "images": [],
+    "description": {
+      "ua": "Змішана тканина. Склад: 60% віскоза, 40% поліестр. Щільність 206. Саржеве переплетення 2/1.",
+      "ru": ""
+    },
+    "attributes": {
+      "fabricType": "",
+      "density": "206",
+      "width": "150",
+      "colors": [],
+      "properties": [],
+      "composition": {
+        "cotton": 0,
+        "polyester": 40,
+        "spandex": 0,
+        "rayon": 0,
+        "viscose": 60,
         "pbt": 0,
         "lyon": 0,
         "polyamide": 0,

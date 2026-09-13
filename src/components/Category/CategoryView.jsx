@@ -136,7 +136,8 @@ export default function CategoryView({
     const visible = filtered.slice(0, page * PAGE_SIZE);
     const hasMore = visible.length < filtered.length;
 
-    const TextComp = textByCategory[cat.id] ?? null;
+    const catTextEntry = textByCategory[cat.id];
+    const TextComp = typeof catTextEntry === 'function' ? catTextEntry : (catTextEntry?.[lang] || catTextEntry?.ua || null);
 
     return (
         <>
