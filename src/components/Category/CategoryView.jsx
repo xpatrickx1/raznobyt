@@ -35,11 +35,26 @@ export default function CategoryView({
     const [mobileFilters, setMobileFilters] = useState(false);
     const [expandedSections, setExpandedSections] = useState(['type', 'color', 'width']);
 
-    // Scroll to product block when filters / page change
+    // Scroll to product block when filters change or page resets/decreases
     const prevSearch = useRef(locationSearch);
     useEffect(() => {
         if (prevSearch.current !== locationSearch) {
-            targetRef.current?.scrollIntoView({ behavior: 'smooth', block: 'start' });
+            const prevParams = new URLSearchParams(prevSearch.current);
+            const currentParams = new URLSearchParams(locationSearch);
+
+            const prevPage = parseInt(prevParams.get('page') || '1', 10);
+            const currentPage = parseInt(currentParams.get('page') || '1', 10);
+
+            prevParams.delete('page');
+            currentParams.delete('page');
+
+            const filtersChanged = prevParams.toString() !== currentParams.toString();
+
+            // Only scroll up if filters changed or page was reset/reduced
+            if (filtersChanged || currentPage < prevPage) {
+                targetRef.current?.scrollIntoView({ behavior: 'smooth', block: 'start' });
+            }
+
             prevSearch.current = locationSearch;
         }
     }, [locationSearch]);

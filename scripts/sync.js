@@ -1,4 +1,5 @@
 import fs from "fs/promises";
+import { COMPOSITION_FIELDS, parseComposition } from "../config/composition.js";
 
 const SHEET_ID = "13NoI2T3HhTNghuSdgfsYEC20DuHVNENtc11pEkPd0q4";
 
@@ -161,34 +162,35 @@ async function main() {
           width: row.width || null,
           colors: parseColors(row.images), // [{ color, image, isMain }]
           properties: row.properties ? row.properties.split(",").map(s => s.trim()).filter(Boolean) : [],
-          composition: {
-            cotton: Number(row.cotton) || 0,
-            polyester: Number(row.polyester) || 0,
-            spandex: Number(row.spandex) || 0,
-            rayon: Number(row.rayon) || 0,
-            viscose: Number(row.viscose) || 0,
-            pbt: Number(row.pbt) || 0,
-            lyon: Number(row.lyon) || 0,
-            polyamide: Number(row["polyamide PA"]) || 0,
-            polypropylene: Number(row["polypropylene PP"]) || 0,
-            paraAramid: Number(row["para aramid"]) || 0,
-            antistatic: Number(row.antistatic) || 0,
-            'Modacrylic/Lyocell/Static-Control™': Number(row["Modacrylic/Lyocell/Static-Control™"]) || 0,
-            'Nomex®/Kevlar®/Anti-Static': Number(row["Nomex®/Kevlar®/Anti-Static"]) || 0,
-            'Nomex®/Para-Aramid/p140': Number(row["Nomex®/Para-Aramid/p140"]) || 0,
-            'PBI®/Kevlar®/Antistatic': Number(row["PBI®/Kevlar®/Antistatic"]) || 0,
-            'Lenzing FR®/Aramid': Number(row["Lenzing FR®/Aramid"]) || 0,
-            'Para-aramid/Solid polymer coating': Number(row["Para-aramid/Solid polymer coating"]) || 0,
-            'FR Rayon/пара-арамід/поліамід/антистатик': Number(row["FR Rayon/пара-арамід/поліамід/антистатик"]) || 0,
-            'viscose': Number(row.viscose) || 0,
-            'polyamide PA': Number(row["polyamide PA"]) || 0,
-            'polypropylene PP': Number(row["polypropylene PP"]) || 0,
-            'para aramid': Number(row["para aramid"]) || 0,
-            'MAC': Number(row["MAC"]) || 0,
-            'spandex': Number(row.spandex) || 0,
-            'pbt': Number(row.pbt) || 0,
-            'rayon': Number(row.rayon) || 0
-          },
+          composition: parseComposition(row),
+          // composition: {
+          //   cotton: Number(row.cotton) || 0,
+          //   polyester: Number(row.polyester) || 0,
+          //   spandex: Number(row.spandex) || 0,
+          //   rayon: Number(row.rayon) || 0,
+          //   viscose: Number(row.viscose) || 0,
+          //   pbt: Number(row.pbt) || 0,
+          //   lyon: Number(row.lyon) || 0,
+          //   polyamide: Number(row["polyamide PA"]) || 0,
+          //   polypropylene: Number(row["polypropylene PP"]) || 0,
+          //   paraAramid: Number(row["para aramid"]) || 0,
+          //   antistatic: Number(row.antistatic) || 0,
+          //   'Modacrylic/Lyocell/Static-Control™': Number(row["Modacrylic/Lyocell/Static-Control™"]) || 0,
+          //   'Nomex®/Kevlar®/Anti-Static': Number(row["Nomex®/Kevlar®/Anti-Static"]) || 0,
+          //   'Nomex®/Para-Aramid/p140': Number(row["Nomex®/Para-Aramid/p140"]) || 0,
+          //   'PBI®/Kevlar®/Antistatic': Number(row["PBI®/Kevlar®/Antistatic"]) || 0,
+          //   'Lenzing FR®/Aramid': Number(row["Lenzing FR®/Aramid"]) || 0,
+          //   'Para-aramid/Solid polymer coating': Number(row["Para-aramid/Solid polymer coating"]) || 0,
+          //   'FR Rayon/пара-арамід/поліамід/антистатик': Number(row["FR Rayon/пара-арамід/поліамід/антистатик"]) || 0,
+          //   'viscose': Number(row.viscose) || 0,
+          //   'polyamide PA': Number(row["polyamide PA"]) || 0,
+          //   'polypropylene PP': Number(row["polypropylene PP"]) || 0,
+          //   'para aramid': Number(row["para aramid"]) || 0,
+          //   'MAC': Number(row["MAC"]) || 0,
+          //   'spandex': Number(row.spandex) || 0,
+          //   'pbt': Number(row.pbt) || 0,
+          //   'rayon': Number(row.rayon) || 0
+          // },
         },
       });
     }

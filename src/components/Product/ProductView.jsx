@@ -97,10 +97,22 @@ export default function ProductView({ product, related = [] }) {
         ? activeImagePath.split('/').pop().replace(/\.[^.]+$/, '')
         : '';
 
+    const densityVal = product.attributes.density
+        ? (String(product.attributes.density).includes('г/м')
+            ? String(product.attributes.density)
+            : `${product.attributes.density} г/м.кв`)
+        : '';
+
+    const widthVal = product.attributes.width
+        ? (String(product.attributes.width).includes('см')
+            ? String(product.attributes.width)
+            : `${product.attributes.width} см`)
+        : '';
+
     const attrs = [
         { label: t('product.composition'), value: formatComposition(product.attributes.composition, lang) },
-        { label: t('product.density'), value: product.attributes.density },
-        { label: t('product.width'), value: product.attributes.width },
+        { label: t('product.density'), value: densityVal },
+        { label: t('product.width'), value: widthVal },
         ...(colors.length > 0 ? [{
             label: t('product.color'), value: (
                 <span className="color-thumbs-row">
