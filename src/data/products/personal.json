@@ -2297,7 +2297,9 @@
       "ru": "Ткань L 452"
     },
     "isNew": false,
-    "images": [],
+    "images": [
+      "http://catalog.raznobyt.com/images/products/L 452/main/367.jpg"
+    ],
     "description": {
       "ua": "97% бавовняна, 3% стрейч. Тканина саржевого переплетення. Щільність 215 г/м². Натуральний дихаючий матеріал для уніформи.",
       "ru": "97% хлопок, 3% стрейч. Тткань саржевого переплетения. Плотность 215 г/м². Натуральный дышащий материал для униформы."
@@ -2306,7 +2308,13 @@
       "fabricType": "twill",
       "density": "215",
       "width": "137-142",
-      "colors": [],
+      "colors": [
+        {
+          "color": "367",
+          "image": "http://catalog.raznobyt.com/images/products/L 452/main/367.jpg",
+          "isMain": true
+        }
+      ],
       "properties": [],
       "composition": {
         "cotton": 100,
@@ -2340,7 +2348,9 @@
       "ru": "Ткань L 414"
     },
     "isNew": false,
-    "images": [],
+    "images": [
+      "http://catalog.raznobyt.com/images/products/L 414/main/L 414.jpg"
+    ],
     "description": {
       "ua": "97% бавовняна, 3% стрейч. Тканина саржевого переплетення. Щільність 215 г/м². Натуральний дихаючий матеріал для уніформи.",
       "ru": "97% хлопок, 3% стрейч. Тткань саржевого переплетения. Плотность 215 г/м². Натуральный дышащий материал для униформы."
@@ -2349,7 +2359,13 @@
       "fabricType": "twill",
       "density": "215",
       "width": "137-142",
-      "colors": [],
+      "colors": [
+        {
+          "color": "L 414",
+          "image": "http://catalog.raznobyt.com/images/products/L 414/main/L 414.jpg",
+          "isMain": true
+        }
+      ],
       "properties": [],
       "composition": {
         "cotton": 100,

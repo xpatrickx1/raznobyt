@@ -431,7 +431,9 @@
       "ru": "Ткань KS 52"
     },
     "isNew": false,
-    "images": [],
+    "images": [
+      "http://catalog.raznobyt.com/images/products/KS 52/main/47240.jpg"
+    ],
     "description": {
       "ua": "100% бавовняна вогнестійка та антистатична тканина. Щільність 335 г/м². Натуральний матеріал з подвійним захистом — від вогню та статичної електрики.",
       "ru": "100% хлопковая огнестойкая и антистатическая ткань. Плотность 335 г/м². Натуральный материал с двойной защитой — от огня и статического электричества."
@@ -440,7 +442,13 @@
       "fabricType": "twill",
       "density": "335",
       "width": "150",
-      "colors": [],
+      "colors": [
+        {
+          "color": "47240",
+          "image": "http://catalog.raznobyt.com/images/products/KS 52/main/47240.jpg",
+          "isMain": true
+        }
+      ],
       "properties": [],
       "composition": {
         "cotton": 100,
