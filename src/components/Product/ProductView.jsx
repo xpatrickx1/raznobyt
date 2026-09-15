@@ -239,6 +239,13 @@ export default function ProductView({ product, related = [] }) {
                                     <strong style={{ color: 'var(--c-text)', letterSpacing: '0.04em' }}>{colorCode}</strong>
                                 </p>
                             )}
+
+                            <p style={{ fontSize: 12, color: 'var(--c-text-muted)', lineHeight: 1.6, margin: '16px 0' }}>
+                                {lang === 'ua'
+                                    ? 'Наявність та кількість уточнюйте у менеджера.'
+                                    : 'Наличие и количество уточняйте у менеджера.'}
+                            </p>
+
                             <p className="product-desc">{product.description[lang]}</p>
 
 

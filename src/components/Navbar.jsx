@@ -1,5 +1,5 @@
 import { useState, useRef, useEffect } from 'react';
-import { NavLink, Link } from 'react-router-dom';
+import { NavLink, Link, useLocation } from 'react-router-dom';
 import { useLang } from '../i18n/LangContext';
 import Image from './Image';
 import logo from '@/assets/images/logo.png';
@@ -10,11 +10,19 @@ import QuizModal from './QuizModal';
 
 export default function Navbar() {
   const { lang, toggleLang, t } = useLang();
+  const location = useLocation();
   const [mobileOpen, setMobileOpen] = useState(false);
   const [dropdownOpen, setDropdownOpen] = useState(false);
   const [isScrolled, setIsScrolled] = useState(false);
   const dropdownRef = useRef(null);
   const [quizOpen, setQuizOpen] = useState(false);
+
+  const handleLogoClick = (e) => {
+    if (location.pathname === '/') {
+      e.preventDefault();
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    }
+  };
 
   useEffect(() => {
     let ticking = false;
@@ -96,7 +104,7 @@ export default function Navbar() {
       <nav className={`navbar ${isScrolled ? 'navbar--scrolled' : ''}`}>
         <div className="container">
           <div className="navbar__inner">
-            <Link to="/" className="navbar__logo">
+            <Link to="/" className="navbar__logo" onClick={handleLogoClick}>
               <img src={logo} alt="Різнобит" className="navbar__logo-img" loading="lazy" />
             </Link>
 
@@ -196,7 +204,14 @@ export default function Navbar() {
 
       <div className={`mobile-menu ${mobileOpen ? 'open' : ''}`}>
         <div className="mobile-menu__header">
-          <Link to="/" className="navbar__logo" onClick={() => setMobileOpen(false)}>
+          <Link
+            to="/"
+            className="navbar__logo"
+            onClick={(e) => {
+              handleLogoClick(e);
+              setMobileOpen(false);
+            }}
+          >
             <img
               src={logo}
               alt="Різнобит"

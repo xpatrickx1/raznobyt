@@ -516,12 +516,12 @@
     }
   },
   {
-    "id": "tkan-shirts-5939",
+    "id": "tkan-shirts-5339",
     "category": "shirts",
-    "slug": "tkan-shirts-5939",
+    "slug": "tkan-shirts-5339",
     "title": {
-      "ua": "Тканина 5939",
-      "ru": "Ткань 5939"
+      "ua": "Тканина 5339",
+      "ru": "Ткань 5339"
     },
     "isNew": false,
     "images": [],
@@ -1118,12 +1118,12 @@
     }
   },
   {
-    "id": "tkan-shirts-533",
+    "id": "tkan-shirts-0533",
     "category": "shirts",
-    "slug": "tkan-shirts-533",
+    "slug": "tkan-shirts-0533",
     "title": {
-      "ua": "Тканина 533",
-      "ru": "Ткань 533"
+      "ua": "Тканина 0533",
+      "ru": "Ткань 0533"
     },
     "isNew": false,
     "images": [],
@@ -1161,12 +1161,12 @@
     }
   },
   {
-    "id": "tkan-shirts-738",
+    "id": "tkan-shirts-0738",
     "category": "shirts",
-    "slug": "tkan-shirts-738",
+    "slug": "tkan-shirts-0738",
     "title": {
-      "ua": "Тканина 738",
-      "ru": "Ткань 738"
+      "ua": "Тканина 0738",
+      "ru": "Ткань 0738"
     },
     "isNew": false,
     "images": [],
@@ -1247,12 +1247,12 @@
     }
   },
   {
-    "id": "tkan-shirts-437",
+    "id": "tkan-shirts-0437",
     "category": "shirts",
-    "slug": "tkan-shirts-437",
+    "slug": "tkan-shirts-0437",
     "title": {
-      "ua": "Тканина 437",
-      "ru": "Ткань 437"
+      "ua": "Тканина 0437",
+      "ru": "Ткань 0437"
     },
     "isNew": false,
     "images": [],
@@ -1290,12 +1290,12 @@
     }
   },
   {
-    "id": "tkan-shirts-893",
+    "id": "tkan-shirts-0893",
     "category": "shirts",
-    "slug": "tkan-shirts-893",
+    "slug": "tkan-shirts-0893",
     "title": {
-      "ua": "Тканина 893",
-      "ru": "Ткань 893"
+      "ua": "Тканина 0893",
+      "ru": "Ткань 0893"
     },
     "isNew": false,
     "images": [],
@@ -1333,12 +1333,12 @@
     }
   },
   {
-    "id": "tkan-shirts-734",
+    "id": "tkan-shirts-0734",
     "category": "shirts",
-    "slug": "tkan-shirts-734",
+    "slug": "tkan-shirts-0734",
     "title": {
-      "ua": "Тканина 734",
-      "ru": "Ткань 734"
+      "ua": "Тканина 0734",
+      "ru": "Ткань 0734"
     },
     "isNew": false,
     "images": [],
@@ -1608,6 +1608,49 @@
       "fabricType": "складне",
       "density": "162",
       "width": "150",
+      "colors": [],
+      "properties": [],
+      "composition": {
+        "cotton": 100,
+        "polyester": 0,
+        "spandex": 0,
+        "rayon": 0,
+        "viscose": 0,
+        "pbt": 0,
+        "lyon": 0,
+        "polyamidePA": 0,
+        "polypropylenePP": 0,
+        "paraAramid": 0,
+        "antistatic": 0,
+        "modacrylicLyocellStaticControl": 0,
+        "nomexKevlarAntiStatic": 0,
+        "nomexParaAramidP140": 0,
+        "pbiKevlarAntistatic": 0,
+        "lenzingFRAramid": 0,
+        "paraAramidSolidPolymerCoating": 0,
+        "frRayonParaAramidPolyamideAntistatic": 0,
+        "MAC": 0
+      }
+    }
+  },
+  {
+    "id": "tkan-shirts-l939",
+    "category": "shirts",
+    "slug": "tkan-shirts-l939",
+    "title": {
+      "ua": "Тканина L939",
+      "ru": "Ткань L939"
+    },
+    "isNew": false,
+    "images": [],
+    "description": {
+      "ua": "100% бавовна легка, комфортна, дихаюча,",
+      "ru": "100% бавовна  легкая, комфортная, дышащая"
+    },
+    "attributes": {
+      "fabricType": "складне",
+      "density": "192",
+      "width": "147-150",
       "colors": [],
       "properties": [],
       "composition": {
@@ -2150,12 +2193,12 @@
     }
   },
   {
-    "id": "tkan-shirts-480",
+    "id": "tkan-shirts-0480",
     "category": "shirts",
-    "slug": "tkan-shirts-480",
+    "slug": "tkan-shirts-0480",
     "title": {
-      "ua": "Тканина 480",
-      "ru": "Ткань 480"
+      "ua": "Тканина 0480",
+      "ru": "Ткань 0480"
     },
     "isNew": false,
     "images": [],
