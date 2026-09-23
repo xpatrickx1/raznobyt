@@ -213,5 +213,48 @@
         "MAC": 0
       }
     }
+  },
+  {
+    "id": "tkan-fleece-",
+    "category": "fleece",
+    "slug": "tkan-fleece-",
+    "title": {
+      "ua": "Тканина фліс с мембраной",
+      "ru": "Ткань фліс с мембраной"
+    },
+    "isNew": false,
+    "images": [],
+    "description": {
+      "ua": "100% поліестер,  Захист від вітру та незначних опадів, Мембрана.  250г/м.кв,  150см",
+      "ru": "100% полиэстер,  Защита от ветра и незначительных осадков, Мембрана.  250г/м.кв,  150см"
+    },
+    "attributes": {
+      "fabricType": "трикотажне",
+      "density": "250",
+      "width": "143",
+      "colors": [],
+      "properties": [],
+      "composition": {
+        "cotton": 0,
+        "polyester": 100,
+        "spandex": 0,
+        "rayon": 0,
+        "viscose": 0,
+        "pbt": 0,
+        "lyon": 0,
+        "polyamidePA": 0,
+        "polypropylenePP": 0,
+        "paraAramid": 0,
+        "antistatic": 0,
+        "modacrylicLyocellStaticControl": 0,
+        "nomexKevlarAntiStatic": 0,
+        "nomexParaAramidP140": 0,
+        "pbiKevlarAntistatic": 0,
+        "lenzingFRAramid": 0,
+        "paraAramidSolidPolymerCoating": 0,
+        "frRayonParaAramidPolyamideAntistatic": 0,
+        "MAC": 0
+      }
+    }
   }
 ]

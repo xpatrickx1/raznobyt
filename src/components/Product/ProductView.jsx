@@ -110,6 +110,7 @@ export default function ProductView({ product, related = [] }) {
         : '';
 
     const attrs = [
+        ...(product.subcat ? [{ label: t('catalog.subcategory'), value: t(`subcategories.${product.subcat}`) || product.subcat }] : []),
         { label: t('product.composition'), value: formatComposition(product.attributes.composition, lang) },
         { label: t('product.density'), value: densityVal },
         { label: t('product.width'), value: widthVal },

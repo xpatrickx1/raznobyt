@@ -53,6 +53,7 @@ function CategoryPage({ slug: externalSlug = null }) {
   };
 
   const search = searchParams.get('q') || '';
+  const selectedSubcats = getArray('subcats');
   const selectedTypes = getArray('types');
   const selectedColors = getArray('colors');
   const selectedDensities = getArray('densities');
@@ -61,6 +62,7 @@ function CategoryPage({ slug: externalSlug = null }) {
   const page = parseInt(searchParams.get('page') || '1', 10);
 
   const setSearch = (val) => update({ q: val, page: undefined });
+  const setSelectedSubcats = (arr) => update({ subcats: arr, page: undefined });
   const setSelectedTypes = (arr) => update({ types: arr, page: undefined });
   const setSelectedColors = (arr) => update({ colors: arr, page: undefined });
   const setSelectedDensities = (arr) => update({ densities: arr, page: undefined });
@@ -71,6 +73,7 @@ function CategoryPage({ slug: externalSlug = null }) {
   const clearAllFilters = () => {
     update({
       q: undefined,
+      subcats: [],
       types: [],
       colors: [],
       densities: [],
@@ -86,6 +89,7 @@ function CategoryPage({ slug: externalSlug = null }) {
       cat={cat}
       products={products}
       search={search}
+      selectedSubcats={selectedSubcats} setSelectedSubcats={setSelectedSubcats}
       selectedTypes={selectedTypes} setSelectedTypes={setSelectedTypes}
       selectedColors={selectedColors} setSelectedColors={setSelectedColors}
       selectedDensities={selectedDensities} setSelectedDensities={setSelectedDensities}

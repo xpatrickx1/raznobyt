@@ -161,6 +161,8 @@
       "search": "Пошук за назвою...",
       "filters": "Фільтри",
       "category": "Категорія",
+      "subcategory": "Підкатегорія",
+      "subcategories": "Підкатегорії",
       "fabricType": "Тип тканини",
       "color": "Колір",
       "all": "Всі",
@@ -169,7 +171,18 @@
       "showing": "Показано",
       "of": "з",
       "products": "товарів",
-      "clearFilters": "Скинути фільтри"
+      "clearFilters": "Скинути фільтри",
+      "viewOneCol": "В 1 колонку",
+      "viewTwoCols": "У 2 колонки",
+      "viewMode": "Вигляд товарів"
+    },
+    "subcategories": {
+      "all": "Всі",
+      "solid": "Однотонні",
+      "cell": "У клітинку",
+      "strip": "У смужку",
+      "dot": "У горошок",
+      "print": "З малюнком"
     },
     "product": {
       "composition": "Склад",
@@ -410,6 +423,8 @@
       "search": "Поиск по названию...",
       "filters": "Фильтры",
       "category": "Категория",
+      "subcategory": "Подкатегория",
+      "subcategories": "Подкатегории",
       "fabricType": "Тип ткани",
       "color": "Цвет",
       "all": "Все",
@@ -418,7 +433,18 @@
       "showing": "Показано",
       "of": "из",
       "products": "товаров",
-      "clearFilters": "Сбросить фильтры"
+      "clearFilters": "Сбросить фильтры",
+      "viewOneCol": "В 1 колонку",
+      "viewTwoCols": "В 2 колонки",
+      "viewMode": "Вид товаров"
+    },
+    "subcategories": {
+      "all": "Все",
+      "solid": "Однотонные",
+      "cell": "В клетку",
+      "strip": "В полоску",
+      "dot": "В горошек",
+      "print": "С рисунком"
     },
     "product": {
       "composition": "Состав",

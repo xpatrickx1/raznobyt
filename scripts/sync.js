@@ -145,6 +145,7 @@ async function main() {
       products.push({
         id: slug,
         category: sheetName,
+        ...(row.subcat ? { subcat: row.subcat.trim().toLowerCase() } : {}),
         slug,
         title: {
           ua: "Тканина " + row.title,

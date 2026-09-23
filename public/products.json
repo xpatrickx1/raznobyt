@@ -2555,12 +2555,12 @@
     }
   },
   {
-    "id": "tkan-workwear-3928",
+    "id": "tkan-workwear-03928-denim-stretch",
     "category": "workwear",
-    "slug": "tkan-workwear-3928",
+    "slug": "tkan-workwear-03928-denim-stretch",
     "title": {
-      "ua": "Тканина 3928",
-      "ru": "Ткань 3928"
+      "ua": "Тканина 03928 DENIM STRETCH",
+      "ru": "Ткань 03928 DENIM STRETCH"
     },
     "isNew": false,
     "images": [],
@@ -3031,6 +3031,178 @@
         "cotton": 60,
         "polyester": 40,
         "spandex": 0,
+        "rayon": 0,
+        "viscose": 0,
+        "pbt": 0,
+        "lyon": 0,
+        "polyamidePA": 0,
+        "polypropylenePP": 0,
+        "paraAramid": 0,
+        "antistatic": 0,
+        "modacrylicLyocellStaticControl": 0,
+        "nomexKevlarAntiStatic": 0,
+        "nomexParaAramidP140": 0,
+        "pbiKevlarAntistatic": 0,
+        "lenzingFRAramid": 0,
+        "paraAramidSolidPolymerCoating": 0,
+        "frRayonParaAramidPolyamideAntistatic": 0,
+        "MAC": 0
+      }
+    }
+  },
+  {
+    "id": "tkan-workwear-t147",
+    "category": "workwear",
+    "slug": "tkan-workwear-t147",
+    "title": {
+      "ua": "Тканина T147",
+      "ru": "Ткань T147"
+    },
+    "isNew": false,
+    "images": [],
+    "description": {
+      "ua": "Високоякісна змішана тканина саржевого переплетення. Склад: 35% бавовна, 65% поліестр. Щільність 220 г/м².  Для корпоративного одягу та HORECA.",
+      "ru": "Высококачественная смесовая ткань саржевого переплетения. Состав: 35% хлопок, 65% полиэстер. Плотность 220 г/м². Для корпоративной одежды и HORECA."
+    },
+    "attributes": {
+      "fabricType": "",
+      "density": "220",
+      "width": "150",
+      "colors": [],
+      "properties": [],
+      "composition": {
+        "cotton": 35,
+        "polyester": 65,
+        "spandex": 0,
+        "rayon": 0,
+        "viscose": 0,
+        "pbt": 0,
+        "lyon": 0,
+        "polyamidePA": 0,
+        "polypropylenePP": 0,
+        "paraAramid": 0,
+        "antistatic": 0,
+        "modacrylicLyocellStaticControl": 0,
+        "nomexKevlarAntiStatic": 0,
+        "nomexParaAramidP140": 0,
+        "pbiKevlarAntistatic": 0,
+        "lenzingFRAramid": 0,
+        "paraAramidSolidPolymerCoating": 0,
+        "frRayonParaAramidPolyamideAntistatic": 0,
+        "MAC": 0
+      }
+    }
+  },
+  {
+    "id": "tkan-workwear-t137",
+    "category": "workwear",
+    "slug": "tkan-workwear-t137",
+    "title": {
+      "ua": "Тканина T137",
+      "ru": "Ткань T137"
+    },
+    "isNew": false,
+    "images": [],
+    "description": {
+      "ua": "Високоякісна змішана тканина саржевого переплетення. Склад: 35% бавовна, 65% поліестр. Щільність 220 г/м².  Для корпоративного одягу та HORECA.",
+      "ru": "Высококачественная смесовая ткань саржевого переплетения. Состав: 35% хлопок, 65% полиэстер. Плотность 220 г/м². Для корпоративной одежды и HORECA."
+    },
+    "attributes": {
+      "fabricType": "",
+      "density": "220",
+      "width": "150",
+      "colors": [],
+      "properties": [],
+      "composition": {
+        "cotton": 35,
+        "polyester": 65,
+        "spandex": 0,
+        "rayon": 0,
+        "viscose": 0,
+        "pbt": 0,
+        "lyon": 0,
+        "polyamidePA": 0,
+        "polypropylenePP": 0,
+        "paraAramid": 0,
+        "antistatic": 0,
+        "modacrylicLyocellStaticControl": 0,
+        "nomexKevlarAntiStatic": 0,
+        "nomexParaAramidP140": 0,
+        "pbiKevlarAntistatic": 0,
+        "lenzingFRAramid": 0,
+        "paraAramidSolidPolymerCoating": 0,
+        "frRayonParaAramidPolyamideAntistatic": 0,
+        "MAC": 0
+      }
+    }
+  },
+  {
+    "id": "tkan-workwear-t138",
+    "category": "workwear",
+    "slug": "tkan-workwear-t138",
+    "title": {
+      "ua": "Тканина T138",
+      "ru": "Ткань T138"
+    },
+    "isNew": false,
+    "images": [],
+    "description": {
+      "ua": "Високоякісна змішана тканина саржевого переплетення. Склад: 35% бавовна, 65% поліестр. Щільність 230 г/м².  Для корпоративного одягу та HORECA.",
+      "ru": "Высококачественная смесовая ткань саржевого переплетения. Состав: 35% хлопок, 65% полиэстер. Плотность 230 г/м². Для корпоративной одежды и HORECA."
+    },
+    "attributes": {
+      "fabricType": "",
+      "density": "230",
+      "width": "150",
+      "colors": [],
+      "properties": [],
+      "composition": {
+        "cotton": 35,
+        "polyester": 65,
+        "spandex": 0,
+        "rayon": 0,
+        "viscose": 0,
+        "pbt": 0,
+        "lyon": 0,
+        "polyamidePA": 0,
+        "polypropylenePP": 0,
+        "paraAramid": 0,
+        "antistatic": 0,
+        "modacrylicLyocellStaticControl": 0,
+        "nomexKevlarAntiStatic": 0,
+        "nomexParaAramidP140": 0,
+        "pbiKevlarAntistatic": 0,
+        "lenzingFRAramid": 0,
+        "paraAramidSolidPolymerCoating": 0,
+        "frRayonParaAramidPolyamideAntistatic": 0,
+        "MAC": 0
+      }
+    }
+  },
+  {
+    "id": "tkan-workwear-t144",
+    "category": "workwear",
+    "slug": "tkan-workwear-t144",
+    "title": {
+      "ua": "Тканина T144",
+      "ru": "Ткань T144"
+    },
+    "isNew": false,
+    "images": [],
+    "description": {
+      "ua": "Високоякісна змішана тканина саржевого переплетення. Склад: 35% бавовна, 58% поліестр, 4% еластан. Щільність 220 г/м².  Для корпоративного одягу та HORECA.",
+      "ru": "Высококачественная смесовая ткань саржевого переплетения. Состав: 35% хлопок, 65% полиэстер, 4% эластан. Плотность 220 г/м². Для корпоративной одежды и HORECA."
+    },
+    "attributes": {
+      "fabricType": "",
+      "density": "220",
+      "width": "150",
+      "colors": [],
+      "properties": [],
+      "composition": {
+        "cotton": 35,
+        "polyester": 58,
+        "spandex": 4,
         "rayon": 0,
         "viscose": 0,
         "pbt": 0,
@@ -9628,6 +9800,7 @@
   {
     "id": "tkan-shirts-263",
     "category": "shirts",
+    "subcat": "solid",
     "slug": "tkan-shirts-263",
     "title": {
       "ua": "Тканина А263",
@@ -9727,6 +9900,7 @@
   {
     "id": "tkan-shirts-flash-f1",
     "category": "shirts",
+    "subcat": "solid",
     "slug": "tkan-shirts-flash-f1",
     "title": {
       "ua": "Тканина FLASH F1",
@@ -9802,6 +9976,7 @@
   {
     "id": "tkan-shirts-9327",
     "category": "shirts",
+    "subcat": "solid",
     "slug": "tkan-shirts-9327",
     "title": {
       "ua": "Тканина 9327",
@@ -9877,6 +10052,7 @@
   {
     "id": "tkan-shirts-linen-viscose",
     "category": "shirts",
+    "subcat": "solid",
     "slug": "tkan-shirts-linen-viscose",
     "title": {
       "ua": "Тканина LINEN VISCOSE",
@@ -9958,6 +10134,7 @@
   {
     "id": "tkan-shirts-02699",
     "category": "shirts",
+    "subcat": "solid",
     "slug": "tkan-shirts-02699",
     "title": {
       "ua": "Тканина 02699",
@@ -10051,6 +10228,7 @@
   {
     "id": "tkan-shirts-353",
     "category": "shirts",
+    "subcat": "cell",
     "slug": "tkan-shirts-353",
     "title": {
       "ua": "Тканина А353",
@@ -10108,6 +10286,7 @@
   {
     "id": "tkan-shirts-331",
     "category": "shirts",
+    "subcat": "cell",
     "slug": "tkan-shirts-331",
     "title": {
       "ua": "Тканина А331",
@@ -10202,6 +10381,7 @@
   {
     "id": "tkan-shirts-386",
     "category": "shirts",
+    "subcat": "cell",
     "slug": "tkan-shirts-386",
     "title": {
       "ua": "Тканина А386",
@@ -10253,6 +10433,7 @@
   {
     "id": "tkan-shirts-4664",
     "category": "shirts",
+    "subcat": "cell",
     "slug": "tkan-shirts-4664",
     "title": {
       "ua": "Тканина 4664",
@@ -10304,6 +10485,7 @@
   {
     "id": "tkan-shirts-112",
     "category": "shirts",
+    "subcat": "cell",
     "slug": "tkan-shirts-112",
     "title": {
       "ua": "Тканина А112",
@@ -10373,6 +10555,7 @@
   {
     "id": "tkan-shirts-5845",
     "category": "shirts",
+    "subcat": "cell",
     "slug": "tkan-shirts-5845",
     "title": {
       "ua": "Тканина 5845",
@@ -10436,6 +10619,7 @@
   {
     "id": "tkan-shirts-5339",
     "category": "shirts",
+    "subcat": "cell",
     "slug": "tkan-shirts-5339",
     "title": {
       "ua": "Тканина 5339",
@@ -10499,6 +10683,7 @@
   {
     "id": "tkan-shirts-5507",
     "category": "shirts",
+    "subcat": "cell",
     "slug": "tkan-shirts-5507",
     "title": {
       "ua": "Тканина 5507",
@@ -10550,6 +10735,7 @@
   {
     "id": "tkan-shirts-5764",
     "category": "shirts",
+    "subcat": "cell",
     "slug": "tkan-shirts-5764",
     "title": {
       "ua": "Тканина 5764",
@@ -10601,6 +10787,7 @@
   {
     "id": "tkan-shirts-7251",
     "category": "shirts",
+    "subcat": "solid",
     "slug": "tkan-shirts-7251",
     "title": {
       "ua": "Тканина 7251",
@@ -10730,6 +10917,7 @@
   {
     "id": "tkan-shirts-rc113cv",
     "category": "shirts",
+    "subcat": "solid",
     "slug": "tkan-shirts-rc113cv",
     "title": {
       "ua": "Тканина RC113CV",
@@ -10793,6 +10981,7 @@
   {
     "id": "tkan-shirts-lt2111",
     "category": "shirts",
+    "subcat": "solid",
     "slug": "tkan-shirts-lt2111",
     "title": {
       "ua": "Тканина LT2111",
@@ -10880,6 +11069,7 @@
   {
     "id": "tkan-shirts-196",
     "category": "shirts",
+    "subcat": "solid",
     "slug": "tkan-shirts-196",
     "title": {
       "ua": "Тканина А196",
@@ -10949,6 +11139,7 @@
   {
     "id": "tkan-shirts-359",
     "category": "shirts",
+    "subcat": "solid",
     "slug": "tkan-shirts-359",
     "title": {
       "ua": "Тканина А359",
@@ -11030,6 +11221,7 @@
   {
     "id": "tkan-shirts-1021",
     "category": "shirts",
+    "subcat": "solid",
     "slug": "tkan-shirts-1021",
     "title": {
       "ua": "Тканина 1021",
@@ -11142,6 +11334,7 @@
   {
     "id": "tkan-shirts-573",
     "category": "shirts",
+    "subcat": "solid",
     "slug": "tkan-shirts-573",
     "title": {
       "ua": "Тканина А573",
@@ -11193,6 +11386,7 @@
   {
     "id": "tkan-shirts-l678",
     "category": "shirts",
+    "subcat": "solid",
     "slug": "tkan-shirts-l678",
     "title": {
       "ua": "Тканина L678",
@@ -11244,6 +11438,7 @@
   {
     "id": "tkan-shirts-l493",
     "category": "shirts",
+    "subcat": "solid",
     "slug": "tkan-shirts-l493",
     "title": {
       "ua": "Тканина L493",
@@ -11338,6 +11533,7 @@
   {
     "id": "tkan-shirts-2161",
     "category": "shirts",
+    "subcat": "solid",
     "slug": "tkan-shirts-2161",
     "title": {
       "ua": "Тканина 2161",
@@ -11475,6 +11671,7 @@
   {
     "id": "tkan-shirts-0533",
     "category": "shirts",
+    "subcat": "solid",
     "slug": "tkan-shirts-0533",
     "title": {
       "ua": "Тканина 0533",
@@ -11526,6 +11723,7 @@
   {
     "id": "tkan-shirts-0738",
     "category": "shirts",
+    "subcat": "solid",
     "slug": "tkan-shirts-0738",
     "title": {
       "ua": "Тканина 0738",
@@ -11577,6 +11775,7 @@
   {
     "id": "tkan-shirts-202",
     "category": "shirts",
+    "subcat": "dot",
     "slug": "tkan-shirts-202",
     "title": {
       "ua": "Тканина А202",
@@ -11628,6 +11827,7 @@
   {
     "id": "tkan-shirts-0437",
     "category": "shirts",
+    "subcat": "solid",
     "slug": "tkan-shirts-0437",
     "title": {
       "ua": "Тканина 0437",
@@ -11679,6 +11879,7 @@
   {
     "id": "tkan-shirts-0893",
     "category": "shirts",
+    "subcat": "solid",
     "slug": "tkan-shirts-0893",
     "title": {
       "ua": "Тканина 0893",
@@ -11730,6 +11931,7 @@
   {
     "id": "tkan-shirts-0734",
     "category": "shirts",
+    "subcat": "solid",
     "slug": "tkan-shirts-0734",
     "title": {
       "ua": "Тканина 0734",
@@ -11781,6 +11983,7 @@
   {
     "id": "tkan-shirts-solid",
     "category": "shirts",
+    "subcat": "solid",
     "slug": "tkan-shirts-solid",
     "title": {
       "ua": "Тканина SOLID",
@@ -11832,6 +12035,7 @@
   {
     "id": "tkan-shirts-561",
     "category": "shirts",
+    "subcat": "solid",
     "slug": "tkan-shirts-561",
     "title": {
       "ua": "Тканина А561",
@@ -11883,6 +12087,7 @@
   {
     "id": "tkan-shirts-489",
     "category": "shirts",
+    "subcat": "solid",
     "slug": "tkan-shirts-489",
     "title": {
       "ua": "Тканина А489",
@@ -11934,6 +12139,7 @@
   {
     "id": "tkan-shirts-469",
     "category": "shirts",
+    "subcat": "solid",
     "slug": "tkan-shirts-469",
     "title": {
       "ua": "Тканина А469",
@@ -11985,6 +12191,7 @@
   {
     "id": "tkan-shirts-325",
     "category": "shirts",
+    "subcat": "strip",
     "slug": "tkan-shirts-325",
     "title": {
       "ua": "Тканина А325",
@@ -12128,6 +12335,7 @@
   {
     "id": "tkan-shirts-l927",
     "category": "shirts",
+    "subcat": "strip",
     "slug": "tkan-shirts-l927",
     "title": {
       "ua": "Тканина L927",
@@ -12179,6 +12387,7 @@
   {
     "id": "tkan-shirts-8845",
     "category": "shirts",
+    "subcat": "strip",
     "slug": "tkan-shirts-8845",
     "title": {
       "ua": "Тканина 8845",
@@ -12230,6 +12439,7 @@
   {
     "id": "tkan-shirts-cotton-tex-f907",
     "category": "shirts",
+    "subcat": "strip",
     "slug": "tkan-shirts-cotton-tex-f907",
     "title": {
       "ua": "Тканина COTTON TEX F907",
@@ -12281,6 +12491,7 @@
   {
     "id": "tkan-shirts-5844",
     "category": "shirts",
+    "subcat": "strip",
     "slug": "tkan-shirts-5844",
     "title": {
       "ua": "Тканина 5844",
@@ -12350,6 +12561,7 @@
   {
     "id": "tkan-shirts-5834",
     "category": "shirts",
+    "subcat": "strip",
     "slug": "tkan-shirts-5834",
     "title": {
       "ua": "Тканина 5834",
@@ -12401,6 +12613,7 @@
   {
     "id": "tkan-shirts-9600",
     "category": "shirts",
+    "subcat": "strip",
     "slug": "tkan-shirts-9600",
     "title": {
       "ua": "Тканина 9600",
@@ -12470,6 +12683,7 @@
   {
     "id": "tkan-shirts-509",
     "category": "shirts",
+    "subcat": "print",
     "slug": "tkan-shirts-509",
     "title": {
       "ua": "Тканина А509",
@@ -12521,6 +12735,7 @@
   {
     "id": "tkan-shirts-044",
     "category": "shirts",
+    "subcat": "print",
     "slug": "tkan-shirts-044",
     "title": {
       "ua": "Тканина А044",
@@ -12572,6 +12787,7 @@
   {
     "id": "tkan-shirts-042-2",
     "category": "shirts",
+    "subcat": "dot",
     "slug": "tkan-shirts-042-2",
     "title": {
       "ua": "Тканина А042",
@@ -12623,6 +12839,7 @@
   {
     "id": "tkan-shirts-9862",
     "category": "shirts",
+    "subcat": "dot",
     "slug": "tkan-shirts-9862",
     "title": {
       "ua": "Тканина 9862",
@@ -12674,6 +12891,7 @@
   {
     "id": "tkan-shirts-9700",
     "category": "shirts",
+    "subcat": "dot",
     "slug": "tkan-shirts-9700",
     "title": {
       "ua": "Тканина 9700",
@@ -12731,6 +12949,7 @@
   {
     "id": "tkan-shirts-9998",
     "category": "shirts",
+    "subcat": "print",
     "slug": "tkan-shirts-9998",
     "title": {
       "ua": "Тканина 9998",
@@ -12788,6 +13007,7 @@
   {
     "id": "tkan-shirts-0480",
     "category": "shirts",
+    "subcat": "solid",
     "slug": "tkan-shirts-0480",
     "title": {
       "ua": "Тканина 0480",
@@ -12881,6 +13101,7 @@
   {
     "id": "tkan-shirts-1030",
     "category": "shirts",
+    "subcat": "solid",
     "slug": "tkan-shirts-1030",
     "title": {
       "ua": "Тканина 1030",
@@ -12938,6 +13159,7 @@
   {
     "id": "tkan-shirts-rc118c",
     "category": "shirts",
+    "subcat": "solid",
     "slug": "tkan-shirts-rc118c",
     "title": {
       "ua": "Тканина RC118C",
@@ -13001,6 +13223,7 @@
   {
     "id": "tkan-shirts-1199",
     "category": "shirts",
+    "subcat": "solid",
     "slug": "tkan-shirts-1199",
     "title": {
       "ua": "Тканина 1199",
@@ -13064,6 +13287,7 @@
   {
     "id": "tkan-shirts-112-2",
     "category": "shirts",
+    "subcat": "solid",
     "slug": "tkan-shirts-112-2",
     "title": {
       "ua": "Тканина В112",
@@ -13115,6 +13339,7 @@
   {
     "id": "tkan-shirts-lt1109",
     "category": "shirts",
+    "subcat": "solid",
     "slug": "tkan-shirts-lt1109",
     "title": {
       "ua": "Тканина LT1109",
@@ -13215,6 +13440,7 @@
   {
     "id": "tkan-shirts-3009",
     "category": "shirts",
+    "subcat": "solid",
     "slug": "tkan-shirts-3009",
     "title": {
       "ua": "Тканина 3009",
@@ -13272,6 +13498,7 @@
   {
     "id": "tkan-shirts-tr251",
     "category": "shirts",
+    "subcat": "solid",
     "slug": "tkan-shirts-tr251",
     "title": {
       "ua": "Тканина TR251",
@@ -13425,6 +13652,7 @@
   {
     "id": "tkan-shirts-tr-065",
     "category": "shirts",
+    "subcat": "solid",
     "slug": "tkan-shirts-tr-065",
     "title": {
       "ua": "Тканина TR-065",
@@ -13518,6 +13746,7 @@
   {
     "id": "tkan-shirts-9037",
     "category": "shirts",
+    "subcat": "solid",
     "slug": "tkan-shirts-9037",
     "title": {
       "ua": "Тканина 9037",
@@ -13587,6 +13816,7 @@
   {
     "id": "tkan-shirts-9065",
     "category": "shirts",
+    "subcat": "solid",
     "slug": "tkan-shirts-9065",
     "title": {
       "ua": "Тканина 9065",
@@ -13638,6 +13868,7 @@
   {
     "id": "tkan-shirts-l601",
     "category": "shirts",
+    "subcat": "solid",
     "slug": "tkan-shirts-l601",
     "title": {
       "ua": "Тканина L601",
@@ -13689,6 +13920,7 @@
   {
     "id": "tkan-shirts-a477",
     "category": "shirts",
+    "subcat": "solid",
     "slug": "tkan-shirts-a477",
     "title": {
       "ua": "Тканина A477",
@@ -13746,6 +13978,7 @@
   {
     "id": "tkan-shirts-l492",
     "category": "shirts",
+    "subcat": "solid",
     "slug": "tkan-shirts-l492",
     "title": {
       "ua": "Тканина L492",
@@ -16958,18 +17191,18 @@
     }
   },
   {
-    "id": "tkan-jeans-3928",
+    "id": "tkan-jeans-03928-denim-stretch",
     "category": "jeans",
-    "slug": "tkan-jeans-3928",
+    "slug": "tkan-jeans-03928-denim-stretch",
     "title": {
-      "ua": "Тканина 3928",
-      "ru": "Ткань 3928"
+      "ua": "Тканина 03928 DENIM STRETCH",
+      "ru": "Ткань 03928 DENIM STRETCH"
     },
     "isNew": false,
     "images": [],
     "description": {
-      "ua": "48% бавовна,  48% поліестер,  4% стрейч,  280 г/м.кв,  саржа,  140см",
-      "ru": "48% хлопок,  48% полиестер,  4% стрейч,  280 г/м.кв,  саржа,  140см"
+      "ua": "48% бавовна,  48% поліестер,  4% стрейч,  280 г/м.кв,  саржа,  140см. Протиусадкова обробка.",
+      "ru": "48% хлопок,  48% полиестер,  4% стрейч,  280 г/м.кв,  саржа,  140см. Противоусадочная обработка."
     },
     "attributes": {
       "fabricType": "саржа",
@@ -17281,6 +17514,49 @@
       "composition": {
         "cotton": 100,
         "polyester": 0,
+        "spandex": 0,
+        "rayon": 0,
+        "viscose": 0,
+        "pbt": 0,
+        "lyon": 0,
+        "polyamidePA": 0,
+        "polypropylenePP": 0,
+        "paraAramid": 0,
+        "antistatic": 0,
+        "modacrylicLyocellStaticControl": 0,
+        "nomexKevlarAntiStatic": 0,
+        "nomexParaAramidP140": 0,
+        "pbiKevlarAntistatic": 0,
+        "lenzingFRAramid": 0,
+        "paraAramidSolidPolymerCoating": 0,
+        "frRayonParaAramidPolyamideAntistatic": 0,
+        "MAC": 0
+      }
+    }
+  },
+  {
+    "id": "tkan-fleece-",
+    "category": "fleece",
+    "slug": "tkan-fleece-",
+    "title": {
+      "ua": "Тканина фліс с мембраной",
+      "ru": "Ткань фліс с мембраной"
+    },
+    "isNew": false,
+    "images": [],
+    "description": {
+      "ua": "100% поліестер,  Захист від вітру та незначних опадів, Мембрана.  250г/м.кв,  150см",
+      "ru": "100% полиэстер,  Защита от ветра и незначительных осадков, Мембрана.  250г/м.кв,  150см"
+    },
+    "attributes": {
+      "fabricType": "трикотажне",
+      "density": "250",
+      "width": "143",
+      "colors": [],
+      "properties": [],
+      "composition": {
+        "cotton": 0,
+        "polyester": 100,
         "spandex": 0,
         "rayon": 0,
         "viscose": 0,

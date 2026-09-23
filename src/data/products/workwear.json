@@ -2555,12 +2555,12 @@
     }
   },
   {
-    "id": "tkan-workwear-3928",
+    "id": "tkan-workwear-03928-denim-stretch",
     "category": "workwear",
-    "slug": "tkan-workwear-3928",
+    "slug": "tkan-workwear-03928-denim-stretch",
     "title": {
-      "ua": "Тканина 3928",
-      "ru": "Ткань 3928"
+      "ua": "Тканина 03928 DENIM STRETCH",
+      "ru": "Ткань 03928 DENIM STRETCH"
     },
     "isNew": false,
     "images": [],
@@ -3031,6 +3031,178 @@
         "cotton": 60,
         "polyester": 40,
         "spandex": 0,
+        "rayon": 0,
+        "viscose": 0,
+        "pbt": 0,
+        "lyon": 0,
+        "polyamidePA": 0,
+        "polypropylenePP": 0,
+        "paraAramid": 0,
+        "antistatic": 0,
+        "modacrylicLyocellStaticControl": 0,
+        "nomexKevlarAntiStatic": 0,
+        "nomexParaAramidP140": 0,
+        "pbiKevlarAntistatic": 0,
+        "lenzingFRAramid": 0,
+        "paraAramidSolidPolymerCoating": 0,
+        "frRayonParaAramidPolyamideAntistatic": 0,
+        "MAC": 0
+      }
+    }
+  },
+  {
+    "id": "tkan-workwear-t147",
+    "category": "workwear",
+    "slug": "tkan-workwear-t147",
+    "title": {
+      "ua": "Тканина T147",
+      "ru": "Ткань T147"
+    },
+    "isNew": false,
+    "images": [],
+    "description": {
+      "ua": "Високоякісна змішана тканина саржевого переплетення. Склад: 35% бавовна, 65% поліестр. Щільність 220 г/м².  Для корпоративного одягу та HORECA.",
+      "ru": "Высококачественная смесовая ткань саржевого переплетения. Состав: 35% хлопок, 65% полиэстер. Плотность 220 г/м². Для корпоративной одежды и HORECA."
+    },
+    "attributes": {
+      "fabricType": "",
+      "density": "220",
+      "width": "150",
+      "colors": [],
+      "properties": [],
+      "composition": {
+        "cotton": 35,
+        "polyester": 65,
+        "spandex": 0,
+        "rayon": 0,
+        "viscose": 0,
+        "pbt": 0,
+        "lyon": 0,
+        "polyamidePA": 0,
+        "polypropylenePP": 0,
+        "paraAramid": 0,
+        "antistatic": 0,
+        "modacrylicLyocellStaticControl": 0,
+        "nomexKevlarAntiStatic": 0,
+        "nomexParaAramidP140": 0,
+        "pbiKevlarAntistatic": 0,
+        "lenzingFRAramid": 0,
+        "paraAramidSolidPolymerCoating": 0,
+        "frRayonParaAramidPolyamideAntistatic": 0,
+        "MAC": 0
+      }
+    }
+  },
+  {
+    "id": "tkan-workwear-t137",
+    "category": "workwear",
+    "slug": "tkan-workwear-t137",
+    "title": {
+      "ua": "Тканина T137",
+      "ru": "Ткань T137"
+    },
+    "isNew": false,
+    "images": [],
+    "description": {
+      "ua": "Високоякісна змішана тканина саржевого переплетення. Склад: 35% бавовна, 65% поліестр. Щільність 220 г/м².  Для корпоративного одягу та HORECA.",
+      "ru": "Высококачественная смесовая ткань саржевого переплетения. Состав: 35% хлопок, 65% полиэстер. Плотность 220 г/м². Для корпоративной одежды и HORECA."
+    },
+    "attributes": {
+      "fabricType": "",
+      "density": "220",
+      "width": "150",
+      "colors": [],
+      "properties": [],
+      "composition": {
+        "cotton": 35,
+        "polyester": 65,
+        "spandex": 0,
+        "rayon": 0,
+        "viscose": 0,
+        "pbt": 0,
+        "lyon": 0,
+        "polyamidePA": 0,
+        "polypropylenePP": 0,
+        "paraAramid": 0,
+        "antistatic": 0,
+        "modacrylicLyocellStaticControl": 0,
+        "nomexKevlarAntiStatic": 0,
+        "nomexParaAramidP140": 0,
+        "pbiKevlarAntistatic": 0,
+        "lenzingFRAramid": 0,
+        "paraAramidSolidPolymerCoating": 0,
+        "frRayonParaAramidPolyamideAntistatic": 0,
+        "MAC": 0
+      }
+    }
+  },
+  {
+    "id": "tkan-workwear-t138",
+    "category": "workwear",
+    "slug": "tkan-workwear-t138",
+    "title": {
+      "ua": "Тканина T138",
+      "ru": "Ткань T138"
+    },
+    "isNew": false,
+    "images": [],
+    "description": {
+      "ua": "Високоякісна змішана тканина саржевого переплетення. Склад: 35% бавовна, 65% поліестр. Щільність 230 г/м².  Для корпоративного одягу та HORECA.",
+      "ru": "Высококачественная смесовая ткань саржевого переплетения. Состав: 35% хлопок, 65% полиэстер. Плотность 230 г/м². Для корпоративной одежды и HORECA."
+    },
+    "attributes": {
+      "fabricType": "",
+      "density": "230",
+      "width": "150",
+      "colors": [],
+      "properties": [],
+      "composition": {
+        "cotton": 35,
+        "polyester": 65,
+        "spandex": 0,
+        "rayon": 0,
+        "viscose": 0,
+        "pbt": 0,
+        "lyon": 0,
+        "polyamidePA": 0,
+        "polypropylenePP": 0,
+        "paraAramid": 0,
+        "antistatic": 0,
+        "modacrylicLyocellStaticControl": 0,
+        "nomexKevlarAntiStatic": 0,
+        "nomexParaAramidP140": 0,
+        "pbiKevlarAntistatic": 0,
+        "lenzingFRAramid": 0,
+        "paraAramidSolidPolymerCoating": 0,
+        "frRayonParaAramidPolyamideAntistatic": 0,
+        "MAC": 0
+      }
+    }
+  },
+  {
+    "id": "tkan-workwear-t144",
+    "category": "workwear",
+    "slug": "tkan-workwear-t144",
+    "title": {
+      "ua": "Тканина T144",
+      "ru": "Ткань T144"
+    },
+    "isNew": false,
+    "images": [],
+    "description": {
+      "ua": "Високоякісна змішана тканина саржевого переплетення. Склад: 35% бавовна, 58% поліестр, 4% еластан. Щільність 220 г/м².  Для корпоративного одягу та HORECA.",
+      "ru": "Высококачественная смесовая ткань саржевого переплетения. Состав: 35% хлопок, 65% полиэстер, 4% эластан. Плотность 220 г/м². Для корпоративной одежды и HORECA."
+    },
+    "attributes": {
+      "fabricType": "",
+      "density": "220",
+      "width": "150",
+      "colors": [],
+      "properties": [],
+      "composition": {
+        "cotton": 35,
+        "polyester": 58,
+        "spandex": 4,
         "rayon": 0,
         "viscose": 0,
         "pbt": 0,

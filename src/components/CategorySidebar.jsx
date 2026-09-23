@@ -11,6 +11,9 @@ export default function CategorySidebar({
   t,
   hasFilters,
   clearAll,
+  SUBCATS = [],
+  selectedSubcats = [],
+  setSelectedSubcats,
   FABRIC_TYPES,
   toggleSection,
   expandedSections,
@@ -37,6 +40,33 @@ export default function CategorySidebar({
         {t('catalog.filters')}
         {hasFilters && <button className="clear-btn" onClick={clearAll}>{t('catalog.clearFilters')}</button>}
       </div>
+
+      {/* Підкатегорії */}
+      {SUBCATS.length > 0 && (
+        <div className="sidebar__section">
+          <div
+            className="sidebar__section-title collapsible-header"
+            onClick={() => toggleSection('subcat')}
+          >
+            {t('catalog.subcategories')}
+            <span className={`chevron ${expandedSections.includes('subcat') ? 'open' : ''}`}>›</span>
+          </div>
+          <div className={`sidebar__section-content ${expandedSections.includes('subcat') ? 'is-expanded' : ''}`}>
+            <div className="sidebar__section-inner">
+              {SUBCATS.map(sc => (
+                <label key={sc} className={`filter-option ${selectedSubcats.includes(sc) ? 'active' : ''}`}>
+                  <input
+                    type="checkbox"
+                    checked={selectedSubcats.includes(sc)}
+                    onChange={() => toggle(selectedSubcats, setSelectedSubcats, sc)}
+                  />
+                  {t(`subcategories.${sc}`) || sc}
+                </label>
+              ))}
+            </div>
+          </div>
+        </div>
+      )}
 
       {/* Тип тканини */}
       <div className="sidebar__section">
