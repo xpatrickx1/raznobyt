@@ -3006,5 +3006,48 @@
         "MAC": 0
       }
     }
+  },
+  {
+    "id": "tkan-workwear-6527en",
+    "category": "workwear",
+    "slug": "tkan-workwear-6527en",
+    "title": {
+      "ua": "Тканина 6527EN",
+      "ru": "Ткань 6527EN"
+    },
+    "isNew": false,
+    "images": [],
+    "description": {
+      "ua": "Змішана тканина переплетення Канвас. Склад: 60% бавовна, 40% поліестр. Щільність 330 г/м².",
+      "ru": "Смесовая ткань  переплетениt Канвас. Состав: 60% хлопок, 40% полиэстер. Плотность 330 г/м²."
+    },
+    "attributes": {
+      "fabricType": "Canvas",
+      "density": "330",
+      "width": "150",
+      "colors": [],
+      "properties": [],
+      "composition": {
+        "cotton": 60,
+        "polyester": 40,
+        "spandex": 0,
+        "rayon": 0,
+        "viscose": 0,
+        "pbt": 0,
+        "lyon": 0,
+        "polyamidePA": 0,
+        "polypropylenePP": 0,
+        "paraAramid": 0,
+        "antistatic": 0,
+        "modacrylicLyocellStaticControl": 0,
+        "nomexKevlarAntiStatic": 0,
+        "nomexParaAramidP140": 0,
+        "pbiKevlarAntistatic": 0,
+        "lenzingFRAramid": 0,
+        "paraAramidSolidPolymerCoating": 0,
+        "frRayonParaAramidPolyamideAntistatic": 0,
+        "MAC": 0
+      }
+    }
   }
 ]

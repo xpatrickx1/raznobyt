@@ -6,8 +6,9 @@
   "scripts": {
     "sync": "node scripts/sync.js",
     "dev": "vite",
-    "build": "npm run sync && node scripts/optimize-images.js && vite build && node scripts/generate.js && node scripts/optimize-images.js --cleanup",
-    "preview": "vite preview"
+    "build": "npm run sync && node scripts/optimize-images.js && vite build && node scripts/generate.js --cleanup",
+    "preview": "vite preview",
+    "images": "node scripts/optimize-images.js"
   },
   "dependencies": {
     "react": "^18.3.1",

@@ -8,7 +8,17 @@
       "ru": "Ткань А263"
     },
     "isNew": false,
-    "images": [],
+    "images": [
+      "http://catalog.raznobyt.com/images/products/A263/main/31549.jpg",
+      "http://catalog.raznobyt.com/images/products/A263/19681.jpg",
+      "http://catalog.raznobyt.com/images/products/A263/30915.jpg",
+      "http://catalog.raznobyt.com/images/products/A263/31550.jpg",
+      "http://catalog.raznobyt.com/images/products/A263/31552.jpg",
+      "http://catalog.raznobyt.com/images/products/A263/32372.jpg",
+      "http://catalog.raznobyt.com/images/products/A263/32374.jpg",
+      "http://catalog.raznobyt.com/images/products/A263/32375.jpg",
+      "http://catalog.raznobyt.com/images/products/A263/33753.jpg"
+    ],
     "description": {
       "ua": "100%льон  125г/м.кв легка, комфортна, дихаюча, ",
       "ru": "100%льон  125г/м.кв легкая, комфортная, дышащая, "
@@ -17,7 +27,53 @@
       "fabricType": "полотно",
       "density": "125",
       "width": "148",
-      "colors": [],
+      "colors": [
+        {
+          "color": "31549",
+          "image": "http://catalog.raznobyt.com/images/products/A263/main/31549.jpg",
+          "isMain": true
+        },
+        {
+          "color": "19681",
+          "image": "http://catalog.raznobyt.com/images/products/A263/19681.jpg",
+          "isMain": false
+        },
+        {
+          "color": "30915",
+          "image": "http://catalog.raznobyt.com/images/products/A263/30915.jpg",
+          "isMain": false
+        },
+        {
+          "color": "31550",
+          "image": "http://catalog.raznobyt.com/images/products/A263/31550.jpg",
+          "isMain": false
+        },
+        {
+          "color": "31552",
+          "image": "http://catalog.raznobyt.com/images/products/A263/31552.jpg",
+          "isMain": false
+        },
+        {
+          "color": "32372",
+          "image": "http://catalog.raznobyt.com/images/products/A263/32372.jpg",
+          "isMain": false
+        },
+        {
+          "color": "32374",
+          "image": "http://catalog.raznobyt.com/images/products/A263/32374.jpg",
+          "isMain": false
+        },
+        {
+          "color": "32375",
+          "image": "http://catalog.raznobyt.com/images/products/A263/32375.jpg",
+          "isMain": false
+        },
+        {
+          "color": "33753",
+          "image": "http://catalog.raznobyt.com/images/products/A263/33753.jpg",
+          "isMain": false
+        }
+      ],
       "properties": [],
       "composition": {
         "cotton": 0,
@@ -51,7 +107,13 @@
       "ru": "Ткань FLASH F1"
     },
     "isNew": false,
-    "images": [],
+    "images": [
+      "http://catalog.raznobyt.com/images/products/FLASH F1/main/82.jpg",
+      "http://catalog.raznobyt.com/images/products/FLASH F1/03.jpg",
+      "http://catalog.raznobyt.com/images/products/FLASH F1/30.jpg",
+      "http://catalog.raznobyt.com/images/products/FLASH F1/114.jpg",
+      "http://catalog.raznobyt.com/images/products/FLASH F1/700.jpg"
+    ],
     "description": {
       "ua": "100% льон 120 г/м.кв. легка, комфортна, дихаюча, ",
       "ru": "100% льон 120 г/м.кв. легкая, комфортная, дышащая, "
@@ -60,7 +122,33 @@
       "fabricType": "полотно",
       "density": "120",
       "width": "148",
-      "colors": [],
+      "colors": [
+        {
+          "color": "82",
+          "image": "http://catalog.raznobyt.com/images/products/FLASH F1/main/82.jpg",
+          "isMain": true
+        },
+        {
+          "color": "03",
+          "image": "http://catalog.raznobyt.com/images/products/FLASH F1/03.jpg",
+          "isMain": false
+        },
+        {
+          "color": "30",
+          "image": "http://catalog.raznobyt.com/images/products/FLASH F1/30.jpg",
+          "isMain": false
+        },
+        {
+          "color": "114",
+          "image": "http://catalog.raznobyt.com/images/products/FLASH F1/114.jpg",
+          "isMain": false
+        },
+        {
+          "color": "700",
+          "image": "http://catalog.raznobyt.com/images/products/FLASH F1/700.jpg",
+          "isMain": false
+        }
+      ],
       "properties": [],
       "composition": {
         "cotton": 0,
@@ -94,7 +182,13 @@
       "ru": "Ткань 9327"
     },
     "isNew": false,
-    "images": [],
+    "images": [
+      "http://catalog.raznobyt.com/images/products/9327/main/1021.jpg",
+      "http://catalog.raznobyt.com/images/products/9327/7.jpg",
+      "http://catalog.raznobyt.com/images/products/9327/9.jpg",
+      "http://catalog.raznobyt.com/images/products/9327/434.jpg",
+      "http://catalog.raznobyt.com/images/products/9327/1121.jpg"
+    ],
     "description": {
       "ua": "100%льон  240 г/м.кв легка, комфортна, дихаюча,  ",
       "ru": "100%льон  240 г/м.кв легкая, комфортная, дышащая, "
@@ -103,7 +197,33 @@
       "fabricType": "полотно",
       "density": "240",
       "width": "148",
-      "colors": [],
+      "colors": [
+        {
+          "color": "1021",
+          "image": "http://catalog.raznobyt.com/images/products/9327/main/1021.jpg",
+          "isMain": true
+        },
+        {
+          "color": "7",
+          "image": "http://catalog.raznobyt.com/images/products/9327/7.jpg",
+          "isMain": false
+        },
+        {
+          "color": "9",
+          "image": "http://catalog.raznobyt.com/images/products/9327/9.jpg",
+          "isMain": false
+        },
+        {
+          "color": "434",
+          "image": "http://catalog.raznobyt.com/images/products/9327/434.jpg",
+          "isMain": false
+        },
+        {
+          "color": "1121",
+          "image": "http://catalog.raznobyt.com/images/products/9327/1121.jpg",
+          "isMain": false
+        }
+      ],
       "properties": [],
       "composition": {
         "cotton": 0,
@@ -137,7 +257,14 @@
       "ru": "Ткань LINEN VISCOSE"
     },
     "isNew": false,
-    "images": [],
+    "images": [
+      "http://catalog.raznobyt.com/images/products/LINEN VISCOSE/main/00.jpg",
+      "http://catalog.raznobyt.com/images/products/LINEN VISCOSE/02.jpg",
+      "http://catalog.raznobyt.com/images/products/LINEN VISCOSE/03.jpg",
+      "http://catalog.raznobyt.com/images/products/LINEN VISCOSE/25.jpg",
+      "http://catalog.raznobyt.com/images/products/LINEN VISCOSE/33.jpg",
+      "http://catalog.raznobyt.com/images/products/LINEN VISCOSE/52.jpg"
+    ],
     "description": {
       "ua": "80%льон, 20% віскоза,  200 г/м.кв легка, комфортна, дихаюча,",
       "ru": "80%льон, 20% віскоза,  200 г/м.кв легкая, комфортная, дышащая,"
@@ -146,7 +273,38 @@
       "fabricType": "полотно",
       "density": "200",
       "width": "148",
-      "colors": [],
+      "colors": [
+        {
+          "color": "00",
+          "image": "http://catalog.raznobyt.com/images/products/LINEN VISCOSE/main/00.jpg",
+          "isMain": true
+        },
+        {
+          "color": "02",
+          "image": "http://catalog.raznobyt.com/images/products/LINEN VISCOSE/02.jpg",
+          "isMain": false
+        },
+        {
+          "color": "03",
+          "image": "http://catalog.raznobyt.com/images/products/LINEN VISCOSE/03.jpg",
+          "isMain": false
+        },
+        {
+          "color": "25",
+          "image": "http://catalog.raznobyt.com/images/products/LINEN VISCOSE/25.jpg",
+          "isMain": false
+        },
+        {
+          "color": "33",
+          "image": "http://catalog.raznobyt.com/images/products/LINEN VISCOSE/33.jpg",
+          "isMain": false
+        },
+        {
+          "color": "52",
+          "image": "http://catalog.raznobyt.com/images/products/LINEN VISCOSE/52.jpg",
+          "isMain": false
+        }
+      ],
       "properties": [],
       "composition": {
         "cotton": 0,
@@ -172,15 +330,24 @@
     }
   },
   {
-    "id": "tkan-shirts-2699",
+    "id": "tkan-shirts-02699",
     "category": "shirts",
-    "slug": "tkan-shirts-2699",
+    "slug": "tkan-shirts-02699",
     "title": {
-      "ua": "Тканина 2699",
-      "ru": "Ткань 2699"
+      "ua": "Тканина 02699",
+      "ru": "Ткань 02699"
     },
     "isNew": false,
-    "images": [],
+    "images": [
+      "http://catalog.raznobyt.com/images/products/02699/main/250.jpg",
+      "http://catalog.raznobyt.com/images/products/02699/018.jpg",
+      "http://catalog.raznobyt.com/images/products/02699/052.jpg",
+      "http://catalog.raznobyt.com/images/products/02699/128.jpg",
+      "http://catalog.raznobyt.com/images/products/02699/227.jpg",
+      "http://catalog.raznobyt.com/images/products/02699/228.jpg",
+      "http://catalog.raznobyt.com/images/products/02699/454.jpg",
+      "http://catalog.raznobyt.com/images/products/02699/654.jpg"
+    ],
     "description": {
       "ua": "75%льон, 25% бавовна,  230 г/м.кв легка, комфортна, дихаюча,",
       "ru": "75%льон, 25% бавовна,  230 г/м.кв легкая, комфортная, дышащая,"
@@ -189,7 +356,48 @@
       "fabricType": "полотно",
       "density": "230",
       "width": "148",
-      "colors": [],
+      "colors": [
+        {
+          "color": "250",
+          "image": "http://catalog.raznobyt.com/images/products/02699/main/250.jpg",
+          "isMain": true
+        },
+        {
+          "color": "018",
+          "image": "http://catalog.raznobyt.com/images/products/02699/018.jpg",
+          "isMain": false
+        },
+        {
+          "color": "052",
+          "image": "http://catalog.raznobyt.com/images/products/02699/052.jpg",
+          "isMain": false
+        },
+        {
+          "color": "128",
+          "image": "http://catalog.raznobyt.com/images/products/02699/128.jpg",
+          "isMain": false
+        },
+        {
+          "color": "227",
+          "image": "http://catalog.raznobyt.com/images/products/02699/227.jpg",
+          "isMain": false
+        },
+        {
+          "color": "228",
+          "image": "http://catalog.raznobyt.com/images/products/02699/228.jpg",
+          "isMain": false
+        },
+        {
+          "color": "454",
+          "image": "http://catalog.raznobyt.com/images/products/02699/454.jpg",
+          "isMain": false
+        },
+        {
+          "color": "654",
+          "image": "http://catalog.raznobyt.com/images/products/02699/654.jpg",
+          "isMain": false
+        }
+      ],
       "properties": [],
       "composition": {
         "cotton": 25,
@@ -223,7 +431,10 @@
       "ru": "Ткань А353"
     },
     "isNew": false,
-    "images": [],
+    "images": [
+      "http://catalog.raznobyt.com/images/products/A353/main/30189.jpg",
+      "http://catalog.raznobyt.com/images/products/A353/30190.jpg"
+    ],
     "description": {
       "ua": "100% бавовна 118 г/м.кв. легка, комфортна, дихаюча, ",
       "ru": "100% хлопок 118 г/м.кв. легкая, комфортная, дышащая,"
@@ -232,7 +443,18 @@
       "fabricType": "саржа",
       "density": "118",
       "width": "150",
-      "colors": [],
+      "colors": [
+        {
+          "color": "30189",
+          "image": "http://catalog.raznobyt.com/images/products/A353/main/30189.jpg",
+          "isMain": true
+        },
+        {
+          "color": "30190",
+          "image": "http://catalog.raznobyt.com/images/products/A353/30190.jpg",
+          "isMain": false
+        }
+      ],
       "properties": [],
       "composition": {
         "cotton": 100,
@@ -266,7 +488,9 @@
       "ru": "Ткань А331"
     },
     "isNew": false,
-    "images": [],
+    "images": [
+      "http://catalog.raznobyt.com/images/products/A331/main/30081.jpg"
+    ],
     "description": {
       "ua": "100% бавовна 140 г/м.кв. легка, комфортна, дихаюча,",
       "ru": "100% хлопок 140 г/м.кв. легкая, комфортная, дышащая,"
@@ -275,7 +499,13 @@
       "fabricType": "саржа фланель",
       "density": "140",
       "width": "150",
-      "colors": [],
+      "colors": [
+        {
+          "color": "30081",
+          "image": "http://catalog.raznobyt.com/images/products/A331/main/30081.jpg",
+          "isMain": true
+        }
+      ],
       "properties": [],
       "composition": {
         "cotton": 100,
@@ -352,7 +582,9 @@
       "ru": "Ткань А386"
     },
     "isNew": false,
-    "images": [],
+    "images": [
+      "http://catalog.raznobyt.com/images/products/A386/main/30378.jpg"
+    ],
     "description": {
       "ua": "100% бавовна 100 г/м.кв. легка, комфортна, дихаюча,",
       "ru": "100% хлопок 100 г/м.кв. легкая, комфортная, дышащая,"
@@ -361,7 +593,13 @@
       "fabricType": "складне",
       "density": "100",
       "width": "150",
-      "colors": [],
+      "colors": [
+        {
+          "color": "30378",
+          "image": "http://catalog.raznobyt.com/images/products/A386/main/30378.jpg",
+          "isMain": true
+        }
+      ],
       "properties": [],
       "composition": {
         "cotton": 100,
@@ -395,7 +633,9 @@
       "ru": "Ткань 4664"
     },
     "isNew": false,
-    "images": [],
+    "images": [
+      "http://catalog.raznobyt.com/images/products/4664/main/17101.jpg"
+    ],
     "description": {
       "ua": "100% бавовна 126 г/м.кв. легка, комфортна, дихаюча, ",
       "ru": "100% хлопок 126 г/м.кв. легкая, комфортная, дышащая,"
@@ -404,7 +644,13 @@
       "fabricType": "полотно",
       "density": "126",
       "width": "150",
-      "colors": [],
+      "colors": [
+        {
+          "color": "17101",
+          "image": "http://catalog.raznobyt.com/images/products/4664/main/17101.jpg",
+          "isMain": true
+        }
+      ],
       "properties": [],
       "composition": {
         "cotton": 100,
@@ -438,7 +684,12 @@
       "ru": "Ткань А112"
     },
     "isNew": false,
-    "images": [],
+    "images": [
+      "http://catalog.raznobyt.com/images/products/A112/main/11406.jpg",
+      "http://catalog.raznobyt.com/images/products/A112/11331.jpg",
+      "http://catalog.raznobyt.com/images/products/A112/17865.jpg",
+      "http://catalog.raznobyt.com/images/products/A112/18460.jpg"
+    ],
     "description": {
       "ua": "100% бавовна 120 г/м.кв. легка, комфортна, дихаюча, ",
       "ru": "100% хлопок 120 г/м.кв. легкая, комфортная, дышащая,"
@@ -447,7 +698,28 @@
       "fabricType": "полотно",
       "density": "120",
       "width": "150",
-      "colors": [],
+      "colors": [
+        {
+          "color": "11406",
+          "image": "http://catalog.raznobyt.com/images/products/A112/main/11406.jpg",
+          "isMain": true
+        },
+        {
+          "color": "11331",
+          "image": "http://catalog.raznobyt.com/images/products/A112/11331.jpg",
+          "isMain": false
+        },
+        {
+          "color": "17865",
+          "image": "http://catalog.raznobyt.com/images/products/A112/17865.jpg",
+          "isMain": false
+        },
+        {
+          "color": "18460",
+          "image": "http://catalog.raznobyt.com/images/products/A112/18460.jpg",
+          "isMain": false
+        }
+      ],
       "properties": [],
       "composition": {
         "cotton": 100,
@@ -481,7 +753,11 @@
       "ru": "Ткань 5845"
     },
     "isNew": false,
-    "images": [],
+    "images": [
+      "http://catalog.raznobyt.com/images/products/5845/main/31559.jpg",
+      "http://catalog.raznobyt.com/images/products/5845/31554.jpg",
+      "http://catalog.raznobyt.com/images/products/5845/31562.jpg"
+    ],
     "description": {
       "ua": "60% бавовна, 40% поліестр,  106 г/м.кв легка, комфортна, дихаюча,",
       "ru": "60% бавовна, 40% поліестр,  106 г/м.кв легкая, комфортная, дышащая,"
@@ -490,7 +766,23 @@
       "fabricType": "полотно",
       "density": "106",
       "width": "150",
-      "colors": [],
+      "colors": [
+        {
+          "color": "31559",
+          "image": "http://catalog.raznobyt.com/images/products/5845/main/31559.jpg",
+          "isMain": true
+        },
+        {
+          "color": "31554",
+          "image": "http://catalog.raznobyt.com/images/products/5845/31554.jpg",
+          "isMain": false
+        },
+        {
+          "color": "31562",
+          "image": "http://catalog.raznobyt.com/images/products/5845/31562.jpg",
+          "isMain": false
+        }
+      ],
       "properties": [],
       "composition": {
         "cotton": 60,
@@ -524,7 +816,11 @@
       "ru": "Ткань 5339"
     },
     "isNew": false,
-    "images": [],
+    "images": [
+      "http://catalog.raznobyt.com/images/products/5339/main/15239.jpg",
+      "http://catalog.raznobyt.com/images/products/5339/15240.jpg",
+      "http://catalog.raznobyt.com/images/products/5339/16314.jpg"
+    ],
     "description": {
       "ua": "60% бавовна, 40% поліестр,  110 г/м.кв легка, комфортна, дихаюча,",
       "ru": "60% бавовна, 40% поліестр,  110 г/м.кв  легкая, комфортная, дышащая,"
@@ -533,7 +829,23 @@
       "fabricType": "полотно",
       "density": "110",
       "width": "150",
-      "colors": [],
+      "colors": [
+        {
+          "color": "15239",
+          "image": "http://catalog.raznobyt.com/images/products/5339/main/15239.jpg",
+          "isMain": true
+        },
+        {
+          "color": "15240",
+          "image": "http://catalog.raznobyt.com/images/products/5339/15240.jpg",
+          "isMain": false
+        },
+        {
+          "color": "16314",
+          "image": "http://catalog.raznobyt.com/images/products/5339/16314.jpg",
+          "isMain": false
+        }
+      ],
       "properties": [],
       "composition": {
         "cotton": 60,
@@ -567,16 +879,24 @@
       "ru": "Ткань 5507"
     },
     "isNew": false,
-    "images": [],
+    "images": [
+      "http://catalog.raznobyt.com/images/products/5507/main/11849.jpg"
+    ],
     "description": {
       "ua": "60% бавовна, 40% поліестр,  151 г/м.кв легка, комфортна, дихаюча,",
       "ru": "60% бавовна, 40% поліестр,  151 г/м.кв  легкая, комфортная, дышащая,"
     },
     "attributes": {
-      "fabricType": "",
+      "fabricType": "полотно",
       "density": "151",
       "width": "150",
-      "colors": [],
+      "colors": [
+        {
+          "color": "11849",
+          "image": "http://catalog.raznobyt.com/images/products/5507/main/11849.jpg",
+          "isMain": true
+        }
+      ],
       "properties": [],
       "composition": {
         "cotton": 60,
@@ -610,16 +930,24 @@
       "ru": "Ткань 5764"
     },
     "isNew": false,
-    "images": [],
+    "images": [
+      "http://catalog.raznobyt.com/images/products/5764/main/19894.jpg"
+    ],
     "description": {
       "ua": "50% бавовна, 50% поліестр,  104 г/м.кв легка, комфортна, дихаюча,",
       "ru": "50% бавовна, 50% поліестр,  104 г/м.кв  легкая, комфортная, дышащая,"
     },
     "attributes": {
-      "fabricType": "",
+      "fabricType": "полотно",
       "density": "104",
       "width": "150",
-      "colors": [],
+      "colors": [
+        {
+          "color": "19894",
+          "image": "http://catalog.raznobyt.com/images/products/5764/main/19894.jpg",
+          "isMain": true
+        }
+      ],
       "properties": [],
       "composition": {
         "cotton": 50,
@@ -653,7 +981,22 @@
       "ru": "Ткань 7251"
     },
     "isNew": false,
-    "images": [],
+    "images": [
+      "http://catalog.raznobyt.com/images/products/7251/main/91347.3.jpg",
+      "http://catalog.raznobyt.com/images/products/7251/85284.3.jpg",
+      "http://catalog.raznobyt.com/images/products/7251/85294.5.jpg",
+      "http://catalog.raznobyt.com/images/products/7251/85306.jpg",
+      "http://catalog.raznobyt.com/images/products/7251/85307.jpg",
+      "http://catalog.raznobyt.com/images/products/7251/93170.4.jpg",
+      "http://catalog.raznobyt.com/images/products/7251/93412.jpg",
+      "http://catalog.raznobyt.com/images/products/7251/93627.4.jpg",
+      "http://catalog.raznobyt.com/images/products/7251/93629.jpg",
+      "http://catalog.raznobyt.com/images/products/7251/94291.jpg",
+      "http://catalog.raznobyt.com/images/products/7251/95946.jpg",
+      "http://catalog.raznobyt.com/images/products/7251/96784.3.jpg",
+      "http://catalog.raznobyt.com/images/products/7251/96841.3.jpg",
+      "http://catalog.raznobyt.com/images/products/7251/98060.3.jpg"
+    ],
     "description": {
       "ua": "55% бавовна, 45% поліестр,  113 г/м.кв легка, комфортна, дихаюча,",
       "ru": "55% бавовна, 45% поліестр,  113 г/м.кв  легкая, комфортная, дышащая,"
@@ -662,7 +1005,78 @@
       "fabricType": "полотно",
       "density": "113",
       "width": "150",
-      "colors": [],
+      "colors": [
+        {
+          "color": "91347.3",
+          "image": "http://catalog.raznobyt.com/images/products/7251/main/91347.3.jpg",
+          "isMain": true
+        },
+        {
+          "color": "85284.3",
+          "image": "http://catalog.raznobyt.com/images/products/7251/85284.3.jpg",
+          "isMain": false
+        },
+        {
+          "color": "85294.5",
+          "image": "http://catalog.raznobyt.com/images/products/7251/85294.5.jpg",
+          "isMain": false
+        },
+        {
+          "color": "85306",
+          "image": "http://catalog.raznobyt.com/images/products/7251/85306.jpg",
+          "isMain": false
+        },
+        {
+          "color": "85307",
+          "image": "http://catalog.raznobyt.com/images/products/7251/85307.jpg",
+          "isMain": false
+        },
+        {
+          "color": "93170.4",
+          "image": "http://catalog.raznobyt.com/images/products/7251/93170.4.jpg",
+          "isMain": false
+        },
+        {
+          "color": "93412",
+          "image": "http://catalog.raznobyt.com/images/products/7251/93412.jpg",
+          "isMain": false
+        },
+        {
+          "color": "93627.4",
+          "image": "http://catalog.raznobyt.com/images/products/7251/93627.4.jpg",
+          "isMain": false
+        },
+        {
+          "color": "93629",
+          "image": "http://catalog.raznobyt.com/images/products/7251/93629.jpg",
+          "isMain": false
+        },
+        {
+          "color": "94291",
+          "image": "http://catalog.raznobyt.com/images/products/7251/94291.jpg",
+          "isMain": false
+        },
+        {
+          "color": "95946",
+          "image": "http://catalog.raznobyt.com/images/products/7251/95946.jpg",
+          "isMain": false
+        },
+        {
+          "color": "96784.3",
+          "image": "http://catalog.raznobyt.com/images/products/7251/96784.3.jpg",
+          "isMain": false
+        },
+        {
+          "color": "96841.3",
+          "image": "http://catalog.raznobyt.com/images/products/7251/96841.3.jpg",
+          "isMain": false
+        },
+        {
+          "color": "98060.3",
+          "image": "http://catalog.raznobyt.com/images/products/7251/98060.3.jpg",
+          "isMain": false
+        }
+      ],
       "properties": [],
       "composition": {
         "cotton": 55,
@@ -696,7 +1110,11 @@
       "ru": "Ткань RC113CV"
     },
     "isNew": false,
-    "images": [],
+    "images": [
+      "http://catalog.raznobyt.com/images/products/RC113CV/main/95058.jpg",
+      "http://catalog.raznobyt.com/images/products/RC113CV/90093.jpg",
+      "http://catalog.raznobyt.com/images/products/RC113CV/99017.jpg"
+    ],
     "description": {
       "ua": "55% бавовна, 45% поліестр,  116 г/м.кв легка, комфортна, дихаюча,",
       "ru": "55% бавовна, 45% поліестр,  116 г/м.кв  легкая, комфортная, дышащая,"
@@ -705,7 +1123,23 @@
       "fabricType": "полотно",
       "density": "116",
       "width": "150",
-      "colors": [],
+      "colors": [
+        {
+          "color": "95058",
+          "image": "http://catalog.raznobyt.com/images/products/RC113CV/main/95058.jpg",
+          "isMain": true
+        },
+        {
+          "color": "90093",
+          "image": "http://catalog.raznobyt.com/images/products/RC113CV/90093.jpg",
+          "isMain": false
+        },
+        {
+          "color": "99017",
+          "image": "http://catalog.raznobyt.com/images/products/RC113CV/99017.jpg",
+          "isMain": false
+        }
+      ],
       "properties": [],
       "composition": {
         "cotton": 55,
@@ -739,7 +1173,15 @@
       "ru": "Ткань LT2111"
     },
     "isNew": false,
-    "images": [],
+    "images": [
+      "http://catalog.raznobyt.com/images/products/LT2111/main/TEA ROSE.jpg",
+      "http://catalog.raznobyt.com/images/products/LT2111/BURGUNDY.jpg",
+      "http://catalog.raznobyt.com/images/products/LT2111/CANDY.jpg",
+      "http://catalog.raznobyt.com/images/products/LT2111/GRANITE.jpg",
+      "http://catalog.raznobyt.com/images/products/LT2111/IVORY YOLK.jpg",
+      "http://catalog.raznobyt.com/images/products/LT2111/LINEN.jpg",
+      "http://catalog.raznobyt.com/images/products/LT2111/MOUSE.jpg"
+    ],
     "description": {
       "ua": "55% бавовна, 45% поліестр,  112 г/м.кв легка, комфортна, дихаюча,",
       "ru": "55% бавовна, 45% поліестр,  112 г/м.кв  легкая, комфортная, дышащая,"
@@ -748,7 +1190,43 @@
       "fabricType": "полотно",
       "density": "112",
       "width": "150",
-      "colors": [],
+      "colors": [
+        {
+          "color": "TEA ROSE",
+          "image": "http://catalog.raznobyt.com/images/products/LT2111/main/TEA ROSE.jpg",
+          "isMain": true
+        },
+        {
+          "color": "BURGUNDY",
+          "image": "http://catalog.raznobyt.com/images/products/LT2111/BURGUNDY.jpg",
+          "isMain": false
+        },
+        {
+          "color": "CANDY",
+          "image": "http://catalog.raznobyt.com/images/products/LT2111/CANDY.jpg",
+          "isMain": false
+        },
+        {
+          "color": "GRANITE",
+          "image": "http://catalog.raznobyt.com/images/products/LT2111/GRANITE.jpg",
+          "isMain": false
+        },
+        {
+          "color": "IVORY YOLK",
+          "image": "http://catalog.raznobyt.com/images/products/LT2111/IVORY YOLK.jpg",
+          "isMain": false
+        },
+        {
+          "color": "LINEN",
+          "image": "http://catalog.raznobyt.com/images/products/LT2111/LINEN.jpg",
+          "isMain": false
+        },
+        {
+          "color": "MOUSE",
+          "image": "http://catalog.raznobyt.com/images/products/LT2111/MOUSE.jpg",
+          "isMain": false
+        }
+      ],
       "properties": [],
       "composition": {
         "cotton": 55,
@@ -782,7 +1260,12 @@
       "ru": "Ткань А196"
     },
     "isNew": false,
-    "images": [],
+    "images": [
+      "http://catalog.raznobyt.com/images/products/A196/main/19450.jpg",
+      "http://catalog.raznobyt.com/images/products/A196/19449.jpg",
+      "http://catalog.raznobyt.com/images/products/A196/19451.jpg",
+      "http://catalog.raznobyt.com/images/products/A196/19453.jpg"
+    ],
     "description": {
       "ua": "100% бавовна легка, комфортна, дихаюча,",
       "ru": "100% бавовна  легкая, комфортная, дышащая"
@@ -791,7 +1274,28 @@
       "fabricType": "складне",
       "density": "162",
       "width": "150",
-      "colors": [],
+      "colors": [
+        {
+          "color": "19450",
+          "image": "http://catalog.raznobyt.com/images/products/A196/main/19450.jpg",
+          "isMain": true
+        },
+        {
+          "color": "19449",
+          "image": "http://catalog.raznobyt.com/images/products/A196/19449.jpg",
+          "isMain": false
+        },
+        {
+          "color": "19451",
+          "image": "http://catalog.raznobyt.com/images/products/A196/19451.jpg",
+          "isMain": false
+        },
+        {
+          "color": "19453",
+          "image": "http://catalog.raznobyt.com/images/products/A196/19453.jpg",
+          "isMain": false
+        }
+      ],
       "properties": [],
       "composition": {
         "cotton": 100,
@@ -825,7 +1329,14 @@
       "ru": "Ткань А359"
     },
     "isNew": false,
-    "images": [],
+    "images": [
+      "http://catalog.raznobyt.com/images/products/A359/main/24088.jpg",
+      "http://catalog.raznobyt.com/images/products/A359/20001.1.jpg",
+      "http://catalog.raznobyt.com/images/products/A359/23168.2.jpg",
+      "http://catalog.raznobyt.com/images/products/A359/29017.5.jpg",
+      "http://catalog.raznobyt.com/images/products/A359/31542.jpg",
+      "http://catalog.raznobyt.com/images/products/A359/31546.5.jpg"
+    ],
     "description": {
       "ua": "100% бавовна легка, комфортна, дихаюча,",
       "ru": "100% бавовна  легкая, комфортная, дышащая"
@@ -834,7 +1345,38 @@
       "fabricType": "",
       "density": "128",
       "width": "150",
-      "colors": [],
+      "colors": [
+        {
+          "color": "24088",
+          "image": "http://catalog.raznobyt.com/images/products/A359/main/24088.jpg",
+          "isMain": true
+        },
+        {
+          "color": "20001.1",
+          "image": "http://catalog.raznobyt.com/images/products/A359/20001.1.jpg",
+          "isMain": false
+        },
+        {
+          "color": "23168.2",
+          "image": "http://catalog.raznobyt.com/images/products/A359/23168.2.jpg",
+          "isMain": false
+        },
+        {
+          "color": "29017.5",
+          "image": "http://catalog.raznobyt.com/images/products/A359/29017.5.jpg",
+          "isMain": false
+        },
+        {
+          "color": "31542",
+          "image": "http://catalog.raznobyt.com/images/products/A359/31542.jpg",
+          "isMain": false
+        },
+        {
+          "color": "31546.5",
+          "image": "http://catalog.raznobyt.com/images/products/A359/31546.5.jpg",
+          "isMain": false
+        }
+      ],
       "properties": [],
       "composition": {
         "cotton": 100,
@@ -868,7 +1410,12 @@
       "ru": "Ткань 1021"
     },
     "isNew": false,
-    "images": [],
+    "images": [
+      "http://catalog.raznobyt.com/images/products/1021/main/23293.jpg",
+      "http://catalog.raznobyt.com/images/products/1021/20001.jpg",
+      "http://catalog.raznobyt.com/images/products/1021/28015.jpg",
+      "http://catalog.raznobyt.com/images/products/1021/29017.jpg"
+    ],
     "description": {
       "ua": "100% бавовна легка, комфортна, дихаюча,",
       "ru": "100% бавовна  легкая, комфортная, дышащая"
@@ -876,6 +1423,70 @@
     "attributes": {
       "fabricType": "полотно",
       "density": "130",
+      "width": "150",
+      "colors": [
+        {
+          "color": "23293",
+          "image": "http://catalog.raznobyt.com/images/products/1021/main/23293.jpg",
+          "isMain": true
+        },
+        {
+          "color": "20001",
+          "image": "http://catalog.raznobyt.com/images/products/1021/20001.jpg",
+          "isMain": false
+        },
+        {
+          "color": "28015",
+          "image": "http://catalog.raznobyt.com/images/products/1021/28015.jpg",
+          "isMain": false
+        },
+        {
+          "color": "29017",
+          "image": "http://catalog.raznobyt.com/images/products/1021/29017.jpg",
+          "isMain": false
+        }
+      ],
+      "properties": [],
+      "composition": {
+        "cotton": 100,
+        "polyester": 0,
+        "spandex": 0,
+        "rayon": 0,
+        "viscose": 0,
+        "pbt": 0,
+        "lyon": 0,
+        "polyamidePA": 0,
+        "polypropylenePP": 0,
+        "paraAramid": 0,
+        "antistatic": 0,
+        "modacrylicLyocellStaticControl": 0,
+        "nomexKevlarAntiStatic": 0,
+        "nomexParaAramidP140": 0,
+        "pbiKevlarAntistatic": 0,
+        "lenzingFRAramid": 0,
+        "paraAramidSolidPolymerCoating": 0,
+        "frRayonParaAramidPolyamideAntistatic": 0,
+        "MAC": 0
+      }
+    }
+  },
+  {
+    "id": "tkan-shirts-042",
+    "category": "shirts",
+    "slug": "tkan-shirts-042",
+    "title": {
+      "ua": "Тканина А042",
+      "ru": "Ткань А042"
+    },
+    "isNew": false,
+    "images": [],
+    "description": {
+      "ua": "100% бавовна легка, комфортна, дихаюча,",
+      "ru": "100% бавовна легка, комфортна, дихаюча,"
+    },
+    "attributes": {
+      "fabricType": "",
+      "density": "110",
       "width": "150",
       "colors": [],
       "properties": [],
@@ -911,7 +1522,9 @@
       "ru": "Ткань А573"
     },
     "isNew": false,
-    "images": [],
+    "images": [
+      "http://catalog.raznobyt.com/images/products/A573/main/31407.jpg"
+    ],
     "description": {
       "ua": "100% бавовна легка, комфортна, дихаюча,",
       "ru": "100% бавовна  легкая, комфортная, дышащая"
@@ -920,7 +1533,13 @@
       "fabricType": "полотно",
       "density": "116",
       "width": "150",
-      "colors": [],
+      "colors": [
+        {
+          "color": "31407",
+          "image": "http://catalog.raznobyt.com/images/products/A573/main/31407.jpg",
+          "isMain": true
+        }
+      ],
       "properties": [],
       "composition": {
         "cotton": 100,
@@ -954,7 +1573,9 @@
       "ru": "Ткань L678"
     },
     "isNew": false,
-    "images": [],
+    "images": [
+      "http://catalog.raznobyt.com/images/products/L678/main/00593.jpg"
+    ],
     "description": {
       "ua": "100% бавовна легка, комфортна, дихаюча,",
       "ru": "100% бавовна  легкая, комфортная, дышащая"
@@ -963,7 +1584,13 @@
       "fabricType": "полотно",
       "density": "120",
       "width": "150",
-      "colors": [],
+      "colors": [
+        {
+          "color": "00593",
+          "image": "http://catalog.raznobyt.com/images/products/L678/main/00593.jpg",
+          "isMain": true
+        }
+      ],
       "properties": [],
       "composition": {
         "cotton": 100,
@@ -997,7 +1624,9 @@
       "ru": "Ткань L493"
     },
     "isNew": false,
-    "images": [],
+    "images": [
+      "http://catalog.raznobyt.com/images/products/L493/main/00408.jpg"
+    ],
     "description": {
       "ua": "100% бавовна легка, комфортна, дихаюча,",
       "ru": "100% бавовна  легкая, комфортная, дышащая"
@@ -1006,7 +1635,13 @@
       "fabricType": "полотно ",
       "density": "122",
       "width": "150",
-      "colors": [],
+      "colors": [
+        {
+          "color": "00408",
+          "image": "http://catalog.raznobyt.com/images/products/L493/main/00408.jpg",
+          "isMain": true
+        }
+      ],
       "properties": [],
       "composition": {
         "cotton": 100,
@@ -1083,7 +1718,9 @@
       "ru": "Ткань 2161"
     },
     "isNew": false,
-    "images": [],
+    "images": [
+      "http://catalog.raznobyt.com/images/products/2161/main/16086.jpg"
+    ],
     "description": {
       "ua": "100% бавовна легка, комфортна, дихаюча,",
       "ru": "100% бавовна  легкая, комфортная, дышащая"
@@ -1091,6 +1728,98 @@
     "attributes": {
       "fabricType": "саржа",
       "density": "109",
+      "width": "150",
+      "colors": [
+        {
+          "color": "16086",
+          "image": "http://catalog.raznobyt.com/images/products/2161/main/16086.jpg",
+          "isMain": true
+        }
+      ],
+      "properties": [],
+      "composition": {
+        "cotton": 100,
+        "polyester": 0,
+        "spandex": 0,
+        "rayon": 0,
+        "viscose": 0,
+        "pbt": 0,
+        "lyon": 0,
+        "polyamidePA": 0,
+        "polypropylenePP": 0,
+        "paraAramid": 0,
+        "antistatic": 0,
+        "modacrylicLyocellStaticControl": 0,
+        "nomexKevlarAntiStatic": 0,
+        "nomexParaAramidP140": 0,
+        "pbiKevlarAntistatic": 0,
+        "lenzingFRAramid": 0,
+        "paraAramidSolidPolymerCoating": 0,
+        "frRayonParaAramidPolyamideAntistatic": 0,
+        "MAC": 0
+      }
+    }
+  },
+  {
+    "id": "tkan-shirts-4994",
+    "category": "shirts",
+    "slug": "tkan-shirts-4994",
+    "title": {
+      "ua": "Тканина 4994",
+      "ru": "Ткань 4994"
+    },
+    "isNew": false,
+    "images": [],
+    "description": {
+      "ua": "100% бавовна легка, комфортна, дихаюча,",
+      "ru": "100% хлопок  легкая, комфортная, дышащая"
+    },
+    "attributes": {
+      "fabricType": "полотно",
+      "density": "125",
+      "width": "150",
+      "colors": [],
+      "properties": [],
+      "composition": {
+        "cotton": 100,
+        "polyester": 0,
+        "spandex": 0,
+        "rayon": 0,
+        "viscose": 0,
+        "pbt": 0,
+        "lyon": 0,
+        "polyamidePA": 0,
+        "polypropylenePP": 0,
+        "paraAramid": 0,
+        "antistatic": 0,
+        "modacrylicLyocellStaticControl": 0,
+        "nomexKevlarAntiStatic": 0,
+        "nomexParaAramidP140": 0,
+        "pbiKevlarAntistatic": 0,
+        "lenzingFRAramid": 0,
+        "paraAramidSolidPolymerCoating": 0,
+        "frRayonParaAramidPolyamideAntistatic": 0,
+        "MAC": 0
+      }
+    }
+  },
+  {
+    "id": "tkan-shirts-4152",
+    "category": "shirts",
+    "slug": "tkan-shirts-4152",
+    "title": {
+      "ua": "Тканина 4152",
+      "ru": "Ткань 4152"
+    },
+    "isNew": false,
+    "images": [],
+    "description": {
+      "ua": "100% бавовна легка, комфортна, дихаюча,",
+      "ru": "100% хлопок  легкая, комфортная, дышащая"
+    },
+    "attributes": {
+      "fabricType": "полотно",
+      "density": "125",
       "width": "150",
       "colors": [],
       "properties": [],
@@ -1126,16 +1855,24 @@
       "ru": "Ткань 0533"
     },
     "isNew": false,
-    "images": [],
+    "images": [
+      "http://catalog.raznobyt.com/images/products/0533/main/20001.jpg"
+    ],
     "description": {
       "ua": "100% бавовна легка, комфортна, дихаюча,",
-      "ru": "100% бавовна  легкая, комфортная, дышащая"
+      "ru": "100% хлопок  легкая, комфортная, дышащая"
     },
     "attributes": {
       "fabricType": "полотно",
       "density": "125",
       "width": "150",
-      "colors": [],
+      "colors": [
+        {
+          "color": "20001",
+          "image": "http://catalog.raznobyt.com/images/products/0533/main/20001.jpg",
+          "isMain": true
+        }
+      ],
       "properties": [],
       "composition": {
         "cotton": 100,
@@ -1169,7 +1906,9 @@
       "ru": "Ткань 0738"
     },
     "isNew": false,
-    "images": [],
+    "images": [
+      "http://catalog.raznobyt.com/images/products/0738/main/17776.jpg"
+    ],
     "description": {
       "ua": "100% бавовна легка, комфортна, дихаюча,",
       "ru": "100% бавовна  легкая, комфортная, дышащая"
@@ -1178,7 +1917,13 @@
       "fabricType": "складне",
       "density": "112",
       "width": "150",
-      "colors": [],
+      "colors": [
+        {
+          "color": "17776",
+          "image": "http://catalog.raznobyt.com/images/products/0738/main/17776.jpg",
+          "isMain": true
+        }
+      ],
       "properties": [],
       "composition": {
         "cotton": 100,
@@ -1212,7 +1957,9 @@
       "ru": "Ткань А202"
     },
     "isNew": false,
-    "images": [],
+    "images": [
+      "http://catalog.raznobyt.com/images/products/A202/main/19468.jpg"
+    ],
     "description": {
       "ua": "100% бавовна легка, комфортна, дихаюча,",
       "ru": "100% бавовна  легкая, комфортная, дышащая"
@@ -1221,7 +1968,13 @@
       "fabricType": "складне",
       "density": "161",
       "width": "150",
-      "colors": [],
+      "colors": [
+        {
+          "color": "19468",
+          "image": "http://catalog.raznobyt.com/images/products/A202/main/19468.jpg",
+          "isMain": true
+        }
+      ],
       "properties": [],
       "composition": {
         "cotton": 100,
@@ -1255,7 +2008,9 @@
       "ru": "Ткань 0437"
     },
     "isNew": false,
-    "images": [],
+    "images": [
+      "http://catalog.raznobyt.com/images/products/0437/main/04824.jpg"
+    ],
     "description": {
       "ua": "100% бавовна легка, комфортна, дихаюча,",
       "ru": "100% бавовна  легкая, комфортная, дышащая"
@@ -1264,7 +2019,13 @@
       "fabricType": "складне",
       "density": "112",
       "width": "150",
-      "colors": [],
+      "colors": [
+        {
+          "color": "04824",
+          "image": "http://catalog.raznobyt.com/images/products/0437/main/04824.jpg",
+          "isMain": true
+        }
+      ],
       "properties": [],
       "composition": {
         "cotton": 100,
@@ -1298,7 +2059,9 @@
       "ru": "Ткань 0893"
     },
     "isNew": false,
-    "images": [],
+    "images": [
+      "http://catalog.raznobyt.com/images/products/0893/main/04824.jpg"
+    ],
     "description": {
       "ua": "100% бавовна легка, комфортна, дихаюча,",
       "ru": "100% бавовна  легкая, комфортная, дышащая"
@@ -1307,7 +2070,13 @@
       "fabricType": "складне",
       "density": "109",
       "width": "150",
-      "colors": [],
+      "colors": [
+        {
+          "color": "04824",
+          "image": "http://catalog.raznobyt.com/images/products/0893/main/04824.jpg",
+          "isMain": true
+        }
+      ],
       "properties": [],
       "composition": {
         "cotton": 100,
@@ -1341,7 +2110,9 @@
       "ru": "Ткань 0734"
     },
     "isNew": false,
-    "images": [],
+    "images": [
+      "http://catalog.raznobyt.com/images/products/0734/main/17762.jpg"
+    ],
     "description": {
       "ua": "100% бавовна легка, комфортна, дихаюча,",
       "ru": "100% бавовна  легкая, комфортная, дышащая"
@@ -1350,7 +2121,13 @@
       "fabricType": "складне",
       "density": "115",
       "width": "150",
-      "colors": [],
+      "colors": [
+        {
+          "color": "17762",
+          "image": "http://catalog.raznobyt.com/images/products/0734/main/17762.jpg",
+          "isMain": true
+        }
+      ],
       "properties": [],
       "composition": {
         "cotton": 100,
@@ -1384,7 +2161,9 @@
       "ru": "Ткань SOLID"
     },
     "isNew": false,
-    "images": [],
+    "images": [
+      "http://catalog.raznobyt.com/images/products/SOLID/main/WHITE.jpg"
+    ],
     "description": {
       "ua": "100% бавовна легка, комфортна, дихаюча,",
       "ru": "100% бавовна  легкая, комфортная, дышащая"
@@ -1393,7 +2172,13 @@
       "fabricType": "складне",
       "density": "121",
       "width": "150",
-      "colors": [],
+      "colors": [
+        {
+          "color": "WHITE",
+          "image": "http://catalog.raznobyt.com/images/products/SOLID/main/WHITE.jpg",
+          "isMain": true
+        }
+      ],
       "properties": [],
       "composition": {
         "cotton": 100,
@@ -1427,7 +2212,9 @@
       "ru": "Ткань А561"
     },
     "isNew": false,
-    "images": [],
+    "images": [
+      "http://catalog.raznobyt.com/images/products/A561/main/4824.jpg"
+    ],
     "description": {
       "ua": "100% бавовна легка, комфортна, дихаюча,",
       "ru": "100% бавовна  легкая, комфортная, дышащая"
@@ -1436,7 +2223,13 @@
       "fabricType": "складне",
       "density": "116",
       "width": "150",
-      "colors": [],
+      "colors": [
+        {
+          "color": "4824",
+          "image": "http://catalog.raznobyt.com/images/products/A561/main/4824.jpg",
+          "isMain": true
+        }
+      ],
       "properties": [],
       "composition": {
         "cotton": 100,
@@ -1470,7 +2263,9 @@
       "ru": "Ткань А489"
     },
     "isNew": false,
-    "images": [],
+    "images": [
+      "http://catalog.raznobyt.com/images/products/A489/main/20001.jpg"
+    ],
     "description": {
       "ua": "100% бавовна легка, комфортна, дихаюча,",
       "ru": "100% бавовна  легкая, комфортная, дышащая"
@@ -1479,7 +2274,13 @@
       "fabricType": "складне",
       "density": "122",
       "width": "150",
-      "colors": [],
+      "colors": [
+        {
+          "color": "20001",
+          "image": "http://catalog.raznobyt.com/images/products/A489/main/20001.jpg",
+          "isMain": true
+        }
+      ],
       "properties": [],
       "composition": {
         "cotton": 100,
@@ -1513,7 +2314,9 @@
       "ru": "Ткань А469"
     },
     "isNew": false,
-    "images": [],
+    "images": [
+      "http://catalog.raznobyt.com/images/products/A469/main/20001.jpg"
+    ],
     "description": {
       "ua": "100% бавовна легка, комфортна, дихаюча,",
       "ru": "100% бавовна  легкая, комфортная, дышащая"
@@ -1522,7 +2325,13 @@
       "fabricType": "складне",
       "density": "122",
       "width": "150",
-      "colors": [],
+      "colors": [
+        {
+          "color": "20001",
+          "image": "http://catalog.raznobyt.com/images/products/A469/main/20001.jpg",
+          "isMain": true
+        }
+      ],
       "properties": [],
       "composition": {
         "cotton": 100,
@@ -1556,7 +2365,10 @@
       "ru": "Ткань А325"
     },
     "isNew": false,
-    "images": [],
+    "images": [
+      "http://catalog.raznobyt.com/images/products/A325/main/30063.jpg",
+      "http://catalog.raznobyt.com/images/products/A325/30065.jpg"
+    ],
     "description": {
       "ua": "100% бавовна легка, комфортна, дихаюча,",
       "ru": "100% бавовна  легкая, комфортная, дышащая"
@@ -1565,7 +2377,18 @@
       "fabricType": "полотно",
       "density": "114",
       "width": "150",
-      "colors": [],
+      "colors": [
+        {
+          "color": "30063",
+          "image": "http://catalog.raznobyt.com/images/products/A325/main/30063.jpg",
+          "isMain": true
+        },
+        {
+          "color": "30065",
+          "image": "http://catalog.raznobyt.com/images/products/A325/30065.jpg",
+          "isMain": false
+        }
+      ],
       "properties": [],
       "composition": {
         "cotton": 100,
@@ -1685,7 +2508,9 @@
       "ru": "Ткань L927"
     },
     "isNew": false,
-    "images": [],
+    "images": [
+      "http://catalog.raznobyt.com/images/products/L927/main/00841.jpg"
+    ],
     "description": {
       "ua": "100% бавовна легка, комфортна, дихаюча,",
       "ru": "100% бавовна  легкая, комфортная, дышащая"
@@ -1694,7 +2519,13 @@
       "fabricType": "полотно",
       "density": "213",
       "width": "150",
-      "colors": [],
+      "colors": [
+        {
+          "color": "00841",
+          "image": "http://catalog.raznobyt.com/images/products/L927/main/00841.jpg",
+          "isMain": true
+        }
+      ],
       "properties": [],
       "composition": {
         "cotton": 100,
@@ -1728,7 +2559,9 @@
       "ru": "Ткань 8845"
     },
     "isNew": false,
-    "images": [],
+    "images": [
+      "http://catalog.raznobyt.com/images/products/8845/main/00033.jpg"
+    ],
     "description": {
       "ua": "60% бавовна, 40% поліестр,  легка, комфортна, дихаюча,",
       "ru": "60% бавовна, 40% поліестр,  легкая, комфортная, дышащая,"
@@ -1737,7 +2570,13 @@
       "fabricType": "полотно",
       "density": "100",
       "width": "150",
-      "colors": [],
+      "colors": [
+        {
+          "color": "00033",
+          "image": "http://catalog.raznobyt.com/images/products/8845/main/00033.jpg",
+          "isMain": true
+        }
+      ],
       "properties": [],
       "composition": {
         "cotton": 60,
@@ -1771,7 +2610,9 @@
       "ru": "Ткань COTTON TEX F907"
     },
     "isNew": false,
-    "images": [],
+    "images": [
+      "http://catalog.raznobyt.com/images/products/COTTON TEX F907/main/145.jpg"
+    ],
     "description": {
       "ua": "60% бавовна, 40% поліестр,  легка, комфортна, дихаюча,",
       "ru": "60% бавовна, 40% поліестр,  легкая, комфортная, дышащая,"
@@ -1780,7 +2621,13 @@
       "fabricType": "полотно",
       "density": "95",
       "width": "150",
-      "colors": [],
+      "colors": [
+        {
+          "color": "145",
+          "image": "http://catalog.raznobyt.com/images/products/COTTON TEX F907/main/145.jpg",
+          "isMain": true
+        }
+      ],
       "properties": [],
       "composition": {
         "cotton": 60,
@@ -1814,7 +2661,12 @@
       "ru": "Ткань 5844"
     },
     "isNew": false,
-    "images": [],
+    "images": [
+      "http://catalog.raznobyt.com/images/products/5844/main/31559.jpg",
+      "http://catalog.raznobyt.com/images/products/5844/5844.jpg",
+      "http://catalog.raznobyt.com/images/products/5844/31556.jpg",
+      "http://catalog.raznobyt.com/images/products/5844/31563.jpg"
+    ],
     "description": {
       "ua": "60% бавовна, 40% поліестр,  легка, комфортна, дихаюча,",
       "ru": "60% бавовна, 40% поліестр,  легкая, комфортная, дышащая,"
@@ -1823,7 +2675,28 @@
       "fabricType": "полотно",
       "density": "106",
       "width": "150",
-      "colors": [],
+      "colors": [
+        {
+          "color": "31559",
+          "image": "http://catalog.raznobyt.com/images/products/5844/main/31559.jpg",
+          "isMain": true
+        },
+        {
+          "color": "5844",
+          "image": "http://catalog.raznobyt.com/images/products/5844/5844.jpg",
+          "isMain": false
+        },
+        {
+          "color": "31556",
+          "image": "http://catalog.raznobyt.com/images/products/5844/31556.jpg",
+          "isMain": false
+        },
+        {
+          "color": "31563",
+          "image": "http://catalog.raznobyt.com/images/products/5844/31563.jpg",
+          "isMain": false
+        }
+      ],
       "properties": [],
       "composition": {
         "cotton": 60,
@@ -1857,7 +2730,9 @@
       "ru": "Ткань 5834"
     },
     "isNew": false,
-    "images": [],
+    "images": [
+      "http://catalog.raznobyt.com/images/products/5834/main/30934.jpg"
+    ],
     "description": {
       "ua": "60% бавовна, 40% поліестр,  легка, комфортна, дихаюча,",
       "ru": "60% бавовна, 40% поліестр,  легкая, комфортная, дышащая,"
@@ -1866,7 +2741,13 @@
       "fabricType": "полотно",
       "density": "146",
       "width": "150",
-      "colors": [],
+      "colors": [
+        {
+          "color": "30934",
+          "image": "http://catalog.raznobyt.com/images/products/5834/main/30934.jpg",
+          "isMain": true
+        }
+      ],
       "properties": [],
       "composition": {
         "cotton": 60,
@@ -1900,7 +2781,12 @@
       "ru": "Ткань 9600"
     },
     "isNew": false,
-    "images": [],
+    "images": [
+      "http://catalog.raznobyt.com/images/products/9600/main/08490.jpg",
+      "http://catalog.raznobyt.com/images/products/9600/main/66935.jpg",
+      "http://catalog.raznobyt.com/images/products/9600/63805.jpg",
+      "http://catalog.raznobyt.com/images/products/9600/65576.jpg"
+    ],
     "description": {
       "ua": "35% бавовна, 65% поліестр,  легка, комфортна, дихаюча,",
       "ru": "35% бавовна, 65% поліестр,  легкая, комфортная, дышащая,"
@@ -1909,7 +2795,28 @@
       "fabricType": "полотно",
       "density": "150",
       "width": "150",
-      "colors": [],
+      "colors": [
+        {
+          "color": "08490",
+          "image": "http://catalog.raznobyt.com/images/products/9600/main/08490.jpg",
+          "isMain": true
+        },
+        {
+          "color": "66935",
+          "image": "http://catalog.raznobyt.com/images/products/9600/main/66935.jpg",
+          "isMain": false
+        },
+        {
+          "color": "63805",
+          "image": "http://catalog.raznobyt.com/images/products/9600/63805.jpg",
+          "isMain": false
+        },
+        {
+          "color": "65576",
+          "image": "http://catalog.raznobyt.com/images/products/9600/65576.jpg",
+          "isMain": false
+        }
+      ],
       "properties": [],
       "composition": {
         "cotton": 35,
@@ -1943,7 +2850,9 @@
       "ru": "Ткань А509"
     },
     "isNew": false,
-    "images": [],
+    "images": [
+      "http://catalog.raznobyt.com/images/products/A509/main/31035.jpg"
+    ],
     "description": {
       "ua": "100% бавовна легка, комфортна, дихаюча,",
       "ru": "100% бавовна  легкая, комфортная, дышащая"
@@ -1952,7 +2861,13 @@
       "fabricType": "полотно",
       "density": "115",
       "width": "150",
-      "colors": [],
+      "colors": [
+        {
+          "color": "31035",
+          "image": "http://catalog.raznobyt.com/images/products/A509/main/31035.jpg",
+          "isMain": true
+        }
+      ],
       "properties": [],
       "composition": {
         "cotton": 100,
@@ -1986,7 +2901,9 @@
       "ru": "Ткань А044"
     },
     "isNew": false,
-    "images": [],
+    "images": [
+      "http://catalog.raznobyt.com/images/products/A044/main/19075.jpg"
+    ],
     "description": {
       "ua": "100% бавовна легка, комфортна, дихаюча,",
       "ru": "100% бавовна  легкая, комфортная, дышащая"
@@ -1995,7 +2912,13 @@
       "fabricType": "полотно",
       "density": "110",
       "width": "150",
-      "colors": [],
+      "colors": [
+        {
+          "color": "19075",
+          "image": "http://catalog.raznobyt.com/images/products/A044/main/19075.jpg",
+          "isMain": true
+        }
+      ],
       "properties": [],
       "composition": {
         "cotton": 100,
@@ -2021,15 +2944,17 @@
     }
   },
   {
-    "id": "tkan-shirts-042",
+    "id": "tkan-shirts-042-2",
     "category": "shirts",
-    "slug": "tkan-shirts-042",
+    "slug": "tkan-shirts-042-2",
     "title": {
       "ua": "Тканина А042",
       "ru": "Ткань А042"
     },
     "isNew": false,
-    "images": [],
+    "images": [
+      "http://catalog.raznobyt.com/images/products/A042/main/19070.jpg"
+    ],
     "description": {
       "ua": "100% бавовна легка, комфортна, дихаюча,",
       "ru": "100% бавовна  легкая, комфортная, дышащая"
@@ -2038,7 +2963,13 @@
       "fabricType": "",
       "density": "110",
       "width": "150",
-      "colors": [],
+      "colors": [
+        {
+          "color": "19070",
+          "image": "http://catalog.raznobyt.com/images/products/A042/main/19070.jpg",
+          "isMain": true
+        }
+      ],
       "properties": [],
       "composition": {
         "cotton": 100,
@@ -2072,7 +3003,9 @@
       "ru": "Ткань 9862"
     },
     "isNew": false,
-    "images": [],
+    "images": [
+      "http://catalog.raznobyt.com/images/products/9862/main/18780.jpg"
+    ],
     "description": {
       "ua": "35% бавовна, 65% поліестр,  легкая, комфортная, дышащая,",
       "ru": "35% бавовна, 65% поліестр,  легкая, комфортная, дышащая,"
@@ -2081,7 +3014,13 @@
       "fabricType": "полотно",
       "density": "110",
       "width": "150",
-      "colors": [],
+      "colors": [
+        {
+          "color": "18780",
+          "image": "http://catalog.raznobyt.com/images/products/9862/main/18780.jpg",
+          "isMain": true
+        }
+      ],
       "properties": [],
       "composition": {
         "cotton": 35,
@@ -2115,7 +3054,10 @@
       "ru": "Ткань 9700"
     },
     "isNew": false,
-    "images": [],
+    "images": [
+      "http://catalog.raznobyt.com/images/products/9700/main/17138.jpg",
+      "http://catalog.raznobyt.com/images/products/9700/17719.jpg"
+    ],
     "description": {
       "ua": "35% бавовна, 65% поліестр,  легкая, комфортная, дышащая,",
       "ru": "35% бавовна, 65% поліестр,  легкая, комфортная, дышащая,"
@@ -2124,7 +3066,18 @@
       "fabricType": "полотно",
       "density": "110",
       "width": "150",
-      "colors": [],
+      "colors": [
+        {
+          "color": "17138",
+          "image": "http://catalog.raznobyt.com/images/products/9700/main/17138.jpg",
+          "isMain": true
+        },
+        {
+          "color": "17719",
+          "image": "http://catalog.raznobyt.com/images/products/9700/17719.jpg",
+          "isMain": false
+        }
+      ],
       "properties": [],
       "composition": {
         "cotton": 35,
@@ -2158,7 +3111,10 @@
       "ru": "Ткань 9998"
     },
     "isNew": false,
-    "images": [],
+    "images": [
+      "http://catalog.raznobyt.com/images/products/9998/main/30610.jpg",
+      "http://catalog.raznobyt.com/images/products/9998/30609.jpg"
+    ],
     "description": {
       "ua": "35% бавовна, 65% поліестр,  легкая, комфортная, дышащая,",
       "ru": "35% бавовна, 65% поліестр,  легкая, комфортная, дышащая,"
@@ -2167,7 +3123,18 @@
       "fabricType": "полотно",
       "density": "117",
       "width": "150",
-      "colors": [],
+      "colors": [
+        {
+          "color": "30610",
+          "image": "http://catalog.raznobyt.com/images/products/9998/main/30610.jpg",
+          "isMain": true
+        },
+        {
+          "color": "30609",
+          "image": "http://catalog.raznobyt.com/images/products/9998/30609.jpg",
+          "isMain": false
+        }
+      ],
       "properties": [],
       "composition": {
         "cotton": 35,
@@ -2201,7 +3168,16 @@
       "ru": "Ткань 0480"
     },
     "isNew": false,
-    "images": [],
+    "images": [
+      "http://catalog.raznobyt.com/images/products/0480/main/26379.jpg",
+      "http://catalog.raznobyt.com/images/products/0480/20001.jpg",
+      "http://catalog.raznobyt.com/images/products/0480/20037.jpg",
+      "http://catalog.raznobyt.com/images/products/0480/23204.jpg",
+      "http://catalog.raznobyt.com/images/products/0480/24092.jpg",
+      "http://catalog.raznobyt.com/images/products/0480/26385.jpg",
+      "http://catalog.raznobyt.com/images/products/0480/28159.jpg",
+      "http://catalog.raznobyt.com/images/products/0480/29017.jpg"
+    ],
     "description": {
       "ua": "97% бавовна, 3% еластан. легка, комфортна, дихаюча,",
       "ru": "97% бавовна, 3% еластан.  легкая, комфортная, дышащая"
@@ -2210,7 +3186,48 @@
       "fabricType": "полотно",
       "density": "126",
       "width": "150",
-      "colors": [],
+      "colors": [
+        {
+          "color": "26379",
+          "image": "http://catalog.raznobyt.com/images/products/0480/main/26379.jpg",
+          "isMain": true
+        },
+        {
+          "color": "20001",
+          "image": "http://catalog.raznobyt.com/images/products/0480/20001.jpg",
+          "isMain": false
+        },
+        {
+          "color": "20037",
+          "image": "http://catalog.raznobyt.com/images/products/0480/20037.jpg",
+          "isMain": false
+        },
+        {
+          "color": "23204",
+          "image": "http://catalog.raznobyt.com/images/products/0480/23204.jpg",
+          "isMain": false
+        },
+        {
+          "color": "24092",
+          "image": "http://catalog.raznobyt.com/images/products/0480/24092.jpg",
+          "isMain": false
+        },
+        {
+          "color": "26385",
+          "image": "http://catalog.raznobyt.com/images/products/0480/26385.jpg",
+          "isMain": false
+        },
+        {
+          "color": "28159",
+          "image": "http://catalog.raznobyt.com/images/products/0480/28159.jpg",
+          "isMain": false
+        },
+        {
+          "color": "29017",
+          "image": "http://catalog.raznobyt.com/images/products/0480/29017.jpg",
+          "isMain": false
+        }
+      ],
       "properties": [],
       "composition": {
         "cotton": 97,
@@ -2244,7 +3261,10 @@
       "ru": "Ткань 1030"
     },
     "isNew": false,
-    "images": [],
+    "images": [
+      "http://catalog.raznobyt.com/images/products/1030/main/24130.jpg",
+      "http://catalog.raznobyt.com/images/products/1030/25261.jpg"
+    ],
     "description": {
       "ua": "80% бавовна, 20% поліестр,  легка, комфортна, дихаюча,",
       "ru": "80% бавовна, 20% поліестр,  легкая, комфортная, дышащая,"
@@ -2253,7 +3273,18 @@
       "fabricType": "полотно",
       "density": "110",
       "width": "150",
-      "colors": [],
+      "colors": [
+        {
+          "color": "24130",
+          "image": "http://catalog.raznobyt.com/images/products/1030/main/24130.jpg",
+          "isMain": true
+        },
+        {
+          "color": "25261",
+          "image": "http://catalog.raznobyt.com/images/products/1030/25261.jpg",
+          "isMain": false
+        }
+      ],
       "properties": [],
       "composition": {
         "cotton": 80,
@@ -2287,7 +3318,11 @@
       "ru": "Ткань RC118C"
     },
     "isNew": false,
-    "images": [],
+    "images": [
+      "http://catalog.raznobyt.com/images/products/RC118C/main/A636.jpg",
+      "http://catalog.raznobyt.com/images/products/RC118C/90017.jpg",
+      "http://catalog.raznobyt.com/images/products/RC118C/90093.jpg"
+    ],
     "description": {
       "ua": "80% бавовна, 20% поліестр,  легка, комфортна, дихаюча,",
       "ru": "80% бавовна, 20% поліестр,  легкая, комфортная, дышащая,"
@@ -2296,7 +3331,23 @@
       "fabricType": "полотно",
       "density": "120",
       "width": "150",
-      "colors": [],
+      "colors": [
+        {
+          "color": "A636",
+          "image": "http://catalog.raznobyt.com/images/products/RC118C/main/A636.jpg",
+          "isMain": true
+        },
+        {
+          "color": "90017",
+          "image": "http://catalog.raznobyt.com/images/products/RC118C/90017.jpg",
+          "isMain": false
+        },
+        {
+          "color": "90093",
+          "image": "http://catalog.raznobyt.com/images/products/RC118C/90093.jpg",
+          "isMain": false
+        }
+      ],
       "properties": [],
       "composition": {
         "cotton": 80,
@@ -2330,7 +3381,11 @@
       "ru": "Ткань 1199"
     },
     "isNew": false,
-    "images": [],
+    "images": [
+      "http://catalog.raznobyt.com/images/products/1199/main/00002.jpg",
+      "http://catalog.raznobyt.com/images/products/1199/26154.jpg",
+      "http://catalog.raznobyt.com/images/products/1199/90001.jpg"
+    ],
     "description": {
       "ua": "75% бавовна, 25% поліестр,  легка, комфортна, дихаюча,",
       "ru": "75% бавовна, 25% поліестр,  легкая, комфортная, дышащая,"
@@ -2339,7 +3394,23 @@
       "fabricType": "полотно",
       "density": "135",
       "width": "150",
-      "colors": [],
+      "colors": [
+        {
+          "color": "00002",
+          "image": "http://catalog.raznobyt.com/images/products/1199/main/00002.jpg",
+          "isMain": true
+        },
+        {
+          "color": "26154",
+          "image": "http://catalog.raznobyt.com/images/products/1199/26154.jpg",
+          "isMain": false
+        },
+        {
+          "color": "90001",
+          "image": "http://catalog.raznobyt.com/images/products/1199/90001.jpg",
+          "isMain": false
+        }
+      ],
       "properties": [],
       "composition": {
         "cotton": 75,
@@ -2373,7 +3444,9 @@
       "ru": "Ткань В112"
     },
     "isNew": false,
-    "images": [],
+    "images": [
+      "http://catalog.raznobyt.com/images/products/B112/main/20001.jpg"
+    ],
     "description": {
       "ua": "75% бавовна, 25% поліестр,  легка, комфортна, дихаюча,",
       "ru": "75% бавовна, 25% поліестр,  легкая, комфортная, дышащая,"
@@ -2382,7 +3455,13 @@
       "fabricType": "полотно",
       "density": "125",
       "width": "150",
-      "colors": [],
+      "colors": [
+        {
+          "color": "20001",
+          "image": "http://catalog.raznobyt.com/images/products/B112/main/20001.jpg",
+          "isMain": true
+        }
+      ],
       "properties": [],
       "composition": {
         "cotton": 75,
@@ -2416,7 +3495,10 @@
       "ru": "Ткань LT1109"
     },
     "isNew": false,
-    "images": [],
+    "images": [
+      "http://catalog.raznobyt.com/images/products/LT1109/main/DARK CHOCOLATE.jpg",
+      "http://catalog.raznobyt.com/images/products/LT1109/MIDNIGHT BLUE.jpg"
+    ],
     "description": {
       "ua": "72% бавовна, 24% поліестр, 4% еластан. легка, комфортна, дихаюча,",
       "ru": "72% бавовна, 24% поліестр, 4% еластан.,  легкая, комфортная, дышащая,"
@@ -2425,7 +3507,18 @@
       "fabricType": "полотно",
       "density": "124",
       "width": "144",
-      "colors": [],
+      "colors": [
+        {
+          "color": "DARK CHOCOLATE",
+          "image": "http://catalog.raznobyt.com/images/products/LT1109/main/DARK CHOCOLATE.jpg",
+          "isMain": true
+        },
+        {
+          "color": "MIDNIGHT BLUE",
+          "image": "http://catalog.raznobyt.com/images/products/LT1109/MIDNIGHT BLUE.jpg",
+          "isMain": false
+        }
+      ],
       "properties": [],
       "composition": {
         "cotton": 72,
@@ -2502,7 +3595,10 @@
       "ru": "Ткань 3009"
     },
     "isNew": false,
-    "images": [],
+    "images": [
+      "http://catalog.raznobyt.com/images/products/3009/main/98449.jpg",
+      "http://catalog.raznobyt.com/images/products/3009/90091.jpg"
+    ],
     "description": {
       "ua": "60% бавовна, 40% поліестр,  легка, комфортна, дихаюча,",
       "ru": "60% бавовна, 40% поліестр,  легкая, комфортная, дышащая,"
@@ -2511,7 +3607,18 @@
       "fabricType": "полотно",
       "density": "138",
       "width": "150",
-      "colors": [],
+      "colors": [
+        {
+          "color": "98449",
+          "image": "http://catalog.raznobyt.com/images/products/3009/main/98449.jpg",
+          "isMain": true
+        },
+        {
+          "color": "90091",
+          "image": "http://catalog.raznobyt.com/images/products/3009/90091.jpg",
+          "isMain": false
+        }
+      ],
       "properties": [],
       "composition": {
         "cotton": 60,
@@ -2545,7 +3652,26 @@
       "ru": "Ткань TR251"
     },
     "isNew": false,
-    "images": [],
+    "images": [
+      "http://catalog.raznobyt.com/images/products/TR251/main/95179.jpg",
+      "http://catalog.raznobyt.com/images/products/TR251/85400.jpg",
+      "http://catalog.raznobyt.com/images/products/TR251/90093.jpg",
+      "http://catalog.raznobyt.com/images/products/TR251/91201.jpg",
+      "http://catalog.raznobyt.com/images/products/TR251/92128.jpg",
+      "http://catalog.raznobyt.com/images/products/TR251/92201.jpg",
+      "http://catalog.raznobyt.com/images/products/TR251/93170.jpg",
+      "http://catalog.raznobyt.com/images/products/TR251/95179.jpg",
+      "http://catalog.raznobyt.com/images/products/TR251/95447.jpg",
+      "http://catalog.raznobyt.com/images/products/TR251/95449.jpg",
+      "http://catalog.raznobyt.com/images/products/TR251/96197.jpg",
+      "http://catalog.raznobyt.com/images/products/TR251/97376.jpg",
+      "http://catalog.raznobyt.com/images/products/TR251/97385.jpg",
+      "http://catalog.raznobyt.com/images/products/TR251/98060.jpg",
+      "http://catalog.raznobyt.com/images/products/TR251/98139.jpg",
+      "http://catalog.raznobyt.com/images/products/TR251/99017.jpg",
+      "http://catalog.raznobyt.com/images/products/TR251/EAU DE NIL.jpg",
+      "http://catalog.raznobyt.com/images/products/TR251/PEACH.jpg"
+    ],
     "description": {
       "ua": "60% бавовна, 40% поліестр,  легка, комфортна, дихаюча,",
       "ru": "60% бавовна, 40% поліестр,  легкая, комфортная, дышащая,"
@@ -2554,7 +3680,98 @@
       "fabricType": "полотно",
       "density": "117",
       "width": "150",
-      "colors": [],
+      "colors": [
+        {
+          "color": "95179",
+          "image": "http://catalog.raznobyt.com/images/products/TR251/main/95179.jpg",
+          "isMain": true
+        },
+        {
+          "color": "85400",
+          "image": "http://catalog.raznobyt.com/images/products/TR251/85400.jpg",
+          "isMain": false
+        },
+        {
+          "color": "90093",
+          "image": "http://catalog.raznobyt.com/images/products/TR251/90093.jpg",
+          "isMain": false
+        },
+        {
+          "color": "91201",
+          "image": "http://catalog.raznobyt.com/images/products/TR251/91201.jpg",
+          "isMain": false
+        },
+        {
+          "color": "92128",
+          "image": "http://catalog.raznobyt.com/images/products/TR251/92128.jpg",
+          "isMain": false
+        },
+        {
+          "color": "92201",
+          "image": "http://catalog.raznobyt.com/images/products/TR251/92201.jpg",
+          "isMain": false
+        },
+        {
+          "color": "93170",
+          "image": "http://catalog.raznobyt.com/images/products/TR251/93170.jpg",
+          "isMain": false
+        },
+        {
+          "color": "95179",
+          "image": "http://catalog.raznobyt.com/images/products/TR251/95179.jpg",
+          "isMain": false
+        },
+        {
+          "color": "95447",
+          "image": "http://catalog.raznobyt.com/images/products/TR251/95447.jpg",
+          "isMain": false
+        },
+        {
+          "color": "95449",
+          "image": "http://catalog.raznobyt.com/images/products/TR251/95449.jpg",
+          "isMain": false
+        },
+        {
+          "color": "96197",
+          "image": "http://catalog.raznobyt.com/images/products/TR251/96197.jpg",
+          "isMain": false
+        },
+        {
+          "color": "97376",
+          "image": "http://catalog.raznobyt.com/images/products/TR251/97376.jpg",
+          "isMain": false
+        },
+        {
+          "color": "97385",
+          "image": "http://catalog.raznobyt.com/images/products/TR251/97385.jpg",
+          "isMain": false
+        },
+        {
+          "color": "98060",
+          "image": "http://catalog.raznobyt.com/images/products/TR251/98060.jpg",
+          "isMain": false
+        },
+        {
+          "color": "98139",
+          "image": "http://catalog.raznobyt.com/images/products/TR251/98139.jpg",
+          "isMain": false
+        },
+        {
+          "color": "99017",
+          "image": "http://catalog.raznobyt.com/images/products/TR251/99017.jpg",
+          "isMain": false
+        },
+        {
+          "color": "EAU DE NIL",
+          "image": "http://catalog.raznobyt.com/images/products/TR251/EAU DE NIL.jpg",
+          "isMain": false
+        },
+        {
+          "color": "PEACH",
+          "image": "http://catalog.raznobyt.com/images/products/TR251/PEACH.jpg",
+          "isMain": false
+        }
+      ],
       "properties": [],
       "composition": {
         "cotton": 60,
@@ -2580,15 +3797,24 @@
     }
   },
   {
-    "id": "tkan-shirts-tr-65",
+    "id": "tkan-shirts-tr-065",
     "category": "shirts",
-    "slug": "tkan-shirts-tr-65",
+    "slug": "tkan-shirts-tr-065",
     "title": {
-      "ua": "Тканина TR-65",
-      "ru": "Ткань TR-65"
+      "ua": "Тканина TR-065",
+      "ru": "Ткань TR-065"
     },
     "isNew": false,
-    "images": [],
+    "images": [
+      "http://catalog.raznobyt.com/images/products/TR-065/main/96108.jpg",
+      "http://catalog.raznobyt.com/images/products/TR-065/90093.jpg",
+      "http://catalog.raznobyt.com/images/products/TR-065/93158.jpg",
+      "http://catalog.raznobyt.com/images/products/TR-065/96674.jpg",
+      "http://catalog.raznobyt.com/images/products/TR-065/97019T.jpg",
+      "http://catalog.raznobyt.com/images/products/TR-065/97283.jpg",
+      "http://catalog.raznobyt.com/images/products/TR-065/98014.jpg",
+      "http://catalog.raznobyt.com/images/products/TR-065/99017.jpg"
+    ],
     "description": {
       "ua": "35% бавовна, 65% поліестр,  легка, комфортна, дихаюча,",
       "ru": "35% бавовна, 65% поліестр,  легкая, комфортная, дышащая,"
@@ -2597,7 +3823,48 @@
       "fabricType": "полотно",
       "density": "115",
       "width": "150",
-      "colors": [],
+      "colors": [
+        {
+          "color": "96108",
+          "image": "http://catalog.raznobyt.com/images/products/TR-065/main/96108.jpg",
+          "isMain": true
+        },
+        {
+          "color": "90093",
+          "image": "http://catalog.raznobyt.com/images/products/TR-065/90093.jpg",
+          "isMain": false
+        },
+        {
+          "color": "93158",
+          "image": "http://catalog.raznobyt.com/images/products/TR-065/93158.jpg",
+          "isMain": false
+        },
+        {
+          "color": "96674",
+          "image": "http://catalog.raznobyt.com/images/products/TR-065/96674.jpg",
+          "isMain": false
+        },
+        {
+          "color": "97019T",
+          "image": "http://catalog.raznobyt.com/images/products/TR-065/97019T.jpg",
+          "isMain": false
+        },
+        {
+          "color": "97283",
+          "image": "http://catalog.raznobyt.com/images/products/TR-065/97283.jpg",
+          "isMain": false
+        },
+        {
+          "color": "98014",
+          "image": "http://catalog.raznobyt.com/images/products/TR-065/98014.jpg",
+          "isMain": false
+        },
+        {
+          "color": "99017",
+          "image": "http://catalog.raznobyt.com/images/products/TR-065/99017.jpg",
+          "isMain": false
+        }
+      ],
       "properties": [],
       "composition": {
         "cotton": 65,
@@ -2631,7 +3898,12 @@
       "ru": "Ткань 9037"
     },
     "isNew": false,
-    "images": [],
+    "images": [
+      "http://catalog.raznobyt.com/images/products/9037/main/96784.3.jpg",
+      "http://catalog.raznobyt.com/images/products/9037/95254.4.jpg",
+      "http://catalog.raznobyt.com/images/products/9037/96692.jpg",
+      "http://catalog.raznobyt.com/images/products/9037/98139.4.jpg"
+    ],
     "description": {
       "ua": "35% бавовна, 65% поліестр,  легка, комфортна, дихаюча,",
       "ru": "35% бавовна, 65% поліестр,  легкая, комфортная, дышащая,"
@@ -2640,7 +3912,28 @@
       "fabricType": "полотно",
       "density": "100",
       "width": "150",
-      "colors": [],
+      "colors": [
+        {
+          "color": "96784.3",
+          "image": "http://catalog.raznobyt.com/images/products/9037/main/96784.3.jpg",
+          "isMain": true
+        },
+        {
+          "color": "95254.4",
+          "image": "http://catalog.raznobyt.com/images/products/9037/95254.4.jpg",
+          "isMain": false
+        },
+        {
+          "color": "96692",
+          "image": "http://catalog.raznobyt.com/images/products/9037/96692.jpg",
+          "isMain": false
+        },
+        {
+          "color": "98139.4",
+          "image": "http://catalog.raznobyt.com/images/products/9037/98139.4.jpg",
+          "isMain": false
+        }
+      ],
       "properties": [],
       "composition": {
         "cotton": 65,
@@ -2674,7 +3967,9 @@
       "ru": "Ткань 9065"
     },
     "isNew": false,
-    "images": [],
+    "images": [
+      "http://catalog.raznobyt.com/images/products/9065/main/90094.jpg"
+    ],
     "description": {
       "ua": "35% бавовна, 65% поліестр,  легка, комфортна, дихаюча,",
       "ru": "35% бавовна, 65% поліестр,  легкая, комфортная, дышащая,"
@@ -2683,7 +3978,13 @@
       "fabricType": "полотно",
       "density": "113",
       "width": "150",
-      "colors": [],
+      "colors": [
+        {
+          "color": "90094",
+          "image": "http://catalog.raznobyt.com/images/products/9065/main/90094.jpg",
+          "isMain": true
+        }
+      ],
       "properties": [],
       "composition": {
         "cotton": 65,
@@ -2717,16 +4018,132 @@
       "ru": "Ткань L601"
     },
     "isNew": false,
-    "images": [],
+    "images": [
+      "http://catalog.raznobyt.com/images/products/L601/main/00516.jpg"
+    ],
     "description": {
       "ua": "50%віскоза50%поліестер. легка, комфортна, дихаюча",
-      "ru": "50%віскоза50%поліестер. легкая, комфортная, дышащая,"
+      "ru": "50% вискоза, 50% полиэстер. легкая, комфортная, дышащая,"
     },
     "attributes": {
       "fabricType": "саржа",
       "density": "125",
       "width": "150",
-      "colors": [],
+      "colors": [
+        {
+          "color": "00516",
+          "image": "http://catalog.raznobyt.com/images/products/L601/main/00516.jpg",
+          "isMain": true
+        }
+      ],
+      "properties": [],
+      "composition": {
+        "cotton": 0,
+        "polyester": 50,
+        "spandex": 0,
+        "rayon": 0,
+        "viscose": 50,
+        "pbt": 0,
+        "lyon": 0,
+        "polyamidePA": 0,
+        "polypropylenePP": 0,
+        "paraAramid": 0,
+        "antistatic": 0,
+        "modacrylicLyocellStaticControl": 0,
+        "nomexKevlarAntiStatic": 0,
+        "nomexParaAramidP140": 0,
+        "pbiKevlarAntistatic": 0,
+        "lenzingFRAramid": 0,
+        "paraAramidSolidPolymerCoating": 0,
+        "frRayonParaAramidPolyamideAntistatic": 0,
+        "MAC": 0
+      }
+    }
+  },
+  {
+    "id": "tkan-shirts-a477",
+    "category": "shirts",
+    "slug": "tkan-shirts-a477",
+    "title": {
+      "ua": "Тканина A477",
+      "ru": "Ткань A477"
+    },
+    "isNew": false,
+    "images": [
+      "http://catalog.raznobyt.com/images/products/A477/main/30943.jpg",
+      "http://catalog.raznobyt.com/images/products/A477/30944.jpg"
+    ],
+    "description": {
+      "ua": "100% бавовна легка, комфортна, дихаюча,",
+      "ru": "100% бавовна  легкая, комфортная, дышащая"
+    },
+    "attributes": {
+      "fabricType": "полотно",
+      "density": "115",
+      "width": "148-150",
+      "colors": [
+        {
+          "color": "30943",
+          "image": "http://catalog.raznobyt.com/images/products/A477/main/30943.jpg",
+          "isMain": true
+        },
+        {
+          "color": "30944",
+          "image": "http://catalog.raznobyt.com/images/products/A477/30944.jpg",
+          "isMain": false
+        }
+      ],
+      "properties": [],
+      "composition": {
+        "cotton": 100,
+        "polyester": 0,
+        "spandex": 0,
+        "rayon": 0,
+        "viscose": 0,
+        "pbt": 0,
+        "lyon": 0,
+        "polyamidePA": 0,
+        "polypropylenePP": 0,
+        "paraAramid": 0,
+        "antistatic": 0,
+        "modacrylicLyocellStaticControl": 0,
+        "nomexKevlarAntiStatic": 0,
+        "nomexParaAramidP140": 0,
+        "pbiKevlarAntistatic": 0,
+        "lenzingFRAramid": 0,
+        "paraAramidSolidPolymerCoating": 0,
+        "frRayonParaAramidPolyamideAntistatic": 0,
+        "MAC": 0
+      }
+    }
+  },
+  {
+    "id": "tkan-shirts-l492",
+    "category": "shirts",
+    "slug": "tkan-shirts-l492",
+    "title": {
+      "ua": "Тканина L492",
+      "ru": "Ткань L492"
+    },
+    "isNew": false,
+    "images": [
+      "http://catalog.raznobyt.com/images/products/L492/main/00407.jpg"
+    ],
+    "description": {
+      "ua": "50% віскоза (тенсіл), 50% поліестер. легка, комфортна, дихаюча",
+      "ru": "50% вискоза (тенсил), 50% полиэстер. легкая, комфортная, дышащая,"
+    },
+    "attributes": {
+      "fabricType": "саржа",
+      "density": "125",
+      "width": "147-149",
+      "colors": [
+        {
+          "color": "00407",
+          "image": "http://catalog.raznobyt.com/images/products/L492/main/00407.jpg",
+          "isMain": true
+        }
+      ],
       "properties": [],
       "composition": {
         "cotton": 0,

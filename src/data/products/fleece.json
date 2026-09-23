@@ -4,8 +4,8 @@
     "category": "fleece",
     "slug": "tkan-fleece-9112",
     "title": {
-      "ua": "Тканина флис 9112",
-      "ru": "Ткань флис 9112"
+      "ua": "Тканина фліс 9112",
+      "ru": "Ткань фліс 9112"
     },
     "isNew": false,
     "images": [],
@@ -47,8 +47,8 @@
     "category": "fleece",
     "slug": "tkan-fleece-22105",
     "title": {
-      "ua": "Тканина флис 22105",
-      "ru": "Ткань флис 22105"
+      "ua": "Тканина фліс 22105",
+      "ru": "Ткань фліс 22105"
     },
     "isNew": false,
     "images": [],
@@ -90,8 +90,8 @@
     "category": "fleece",
     "slug": "tkan-fleece-polar-fleece",
     "title": {
-      "ua": "Тканина флис POLAR FLEECE",
-      "ru": "Ткань флис POLAR FLEECE"
+      "ua": "Тканина фліс POLAR FLEECE",
+      "ru": "Ткань фліс POLAR FLEECE"
     },
     "isNew": false,
     "images": [],
@@ -133,8 +133,8 @@
     "category": "fleece",
     "slug": "tkan-fleece-4796",
     "title": {
-      "ua": "Тканина флис 4796",
-      "ru": "Ткань флис 4796"
+      "ua": "Тканина фліс 4796",
+      "ru": "Ткань фліс 4796"
     },
     "isNew": false,
     "images": [],
@@ -145,6 +145,49 @@
     "attributes": {
       "fabricType": "трикотажне",
       "density": "260",
+      "width": "150",
+      "colors": [],
+      "properties": [],
+      "composition": {
+        "cotton": 100,
+        "polyester": 0,
+        "spandex": 0,
+        "rayon": 0,
+        "viscose": 0,
+        "pbt": 0,
+        "lyon": 0,
+        "polyamidePA": 0,
+        "polypropylenePP": 0,
+        "paraAramid": 0,
+        "antistatic": 0,
+        "modacrylicLyocellStaticControl": 0,
+        "nomexKevlarAntiStatic": 0,
+        "nomexParaAramidP140": 0,
+        "pbiKevlarAntistatic": 0,
+        "lenzingFRAramid": 0,
+        "paraAramidSolidPolymerCoating": 0,
+        "frRayonParaAramidPolyamideAntistatic": 0,
+        "MAC": 0
+      }
+    }
+  },
+  {
+    "id": "tkan-fleece-4459",
+    "category": "fleece",
+    "slug": "tkan-fleece-4459",
+    "title": {
+      "ua": "Тканина фліс 4459",
+      "ru": "Ткань фліс 4459"
+    },
+    "isNew": false,
+    "images": [],
+    "description": {
+      "ua": "100% бавовна,  даблфліс,  340г/м.кв,  трикотажне,  150см",
+      "ru": "100% хлопок,  даблфлис,  340г/м.кв,  трикотажне,  150см"
+    },
+    "attributes": {
+      "fabricType": "трикотажне",
+      "density": "340",
       "width": "150",
       "colors": [],
       "properties": [],
