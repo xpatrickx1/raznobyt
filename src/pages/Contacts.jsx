@@ -48,6 +48,7 @@ export default function Contacts() {
               <div className="contact-info-icon"><img src={phoneIcon} alt="Phone" width="18" height="18" loading="lazy" /></div>
               <div>
                 <div className="contact-info-label">{t('contacts.phone')}</div>
+
                 <div className="contact-info-value">
                   <a href="tel:+380445070680">(044) 507-06-80</a>
                   <a href="tel:+380445070681">(044) 507-06-81</a>
