@@ -148,8 +148,8 @@ async function main() {
         ...(row.subcat ? { subcat: row.subcat.trim().toLowerCase() } : {}),
         slug,
         title: {
-          ua: "Тканина " + row.title,
-          ru: "Ткань " + row.title,
+          ua: row.title,
+          ru: row.title,
         },
         isNew: row.isNew === "true",
         images: parseColors(row.images).map(c => c.image),
