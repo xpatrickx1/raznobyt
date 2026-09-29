@@ -8,16 +8,30 @@
       "ru": "KG 245"
     },
     "isNew": false,
-    "images": [],
+    "images": [
+      "http://catalog.raznobyt.com/images/products/KG 245/main/60996.jpg",
+      "http://catalog.raznobyt.com/images/products/KG 245/64958.jpg"
+    ],
     "description": {
       "ua": "35% бавовна, 65% поліестр  245г/м.кв",
       "ru": "35% хлопок, 65% полиестр  245г/м.кв"
     },
     "attributes": {
-      "fabricType": "канвас",
+      "fabricType": "канвас, панама",
       "density": "245",
       "width": "150",
-      "colors": [],
+      "colors": [
+        {
+          "color": "60996",
+          "image": "http://catalog.raznobyt.com/images/products/KG 245/main/60996.jpg",
+          "isMain": true
+        },
+        {
+          "color": "64958",
+          "image": "http://catalog.raznobyt.com/images/products/KG 245/64958.jpg",
+          "isMain": false
+        }
+      ],
       "properties": [],
       "composition": {
         "cotton": 35,
@@ -352,7 +366,10 @@
       "ru": "6509"
     },
     "isNew": false,
-    "images": [],
+    "images": [
+      "http://catalog.raznobyt.com/images/products/6509/main/ANTHRACITE.jpg",
+      "http://catalog.raznobyt.com/images/products/6509/ANTHRACITE.jpg"
+    ],
     "description": {
       "ua": "60% бавовна, 40% поліестер  330г/м.кв ",
       "ru": "60% хлопок, 40% полиестер  330г/м.кв "
@@ -361,7 +378,18 @@
       "fabricType": "канвас",
       "density": "330",
       "width": "150",
-      "colors": [],
+      "colors": [
+        {
+          "color": "ANTHRACITE",
+          "image": "http://catalog.raznobyt.com/images/products/6509/main/ANTHRACITE.jpg",
+          "isMain": true
+        },
+        {
+          "color": "ANTHRACITE",
+          "image": "http://catalog.raznobyt.com/images/products/6509/ANTHRACITE.jpg",
+          "isMain": false
+        }
+      ],
       "properties": [],
       "composition": {
         "cotton": 60,

@@ -2211,7 +2211,10 @@
       "ru": "Washed Denim Stretch"
     },
     "isNew": false,
-    "images": [],
+    "images": [
+      "http://catalog.raznobyt.com/images/products/WASHED DENIM STRETCH/main/C1 (WT).jpg",
+      "http://catalog.raznobyt.com/images/products/WASHED DENIM STRETCH/C4 (WT).jpg"
+    ],
     "description": {
       "ua": "Джинсова тканина з ефектом стрейч. Склад: 80% бавовна, 18% поліестр, 2% стрейч. Щільність 300 г/м². Для стильної уніформи HoReCa.",
       "ru": "Джинсовая ткань с эффектом стретч. Состав: 80% хлопок, 18% полиэстер, 2% стретч. Плотность 300 г/м². Для стильной униформы HoReCa."
@@ -2220,7 +2223,18 @@
       "fabricType": "denim",
       "density": "300",
       "width": "150",
-      "colors": [],
+      "colors": [
+        {
+          "color": "C1 (WT)",
+          "image": "http://catalog.raznobyt.com/images/products/WASHED DENIM STRETCH/main/C1 (WT).jpg",
+          "isMain": true
+        },
+        {
+          "color": "C4 (WT)",
+          "image": "http://catalog.raznobyt.com/images/products/WASHED DENIM STRETCH/C4 (WT).jpg",
+          "isMain": false
+        }
+      ],
       "properties": [],
       "composition": {
         "cotton": 80,
@@ -2528,7 +2542,17 @@
       "ru": "Canvas 9060"
     },
     "isNew": false,
-    "images": [],
+    "images": [
+      "http://catalog.raznobyt.com/images/products/9060/main/28.jpg",
+      "http://catalog.raznobyt.com/images/products/9060/1.jpg",
+      "http://catalog.raznobyt.com/images/products/9060/11.jpg",
+      "http://catalog.raznobyt.com/images/products/9060/51.jpg",
+      "http://catalog.raznobyt.com/images/products/9060/58.jpg",
+      "http://catalog.raznobyt.com/images/products/9060/69.jpg",
+      "http://catalog.raznobyt.com/images/products/9060/106.jpg",
+      "http://catalog.raznobyt.com/images/products/9060/1023.jpg",
+      "http://catalog.raznobyt.com/images/products/9060/1252.jpg"
+    ],
     "description": {
       "ua": "100% бавовняна тканина канвас. Щільність 250 г/м². Високоміцний матеріал для уніформи.",
       "ru": "100% хлопковая ткань канвас. Плотность 250 г/м². Высокопрочный материал для униформы."
@@ -2537,7 +2561,53 @@
       "fabricType": "canvas",
       "density": "250",
       "width": "150",
-      "colors": [],
+      "colors": [
+        {
+          "color": "28",
+          "image": "http://catalog.raznobyt.com/images/products/9060/main/28.jpg",
+          "isMain": true
+        },
+        {
+          "color": "1",
+          "image": "http://catalog.raznobyt.com/images/products/9060/1.jpg",
+          "isMain": false
+        },
+        {
+          "color": "11",
+          "image": "http://catalog.raznobyt.com/images/products/9060/11.jpg",
+          "isMain": false
+        },
+        {
+          "color": "51",
+          "image": "http://catalog.raznobyt.com/images/products/9060/51.jpg",
+          "isMain": false
+        },
+        {
+          "color": "58",
+          "image": "http://catalog.raznobyt.com/images/products/9060/58.jpg",
+          "isMain": false
+        },
+        {
+          "color": "69",
+          "image": "http://catalog.raznobyt.com/images/products/9060/69.jpg",
+          "isMain": false
+        },
+        {
+          "color": "106",
+          "image": "http://catalog.raznobyt.com/images/products/9060/106.jpg",
+          "isMain": false
+        },
+        {
+          "color": "1023",
+          "image": "http://catalog.raznobyt.com/images/products/9060/1023.jpg",
+          "isMain": false
+        },
+        {
+          "color": "1252",
+          "image": "http://catalog.raznobyt.com/images/products/9060/1252.jpg",
+          "isMain": false
+        }
+      ],
       "properties": [],
       "composition": {
         "cotton": 100,

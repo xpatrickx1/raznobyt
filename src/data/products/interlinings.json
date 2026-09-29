@@ -8,7 +8,10 @@
       "ru": "Флізелін 773/069"
     },
     "isNew": false,
-    "images": [],
+    "images": [
+      "http://catalog.raznobyt.com/images/products/773.069/main/WHITE.jpg",
+      "http://catalog.raznobyt.com/images/products/773.069/GREY.jpg"
+    ],
     "description": {
       "ua": "Флізелін для буз та суконь, армований нитками 100% поліестр, 36 г/м.кв. ",
       "ru": "Флизелин для блуз и платьев, армированный нитквми 100% полиестр, 36 г/м.кв."
@@ -17,7 +20,18 @@
       "fabricType": "нетканий",
       "density": "36",
       "width": "90",
-      "colors": [],
+      "colors": [
+        {
+          "color": "WHITE",
+          "image": "http://catalog.raznobyt.com/images/products/773.069/main/WHITE.jpg",
+          "isMain": true
+        },
+        {
+          "color": "GREY",
+          "image": "http://catalog.raznobyt.com/images/products/773.069/GREY.jpg",
+          "isMain": false
+        }
+      ],
       "properties": [],
       "composition": {
         "cotton": 0,
@@ -51,7 +65,10 @@
       "ru": "Флізелін 747/077"
     },
     "isNew": false,
-    "images": [],
+    "images": [
+      "http://catalog.raznobyt.com/images/products/747.077/main/WHITE.jpg",
+      "http://catalog.raznobyt.com/images/products/747.077/GREY.jpg"
+    ],
     "description": {
       "ua": "Флізелін для буз та суконь універсальний Double Dot 50% поліестр,  50% поліамід, 37 г/м.кв. ",
       "ru": "Флизелин для блуз и платьев, универсальний Double Dot 50% полиестр,  50% полиамид, 37 г/м.кв."
@@ -60,7 +77,18 @@
       "fabricType": "нетканий",
       "density": "37",
       "width": "90",
-      "colors": [],
+      "colors": [
+        {
+          "color": "WHITE",
+          "image": "http://catalog.raznobyt.com/images/products/747.077/main/WHITE.jpg",
+          "isMain": true
+        },
+        {
+          "color": "GREY",
+          "image": "http://catalog.raznobyt.com/images/products/747.077/GREY.jpg",
+          "isMain": false
+        }
+      ],
       "properties": [],
       "composition": {
         "cotton": 0,
@@ -94,7 +122,10 @@
       "ru": "Флізелін 749/079"
     },
     "isNew": false,
-    "images": [],
+    "images": [
+      "http://catalog.raznobyt.com/images/products/749.079/main/WHITE.jpg",
+      "http://catalog.raznobyt.com/images/products/749.079/GREY.jpg"
+    ],
     "description": {
       "ua": "Флізелін для буз та суконь універсальний для всіх типів тканин 50% поліестр,  50% поліамід, 63 г/м.кв. ",
       "ru": "Флизелин для блуз и платьев, универсальний для всих типив тканин 50% полиестр,  50% полиамид, 63 г/м.кв."
@@ -103,7 +134,18 @@
       "fabricType": "нетканий",
       "density": "63",
       "width": "90",
-      "colors": [],
+      "colors": [
+        {
+          "color": "WHITE",
+          "image": "http://catalog.raznobyt.com/images/products/749.079/main/WHITE.jpg",
+          "isMain": true
+        },
+        {
+          "color": "GREY",
+          "image": "http://catalog.raznobyt.com/images/products/749.079/GREY.jpg",
+          "isMain": false
+        }
+      ],
       "properties": [],
       "composition": {
         "cotton": 0,
@@ -137,7 +179,9 @@
       "ru": "Флізелін 714/000"
     },
     "isNew": false,
-    "images": [],
+    "images": [
+      "http://catalog.raznobyt.com/images/products/714.000/main/WHITE.jpg"
+    ],
     "description": {
       "ua": "Флізелін для вишивки, не клейовий 100% віскоза, 42 г/м.кв.",
       "ru": "Флизелин для вишивки, не клеевой 100% вискоза, 42 г/м.кв"
@@ -146,7 +190,13 @@
       "fabricType": "нетканий",
       "density": "42",
       "width": "90",
-      "colors": [],
+      "colors": [
+        {
+          "color": "WHITE",
+          "image": "http://catalog.raznobyt.com/images/products/714.000/main/WHITE.jpg",
+          "isMain": true
+        }
+      ],
       "properties": [],
       "composition": {
         "cotton": 0,
@@ -180,7 +230,10 @@
       "ru": "Флізелін 761/713"
     },
     "isNew": false,
-    "images": [],
+    "images": [
+      "http://catalog.raznobyt.com/images/products/761.713W/main/HITE.jpg",
+      "http://catalog.raznobyt.com/images/products/761.713W/GREY.jpg"
+    ],
     "description": {
       "ua": "Флізелін низькоплавкий для делікатних тканин, шкіри  50% поліестр,  50% поліамід, 43 г/м.кв. ",
       "ru": "Флизелин низкоплавкий для деликатних тканей, кожи  50% полиестр,  50% полиамид, 43 г/м.кв. "
@@ -189,7 +242,18 @@
       "fabricType": "нетканий",
       "density": "43",
       "width": "90",
-      "colors": [],
+      "colors": [
+        {
+          "color": "HITE",
+          "image": "http://catalog.raznobyt.com/images/products/761.713W/main/HITE.jpg",
+          "isMain": true
+        },
+        {
+          "color": "GREY",
+          "image": "http://catalog.raznobyt.com/images/products/761.713W/GREY.jpg",
+          "isMain": false
+        }
+      ],
       "properties": [],
       "composition": {
         "cotton": 0,
@@ -223,7 +287,10 @@
       "ru": "Флізелін 335/052"
     },
     "isNew": false,
-    "images": [],
+    "images": [
+      "http://catalog.raznobyt.com/images/products/335.052/main/WHITE.jpg",
+      "http://catalog.raznobyt.com/images/products/335.052/GREY.jpg"
+    ],
     "description": {
       "ua": "Флізелін Dinamic Dot для проблемних тканин 50% поліестр,  50% поліамід, 35 г/м.кв. ",
       "ru": "Флизелин Dinamic Dot для проблемных тканей 50% полиестр,  50% полиамид, 35 г/м.кв. "
@@ -232,7 +299,18 @@
       "fabricType": "нетканий",
       "density": "35",
       "width": "90",
-      "colors": [],
+      "colors": [
+        {
+          "color": "WHITE",
+          "image": "http://catalog.raznobyt.com/images/products/335.052/main/WHITE.jpg",
+          "isMain": true
+        },
+        {
+          "color": "GREY",
+          "image": "http://catalog.raznobyt.com/images/products/335.052/GREY.jpg",
+          "isMain": false
+        }
+      ],
       "properties": [],
       "composition": {
         "cotton": 0,
@@ -266,7 +344,10 @@
       "ru": "Флізелін 231/052"
     },
     "isNew": false,
-    "images": [],
+    "images": [
+      "http://catalog.raznobyt.com/images/products/231.052/main/WHITE.jpg",
+      "http://catalog.raznobyt.com/images/products/231.052/GREY.jpg"
+    ],
     "description": {
       "ua": "Флізелін для тонких тканин 100% поліестер, 30 г/м.кв.",
       "ru": "Флизелин для тонких тканей 100% полиестер, 30 г/м.кв."
@@ -275,7 +356,18 @@
       "fabricType": "нетканий",
       "density": "30",
       "width": "90",
-      "colors": [],
+      "colors": [
+        {
+          "color": "WHITE",
+          "image": "http://catalog.raznobyt.com/images/products/231.052/main/WHITE.jpg",
+          "isMain": true
+        },
+        {
+          "color": "GREY",
+          "image": "http://catalog.raznobyt.com/images/products/231.052/GREY.jpg",
+          "isMain": false
+        }
+      ],
       "properties": [],
       "composition": {
         "cotton": 0,
@@ -309,7 +401,9 @@
       "ru": "Синтепон 775/083/050"
     },
     "isNew": false,
-    "images": [],
+    "images": [
+      "http://catalog.raznobyt.com/images/products/775.083/main/WHITE.jpg"
+    ],
     "description": {
       "ua": "Синтепон клейовий армований, 100% поліестр, 130 г/м.кв.",
       "ru": "Синтепон клеевой армированный, 100% полиестр, 130 г/м.кв."
@@ -318,7 +412,13 @@
       "fabricType": "нетканий",
       "density": "130",
       "width": "90",
-      "colors": [],
+      "colors": [
+        {
+          "color": "WHITE",
+          "image": "http://catalog.raznobyt.com/images/products/775.083/main/WHITE.jpg",
+          "isMain": true
+        }
+      ],
       "properties": [],
       "composition": {
         "cotton": 0,
@@ -352,7 +452,9 @@
       "ru": "Спанбонд 001/605"
     },
     "isNew": false,
-    "images": [],
+    "images": [
+      "http://catalog.raznobyt.com/images/products/001.605 SPUNBOND/main/WHITE.jpg"
+    ],
     "description": {
       "ua": "Спанбонд не клейовий,  100% поліестр, 80 г/м.кв.",
       "ru": "Спанбондне клеевой,  100% полиестр, 80 г/м.кв. "
@@ -361,7 +463,13 @@
       "fabricType": "нетканий",
       "density": "80",
       "width": "90",
-      "colors": [],
+      "colors": [
+        {
+          "color": "WHITE",
+          "image": "http://catalog.raznobyt.com/images/products/001.605 SPUNBOND/main/WHITE.jpg",
+          "isMain": true
+        }
+      ],
       "properties": [],
       "composition": {
         "cotton": 0,
@@ -395,7 +503,10 @@
       "ru": "Дублірин сорочковий 838/977"
     },
     "isNew": false,
-    "images": [],
+    "images": [
+      "http://catalog.raznobyt.com/images/products/838.977/main/WHITE.jpg",
+      "http://catalog.raznobyt.com/images/products/838.977/GREY.jpg"
+    ],
     "description": {
       "ua": "Дублірин на планки, блузи. Прання до 95°С, не дає усадку. 100% бавовна, 103 г/м.кв.",
       "ru": "Дублирин на планки, блузки. Стирка до 95°С, не дает усадку. 100% хлопок, 103 г/м.кв."
@@ -404,7 +515,18 @@
       "fabricType": "тканий",
       "density": "103",
       "width": "90",
-      "colors": [],
+      "colors": [
+        {
+          "color": "WHITE",
+          "image": "http://catalog.raznobyt.com/images/products/838.977/main/WHITE.jpg",
+          "isMain": true
+        },
+        {
+          "color": "GREY",
+          "image": "http://catalog.raznobyt.com/images/products/838.977/GREY.jpg",
+          "isMain": false
+        }
+      ],
       "properties": [],
       "composition": {
         "cotton": 100,
@@ -438,7 +560,9 @@
       "ru": "Дублірин сорочковий 806/977"
     },
     "isNew": false,
-    "images": [],
+    "images": [
+      "http://catalog.raznobyt.com/images/products/806.977/main/WHITE.jpg"
+    ],
     "description": {
       "ua": "Дублірин для сорочок. Прання до 95°С, не дає усадку. 100% бавовна, 119 г/м.кв.",
       "ru": "Дублирин для сорочек. Стирка до 95°С, не дает усадку. 100% хлопок, 119 г/м.кв."
@@ -447,7 +571,13 @@
       "fabricType": "тканий",
       "density": "119",
       "width": "90",
-      "colors": [],
+      "colors": [
+        {
+          "color": "WHITE",
+          "image": "http://catalog.raznobyt.com/images/products/806.977/main/WHITE.jpg",
+          "isMain": true
+        }
+      ],
       "properties": [],
       "composition": {
         "cotton": 100,
@@ -481,7 +611,9 @@
       "ru": "Дублірин сорочковий 806/979"
     },
     "isNew": false,
-    "images": [],
+    "images": [
+      "http://catalog.raznobyt.com/images/products/806.979/main/WHITE.jpg"
+    ],
     "description": {
       "ua": "Дублірин для сорочок середньої жорсткості. Прання до 95°С, не дає усадку. 100% бавовна, 124 г/м.кв",
       "ru": "Дублириндля сорочек средней жесткости. Стирка до 95°С, не дает усадку. 100% хлопок, 124 г/м.кв."
@@ -490,7 +622,13 @@
       "fabricType": "тканий",
       "density": "124",
       "width": "90",
-      "colors": [],
+      "colors": [
+        {
+          "color": "WHITE",
+          "image": "http://catalog.raznobyt.com/images/products/806.979/main/WHITE.jpg",
+          "isMain": true
+        }
+      ],
       "properties": [],
       "composition": {
         "cotton": 100,
@@ -524,7 +662,9 @@
       "ru": "Дублірин сорочковий 836/978"
     },
     "isNew": false,
-    "images": [],
+    "images": [
+      "http://catalog.raznobyt.com/images/products/836.978/main/WHITE.jpg"
+    ],
     "description": {
       "ua": "Дублірин для сорочок з ефектом фланелі. Прання до 95°С, не дає усадку. 100% бавовна, 147 г/м.кв",
       "ru": "Дублирин сорочек эффектом фланели. Стирка до 95°С, не дает усадку. 100% хлопок, 147 г/м.кв."
@@ -533,7 +673,13 @@
       "fabricType": "тканий",
       "density": "147",
       "width": "90",
-      "colors": [],
+      "colors": [
+        {
+          "color": "WHITE",
+          "image": "http://catalog.raznobyt.com/images/products/836.978/main/WHITE.jpg",
+          "isMain": true
+        }
+      ],
       "properties": [],
       "composition": {
         "cotton": 100,
@@ -567,7 +713,9 @@
       "ru": "Дублірин сорочковий 836/678"
     },
     "isNew": false,
-    "images": [],
+    "images": [
+      "http://catalog.raznobyt.com/images/products/836.678/main/WHITE.jpg"
+    ],
     "description": {
       "ua": "Дублірин для сорочок з ефектом фланелі. Прання до 95°С, не дає усадку. 100% бавовна, 152 г/м.кв",
       "ru": "Дублирин сорочек эффектом фланели. Стирка до 95°С, не дает усадку. 100% хлопок, 152 г/м.кв."
@@ -576,7 +724,13 @@
       "fabricType": "тканий",
       "density": "152",
       "width": "90",
-      "colors": [],
+      "colors": [
+        {
+          "color": "WHITE",
+          "image": "http://catalog.raznobyt.com/images/products/836.678/main/WHITE.jpg",
+          "isMain": true
+        }
+      ],
       "properties": [],
       "composition": {
         "cotton": 100,
@@ -610,7 +764,9 @@
       "ru": "Дублірин сорочковий 837/977"
     },
     "isNew": false,
-    "images": [],
+    "images": [
+      "http://catalog.raznobyt.com/images/products/837.977/main/WHITE.jpg"
+    ],
     "description": {
       "ua": "Дублірин для сорочок універсальний. Прання до 95°С, не дає усадку. 100% бавовна, 165 г/м.кв",
       "ru": "Дублирин сорочек универсальный. Стирка до 95°С, не дает усадку. 100% хлопок, 165 г/м.кв."
@@ -619,7 +775,13 @@
       "fabricType": "тканий",
       "density": "165",
       "width": "90",
-      "colors": [],
+      "colors": [
+        {
+          "color": "WHITE",
+          "image": "http://catalog.raznobyt.com/images/products/837.977/main/WHITE.jpg",
+          "isMain": true
+        }
+      ],
       "properties": [],
       "composition": {
         "cotton": 100,
@@ -653,7 +815,9 @@
       "ru": "Дублірин сорочковий 837/979"
     },
     "isNew": false,
-    "images": [],
+    "images": [
+      "http://catalog.raznobyt.com/images/products/837.979/main/WHITE.jpg"
+    ],
     "description": {
       "ua": "Дублірин для сорочок підвищенної жорсткості. Прання до 95°С, не дає усадку. 100% бавовна, 173 г/м.кв",
       "ru": "Дублирин сорочек повышенной жесткости. Стирка до 95°С, не дает усадку. 100% хлопок, 173 г/м.кв."
@@ -662,7 +826,13 @@
       "fabricType": "тканий",
       "density": "173",
       "width": "90",
-      "colors": [],
+      "colors": [
+        {
+          "color": "WHITE",
+          "image": "http://catalog.raznobyt.com/images/products/837.979/main/WHITE.jpg",
+          "isMain": true
+        }
+      ],
       "properties": [],
       "composition": {
         "cotton": 100,
@@ -696,7 +866,9 @@
       "ru": "Дублірин сорочковий 849/977"
     },
     "isNew": false,
-    "images": [],
+    "images": [
+      "http://catalog.raznobyt.com/images/products/849.977/main/WHITE.jpg"
+    ],
     "description": {
       "ua": "Дублірин  для класичний сорочок. Прання до 95°С, не дає усадку. 100% бавовна, 200 г/м.кв",
       "ru": "Дублирин  для класических сорочок. Прання до 95°С, не дає усадку. 100% бавовна, 200 г/м.кв"
@@ -705,7 +877,13 @@
       "fabricType": "тканий",
       "density": "200",
       "width": "90",
-      "colors": [],
+      "colors": [
+        {
+          "color": "WHITE",
+          "image": "http://catalog.raznobyt.com/images/products/849.977/main/WHITE.jpg",
+          "isMain": true
+        }
+      ],
       "properties": [],
       "composition": {
         "cotton": 100,
@@ -739,7 +917,9 @@
       "ru": "Дублірин сорочковий 820/988"
     },
     "isNew": false,
-    "images": [],
+    "images": [
+      "http://catalog.raznobyt.com/images/products/820.988/main/WHITE.jpg"
+    ],
     "description": {
       "ua": "Дублірин для сорочок підвищенної щільності. Прання до 95°С, не дає усадку. 100% бавовна, 250 г/м.кв",
       "ru": "Дублирин сорочек повышенной плотности. Стирка до 95°С, не дает усадку. 100% хлопок, 250 г/м.кв."
@@ -748,7 +928,13 @@
       "fabricType": "тканий",
       "density": "250",
       "width": "90",
-      "colors": [],
+      "colors": [
+        {
+          "color": "WHITE",
+          "image": "http://catalog.raznobyt.com/images/products/820.988/main/WHITE.jpg",
+          "isMain": true
+        }
+      ],
       "properties": [],
       "composition": {
         "cotton": 100,
@@ -782,7 +968,10 @@
       "ru": "Дублірин 017/048  верхній одяг"
     },
     "isNew": false,
-    "images": [],
+    "images": [
+      "http://catalog.raznobyt.com/images/products/017.048/main/WHITE.jpg",
+      "http://catalog.raznobyt.com/images/products/017.048/BLACK.jpg"
+    ],
     "description": {
       "ua": "Дублірин трикотажний стрейч, 100% поліамід, 45 г/м.кв",
       "ru": "Дублирин трикотажний Би- стрейч, 100% полиамид, 36 г/м.кв"
@@ -791,7 +980,18 @@
       "fabricType": "тканий",
       "density": "36",
       "width": "150",
-      "colors": [],
+      "colors": [
+        {
+          "color": "WHITE",
+          "image": "http://catalog.raznobyt.com/images/products/017.048/main/WHITE.jpg",
+          "isMain": true
+        },
+        {
+          "color": "BLACK",
+          "image": "http://catalog.raznobyt.com/images/products/017.048/BLACK.jpg",
+          "isMain": false
+        }
+      ],
       "properties": [],
       "composition": {
         "cotton": 0,
@@ -825,7 +1025,10 @@
       "ru": "Дублірин 060/078  верхній одяг"
     },
     "isNew": false,
-    "images": [],
+    "images": [
+      "http://catalog.raznobyt.com/images/products/060.078/main/WHITE.jpg",
+      "http://catalog.raznobyt.com/images/products/060.078/BLACK.jpg"
+    ],
     "description": {
       "ua": "Дублірин трикотажний  стрейч, 100% поліамід, 45 г/м.кв",
       "ru": "Дублирин трикотажний стрейч, 100% полиамид, 45 г/м.кв"
@@ -834,7 +1037,18 @@
       "fabricType": "тканий",
       "density": "45",
       "width": "150",
-      "colors": [],
+      "colors": [
+        {
+          "color": "WHITE",
+          "image": "http://catalog.raznobyt.com/images/products/060.078/main/WHITE.jpg",
+          "isMain": true
+        },
+        {
+          "color": "BLACK",
+          "image": "http://catalog.raznobyt.com/images/products/060.078/BLACK.jpg",
+          "isMain": false
+        }
+      ],
       "properties": [],
       "composition": {
         "cotton": 0,
@@ -868,7 +1082,10 @@
       "ru": "Дублірин 065/454  верхній одяг"
     },
     "isNew": false,
-    "images": [],
+    "images": [
+      "http://catalog.raznobyt.com/images/products/065.454/main/WHITE.jpg",
+      "http://catalog.raznobyt.com/images/products/065.454/BLACK.jpg"
+    ],
     "description": {
       "ua": "Дублірин трикотажний  стрейч, 100% поліамід, 45 г/м.кв",
       "ru": "Дублирин трикотажний стрейч, 100% полиамид, 45 г/м.кв"
@@ -877,7 +1094,18 @@
       "fabricType": "тканий",
       "density": "45",
       "width": "150",
-      "colors": [],
+      "colors": [
+        {
+          "color": "WHITE",
+          "image": "http://catalog.raznobyt.com/images/products/065.454/main/WHITE.jpg",
+          "isMain": true
+        },
+        {
+          "color": "BLACK",
+          "image": "http://catalog.raznobyt.com/images/products/065.454/BLACK.jpg",
+          "isMain": false
+        }
+      ],
       "properties": [],
       "composition": {
         "cotton": 0,
@@ -911,7 +1139,10 @@
       "ru": "Дублірин 070/430/051  верхній одяг"
     },
     "isNew": false,
-    "images": [],
+    "images": [
+      "http://catalog.raznobyt.com/images/products/070.430/main/WHITE.jpg",
+      "http://catalog.raznobyt.com/images/products/070.430/BLACK.jpg"
+    ],
     "description": {
       "ua": "Дублірин рашель для піджаків та пальто, 80% віскоза, 20% поліамід, 65 г/м.кв",
       "ru": "Дублирин рашель для пиджаков и пальто, 80% вискоза, 20% полиамид, 65 г/м.кв "
@@ -920,7 +1151,18 @@
       "fabricType": "тканий",
       "density": "65",
       "width": "150",
-      "colors": [],
+      "colors": [
+        {
+          "color": "WHITE",
+          "image": "http://catalog.raznobyt.com/images/products/070.430/main/WHITE.jpg",
+          "isMain": true
+        },
+        {
+          "color": "BLACK",
+          "image": "http://catalog.raznobyt.com/images/products/070.430/BLACK.jpg",
+          "isMain": false
+        }
+      ],
       "properties": [],
       "composition": {
         "cotton": 0,
@@ -954,7 +1196,10 @@
       "ru": "Дублірин 081/452  верхній одяг"
     },
     "isNew": false,
-    "images": [],
+    "images": [
+      "http://catalog.raznobyt.com/images/products/81.452/main/WHITE.jpg",
+      "http://catalog.raznobyt.com/images/products/81.452/BLACK.jpg"
+    ],
     "description": {
       "ua": "Дублерин супереластичний для проблемних тканин, 100% поліестер, 65 г/м.кв",
       "ru": "Дублерин суперэластичный для проблемных тканей, 100% полиестер, 65 г/м.кв"
@@ -963,7 +1208,18 @@
       "fabricType": "",
       "density": "65",
       "width": "150",
-      "colors": [],
+      "colors": [
+        {
+          "color": "WHITE",
+          "image": "http://catalog.raznobyt.com/images/products/81.452/main/WHITE.jpg",
+          "isMain": true
+        },
+        {
+          "color": "BLACK",
+          "image": "http://catalog.raznobyt.com/images/products/81.452/BLACK.jpg",
+          "isMain": false
+        }
+      ],
       "properties": [],
       "composition": {
         "cotton": 0,
@@ -997,7 +1253,10 @@
       "ru": "Дублірин 004/711/051  верхній одяг"
     },
     "isNew": false,
-    "images": [],
+    "images": [
+      "http://catalog.raznobyt.com/images/products/004.711/main/WHITE.jpg",
+      "http://catalog.raznobyt.com/images/products/004.711/BLACK.jpg"
+    ],
     "description": {
       "ua": "Дублерин низькоплавкий для виробів із шкіри, 80% віскоза, 20% поліамід, 80 г/м.кв",
       "ru": "Дублерин низкоплавкий для изделий из кожи, 80% вискоза, 20% полиамид, 80 г/м.кв"
@@ -1006,7 +1265,18 @@
       "fabricType": "",
       "density": "80",
       "width": "150",
-      "colors": [],
+      "colors": [
+        {
+          "color": "WHITE",
+          "image": "http://catalog.raznobyt.com/images/products/004.711/main/WHITE.jpg",
+          "isMain": true
+        },
+        {
+          "color": "BLACK",
+          "image": "http://catalog.raznobyt.com/images/products/004.711/BLACK.jpg",
+          "isMain": false
+        }
+      ],
       "properties": [],
       "composition": {
         "cotton": 0,

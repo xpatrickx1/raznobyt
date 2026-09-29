@@ -454,7 +454,9 @@
       "ru": "22005"
     },
     "isNew": false,
-    "images": [],
+    "images": [
+      "http://catalog.raznobyt.com/images/products/22001/main/NAVY.jpg"
+    ],
     "description": {
       "ua": "100% бавовна,  300г/м.кв,  саржа,  149см",
       "ru": "100% хлопок,  300г/м.кв,  саржа,  149см"
@@ -463,7 +465,13 @@
       "fabricType": "саржа",
       "density": "300",
       "width": "149",
-      "colors": [],
+      "colors": [
+        {
+          "color": "NAVY",
+          "image": "http://catalog.raznobyt.com/images/products/22001/main/NAVY.jpg",
+          "isMain": true
+        }
+      ],
       "properties": [],
       "composition": {
         "cotton": 100,

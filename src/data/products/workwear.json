@@ -2563,7 +2563,14 @@
       "ru": "03928 DENIM STRETCH"
     },
     "isNew": false,
-    "images": [],
+    "images": [
+      "http://catalog.raznobyt.com/images/products/03928/main/18.jpg",
+      "http://catalog.raznobyt.com/images/products/03928/003.jpg",
+      "http://catalog.raznobyt.com/images/products/03928/15.jpg",
+      "http://catalog.raznobyt.com/images/products/03928/054.jpg",
+      "http://catalog.raznobyt.com/images/products/03928/068.jpg",
+      "http://catalog.raznobyt.com/images/products/03928/108.jpg"
+    ],
     "description": {
       "ua": "Міцна тканина джинсового переплетення. Склад: 48% бавовна, 48% поліестр, 4% стрейч. Щільність 280 г/м². Для робочого одягу.",
       "ru": "Прочная ткань джинсового переплетения. Состав: 48% хлопок, 48% полиэстер, 4% стретч. Плотность 280 г/м². Для рабочей одежды."
@@ -2572,7 +2579,38 @@
       "fabricType": "denim",
       "density": "280",
       "width": "150",
-      "colors": [],
+      "colors": [
+        {
+          "color": "18",
+          "image": "http://catalog.raznobyt.com/images/products/03928/main/18.jpg",
+          "isMain": true
+        },
+        {
+          "color": "003",
+          "image": "http://catalog.raznobyt.com/images/products/03928/003.jpg",
+          "isMain": false
+        },
+        {
+          "color": "15",
+          "image": "http://catalog.raznobyt.com/images/products/03928/15.jpg",
+          "isMain": false
+        },
+        {
+          "color": "054",
+          "image": "http://catalog.raznobyt.com/images/products/03928/054.jpg",
+          "isMain": false
+        },
+        {
+          "color": "068",
+          "image": "http://catalog.raznobyt.com/images/products/03928/068.jpg",
+          "isMain": false
+        },
+        {
+          "color": "108",
+          "image": "http://catalog.raznobyt.com/images/products/03928/108.jpg",
+          "isMain": false
+        }
+      ],
       "properties": [],
       "composition": {
         "cotton": 48,
@@ -2877,7 +2915,7 @@
       "ru": "Смесовая ткань саржевого переплетения. Состав: 80% хлопок, 20% полиэстер. Антистатическая нитка. МВО - масловодоотталкивающая.  Плотность 255 г/м²."
     },
     "attributes": {
-      "fabricType": "",
+      "fabricType": "twill",
       "density": "255 гр/м.кв.",
       "width": "150 см",
       "colors": [],
@@ -3059,16 +3097,30 @@
       "ru": "T147"
     },
     "isNew": false,
-    "images": [],
+    "images": [
+      "http://catalog.raznobyt.com/images/products/T147/main/33252.jpg",
+      "http://catalog.raznobyt.com/images/products/T147/33253.jpg"
+    ],
     "description": {
       "ua": "Високоякісна змішана тканина саржевого переплетення. Склад: 35% бавовна, 65% поліестр. Щільність 220 г/м².  Для корпоративного одягу та HORECA.",
       "ru": "Высококачественная смесовая ткань саржевого переплетения. Состав: 35% хлопок, 65% полиэстер. Плотность 220 г/м². Для корпоративной одежды и HORECA."
     },
     "attributes": {
-      "fabricType": "",
+      "fabricType": "twill",
       "density": "220",
       "width": "150",
-      "colors": [],
+      "colors": [
+        {
+          "color": "33252",
+          "image": "http://catalog.raznobyt.com/images/products/T147/main/33252.jpg",
+          "isMain": true
+        },
+        {
+          "color": "33253",
+          "image": "http://catalog.raznobyt.com/images/products/T147/33253.jpg",
+          "isMain": false
+        }
+      ],
       "properties": [],
       "composition": {
         "cotton": 35,
@@ -3102,16 +3154,24 @@
       "ru": "T137"
     },
     "isNew": false,
-    "images": [],
+    "images": [
+      "http://catalog.raznobyt.com/images/products/T137/main/33212.jpg"
+    ],
     "description": {
       "ua": "Високоякісна змішана тканина саржевого переплетення. Склад: 35% бавовна, 65% поліестр. Щільність 220 г/м².  Для корпоративного одягу та HORECA.",
       "ru": "Высококачественная смесовая ткань саржевого переплетения. Состав: 35% хлопок, 65% полиэстер. Плотность 220 г/м². Для корпоративной одежды и HORECA."
     },
     "attributes": {
-      "fabricType": "",
+      "fabricType": "twill",
       "density": "220",
       "width": "150",
-      "colors": [],
+      "colors": [
+        {
+          "color": "33212",
+          "image": "http://catalog.raznobyt.com/images/products/T137/main/33212.jpg",
+          "isMain": true
+        }
+      ],
       "properties": [],
       "composition": {
         "cotton": 35,
@@ -3145,16 +3205,30 @@
       "ru": "T138"
     },
     "isNew": false,
-    "images": [],
+    "images": [
+      "http://catalog.raznobyt.com/images/products/T138/main/33221.jpg",
+      "http://catalog.raznobyt.com/images/products/T138/33222.jpg"
+    ],
     "description": {
       "ua": "Високоякісна змішана тканина саржевого переплетення. Склад: 35% бавовна, 65% поліестр. Щільність 230 г/м².  Для корпоративного одягу та HORECA.",
       "ru": "Высококачественная смесовая ткань саржевого переплетения. Состав: 35% хлопок, 65% полиэстер. Плотность 230 г/м². Для корпоративной одежды и HORECA."
     },
     "attributes": {
-      "fabricType": "",
+      "fabricType": "twill",
       "density": "230",
       "width": "150",
-      "colors": [],
+      "colors": [
+        {
+          "color": "33221",
+          "image": "http://catalog.raznobyt.com/images/products/T138/main/33221.jpg",
+          "isMain": true
+        },
+        {
+          "color": "33222",
+          "image": "http://catalog.raznobyt.com/images/products/T138/33222.jpg",
+          "isMain": false
+        }
+      ],
       "properties": [],
       "composition": {
         "cotton": 35,
@@ -3188,21 +3262,72 @@
       "ru": "T144"
     },
     "isNew": false,
-    "images": [],
+    "images": [
+      "http://catalog.raznobyt.com/images/products/T144/main/33245.jpg"
+    ],
     "description": {
       "ua": "Високоякісна змішана тканина саржевого переплетення. Склад: 35% бавовна, 58% поліестр, 4% еластан. Щільність 220 г/м².  Для корпоративного одягу та HORECA.",
       "ru": "Высококачественная смесовая ткань саржевого переплетения. Состав: 35% хлопок, 65% полиэстер, 4% эластан. Плотность 220 г/м². Для корпоративной одежды и HORECA."
     },
     "attributes": {
-      "fabricType": "",
+      "fabricType": "twill",
       "density": "220",
       "width": "150",
-      "colors": [],
+      "colors": [
+        {
+          "color": "33245",
+          "image": "http://catalog.raznobyt.com/images/products/T144/main/33245.jpg",
+          "isMain": true
+        }
+      ],
       "properties": [],
       "composition": {
         "cotton": 35,
         "polyester": 58,
         "spandex": 4,
+        "rayon": 0,
+        "viscose": 0,
+        "pbt": 0,
+        "lyon": 0,
+        "polyamidePA": 0,
+        "polypropylenePP": 0,
+        "paraAramid": 0,
+        "antistatic": 0,
+        "modacrylicLyocellStaticControl": 0,
+        "nomexKevlarAntiStatic": 0,
+        "nomexParaAramidP140": 0,
+        "pbiKevlarAntistatic": 0,
+        "lenzingFRAramid": 0,
+        "paraAramidSolidPolymerCoating": 0,
+        "frRayonParaAramidPolyamideAntistatic": 0,
+        "MAC": 0
+      }
+    }
+  },
+  {
+    "id": "tkan-workwear-kg-245",
+    "category": "workwear",
+    "slug": "tkan-workwear-kg-245",
+    "title": {
+      "ua": "KG 245",
+      "ru": "KG 245"
+    },
+    "isNew": false,
+    "images": [],
+    "description": {
+      "ua": "35% бавовна, 65% поліестр  245г/м.кв",
+      "ru": "35% хлопок, 65% полиестр  245г/м.кв"
+    },
+    "attributes": {
+      "fabricType": "канвас, панама",
+      "density": "245",
+      "width": "150",
+      "colors": [],
+      "properties": [],
+      "composition": {
+        "cotton": 35,
+        "polyester": 65,
+        "spandex": 0,
         "rayon": 0,
         "viscose": 0,
         "pbt": 0,

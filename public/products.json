@@ -2563,7 +2563,14 @@
       "ru": "03928 DENIM STRETCH"
     },
     "isNew": false,
-    "images": [],
+    "images": [
+      "http://catalog.raznobyt.com/images/products/03928/main/18.jpg",
+      "http://catalog.raznobyt.com/images/products/03928/003.jpg",
+      "http://catalog.raznobyt.com/images/products/03928/15.jpg",
+      "http://catalog.raznobyt.com/images/products/03928/054.jpg",
+      "http://catalog.raznobyt.com/images/products/03928/068.jpg",
+      "http://catalog.raznobyt.com/images/products/03928/108.jpg"
+    ],
     "description": {
       "ua": "Міцна тканина джинсового переплетення. Склад: 48% бавовна, 48% поліестр, 4% стрейч. Щільність 280 г/м². Для робочого одягу.",
       "ru": "Прочная ткань джинсового переплетения. Состав: 48% хлопок, 48% полиэстер, 4% стретч. Плотность 280 г/м². Для рабочей одежды."
@@ -2572,7 +2579,38 @@
       "fabricType": "denim",
       "density": "280",
       "width": "150",
-      "colors": [],
+      "colors": [
+        {
+          "color": "18",
+          "image": "http://catalog.raznobyt.com/images/products/03928/main/18.jpg",
+          "isMain": true
+        },
+        {
+          "color": "003",
+          "image": "http://catalog.raznobyt.com/images/products/03928/003.jpg",
+          "isMain": false
+        },
+        {
+          "color": "15",
+          "image": "http://catalog.raznobyt.com/images/products/03928/15.jpg",
+          "isMain": false
+        },
+        {
+          "color": "054",
+          "image": "http://catalog.raznobyt.com/images/products/03928/054.jpg",
+          "isMain": false
+        },
+        {
+          "color": "068",
+          "image": "http://catalog.raznobyt.com/images/products/03928/068.jpg",
+          "isMain": false
+        },
+        {
+          "color": "108",
+          "image": "http://catalog.raznobyt.com/images/products/03928/108.jpg",
+          "isMain": false
+        }
+      ],
       "properties": [],
       "composition": {
         "cotton": 48,
@@ -2877,7 +2915,7 @@
       "ru": "Смесовая ткань саржевого переплетения. Состав: 80% хлопок, 20% полиэстер. Антистатическая нитка. МВО - масловодоотталкивающая.  Плотность 255 г/м²."
     },
     "attributes": {
-      "fabricType": "",
+      "fabricType": "twill",
       "density": "255 гр/м.кв.",
       "width": "150 см",
       "colors": [],
@@ -3059,16 +3097,30 @@
       "ru": "T147"
     },
     "isNew": false,
-    "images": [],
+    "images": [
+      "http://catalog.raznobyt.com/images/products/T147/main/33252.jpg",
+      "http://catalog.raznobyt.com/images/products/T147/33253.jpg"
+    ],
     "description": {
       "ua": "Високоякісна змішана тканина саржевого переплетення. Склад: 35% бавовна, 65% поліестр. Щільність 220 г/м².  Для корпоративного одягу та HORECA.",
       "ru": "Высококачественная смесовая ткань саржевого переплетения. Состав: 35% хлопок, 65% полиэстер. Плотность 220 г/м². Для корпоративной одежды и HORECA."
     },
     "attributes": {
-      "fabricType": "",
+      "fabricType": "twill",
       "density": "220",
       "width": "150",
-      "colors": [],
+      "colors": [
+        {
+          "color": "33252",
+          "image": "http://catalog.raznobyt.com/images/products/T147/main/33252.jpg",
+          "isMain": true
+        },
+        {
+          "color": "33253",
+          "image": "http://catalog.raznobyt.com/images/products/T147/33253.jpg",
+          "isMain": false
+        }
+      ],
       "properties": [],
       "composition": {
         "cotton": 35,
@@ -3102,16 +3154,24 @@
       "ru": "T137"
     },
     "isNew": false,
-    "images": [],
+    "images": [
+      "http://catalog.raznobyt.com/images/products/T137/main/33212.jpg"
+    ],
     "description": {
       "ua": "Високоякісна змішана тканина саржевого переплетення. Склад: 35% бавовна, 65% поліестр. Щільність 220 г/м².  Для корпоративного одягу та HORECA.",
       "ru": "Высококачественная смесовая ткань саржевого переплетения. Состав: 35% хлопок, 65% полиэстер. Плотность 220 г/м². Для корпоративной одежды и HORECA."
     },
     "attributes": {
-      "fabricType": "",
+      "fabricType": "twill",
       "density": "220",
       "width": "150",
-      "colors": [],
+      "colors": [
+        {
+          "color": "33212",
+          "image": "http://catalog.raznobyt.com/images/products/T137/main/33212.jpg",
+          "isMain": true
+        }
+      ],
       "properties": [],
       "composition": {
         "cotton": 35,
@@ -3145,16 +3205,30 @@
       "ru": "T138"
     },
     "isNew": false,
-    "images": [],
+    "images": [
+      "http://catalog.raznobyt.com/images/products/T138/main/33221.jpg",
+      "http://catalog.raznobyt.com/images/products/T138/33222.jpg"
+    ],
     "description": {
       "ua": "Високоякісна змішана тканина саржевого переплетення. Склад: 35% бавовна, 65% поліестр. Щільність 230 г/м².  Для корпоративного одягу та HORECA.",
       "ru": "Высококачественная смесовая ткань саржевого переплетения. Состав: 35% хлопок, 65% полиэстер. Плотность 230 г/м². Для корпоративной одежды и HORECA."
     },
     "attributes": {
-      "fabricType": "",
+      "fabricType": "twill",
       "density": "230",
       "width": "150",
-      "colors": [],
+      "colors": [
+        {
+          "color": "33221",
+          "image": "http://catalog.raznobyt.com/images/products/T138/main/33221.jpg",
+          "isMain": true
+        },
+        {
+          "color": "33222",
+          "image": "http://catalog.raznobyt.com/images/products/T138/33222.jpg",
+          "isMain": false
+        }
+      ],
       "properties": [],
       "composition": {
         "cotton": 35,
@@ -3188,21 +3262,72 @@
       "ru": "T144"
     },
     "isNew": false,
-    "images": [],
+    "images": [
+      "http://catalog.raznobyt.com/images/products/T144/main/33245.jpg"
+    ],
     "description": {
       "ua": "Високоякісна змішана тканина саржевого переплетення. Склад: 35% бавовна, 58% поліестр, 4% еластан. Щільність 220 г/м².  Для корпоративного одягу та HORECA.",
       "ru": "Высококачественная смесовая ткань саржевого переплетения. Состав: 35% хлопок, 65% полиэстер, 4% эластан. Плотность 220 г/м². Для корпоративной одежды и HORECA."
     },
     "attributes": {
-      "fabricType": "",
+      "fabricType": "twill",
       "density": "220",
       "width": "150",
-      "colors": [],
+      "colors": [
+        {
+          "color": "33245",
+          "image": "http://catalog.raznobyt.com/images/products/T144/main/33245.jpg",
+          "isMain": true
+        }
+      ],
       "properties": [],
       "composition": {
         "cotton": 35,
         "polyester": 58,
         "spandex": 4,
+        "rayon": 0,
+        "viscose": 0,
+        "pbt": 0,
+        "lyon": 0,
+        "polyamidePA": 0,
+        "polypropylenePP": 0,
+        "paraAramid": 0,
+        "antistatic": 0,
+        "modacrylicLyocellStaticControl": 0,
+        "nomexKevlarAntiStatic": 0,
+        "nomexParaAramidP140": 0,
+        "pbiKevlarAntistatic": 0,
+        "lenzingFRAramid": 0,
+        "paraAramidSolidPolymerCoating": 0,
+        "frRayonParaAramidPolyamideAntistatic": 0,
+        "MAC": 0
+      }
+    }
+  },
+  {
+    "id": "tkan-workwear-kg-245",
+    "category": "workwear",
+    "slug": "tkan-workwear-kg-245",
+    "title": {
+      "ua": "KG 245",
+      "ru": "KG 245"
+    },
+    "isNew": false,
+    "images": [],
+    "description": {
+      "ua": "35% бавовна, 65% поліестр  245г/м.кв",
+      "ru": "35% хлопок, 65% полиестр  245г/м.кв"
+    },
+    "attributes": {
+      "fabricType": "канвас, панама",
+      "density": "245",
+      "width": "150",
+      "colors": [],
+      "properties": [],
+      "composition": {
+        "cotton": 35,
+        "polyester": 65,
+        "spandex": 0,
         "rayon": 0,
         "viscose": 0,
         "pbt": 0,
@@ -8284,7 +8409,10 @@
       "ru": "Washed Denim Stretch"
     },
     "isNew": false,
-    "images": [],
+    "images": [
+      "http://catalog.raznobyt.com/images/products/WASHED DENIM STRETCH/main/C1 (WT).jpg",
+      "http://catalog.raznobyt.com/images/products/WASHED DENIM STRETCH/C4 (WT).jpg"
+    ],
     "description": {
       "ua": "Джинсова тканина з ефектом стрейч. Склад: 80% бавовна, 18% поліестр, 2% стрейч. Щільність 300 г/м². Для стильної уніформи HoReCa.",
       "ru": "Джинсовая ткань с эффектом стретч. Состав: 80% хлопок, 18% полиэстер, 2% стретч. Плотность 300 г/м². Для стильной униформы HoReCa."
@@ -8293,7 +8421,18 @@
       "fabricType": "denim",
       "density": "300",
       "width": "150",
-      "colors": [],
+      "colors": [
+        {
+          "color": "C1 (WT)",
+          "image": "http://catalog.raznobyt.com/images/products/WASHED DENIM STRETCH/main/C1 (WT).jpg",
+          "isMain": true
+        },
+        {
+          "color": "C4 (WT)",
+          "image": "http://catalog.raznobyt.com/images/products/WASHED DENIM STRETCH/C4 (WT).jpg",
+          "isMain": false
+        }
+      ],
       "properties": [],
       "composition": {
         "cotton": 80,
@@ -8601,7 +8740,17 @@
       "ru": "Canvas 9060"
     },
     "isNew": false,
-    "images": [],
+    "images": [
+      "http://catalog.raznobyt.com/images/products/9060/main/28.jpg",
+      "http://catalog.raznobyt.com/images/products/9060/1.jpg",
+      "http://catalog.raznobyt.com/images/products/9060/11.jpg",
+      "http://catalog.raznobyt.com/images/products/9060/51.jpg",
+      "http://catalog.raznobyt.com/images/products/9060/58.jpg",
+      "http://catalog.raznobyt.com/images/products/9060/69.jpg",
+      "http://catalog.raznobyt.com/images/products/9060/106.jpg",
+      "http://catalog.raznobyt.com/images/products/9060/1023.jpg",
+      "http://catalog.raznobyt.com/images/products/9060/1252.jpg"
+    ],
     "description": {
       "ua": "100% бавовняна тканина канвас. Щільність 250 г/м². Високоміцний матеріал для уніформи.",
       "ru": "100% хлопковая ткань канвас. Плотность 250 г/м². Высокопрочный материал для униформы."
@@ -8610,7 +8759,53 @@
       "fabricType": "canvas",
       "density": "250",
       "width": "150",
-      "colors": [],
+      "colors": [
+        {
+          "color": "28",
+          "image": "http://catalog.raznobyt.com/images/products/9060/main/28.jpg",
+          "isMain": true
+        },
+        {
+          "color": "1",
+          "image": "http://catalog.raznobyt.com/images/products/9060/1.jpg",
+          "isMain": false
+        },
+        {
+          "color": "11",
+          "image": "http://catalog.raznobyt.com/images/products/9060/11.jpg",
+          "isMain": false
+        },
+        {
+          "color": "51",
+          "image": "http://catalog.raznobyt.com/images/products/9060/51.jpg",
+          "isMain": false
+        },
+        {
+          "color": "58",
+          "image": "http://catalog.raznobyt.com/images/products/9060/58.jpg",
+          "isMain": false
+        },
+        {
+          "color": "69",
+          "image": "http://catalog.raznobyt.com/images/products/9060/69.jpg",
+          "isMain": false
+        },
+        {
+          "color": "106",
+          "image": "http://catalog.raznobyt.com/images/products/9060/106.jpg",
+          "isMain": false
+        },
+        {
+          "color": "1023",
+          "image": "http://catalog.raznobyt.com/images/products/9060/1023.jpg",
+          "isMain": false
+        },
+        {
+          "color": "1252",
+          "image": "http://catalog.raznobyt.com/images/products/9060/1252.jpg",
+          "isMain": false
+        }
+      ],
       "properties": [],
       "composition": {
         "cotton": 100,
@@ -10228,7 +10423,7 @@
   {
     "id": "tkan-shirts-353",
     "category": "shirts",
-    "subcat": "cotton",
+    "subcat": "square",
     "slug": "tkan-shirts-353",
     "title": {
       "ua": "А353",
@@ -10286,7 +10481,7 @@
   {
     "id": "tkan-shirts-331",
     "category": "shirts",
-    "subcat": "cell",
+    "subcat": "square",
     "slug": "tkan-shirts-331",
     "title": {
       "ua": "А331",
@@ -10338,6 +10533,7 @@
   {
     "id": "tkan-shirts-939",
     "category": "shirts",
+    "subcat": "square",
     "slug": "tkan-shirts-939",
     "title": {
       "ua": "А939",
@@ -10381,7 +10577,7 @@
   {
     "id": "tkan-shirts-386",
     "category": "shirts",
-    "subcat": "cotton",
+    "subcat": "square",
     "slug": "tkan-shirts-386",
     "title": {
       "ua": "А386",
@@ -10433,7 +10629,7 @@
   {
     "id": "tkan-shirts-4664",
     "category": "shirts",
-    "subcat": "cell",
+    "subcat": "square",
     "slug": "tkan-shirts-4664",
     "title": {
       "ua": "4664",
@@ -10441,7 +10637,10 @@
     },
     "isNew": false,
     "images": [
-      "http://catalog.raznobyt.com/images/products/4664/main/17101.jpg"
+      "http://catalog.raznobyt.com/images/products/4664/main/17101.jpg",
+      "http://catalog.raznobyt.com/images/products/4664/00023.jpg",
+      "http://catalog.raznobyt.com/images/products/4664/11327.jpg",
+      "http://catalog.raznobyt.com/images/products/4664/17728.jpg"
     ],
     "description": {
       "ua": "100% бавовна 126 г/м.кв. легка, комфортна, дихаюча, ",
@@ -10456,6 +10655,21 @@
           "color": "17101",
           "image": "http://catalog.raznobyt.com/images/products/4664/main/17101.jpg",
           "isMain": true
+        },
+        {
+          "color": "00023",
+          "image": "http://catalog.raznobyt.com/images/products/4664/00023.jpg",
+          "isMain": false
+        },
+        {
+          "color": "11327",
+          "image": "http://catalog.raznobyt.com/images/products/4664/11327.jpg",
+          "isMain": false
+        },
+        {
+          "color": "17728",
+          "image": "http://catalog.raznobyt.com/images/products/4664/17728.jpg",
+          "isMain": false
         }
       ],
       "properties": [],
@@ -10485,7 +10699,7 @@
   {
     "id": "tkan-shirts-112",
     "category": "shirts",
-    "subcat": "cell",
+    "subcat": "square",
     "slug": "tkan-shirts-112",
     "title": {
       "ua": "А112",
@@ -10555,7 +10769,7 @@
   {
     "id": "tkan-shirts-5845",
     "category": "shirts",
-    "subcat": "cell",
+    "subcat": "square",
     "slug": "tkan-shirts-5845",
     "title": {
       "ua": "5845",
@@ -10619,7 +10833,7 @@
   {
     "id": "tkan-shirts-5339",
     "category": "shirts",
-    "subcat": "cell",
+    "subcat": "square",
     "slug": "tkan-shirts-5339",
     "title": {
       "ua": "5339",
@@ -10683,7 +10897,7 @@
   {
     "id": "tkan-shirts-5507",
     "category": "shirts",
-    "subcat": "cell",
+    "subcat": "square",
     "slug": "tkan-shirts-5507",
     "title": {
       "ua": "5507",
@@ -10735,7 +10949,7 @@
   {
     "id": "tkan-shirts-5764",
     "category": "shirts",
-    "subcat": "cell",
+    "subcat": "square",
     "slug": "tkan-shirts-5764",
     "title": {
       "ua": "5764",
@@ -10787,7 +11001,7 @@
   {
     "id": "tkan-shirts-7251",
     "category": "shirts",
-    "subcat": "solid",
+    "subcat": "cotton60",
     "slug": "tkan-shirts-7251",
     "title": {
       "ua": "7251",
@@ -10917,7 +11131,7 @@
   {
     "id": "tkan-shirts-rc113cv",
     "category": "shirts",
-    "subcat": "solid",
+    "subcat": "cotton60",
     "slug": "tkan-shirts-rc113cv",
     "title": {
       "ua": "RC113CV",
@@ -10981,7 +11195,7 @@
   {
     "id": "tkan-shirts-lt2111",
     "category": "shirts",
-    "subcat": "solid",
+    "subcat": "cotton60",
     "slug": "tkan-shirts-lt2111",
     "title": {
       "ua": "LT2111",
@@ -11069,7 +11283,7 @@
   {
     "id": "tkan-shirts-196",
     "category": "shirts",
-    "subcat": "solid",
+    "subcat": "cotton100",
     "slug": "tkan-shirts-196",
     "title": {
       "ua": "А196",
@@ -11139,7 +11353,7 @@
   {
     "id": "tkan-shirts-359",
     "category": "shirts",
-    "subcat": "solid",
+    "subcat": "cotton100",
     "slug": "tkan-shirts-359",
     "title": {
       "ua": "А359",
@@ -11221,7 +11435,7 @@
   {
     "id": "tkan-shirts-1021",
     "category": "shirts",
-    "subcat": "solid",
+    "subcat": "cotton100",
     "slug": "tkan-shirts-1021",
     "title": {
       "ua": "1021",
@@ -11291,6 +11505,7 @@
   {
     "id": "tkan-shirts-042",
     "category": "shirts",
+    "subcat": "cotton100",
     "slug": "tkan-shirts-042",
     "title": {
       "ua": "А042",
@@ -11334,7 +11549,7 @@
   {
     "id": "tkan-shirts-573",
     "category": "shirts",
-    "subcat": "solid",
+    "subcat": "cotton100",
     "slug": "tkan-shirts-573",
     "title": {
       "ua": "А573",
@@ -11386,7 +11601,7 @@
   {
     "id": "tkan-shirts-l678",
     "category": "shirts",
-    "subcat": "solid",
+    "subcat": "cotton100",
     "slug": "tkan-shirts-l678",
     "title": {
       "ua": "L678",
@@ -11438,7 +11653,7 @@
   {
     "id": "tkan-shirts-l493",
     "category": "shirts",
-    "subcat": "solid",
+    "subcat": "cotton100",
     "slug": "tkan-shirts-l493",
     "title": {
       "ua": "L493",
@@ -11490,6 +11705,7 @@
   {
     "id": "tkan-shirts-477",
     "category": "shirts",
+    "subcat": "cotton100",
     "slug": "tkan-shirts-477",
     "title": {
       "ua": "А477",
@@ -11533,7 +11749,7 @@
   {
     "id": "tkan-shirts-2161",
     "category": "shirts",
-    "subcat": "solid",
+    "subcat": "cotton100",
     "slug": "tkan-shirts-2161",
     "title": {
       "ua": "2161",
@@ -11585,13 +11801,16 @@
   {
     "id": "tkan-shirts-4994",
     "category": "shirts",
+    "subcat": "cotton100",
     "slug": "tkan-shirts-4994",
     "title": {
       "ua": "4994",
       "ru": "4994"
     },
     "isNew": false,
-    "images": [],
+    "images": [
+      "http://catalog.raznobyt.com/images/products/4994/main/15216.jpg"
+    ],
     "description": {
       "ua": "100% бавовна легка, комфортна, дихаюча,",
       "ru": "100% хлопок  легкая, комфортная, дышащая"
@@ -11600,7 +11819,13 @@
       "fabricType": "полотно",
       "density": "125",
       "width": "150",
-      "colors": [],
+      "colors": [
+        {
+          "color": "15216",
+          "image": "http://catalog.raznobyt.com/images/products/4994/main/15216.jpg",
+          "isMain": true
+        }
+      ],
       "properties": [],
       "composition": {
         "cotton": 100,
@@ -11628,13 +11853,16 @@
   {
     "id": "tkan-shirts-4152",
     "category": "shirts",
+    "subcat": "cotton100",
     "slug": "tkan-shirts-4152",
     "title": {
       "ua": "4152",
       "ru": "4152"
     },
     "isNew": false,
-    "images": [],
+    "images": [
+      "http://catalog.raznobyt.com/images/products/4152/main/11331.jpg"
+    ],
     "description": {
       "ua": "100% бавовна легка, комфортна, дихаюча,",
       "ru": "100% хлопок  легкая, комфортная, дышащая"
@@ -11643,7 +11871,13 @@
       "fabricType": "полотно",
       "density": "125",
       "width": "150",
-      "colors": [],
+      "colors": [
+        {
+          "color": "11331",
+          "image": "http://catalog.raznobyt.com/images/products/4152/main/11331.jpg",
+          "isMain": true
+        }
+      ],
       "properties": [],
       "composition": {
         "cotton": 100,
@@ -11671,7 +11905,7 @@
   {
     "id": "tkan-shirts-0533",
     "category": "shirts",
-    "subcat": "solid",
+    "subcat": "cotton100",
     "slug": "tkan-shirts-0533",
     "title": {
       "ua": "0533",
@@ -11723,7 +11957,7 @@
   {
     "id": "tkan-shirts-0738",
     "category": "shirts",
-    "subcat": "solid",
+    "subcat": "cotton100",
     "slug": "tkan-shirts-0738",
     "title": {
       "ua": "0738",
@@ -11775,7 +12009,7 @@
   {
     "id": "tkan-shirts-202",
     "category": "shirts",
-    "subcat": "print",
+    "subcat": "square",
     "slug": "tkan-shirts-202",
     "title": {
       "ua": "А202",
@@ -11827,7 +12061,7 @@
   {
     "id": "tkan-shirts-0437",
     "category": "shirts",
-    "subcat": "solid",
+    "subcat": "cotton100",
     "slug": "tkan-shirts-0437",
     "title": {
       "ua": "0437",
@@ -11879,7 +12113,7 @@
   {
     "id": "tkan-shirts-0893",
     "category": "shirts",
-    "subcat": "solid",
+    "subcat": "cotton100",
     "slug": "tkan-shirts-0893",
     "title": {
       "ua": "0893",
@@ -11931,7 +12165,7 @@
   {
     "id": "tkan-shirts-0734",
     "category": "shirts",
-    "subcat": "solid",
+    "subcat": "cotton100",
     "slug": "tkan-shirts-0734",
     "title": {
       "ua": "0734",
@@ -11983,7 +12217,7 @@
   {
     "id": "tkan-shirts-solid",
     "category": "shirts",
-    "subcat": "solid",
+    "subcat": "strip",
     "slug": "tkan-shirts-solid",
     "title": {
       "ua": "SOLID",
@@ -12035,7 +12269,7 @@
   {
     "id": "tkan-shirts-561",
     "category": "shirts",
-    "subcat": "solid",
+    "subcat": "cotton100",
     "slug": "tkan-shirts-561",
     "title": {
       "ua": "А561",
@@ -12087,7 +12321,7 @@
   {
     "id": "tkan-shirts-489",
     "category": "shirts",
-    "subcat": "solid",
+    "subcat": "square",
     "slug": "tkan-shirts-489",
     "title": {
       "ua": "А489",
@@ -12139,7 +12373,7 @@
   {
     "id": "tkan-shirts-469",
     "category": "shirts",
-    "subcat": "solid",
+    "subcat": "cotton100",
     "slug": "tkan-shirts-469",
     "title": {
       "ua": "А469",
@@ -12249,13 +12483,17 @@
   {
     "id": "tkan-shirts-197",
     "category": "shirts",
+    "subcat": "strip",
     "slug": "tkan-shirts-197",
     "title": {
       "ua": "А197",
       "ru": "А197"
     },
     "isNew": false,
-    "images": [],
+    "images": [
+      "http://catalog.raznobyt.com/images/products/A197/main/19455.jpg",
+      "http://catalog.raznobyt.com/images/products/A197/19456.jpg"
+    ],
     "description": {
       "ua": "100% бавовна легка, комфортна, дихаюча,",
       "ru": "100% бавовна  легкая, комфортная, дышащая"
@@ -12264,7 +12502,18 @@
       "fabricType": "складне",
       "density": "162",
       "width": "150",
-      "colors": [],
+      "colors": [
+        {
+          "color": "19455",
+          "image": "http://catalog.raznobyt.com/images/products/A197/main/19455.jpg",
+          "isMain": true
+        },
+        {
+          "color": "19456",
+          "image": "http://catalog.raznobyt.com/images/products/A197/19456.jpg",
+          "isMain": false
+        }
+      ],
       "properties": [],
       "composition": {
         "cotton": 100,
@@ -12292,6 +12541,7 @@
   {
     "id": "tkan-shirts-l939",
     "category": "shirts",
+    "subcat": "cotton100",
     "slug": "tkan-shirts-l939",
     "title": {
       "ua": "L939",
@@ -13007,7 +13257,7 @@
   {
     "id": "tkan-shirts-0480",
     "category": "shirts",
-    "subcat": "solid",
+    "subcat": "cotton100",
     "slug": "tkan-shirts-0480",
     "title": {
       "ua": "0480",
@@ -13101,7 +13351,7 @@
   {
     "id": "tkan-shirts-1030",
     "category": "shirts",
-    "subcat": "solid",
+    "subcat": "cotton80",
     "slug": "tkan-shirts-1030",
     "title": {
       "ua": "1030",
@@ -13159,7 +13409,7 @@
   {
     "id": "tkan-shirts-rc118c",
     "category": "shirts",
-    "subcat": "solid",
+    "subcat": "cotton80",
     "slug": "tkan-shirts-rc118c",
     "title": {
       "ua": "RC118C",
@@ -13223,7 +13473,7 @@
   {
     "id": "tkan-shirts-1199",
     "category": "shirts",
-    "subcat": "solid",
+    "subcat": "cotton80",
     "slug": "tkan-shirts-1199",
     "title": {
       "ua": "1199",
@@ -13287,7 +13537,7 @@
   {
     "id": "tkan-shirts-112-2",
     "category": "shirts",
-    "subcat": "solid",
+    "subcat": "cotton80",
     "slug": "tkan-shirts-112-2",
     "title": {
       "ua": "В112",
@@ -13339,7 +13589,7 @@
   {
     "id": "tkan-shirts-lt1109",
     "category": "shirts",
-    "subcat": "solid",
+    "subcat": "cotton80",
     "slug": "tkan-shirts-lt1109",
     "title": {
       "ua": "LT1109",
@@ -13397,13 +13647,16 @@
   {
     "id": "tkan-shirts-5767",
     "category": "shirts",
+    "subcat": "cotton60",
     "slug": "tkan-shirts-5767",
     "title": {
       "ua": "5767",
       "ru": "5767"
     },
     "isNew": false,
-    "images": [],
+    "images": [
+      "http://catalog.raznobyt.com/images/products/5767/main/99017.jpg"
+    ],
     "description": {
       "ua": "63% бавовна, 34% поліестр, 3% еластан.  легка, комфортна, дихаюча,",
       "ru": "63% бавовна, 34% поліестр, 3% еластан.,  легкая, комфортная, дышащая,"
@@ -13412,7 +13665,13 @@
       "fabricType": "полотно",
       "density": "135",
       "width": "149",
-      "colors": [],
+      "colors": [
+        {
+          "color": "99017",
+          "image": "http://catalog.raznobyt.com/images/products/5767/main/99017.jpg",
+          "isMain": true
+        }
+      ],
       "properties": [],
       "composition": {
         "cotton": 63,
@@ -13440,7 +13699,7 @@
   {
     "id": "tkan-shirts-3009",
     "category": "shirts",
-    "subcat": "solid",
+    "subcat": "cotton60",
     "slug": "tkan-shirts-3009",
     "title": {
       "ua": "3009",
@@ -13498,7 +13757,7 @@
   {
     "id": "tkan-shirts-tr251",
     "category": "shirts",
-    "subcat": "solid",
+    "subcat": "cotton60",
     "slug": "tkan-shirts-tr251",
     "title": {
       "ua": "TR251",
@@ -13652,7 +13911,7 @@
   {
     "id": "tkan-shirts-tr-065",
     "category": "shirts",
-    "subcat": "solid",
+    "subcat": "cotton35",
     "slug": "tkan-shirts-tr-065",
     "title": {
       "ua": "TR-065",
@@ -13746,7 +14005,7 @@
   {
     "id": "tkan-shirts-9037",
     "category": "shirts",
-    "subcat": "solid",
+    "subcat": "cotton35",
     "slug": "tkan-shirts-9037",
     "title": {
       "ua": "9037",
@@ -13816,7 +14075,7 @@
   {
     "id": "tkan-shirts-9065",
     "category": "shirts",
-    "subcat": "solid",
+    "subcat": "cotton35",
     "slug": "tkan-shirts-9065",
     "title": {
       "ua": "9065",
@@ -13868,7 +14127,7 @@
   {
     "id": "tkan-shirts-l601",
     "category": "shirts",
-    "subcat": "solid",
+    "subcat": "cotton60",
     "slug": "tkan-shirts-l601",
     "title": {
       "ua": "L601",
@@ -13920,7 +14179,7 @@
   {
     "id": "tkan-shirts-a477",
     "category": "shirts",
-    "subcat": "solid",
+    "subcat": "cotton100",
     "slug": "tkan-shirts-a477",
     "title": {
       "ua": "A477",
@@ -13978,7 +14237,7 @@
   {
     "id": "tkan-shirts-l492",
     "category": "shirts",
-    "subcat": "solid",
+    "subcat": "cotton60",
     "slug": "tkan-shirts-l492",
     "title": {
       "ua": "L492",
@@ -14036,16 +14295,30 @@
       "ru": "KG 245"
     },
     "isNew": false,
-    "images": [],
+    "images": [
+      "http://catalog.raznobyt.com/images/products/KG 245/main/60996.jpg",
+      "http://catalog.raznobyt.com/images/products/KG 245/64958.jpg"
+    ],
     "description": {
       "ua": "35% бавовна, 65% поліестр  245г/м.кв",
       "ru": "35% хлопок, 65% полиестр  245г/м.кв"
     },
     "attributes": {
-      "fabricType": "канвас",
+      "fabricType": "канвас, панама",
       "density": "245",
       "width": "150",
-      "colors": [],
+      "colors": [
+        {
+          "color": "60996",
+          "image": "http://catalog.raznobyt.com/images/products/KG 245/main/60996.jpg",
+          "isMain": true
+        },
+        {
+          "color": "64958",
+          "image": "http://catalog.raznobyt.com/images/products/KG 245/64958.jpg",
+          "isMain": false
+        }
+      ],
       "properties": [],
       "composition": {
         "cotton": 35,
@@ -14380,7 +14653,10 @@
       "ru": "6509"
     },
     "isNew": false,
-    "images": [],
+    "images": [
+      "http://catalog.raznobyt.com/images/products/6509/main/ANTHRACITE.jpg",
+      "http://catalog.raznobyt.com/images/products/6509/ANTHRACITE.jpg"
+    ],
     "description": {
       "ua": "60% бавовна, 40% поліестер  330г/м.кв ",
       "ru": "60% хлопок, 40% полиестер  330г/м.кв "
@@ -14389,7 +14665,18 @@
       "fabricType": "канвас",
       "density": "330",
       "width": "150",
-      "colors": [],
+      "colors": [
+        {
+          "color": "ANTHRACITE",
+          "image": "http://catalog.raznobyt.com/images/products/6509/main/ANTHRACITE.jpg",
+          "isMain": true
+        },
+        {
+          "color": "ANTHRACITE",
+          "image": "http://catalog.raznobyt.com/images/products/6509/ANTHRACITE.jpg",
+          "isMain": false
+        }
+      ],
       "properties": [],
       "composition": {
         "cotton": 60,
@@ -15076,7 +15363,10 @@
       "ru": "Флізелін 773/069"
     },
     "isNew": false,
-    "images": [],
+    "images": [
+      "http://catalog.raznobyt.com/images/products/773.069/main/WHITE.jpg",
+      "http://catalog.raznobyt.com/images/products/773.069/GREY.jpg"
+    ],
     "description": {
       "ua": "Флізелін для буз та суконь, армований нитками 100% поліестр, 36 г/м.кв. ",
       "ru": "Флизелин для блуз и платьев, армированный нитквми 100% полиестр, 36 г/м.кв."
@@ -15085,7 +15375,18 @@
       "fabricType": "нетканий",
       "density": "36",
       "width": "90",
-      "colors": [],
+      "colors": [
+        {
+          "color": "WHITE",
+          "image": "http://catalog.raznobyt.com/images/products/773.069/main/WHITE.jpg",
+          "isMain": true
+        },
+        {
+          "color": "GREY",
+          "image": "http://catalog.raznobyt.com/images/products/773.069/GREY.jpg",
+          "isMain": false
+        }
+      ],
       "properties": [],
       "composition": {
         "cotton": 0,
@@ -15119,7 +15420,10 @@
       "ru": "Флізелін 747/077"
     },
     "isNew": false,
-    "images": [],
+    "images": [
+      "http://catalog.raznobyt.com/images/products/747.077/main/WHITE.jpg",
+      "http://catalog.raznobyt.com/images/products/747.077/GREY.jpg"
+    ],
     "description": {
       "ua": "Флізелін для буз та суконь універсальний Double Dot 50% поліестр,  50% поліамід, 37 г/м.кв. ",
       "ru": "Флизелин для блуз и платьев, универсальний Double Dot 50% полиестр,  50% полиамид, 37 г/м.кв."
@@ -15128,7 +15432,18 @@
       "fabricType": "нетканий",
       "density": "37",
       "width": "90",
-      "colors": [],
+      "colors": [
+        {
+          "color": "WHITE",
+          "image": "http://catalog.raznobyt.com/images/products/747.077/main/WHITE.jpg",
+          "isMain": true
+        },
+        {
+          "color": "GREY",
+          "image": "http://catalog.raznobyt.com/images/products/747.077/GREY.jpg",
+          "isMain": false
+        }
+      ],
       "properties": [],
       "composition": {
         "cotton": 0,
@@ -15162,7 +15477,10 @@
       "ru": "Флізелін 749/079"
     },
     "isNew": false,
-    "images": [],
+    "images": [
+      "http://catalog.raznobyt.com/images/products/749.079/main/WHITE.jpg",
+      "http://catalog.raznobyt.com/images/products/749.079/GREY.jpg"
+    ],
     "description": {
       "ua": "Флізелін для буз та суконь універсальний для всіх типів тканин 50% поліестр,  50% поліамід, 63 г/м.кв. ",
       "ru": "Флизелин для блуз и платьев, универсальний для всих типив тканин 50% полиестр,  50% полиамид, 63 г/м.кв."
@@ -15171,7 +15489,18 @@
       "fabricType": "нетканий",
       "density": "63",
       "width": "90",
-      "colors": [],
+      "colors": [
+        {
+          "color": "WHITE",
+          "image": "http://catalog.raznobyt.com/images/products/749.079/main/WHITE.jpg",
+          "isMain": true
+        },
+        {
+          "color": "GREY",
+          "image": "http://catalog.raznobyt.com/images/products/749.079/GREY.jpg",
+          "isMain": false
+        }
+      ],
       "properties": [],
       "composition": {
         "cotton": 0,
@@ -15205,7 +15534,9 @@
       "ru": "Флізелін 714/000"
     },
     "isNew": false,
-    "images": [],
+    "images": [
+      "http://catalog.raznobyt.com/images/products/714.000/main/WHITE.jpg"
+    ],
     "description": {
       "ua": "Флізелін для вишивки, не клейовий 100% віскоза, 42 г/м.кв.",
       "ru": "Флизелин для вишивки, не клеевой 100% вискоза, 42 г/м.кв"
@@ -15214,7 +15545,13 @@
       "fabricType": "нетканий",
       "density": "42",
       "width": "90",
-      "colors": [],
+      "colors": [
+        {
+          "color": "WHITE",
+          "image": "http://catalog.raznobyt.com/images/products/714.000/main/WHITE.jpg",
+          "isMain": true
+        }
+      ],
       "properties": [],
       "composition": {
         "cotton": 0,
@@ -15248,7 +15585,10 @@
       "ru": "Флізелін 761/713"
     },
     "isNew": false,
-    "images": [],
+    "images": [
+      "http://catalog.raznobyt.com/images/products/761.713W/main/HITE.jpg",
+      "http://catalog.raznobyt.com/images/products/761.713W/GREY.jpg"
+    ],
     "description": {
       "ua": "Флізелін низькоплавкий для делікатних тканин, шкіри  50% поліестр,  50% поліамід, 43 г/м.кв. ",
       "ru": "Флизелин низкоплавкий для деликатних тканей, кожи  50% полиестр,  50% полиамид, 43 г/м.кв. "
@@ -15257,7 +15597,18 @@
       "fabricType": "нетканий",
       "density": "43",
       "width": "90",
-      "colors": [],
+      "colors": [
+        {
+          "color": "HITE",
+          "image": "http://catalog.raznobyt.com/images/products/761.713W/main/HITE.jpg",
+          "isMain": true
+        },
+        {
+          "color": "GREY",
+          "image": "http://catalog.raznobyt.com/images/products/761.713W/GREY.jpg",
+          "isMain": false
+        }
+      ],
       "properties": [],
       "composition": {
         "cotton": 0,
@@ -15291,7 +15642,10 @@
       "ru": "Флізелін 335/052"
     },
     "isNew": false,
-    "images": [],
+    "images": [
+      "http://catalog.raznobyt.com/images/products/335.052/main/WHITE.jpg",
+      "http://catalog.raznobyt.com/images/products/335.052/GREY.jpg"
+    ],
     "description": {
       "ua": "Флізелін Dinamic Dot для проблемних тканин 50% поліестр,  50% поліамід, 35 г/м.кв. ",
       "ru": "Флизелин Dinamic Dot для проблемных тканей 50% полиестр,  50% полиамид, 35 г/м.кв. "
@@ -15300,7 +15654,18 @@
       "fabricType": "нетканий",
       "density": "35",
       "width": "90",
-      "colors": [],
+      "colors": [
+        {
+          "color": "WHITE",
+          "image": "http://catalog.raznobyt.com/images/products/335.052/main/WHITE.jpg",
+          "isMain": true
+        },
+        {
+          "color": "GREY",
+          "image": "http://catalog.raznobyt.com/images/products/335.052/GREY.jpg",
+          "isMain": false
+        }
+      ],
       "properties": [],
       "composition": {
         "cotton": 0,
@@ -15334,7 +15699,10 @@
       "ru": "Флізелін 231/052"
     },
     "isNew": false,
-    "images": [],
+    "images": [
+      "http://catalog.raznobyt.com/images/products/231.052/main/WHITE.jpg",
+      "http://catalog.raznobyt.com/images/products/231.052/GREY.jpg"
+    ],
     "description": {
       "ua": "Флізелін для тонких тканин 100% поліестер, 30 г/м.кв.",
       "ru": "Флизелин для тонких тканей 100% полиестер, 30 г/м.кв."
@@ -15343,7 +15711,18 @@
       "fabricType": "нетканий",
       "density": "30",
       "width": "90",
-      "colors": [],
+      "colors": [
+        {
+          "color": "WHITE",
+          "image": "http://catalog.raznobyt.com/images/products/231.052/main/WHITE.jpg",
+          "isMain": true
+        },
+        {
+          "color": "GREY",
+          "image": "http://catalog.raznobyt.com/images/products/231.052/GREY.jpg",
+          "isMain": false
+        }
+      ],
       "properties": [],
       "composition": {
         "cotton": 0,
@@ -15377,7 +15756,9 @@
       "ru": "Синтепон 775/083/050"
     },
     "isNew": false,
-    "images": [],
+    "images": [
+      "http://catalog.raznobyt.com/images/products/775.083/main/WHITE.jpg"
+    ],
     "description": {
       "ua": "Синтепон клейовий армований, 100% поліестр, 130 г/м.кв.",
       "ru": "Синтепон клеевой армированный, 100% полиестр, 130 г/м.кв."
@@ -15386,7 +15767,13 @@
       "fabricType": "нетканий",
       "density": "130",
       "width": "90",
-      "colors": [],
+      "colors": [
+        {
+          "color": "WHITE",
+          "image": "http://catalog.raznobyt.com/images/products/775.083/main/WHITE.jpg",
+          "isMain": true
+        }
+      ],
       "properties": [],
       "composition": {
         "cotton": 0,
@@ -15420,7 +15807,9 @@
       "ru": "Спанбонд 001/605"
     },
     "isNew": false,
-    "images": [],
+    "images": [
+      "http://catalog.raznobyt.com/images/products/001.605 SPUNBOND/main/WHITE.jpg"
+    ],
     "description": {
       "ua": "Спанбонд не клейовий,  100% поліестр, 80 г/м.кв.",
       "ru": "Спанбондне клеевой,  100% полиестр, 80 г/м.кв. "
@@ -15429,7 +15818,13 @@
       "fabricType": "нетканий",
       "density": "80",
       "width": "90",
-      "colors": [],
+      "colors": [
+        {
+          "color": "WHITE",
+          "image": "http://catalog.raznobyt.com/images/products/001.605 SPUNBOND/main/WHITE.jpg",
+          "isMain": true
+        }
+      ],
       "properties": [],
       "composition": {
         "cotton": 0,
@@ -15463,7 +15858,10 @@
       "ru": "Дублірин сорочковий 838/977"
     },
     "isNew": false,
-    "images": [],
+    "images": [
+      "http://catalog.raznobyt.com/images/products/838.977/main/WHITE.jpg",
+      "http://catalog.raznobyt.com/images/products/838.977/GREY.jpg"
+    ],
     "description": {
       "ua": "Дублірин на планки, блузи. Прання до 95°С, не дає усадку. 100% бавовна, 103 г/м.кв.",
       "ru": "Дублирин на планки, блузки. Стирка до 95°С, не дает усадку. 100% хлопок, 103 г/м.кв."
@@ -15472,7 +15870,18 @@
       "fabricType": "тканий",
       "density": "103",
       "width": "90",
-      "colors": [],
+      "colors": [
+        {
+          "color": "WHITE",
+          "image": "http://catalog.raznobyt.com/images/products/838.977/main/WHITE.jpg",
+          "isMain": true
+        },
+        {
+          "color": "GREY",
+          "image": "http://catalog.raznobyt.com/images/products/838.977/GREY.jpg",
+          "isMain": false
+        }
+      ],
       "properties": [],
       "composition": {
         "cotton": 100,
@@ -15506,7 +15915,9 @@
       "ru": "Дублірин сорочковий 806/977"
     },
     "isNew": false,
-    "images": [],
+    "images": [
+      "http://catalog.raznobyt.com/images/products/806.977/main/WHITE.jpg"
+    ],
     "description": {
       "ua": "Дублірин для сорочок. Прання до 95°С, не дає усадку. 100% бавовна, 119 г/м.кв.",
       "ru": "Дублирин для сорочек. Стирка до 95°С, не дает усадку. 100% хлопок, 119 г/м.кв."
@@ -15515,7 +15926,13 @@
       "fabricType": "тканий",
       "density": "119",
       "width": "90",
-      "colors": [],
+      "colors": [
+        {
+          "color": "WHITE",
+          "image": "http://catalog.raznobyt.com/images/products/806.977/main/WHITE.jpg",
+          "isMain": true
+        }
+      ],
       "properties": [],
       "composition": {
         "cotton": 100,
@@ -15549,7 +15966,9 @@
       "ru": "Дублірин сорочковий 806/979"
     },
     "isNew": false,
-    "images": [],
+    "images": [
+      "http://catalog.raznobyt.com/images/products/806.979/main/WHITE.jpg"
+    ],
     "description": {
       "ua": "Дублірин для сорочок середньої жорсткості. Прання до 95°С, не дає усадку. 100% бавовна, 124 г/м.кв",
       "ru": "Дублириндля сорочек средней жесткости. Стирка до 95°С, не дает усадку. 100% хлопок, 124 г/м.кв."
@@ -15558,7 +15977,13 @@
       "fabricType": "тканий",
       "density": "124",
       "width": "90",
-      "colors": [],
+      "colors": [
+        {
+          "color": "WHITE",
+          "image": "http://catalog.raznobyt.com/images/products/806.979/main/WHITE.jpg",
+          "isMain": true
+        }
+      ],
       "properties": [],
       "composition": {
         "cotton": 100,
@@ -15592,7 +16017,9 @@
       "ru": "Дублірин сорочковий 836/978"
     },
     "isNew": false,
-    "images": [],
+    "images": [
+      "http://catalog.raznobyt.com/images/products/836.978/main/WHITE.jpg"
+    ],
     "description": {
       "ua": "Дублірин для сорочок з ефектом фланелі. Прання до 95°С, не дає усадку. 100% бавовна, 147 г/м.кв",
       "ru": "Дублирин сорочек эффектом фланели. Стирка до 95°С, не дает усадку. 100% хлопок, 147 г/м.кв."
@@ -15601,7 +16028,13 @@
       "fabricType": "тканий",
       "density": "147",
       "width": "90",
-      "colors": [],
+      "colors": [
+        {
+          "color": "WHITE",
+          "image": "http://catalog.raznobyt.com/images/products/836.978/main/WHITE.jpg",
+          "isMain": true
+        }
+      ],
       "properties": [],
       "composition": {
         "cotton": 100,
@@ -15635,7 +16068,9 @@
       "ru": "Дублірин сорочковий 836/678"
     },
     "isNew": false,
-    "images": [],
+    "images": [
+      "http://catalog.raznobyt.com/images/products/836.678/main/WHITE.jpg"
+    ],
     "description": {
       "ua": "Дублірин для сорочок з ефектом фланелі. Прання до 95°С, не дає усадку. 100% бавовна, 152 г/м.кв",
       "ru": "Дублирин сорочек эффектом фланели. Стирка до 95°С, не дает усадку. 100% хлопок, 152 г/м.кв."
@@ -15644,7 +16079,13 @@
       "fabricType": "тканий",
       "density": "152",
       "width": "90",
-      "colors": [],
+      "colors": [
+        {
+          "color": "WHITE",
+          "image": "http://catalog.raznobyt.com/images/products/836.678/main/WHITE.jpg",
+          "isMain": true
+        }
+      ],
       "properties": [],
       "composition": {
         "cotton": 100,
@@ -15678,7 +16119,9 @@
       "ru": "Дублірин сорочковий 837/977"
     },
     "isNew": false,
-    "images": [],
+    "images": [
+      "http://catalog.raznobyt.com/images/products/837.977/main/WHITE.jpg"
+    ],
     "description": {
       "ua": "Дублірин для сорочок універсальний. Прання до 95°С, не дає усадку. 100% бавовна, 165 г/м.кв",
       "ru": "Дублирин сорочек универсальный. Стирка до 95°С, не дает усадку. 100% хлопок, 165 г/м.кв."
@@ -15687,7 +16130,13 @@
       "fabricType": "тканий",
       "density": "165",
       "width": "90",
-      "colors": [],
+      "colors": [
+        {
+          "color": "WHITE",
+          "image": "http://catalog.raznobyt.com/images/products/837.977/main/WHITE.jpg",
+          "isMain": true
+        }
+      ],
       "properties": [],
       "composition": {
         "cotton": 100,
@@ -15721,7 +16170,9 @@
       "ru": "Дублірин сорочковий 837/979"
     },
     "isNew": false,
-    "images": [],
+    "images": [
+      "http://catalog.raznobyt.com/images/products/837.979/main/WHITE.jpg"
+    ],
     "description": {
       "ua": "Дублірин для сорочок підвищенної жорсткості. Прання до 95°С, не дає усадку. 100% бавовна, 173 г/м.кв",
       "ru": "Дублирин сорочек повышенной жесткости. Стирка до 95°С, не дает усадку. 100% хлопок, 173 г/м.кв."
@@ -15730,7 +16181,13 @@
       "fabricType": "тканий",
       "density": "173",
       "width": "90",
-      "colors": [],
+      "colors": [
+        {
+          "color": "WHITE",
+          "image": "http://catalog.raznobyt.com/images/products/837.979/main/WHITE.jpg",
+          "isMain": true
+        }
+      ],
       "properties": [],
       "composition": {
         "cotton": 100,
@@ -15764,7 +16221,9 @@
       "ru": "Дублірин сорочковий 849/977"
     },
     "isNew": false,
-    "images": [],
+    "images": [
+      "http://catalog.raznobyt.com/images/products/849.977/main/WHITE.jpg"
+    ],
     "description": {
       "ua": "Дублірин  для класичний сорочок. Прання до 95°С, не дає усадку. 100% бавовна, 200 г/м.кв",
       "ru": "Дублирин  для класических сорочок. Прання до 95°С, не дає усадку. 100% бавовна, 200 г/м.кв"
@@ -15773,7 +16232,13 @@
       "fabricType": "тканий",
       "density": "200",
       "width": "90",
-      "colors": [],
+      "colors": [
+        {
+          "color": "WHITE",
+          "image": "http://catalog.raznobyt.com/images/products/849.977/main/WHITE.jpg",
+          "isMain": true
+        }
+      ],
       "properties": [],
       "composition": {
         "cotton": 100,
@@ -15807,7 +16272,9 @@
       "ru": "Дублірин сорочковий 820/988"
     },
     "isNew": false,
-    "images": [],
+    "images": [
+      "http://catalog.raznobyt.com/images/products/820.988/main/WHITE.jpg"
+    ],
     "description": {
       "ua": "Дублірин для сорочок підвищенної щільності. Прання до 95°С, не дає усадку. 100% бавовна, 250 г/м.кв",
       "ru": "Дублирин сорочек повышенной плотности. Стирка до 95°С, не дает усадку. 100% хлопок, 250 г/м.кв."
@@ -15816,7 +16283,13 @@
       "fabricType": "тканий",
       "density": "250",
       "width": "90",
-      "colors": [],
+      "colors": [
+        {
+          "color": "WHITE",
+          "image": "http://catalog.raznobyt.com/images/products/820.988/main/WHITE.jpg",
+          "isMain": true
+        }
+      ],
       "properties": [],
       "composition": {
         "cotton": 100,
@@ -15850,7 +16323,10 @@
       "ru": "Дублірин 017/048  верхній одяг"
     },
     "isNew": false,
-    "images": [],
+    "images": [
+      "http://catalog.raznobyt.com/images/products/017.048/main/WHITE.jpg",
+      "http://catalog.raznobyt.com/images/products/017.048/BLACK.jpg"
+    ],
     "description": {
       "ua": "Дублірин трикотажний стрейч, 100% поліамід, 45 г/м.кв",
       "ru": "Дублирин трикотажний Би- стрейч, 100% полиамид, 36 г/м.кв"
@@ -15859,7 +16335,18 @@
       "fabricType": "тканий",
       "density": "36",
       "width": "150",
-      "colors": [],
+      "colors": [
+        {
+          "color": "WHITE",
+          "image": "http://catalog.raznobyt.com/images/products/017.048/main/WHITE.jpg",
+          "isMain": true
+        },
+        {
+          "color": "BLACK",
+          "image": "http://catalog.raznobyt.com/images/products/017.048/BLACK.jpg",
+          "isMain": false
+        }
+      ],
       "properties": [],
       "composition": {
         "cotton": 0,
@@ -15893,7 +16380,10 @@
       "ru": "Дублірин 060/078  верхній одяг"
     },
     "isNew": false,
-    "images": [],
+    "images": [
+      "http://catalog.raznobyt.com/images/products/060.078/main/WHITE.jpg",
+      "http://catalog.raznobyt.com/images/products/060.078/BLACK.jpg"
+    ],
     "description": {
       "ua": "Дублірин трикотажний  стрейч, 100% поліамід, 45 г/м.кв",
       "ru": "Дублирин трикотажний стрейч, 100% полиамид, 45 г/м.кв"
@@ -15902,7 +16392,18 @@
       "fabricType": "тканий",
       "density": "45",
       "width": "150",
-      "colors": [],
+      "colors": [
+        {
+          "color": "WHITE",
+          "image": "http://catalog.raznobyt.com/images/products/060.078/main/WHITE.jpg",
+          "isMain": true
+        },
+        {
+          "color": "BLACK",
+          "image": "http://catalog.raznobyt.com/images/products/060.078/BLACK.jpg",
+          "isMain": false
+        }
+      ],
       "properties": [],
       "composition": {
         "cotton": 0,
@@ -15936,7 +16437,10 @@
       "ru": "Дублірин 065/454  верхній одяг"
     },
     "isNew": false,
-    "images": [],
+    "images": [
+      "http://catalog.raznobyt.com/images/products/065.454/main/WHITE.jpg",
+      "http://catalog.raznobyt.com/images/products/065.454/BLACK.jpg"
+    ],
     "description": {
       "ua": "Дублірин трикотажний  стрейч, 100% поліамід, 45 г/м.кв",
       "ru": "Дублирин трикотажний стрейч, 100% полиамид, 45 г/м.кв"
@@ -15945,7 +16449,18 @@
       "fabricType": "тканий",
       "density": "45",
       "width": "150",
-      "colors": [],
+      "colors": [
+        {
+          "color": "WHITE",
+          "image": "http://catalog.raznobyt.com/images/products/065.454/main/WHITE.jpg",
+          "isMain": true
+        },
+        {
+          "color": "BLACK",
+          "image": "http://catalog.raznobyt.com/images/products/065.454/BLACK.jpg",
+          "isMain": false
+        }
+      ],
       "properties": [],
       "composition": {
         "cotton": 0,
@@ -15979,7 +16494,10 @@
       "ru": "Дублірин 070/430/051  верхній одяг"
     },
     "isNew": false,
-    "images": [],
+    "images": [
+      "http://catalog.raznobyt.com/images/products/070.430/main/WHITE.jpg",
+      "http://catalog.raznobyt.com/images/products/070.430/BLACK.jpg"
+    ],
     "description": {
       "ua": "Дублірин рашель для піджаків та пальто, 80% віскоза, 20% поліамід, 65 г/м.кв",
       "ru": "Дублирин рашель для пиджаков и пальто, 80% вискоза, 20% полиамид, 65 г/м.кв "
@@ -15988,7 +16506,18 @@
       "fabricType": "тканий",
       "density": "65",
       "width": "150",
-      "colors": [],
+      "colors": [
+        {
+          "color": "WHITE",
+          "image": "http://catalog.raznobyt.com/images/products/070.430/main/WHITE.jpg",
+          "isMain": true
+        },
+        {
+          "color": "BLACK",
+          "image": "http://catalog.raznobyt.com/images/products/070.430/BLACK.jpg",
+          "isMain": false
+        }
+      ],
       "properties": [],
       "composition": {
         "cotton": 0,
@@ -16022,7 +16551,10 @@
       "ru": "Дублірин 081/452  верхній одяг"
     },
     "isNew": false,
-    "images": [],
+    "images": [
+      "http://catalog.raznobyt.com/images/products/81.452/main/WHITE.jpg",
+      "http://catalog.raznobyt.com/images/products/81.452/BLACK.jpg"
+    ],
     "description": {
       "ua": "Дублерин супереластичний для проблемних тканин, 100% поліестер, 65 г/м.кв",
       "ru": "Дублерин суперэластичный для проблемных тканей, 100% полиестер, 65 г/м.кв"
@@ -16031,7 +16563,18 @@
       "fabricType": "",
       "density": "65",
       "width": "150",
-      "colors": [],
+      "colors": [
+        {
+          "color": "WHITE",
+          "image": "http://catalog.raznobyt.com/images/products/81.452/main/WHITE.jpg",
+          "isMain": true
+        },
+        {
+          "color": "BLACK",
+          "image": "http://catalog.raznobyt.com/images/products/81.452/BLACK.jpg",
+          "isMain": false
+        }
+      ],
       "properties": [],
       "composition": {
         "cotton": 0,
@@ -16065,7 +16608,10 @@
       "ru": "Дублірин 004/711/051  верхній одяг"
     },
     "isNew": false,
-    "images": [],
+    "images": [
+      "http://catalog.raznobyt.com/images/products/004.711/main/WHITE.jpg",
+      "http://catalog.raznobyt.com/images/products/004.711/BLACK.jpg"
+    ],
     "description": {
       "ua": "Дублерин низькоплавкий для виробів із шкіри, 80% віскоза, 20% поліамід, 80 г/м.кв",
       "ru": "Дублерин низкоплавкий для изделий из кожи, 80% вискоза, 20% полиамид, 80 г/м.кв"
@@ -16074,7 +16620,18 @@
       "fabricType": "",
       "density": "80",
       "width": "150",
-      "colors": [],
+      "colors": [
+        {
+          "color": "WHITE",
+          "image": "http://catalog.raznobyt.com/images/products/004.711/main/WHITE.jpg",
+          "isMain": true
+        },
+        {
+          "color": "BLACK",
+          "image": "http://catalog.raznobyt.com/images/products/004.711/BLACK.jpg",
+          "isMain": false
+        }
+      ],
       "properties": [],
       "composition": {
         "cotton": 0,
@@ -16554,7 +17111,9 @@
       "ru": "22005"
     },
     "isNew": false,
-    "images": [],
+    "images": [
+      "http://catalog.raznobyt.com/images/products/22001/main/NAVY.jpg"
+    ],
     "description": {
       "ua": "100% бавовна,  300г/м.кв,  саржа,  149см",
       "ru": "100% хлопок,  300г/м.кв,  саржа,  149см"
@@ -16563,7 +17122,13 @@
       "fabricType": "саржа",
       "density": "300",
       "width": "149",
-      "colors": [],
+      "colors": [
+        {
+          "color": "NAVY",
+          "image": "http://catalog.raznobyt.com/images/products/22001/main/NAVY.jpg",
+          "isMain": true
+        }
+      ],
       "properties": [],
       "composition": {
         "cotton": 100,
@@ -17156,7 +17721,9 @@
       "ru": "WASHED JEANS 9318"
     },
     "isNew": false,
-    "images": [],
+    "images": [
+      "http://catalog.raznobyt.com/images/products/WASHED JEANS 9318/main/8.jpg"
+    ],
     "description": {
       "ua": "100% бавовна,  270 г/м.кв,  саржв,  150см",
       "ru": "100% хлопок,  270 г/м.кв,  саржв,  150см"
@@ -17165,7 +17732,13 @@
       "fabricType": "саржа",
       "density": "270",
       "width": "150",
-      "colors": [],
+      "colors": [
+        {
+          "color": "8",
+          "image": "http://catalog.raznobyt.com/images/products/WASHED JEANS 9318/main/8.jpg",
+          "isMain": true
+        }
+      ],
       "properties": [],
       "composition": {
         "cotton": 100,
@@ -17199,7 +17772,14 @@
       "ru": "03928 DENIM STRETCH"
     },
     "isNew": false,
-    "images": [],
+    "images": [
+      "http://catalog.raznobyt.com/images/products/03928/main/18.jpg",
+      "http://catalog.raznobyt.com/images/products/03928/003.jpg",
+      "http://catalog.raznobyt.com/images/products/03928/15.jpg",
+      "http://catalog.raznobyt.com/images/products/03928/054.jpg",
+      "http://catalog.raznobyt.com/images/products/03928/068.jpg",
+      "http://catalog.raznobyt.com/images/products/03928/108.jpg"
+    ],
     "description": {
       "ua": "48% бавовна,  48% поліестер,  4% стрейч,  280 г/м.кв,  саржа,  140см. Протиусадкова обробка.",
       "ru": "48% хлопок,  48% полиестер,  4% стрейч,  280 г/м.кв,  саржа,  140см. Противоусадочная обработка."
@@ -17208,7 +17788,38 @@
       "fabricType": "саржа",
       "density": "280",
       "width": "150",
-      "colors": [],
+      "colors": [
+        {
+          "color": "18",
+          "image": "http://catalog.raznobyt.com/images/products/03928/main/18.jpg",
+          "isMain": true
+        },
+        {
+          "color": "003",
+          "image": "http://catalog.raznobyt.com/images/products/03928/003.jpg",
+          "isMain": false
+        },
+        {
+          "color": "15",
+          "image": "http://catalog.raznobyt.com/images/products/03928/15.jpg",
+          "isMain": false
+        },
+        {
+          "color": "054",
+          "image": "http://catalog.raznobyt.com/images/products/03928/054.jpg",
+          "isMain": false
+        },
+        {
+          "color": "068",
+          "image": "http://catalog.raznobyt.com/images/products/03928/068.jpg",
+          "isMain": false
+        },
+        {
+          "color": "108",
+          "image": "http://catalog.raznobyt.com/images/products/03928/108.jpg",
+          "isMain": false
+        }
+      ],
       "properties": [],
       "composition": {
         "cotton": 48,
@@ -17328,7 +17939,9 @@
       "ru": "фліс 9112"
     },
     "isNew": false,
-    "images": [],
+    "images": [
+      "http://catalog.raznobyt.com/images/products/fleece-09112/main/063.jpg"
+    ],
     "description": {
       "ua": "100% поліестер,  250 г/м.кв,  трикотажне,  150см",
       "ru": "100% полиестер,  250 г/м.кв,  трикотажне,  150см"
@@ -17337,7 +17950,13 @@
       "fabricType": "трикотажне",
       "density": "250",
       "width": "150",
-      "colors": [],
+      "colors": [
+        {
+          "color": "063",
+          "image": "http://catalog.raznobyt.com/images/products/fleece-09112/main/063.jpg",
+          "isMain": true
+        }
+      ],
       "properties": [],
       "composition": {
         "cotton": 0,
@@ -17371,7 +17990,20 @@
       "ru": "фліс 22105"
     },
     "isNew": false,
-    "images": [],
+    "images": [
+      "http://catalog.raznobyt.com/images/products/fleece-22105/main/050.jpg",
+      "http://catalog.raznobyt.com/images/products/fleece-22105/007.jpg",
+      "http://catalog.raznobyt.com/images/products/fleece-22105/008.jpg",
+      "http://catalog.raznobyt.com/images/products/fleece-22105/016.jpg",
+      "http://catalog.raznobyt.com/images/products/fleece-22105/027.jpg",
+      "http://catalog.raznobyt.com/images/products/fleece-22105/028.jpg",
+      "http://catalog.raznobyt.com/images/products/fleece-22105/051.jpg",
+      "http://catalog.raznobyt.com/images/products/fleece-22105/052.jpg",
+      "http://catalog.raznobyt.com/images/products/fleece-22105/053.jpg",
+      "http://catalog.raznobyt.com/images/products/fleece-22105/054.jpg",
+      "http://catalog.raznobyt.com/images/products/fleece-22105/068.jpg",
+      "http://catalog.raznobyt.com/images/products/fleece-22105/069.jpg"
+    ],
     "description": {
       "ua": "100% поліестер,  250 г/м.кв,  трикотажне,  150см",
       "ru": "100% полиестер,  250 г/м.кв,  трикотажне,  150см"
@@ -17380,7 +18012,68 @@
       "fabricType": "трикотажне",
       "density": "250",
       "width": "150",
-      "colors": [],
+      "colors": [
+        {
+          "color": "050",
+          "image": "http://catalog.raznobyt.com/images/products/fleece-22105/main/050.jpg",
+          "isMain": true
+        },
+        {
+          "color": "007",
+          "image": "http://catalog.raznobyt.com/images/products/fleece-22105/007.jpg",
+          "isMain": false
+        },
+        {
+          "color": "008",
+          "image": "http://catalog.raznobyt.com/images/products/fleece-22105/008.jpg",
+          "isMain": false
+        },
+        {
+          "color": "016",
+          "image": "http://catalog.raznobyt.com/images/products/fleece-22105/016.jpg",
+          "isMain": false
+        },
+        {
+          "color": "027",
+          "image": "http://catalog.raznobyt.com/images/products/fleece-22105/027.jpg",
+          "isMain": false
+        },
+        {
+          "color": "028",
+          "image": "http://catalog.raznobyt.com/images/products/fleece-22105/028.jpg",
+          "isMain": false
+        },
+        {
+          "color": "051",
+          "image": "http://catalog.raznobyt.com/images/products/fleece-22105/051.jpg",
+          "isMain": false
+        },
+        {
+          "color": "052",
+          "image": "http://catalog.raznobyt.com/images/products/fleece-22105/052.jpg",
+          "isMain": false
+        },
+        {
+          "color": "053",
+          "image": "http://catalog.raznobyt.com/images/products/fleece-22105/053.jpg",
+          "isMain": false
+        },
+        {
+          "color": "054",
+          "image": "http://catalog.raznobyt.com/images/products/fleece-22105/054.jpg",
+          "isMain": false
+        },
+        {
+          "color": "068",
+          "image": "http://catalog.raznobyt.com/images/products/fleece-22105/068.jpg",
+          "isMain": false
+        },
+        {
+          "color": "069",
+          "image": "http://catalog.raznobyt.com/images/products/fleece-22105/069.jpg",
+          "isMain": false
+        }
+      ],
       "properties": [],
       "composition": {
         "cotton": 0,
@@ -17414,7 +18107,11 @@
       "ru": "фліс POLAR FLEECE"
     },
     "isNew": false,
-    "images": [],
+    "images": [
+      "http://catalog.raznobyt.com/images/products/fleece-POLAR FLEECE/main/48.jpg",
+      "http://catalog.raznobyt.com/images/products/fleece-POLAR FLEECE/03.jpg",
+      "http://catalog.raznobyt.com/images/products/fleece-POLAR FLEECE/17.jpg"
+    ],
     "description": {
       "ua": "100% поліестер,  антипілінг,  270г/м.кв,  150см",
       "ru": "100% полиестер, антипілінг,  270г/м.кв,  150см"
@@ -17423,7 +18120,23 @@
       "fabricType": "трикотажне",
       "density": "270",
       "width": "150",
-      "colors": [],
+      "colors": [
+        {
+          "color": "48",
+          "image": "http://catalog.raznobyt.com/images/products/fleece-POLAR FLEECE/main/48.jpg",
+          "isMain": true
+        },
+        {
+          "color": "03",
+          "image": "http://catalog.raznobyt.com/images/products/fleece-POLAR FLEECE/03.jpg",
+          "isMain": false
+        },
+        {
+          "color": "17",
+          "image": "http://catalog.raznobyt.com/images/products/fleece-POLAR FLEECE/17.jpg",
+          "isMain": false
+        }
+      ],
       "properties": [],
       "composition": {
         "cotton": 0,
@@ -17457,7 +18170,13 @@
       "ru": "фліс 4796"
     },
     "isNew": false,
-    "images": [],
+    "images": [
+      "http://catalog.raznobyt.com/images/products/fleece-4796/main/8.jpg",
+      "http://catalog.raznobyt.com/images/products/fleece-4796/28.jpg",
+      "http://catalog.raznobyt.com/images/products/fleece-4796/50.jpg",
+      "http://catalog.raznobyt.com/images/products/fleece-4796/68.jpg",
+      "http://catalog.raznobyt.com/images/products/fleece-4796/2119.jpg"
+    ],
     "description": {
       "ua": "100% бавовна,  даблфліс,  260г/м.кв,  трикотажне,  150см",
       "ru": "100% хлопок,  даблфлис,  260г/м.кв,  трикотажне,  150см"
@@ -17466,7 +18185,33 @@
       "fabricType": "трикотажне",
       "density": "260",
       "width": "150",
-      "colors": [],
+      "colors": [
+        {
+          "color": "8",
+          "image": "http://catalog.raznobyt.com/images/products/fleece-4796/main/8.jpg",
+          "isMain": true
+        },
+        {
+          "color": "28",
+          "image": "http://catalog.raznobyt.com/images/products/fleece-4796/28.jpg",
+          "isMain": false
+        },
+        {
+          "color": "50",
+          "image": "http://catalog.raznobyt.com/images/products/fleece-4796/50.jpg",
+          "isMain": false
+        },
+        {
+          "color": "68",
+          "image": "http://catalog.raznobyt.com/images/products/fleece-4796/68.jpg",
+          "isMain": false
+        },
+        {
+          "color": "2119",
+          "image": "http://catalog.raznobyt.com/images/products/fleece-4796/2119.jpg",
+          "isMain": false
+        }
+      ],
       "properties": [],
       "composition": {
         "cotton": 100,
@@ -17500,7 +18245,9 @@
       "ru": "фліс 4459"
     },
     "isNew": false,
-    "images": [],
+    "images": [
+      "http://catalog.raznobyt.com/images/products/fleece-4459/main/9.jpg"
+    ],
     "description": {
       "ua": "100% бавовна,  даблфліс,  340г/м.кв,  трикотажне,  150см",
       "ru": "100% хлопок,  даблфлис,  340г/м.кв,  трикотажне,  150см"
@@ -17509,7 +18256,13 @@
       "fabricType": "трикотажне",
       "density": "340",
       "width": "150",
-      "colors": [],
+      "colors": [
+        {
+          "color": "9",
+          "image": "http://catalog.raznobyt.com/images/products/fleece-4459/main/9.jpg",
+          "isMain": true
+        }
+      ],
       "properties": [],
       "composition": {
         "cotton": 100,
@@ -17543,7 +18296,10 @@
       "ru": "фліс с мембраной"
     },
     "isNew": false,
-    "images": [],
+    "images": [
+      "http://catalog.raznobyt.com/images/products/Fleece with membrane/main/ROYAL.jpg",
+      "http://catalog.raznobyt.com/images/products/Fleece with membrane/RED.jpg"
+    ],
     "description": {
       "ua": "100% поліестер,  Захист від вітру та незначних опадів, Мембрана.  250г/м.кв,  150см",
       "ru": "100% полиэстер,  Защита от ветра и незначительных осадков, Мембрана.  250г/м.кв,  150см"
@@ -17552,7 +18308,18 @@
       "fabricType": "трикотажне",
       "density": "250",
       "width": "143",
-      "colors": [],
+      "colors": [
+        {
+          "color": "ROYAL",
+          "image": "http://catalog.raznobyt.com/images/products/Fleece with membrane/main/ROYAL.jpg",
+          "isMain": true
+        },
+        {
+          "color": "RED",
+          "image": "http://catalog.raznobyt.com/images/products/Fleece with membrane/RED.jpg",
+          "isMain": false
+        }
+      ],
       "properties": [],
       "composition": {
         "cotton": 0,

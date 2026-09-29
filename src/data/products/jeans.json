@@ -51,7 +51,9 @@
       "ru": "WASHED JEANS 9318"
     },
     "isNew": false,
-    "images": [],
+    "images": [
+      "http://catalog.raznobyt.com/images/products/WASHED JEANS 9318/main/8.jpg"
+    ],
     "description": {
       "ua": "100% бавовна,  270 г/м.кв,  саржв,  150см",
       "ru": "100% хлопок,  270 г/м.кв,  саржв,  150см"
@@ -60,7 +62,13 @@
       "fabricType": "саржа",
       "density": "270",
       "width": "150",
-      "colors": [],
+      "colors": [
+        {
+          "color": "8",
+          "image": "http://catalog.raznobyt.com/images/products/WASHED JEANS 9318/main/8.jpg",
+          "isMain": true
+        }
+      ],
       "properties": [],
       "composition": {
         "cotton": 100,
@@ -94,7 +102,14 @@
       "ru": "03928 DENIM STRETCH"
     },
     "isNew": false,
-    "images": [],
+    "images": [
+      "http://catalog.raznobyt.com/images/products/03928/main/18.jpg",
+      "http://catalog.raznobyt.com/images/products/03928/003.jpg",
+      "http://catalog.raznobyt.com/images/products/03928/15.jpg",
+      "http://catalog.raznobyt.com/images/products/03928/054.jpg",
+      "http://catalog.raznobyt.com/images/products/03928/068.jpg",
+      "http://catalog.raznobyt.com/images/products/03928/108.jpg"
+    ],
     "description": {
       "ua": "48% бавовна,  48% поліестер,  4% стрейч,  280 г/м.кв,  саржа,  140см. Протиусадкова обробка.",
       "ru": "48% хлопок,  48% полиестер,  4% стрейч,  280 г/м.кв,  саржа,  140см. Противоусадочная обработка."
@@ -103,7 +118,38 @@
       "fabricType": "саржа",
       "density": "280",
       "width": "150",
-      "colors": [],
+      "colors": [
+        {
+          "color": "18",
+          "image": "http://catalog.raznobyt.com/images/products/03928/main/18.jpg",
+          "isMain": true
+        },
+        {
+          "color": "003",
+          "image": "http://catalog.raznobyt.com/images/products/03928/003.jpg",
+          "isMain": false
+        },
+        {
+          "color": "15",
+          "image": "http://catalog.raznobyt.com/images/products/03928/15.jpg",
+          "isMain": false
+        },
+        {
+          "color": "054",
+          "image": "http://catalog.raznobyt.com/images/products/03928/054.jpg",
+          "isMain": false
+        },
+        {
+          "color": "068",
+          "image": "http://catalog.raznobyt.com/images/products/03928/068.jpg",
+          "isMain": false
+        },
+        {
+          "color": "108",
+          "image": "http://catalog.raznobyt.com/images/products/03928/108.jpg",
+          "isMain": false
+        }
+      ],
       "properties": [],
       "composition": {
         "cotton": 48,

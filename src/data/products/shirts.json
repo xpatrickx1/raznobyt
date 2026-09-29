@@ -430,7 +430,7 @@
   {
     "id": "tkan-shirts-353",
     "category": "shirts",
-    "subcat": "cotton",
+    "subcat": "square",
     "slug": "tkan-shirts-353",
     "title": {
       "ua": "А353",
@@ -488,7 +488,7 @@
   {
     "id": "tkan-shirts-331",
     "category": "shirts",
-    "subcat": "cell",
+    "subcat": "square",
     "slug": "tkan-shirts-331",
     "title": {
       "ua": "А331",
@@ -540,6 +540,7 @@
   {
     "id": "tkan-shirts-939",
     "category": "shirts",
+    "subcat": "square",
     "slug": "tkan-shirts-939",
     "title": {
       "ua": "А939",
@@ -583,7 +584,7 @@
   {
     "id": "tkan-shirts-386",
     "category": "shirts",
-    "subcat": "cotton",
+    "subcat": "square",
     "slug": "tkan-shirts-386",
     "title": {
       "ua": "А386",
@@ -635,7 +636,7 @@
   {
     "id": "tkan-shirts-4664",
     "category": "shirts",
-    "subcat": "cell",
+    "subcat": "square",
     "slug": "tkan-shirts-4664",
     "title": {
       "ua": "4664",
@@ -643,7 +644,10 @@
     },
     "isNew": false,
     "images": [
-      "http://catalog.raznobyt.com/images/products/4664/main/17101.jpg"
+      "http://catalog.raznobyt.com/images/products/4664/main/17101.jpg",
+      "http://catalog.raznobyt.com/images/products/4664/00023.jpg",
+      "http://catalog.raznobyt.com/images/products/4664/11327.jpg",
+      "http://catalog.raznobyt.com/images/products/4664/17728.jpg"
     ],
     "description": {
       "ua": "100% бавовна 126 г/м.кв. легка, комфортна, дихаюча, ",
@@ -658,6 +662,21 @@
           "color": "17101",
           "image": "http://catalog.raznobyt.com/images/products/4664/main/17101.jpg",
           "isMain": true
+        },
+        {
+          "color": "00023",
+          "image": "http://catalog.raznobyt.com/images/products/4664/00023.jpg",
+          "isMain": false
+        },
+        {
+          "color": "11327",
+          "image": "http://catalog.raznobyt.com/images/products/4664/11327.jpg",
+          "isMain": false
+        },
+        {
+          "color": "17728",
+          "image": "http://catalog.raznobyt.com/images/products/4664/17728.jpg",
+          "isMain": false
         }
       ],
       "properties": [],
@@ -687,7 +706,7 @@
   {
     "id": "tkan-shirts-112",
     "category": "shirts",
-    "subcat": "cell",
+    "subcat": "square",
     "slug": "tkan-shirts-112",
     "title": {
       "ua": "А112",
@@ -757,7 +776,7 @@
   {
     "id": "tkan-shirts-5845",
     "category": "shirts",
-    "subcat": "cell",
+    "subcat": "square",
     "slug": "tkan-shirts-5845",
     "title": {
       "ua": "5845",
@@ -821,7 +840,7 @@
   {
     "id": "tkan-shirts-5339",
     "category": "shirts",
-    "subcat": "cell",
+    "subcat": "square",
     "slug": "tkan-shirts-5339",
     "title": {
       "ua": "5339",
@@ -885,7 +904,7 @@
   {
     "id": "tkan-shirts-5507",
     "category": "shirts",
-    "subcat": "cell",
+    "subcat": "square",
     "slug": "tkan-shirts-5507",
     "title": {
       "ua": "5507",
@@ -937,7 +956,7 @@
   {
     "id": "tkan-shirts-5764",
     "category": "shirts",
-    "subcat": "cell",
+    "subcat": "square",
     "slug": "tkan-shirts-5764",
     "title": {
       "ua": "5764",
@@ -989,7 +1008,7 @@
   {
     "id": "tkan-shirts-7251",
     "category": "shirts",
-    "subcat": "solid",
+    "subcat": "cotton60",
     "slug": "tkan-shirts-7251",
     "title": {
       "ua": "7251",
@@ -1119,7 +1138,7 @@
   {
     "id": "tkan-shirts-rc113cv",
     "category": "shirts",
-    "subcat": "solid",
+    "subcat": "cotton60",
     "slug": "tkan-shirts-rc113cv",
     "title": {
       "ua": "RC113CV",
@@ -1183,7 +1202,7 @@
   {
     "id": "tkan-shirts-lt2111",
     "category": "shirts",
-    "subcat": "solid",
+    "subcat": "cotton60",
     "slug": "tkan-shirts-lt2111",
     "title": {
       "ua": "LT2111",
@@ -1271,7 +1290,7 @@
   {
     "id": "tkan-shirts-196",
     "category": "shirts",
-    "subcat": "solid",
+    "subcat": "cotton100",
     "slug": "tkan-shirts-196",
     "title": {
       "ua": "А196",
@@ -1341,7 +1360,7 @@
   {
     "id": "tkan-shirts-359",
     "category": "shirts",
-    "subcat": "solid",
+    "subcat": "cotton100",
     "slug": "tkan-shirts-359",
     "title": {
       "ua": "А359",
@@ -1423,7 +1442,7 @@
   {
     "id": "tkan-shirts-1021",
     "category": "shirts",
-    "subcat": "solid",
+    "subcat": "cotton100",
     "slug": "tkan-shirts-1021",
     "title": {
       "ua": "1021",
@@ -1493,6 +1512,7 @@
   {
     "id": "tkan-shirts-042",
     "category": "shirts",
+    "subcat": "cotton100",
     "slug": "tkan-shirts-042",
     "title": {
       "ua": "А042",
@@ -1536,7 +1556,7 @@
   {
     "id": "tkan-shirts-573",
     "category": "shirts",
-    "subcat": "solid",
+    "subcat": "cotton100",
     "slug": "tkan-shirts-573",
     "title": {
       "ua": "А573",
@@ -1588,7 +1608,7 @@
   {
     "id": "tkan-shirts-l678",
     "category": "shirts",
-    "subcat": "solid",
+    "subcat": "cotton100",
     "slug": "tkan-shirts-l678",
     "title": {
       "ua": "L678",
@@ -1640,7 +1660,7 @@
   {
     "id": "tkan-shirts-l493",
     "category": "shirts",
-    "subcat": "solid",
+    "subcat": "cotton100",
     "slug": "tkan-shirts-l493",
     "title": {
       "ua": "L493",
@@ -1692,6 +1712,7 @@
   {
     "id": "tkan-shirts-477",
     "category": "shirts",
+    "subcat": "cotton100",
     "slug": "tkan-shirts-477",
     "title": {
       "ua": "А477",
@@ -1735,7 +1756,7 @@
   {
     "id": "tkan-shirts-2161",
     "category": "shirts",
-    "subcat": "solid",
+    "subcat": "cotton100",
     "slug": "tkan-shirts-2161",
     "title": {
       "ua": "2161",
@@ -1787,13 +1808,16 @@
   {
     "id": "tkan-shirts-4994",
     "category": "shirts",
+    "subcat": "cotton100",
     "slug": "tkan-shirts-4994",
     "title": {
       "ua": "4994",
       "ru": "4994"
     },
     "isNew": false,
-    "images": [],
+    "images": [
+      "http://catalog.raznobyt.com/images/products/4994/main/15216.jpg"
+    ],
     "description": {
       "ua": "100% бавовна легка, комфортна, дихаюча,",
       "ru": "100% хлопок  легкая, комфортная, дышащая"
@@ -1802,7 +1826,13 @@
       "fabricType": "полотно",
       "density": "125",
       "width": "150",
-      "colors": [],
+      "colors": [
+        {
+          "color": "15216",
+          "image": "http://catalog.raznobyt.com/images/products/4994/main/15216.jpg",
+          "isMain": true
+        }
+      ],
       "properties": [],
       "composition": {
         "cotton": 100,
@@ -1830,13 +1860,16 @@
   {
     "id": "tkan-shirts-4152",
     "category": "shirts",
+    "subcat": "cotton100",
     "slug": "tkan-shirts-4152",
     "title": {
       "ua": "4152",
       "ru": "4152"
     },
     "isNew": false,
-    "images": [],
+    "images": [
+      "http://catalog.raznobyt.com/images/products/4152/main/11331.jpg"
+    ],
     "description": {
       "ua": "100% бавовна легка, комфортна, дихаюча,",
       "ru": "100% хлопок  легкая, комфортная, дышащая"
@@ -1845,7 +1878,13 @@
       "fabricType": "полотно",
       "density": "125",
       "width": "150",
-      "colors": [],
+      "colors": [
+        {
+          "color": "11331",
+          "image": "http://catalog.raznobyt.com/images/products/4152/main/11331.jpg",
+          "isMain": true
+        }
+      ],
       "properties": [],
       "composition": {
         "cotton": 100,
@@ -1873,7 +1912,7 @@
   {
     "id": "tkan-shirts-0533",
     "category": "shirts",
-    "subcat": "solid",
+    "subcat": "cotton100",
     "slug": "tkan-shirts-0533",
     "title": {
       "ua": "0533",
@@ -1925,7 +1964,7 @@
   {
     "id": "tkan-shirts-0738",
     "category": "shirts",
-    "subcat": "solid",
+    "subcat": "cotton100",
     "slug": "tkan-shirts-0738",
     "title": {
       "ua": "0738",
@@ -1977,7 +2016,7 @@
   {
     "id": "tkan-shirts-202",
     "category": "shirts",
-    "subcat": "print",
+    "subcat": "square",
     "slug": "tkan-shirts-202",
     "title": {
       "ua": "А202",
@@ -2029,7 +2068,7 @@
   {
     "id": "tkan-shirts-0437",
     "category": "shirts",
-    "subcat": "solid",
+    "subcat": "cotton100",
     "slug": "tkan-shirts-0437",
     "title": {
       "ua": "0437",
@@ -2081,7 +2120,7 @@
   {
     "id": "tkan-shirts-0893",
     "category": "shirts",
-    "subcat": "solid",
+    "subcat": "cotton100",
     "slug": "tkan-shirts-0893",
     "title": {
       "ua": "0893",
@@ -2133,7 +2172,7 @@
   {
     "id": "tkan-shirts-0734",
     "category": "shirts",
-    "subcat": "solid",
+    "subcat": "cotton100",
     "slug": "tkan-shirts-0734",
     "title": {
       "ua": "0734",
@@ -2185,7 +2224,7 @@
   {
     "id": "tkan-shirts-solid",
     "category": "shirts",
-    "subcat": "solid",
+    "subcat": "strip",
     "slug": "tkan-shirts-solid",
     "title": {
       "ua": "SOLID",
@@ -2237,7 +2276,7 @@
   {
     "id": "tkan-shirts-561",
     "category": "shirts",
-    "subcat": "solid",
+    "subcat": "cotton100",
     "slug": "tkan-shirts-561",
     "title": {
       "ua": "А561",
@@ -2289,7 +2328,7 @@
   {
     "id": "tkan-shirts-489",
     "category": "shirts",
-    "subcat": "solid",
+    "subcat": "square",
     "slug": "tkan-shirts-489",
     "title": {
       "ua": "А489",
@@ -2341,7 +2380,7 @@
   {
     "id": "tkan-shirts-469",
     "category": "shirts",
-    "subcat": "solid",
+    "subcat": "cotton100",
     "slug": "tkan-shirts-469",
     "title": {
       "ua": "А469",
@@ -2451,13 +2490,17 @@
   {
     "id": "tkan-shirts-197",
     "category": "shirts",
+    "subcat": "strip",
     "slug": "tkan-shirts-197",
     "title": {
       "ua": "А197",
       "ru": "А197"
     },
     "isNew": false,
-    "images": [],
+    "images": [
+      "http://catalog.raznobyt.com/images/products/A197/main/19455.jpg",
+      "http://catalog.raznobyt.com/images/products/A197/19456.jpg"
+    ],
     "description": {
       "ua": "100% бавовна легка, комфортна, дихаюча,",
       "ru": "100% бавовна  легкая, комфортная, дышащая"
@@ -2466,7 +2509,18 @@
       "fabricType": "складне",
       "density": "162",
       "width": "150",
-      "colors": [],
+      "colors": [
+        {
+          "color": "19455",
+          "image": "http://catalog.raznobyt.com/images/products/A197/main/19455.jpg",
+          "isMain": true
+        },
+        {
+          "color": "19456",
+          "image": "http://catalog.raznobyt.com/images/products/A197/19456.jpg",
+          "isMain": false
+        }
+      ],
       "properties": [],
       "composition": {
         "cotton": 100,
@@ -2494,6 +2548,7 @@
   {
     "id": "tkan-shirts-l939",
     "category": "shirts",
+    "subcat": "cotton100",
     "slug": "tkan-shirts-l939",
     "title": {
       "ua": "L939",
@@ -3209,7 +3264,7 @@
   {
     "id": "tkan-shirts-0480",
     "category": "shirts",
-    "subcat": "solid",
+    "subcat": "cotton100",
     "slug": "tkan-shirts-0480",
     "title": {
       "ua": "0480",
@@ -3303,7 +3358,7 @@
   {
     "id": "tkan-shirts-1030",
     "category": "shirts",
-    "subcat": "solid",
+    "subcat": "cotton80",
     "slug": "tkan-shirts-1030",
     "title": {
       "ua": "1030",
@@ -3361,7 +3416,7 @@
   {
     "id": "tkan-shirts-rc118c",
     "category": "shirts",
-    "subcat": "solid",
+    "subcat": "cotton80",
     "slug": "tkan-shirts-rc118c",
     "title": {
       "ua": "RC118C",
@@ -3425,7 +3480,7 @@
   {
     "id": "tkan-shirts-1199",
     "category": "shirts",
-    "subcat": "solid",
+    "subcat": "cotton80",
     "slug": "tkan-shirts-1199",
     "title": {
       "ua": "1199",
@@ -3489,7 +3544,7 @@
   {
     "id": "tkan-shirts-112-2",
     "category": "shirts",
-    "subcat": "solid",
+    "subcat": "cotton80",
     "slug": "tkan-shirts-112-2",
     "title": {
       "ua": "В112",
@@ -3541,7 +3596,7 @@
   {
     "id": "tkan-shirts-lt1109",
     "category": "shirts",
-    "subcat": "solid",
+    "subcat": "cotton80",
     "slug": "tkan-shirts-lt1109",
     "title": {
       "ua": "LT1109",
@@ -3599,13 +3654,16 @@
   {
     "id": "tkan-shirts-5767",
     "category": "shirts",
+    "subcat": "cotton60",
     "slug": "tkan-shirts-5767",
     "title": {
       "ua": "5767",
       "ru": "5767"
     },
     "isNew": false,
-    "images": [],
+    "images": [
+      "http://catalog.raznobyt.com/images/products/5767/main/99017.jpg"
+    ],
     "description": {
       "ua": "63% бавовна, 34% поліестр, 3% еластан.  легка, комфортна, дихаюча,",
       "ru": "63% бавовна, 34% поліестр, 3% еластан.,  легкая, комфортная, дышащая,"
@@ -3614,7 +3672,13 @@
       "fabricType": "полотно",
       "density": "135",
       "width": "149",
-      "colors": [],
+      "colors": [
+        {
+          "color": "99017",
+          "image": "http://catalog.raznobyt.com/images/products/5767/main/99017.jpg",
+          "isMain": true
+        }
+      ],
       "properties": [],
       "composition": {
         "cotton": 63,
@@ -3642,7 +3706,7 @@
   {
     "id": "tkan-shirts-3009",
     "category": "shirts",
-    "subcat": "solid",
+    "subcat": "cotton60",
     "slug": "tkan-shirts-3009",
     "title": {
       "ua": "3009",
@@ -3700,7 +3764,7 @@
   {
     "id": "tkan-shirts-tr251",
     "category": "shirts",
-    "subcat": "solid",
+    "subcat": "cotton60",
     "slug": "tkan-shirts-tr251",
     "title": {
       "ua": "TR251",
@@ -3854,7 +3918,7 @@
   {
     "id": "tkan-shirts-tr-065",
     "category": "shirts",
-    "subcat": "solid",
+    "subcat": "cotton35",
     "slug": "tkan-shirts-tr-065",
     "title": {
       "ua": "TR-065",
@@ -3948,7 +4012,7 @@
   {
     "id": "tkan-shirts-9037",
     "category": "shirts",
-    "subcat": "solid",
+    "subcat": "cotton35",
     "slug": "tkan-shirts-9037",
     "title": {
       "ua": "9037",
@@ -4018,7 +4082,7 @@
   {
     "id": "tkan-shirts-9065",
     "category": "shirts",
-    "subcat": "solid",
+    "subcat": "cotton35",
     "slug": "tkan-shirts-9065",
     "title": {
       "ua": "9065",
@@ -4070,7 +4134,7 @@
   {
     "id": "tkan-shirts-l601",
     "category": "shirts",
-    "subcat": "solid",
+    "subcat": "cotton60",
     "slug": "tkan-shirts-l601",
     "title": {
       "ua": "L601",
@@ -4122,7 +4186,7 @@
   {
     "id": "tkan-shirts-a477",
     "category": "shirts",
-    "subcat": "solid",
+    "subcat": "cotton100",
     "slug": "tkan-shirts-a477",
     "title": {
       "ua": "A477",
@@ -4180,7 +4244,7 @@
   {
     "id": "tkan-shirts-l492",
     "category": "shirts",
-    "subcat": "solid",
+    "subcat": "cotton60",
     "slug": "tkan-shirts-l492",
     "title": {
       "ua": "L492",
