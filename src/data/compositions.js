@@ -19,9 +19,9 @@ export const getCompositionOption = (id) => {
     return COMPOSITION_OPTIONS.find(o => o.id === id)
 };
 
-export const formatComposition = (compObj, lang) => {
-    if (!compObj) return '';
-    if (typeof compObj === 'string') return compObj;
+export const getCompositionParts = (compObj, lang) => {
+    if (!compObj) return [];
+    if (typeof compObj === 'string') return [compObj];
 
     return Object.entries(compObj)
         .filter(([key, value]) => value > 0)
@@ -29,7 +29,11 @@ export const formatComposition = (compObj, lang) => {
             const opt = COMPOSITION_OPTIONS.find(o => o.id === key);
             let name = opt ? (lang === 'ua' ? opt.label : opt.labelRu) : key;
 
-            if (value === 1) return `${name}`
-            return `${value}% ${name}`;
-        }).join(', ');
+            if (value === 1 && key !== 'antistatic') return `${name}`;
+            return `${value}%\u00A0${name}`;
+        });
+};
+
+export const formatComposition = (compObj, lang) => {
+    return getCompositionParts(compObj, lang).join(', ');
 };

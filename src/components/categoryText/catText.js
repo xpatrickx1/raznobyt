@@ -6,6 +6,10 @@ import personal from './personal.jsx';
 import personal_ru from './personal_ru.jsx';
 import industrial from './industrial.jsx';
 import industrial_ru from './industrial_ru.jsx';
+import fire from './fire.jsx';
+import fire_ru from './fire_ru.jsx';
+import army from './army.jsx';
+import army_ru from './army_ru.jsx';
 
 export const textByCategory = {
     workwear: {
@@ -23,6 +27,14 @@ export const textByCategory = {
     industrial: {
         ua: industrial,
         ru: industrial_ru
+    },
+    fire: {
+        ua: fire,
+        ru: fire_ru
+    },
+    army: {
+        ua: army,
+        ru: army_ru
     }
 };
 

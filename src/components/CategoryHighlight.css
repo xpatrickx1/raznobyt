@@ -1,0 +1,131 @@
+/* ========== CATEGORY HIGHLIGHT (Army / Fire) ========== */
+.cat-highlight {
+    padding: 56px 0 72px;
+    background: #fff;
+}
+
+.cat-highlight__header {
+    max-width: 860px;
+    margin: 0 auto 40px;
+    text-align: center;
+}
+
+.cat-highlight__intro {
+    margin-top: 16px;
+    text-align: left;
+}
+
+.cat-highlight__intro p {
+    margin: 0 0 12px;
+    font-size: 0.98rem;
+    line-height: 1.65;
+    color: #3a3a3a;
+}
+
+.cat-highlight__intro p:last-child {
+    margin-bottom: 0;
+}
+
+.cat-highlight__grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.cat-card {
+    display: flex;
+    flex-direction: column;
+    background: #f7f5f1;
+    border: 1px solid #ebe7e0;
+    border-radius: 14px;
+    padding: 22px 22px 18px;
+    transition: box-shadow 0.25s ease, transform 0.25s ease, border-color 0.25s;
+}
+
+.cat-card:hover {
+    border-color: #d4cfc4;
+    box-shadow: 0 10px 28px rgba(0, 0, 0, 0.06);
+    transform: translateY(-2px);
+}
+
+.cat-card__title {
+    margin: 0 0 16px;
+    font-size: 0.92rem;
+    font-weight: 700;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    color: #1a1a1a;
+    line-height: 1.35;
+}
+
+.cat-card__body {
+    display: flex;
+    gap: 16px;
+    flex: 1;
+    margin-bottom: 16px;
+}
+
+.cat-card__image {
+    flex-shrink: 0;
+    width: 110px;
+    height: 110px;
+    border-radius: 10px;
+    overflow: hidden;
+    background: #e8e4dc;
+}
+
+.cat-card__image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.cat-card__features {
+    margin: 0;
+    padding: 0 0 0 18px;
+    list-style: disc;
+    font-size: 0.88rem;
+    line-height: 1.45;
+    color: #3a3a3a;
+}
+
+.cat-card__features li {
+    margin-bottom: 4px;
+}
+
+.cat-card__features li::marker {
+    color: #b08a4e;
+}
+
+.cat-card__link {
+    align-self: flex-start;
+    margin-top: auto;
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: #b08a4e;
+    text-decoration: none;
+    transition: color 0.2s;
+}
+
+.cat-card__link:hover {
+    color: #8a6a3a;
+}
+
+/* Adaptive */
+@media (max-width: 900px) {
+    .cat-highlight__grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 560px) {
+    .cat-card__body {
+        flex-direction: column;
+    }
+
+    .cat-card__image {
+        width: 100%;
+        height: 160px;
+    }
+}

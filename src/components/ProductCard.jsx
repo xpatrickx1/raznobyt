@@ -5,7 +5,7 @@ import { useLang } from '../i18n/LangContext';
 import categories from '../data/categories.json';
 import placeholder from '../assets/images/placeholder.svg';
 import { getProductImage, COLOR_MAP } from '../assets/utils/imageLoader.js';
-import { formatComposition } from '../data/compositions.js';
+import { formatComposition, getCompositionParts } from '../data/compositions.js';
 import SampleOrderModal from './SampleOrderModal';
 
 export default function ProductCard({ product }) {
@@ -61,7 +61,18 @@ export default function ProductCard({ product }) {
               <div className="product-character-row">
                 <div className="product-character-label">Склад:</div>
                 <div className="product-character-value">
-                  {formatComposition(product.attributes.composition, lang)}
+                  {getCompositionParts(product.attributes.composition, lang).map((part, idx, arr) => (
+                    <span
+                      key={idx}
+                      style={{
+                        display: 'inline-block',
+                        whiteSpace: 'nowrap',
+                        marginRight: idx < arr.length - 1 ? '4px' : '0',
+                      }}
+                    >
+                      {part}{idx < arr.length - 1 ? ',' : ''}
+                    </span>
+                  ))}
                 </div>
               </div>
             )}
