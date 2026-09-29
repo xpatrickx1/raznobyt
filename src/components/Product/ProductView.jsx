@@ -109,8 +109,22 @@ export default function ProductView({ product, related = [] }) {
             : `${product.attributes.width} см`)
         : '';
 
+    const productSubcats = Array.isArray(product.subcat)
+        ? product.subcat
+        : (typeof product.subcat === 'string'
+            ? product.subcat.split(',').map(s => s.trim().toLowerCase()).filter(Boolean)
+            : []);
+
+    const subcatValue = productSubcats
+        .map(sc => t(`subcategories.${sc}`) || sc)
+        .join(', ');
+
+    const subcatLabel = productSubcats.length > 1
+        ? (t('catalog.subcategories') || 'Підкатегорії')
+        : (t('catalog.subcategory') || 'Підкатегорія');
+
     const attrs = [
-        ...(product.subcat ? [{ label: t('catalog.subcategory'), value: t(`subcategories.${product.subcat}`) || product.subcat }] : []),
+        ...(productSubcats.length > 0 ? [{ label: subcatLabel, value: subcatValue }] : []),
         { label: t('product.composition'), value: formatComposition(product.attributes.composition, lang) },
         { label: t('product.density'), value: densityVal },
         { label: t('product.width'), value: widthVal },

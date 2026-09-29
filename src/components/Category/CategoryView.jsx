@@ -15,7 +15,16 @@ const COLOR_MAP = {
 
 const PAGE_SIZE = 9;
 
-const PREFERRED_SUBCAT_ORDER = ['solid', 'cell', 'strip', 'dot', 'print'];
+export const getProductSubcats = (product) => {
+    if (!product?.subcat) return [];
+    if (Array.isArray(product.subcat)) return product.subcat;
+    if (typeof product.subcat === 'string') {
+        return product.subcat.split(',').map(s => s.trim().toLowerCase()).filter(Boolean);
+    }
+    return [];
+};
+
+const PREFERRED_SUBCAT_ORDER = ['solid', 'cell', 'square', 'strip', 'dot', 'print', 'linen', 'cotton100', 'cotton80', 'cotton60', 'cotton35'];
 
 export default function CategoryView({
     cat,
@@ -91,7 +100,7 @@ export default function CategoryView({
         const subcats = new Set();
 
         products.forEach(p => {
-            if (p.subcat) subcats.add(p.subcat);
+            getProductSubcats(p).forEach(sc => subcats.add(sc));
             if (p.attributes?.fabricType) types.add(p.attributes.fabricType);
 
             if (Array.isArray(p.attributes?.color)) {
@@ -167,7 +176,9 @@ export default function CategoryView({
             const matchSearch = !search ||
                 p.title.ua.toLowerCase().includes(q) ||
                 p.title.ru.toLowerCase().includes(q);
-            const matchSubcat = selectedSubcats.length === 0 || selectedSubcats.includes(p.subcat);
+            const pSubcats = getProductSubcats(p);
+            const matchSubcat = selectedSubcats.length === 0 ||
+                pSubcats.some(sc => selectedSubcats.includes(sc));
             const matchType = selectedTypes.length === 0 || selectedTypes.includes(p.attributes?.fabricType);
             const matchColor = selectedColors.length === 0 ||
                 (Array.isArray(p.attributes?.color)
@@ -254,7 +265,7 @@ export default function CategoryView({
                                     <span className="subcat-pill__count">{products.length}</span>
                                 </button>
                                 {SUBCATS.map(sc => {
-                                    const count = products.filter(p => p.subcat === sc).length;
+                                    const count = products.filter(p => getProductSubcats(p).includes(sc)).length;
                                     const isSelected = selectedSubcats.includes(sc);
                                     return (
                                         <button

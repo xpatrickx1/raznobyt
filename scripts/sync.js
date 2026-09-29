@@ -96,6 +96,15 @@ const parseColors = (colorsStr) => {
   }).filter(Boolean);
 };
 
+const parseSubcat = (subcatStr) => {
+  if (!subcatStr || typeof subcatStr !== "string") return undefined;
+  const items = subcatStr
+    .split(",")
+    .map((s) => s.trim().toLowerCase())
+    .filter(Boolean);
+  return items.length > 0 ? items : undefined;
+};
+
 async function main() {
   console.log("🚀 Fetching data from Google Sheets...");
 
@@ -142,10 +151,12 @@ async function main() {
       const slug = makeUniqueSlug(baseSlug, '');
       console.log(slug);
 
+      const subcat = parseSubcat(row.subcat);
+
       products.push({
         id: slug,
         category: sheetName,
-        ...(row.subcat ? { subcat: row.subcat.trim().toLowerCase() } : {}),
+        ...(subcat ? { subcat } : {}),
         slug,
         title: {
           ua: row.title,

@@ -8,13 +8,21 @@
       "ru": "BG 9035"
     },
     "isNew": false,
-    "images": [],
+    "images": [
+      "http://catalog.raznobyt.com/images/products/BG 9035/main/BLACK.jpg"
+    ],
     "description": {},
     "attributes": {
       "fabricType": "twill",
       "density": "350",
       "width": "150",
-      "colors": [],
+      "colors": [
+        {
+          "color": "BLACK",
+          "image": "http://catalog.raznobyt.com/images/products/BG 9035/main/BLACK.jpg",
+          "isMain": true
+        }
+      ],
       "properties": [],
       "composition": {
         "cotton": 79,
@@ -48,13 +56,39 @@
       "ru": "BG 9045"
     },
     "isNew": false,
-    "images": [],
+    "images": [
+      "http://catalog.raznobyt.com/images/products/BG 9045/main/65613.jpg",
+      "http://catalog.raznobyt.com/images/products/BG 9045/63805.jpg",
+      "http://catalog.raznobyt.com/images/products/BG 9045/65576.jpg",
+      "http://catalog.raznobyt.com/images/products/BG 9045/66935.jpg"
+    ],
     "description": {},
     "attributes": {
       "fabricType": "twill",
       "density": "450",
       "width": "150",
-      "colors": [],
+      "colors": [
+        {
+          "color": "65613",
+          "image": "http://catalog.raznobyt.com/images/products/BG 9045/main/65613.jpg",
+          "isMain": true
+        },
+        {
+          "color": "63805",
+          "image": "http://catalog.raznobyt.com/images/products/BG 9045/63805.jpg",
+          "isMain": false
+        },
+        {
+          "color": "65576",
+          "image": "http://catalog.raznobyt.com/images/products/BG 9045/65576.jpg",
+          "isMain": false
+        },
+        {
+          "color": "66935",
+          "image": "http://catalog.raznobyt.com/images/products/BG 9045/66935.jpg",
+          "isMain": false
+        }
+      ],
       "properties": [],
       "composition": {
         "cotton": 79,
@@ -88,13 +122,45 @@
       "ru": "BG 9500"
     },
     "isNew": false,
-    "images": [],
+    "images": [
+      "http://catalog.raznobyt.com/images/products/BG 9500/main/60662.jpg",
+      "http://catalog.raznobyt.com/images/products/BG 9500/66777.jpg",
+      "http://catalog.raznobyt.com/images/products/BG 9500/66907.jpg",
+      "http://catalog.raznobyt.com/images/products/BG 9500/66935.jpg",
+      "http://catalog.raznobyt.com/images/products/BG 9500/HV YELLOW.jpg"
+    ],
     "description": {},
     "attributes": {
       "fabricType": "twill",
       "density": "350",
       "width": "150",
-      "colors": [],
+      "colors": [
+        {
+          "color": "60662",
+          "image": "http://catalog.raznobyt.com/images/products/BG 9500/main/60662.jpg",
+          "isMain": true
+        },
+        {
+          "color": "66777",
+          "image": "http://catalog.raznobyt.com/images/products/BG 9500/66777.jpg",
+          "isMain": false
+        },
+        {
+          "color": "66907",
+          "image": "http://catalog.raznobyt.com/images/products/BG 9500/66907.jpg",
+          "isMain": false
+        },
+        {
+          "color": "66935",
+          "image": "http://catalog.raznobyt.com/images/products/BG 9500/66935.jpg",
+          "isMain": false
+        },
+        {
+          "color": "HV YELLOW",
+          "image": "http://catalog.raznobyt.com/images/products/BG 9500/HV YELLOW.jpg",
+          "isMain": false
+        }
+      ],
       "properties": [],
       "composition": {
         "cotton": 64,
@@ -128,13 +194,21 @@
       "ru": "KS52"
     },
     "isNew": false,
-    "images": [],
+    "images": [
+      "http://catalog.raznobyt.com/images/products/KS 52/main/47240.jpg"
+    ],
     "description": {},
     "attributes": {
       "fabricType": "twill",
       "density": "335",
       "width": "150",
-      "colors": [],
+      "colors": [
+        {
+          "color": "47240",
+          "image": "http://catalog.raznobyt.com/images/products/KS 52/main/47240.jpg",
+          "isMain": true
+        }
+      ],
       "properties": [],
       "composition": {
         "cotton": 100,
@@ -168,13 +242,21 @@
       "ru": "XA 9001"
     },
     "isNew": false,
-    "images": [],
+    "images": [
+      "http://catalog.raznobyt.com/images/products/XA 9001/main/89072.jpg"
+    ],
     "description": {},
     "attributes": {
       "fabricType": "twill",
       "density": "320",
       "width": "150",
-      "colors": [],
+      "colors": [
+        {
+          "color": "89072",
+          "image": "http://catalog.raznobyt.com/images/products/XA 9001/main/89072.jpg",
+          "isMain": true
+        }
+      ],
       "properties": [],
       "composition": {
         "cotton": 45,
@@ -208,13 +290,27 @@
       "ru": "XB 9340"
     },
     "isNew": false,
-    "images": [],
+    "images": [
+      "http://catalog.raznobyt.com/images/products/XB 9340/main/42049.jpg",
+      "http://catalog.raznobyt.com/images/products/XB 9340/42196.jpg"
+    ],
     "description": {},
     "attributes": {
       "fabricType": "twill",
       "density": "340",
       "width": "150",
-      "colors": [],
+      "colors": [
+        {
+          "color": "42049",
+          "image": "http://catalog.raznobyt.com/images/products/XB 9340/main/42049.jpg",
+          "isMain": true
+        },
+        {
+          "color": "42196",
+          "image": "http://catalog.raznobyt.com/images/products/XB 9340/42196.jpg",
+          "isMain": false
+        }
+      ],
       "properties": [],
       "composition": {
         "cotton": 74,
@@ -248,13 +344,21 @@
       "ru": "XL 9300"
     },
     "isNew": false,
-    "images": [],
+    "images": [
+      "http://catalog.raznobyt.com/images/products/XL 9300/main/89250.jpg"
+    ],
     "description": {},
     "attributes": {
       "fabricType": "twill",
       "density": "300",
       "width": "150",
-      "colors": [],
+      "colors": [
+        {
+          "color": "89250",
+          "image": "http://catalog.raznobyt.com/images/products/XL 9300/main/89250.jpg",
+          "isMain": true
+        }
+      ],
       "properties": [],
       "composition": {
         "cotton": 0,
@@ -288,13 +392,33 @@
       "ru": "XL 9325"
     },
     "isNew": false,
-    "images": [],
+    "images": [
+      "http://catalog.raznobyt.com/images/products/XL 9325/main/89253.jpg",
+      "http://catalog.raznobyt.com/images/products/XL 9325/89249.jpg",
+      "http://catalog.raznobyt.com/images/products/XL 9325/89251.jpg"
+    ],
     "description": {},
     "attributes": {
       "fabricType": "twill",
       "density": "325",
       "width": "150",
-      "colors": [],
+      "colors": [
+        {
+          "color": "89253",
+          "image": "http://catalog.raznobyt.com/images/products/XL 9325/main/89253.jpg",
+          "isMain": true
+        },
+        {
+          "color": "89249",
+          "image": "http://catalog.raznobyt.com/images/products/XL 9325/89249.jpg",
+          "isMain": false
+        },
+        {
+          "color": "89251",
+          "image": "http://catalog.raznobyt.com/images/products/XL 9325/89251.jpg",
+          "isMain": false
+        }
+      ],
       "properties": [],
       "composition": {
         "cotton": 0,
@@ -328,13 +452,21 @@
       "ru": "AV 9400"
     },
     "isNew": false,
-    "images": [],
+    "images": [
+      "http://catalog.raznobyt.com/images/products/AV 9400/main/89374.jpg"
+    ],
     "description": {},
     "attributes": {
       "fabricType": "twill",
       "density": "200",
       "width": "150",
-      "colors": [],
+      "colors": [
+        {
+          "color": "89374",
+          "image": "http://catalog.raznobyt.com/images/products/AV 9400/main/89374.jpg",
+          "isMain": true
+        }
+      ],
       "properties": [],
       "composition": {
         "cotton": 0,
@@ -368,13 +500,21 @@
       "ru": "BV 9120"
     },
     "isNew": false,
-    "images": [],
+    "images": [
+      "http://catalog.raznobyt.com/images/products/BV 9120/main/89201.jpg"
+    ],
     "description": {},
     "attributes": {
       "fabricType": "twill",
       "density": "265",
       "width": "150",
-      "colors": [],
+      "colors": [
+        {
+          "color": "89201",
+          "image": "http://catalog.raznobyt.com/images/products/BV 9120/main/89201.jpg",
+          "isMain": true
+        }
+      ],
       "properties": [],
       "composition": {
         "cotton": 0,

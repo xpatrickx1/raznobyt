@@ -2,7 +2,9 @@
   {
     "id": "tkan-shirts-263",
     "category": "shirts",
-    "subcat": "linen",
+    "subcat": [
+      "linen"
+    ],
     "slug": "tkan-shirts-263",
     "title": {
       "ua": "А263",
@@ -102,7 +104,9 @@
   {
     "id": "tkan-shirts-flash-f1",
     "category": "shirts",
-    "subcat": "linen",
+    "subcat": [
+      "linen"
+    ],
     "slug": "tkan-shirts-flash-f1",
     "title": {
       "ua": "FLASH F1",
@@ -178,7 +182,9 @@
   {
     "id": "tkan-shirts-9327",
     "category": "shirts",
-    "subcat": "linen",
+    "subcat": [
+      "linen"
+    ],
     "slug": "tkan-shirts-9327",
     "title": {
       "ua": "9327",
@@ -254,7 +260,9 @@
   {
     "id": "tkan-shirts-linen-viscose",
     "category": "shirts",
-    "subcat": "linen",
+    "subcat": [
+      "linen"
+    ],
     "slug": "tkan-shirts-linen-viscose",
     "title": {
       "ua": "LINEN VISCOSE",
@@ -336,7 +344,9 @@
   {
     "id": "tkan-shirts-02699",
     "category": "shirts",
-    "subcat": "linen",
+    "subcat": [
+      "linen"
+    ],
     "slug": "tkan-shirts-02699",
     "title": {
       "ua": "02699",
@@ -430,7 +440,10 @@
   {
     "id": "tkan-shirts-353",
     "category": "shirts",
-    "subcat": "square",
+    "subcat": [
+      "square",
+      "cotton100"
+    ],
     "slug": "tkan-shirts-353",
     "title": {
       "ua": "А353",
@@ -488,7 +501,10 @@
   {
     "id": "tkan-shirts-331",
     "category": "shirts",
-    "subcat": "square",
+    "subcat": [
+      "square",
+      "cotton100"
+    ],
     "slug": "tkan-shirts-331",
     "title": {
       "ua": "А331",
@@ -540,7 +556,10 @@
   {
     "id": "tkan-shirts-939",
     "category": "shirts",
-    "subcat": "square",
+    "subcat": [
+      "square",
+      "cotton100"
+    ],
     "slug": "tkan-shirts-939",
     "title": {
       "ua": "А939",
@@ -584,7 +603,10 @@
   {
     "id": "tkan-shirts-386",
     "category": "shirts",
-    "subcat": "square",
+    "subcat": [
+      "square",
+      "cotton100"
+    ],
     "slug": "tkan-shirts-386",
     "title": {
       "ua": "А386",
@@ -636,7 +658,10 @@
   {
     "id": "tkan-shirts-4664",
     "category": "shirts",
-    "subcat": "square",
+    "subcat": [
+      "square",
+      "cotton100"
+    ],
     "slug": "tkan-shirts-4664",
     "title": {
       "ua": "4664",
@@ -706,7 +731,10 @@
   {
     "id": "tkan-shirts-112",
     "category": "shirts",
-    "subcat": "square",
+    "subcat": [
+      "square",
+      "cotton100"
+    ],
     "slug": "tkan-shirts-112",
     "title": {
       "ua": "А112",
@@ -776,7 +804,10 @@
   {
     "id": "tkan-shirts-5845",
     "category": "shirts",
-    "subcat": "square",
+    "subcat": [
+      "square",
+      "cotton60"
+    ],
     "slug": "tkan-shirts-5845",
     "title": {
       "ua": "5845",
@@ -840,7 +871,10 @@
   {
     "id": "tkan-shirts-5339",
     "category": "shirts",
-    "subcat": "square",
+    "subcat": [
+      "square",
+      "cotton60"
+    ],
     "slug": "tkan-shirts-5339",
     "title": {
       "ua": "5339",
@@ -904,7 +938,10 @@
   {
     "id": "tkan-shirts-5507",
     "category": "shirts",
-    "subcat": "square",
+    "subcat": [
+      "square",
+      "cotton60"
+    ],
     "slug": "tkan-shirts-5507",
     "title": {
       "ua": "5507",
@@ -956,7 +993,9 @@
   {
     "id": "tkan-shirts-5764",
     "category": "shirts",
-    "subcat": "square",
+    "subcat": [
+      "square"
+    ],
     "slug": "tkan-shirts-5764",
     "title": {
       "ua": "5764",
@@ -1008,7 +1047,9 @@
   {
     "id": "tkan-shirts-7251",
     "category": "shirts",
-    "subcat": "cotton60",
+    "subcat": [
+      "cotton60"
+    ],
     "slug": "tkan-shirts-7251",
     "title": {
       "ua": "7251",
@@ -1138,7 +1179,9 @@
   {
     "id": "tkan-shirts-rc113cv",
     "category": "shirts",
-    "subcat": "cotton60",
+    "subcat": [
+      "cotton60"
+    ],
     "slug": "tkan-shirts-rc113cv",
     "title": {
       "ua": "RC113CV",
@@ -1202,7 +1245,9 @@
   {
     "id": "tkan-shirts-lt2111",
     "category": "shirts",
-    "subcat": "cotton60",
+    "subcat": [
+      "cotton60"
+    ],
     "slug": "tkan-shirts-lt2111",
     "title": {
       "ua": "LT2111",
@@ -1290,7 +1335,9 @@
   {
     "id": "tkan-shirts-196",
     "category": "shirts",
-    "subcat": "cotton100",
+    "subcat": [
+      "cotton100"
+    ],
     "slug": "tkan-shirts-196",
     "title": {
       "ua": "А196",
@@ -1360,7 +1407,9 @@
   {
     "id": "tkan-shirts-359",
     "category": "shirts",
-    "subcat": "cotton100",
+    "subcat": [
+      "cotton100"
+    ],
     "slug": "tkan-shirts-359",
     "title": {
       "ua": "А359",
@@ -1442,7 +1491,9 @@
   {
     "id": "tkan-shirts-1021",
     "category": "shirts",
-    "subcat": "cotton100",
+    "subcat": [
+      "cotton100"
+    ],
     "slug": "tkan-shirts-1021",
     "title": {
       "ua": "1021",
@@ -1512,7 +1563,9 @@
   {
     "id": "tkan-shirts-042",
     "category": "shirts",
-    "subcat": "cotton100",
+    "subcat": [
+      "cotton100"
+    ],
     "slug": "tkan-shirts-042",
     "title": {
       "ua": "А042",
@@ -1556,7 +1609,9 @@
   {
     "id": "tkan-shirts-573",
     "category": "shirts",
-    "subcat": "cotton100",
+    "subcat": [
+      "cotton100"
+    ],
     "slug": "tkan-shirts-573",
     "title": {
       "ua": "А573",
@@ -1608,7 +1663,9 @@
   {
     "id": "tkan-shirts-l678",
     "category": "shirts",
-    "subcat": "cotton100",
+    "subcat": [
+      "cotton100"
+    ],
     "slug": "tkan-shirts-l678",
     "title": {
       "ua": "L678",
@@ -1660,7 +1717,9 @@
   {
     "id": "tkan-shirts-l493",
     "category": "shirts",
-    "subcat": "cotton100",
+    "subcat": [
+      "cotton100"
+    ],
     "slug": "tkan-shirts-l493",
     "title": {
       "ua": "L493",
@@ -1712,7 +1771,9 @@
   {
     "id": "tkan-shirts-477",
     "category": "shirts",
-    "subcat": "cotton100",
+    "subcat": [
+      "cotton100"
+    ],
     "slug": "tkan-shirts-477",
     "title": {
       "ua": "А477",
@@ -1756,7 +1817,9 @@
   {
     "id": "tkan-shirts-2161",
     "category": "shirts",
-    "subcat": "cotton100",
+    "subcat": [
+      "cotton100"
+    ],
     "slug": "tkan-shirts-2161",
     "title": {
       "ua": "2161",
@@ -1808,7 +1871,9 @@
   {
     "id": "tkan-shirts-4994",
     "category": "shirts",
-    "subcat": "cotton100",
+    "subcat": [
+      "cotton100"
+    ],
     "slug": "tkan-shirts-4994",
     "title": {
       "ua": "4994",
@@ -1860,7 +1925,9 @@
   {
     "id": "tkan-shirts-4152",
     "category": "shirts",
-    "subcat": "cotton100",
+    "subcat": [
+      "cotton100"
+    ],
     "slug": "tkan-shirts-4152",
     "title": {
       "ua": "4152",
@@ -1912,7 +1979,9 @@
   {
     "id": "tkan-shirts-0533",
     "category": "shirts",
-    "subcat": "cotton100",
+    "subcat": [
+      "cotton100"
+    ],
     "slug": "tkan-shirts-0533",
     "title": {
       "ua": "0533",
@@ -1964,7 +2033,9 @@
   {
     "id": "tkan-shirts-0738",
     "category": "shirts",
-    "subcat": "cotton100",
+    "subcat": [
+      "cotton100"
+    ],
     "slug": "tkan-shirts-0738",
     "title": {
       "ua": "0738",
@@ -2016,7 +2087,10 @@
   {
     "id": "tkan-shirts-202",
     "category": "shirts",
-    "subcat": "square",
+    "subcat": [
+      "square",
+      "cotton100"
+    ],
     "slug": "tkan-shirts-202",
     "title": {
       "ua": "А202",
@@ -2068,7 +2142,9 @@
   {
     "id": "tkan-shirts-0437",
     "category": "shirts",
-    "subcat": "cotton100",
+    "subcat": [
+      "cotton100"
+    ],
     "slug": "tkan-shirts-0437",
     "title": {
       "ua": "0437",
@@ -2120,7 +2196,9 @@
   {
     "id": "tkan-shirts-0893",
     "category": "shirts",
-    "subcat": "cotton100",
+    "subcat": [
+      "cotton100"
+    ],
     "slug": "tkan-shirts-0893",
     "title": {
       "ua": "0893",
@@ -2172,7 +2250,9 @@
   {
     "id": "tkan-shirts-0734",
     "category": "shirts",
-    "subcat": "cotton100",
+    "subcat": [
+      "cotton100"
+    ],
     "slug": "tkan-shirts-0734",
     "title": {
       "ua": "0734",
@@ -2224,7 +2304,10 @@
   {
     "id": "tkan-shirts-solid",
     "category": "shirts",
-    "subcat": "strip",
+    "subcat": [
+      "strip",
+      "cotton100"
+    ],
     "slug": "tkan-shirts-solid",
     "title": {
       "ua": "SOLID",
@@ -2276,7 +2359,9 @@
   {
     "id": "tkan-shirts-561",
     "category": "shirts",
-    "subcat": "cotton100",
+    "subcat": [
+      "cotton100"
+    ],
     "slug": "tkan-shirts-561",
     "title": {
       "ua": "А561",
@@ -2328,7 +2413,10 @@
   {
     "id": "tkan-shirts-489",
     "category": "shirts",
-    "subcat": "square",
+    "subcat": [
+      "square",
+      "cotton100"
+    ],
     "slug": "tkan-shirts-489",
     "title": {
       "ua": "А489",
@@ -2380,7 +2468,9 @@
   {
     "id": "tkan-shirts-469",
     "category": "shirts",
-    "subcat": "cotton100",
+    "subcat": [
+      "cotton100"
+    ],
     "slug": "tkan-shirts-469",
     "title": {
       "ua": "А469",
@@ -2432,7 +2522,10 @@
   {
     "id": "tkan-shirts-325",
     "category": "shirts",
-    "subcat": "strip",
+    "subcat": [
+      "strip",
+      "cotton100"
+    ],
     "slug": "tkan-shirts-325",
     "title": {
       "ua": "А325",
@@ -2490,7 +2583,10 @@
   {
     "id": "tkan-shirts-197",
     "category": "shirts",
-    "subcat": "strip",
+    "subcat": [
+      "strip",
+      "cotton100"
+    ],
     "slug": "tkan-shirts-197",
     "title": {
       "ua": "А197",
@@ -2548,7 +2644,9 @@
   {
     "id": "tkan-shirts-l939",
     "category": "shirts",
-    "subcat": "cotton100",
+    "subcat": [
+      "cotton100"
+    ],
     "slug": "tkan-shirts-l939",
     "title": {
       "ua": "L939",
@@ -2592,7 +2690,10 @@
   {
     "id": "tkan-shirts-l927",
     "category": "shirts",
-    "subcat": "strip",
+    "subcat": [
+      "strip",
+      "cotton100"
+    ],
     "slug": "tkan-shirts-l927",
     "title": {
       "ua": "L927",
@@ -2644,7 +2745,10 @@
   {
     "id": "tkan-shirts-8845",
     "category": "shirts",
-    "subcat": "strip",
+    "subcat": [
+      "strip",
+      "cotton60"
+    ],
     "slug": "tkan-shirts-8845",
     "title": {
       "ua": "8845",
@@ -2696,7 +2800,10 @@
   {
     "id": "tkan-shirts-cotton-tex-f907",
     "category": "shirts",
-    "subcat": "strip",
+    "subcat": [
+      "strip",
+      "cotton60"
+    ],
     "slug": "tkan-shirts-cotton-tex-f907",
     "title": {
       "ua": "COTTON TEX F907",
@@ -2748,7 +2855,10 @@
   {
     "id": "tkan-shirts-5844",
     "category": "shirts",
-    "subcat": "strip",
+    "subcat": [
+      "strip",
+      "cotton60"
+    ],
     "slug": "tkan-shirts-5844",
     "title": {
       "ua": "5844",
@@ -2818,7 +2928,10 @@
   {
     "id": "tkan-shirts-5834",
     "category": "shirts",
-    "subcat": "strip",
+    "subcat": [
+      "strip",
+      "cotton60"
+    ],
     "slug": "tkan-shirts-5834",
     "title": {
       "ua": "5834",
@@ -2870,7 +2983,10 @@
   {
     "id": "tkan-shirts-9600",
     "category": "shirts",
-    "subcat": "strip",
+    "subcat": [
+      "strip",
+      "cotton35"
+    ],
     "slug": "tkan-shirts-9600",
     "title": {
       "ua": "9600",
@@ -2940,7 +3056,10 @@
   {
     "id": "tkan-shirts-509",
     "category": "shirts",
-    "subcat": "print",
+    "subcat": [
+      "print",
+      "cotton100"
+    ],
     "slug": "tkan-shirts-509",
     "title": {
       "ua": "А509",
@@ -2992,7 +3111,10 @@
   {
     "id": "tkan-shirts-044",
     "category": "shirts",
-    "subcat": "print",
+    "subcat": [
+      "print",
+      "cotton100"
+    ],
     "slug": "tkan-shirts-044",
     "title": {
       "ua": "А044",
@@ -3044,7 +3166,10 @@
   {
     "id": "tkan-shirts-042-2",
     "category": "shirts",
-    "subcat": "print",
+    "subcat": [
+      "print",
+      "cotton100"
+    ],
     "slug": "tkan-shirts-042-2",
     "title": {
       "ua": "А042",
@@ -3096,7 +3221,10 @@
   {
     "id": "tkan-shirts-9862",
     "category": "shirts",
-    "subcat": "print",
+    "subcat": [
+      "print",
+      "cotton35"
+    ],
     "slug": "tkan-shirts-9862",
     "title": {
       "ua": "9862",
@@ -3148,7 +3276,10 @@
   {
     "id": "tkan-shirts-9700",
     "category": "shirts",
-    "subcat": "print",
+    "subcat": [
+      "print",
+      "cotton35"
+    ],
     "slug": "tkan-shirts-9700",
     "title": {
       "ua": "9700",
@@ -3206,7 +3337,10 @@
   {
     "id": "tkan-shirts-9998",
     "category": "shirts",
-    "subcat": "print",
+    "subcat": [
+      "print",
+      "cotton35"
+    ],
     "slug": "tkan-shirts-9998",
     "title": {
       "ua": "9998",
@@ -3264,7 +3398,9 @@
   {
     "id": "tkan-shirts-0480",
     "category": "shirts",
-    "subcat": "cotton100",
+    "subcat": [
+      "cotton100"
+    ],
     "slug": "tkan-shirts-0480",
     "title": {
       "ua": "0480",
@@ -3358,7 +3494,9 @@
   {
     "id": "tkan-shirts-1030",
     "category": "shirts",
-    "subcat": "cotton80",
+    "subcat": [
+      "cotton80"
+    ],
     "slug": "tkan-shirts-1030",
     "title": {
       "ua": "1030",
@@ -3416,7 +3554,9 @@
   {
     "id": "tkan-shirts-rc118c",
     "category": "shirts",
-    "subcat": "cotton80",
+    "subcat": [
+      "cotton80"
+    ],
     "slug": "tkan-shirts-rc118c",
     "title": {
       "ua": "RC118C",
@@ -3480,7 +3620,9 @@
   {
     "id": "tkan-shirts-1199",
     "category": "shirts",
-    "subcat": "cotton80",
+    "subcat": [
+      "cotton80"
+    ],
     "slug": "tkan-shirts-1199",
     "title": {
       "ua": "1199",
@@ -3544,7 +3686,9 @@
   {
     "id": "tkan-shirts-112-2",
     "category": "shirts",
-    "subcat": "cotton80",
+    "subcat": [
+      "cotton80"
+    ],
     "slug": "tkan-shirts-112-2",
     "title": {
       "ua": "В112",
@@ -3596,7 +3740,9 @@
   {
     "id": "tkan-shirts-lt1109",
     "category": "shirts",
-    "subcat": "cotton80",
+    "subcat": [
+      "cotton80"
+    ],
     "slug": "tkan-shirts-lt1109",
     "title": {
       "ua": "LT1109",
@@ -3654,7 +3800,9 @@
   {
     "id": "tkan-shirts-5767",
     "category": "shirts",
-    "subcat": "cotton60",
+    "subcat": [
+      "cotton60"
+    ],
     "slug": "tkan-shirts-5767",
     "title": {
       "ua": "5767",
@@ -3706,7 +3854,9 @@
   {
     "id": "tkan-shirts-3009",
     "category": "shirts",
-    "subcat": "cotton60",
+    "subcat": [
+      "cotton60"
+    ],
     "slug": "tkan-shirts-3009",
     "title": {
       "ua": "3009",
@@ -3764,7 +3914,9 @@
   {
     "id": "tkan-shirts-tr251",
     "category": "shirts",
-    "subcat": "cotton60",
+    "subcat": [
+      "cotton60"
+    ],
     "slug": "tkan-shirts-tr251",
     "title": {
       "ua": "TR251",
@@ -3918,7 +4070,9 @@
   {
     "id": "tkan-shirts-tr-065",
     "category": "shirts",
-    "subcat": "cotton35",
+    "subcat": [
+      "cotton35"
+    ],
     "slug": "tkan-shirts-tr-065",
     "title": {
       "ua": "TR-065",
@@ -4012,7 +4166,9 @@
   {
     "id": "tkan-shirts-9037",
     "category": "shirts",
-    "subcat": "cotton35",
+    "subcat": [
+      "cotton35"
+    ],
     "slug": "tkan-shirts-9037",
     "title": {
       "ua": "9037",
@@ -4082,7 +4238,9 @@
   {
     "id": "tkan-shirts-9065",
     "category": "shirts",
-    "subcat": "cotton35",
+    "subcat": [
+      "cotton35"
+    ],
     "slug": "tkan-shirts-9065",
     "title": {
       "ua": "9065",
@@ -4134,7 +4292,9 @@
   {
     "id": "tkan-shirts-l601",
     "category": "shirts",
-    "subcat": "cotton60",
+    "subcat": [
+      "cotton60"
+    ],
     "slug": "tkan-shirts-l601",
     "title": {
       "ua": "L601",
@@ -4186,7 +4346,9 @@
   {
     "id": "tkan-shirts-a477",
     "category": "shirts",
-    "subcat": "cotton100",
+    "subcat": [
+      "cotton100"
+    ],
     "slug": "tkan-shirts-a477",
     "title": {
       "ua": "A477",
@@ -4244,7 +4406,9 @@
   {
     "id": "tkan-shirts-l492",
     "category": "shirts",
-    "subcat": "cotton60",
+    "subcat": [
+      "cotton60"
+    ],
     "slug": "tkan-shirts-l492",
     "title": {
       "ua": "L492",
