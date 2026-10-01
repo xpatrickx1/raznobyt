@@ -554,16 +554,16 @@
     }
   },
   {
-    "id": "tkan-shirts-939",
+    "id": "tkan-shirts-l939",
     "category": "shirts",
     "subcat": [
       "square",
       "cotton100"
     ],
-    "slug": "tkan-shirts-939",
+    "slug": "tkan-shirts-l939",
     "title": {
-      "ua": "А939",
-      "ru": "А939"
+      "ua": "L939",
+      "ru": "L939"
     },
     "isNew": false,
     "images": [],
@@ -601,16 +601,16 @@
     }
   },
   {
-    "id": "tkan-shirts-386",
+    "id": "tkan-shirts-a386",
     "category": "shirts",
     "subcat": [
       "square",
       "cotton100"
     ],
-    "slug": "tkan-shirts-386",
+    "slug": "tkan-shirts-a386",
     "title": {
-      "ua": "А386",
-      "ru": "А386"
+      "ua": "A386",
+      "ru": "A386"
     },
     "isNew": false,
     "images": [
@@ -2642,12 +2642,12 @@
     }
   },
   {
-    "id": "tkan-shirts-l939",
+    "id": "tkan-shirts-l939-2",
     "category": "shirts",
     "subcat": [
       "cotton100"
     ],
-    "slug": "tkan-shirts-l939",
+    "slug": "tkan-shirts-l939-2",
     "title": {
       "ua": "L939",
       "ru": "L939"

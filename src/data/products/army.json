@@ -84,5 +84,147 @@
         "MAC": 0
       }
     }
+  },
+  {
+    "id": "tkan-army-xl-9300",
+    "category": "army",
+    "slug": "tkan-army-xl-9300",
+    "title": {
+      "ua": "XL 9300",
+      "ru": "XL 9300"
+    },
+    "isNew": false,
+    "images": [],
+    "description": {
+      "ua": "Сучасна вогнестійка та антистатична тканина з модакрилу та ліоцелу з МВО. Склад: Modacrylic/Lyocell/Static-Control™. Щільність 300 г/м². Модакрил забезпечує вогнестійкість, ліоцел — м'якість та комфорт.",
+      "ru": "Современная огнестойкая и антистатическая ткань из модакрила и лиоцелла с МВО. Состав: Modacrylic/Lyocell/Static-Control™. Плотность 300 г/м². Модакрил обеспечивает огнестойкость, лиоцелл — мягкость и комфорт."
+    },
+    "attributes": {
+      "fabricType": "twill",
+      "density": "300",
+      "width": "150",
+      "colors": [],
+      "properties": [],
+      "composition": {
+        "cotton": 0,
+        "polyester": 0,
+        "spandex": 1,
+        "rayon": 0,
+        "viscose": 0,
+        "pbt": 0,
+        "lyon": 0,
+        "polyamidePA": 0,
+        "polypropylenePP": 0,
+        "paraAramid": 0,
+        "antistatic": 0,
+        "modacrylicLyocellStaticControl": 0,
+        "nomexKevlarAntiStatic": 0,
+        "nomexParaAramidP140": 0,
+        "pbiKevlarAntistatic": 0,
+        "lenzingFRAramid": 0,
+        "paraAramidSolidPolymerCoating": 0,
+        "frRayonParaAramidPolyamideAntistatic": 0,
+        "MAC": 0
+      }
+    }
+  },
+  {
+    "id": "tkan-army-tr-55",
+    "category": "army",
+    "slug": "tkan-army-tr-55",
+    "title": {
+      "ua": "TR-55",
+      "ru": "TR-55"
+    },
+    "isNew": false,
+    "images": [
+      "http://catalog.raznobyt.com/images/products/TR-55/main/780 METAL.jpg",
+      "http://catalog.raznobyt.com/images/products/TR-55/730 RED.jpg",
+      "http://catalog.raznobyt.com/images/products/TR-55/754 ROYAL BOX.jpg",
+      "http://catalog.raznobyt.com/images/products/TR-55/757 NAVY.jpg",
+      "http://catalog.raznobyt.com/images/products/TR-55/767 BOTTLE.jpg",
+      "http://catalog.raznobyt.com/images/products/TR-55/778 CHOCOLATE.jpg",
+      "http://catalog.raznobyt.com/images/products/TR-55/784 GREY.jpg",
+      "http://catalog.raznobyt.com/images/products/TR-55/794 BLACK.jpg",
+      "http://catalog.raznobyt.com/images/products/TR-55/95689.jpg"
+    ],
+    "description": {
+      "ua": "Щільна змішана тканина саржевого переплетення. Склад: 40% бавовна, 60% поліестр. Щільність 245 г/м². Рекомендується для важких умов.",
+      "ru": "Плотная смесовая ткань саржевого переплетения. Состав: 40% хлопок, 60% полиэстер. Плотность 245 г/м². Рекомендуется для тяжелых условий."
+    },
+    "attributes": {
+      "fabricType": "twill",
+      "density": "245",
+      "width": "150",
+      "colors": [
+        {
+          "color": "780 METAL",
+          "image": "http://catalog.raznobyt.com/images/products/TR-55/main/780 METAL.jpg",
+          "isMain": true
+        },
+        {
+          "color": "730 RED",
+          "image": "http://catalog.raznobyt.com/images/products/TR-55/730 RED.jpg",
+          "isMain": false
+        },
+        {
+          "color": "754 ROYAL BOX",
+          "image": "http://catalog.raznobyt.com/images/products/TR-55/754 ROYAL BOX.jpg",
+          "isMain": false
+        },
+        {
+          "color": "757 NAVY",
+          "image": "http://catalog.raznobyt.com/images/products/TR-55/757 NAVY.jpg",
+          "isMain": false
+        },
+        {
+          "color": "767 BOTTLE",
+          "image": "http://catalog.raznobyt.com/images/products/TR-55/767 BOTTLE.jpg",
+          "isMain": false
+        },
+        {
+          "color": "778 CHOCOLATE",
+          "image": "http://catalog.raznobyt.com/images/products/TR-55/778 CHOCOLATE.jpg",
+          "isMain": false
+        },
+        {
+          "color": "784 GREY",
+          "image": "http://catalog.raznobyt.com/images/products/TR-55/784 GREY.jpg",
+          "isMain": false
+        },
+        {
+          "color": "794 BLACK",
+          "image": "http://catalog.raznobyt.com/images/products/TR-55/794 BLACK.jpg",
+          "isMain": false
+        },
+        {
+          "color": "95689",
+          "image": "http://catalog.raznobyt.com/images/products/TR-55/95689.jpg",
+          "isMain": false
+        }
+      ],
+      "properties": [],
+      "composition": {
+        "cotton": 40,
+        "polyester": 60,
+        "spandex": 0,
+        "rayon": 0,
+        "viscose": 0,
+        "pbt": 0,
+        "lyon": 0,
+        "polyamidePA": 0,
+        "polypropylenePP": 0,
+        "paraAramid": 0,
+        "antistatic": 0,
+        "modacrylicLyocellStaticControl": 0,
+        "nomexKevlarAntiStatic": 0,
+        "nomexParaAramidP140": 0,
+        "pbiKevlarAntistatic": 0,
+        "lenzingFRAramid": 0,
+        "paraAramidSolidPolymerCoating": 0,
+        "frRayonParaAramidPolyamideAntistatic": 0,
+        "MAC": 0
+      }
+    }
   }
 ]

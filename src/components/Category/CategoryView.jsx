@@ -31,7 +31,7 @@ export default function CategoryView({
     products,
     // filter state
     search,
-    selectedSubcats = [], setSelectedSubcats = () => {},
+    selectedSubcats = [], setSelectedSubcats = () => { },
     selectedTypes, setSelectedTypes,
     selectedColors, setSelectedColors,
     selectedDensities, setSelectedDensities,
@@ -406,7 +406,7 @@ export default function CategoryView({
 
                 {/* SEO Text Section */}
                 {TextComp && (
-                    <div className="seo-text-section" style={{ marginTop: '3rem', paddingTop: '2rem', borderTop: '1px solid #e5e7eb', color: '#6b7280', fontSize: '0.875rem' }}>
+                    <div className="seo-text-section" style={{ marginTop: '3rem', paddingTop: '2rem', borderTop: '1px solid #e5e7eb', color: '#333333', fontSize: '0.875rem' }}>
                         <TextComp />
                     </div>
                 )}

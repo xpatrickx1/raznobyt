@@ -424,7 +424,7 @@
     },
     "isNew": false,
     "images": [
-      "http://catalog.raznobyt.com/images/products/6527/main/NAVY.jpg"
+      "http://catalog.raznobyt.com/images/products/6527EN/main/PEACOCK.jpg"
     ],
     "description": {
       "ua": "60% бавовна, 40% поліестер  330г/м.кв ",
@@ -436,8 +436,8 @@
       "width": "150",
       "colors": [
         {
-          "color": "NAVY",
-          "image": "http://catalog.raznobyt.com/images/products/6527/main/NAVY.jpg",
+          "color": "PEACOCK",
+          "image": "http://catalog.raznobyt.com/images/products/6527EN/main/PEACOCK.jpg",
           "isMain": true
         }
       ],

@@ -1,7 +1,11 @@
+import { firefighterItems } from './fireHighlights.js';
+import CategoryHighlight from '../CategoryHighlight';
+import { useLang } from '../../i18n/LangContext';
+
 const FireText = () => {
     return (
         <div className="seo-category-text">
-            <h2>Пожежники, рятувальники, працівники МНС</h2>
+            <h2>Пожежники, рятувальники, працівники ДСНС</h2>
 
             <p>
                 TenCate Protect заслуговують на репутацію найнадійнішого виробника серед
@@ -72,6 +76,9 @@ const FireText = () => {
                     </p>
                 </li>
             </ul>
+            <CategoryHighlight
+                items={firefighterItems}
+            />
         </div>
     );
 };

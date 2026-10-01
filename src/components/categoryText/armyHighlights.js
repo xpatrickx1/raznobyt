@@ -1,5 +1,4 @@
 
-// data/armyHighlights.js  (або прямо в сторінці категорії)
 
 export const armyIntroUa = [
   'Коли солдати або спецназівці наражаються на небезпеку вибуху і горіння палива, різниця між життям та смертю може вимірюватися в секундах. Завдяки запатентованій суміші волокон, включаючи Lenzing® FR, унікальній тепло- і вогнестійкій властивості, TenCate Defender™ M забезпечує військовому ці дорогоцінні додаткові секунди захисту.',
@@ -17,11 +16,10 @@ export const armyItems = [
   {
     id: 'tecashield-kr610',
     title: 'TenCate Tecashield® — KR 610 (Arashield™)',
-    image: '/images/categories/army/tecashield.jpg', // підстав свої фото
-    slug: 'kr-610-army', // або реальний slug з products.json
+    image: '/images/catimg/army/tecashield.jpg',
+    slug: 'kr-610-army',
     features: {
       ua: [
-        'Найкращий захист для колін, ліктів та плечей',
         'Параарамід з високим вмістом твердого полімерного покриття',
         'Вага: 544 г/м²',
         'Легше і міцніше за інші армуючі матеріали',
@@ -30,7 +28,6 @@ export const armyItems = [
         'Постійно вогнетривка',
       ],
       ru: [
-        'Лучшая защита для колен, локтей и плеч',
         'Параарамид с высоким содержанием твёрдого полимерного покрытия',
         'Вес: 544 г/м²',
         'Легче и прочнее других армирующих материалов',
@@ -43,11 +40,10 @@ export const armyItems = [
   {
     id: 'defender-dm9180',
     title: 'TenCate Defender™ M DM 9180',
-    image: '/images/categories/army/dm9180.jpg',
+    image: '/images/catimg/army/dm9180.jpg',
     slug: 'dm-9180-army',
     features: {
       ua: [
-        'Найкраща тканина у світі для військових та поліції',
         'Вага 280 г/м²',
         '59/29/10/2% Lenzing® FR / арамід / поліамід / Static-Control™',
         'ePTFE/PU бікомпонентна мембрана + вогнестійка трикотажна підкладка',
@@ -58,7 +54,6 @@ export const armyItems = [
         'Дуже міцна',
       ],
       ru: [
-        'Лучшая ткань в мире для военных и полиции',
         'Вес 280 г/м²',
         '59/29/10/2% Lenzing® FR / арамид / полиамид / Static-Control™',
         'ePTFE/PU бикомпонентная мембрана + огнестойкая трикотажная подкладка',
@@ -74,7 +69,7 @@ export const armyItems = [
     id: 'cotton-poly',
     title: 'Бавовна–поліестр',
     titleRu: 'Хлопок–полиэстер',
-    image: '/images/categories/army/cotton-poly.jpg',
+    image: '/images/catimg/army/cotton-poly.jpg',
     slug: 'cotton-poly-army',
     features: {
       ua: [
@@ -98,11 +93,10 @@ export const armyItems = [
   {
     id: 'defender-dm9210',
     title: 'TenCate Defender™ M DM 9210',
-    image: '/images/categories/army/dm9210.jpg',
+    image: '/images/catimg/army/dm9210.jpg',
     slug: 'dm-9210-army',
     features: {
       ua: [
-        'Найкраща тканина у світі для військових та поліції',
         'Камуфляж та однокольоровий',
         'Легка: 210 г/м² — 64/24/10/2% Lenzing® FR / параарамід / поліамід / Static-Control™',
         'Ідеальний захист від спалахів полумʼя',
@@ -111,7 +105,6 @@ export const armyItems = [
         'Запатентована технологія TenCate',
       ],
       ru: [
-        'Лучшая ткань в мире для военных и полиции',
         'Камуфляж и однотонный',
         'Лёгкая: 210 г/м² — 64/24/10/2% Lenzing® FR / параарамид / полиамид / Static-Control™',
         'Идеальная защита от вспышек пламени',
@@ -124,11 +117,10 @@ export const armyItems = [
   {
     id: 'defender-dp9190',
     title: 'TenCate Defender™ M DP 9190',
-    image: '/images/categories/army/dp9190.jpg',
+    image: '/images/catimg/army/dp9190.jpg',
     slug: 'dp-9190-army',
     features: {
       ua: [
-        'Найкраща тканина у світі для військових та поліції',
         'Видатний захист і комфорт — ще легше, з тривалим терміном зносу',
         'Легка: 190 г/м²',
         'Найкращий захист від опіків тіла',
@@ -138,7 +130,6 @@ export const armyItems = [
         'Камуфляж та однокольорові',
       ],
       ru: [
-        'Лучшая ткань в мире для военных и полиции',
         'Выдающаяся защита и комфорт — ещё легче, с длительным сроком износа',
         'Лёгкая: 190 г/м²',
         'Лучшая защита от ожогов тела',
@@ -152,11 +143,10 @@ export const armyItems = [
   {
     id: 'defender-dp9210',
     title: 'TenCate Defender™ M DP 9210',
-    image: '/images/categories/army/dp9210.jpg',
+    image: '/images/catimg/army/dp9210.jpg',
     slug: 'dp-9210-army',
     features: {
       ua: [
-        'Найкраща тканина у світі для військових та поліції',
         'Легка: 210 г/м² — 59/29/10/2% Lenzing® FR / арамід / поліамід / Static-Control™',
         'Захист від спалахів полумʼя',
         'Дуже зручна, прохолодна і дихаюча завдяки Lenzing® FR',
@@ -164,7 +154,6 @@ export const armyItems = [
         'Додатково: міцна бензовідштовхувальна обробка',
       ],
       ru: [
-        'Лучшая ткань в мире для военных и полиции',
         'Лёгкая: 210 г/м² — 59/29/10/2% Lenzing® FR / арамид / полиамид / Static-Control™',
         'Защита от вспышек пламени',
         'Очень удобная, прохладная и дышащая благодаря Lenzing® FR',

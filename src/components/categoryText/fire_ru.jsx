@@ -1,7 +1,12 @@
+import { firefighterItems } from './fireHighlights.js';
+import CategoryHighlight from '../CategoryHighlight';
+import { useLang } from '../../i18n/LangContext';
+
 const FireTextRu = () => {
+    const { lang } = useLang();
     return (
         <div className="seo-category-text">
-            <h2>Пожарные, спасатели, работники МЧС</h2>
+            <h2>Пожарные, спасатели, работники ДСЧС</h2>
 
             <p>
                 TenCate Protect заслуживают репутацию самого надежного производителя
@@ -73,6 +78,9 @@ const FireTextRu = () => {
                     </p>
                 </li>
             </ul>
+            <CategoryHighlight
+                items={firefighterItems}
+            />
         </div>
     );
 };

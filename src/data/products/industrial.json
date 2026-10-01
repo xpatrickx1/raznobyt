@@ -1084,5 +1084,48 @@
         "MAC": 0
       }
     }
+  },
+  {
+    "id": "tkan-industrial-",
+    "category": "industrial",
+    "slug": "tkan-industrial-",
+    "title": {
+      "ua": "Наколінник",
+      "ru": "Наколінник"
+    },
+    "isNew": false,
+    "images": [],
+    "description": {
+      "ua": "Підсилювач зони коліна на робочі штани. 100% поліамід. Вогнестійка обробка. Довжина 48 см, ширина 15 см.",
+      "ru": "Усилитель зоны колена на рабочие брюки. 100% полиамид. Огнестойкая оброботка. Длина 48 см, ширина 15 см."
+    },
+    "attributes": {
+      "fabricType": "",
+      "density": "",
+      "width": null,
+      "colors": [],
+      "properties": [],
+      "composition": {
+        "cotton": 0,
+        "polyester": 0,
+        "spandex": 0,
+        "rayon": 0,
+        "viscose": 0,
+        "pbt": 0,
+        "lyon": 0,
+        "polyamidePA": 100,
+        "polypropylenePP": 0,
+        "paraAramid": 0,
+        "antistatic": 0,
+        "modacrylicLyocellStaticControl": 0,
+        "nomexKevlarAntiStatic": 0,
+        "nomexParaAramidP140": 0,
+        "pbiKevlarAntistatic": 0,
+        "lenzingFRAramid": 0,
+        "paraAramidSolidPolymerCoating": 0,
+        "frRayonParaAramidPolyamideAntistatic": 0,
+        "MAC": 0
+      }
+    }
   }
 ]

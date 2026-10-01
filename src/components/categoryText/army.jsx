@@ -45,9 +45,9 @@ const ArmyText = () => {
                 оперативних форм, вибір ясний - TenCate Defender™ М!
             </p>
             <CategoryHighlight
-                eyebrow={lang === 'ua' ? 'Захисні тканини' : 'Защитные ткани'}
-                title={lang === 'ua' ? 'Армія та поліція' : 'Армия и полиция'}
-                intro={lang === 'ua' ? armyIntroUa : armyIntroRu}
+                // eyebrow={lang === 'ua' ? 'Захисні тканини' : 'Защитные ткани'}
+                // title={lang === 'ua' ? 'Армія та поліція' : 'Армия и полиция'}
+                // intro={lang === 'ua' ? armyIntroUa : armyIntroRu}
                 items={armyItems}
             />
         </div>

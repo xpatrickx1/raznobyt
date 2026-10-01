@@ -9,7 +9,7 @@ export const COMPOSITION_OPTIONS = [
     { id: 'polyamide', label: 'Поліамід', labelRu: 'Полиамид' },
     { id: 'polypropylene', label: 'Поліпропілен', labelRu: 'Полипропилен' },
     { id: 'paraAramid', label: 'Пара-арамід', labelRu: 'Пара-арамид' },
-    { id: 'antistatic', label: 'Антистатичний', labelRu: 'Антистатический' },
+    { id: 'antistatic', label: 'Static-Control™', labelRu: 'Static-Control™' },
     { id: 'Modacrylic/Lyocell/Static-Control™', label: 'Модакрил/Ліоцел/Static-Control™', labelRu: 'Модакрил/Лиоцелл/Static-Control™' },
     { id: 'Nomex®/Kevlar®/Anti-Static', label: 'Nomex®/Kevlar®/Anti-Static', labelRu: 'Nomex®/Kevlar®/Anti-Static' },
     { id: 'Nomex®/Para-Aramid/p140', label: 'Nomex®/Para-Aramid/p140', labelRu: 'Nomex®/Para-Aramid/p140' },
