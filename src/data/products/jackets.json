@@ -424,7 +424,7 @@
     },
     "isNew": false,
     "images": [
-      "http://catalog.raznobyt.com/images/products/6527EN/main/PEACOCK.jpg"
+      "http://catalog.raznobyt.com/images/products/6527/main/NAVY.jpg"
     ],
     "description": {
       "ua": "60% бавовна, 40% поліестер  330г/м.кв ",
@@ -436,8 +436,8 @@
       "width": "150",
       "colors": [
         {
-          "color": "PEACOCK",
-          "image": "http://catalog.raznobyt.com/images/products/6527EN/main/PEACOCK.jpg",
+          "color": "NAVY",
+          "image": "http://catalog.raznobyt.com/images/products/6527/main/NAVY.jpg",
           "isMain": true
         }
       ],
@@ -474,7 +474,9 @@
       "ru": "6527EN"
     },
     "isNew": false,
-    "images": [],
+    "images": [
+      "http://catalog.raznobyt.com/images/products/6527EN/main/PEACOCK.jpg"
+    ],
     "description": {
       "ua": "60% бавовна, 40% поліестер  330г/м.кв ",
       "ru": "60% хлопок, 40% полиестер  330г/м.кв "
@@ -483,7 +485,13 @@
       "fabricType": "канвас",
       "density": "330",
       "width": "150",
-      "colors": [],
+      "colors": [
+        {
+          "color": "PEACOCK",
+          "image": "http://catalog.raznobyt.com/images/products/6527EN/main/PEACOCK.jpg",
+          "isMain": true
+        }
+      ],
       "properties": [],
       "composition": {
         "cotton": 60,

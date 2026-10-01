@@ -2094,7 +2094,7 @@
     },
     "isNew": false,
     "images": [
-      "http://catalog.raznobyt.com/images/products/TR S-48/740 DEEP PURPLE.jpg",
+      "http://catalog.raznobyt.com/images/products/TR S-48/main/740 DEEP PURPLE.jpg",
       "http://catalog.raznobyt.com/images/products/TRS-48/757 NAVY.jpg",
       "http://catalog.raznobyt.com/images/products/TRS-48/794 BLACK.jpg",
       "http://catalog.raznobyt.com/images/products/TRS-48/789 PILOT GREY.jpg",
@@ -2126,7 +2126,7 @@
       "colors": [
         {
           "color": "740 DEEP PURPLE",
-          "image": "http://catalog.raznobyt.com/images/products/TR S-48/740 DEEP PURPLE.jpg",
+          "image": "http://catalog.raznobyt.com/images/products/TR S-48/main/740 DEEP PURPLE.jpg",
           "isMain": true
         },
         {
@@ -2418,7 +2418,9 @@
       "ru": "9129"
     },
     "isNew": false,
-    "images": [],
+    "images": [
+      "http://catalog.raznobyt.com/images/products/9129/NAVY.jpg"
+    ],
     "description": {
       "ua": "Вогнетривка тканина саржевого переплетення. Склад: 42% бавовна, 6% поліестр, 52% MAC. Щільність 290 г/м². FR - вогнетривка.",
       "ru": "Огнестойкая ткань саржевого переплетения. Состав: 42% хлопок, 6% полиэстер, 52% MAC. Плотность 290 г/м². FR - огнестойкая."
@@ -2427,7 +2429,13 @@
       "fabricType": "twill",
       "density": "290",
       "width": "150",
-      "colors": [],
+      "colors": [
+        {
+          "color": "NAVY",
+          "image": "http://catalog.raznobyt.com/images/products/9129/NAVY.jpg",
+          "isMain": true
+        }
+      ],
       "properties": [],
       "composition": {
         "cotton": 42,
@@ -2815,7 +2823,9 @@
       "ru": "VVT-2164"
     },
     "isNew": false,
-    "images": [],
+    "images": [
+      "http://catalog.raznobyt.com/images/products/VVT-2164/main/BLACK.jpg"
+    ],
     "description": {
       "ua": "Змішана тканина саржевого переплетення. Склад: 60% бавовна, 40% поліестр. Антистатична нитка. МВВ - масловодовідштовхувальна. Щільність 210 г/м².",
       "ru": "Смесовая ткань саржевого переплетения. Состав: 60% хлопок, 40% полиэстер. Антистатическая нитка. МВО - масловодоотталкивающая.  Плотность 210 г/м²."
@@ -2824,7 +2834,13 @@
       "fabricType": "twill",
       "density": "210",
       "width": "150",
-      "colors": [],
+      "colors": [
+        {
+          "color": "BLACK",
+          "image": "http://catalog.raznobyt.com/images/products/VVT-2164/main/BLACK.jpg",
+          "isMain": true
+        }
+      ],
       "properties": [],
       "composition": {
         "cotton": 60,
@@ -2909,7 +2925,9 @@
       "ru": "NNT-1152"
     },
     "isNew": false,
-    "images": [],
+    "images": [
+      "http://catalog.raznobyt.com/images/products/NNT-1152/main/RED.jpg"
+    ],
     "description": {
       "ua": "Змішана тканина саржевого переплетення. Склад: 80% бавовна, 20% поліестр. Антистатична нитка. МВВ - масловодовідштовхувальна. Щільність 255 г/м².",
       "ru": "Смесовая ткань саржевого переплетения. Состав: 80% хлопок, 20% полиэстер. Антистатическая нитка. МВО - масловодоотталкивающая.  Плотность 255 г/м²."
@@ -2918,7 +2936,13 @@
       "fabricType": "twill",
       "density": "255",
       "width": "150",
-      "colors": [],
+      "colors": [
+        {
+          "color": "RED",
+          "image": "http://catalog.raznobyt.com/images/products/NNT-1152/main/RED.jpg",
+          "isMain": true
+        }
+      ],
       "properties": [],
       "composition": {
         "cotton": 80,
