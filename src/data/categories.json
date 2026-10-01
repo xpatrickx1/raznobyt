@@ -194,5 +194,19 @@
     },
     "icon": "/images/icons/fleece.svg",
     "image": "/images/categories/fleece.png"
+  },
+  {
+    "id": "cordura",
+    "slug": "cordura",
+    "title": {
+      "ua": "Кордура",
+      "ru": "Кордура"
+    },
+    "description": {
+      "ua": "Якісні кордурові тканини для верхнього одягу та суконь",
+      "ru": "Качественные кордуровые ткани для верхней одежды и платьев"
+    },
+    "icon": "/images/icons/cordura.svg",
+    "image": "/images/categories/cordura.png"
   }
 ]

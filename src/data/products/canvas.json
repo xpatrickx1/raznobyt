@@ -1,0 +1,319 @@
+[
+  {
+    "id": "tkan-canvas-9060",
+    "category": "canvas",
+    "slug": "tkan-canvas-9060",
+    "title": {
+      "ua": "9060",
+      "ru": "9060"
+    },
+    "isNew": false,
+    "images": [],
+    "description": {
+      "ua": "100% бавовна,  250г/м.кв,  канвас,  150см",
+      "ru": "100% хлопок,  250г/м.кв,  канвас,  150см"
+    },
+    "attributes": {
+      "fabricType": "канвас",
+      "density": "250",
+      "width": "150",
+      "colors": [],
+      "properties": [],
+      "composition": {
+        "cotton": 100,
+        "polyester": 0,
+        "spandex": 0,
+        "rayon": 0,
+        "viscose": 0,
+        "pbt": 0,
+        "lyon": 0,
+        "polyamidePA": 0,
+        "polypropylenePP": 0,
+        "paraAramid": 0,
+        "antistatic": 0,
+        "modacrylicLyocellStaticControl": 0,
+        "nomexKevlarAntiStatic": 0,
+        "nomexParaAramidP140": 0,
+        "pbiKevlarAntistatic": 0,
+        "lenzingFRAramid": 0,
+        "paraAramidSolidPolymerCoating": 0,
+        "frRayonParaAramidPolyamideAntistatic": 0,
+        "MAC": 0
+      }
+    }
+  },
+  {
+    "id": "tkan-canvas-canvas",
+    "category": "canvas",
+    "slug": "tkan-canvas-canvas",
+    "title": {
+      "ua": "CANVAS",
+      "ru": "CANVAS"
+    },
+    "isNew": false,
+    "images": [],
+    "description": {
+      "ua": "100% бавовна,  350г/м.кв,  канвас,  150см",
+      "ru": "100% хлопок, 350г/м.кв,  канвас,  150см"
+    },
+    "attributes": {
+      "fabricType": "канвас",
+      "density": "350",
+      "width": "150",
+      "colors": [],
+      "properties": [],
+      "composition": {
+        "cotton": 100,
+        "polyester": 0,
+        "spandex": 0,
+        "rayon": 0,
+        "viscose": 0,
+        "pbt": 0,
+        "lyon": 0,
+        "polyamidePA": 0,
+        "polypropylenePP": 0,
+        "paraAramid": 0,
+        "antistatic": 0,
+        "modacrylicLyocellStaticControl": 0,
+        "nomexKevlarAntiStatic": 0,
+        "nomexParaAramidP140": 0,
+        "pbiKevlarAntistatic": 0,
+        "lenzingFRAramid": 0,
+        "paraAramidSolidPolymerCoating": 0,
+        "frRayonParaAramidPolyamideAntistatic": 0,
+        "MAC": 0
+      }
+    }
+  },
+  {
+    "id": "tkan-canvas-22001",
+    "category": "canvas",
+    "slug": "tkan-canvas-22001",
+    "title": {
+      "ua": "22001",
+      "ru": "22001"
+    },
+    "isNew": false,
+    "images": [],
+    "description": {
+      "ua": "65% бавовна, 35% поліестер  300г/м.кв",
+      "ru": "65% хлопок, 35% поиіестер  300г/м.кв"
+    },
+    "attributes": {
+      "fabricType": "канвас",
+      "density": "300",
+      "width": "150",
+      "colors": [],
+      "properties": [],
+      "composition": {
+        "cotton": 65,
+        "polyester": 35,
+        "spandex": 0,
+        "rayon": 0,
+        "viscose": 0,
+        "pbt": 0,
+        "lyon": 0,
+        "polyamidePA": 0,
+        "polypropylenePP": 0,
+        "paraAramid": 0,
+        "antistatic": 0,
+        "modacrylicLyocellStaticControl": 0,
+        "nomexKevlarAntiStatic": 0,
+        "nomexParaAramidP140": 0,
+        "pbiKevlarAntistatic": 0,
+        "lenzingFRAramid": 0,
+        "paraAramidSolidPolymerCoating": 0,
+        "frRayonParaAramidPolyamideAntistatic": 0,
+        "MAC": 0
+      }
+    }
+  },
+  {
+    "id": "tkan-canvas-6509",
+    "category": "canvas",
+    "slug": "tkan-canvas-6509",
+    "title": {
+      "ua": "6509",
+      "ru": "6509"
+    },
+    "isNew": false,
+    "images": [],
+    "description": {
+      "ua": "60% бавовна, 40% поліестер  330г/м.кв ",
+      "ru": "60% хлопок, 40% полиестер  330г/м.кв "
+    },
+    "attributes": {
+      "fabricType": "канвас",
+      "density": "330",
+      "width": "150",
+      "colors": [],
+      "properties": [],
+      "composition": {
+        "cotton": 60,
+        "polyester": 40,
+        "spandex": 0,
+        "rayon": 0,
+        "viscose": 0,
+        "pbt": 0,
+        "lyon": 0,
+        "polyamidePA": 0,
+        "polypropylenePP": 0,
+        "paraAramid": 0,
+        "antistatic": 0,
+        "modacrylicLyocellStaticControl": 0,
+        "nomexKevlarAntiStatic": 0,
+        "nomexParaAramidP140": 0,
+        "pbiKevlarAntistatic": 0,
+        "lenzingFRAramid": 0,
+        "paraAramidSolidPolymerCoating": 0,
+        "frRayonParaAramidPolyamideAntistatic": 0,
+        "MAC": 0
+      }
+    }
+  },
+  {
+    "id": "tkan-canvas-6527",
+    "category": "canvas",
+    "slug": "tkan-canvas-6527",
+    "title": {
+      "ua": "6527",
+      "ru": "6527"
+    },
+    "isNew": false,
+    "images": [
+      "http://catalog.raznobyt.com/images/products/6527/main/NAVY.jpg"
+    ],
+    "description": {
+      "ua": "60% бавовна, 40% поліестер  330г/м.кв ",
+      "ru": "60% хлопок, 40% полиестер  330г/м.кв "
+    },
+    "attributes": {
+      "fabricType": "канвас",
+      "density": "330",
+      "width": "150",
+      "colors": [
+        {
+          "color": "NAVY",
+          "image": "http://catalog.raznobyt.com/images/products/6527/main/NAVY.jpg",
+          "isMain": true
+        }
+      ],
+      "properties": [],
+      "composition": {
+        "cotton": 60,
+        "polyester": 40,
+        "spandex": 0,
+        "rayon": 0,
+        "viscose": 0,
+        "pbt": 0,
+        "lyon": 0,
+        "polyamidePA": 0,
+        "polypropylenePP": 0,
+        "paraAramid": 0,
+        "antistatic": 0,
+        "modacrylicLyocellStaticControl": 0,
+        "nomexKevlarAntiStatic": 0,
+        "nomexParaAramidP140": 0,
+        "pbiKevlarAntistatic": 0,
+        "lenzingFRAramid": 0,
+        "paraAramidSolidPolymerCoating": 0,
+        "frRayonParaAramidPolyamideAntistatic": 0,
+        "MAC": 0
+      }
+    }
+  },
+  {
+    "id": "tkan-canvas-6527en",
+    "category": "canvas",
+    "slug": "tkan-canvas-6527en",
+    "title": {
+      "ua": "6527EN",
+      "ru": "6527EN"
+    },
+    "isNew": false,
+    "images": [
+      "http://catalog.raznobyt.com/images/products/6527EN/main/PEACOCK.jpg"
+    ],
+    "description": {
+      "ua": "60% бавовна, 40% поліестер  330г/м.кв ",
+      "ru": "60% хлопок, 40% полиестер  330г/м.кв "
+    },
+    "attributes": {
+      "fabricType": "канвас",
+      "density": "330",
+      "width": "150",
+      "colors": [
+        {
+          "color": "PEACOCK",
+          "image": "http://catalog.raznobyt.com/images/products/6527EN/main/PEACOCK.jpg",
+          "isMain": true
+        }
+      ],
+      "properties": [],
+      "composition": {
+        "cotton": 60,
+        "polyester": 40,
+        "spandex": 0,
+        "rayon": 0,
+        "viscose": 0,
+        "pbt": 0,
+        "lyon": 0,
+        "polyamidePA": 0,
+        "polypropylenePP": 0,
+        "paraAramid": 0,
+        "antistatic": 0,
+        "modacrylicLyocellStaticControl": 0,
+        "nomexKevlarAntiStatic": 0,
+        "nomexParaAramidP140": 0,
+        "pbiKevlarAntistatic": 0,
+        "lenzingFRAramid": 0,
+        "paraAramidSolidPolymerCoating": 0,
+        "frRayonParaAramidPolyamideAntistatic": 0,
+        "MAC": 0
+      }
+    }
+  },
+  {
+    "id": "tkan-canvas-kg-245",
+    "category": "canvas",
+    "slug": "tkan-canvas-kg-245",
+    "title": {
+      "ua": "KG 245",
+      "ru": "KG 245"
+    },
+    "isNew": false,
+    "images": [],
+    "description": {
+      "ua": "35% бавовна, 65% поліестр  245г/м.кв",
+      "ru": "35% хлопок, 65% полиестр  245г/м.кв"
+    },
+    "attributes": {
+      "fabricType": "канвас, панама",
+      "density": "245",
+      "width": "150",
+      "colors": [],
+      "properties": [],
+      "composition": {
+        "cotton": 35,
+        "polyester": 65,
+        "spandex": 0,
+        "rayon": 0,
+        "viscose": 0,
+        "pbt": 0,
+        "lyon": 0,
+        "polyamidePA": 0,
+        "polypropylenePP": 0,
+        "paraAramid": 0,
+        "antistatic": 0,
+        "modacrylicLyocellStaticControl": 0,
+        "nomexKevlarAntiStatic": 0,
+        "nomexParaAramidP140": 0,
+        "pbiKevlarAntistatic": 0,
+        "lenzingFRAramid": 0,
+        "paraAramidSolidPolymerCoating": 0,
+        "frRayonParaAramidPolyamideAntistatic": 0,
+        "MAC": 0
+      }
+    }
+  }
+]

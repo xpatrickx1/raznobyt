@@ -17,6 +17,8 @@ const CATEGORYES = [
   'linen',
   'jeans',
   'fleece',
+  'canvas',
+  'cordura'
 ];
 
 const fetchSheet = async (sheetName) => {

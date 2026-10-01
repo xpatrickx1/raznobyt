@@ -1,0 +1,53 @@
+[
+  {
+    "id": "tkan-cordura-seafild-technical",
+    "category": "cordura",
+    "slug": "tkan-cordura-seafild-technical",
+    "title": {
+      "ua": "Seafild Technical",
+      "ru": "Seafild Technical"
+    },
+    "isNew": false,
+    "images": [
+      "http://catalog.raznobyt.com/images/products/Seafild Technical/main/BLUE.jpg"
+    ],
+    "description": {
+      "ua": "CORDURA  МВО масловодовідштовхуюча, 100% поліестер, 335 гр/м.кв.",
+      "ru": "CORDURA  МВО масловодоотталкивающая, 100% полиэстер, 335 гр/м.кв."
+    },
+    "attributes": {
+      "fabricType": "кордура",
+      "density": "335",
+      "width": null,
+      "colors": [
+        {
+          "color": "BLUE",
+          "image": "http://catalog.raznobyt.com/images/products/Seafild Technical/main/BLUE.jpg",
+          "isMain": true
+        }
+      ],
+      "properties": [],
+      "composition": {
+        "cotton": 0,
+        "polyester": 100,
+        "spandex": 0,
+        "rayon": 0,
+        "viscose": 0,
+        "pbt": 0,
+        "lyon": 0,
+        "polyamidePA": 0,
+        "polypropylenePP": 0,
+        "paraAramid": 0,
+        "antistatic": 0,
+        "modacrylicLyocellStaticControl": 0,
+        "nomexKevlarAntiStatic": 0,
+        "nomexParaAramidP140": 0,
+        "pbiKevlarAntistatic": 0,
+        "lenzingFRAramid": 0,
+        "paraAramidSolidPolymerCoating": 0,
+        "frRayonParaAramidPolyamideAntistatic": 0,
+        "MAC": 0
+      }
+    }
+  }
+]
