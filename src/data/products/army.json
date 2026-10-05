@@ -9,8 +9,13 @@
     },
     "isNew": false,
     "images": [],
+    "videos": [
+      "http://catalog.raznobyt.com/images/products/Defender® M DM 9210/video/TenCate1-Defender-M.mp4",
+      "http://catalog.raznobyt.com/images/products/Defender® M DM 9210/video/Defender1.mp4",
+      "http://catalog.raznobyt.com/images/products/Defender® M DM 9210/video/tencate-defender-m.mp4"
+    ],
     "description": {
-      "ua": " ",
+      "ua": "Високоякісна вогнестійка та антистатична тканина з масловодовідштовхувальним просоченням (МВО). Склад: FR Rayon/пара-арамід/поліамід/антистатик. Щільність 210 г/м2. Забезпечує надійний захист від термічних ризиків та статичної електрики.",
       "ru": "Высококачественная огнестойкая и антистатическая ткань с масловодоотталкивающей пропиткой (МВО). Состав: FR Rayon/пара-арамид/полиамид/антистатик. Плотность 210 г/м². Обеспечивает надежную защиту от термических рисков и статического электричества."
     },
     "attributes": {
@@ -27,17 +32,17 @@
         "viscose": 0,
         "pbt": 0,
         "lyon": 0,
-        "polyamidePA": 0,
-        "polypropylenePP": 0,
-        "paraAramid": 0,
+        "polyamide PA": 0,
+        "polypropylene PP": 0,
+        "para aramid": 0,
         "antistatic": 0,
-        "modacrylicLyocellStaticControl": 0,
-        "nomexKevlarAntiStatic": 0,
-        "nomexParaAramidP140": 0,
-        "pbiKevlarAntistatic": 0,
-        "lenzingFRAramid": 0,
-        "paraAramidSolidPolymerCoating": 0,
-        "frRayonParaAramidPolyamideAntistatic": 1,
+        "Modacrylic/Lyocell/Static-Control™": 0,
+        "Nomex®/Kevlar®/Anti-Static": 0,
+        "Nomex®/Para-Aramid/p140": 0,
+        "PBI®/Kevlar®/Antistatic": 0,
+        "Lenzing FR®/Aramid": 0,
+        "Para-aramid/Solid polymer coating": 0,
+        "FR Rayon/пара-арамід/поліамід/антистатик": 1,
         "MAC": 0
       }
     }
@@ -52,6 +57,11 @@
     },
     "isNew": false,
     "images": [],
+    "videos": [
+      "http://catalog.raznobyt.com/images/products/Defender® M DM 9210/video/TenCate1-Defender-M.mp4",
+      "http://catalog.raznobyt.com/images/products/Defender® M DM 9210/video/Defender1.mp4",
+      "http://catalog.raznobyt.com/images/products/Defender® M DM 9210/video/tencate-defender-m.mp4"
+    ],
     "description": {
       "ua": "Високоякісна вогнестійка та антистатична тканина з масловодовідштовхувальним просоченням (МВО). Склад: FR Rayon/пара-арамід/поліамід/антистатик. Щільність 210 г/м². Забезпечує надійний захист від термічних ризиків та статичної електрики.",
       "ru": "Высококачественная огнестойкая и антистатическая ткань с масловодоотталкивающей пропиткой (МВО). Состав: FR Rayon/пара-арамид/полиамид/антистатик. Плотность 210 г/м². Обеспечивает надежную защиту от термических рисков и статического электричества."
@@ -70,17 +80,17 @@
         "viscose": 0,
         "pbt": 0,
         "lyon": 0,
-        "polyamidePA": 0,
-        "polypropylenePP": 0,
-        "paraAramid": 0,
+        "polyamide PA": 0,
+        "polypropylene PP": 0,
+        "para aramid": 0,
         "antistatic": 0,
-        "modacrylicLyocellStaticControl": 0,
-        "nomexKevlarAntiStatic": 0,
-        "nomexParaAramidP140": 0,
-        "pbiKevlarAntistatic": 0,
-        "lenzingFRAramid": 0,
-        "paraAramidSolidPolymerCoating": 0,
-        "frRayonParaAramidPolyamideAntistatic": 1,
+        "Modacrylic/Lyocell/Static-Control™": 0,
+        "Nomex®/Kevlar®/Anti-Static": 0,
+        "Nomex®/Para-Aramid/p140": 0,
+        "PBI®/Kevlar®/Antistatic": 0,
+        "Lenzing FR®/Aramid": 0,
+        "Para-aramid/Solid polymer coating": 0,
+        "FR Rayon/пара-арамід/поліамід/антистатик": 1,
         "MAC": 0
       }
     }
@@ -113,17 +123,17 @@
         "viscose": 0,
         "pbt": 0,
         "lyon": 0,
-        "polyamidePA": 0,
-        "polypropylenePP": 0,
-        "paraAramid": 0,
+        "polyamide PA": 0,
+        "polypropylene PP": 0,
+        "para aramid": 0,
         "antistatic": 0,
-        "modacrylicLyocellStaticControl": 0,
-        "nomexKevlarAntiStatic": 0,
-        "nomexParaAramidP140": 0,
-        "pbiKevlarAntistatic": 0,
-        "lenzingFRAramid": 0,
-        "paraAramidSolidPolymerCoating": 0,
-        "frRayonParaAramidPolyamideAntistatic": 0,
+        "Modacrylic/Lyocell/Static-Control™": 0,
+        "Nomex®/Kevlar®/Anti-Static": 0,
+        "Nomex®/Para-Aramid/p140": 0,
+        "PBI®/Kevlar®/Antistatic": 0,
+        "Lenzing FR®/Aramid": 0,
+        "Para-aramid/Solid polymer coating": 0,
+        "FR Rayon/пара-арамід/поліамід/антистатик": 0,
         "MAC": 0
       }
     }
@@ -212,17 +222,17 @@
         "viscose": 0,
         "pbt": 0,
         "lyon": 0,
-        "polyamidePA": 0,
-        "polypropylenePP": 0,
-        "paraAramid": 0,
+        "polyamide PA": 0,
+        "polypropylene PP": 0,
+        "para aramid": 0,
         "antistatic": 0,
-        "modacrylicLyocellStaticControl": 0,
-        "nomexKevlarAntiStatic": 0,
-        "nomexParaAramidP140": 0,
-        "pbiKevlarAntistatic": 0,
-        "lenzingFRAramid": 0,
-        "paraAramidSolidPolymerCoating": 0,
-        "frRayonParaAramidPolyamideAntistatic": 0,
+        "Modacrylic/Lyocell/Static-Control™": 0,
+        "Nomex®/Kevlar®/Anti-Static": 0,
+        "Nomex®/Para-Aramid/p140": 0,
+        "PBI®/Kevlar®/Antistatic": 0,
+        "Lenzing FR®/Aramid": 0,
+        "Para-aramid/Solid polymer coating": 0,
+        "FR Rayon/пара-арамід/поліамід/антистатик": 0,
         "MAC": 0
       }
     }

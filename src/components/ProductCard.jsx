@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 import { useLang } from '../i18n/LangContext';
 import categories from '../data/categories.json';
 import placeholder from '../assets/images/placeholder.svg';
-import { getProductImage, COLOR_MAP } from '../assets/utils/imageLoader.js';
+import { getProductImage } from '../assets/utils/imageLoader.js';
 import { formatComposition, getCompositionParts } from '../data/compositions.js';
 import SampleOrderModal from './SampleOrderModal';
 
@@ -17,6 +17,14 @@ export default function ProductCard({ product }) {
   const imageToLoad = product?.images?.[0]?.trim() || null;
   const imageUrl = imageToLoad ? getProductImage(imageToLoad) : null;
 
+  const colors = product.attributes?.colors || [];
+  const colorName = (c) => (typeof c === 'string' ? c : (c?.color ?? ''));
+
+  // Показуємо максимум 6 мініатюр, решту — "+N"
+  const MAX_VISIBLE = 6;
+  const visibleColors = colors.slice(0, MAX_VISIBLE);
+  const extraCount = colors.length - MAX_VISIBLE;
+
   const handleOrderClick = (e) => {
     e.preventDefault();
     e.stopPropagation();
@@ -27,7 +35,7 @@ export default function ProductCard({ product }) {
     <>
       <Link to={`/catalog/${catSlug}/${product.slug}/`} className="product-card fade-up">
         <div className="product-card__img-wrap">
-          {product.images.length > 0 ? (
+          {product.images?.length > 0 ? (
             <img
               src={imageUrl}
               alt={product.title[lang]}
@@ -78,41 +86,54 @@ export default function ProductCard({ product }) {
             )}
           </div>
         </div>
+
         <div className="product-card__body">
-          <div className="product-card__header">
-            {cat && <span className="product-card__cat">{cat.title[lang]}</span>}
-            {product.isNew && <span className="product-card__badge-new">NEW</span>}
-          </div>
           <div className="product-card__title">{product.title[lang]}</div>
+
           <div className="product-card__attrs">
-            <div className="product-card__attr-row">
-              {Array.isArray(product.attributes.color) ? (
-                <span style={{ display: 'inline-flex', gap: 4, alignItems: 'center' }}>
-                  {product.attributes.color.map(c => (
-                    <span
-                      key={c}
-                      className="color-dot"
-                      title={t(`colors.${c}`)}
-                      style={{ background: COLOR_MAP[c] || '#ccc' }}
-                    />
-                  ))}
+            {/* Кольори — як у ProductView */}
+            {colors.length > 0 && (
+              <div className="product-card__attr-row product-card__colors">
+                <span className="color-thumbs-row color-thumbs-row--card">
+                  {visibleColors.map((c, idx) =>
+                    c.image ? (
+                      <span
+                        key={idx}
+                        className="color-thumb-wrap color-thumb-wrap--card"
+                        title={colorName(c)}
+                      >
+                        <img
+                          src={getProductImage(c.image)}
+                          alt={colorName(c)}
+                          className="color-thumb-img"
+                          loading="lazy"
+                          onError={(e) => { e.target.src = placeholder; }}
+                        />
+                      </span>
+                    ) : (
+                      <span key={idx} className="color-text-wrap" title={colorName(c)}>
+                        {colorName(c)}
+                        {idx < visibleColors.length - 1 ? ',' : ''}
+                      </span>
+                    )
+                  )}
+                  {extraCount > 0 && (
+                    <span className="color-extra">+{extraCount}</span>
+                  )}
                 </span>
-              ) : (
-                <span
-                  className="color-dot"
-                  style={{ background: COLOR_MAP[product.attributes.color] || '#ccc' }}
-                />
-              )}
-            </div>
-            <div className="product-card__attr-divider"></div>
-            <div className="product-card__attr-row">
-              <span className="attr-text">{t(`fabricTypes.${product.attributes.fabricType}`)}</span>
-            </div>
-            <div className="product-card__attr-divider"></div>
-            <div className="product-card__attr-row">
-              <span className="attr-text">{product.attributes.density}</span>
-            </div>
+              </div>
+            )}
+
+            {product.attributes.density && (
+              <>
+                {colors.length > 0 && <div className="product-card__attr-divider" />}
+                <div className="product-card__attr-row">
+                  <span className="attr-text">{product.attributes.density}</span>
+                </div>
+              </>
+            )}
           </div>
+
           <button
             className="product-card__sample-btn"
             onClick={handleOrderClick}

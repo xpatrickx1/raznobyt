@@ -8,6 +8,7 @@ import { formatComposition } from '../../data/compositions.js';
 import { getProductImage } from '../../assets/utils/imageLoader.js';
 import placeholder from '../../assets/images/placeholder.svg';
 import phoneIcon from '@/assets/images/icons/phone.svg';
+import pdfIcon from '@/assets/images/icons/pdficon.svg';
 
 export default function ProductView({ product, related = [] }) {
     const { lang, t } = useLang();
@@ -149,6 +150,7 @@ export default function ProductView({ product, related = [] }) {
                             </span>
                         )
                     ))}
+
                 </span>
             )
         }] : []),
@@ -314,7 +316,58 @@ export default function ProductView({ product, related = [] }) {
                         </div>
                     </div>
 
-                    {/* Related */}
+                    {/* Videos */}
+                    {product.videos?.length > 0 && (
+                        <div className="product-videos fade-up fade-up-3">
+                            <div className="product-videos__header">
+                                <span className="product-videos__eyebrow">
+                                    {lang === 'ua' ? 'Відео про товар' : 'Видео о товаре'}
+                                </span>
+                            </div>
+                            <div className="product-videos__grid">
+                                {product.videos.map((url, i) => (
+                                    <video
+                                        key={i}
+                                        className="product-video-item"
+                                        controls
+                                        preload="metadata"
+                                        playsInline
+                                        onError={(e) => { e.target.closest('.product-video-item-wrap')?.remove(); }}
+                                    >
+                                        <source src={url} />
+                                    </video>
+                                ))}
+                            </div>
+                        </div>
+                    )}
+
+                    {/* Pdf */}
+                    {product.pdfs?.length > 0 && (
+                        <div className="product-pdfs fade-up fade-up-3">
+                            <div className="product-pdfs__header">
+                                <span className="product-pdfs__eyebrow">
+                                    {lang === 'ua' ? 'PDF про товар' : 'PDF о товаре'}
+                                </span>
+                            </div>
+                            <div className="product-pdfs__grid">
+                                {product.pdfs.map((url, i) => (
+                                    <a
+                                        key={i}
+                                        className="product-pdf-item"
+                                        href={url}
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                    >
+                                        <img src={pdfIcon} alt="PDF" width="48" height="48" loading="lazy" />
+                                        <span className="product-pdf-item__title">
+                                            {lang === 'ua' ? 'Переглянути' : 'Посмотреть'}
+                                        </span>
+                                    </a>
+                                ))}
+                            </div>
+                        </div>
+                    )}
+
                     {related.length > 0 && (
                         <div>
                             <div className="section__header" style={{ textAlign: 'left', marginBottom: 28 }}>

@@ -11,7 +11,10 @@
     "images": [
       "http://catalog.raznobyt.com/images/products/BG 9035/main/BLACK.jpg"
     ],
-    "description": {},
+    "description": {
+      "ua": "Міцна вогнестійка та антистатична тканина з масловодовідштовхувальним просоченням (МВО). Склад: 79% бавовна, 20% поліестр, 1% Static-Control™. Щільність 350 г/м². Підвищена зносостійкість для роботи в складних умовах.",
+      "ru": "Прочная огнестойкая и антистатическая ткань с масловодоотталкивающей пропиткой (МВО). Состав: 79% хлопок, 20% полиэстер, 1% Static-Control™. Плотность 350 г/м². Повышенная износостойкость для работы в сложных условиях."
+    },
     "attributes": {
       "fabricType": "twill",
       "density": "350",
@@ -32,17 +35,17 @@
         "viscose": 0,
         "pbt": 0,
         "lyon": 0,
-        "polyamidePA": 0,
-        "polypropylenePP": 0,
-        "paraAramid": 0,
+        "polyamide PA": 0,
+        "polypropylene PP": 0,
+        "para aramid": 0,
         "antistatic": 1,
-        "modacrylicLyocellStaticControl": 0,
-        "nomexKevlarAntiStatic": 0,
-        "nomexParaAramidP140": 0,
-        "pbiKevlarAntistatic": 0,
-        "lenzingFRAramid": 0,
-        "paraAramidSolidPolymerCoating": 0,
-        "frRayonParaAramidPolyamideAntistatic": 0,
+        "Modacrylic/Lyocell/Static-Control™": 0,
+        "Nomex®/Kevlar®/Anti-Static": 0,
+        "Nomex®/Para-Aramid/p140": 0,
+        "PBI®/Kevlar®/Antistatic": 0,
+        "Lenzing FR®/Aramid": 0,
+        "Para-aramid/Solid polymer coating": 0,
+        "FR Rayon/пара-арамід/поліамід/антистатик": 0,
         "MAC": 0
       }
     }
@@ -62,7 +65,10 @@
       "http://catalog.raznobyt.com/images/products/BG 9045/65576.jpg",
       "http://catalog.raznobyt.com/images/products/BG 9045/66935.jpg"
     ],
-    "description": {},
+    "description": {
+      "ua": "Надзвичайно міцна вогнестійка та антистатична тканина з масловодовідштовхувальним просоченням (МВО). Склад: 79% бавовна, 20% поліестр, 1% Static-Control™. Щільність 450 г/м². Максимальна стійкість до механічних пошкоджень.",
+      "ru": "Чрезвычайно прочная огнестойкая и антистатическая ткань с масловодоотталкивающей пропиткой (МВО). Состав: 79% хлопок, 20% полиэстер, 1% Static-Control™. Плотность 450 г/м². Максимальная устойчивость к механическим повреждениям."
+    },
     "attributes": {
       "fabricType": "twill",
       "density": "450",
@@ -98,17 +104,17 @@
         "viscose": 0,
         "pbt": 0,
         "lyon": 0,
-        "polyamidePA": 0,
-        "polypropylenePP": 0,
-        "paraAramid": 0,
+        "polyamide PA": 0,
+        "polypropylene PP": 0,
+        "para aramid": 0,
         "antistatic": 1,
-        "modacrylicLyocellStaticControl": 0,
-        "nomexKevlarAntiStatic": 0,
-        "nomexParaAramidP140": 0,
-        "pbiKevlarAntistatic": 0,
-        "lenzingFRAramid": 0,
-        "paraAramidSolidPolymerCoating": 0,
-        "frRayonParaAramidPolyamideAntistatic": 0,
+        "Modacrylic/Lyocell/Static-Control™": 0,
+        "Nomex®/Kevlar®/Anti-Static": 0,
+        "Nomex®/Para-Aramid/p140": 0,
+        "PBI®/Kevlar®/Antistatic": 0,
+        "Lenzing FR®/Aramid": 0,
+        "Para-aramid/Solid polymer coating": 0,
+        "FR Rayon/пара-арамід/поліамід/антистатик": 0,
         "MAC": 0
       }
     }
@@ -129,7 +135,10 @@
       "http://catalog.raznobyt.com/images/products/BG 9500/66935.jpg",
       "http://catalog.raznobyt.com/images/products/BG 9500/HV YELLOW.jpg"
     ],
-    "description": {},
+    "description": {
+      "ua": "Вогнестійка та антистатична тканина підвищеної міцності з масловодовідштовхувальним просоченням (МВО). Склад: 64% бавовна, 35% поліестр, 1% Static-Control™. Щільність 350 г/м². Стійкість до стирання та довговічність.",
+      "ru": "Огнестойкая и антистатическая ткань повышенной прочности с масловодоотталкивающей пропиткой (МВО). Состав: 64% хлопок, 35% полиэстер, 1% Static-Control™. Плотность 350 г/м². Устойчивость к истиранию и долговечность."
+    },
     "attributes": {
       "fabricType": "twill",
       "density": "350",
@@ -170,17 +179,17 @@
         "viscose": 0,
         "pbt": 0,
         "lyon": 0,
-        "polyamidePA": 0,
-        "polypropylenePP": 0,
-        "paraAramid": 0,
+        "polyamide PA": 0,
+        "polypropylene PP": 0,
+        "para aramid": 0,
         "antistatic": 1,
-        "modacrylicLyocellStaticControl": 0,
-        "nomexKevlarAntiStatic": 0,
-        "nomexParaAramidP140": 0,
-        "pbiKevlarAntistatic": 0,
-        "lenzingFRAramid": 0,
-        "paraAramidSolidPolymerCoating": 0,
-        "frRayonParaAramidPolyamideAntistatic": 0,
+        "Modacrylic/Lyocell/Static-Control™": 0,
+        "Nomex®/Kevlar®/Anti-Static": 0,
+        "Nomex®/Para-Aramid/p140": 0,
+        "PBI®/Kevlar®/Antistatic": 0,
+        "Lenzing FR®/Aramid": 0,
+        "Para-aramid/Solid polymer coating": 0,
+        "FR Rayon/пара-арамід/поліамід/антистатик": 0,
         "MAC": 0
       }
     }
@@ -197,7 +206,10 @@
     "images": [
       "http://catalog.raznobyt.com/images/products/KS 52/main/47240.jpg"
     ],
-    "description": {},
+    "description": {
+      "ua": "100% бавовняна вогнестійка та антистатична тканина. Щільність 335 г/м². Натуральний матеріал з подвійним захистом — від вогню та статичної електрики. Відмінна повітропроникність та гігроскопічність.",
+      "ru": "100% хлопковая огнестойкая и антистатическая ткань. Плотность 335 г/м². Натуральный материал с двойной защитой — от огня и статического электричества. Отличная воздухопроницаемость и гигроскопичность."
+    },
     "attributes": {
       "fabricType": "twill",
       "density": "335",
@@ -218,17 +230,17 @@
         "viscose": 0,
         "pbt": 0,
         "lyon": 0,
-        "polyamidePA": 0,
-        "polypropylenePP": 0,
-        "paraAramid": 0,
+        "polyamide PA": 0,
+        "polypropylene PP": 0,
+        "para aramid": 0,
         "antistatic": 0,
-        "modacrylicLyocellStaticControl": 0,
-        "nomexKevlarAntiStatic": 0,
-        "nomexParaAramidP140": 0,
-        "pbiKevlarAntistatic": 0,
-        "lenzingFRAramid": 0,
-        "paraAramidSolidPolymerCoating": 0,
-        "frRayonParaAramidPolyamideAntistatic": 0,
+        "Modacrylic/Lyocell/Static-Control™": 0,
+        "Nomex®/Kevlar®/Anti-Static": 0,
+        "Nomex®/Para-Aramid/p140": 0,
+        "PBI®/Kevlar®/Antistatic": 0,
+        "Lenzing FR®/Aramid": 0,
+        "Para-aramid/Solid polymer coating": 0,
+        "FR Rayon/пара-арамід/поліамід/антистатик": 0,
         "MAC": 0
       }
     }
@@ -245,7 +257,10 @@
     "images": [
       "http://catalog.raznobyt.com/images/products/XA 9001/main/89072.jpg"
     ],
-    "description": {},
+    "description": {
+      "ua": "Інноваційна вогнестійка та антистатична тканина з масловодовідштовхувальним просоченням (МВО). Склад: 54% поліпропілен FR, 45% бавовна, 1% Static-Control™. Щільність 320 г/м². Легка, швидко сохне, не вбирає вологу. Ідеальна для роботи у вологих середовищах.",
+      "ru": "Инновационная огнестойкая и антистатическая ткань с масловодоотталкивающей пропиткой (МВО). Состав: 54% полипропилен FR, 45% хлопок, 1% Static-Control™. Плотность 320 г/м². Легкая, быстро сохнет, не впитывает влагу. Идеальна для работы во влажных средах."
+    },
     "attributes": {
       "fabricType": "twill",
       "density": "320",
@@ -266,17 +281,17 @@
         "viscose": 0,
         "pbt": 0,
         "lyon": 0,
-        "polyamidePA": 0,
-        "polypropylenePP": 54,
-        "paraAramid": 0,
+        "polyamide PA": 0,
+        "polypropylene PP": 54,
+        "para aramid": 0,
         "antistatic": 1,
-        "modacrylicLyocellStaticControl": 0,
-        "nomexKevlarAntiStatic": 0,
-        "nomexParaAramidP140": 0,
-        "pbiKevlarAntistatic": 0,
-        "lenzingFRAramid": 0,
-        "paraAramidSolidPolymerCoating": 0,
-        "frRayonParaAramidPolyamideAntistatic": 0,
+        "Modacrylic/Lyocell/Static-Control™": 0,
+        "Nomex®/Kevlar®/Anti-Static": 0,
+        "Nomex®/Para-Aramid/p140": 0,
+        "PBI®/Kevlar®/Antistatic": 0,
+        "Lenzing FR®/Aramid": 0,
+        "Para-aramid/Solid polymer coating": 0,
+        "FR Rayon/пара-арамід/поліамід/антистатик": 0,
         "MAC": 0
       }
     }
@@ -294,7 +309,10 @@
       "http://catalog.raznobyt.com/images/products/XB 9340/main/42049.jpg",
       "http://catalog.raznobyt.com/images/products/XB 9340/42196.jpg"
     ],
-    "description": {},
+    "description": {
+      "ua": "Високоміцна вогнестійка та антистатична тканина з арамідними волокнами та МВО. Склад: 74% бавовна, 25% пара-арамід, 1% Static-Control™. Щільність 340 г/м². Виняткова стійкість до високих температур, порізів та стирання.",
+      "ru": "Высокопрочная огнестойкая и антистатическая ткань с арамидными волокнами и МВО. Состав: 74% хлопок, 25% пара-арамид, 1% Static-Control™. Плотность 340 г/м². Исключительная устойчивость к высоким температурам, порезам и истиранию."
+    },
     "attributes": {
       "fabricType": "twill",
       "density": "340",
@@ -320,17 +338,17 @@
         "viscose": 0,
         "pbt": 0,
         "lyon": 0,
-        "polyamidePA": 0,
-        "polypropylenePP": 0,
-        "paraAramid": 24,
+        "polyamide PA": 0,
+        "polypropylene PP": 0,
+        "para aramid": 24,
         "antistatic": 1,
-        "modacrylicLyocellStaticControl": 0,
-        "nomexKevlarAntiStatic": 0,
-        "nomexParaAramidP140": 0,
-        "pbiKevlarAntistatic": 0,
-        "lenzingFRAramid": 0,
-        "paraAramidSolidPolymerCoating": 0,
-        "frRayonParaAramidPolyamideAntistatic": 0,
+        "Modacrylic/Lyocell/Static-Control™": 0,
+        "Nomex®/Kevlar®/Anti-Static": 0,
+        "Nomex®/Para-Aramid/p140": 0,
+        "PBI®/Kevlar®/Antistatic": 0,
+        "Lenzing FR®/Aramid": 0,
+        "Para-aramid/Solid polymer coating": 0,
+        "FR Rayon/пара-арамід/поліамід/антистатик": 0,
         "MAC": 0
       }
     }
@@ -347,7 +365,10 @@
     "images": [
       "http://catalog.raznobyt.com/images/products/XL 9300/main/89250.jpg"
     ],
-    "description": {},
+    "description": {
+      "ua": "Сучасна вогнестійка та антистатична тканина з модакрилу та ліоцелу з МВО. Склад: Modacrylic/Lyocell/Static-Control™. Щільність 300 г/м². Модакрил забезпечує чудову вогнестійкість, ліоцел — м'якість, комфорт та екологічність.",
+      "ru": "Современная огнестойкая и антистатическая ткань из модакрила и лиоцелла с МВО. Состав: Modacrylic/Lyocell/Static-Control™. Плотность 300 г/м². Модакрил обеспечивает отличную огнестойкость, лиоцелл — мягкость, комфорт и экологичность."
+    },
     "attributes": {
       "fabricType": "twill",
       "density": "300",
@@ -368,17 +389,17 @@
         "viscose": 0,
         "pbt": 0,
         "lyon": 0,
-        "polyamidePA": 0,
-        "polypropylenePP": 0,
-        "paraAramid": 0,
+        "polyamide PA": 0,
+        "polypropylene PP": 0,
+        "para aramid": 0,
         "antistatic": 0,
-        "modacrylicLyocellStaticControl": 1,
-        "nomexKevlarAntiStatic": 0,
-        "nomexParaAramidP140": 0,
-        "pbiKevlarAntistatic": 0,
-        "lenzingFRAramid": 0,
-        "paraAramidSolidPolymerCoating": 0,
-        "frRayonParaAramidPolyamideAntistatic": 0,
+        "Modacrylic/Lyocell/Static-Control™": 1,
+        "Nomex®/Kevlar®/Anti-Static": 0,
+        "Nomex®/Para-Aramid/p140": 0,
+        "PBI®/Kevlar®/Antistatic": 0,
+        "Lenzing FR®/Aramid": 0,
+        "Para-aramid/Solid polymer coating": 0,
+        "FR Rayon/пара-арамід/поліамід/антистатик": 0,
         "MAC": 0
       }
     }
@@ -397,7 +418,10 @@
       "http://catalog.raznobyt.com/images/products/XL 9325/89249.jpg",
       "http://catalog.raznobyt.com/images/products/XL 9325/89251.jpg"
     ],
-    "description": {},
+    "description": {
+      "ua": "Міцна вогнестійка та антистатична тканина з модакрилу та ліоцелу з МВО. Склад: Modacrylic/Lyocell/Static-Control™. Щільність 325 г/м². Підвищена щільність забезпечує кращу зносостійкість та захист.",
+      "ru": "Прочная огнестойкая и антистатическая ткань из модакрила и лиоцелла с МВО. Состав: Modacrylic/Lyocell/Static-Control™. Плотность 325 г/м². Повышенная плотность обеспечивает лучшую износостойкость и защиту."
+    },
     "attributes": {
       "fabricType": "twill",
       "density": "325",
@@ -428,17 +452,17 @@
         "viscose": 0,
         "pbt": 0,
         "lyon": 0,
-        "polyamidePA": 0,
-        "polypropylenePP": 0,
-        "paraAramid": 0,
+        "polyamide PA": 0,
+        "polypropylene PP": 0,
+        "para aramid": 0,
         "antistatic": 0,
-        "modacrylicLyocellStaticControl": 1,
-        "nomexKevlarAntiStatic": 0,
-        "nomexParaAramidP140": 0,
-        "pbiKevlarAntistatic": 0,
-        "lenzingFRAramid": 0,
-        "paraAramidSolidPolymerCoating": 0,
-        "frRayonParaAramidPolyamideAntistatic": 0,
+        "Modacrylic/Lyocell/Static-Control™": 1,
+        "Nomex®/Kevlar®/Anti-Static": 0,
+        "Nomex®/Para-Aramid/p140": 0,
+        "PBI®/Kevlar®/Antistatic": 0,
+        "Lenzing FR®/Aramid": 0,
+        "Para-aramid/Solid polymer coating": 0,
+        "FR Rayon/пара-арамід/поліамід/антистатик": 0,
         "MAC": 0
       }
     }
@@ -455,7 +479,10 @@
     "images": [
       "http://catalog.raznobyt.com/images/products/AV 9400/main/89374.jpg"
     ],
-    "description": {},
+    "description": {
+      "ua": "Преміальна вогнестійка та антистатична тканина з Nomex® и Kevlar® с МВО. Склад: Nomex®/Kevlar®/Anti-Static. Щильність 200 г/м². Nomex® забезпечує виняткову термостійкість, Kevlar® — надзвичайна міцність. Легка тканина.",
+      "ru": "Премиальная огнестойкая и антистатическая ткань из Nomex® и Kevlar® с МВО. Состав: Nomex®/Kevlar®/Anti-Static. Плотность 200 г/м². Nomex® обеспечивает исключительную термостойкость, Kevlar® — чрезвычайную прочность. Легкая ткань."
+    },
     "attributes": {
       "fabricType": "twill",
       "density": "200",
@@ -476,17 +503,17 @@
         "viscose": 0,
         "pbt": 0,
         "lyon": 0,
-        "polyamidePA": 0,
-        "polypropylenePP": 0,
-        "paraAramid": 0,
+        "polyamide PA": 0,
+        "polypropylene PP": 0,
+        "para aramid": 0,
         "antistatic": 0,
-        "modacrylicLyocellStaticControl": 0,
-        "nomexKevlarAntiStatic": 1,
-        "nomexParaAramidP140": 0,
-        "pbiKevlarAntistatic": 0,
-        "lenzingFRAramid": 0,
-        "paraAramidSolidPolymerCoating": 0,
-        "frRayonParaAramidPolyamideAntistatic": 0,
+        "Modacrylic/Lyocell/Static-Control™": 0,
+        "Nomex®/Kevlar®/Anti-Static": 1,
+        "Nomex®/Para-Aramid/p140": 0,
+        "PBI®/Kevlar®/Antistatic": 0,
+        "Lenzing FR®/Aramid": 0,
+        "Para-aramid/Solid polymer coating": 0,
+        "FR Rayon/пара-арамід/поліамід/антистатик": 0,
         "MAC": 0
       }
     }
@@ -503,7 +530,10 @@
     "images": [
       "http://catalog.raznobyt.com/images/products/BV 9120/main/89201.jpg"
     ],
-    "description": {},
+    "description": {
+      "ua": "Високоякісна вогнестійка та антистатична тканина з МВО. Склад: Nomex®/Para-Aramid/p140. Щільність 265 г/м². Поєднання Nomex® та пара-араміду забезпечує відмінний захист від високих температур та механічних пошкоджень.",
+      "ru": "Высококачественная огнестойкая и антистатическая ткань с МВО. Состав: Nomex®/Para-Aramid/p140. Плотность 265 г/м². Сочетание Nomex® и пара-арамида обеспечивает отличную защиту от высоких температур и механических повреждений."
+    },
     "attributes": {
       "fabricType": "twill",
       "density": "265",
@@ -524,17 +554,17 @@
         "viscose": 0,
         "pbt": 0,
         "lyon": 0,
-        "polyamidePA": 0,
-        "polypropylenePP": 0,
-        "paraAramid": 0,
+        "polyamide PA": 0,
+        "polypropylene PP": 0,
+        "para aramid": 0,
         "antistatic": 0,
-        "modacrylicLyocellStaticControl": 0,
-        "nomexKevlarAntiStatic": 0,
-        "nomexParaAramidP140": 1,
-        "pbiKevlarAntistatic": 0,
-        "lenzingFRAramid": 0,
-        "paraAramidSolidPolymerCoating": 0,
-        "frRayonParaAramidPolyamideAntistatic": 0,
+        "Modacrylic/Lyocell/Static-Control™": 0,
+        "Nomex®/Kevlar®/Anti-Static": 0,
+        "Nomex®/Para-Aramid/p140": 1,
+        "PBI®/Kevlar®/Antistatic": 0,
+        "Lenzing FR®/Aramid": 0,
+        "Para-aramid/Solid polymer coating": 0,
+        "FR Rayon/пара-арамід/поліамід/антистатик": 0,
         "MAC": 0
       }
     }
@@ -548,13 +578,27 @@
       "ru": "PBI® Peak5®"
     },
     "isNew": false,
-    "images": [],
-    "description": {},
+    "images": [
+      "http://catalog.raznobyt.com/images/products/PBI® Peak5®/main/PBI_Peak_5_Gold.jpg"
+    ],
+    "pdfs": [
+      "http://catalog.raznobyt.com/images/products/PBI® Peak5®/PBI® Peak5® - PE 9500 - EN укр.pdf"
+    ],
+    "description": {
+      "ua": "Преміальна вогнестійка та антистатична тканина. Склад: PBI®/Kevlar®/Antistatic. Щільність 180 г/м². Твил. Максимальний захист для найскладніших умов — пожежна охорона, нафтогазова промисловість, військова сфера.",
+      "ru": "Премиальная огнестойкая и антистатическая ткань. Состав: PBI®/Kevlar®/Antistatic. Плотность 180 г/м². Твил. Максимальная защита для самых сложных условий — пожарная охрана, нефтегазовая промышленность, военная сфера."
+    },
     "attributes": {
       "fabricType": "twill",
       "density": "180",
       "width": "150",
-      "colors": [],
+      "colors": [
+        {
+          "color": "PBI_Peak_5_Gold",
+          "image": "http://catalog.raznobyt.com/images/products/PBI® Peak5®/main/PBI_Peak_5_Gold.jpg",
+          "isMain": true
+        }
+      ],
       "properties": [],
       "composition": {
         "cotton": 0,
@@ -564,17 +608,17 @@
         "viscose": 0,
         "pbt": 0,
         "lyon": 0,
-        "polyamidePA": 0,
-        "polypropylenePP": 0,
-        "paraAramid": 0,
+        "polyamide PA": 0,
+        "polypropylene PP": 0,
+        "para aramid": 0,
         "antistatic": 0,
-        "modacrylicLyocellStaticControl": 0,
-        "nomexKevlarAntiStatic": 0,
-        "nomexParaAramidP140": 0,
-        "pbiKevlarAntistatic": 1,
-        "lenzingFRAramid": 0,
-        "paraAramidSolidPolymerCoating": 0,
-        "frRayonParaAramidPolyamideAntistatic": 0,
+        "Modacrylic/Lyocell/Static-Control™": 0,
+        "Nomex®/Kevlar®/Anti-Static": 0,
+        "Nomex®/Para-Aramid/p140": 0,
+        "PBI®/Kevlar®/Antistatic": 1,
+        "Lenzing FR®/Aramid": 0,
+        "Para-aramid/Solid polymer coating": 0,
+        "FR Rayon/пара-арамід/поліамід/антистатик": 0,
         "MAC": 0
       }
     }
@@ -588,13 +632,27 @@
       "ru": "Defender® M - CQ 760"
     },
     "isNew": false,
-    "images": [],
-    "description": {},
+    "images": [
+      "http://catalog.raznobyt.com/images/products/Defender® M - CQ 760/main/Gold 35328.jpg"
+    ],
+    "pdfs": [
+      "http://catalog.raznobyt.com/images/products/Defender® M - CQ 760/Defender® M - CQ 760 - EN укр.pdf"
+    ],
+    "description": {
+      "ua": "Багатошарова теплоізоляційна тканина. Теплоізоляція: нетканий матеріал спанлейс Lenzing FR®/Aramid. Термопідкладка: Lenzing FR®/Aramid/Polyamide. Щільність 220 г/м². Для екстремальних температурних умов.",
+      "ru": "Многослойная теплоизоляционная ткань. Теплоизоляция: нетканый материал спанлейс Lenzing FR®/Aramid. Термоподкладка: Lenzing FR®/Aramid/Polyamide. Плотность 220 г/м². Для экстремальных температурных условий."
+    },
     "attributes": {
       "fabricType": "multilayer",
       "density": "220",
       "width": "150",
-      "colors": [],
+      "colors": [
+        {
+          "color": "Gold 35328",
+          "image": "http://catalog.raznobyt.com/images/products/Defender® M - CQ 760/main/Gold 35328.jpg",
+          "isMain": true
+        }
+      ],
       "properties": [],
       "composition": {
         "cotton": 0,
@@ -604,17 +662,17 @@
         "viscose": 0,
         "pbt": 0,
         "lyon": 0,
-        "polyamidePA": 0,
-        "polypropylenePP": 0,
-        "paraAramid": 0,
+        "polyamide PA": 0,
+        "polypropylene PP": 0,
+        "para aramid": 0,
         "antistatic": 0,
-        "modacrylicLyocellStaticControl": 0,
-        "nomexKevlarAntiStatic": 0,
-        "nomexParaAramidP140": 0,
-        "pbiKevlarAntistatic": 0,
-        "lenzingFRAramid": 1,
-        "paraAramidSolidPolymerCoating": 0,
-        "frRayonParaAramidPolyamideAntistatic": 0,
+        "Modacrylic/Lyocell/Static-Control™": 0,
+        "Nomex®/Kevlar®/Anti-Static": 0,
+        "Nomex®/Para-Aramid/p140": 0,
+        "PBI®/Kevlar®/Antistatic": 0,
+        "Lenzing FR®/Aramid": 1,
+        "Para-aramid/Solid polymer coating": 0,
+        "FR Rayon/пара-арамід/поліамід/антистатик": 0,
         "MAC": 0
       }
     }
@@ -628,13 +686,27 @@
       "ru": "Ara-Shield KR 9610"
     },
     "isNew": false,
-    "images": [],
-    "description": {},
+    "images": [
+      "http://catalog.raznobyt.com/images/products/Ara-Shield KR 9610/main/Black 2389.jpg"
+    ],
+    "pdfs": [
+      "http://catalog.raznobyt.com/images/products/Ara-Shield KR 9610/Arashield KR 610 укр.pdf"
+    ],
+    "description": {
+      "ua": "Армована тканина з параарамідним армуванням та твердим полімерним покриттям. Щільність 540 г/м². Максимальна стійкість до порізів, проколів та абразивного зношування. Для захисту рук та тіла.",
+      "ru": "Армированная ткань с параарамидным армированием и твердым полимерным покрытием. Плотность 540 г/м². Максимальная устойчивость к порезам, проколам и абразивному износу. Для защиты рук и тела."
+    },
     "attributes": {
       "fabricType": "coated",
       "density": "540",
       "width": "150",
-      "colors": [],
+      "colors": [
+        {
+          "color": "Black 2389",
+          "image": "http://catalog.raznobyt.com/images/products/Ara-Shield KR 9610/main/Black 2389.jpg",
+          "isMain": true
+        }
+      ],
       "properties": [],
       "composition": {
         "cotton": 0,
@@ -644,17 +716,17 @@
         "viscose": 0,
         "pbt": 0,
         "lyon": 0,
-        "polyamidePA": 0,
-        "polypropylenePP": 0,
-        "paraAramid": 0,
+        "polyamide PA": 0,
+        "polypropylene PP": 0,
+        "para aramid": 0,
         "antistatic": 0,
-        "modacrylicLyocellStaticControl": 0,
-        "nomexKevlarAntiStatic": 0,
-        "nomexParaAramidP140": 0,
-        "pbiKevlarAntistatic": 0,
-        "lenzingFRAramid": 0,
-        "paraAramidSolidPolymerCoating": 1,
-        "frRayonParaAramidPolyamideAntistatic": 0,
+        "Modacrylic/Lyocell/Static-Control™": 0,
+        "Nomex®/Kevlar®/Anti-Static": 0,
+        "Nomex®/Para-Aramid/p140": 0,
+        "PBI®/Kevlar®/Antistatic": 0,
+        "Lenzing FR®/Aramid": 0,
+        "Para-aramid/Solid polymer coating": 1,
+        "FR Rayon/пара-арамід/поліамід/антистатик": 0,
         "MAC": 0
       }
     }

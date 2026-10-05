@@ -1,6 +1,7 @@
 import CategoryHighlight from '../CategoryHighlight';
 import { armyIntroUa, armyIntroRu, armyItems } from './armyHighlights.js';
 import { useLang } from '../../i18n/LangContext';
+import army2 from '../../../public/images/catimg/army/army2.jpg';
 
 // всередині CategoryPage, якщо category === 'army':
 
@@ -32,6 +33,10 @@ const ArmyText = () => {
                 властивості TenCate Defender™ М завжди притаманні тканини. Вони не
                 змиваються та не зношуються, незалежно від того, скільки разів військова
                 форма пралася або як довго вона носиться.
+            </p>
+
+            <p>
+                <img src={army2} alt="" />
             </p>
 
             <p>

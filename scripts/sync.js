@@ -98,6 +98,26 @@ const parseColors = (colorsStr) => {
   }).filter(Boolean);
 };
 
+const parseVideos = (videoStr) => {
+  if (!videoStr || videoStr.trim() === "") return [];
+
+  return videoStr.split(",").map((s) => {
+    const path = s.trim();
+    if (!path) return null;
+    return `http://catalog.raznobyt.com/images/products/${path}`;
+  }).filter(Boolean);
+};
+
+const parsePdf = (pdfStr) => {
+  if (!pdfStr || pdfStr.trim() === "") return [];
+
+  return pdfStr.split(",").map((s) => {
+    const path = s.trim();
+    if (!path) return null;
+    return `http://catalog.raznobyt.com/images/products/${path}`;
+  }).filter(Boolean);
+};
+
 const parseSubcat = (subcatStr) => {
   if (!subcatStr || typeof subcatStr !== "string") return undefined;
   const items = subcatStr
@@ -166,6 +186,8 @@ async function main() {
         },
         isNew: row.isNew === "true",
         images: parseColors(row.images).map(c => c.image),
+        ...(row.video && row.video.trim() ? { videos: parseVideos(row.video) } : {}),
+        ...(row.pdf && row.pdf.trim() ? { pdfs: parsePdf(row.pdf) } : {}),
         description: {
           ua: row.desc_ua,
           ru: row.desc_ru,
