@@ -48,6 +48,54 @@
     }
   },
   {
+    "id": "tkan-army-defender-m-dp-9180",
+    "category": "army",
+    "slug": "tkan-army-defender-m-dp-9180",
+    "title": {
+      "ua": "Defender® M DP 9180",
+      "ru": "Defender® M DP 9180"
+    },
+    "isNew": false,
+    "images": [],
+    "videos": [
+      "http://catalog.raznobyt.com/images/products/Defender® M DM 9210/video/TenCate1-Defender-M.mp4",
+      "http://catalog.raznobyt.com/images/products/Defender® M DM 9210/video/Defender1.mp4",
+      "http://catalog.raznobyt.com/images/products/Defender® M DM 9210/video/tencate-defender-m.mp4"
+    ],
+    "description": {
+      "ua": "Високоякісна вогнестійка та антистатична тканина з масловодовідштовхувальним просоченням (МВО). Склад: FR Rayon/пара-арамід/поліамід/антистатик. Щільність 180 г/м². Забезпечує надійний захист від термічних ризиків та статичної електрики.",
+      "ru": "Высококачественная огнестойкая и антистатическая ткань с масловодоотталкивающей пропиткой (МВО). Состав: FR Rayon/пара-арамид/полиамид/антистатик. Плотность 180 г/м². Обеспечивает надежную защиту от термических рисков и статического электричества."
+    },
+    "attributes": {
+      "fabricType": "twill",
+      "density": "210",
+      "width": "163",
+      "colors": [],
+      "properties": [],
+      "composition": {
+        "cotton": 0,
+        "polyester": 0,
+        "spandex": 0,
+        "rayon": 0,
+        "viscose": 0,
+        "pbt": 0,
+        "lyon": 0,
+        "polyamide PA": 0,
+        "polypropylene PP": 0,
+        "para aramid": 0,
+        "antistatic": 0,
+        "Modacrylic/Lyocell/Static-Control™": 0,
+        "Nomex®/Kevlar®/Anti-Static": 0,
+        "Nomex®/Para-Aramid/p140": 0,
+        "PBI®/Kevlar®/Antistatic": 0,
+        "Lenzing FR®/Aramid": 0,
+        "Para-aramid/Solid polymer coating": 0,
+        "FR Rayon/пара-арамід/поліамід/антистатик": 1,
+        "MAC": 0
+      }
+    }
+  },
+  {
     "id": "tkan-army-defender-m-dp-9210",
     "category": "army",
     "slug": "tkan-army-defender-m-dp-9210",
@@ -104,7 +152,9 @@
       "ru": "XL 9300"
     },
     "isNew": false,
-    "images": [],
+    "images": [
+      "http://catalog.raznobyt.com/images/products/XL 9300/main/89250.jpg"
+    ],
     "description": {
       "ua": "Сучасна вогнестійка та антистатична тканина з модакрилу та ліоцелу з МВО. Склад: Modacrylic/Lyocell/Static-Control™. Щільність 300 г/м². Модакрил забезпечує вогнестійкість, ліоцел — м'якість та комфорт.",
       "ru": "Современная огнестойкая и антистатическая ткань из модакрила и лиоцелла с МВО. Состав: Modacrylic/Lyocell/Static-Control™. Плотность 300 г/м². Модакрил обеспечивает огнестойкость, лиоцелл — мягкость и комфорт."
@@ -113,7 +163,13 @@
       "fabricType": "twill",
       "density": "300",
       "width": "150",
-      "colors": [],
+      "colors": [
+        {
+          "color": "89250",
+          "image": "http://catalog.raznobyt.com/images/products/XL 9300/main/89250.jpg",
+          "isMain": true
+        }
+      ],
       "properties": [],
       "composition": {
         "cotton": 0,

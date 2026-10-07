@@ -5,7 +5,7 @@ import ProductCard from '../ProductCard';
 import CategorySidebar from '../CategorySidebar';
 import { textByCategory } from '../categoryText/catText.js';
 import HeroSection from '../HeroSection';
-import { getCompositionOption } from '../../data/compositions.js';
+import { getCompositionOption, getProductCompositionGroups } from '../../data/compositions.js';
 
 const COLOR_MAP = {
     navy: '#1A3B6E', white: '#F0F0F0', khaki: '#7B7B4E', blue: '#2563EB',
@@ -45,7 +45,7 @@ export default function CategoryView({
     const { lang, t } = useLang();
     const targetRef = useRef(null);
     const [mobileFilters, setMobileFilters] = useState(false);
-    const [expandedSections, setExpandedSections] = useState(['subcat', 'type', 'color', 'width']);
+    const [expandedSections, setExpandedSections] = useState(['subcat', 'type', 'color', 'composition', 'width']);
     const [mobileCols, setMobileCols] = useState(() => {
         try {
             return localStorage.getItem('fabric_catalog_cols') === '2' ? 2 : 1;
@@ -99,6 +99,7 @@ export default function CategoryView({
         const comps = new Set();
         const subcats = new Set();
 
+        let hasCottonOrPoly = false;
         products.forEach(p => {
             getProductSubcats(p).forEach(sc => subcats.add(sc));
             if (p.attributes?.fabricType) types.add(p.attributes.fabricType);
@@ -112,19 +113,32 @@ export default function CategoryView({
             if (p.attributes?.density) dens.add(p.attributes.density);
             if (p.attributes?.width) wids.add(p.attributes.width);
 
-            const comp = p.attributes?.composition;
-            if (comp) {
-                if (typeof comp === 'object') {
-                    Object.entries(comp).forEach(([k, v]) => { if (v > 0) comps.add(k); });
-                } else {
-                    comps.add(comp);
+            const pGroups = getProductCompositionGroups(p);
+            pGroups.forEach(g => {
+                if (['cotton_100', 'cotton_poly', 'poly_cotton', 'poly_100'].includes(g)) {
+                    hasCottonOrPoly = true;
                 }
-            }
+                comps.add(g);
+            });
         });
+
+        if (hasCottonOrPoly) {
+            ['cotton_100', 'cotton_poly', 'poly_cotton', 'poly_100'].forEach(g => comps.add(g));
+        }
 
         const sortedSubcats = [...subcats].sort((a, b) => {
             const idxA = PREFERRED_SUBCAT_ORDER.indexOf(a);
             const idxB = PREFERRED_SUBCAT_ORDER.indexOf(b);
+            if (idxA !== -1 && idxB !== -1) return idxA - idxB;
+            if (idxA !== -1) return -1;
+            if (idxB !== -1) return 1;
+            return a.localeCompare(b);
+        });
+
+        const PREFERRED_COMPOSITION_ORDER = ['cotton_100', 'cotton_poly', 'poly_cotton', 'poly_100'];
+        const sortedCompositions = [...comps].sort((a, b) => {
+            const idxA = PREFERRED_COMPOSITION_ORDER.indexOf(a);
+            const idxB = PREFERRED_COMPOSITION_ORDER.indexOf(b);
             if (idxA !== -1 && idxB !== -1) return idxA - idxB;
             if (idxA !== -1) return -1;
             if (idxB !== -1) return 1;
@@ -136,7 +150,7 @@ export default function CategoryView({
             COLORS: [...cols],
             DENSITIES: [...dens].sort((a, b) => parseInt(a) - parseInt(b)),
             WIDTHS: [...wids],
-            COMPOSITIONS: [...comps],
+            COMPOSITIONS: sortedCompositions,
             SUBCATS: sortedSubcats,
         };
     }, [products]);
@@ -172,7 +186,7 @@ export default function CategoryView({
 
     const filtered = useMemo(() => {
         return products.filter(p => {
-            const q = search.toLowerCase();
+            const q = (search || '').toLowerCase();
             const matchSearch = !search ||
                 p.title.ua.toLowerCase().includes(q) ||
                 p.title.ru.toLowerCase().includes(q);
@@ -187,10 +201,10 @@ export default function CategoryView({
             const matchDensity = selectedDensities.length === 0 || selectedDensities.includes(p.attributes?.density);
             const matchWidth = selectedWidths.length === 0 || selectedWidths.includes(p.attributes?.width);
             const matchComposition = selectedCompositions.length === 0 || selectedCompositions.some(c => {
-                const comp = p.attributes?.composition;
-                if (!comp) return false;
-                if (typeof comp === 'object') return comp[c] > 0;
-                return comp === c;
+                const pComps = getProductCompositionGroups(p);
+                return pComps.includes(c) ||
+                    (c === 'cotton' && pComps.includes('cotton_100')) ||
+                    (c === 'polyester' && pComps.includes('poly_100'));
             });
             return matchSearch && matchSubcat && matchType && matchColor && matchDensity && matchWidth && matchComposition;
         });
@@ -216,7 +230,7 @@ export default function CategoryView({
                 className="category"
             />
 
-            <div ref={targetRef} className="container section-sm">
+            <div ref={targetRef} className="container section-sm category">
                 <div className="catalog-layout">
                     <CategorySidebar
                         mobileFilters={mobileFilters}

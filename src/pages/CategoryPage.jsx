@@ -31,8 +31,25 @@ function CategoryPage({ slug: externalSlug = null }) {
 
   // ── URL-driven filter state ──────────────────────────────────────────
   const getArray = (key) => {
-    const val = searchParams.get(key);
-    return val ? val.split(',') : [];
+    const all = searchParams.getAll(key);
+    if (all.length > 1) {
+      return all;
+    }
+    if (all.length === 1) {
+      const val = all[0];
+      if (key === 'types') {
+        if (val === 'канвас, панама') return [val];
+        if (val.includes('канвас, панама')) {
+          return val
+            .replace('канвас, панама', '__CANVAS_PANAMA__')
+            .split(',')
+            .map(s => s.trim() === '__CANVAS_PANAMA__' ? 'канвас, панама' : s.trim())
+            .filter(Boolean);
+        }
+      }
+      return val ? val.split(',').map(s => s.trim()).filter(Boolean) : [];
+    }
+    return [];
   };
 
   const update = (updates) => {
@@ -43,7 +60,8 @@ function CategoryPage({ slug: externalSlug = null }) {
           (Array.isArray(value) && value.length === 0)) {
           next.delete(key);
         } else if (Array.isArray(value)) {
-          next.set(key, value.join(','));
+          next.delete(key);
+          value.forEach(v => next.append(key, v));
         } else {
           next.set(key, String(value));
         }

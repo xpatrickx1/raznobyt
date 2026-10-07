@@ -166,7 +166,7 @@ export default function ProductView({ product, related = [] }) {
             />
 
             <div className="product-page">
-                <div className="container">
+                <div className="container product">
 
                     <div className="product-header">
                         <nav className="breadcrumbs fade-up fade-up-1">

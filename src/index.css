@@ -1221,6 +1221,10 @@ button {
   background: var(--c-bg-alt);
 }
 
+.page.category {
+  background: var(--c-bg-alt);
+}
+
 .section__header {
   text-align: center;
   margin-bottom: 48px;
@@ -4576,4 +4580,10 @@ button {
 
 .product-card__colors {
   min-height: 22px;
+}
+
+.seo-category-text {
+  ul {
+    padding-left: 16px;
+  }
 }

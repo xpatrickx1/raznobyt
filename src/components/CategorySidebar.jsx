@@ -149,7 +149,7 @@ export default function CategorySidebar({
       )}
 
       {/* Склад */}
-      {COMPOSITIONS.length > 1 && (
+      {COMPOSITIONS.length > 0 && (
         <div className="sidebar__section">
           <div
             className="sidebar__section-title collapsible-header"

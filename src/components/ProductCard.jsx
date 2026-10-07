@@ -124,14 +124,14 @@ export default function ProductCard({ product }) {
               </div>
             )}
 
-            {product.attributes.density && (
+            {/* {product.attributes.density && (
               <>
                 {colors.length > 0 && <div className="product-card__attr-divider" />}
                 <div className="product-card__attr-row">
                   <span className="attr-text">{product.attributes.density}</span>
                 </div>
               </>
-            )}
+            )} */}
           </div>
 
           <button

@@ -118,11 +118,19 @@ function Layout() {
               classNames="page"
               unmountOnExit
             >
-              {(state) => (
-                <div ref={nodeRef} className="page">
-                  {currentOutlet}
-                </div>
-              )}
+              {(state) => {
+                let extraClass = "";
+                const parts = normalizedPathname.split('/').filter(Boolean);
+                if (parts[0] === 'catalog') {
+                  if (parts.length === 2) extraClass = " category";
+                  if (parts.length === 3) extraClass = " product";
+                }
+                return (
+                  <div ref={nodeRef} className={`page${extraClass}`}>
+                    {currentOutlet}
+                  </div>
+                );
+              }}
             </CSSTransition>
           </SwitchTransition>
         </main>
