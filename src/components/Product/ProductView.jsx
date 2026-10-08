@@ -166,7 +166,7 @@ export default function ProductView({ product, related = [] }) {
             />
 
             <div className="product-page">
-                <div className="container product">
+                <div className="container">
 
                     <div className="product-header">
                         <nav className="breadcrumbs fade-up fade-up-1">
@@ -186,6 +186,14 @@ export default function ProductView({ product, related = [] }) {
                     <div className="product-grid">
                         {/* Images */}
                         <div className="product-images fade-up fade-up-1">
+                            {imageUrls[activeImg]}
+                            <img
+                                src={imageUrls[activeImg]}
+                                alt={product.title[lang]}
+                                className="product-main-img"
+                                loading="lazy"
+                                onError={(e) => { e.target.src = placeholder; }}
+                            />
                             {imageUrls.length > 0 ? (
                                 <img
                                     src={imageUrls[activeImg]}

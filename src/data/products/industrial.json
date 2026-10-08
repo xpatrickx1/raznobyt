@@ -841,12 +841,12 @@
     }
   },
   {
-    "id": "tkan-industrial-9129-fr",
+    "id": "tkan-industrial-9129",
     "category": "industrial",
-    "slug": "tkan-industrial-9129-fr",
+    "slug": "tkan-industrial-9129",
     "title": {
-      "ua": "9129 FR",
-      "ru": "9129 FR"
+      "ua": "9129",
+      "ru": "9129"
     },
     "isNew": false,
     "images": [],
@@ -1125,6 +1125,49 @@
         "polypropylene PP": 0,
         "para aramid": 0,
         "antistatic": 0,
+        "Modacrylic/Lyocell/Static-Control™": 0,
+        "Nomex®/Kevlar®/Anti-Static": 0,
+        "Nomex®/Para-Aramid/p140": 0,
+        "PBI®/Kevlar®/Antistatic": 0,
+        "Lenzing FR®/Aramid": 0,
+        "Para-aramid/Solid polymer coating": 0,
+        "FR Rayon/пара-арамід/поліамід/антистатик": 0,
+        "MAC": 0
+      }
+    }
+  },
+  {
+    "id": "tkan-industrial-mk-9014",
+    "category": "industrial",
+    "slug": "tkan-industrial-mk-9014",
+    "title": {
+      "ua": "MK-9014",
+      "ru": "MK-9014"
+    },
+    "isNew": false,
+    "images": [],
+    "description": {
+      "ua": "99% поліестер, 1% антистатична нитка 290г/м.кв Кислотозахисна",
+      "ru": "99% полиестер, 1% антистатическая нить 290г/м.кв Кислотозащитная"
+    },
+    "attributes": {
+      "fabricType": "полотно",
+      "density": "290",
+      "width": "160",
+      "colors": [],
+      "properties": [],
+      "composition": {
+        "cotton": 0,
+        "polyester": 99,
+        "spandex": 0,
+        "rayon": 0,
+        "viscose": 0,
+        "pbt": 0,
+        "lyon": 0,
+        "polyamide PA": 0,
+        "polypropylene PP": 0,
+        "para aramid": 0,
+        "antistatic": 1,
         "Modacrylic/Lyocell/Static-Control™": 0,
         "Nomex®/Kevlar®/Anti-Static": 0,
         "Nomex®/Para-Aramid/p140": 0,

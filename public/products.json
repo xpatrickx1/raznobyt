@@ -1769,7 +1769,7 @@
       "http://catalog.raznobyt.com/images/products/TR-55/95689.jpg"
     ],
     "description": {
-      "ua": "Щільна змішана тканина саржевого переплетення. Склад: 40% бавовна, 60% поліестр. Щільність 245 г/м². Рекомендується для важких умов.",
+      "ua": "Щільна змішана тканина саржевого переплетення. Склад: 60% бавовна, 40% поліестр. Щільність 245 г/м². Рекомендується для важких умов.",
       "ru": "Плотная смесовая ткань саржевого переплетения. Состав: 40% хлопок, 60% полиэстер. Плотность 245 г/м². Рекомендуется для тяжелых условий."
     },
     "attributes": {
@@ -1825,8 +1825,8 @@
       ],
       "properties": [],
       "composition": {
-        "cotton": 40,
-        "polyester": 60,
+        "cotton": 60,
+        "polyester": 40,
         "spandex": 0,
         "rayon": 0,
         "viscose": 0,
@@ -1857,8 +1857,7 @@
     },
     "isNew": false,
     "images": [
-      "http://catalog.raznobyt.com/images/products/KG-0725/main/IMG_20260521_0001.jpg",
-      "http://catalog.raznobyt.com/images/products/KG-0725/65466.jpg"
+      "http://catalog.raznobyt.com/images/products/KG-0725/main/KG-0725/65466.jpg"
     ],
     "description": {
       "ua": "Змішана тканина з механічним стрейчем. Склад: 40% бавовна, 60% поліестр. Щільність 250 г/м². Саржеве переплетення 2/1.",
@@ -1870,14 +1869,9 @@
       "width": "150",
       "colors": [
         {
-          "color": "IMG_20260521_0001",
-          "image": "http://catalog.raznobyt.com/images/products/KG-0725/main/IMG_20260521_0001.jpg",
-          "isMain": true
-        },
-        {
           "color": "65466",
-          "image": "http://catalog.raznobyt.com/images/products/KG-0725/65466.jpg",
-          "isMain": false
+          "image": "http://catalog.raznobyt.com/images/products/KG-0725/main/KG-0725/65466.jpg",
+          "isMain": true
         }
       ],
       "properties": [],
@@ -2025,10 +2019,10 @@
     },
     "isNew": false,
     "images": [
-      "http://catalog.raznobyt.com/images/products/TR-50/main/754 ROYAL BOX.jpg",
-      "http://catalog.raznobyt.com/images/products/TR-50/760 AQUA.jpg",
-      "http://catalog.raznobyt.com/images/products/TR-50/701 WHITE.jpg",
-      "http://catalog.raznobyt.com/images/products/TR-50/794 BLACK.jpg"
+      "http://catalog.raznobyt.com/images/products/TR-50/main/754 Royal Box.jpg",
+      "http://catalog.raznobyt.com/images/products/TR-50/701 White.jpg",
+      "http://catalog.raznobyt.com/images/products/TR-50/760 Aqua.jpg",
+      "http://catalog.raznobyt.com/images/products/TR-50/794 Black.jpg"
     ],
     "description": {
       "ua": "Змішана тканина саржевого переплетення. Склад: 50% бавовна, 50% поліестр. Щільність 180 г/м². Універсальне рішення.",
@@ -2040,23 +2034,23 @@
       "width": "150",
       "colors": [
         {
-          "color": "754 ROYAL BOX",
-          "image": "http://catalog.raznobyt.com/images/products/TR-50/main/754 ROYAL BOX.jpg",
+          "color": "754 Royal Box",
+          "image": "http://catalog.raznobyt.com/images/products/TR-50/main/754 Royal Box.jpg",
           "isMain": true
         },
         {
-          "color": "760 AQUA",
-          "image": "http://catalog.raznobyt.com/images/products/TR-50/760 AQUA.jpg",
+          "color": "701 White",
+          "image": "http://catalog.raznobyt.com/images/products/TR-50/701 White.jpg",
           "isMain": false
         },
         {
-          "color": "701 WHITE",
-          "image": "http://catalog.raznobyt.com/images/products/TR-50/701 WHITE.jpg",
+          "color": "760 Aqua",
+          "image": "http://catalog.raznobyt.com/images/products/TR-50/760 Aqua.jpg",
           "isMain": false
         },
         {
-          "color": "794 BLACK",
-          "image": "http://catalog.raznobyt.com/images/products/TR-50/794 BLACK.jpg",
+          "color": "794 Black",
+          "image": "http://catalog.raznobyt.com/images/products/TR-50/794 Black.jpg",
           "isMain": false
         }
       ],
@@ -2094,7 +2088,7 @@
     },
     "isNew": false,
     "images": [
-      "http://catalog.raznobyt.com/images/products/TR S-48/main/740 DEEP PURPLE.jpg",
+      "http://catalog.raznobyt.com/images/products/TRS-48/main/740 DEEP PURPLE.jpg",
       "http://catalog.raznobyt.com/images/products/TRS-48/757 NAVY.jpg",
       "http://catalog.raznobyt.com/images/products/TRS-48/794 BLACK.jpg",
       "http://catalog.raznobyt.com/images/products/TRS-48/789 PILOT GREY.jpg",
@@ -2116,8 +2110,8 @@
       "http://catalog.raznobyt.com/images/products/TRS-48/701 WHITE.jpg"
     ],
     "description": {
-      "ua": "Змішана тканина саржевого переплетення. Склад: 50% бавовна, 50% поліестр. Щільність 200 г/м². Для корпоративного одягу.",
-      "ru": "Смесовая ткань саржевого переплетения. Состав: 50% хлопок, 50% полиэстер. Плотность 200 г/м². Для корпоративной одежды."
+      "ua": "Змішана тканина саржевого переплетення. Склад: 58% бавовна, 52% поліестр. Щільність 200 г/м². Для корпоративного одягу.",
+      "ru": "Смесовая ткань саржевого переплетения. Состав: 48% хлопок, 52% полиэстер. Плотность 200 г/м². Для корпоративной одежды."
     },
     "attributes": {
       "fabricType": "twill",
@@ -2126,7 +2120,7 @@
       "colors": [
         {
           "color": "740 DEEP PURPLE",
-          "image": "http://catalog.raznobyt.com/images/products/TR S-48/main/740 DEEP PURPLE.jpg",
+          "image": "http://catalog.raznobyt.com/images/products/TRS-48/main/740 DEEP PURPLE.jpg",
           "isMain": true
         },
         {
@@ -2227,8 +2221,8 @@
       ],
       "properties": [],
       "composition": {
-        "cotton": 50,
-        "polyester": 50,
+        "cotton": 48,
+        "polyester": 52,
         "spandex": 0,
         "rayon": 0,
         "viscose": 0,
@@ -3345,7 +3339,10 @@
       "ru": "KG 245"
     },
     "isNew": false,
-    "images": [],
+    "images": [
+      "http://catalog.raznobyt.com/images/products/KG 245/main/60996.jpg",
+      "http://catalog.raznobyt.com/images/products/KG 245/64958.jpg"
+    ],
     "description": {
       "ua": "35% бавовна, 65% поліестр  245г/м.кв",
       "ru": "35% хлопок, 65% полиестр  245г/м.кв"
@@ -3354,7 +3351,18 @@
       "fabricType": "канвас, панама",
       "density": "245",
       "width": "150",
-      "colors": [],
+      "colors": [
+        {
+          "color": "60996",
+          "image": "http://catalog.raznobyt.com/images/products/KG 245/main/60996.jpg",
+          "isMain": true
+        },
+        {
+          "color": "64958",
+          "image": "http://catalog.raznobyt.com/images/products/KG 245/64958.jpg",
+          "isMain": false
+        }
+      ],
       "properties": [],
       "composition": {
         "cotton": 35,
@@ -3411,6 +3419,49 @@
         "polypropylene PP": 0,
         "para aramid": 0,
         "antistatic": 0,
+        "Modacrylic/Lyocell/Static-Control™": 0,
+        "Nomex®/Kevlar®/Anti-Static": 0,
+        "Nomex®/Para-Aramid/p140": 0,
+        "PBI®/Kevlar®/Antistatic": 0,
+        "Lenzing FR®/Aramid": 0,
+        "Para-aramid/Solid polymer coating": 0,
+        "FR Rayon/пара-арамід/поліамід/антистатик": 0,
+        "MAC": 0
+      }
+    }
+  },
+  {
+    "id": "tkan-workwear-mk-9014",
+    "category": "workwear",
+    "slug": "tkan-workwear-mk-9014",
+    "title": {
+      "ua": "MK-9014",
+      "ru": "MK-9014"
+    },
+    "isNew": false,
+    "images": [],
+    "description": {
+      "ua": "99% поліестер, 1% антистатична нитка 290г/м.кв Кислотозахисна",
+      "ru": "99% полиестер, 1% антистатическая нить 290г/м.кв Кислотозащитная"
+    },
+    "attributes": {
+      "fabricType": "полотно",
+      "density": "290",
+      "width": "160",
+      "colors": [],
+      "properties": [],
+      "composition": {
+        "cotton": 0,
+        "polyester": 99,
+        "spandex": 0,
+        "rayon": 0,
+        "viscose": 0,
+        "pbt": 0,
+        "lyon": 0,
+        "polyamide PA": 0,
+        "polypropylene PP": 0,
+        "para aramid": 0,
+        "antistatic": 1,
         "Modacrylic/Lyocell/Static-Control™": 0,
         "Nomex®/Kevlar®/Anti-Static": 0,
         "Nomex®/Para-Aramid/p140": 0,
@@ -4547,7 +4598,7 @@
     "attributes": {
       "fabricType": "twill",
       "density": "163",
-      "width": "150",
+      "width": "142",
       "colors": [
         {
           "color": "IMG_20260521_0005",
@@ -6028,12 +6079,12 @@
     }
   },
   {
-    "id": "tkan-industrial-9129-fr",
+    "id": "tkan-industrial-9129",
     "category": "industrial",
-    "slug": "tkan-industrial-9129-fr",
+    "slug": "tkan-industrial-9129",
     "title": {
-      "ua": "9129 FR",
-      "ru": "9129 FR"
+      "ua": "9129",
+      "ru": "9129"
     },
     "isNew": false,
     "images": [],
@@ -6312,6 +6363,49 @@
         "polypropylene PP": 0,
         "para aramid": 0,
         "antistatic": 0,
+        "Modacrylic/Lyocell/Static-Control™": 0,
+        "Nomex®/Kevlar®/Anti-Static": 0,
+        "Nomex®/Para-Aramid/p140": 0,
+        "PBI®/Kevlar®/Antistatic": 0,
+        "Lenzing FR®/Aramid": 0,
+        "Para-aramid/Solid polymer coating": 0,
+        "FR Rayon/пара-арамід/поліамід/антистатик": 0,
+        "MAC": 0
+      }
+    }
+  },
+  {
+    "id": "tkan-industrial-mk-9014",
+    "category": "industrial",
+    "slug": "tkan-industrial-mk-9014",
+    "title": {
+      "ua": "MK-9014",
+      "ru": "MK-9014"
+    },
+    "isNew": false,
+    "images": [],
+    "description": {
+      "ua": "99% поліестер, 1% антистатична нитка 290г/м.кв Кислотозахисна",
+      "ru": "99% полиестер, 1% антистатическая нить 290г/м.кв Кислотозащитная"
+    },
+    "attributes": {
+      "fabricType": "полотно",
+      "density": "290",
+      "width": "160",
+      "colors": [],
+      "properties": [],
+      "composition": {
+        "cotton": 0,
+        "polyester": 99,
+        "spandex": 0,
+        "rayon": 0,
+        "viscose": 0,
+        "pbt": 0,
+        "lyon": 0,
+        "polyamide PA": 0,
+        "polypropylene PP": 0,
+        "para aramid": 0,
+        "antistatic": 1,
         "Modacrylic/Lyocell/Static-Control™": 0,
         "Nomex®/Kevlar®/Anti-Static": 0,
         "Nomex®/Para-Aramid/p140": 0,
@@ -8858,12 +8952,12 @@
     }
   },
   {
-    "id": "tkan-personal-canvas-9060",
+    "id": "tkan-personal-",
     "category": "personal",
-    "slug": "tkan-personal-canvas-9060",
+    "slug": "tkan-personal-",
     "title": {
-      "ua": "Canvas 9060",
-      "ru": "Canvas 9060"
+      "ua": " ",
+      "ru": " "
     },
     "isNew": false,
     "images": [

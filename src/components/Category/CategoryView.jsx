@@ -230,7 +230,7 @@ export default function CategoryView({
                 className="category"
             />
 
-            <div ref={targetRef} className="container section-sm category">
+            <div ref={targetRef} className="container section-sm">
                 <div className="catalog-layout">
                     <CategorySidebar
                         mobileFilters={mobileFilters}
