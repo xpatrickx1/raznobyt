@@ -8,7 +8,10 @@
       "ru": "WASHED DENIM STRETCH"
     },
     "isNew": false,
-    "images": [],
+    "images": [
+      "http://catalog.raznobyt.com/images/products/WASHED DENIM STRETCH/main/C1 (WT).jpg",
+      "http://catalog.raznobyt.com/images/products/WASHED DENIM STRETCH/C4 (WT).jpg"
+    ],
     "description": {
       "ua": "80% бавовна,  18% поліестер,  2% стрейч,  300 г/м.кв,  саржа,  145см",
       "ru": "80% хлопок,  18% полиестер,  2% стрейч,  300 г/м.кв,  саржа,  145см"
@@ -17,7 +20,18 @@
       "fabricType": "саржа",
       "density": "300",
       "width": "150",
-      "colors": [],
+      "colors": [
+        {
+          "color": "C1 (WT)",
+          "image": "http://catalog.raznobyt.com/images/products/WASHED DENIM STRETCH/main/C1 (WT).jpg",
+          "isMain": true
+        },
+        {
+          "color": "C4 (WT)",
+          "image": "http://catalog.raznobyt.com/images/products/WASHED DENIM STRETCH/C4 (WT).jpg",
+          "isMain": false
+        }
+      ],
       "properties": [],
       "composition": {
         "cotton": 80,
@@ -183,7 +197,10 @@
       "ru": "Т138"
     },
     "isNew": false,
-    "images": [],
+    "images": [
+      "http://catalog.raznobyt.com/images/products/T138/main/33221.jpg",
+      "http://catalog.raznobyt.com/images/products/T138/33222.jpg"
+    ],
     "description": {
       "ua": "35% бавовна,  65% поліестер,  230 г/м.кв,  саржа,  150см",
       "ru": "35% хлопок,  65% полиестер,  230 г/м.кв,  саржа,  150см"
@@ -192,7 +209,18 @@
       "fabricType": "саржа",
       "density": "230",
       "width": "150",
-      "colors": [],
+      "colors": [
+        {
+          "color": "33221",
+          "image": "http://catalog.raznobyt.com/images/products/T138/main/33221.jpg",
+          "isMain": true
+        },
+        {
+          "color": "33222",
+          "image": "http://catalog.raznobyt.com/images/products/T138/33222.jpg",
+          "isMain": false
+        }
+      ],
       "properties": [],
       "composition": {
         "cotton": 35,
@@ -226,7 +254,9 @@
       "ru": "Т144"
     },
     "isNew": false,
-    "images": [],
+    "images": [
+      "http://catalog.raznobyt.com/images/products/T144/main/33245.jpg"
+    ],
     "description": {
       "ua": "35% бавовна,  65% поліестер,  220 г/м.кв,  саржа,  150см",
       "ru": "35% хлопок,  65% полиестер,  220 г/м.кв,  саржа,  150см"
@@ -235,7 +265,13 @@
       "fabricType": "саржа",
       "density": "220",
       "width": "150",
-      "colors": [],
+      "colors": [
+        {
+          "color": "33245",
+          "image": "http://catalog.raznobyt.com/images/products/T144/main/33245.jpg",
+          "isMain": true
+        }
+      ],
       "properties": [],
       "composition": {
         "cotton": 35,

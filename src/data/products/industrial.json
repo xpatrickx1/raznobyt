@@ -849,7 +849,9 @@
       "ru": "9129"
     },
     "isNew": false,
-    "images": [],
+    "images": [
+      "http://catalog.raznobyt.com/images/products/9129/NAVY.jpg"
+    ],
     "description": {
       "ua": "Вогнетривка тканина саржевого переплетення. Склад: 42% бавовна, 6% поліестр, 52% MAC. ВО-ламінована. Щільність 290 г/м². FR - вогнетривка. Для зварювальників, металургів, нафтогазової галузі.",
       "ru": "Огнестойкая ткань саржевого переплетения. Состав: 42% хлопок, 6% полиэстер, 52% MAC. ВО-ламинированная. Плотность 290 г/м². FR - огнестойкая. Для сварщиков, металлургов, нефтегазовой отрасли."
@@ -858,7 +860,13 @@
       "fabricType": "twill",
       "density": "290",
       "width": "150",
-      "colors": [],
+      "colors": [
+        {
+          "color": "NAVY",
+          "image": "http://catalog.raznobyt.com/images/products/9129/NAVY.jpg",
+          "isMain": true
+        }
+      ],
       "properties": [],
       "composition": {
         "cotton": 42,
@@ -943,7 +951,9 @@
       "ru": "VVT-2164"
     },
     "isNew": false,
-    "images": [],
+    "images": [
+      "http://catalog.raznobyt.com/images/products/VVT-2164/main/BLACK.jpg"
+    ],
     "description": {
       "ua": "Змішана тканина саржевого переплетення. Склад: 60% бавовна, 40% поліестр. Антистатична нитка. МВВ - масловодовідштовхувальна. Щільність 210 г/м².",
       "ru": "Смесовая ткань саржевого переплетения. Состав: 60% хлопок, 40% полиэстер. Антистатическая нитка. МВО - масловодоотталкивающая.  Плотность 210 г/м²."
@@ -952,7 +962,13 @@
       "fabricType": "twill",
       "density": "210",
       "width": "150",
-      "colors": [],
+      "colors": [
+        {
+          "color": "BLACK",
+          "image": "http://catalog.raznobyt.com/images/products/VVT-2164/main/BLACK.jpg",
+          "isMain": true
+        }
+      ],
       "properties": [],
       "composition": {
         "cotton": 60,

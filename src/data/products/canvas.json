@@ -8,7 +8,17 @@
       "ru": "9060"
     },
     "isNew": false,
-    "images": [],
+    "images": [
+      "http://catalog.raznobyt.com/images/products/9060/main/28.jpg",
+      "http://catalog.raznobyt.com/images/products/9060/1.jpg",
+      "http://catalog.raznobyt.com/images/products/9060/11.jpg",
+      "http://catalog.raznobyt.com/images/products/9060/51.jpg",
+      "http://catalog.raznobyt.com/images/products/9060/58.jpg",
+      "http://catalog.raznobyt.com/images/products/9060/69.jpg",
+      "http://catalog.raznobyt.com/images/products/9060/106.jpg",
+      "http://catalog.raznobyt.com/images/products/9060/1023.jpg",
+      "http://catalog.raznobyt.com/images/products/9060/1252.jpg"
+    ],
     "description": {
       "ua": "100% бавовна,  250г/м.кв,  канвас,  150см",
       "ru": "100% хлопок,  250г/м.кв,  канвас,  150см"
@@ -17,7 +27,53 @@
       "fabricType": "канвас",
       "density": "250",
       "width": "150",
-      "colors": [],
+      "colors": [
+        {
+          "color": "28",
+          "image": "http://catalog.raznobyt.com/images/products/9060/main/28.jpg",
+          "isMain": true
+        },
+        {
+          "color": "1",
+          "image": "http://catalog.raznobyt.com/images/products/9060/1.jpg",
+          "isMain": false
+        },
+        {
+          "color": "11",
+          "image": "http://catalog.raznobyt.com/images/products/9060/11.jpg",
+          "isMain": false
+        },
+        {
+          "color": "51",
+          "image": "http://catalog.raznobyt.com/images/products/9060/51.jpg",
+          "isMain": false
+        },
+        {
+          "color": "58",
+          "image": "http://catalog.raznobyt.com/images/products/9060/58.jpg",
+          "isMain": false
+        },
+        {
+          "color": "69",
+          "image": "http://catalog.raznobyt.com/images/products/9060/69.jpg",
+          "isMain": false
+        },
+        {
+          "color": "106",
+          "image": "http://catalog.raznobyt.com/images/products/9060/106.jpg",
+          "isMain": false
+        },
+        {
+          "color": "1023",
+          "image": "http://catalog.raznobyt.com/images/products/9060/1023.jpg",
+          "isMain": false
+        },
+        {
+          "color": "1252",
+          "image": "http://catalog.raznobyt.com/images/products/9060/1252.jpg",
+          "isMain": false
+        }
+      ],
       "properties": [],
       "composition": {
         "cotton": 100,
@@ -51,7 +107,15 @@
       "ru": "CANVAS"
     },
     "isNew": false,
-    "images": [],
+    "images": [
+      "http://catalog.raznobyt.com/images/products/CANVAS/main/25.jpg",
+      "http://catalog.raznobyt.com/images/products/CANVAS/00.jpg",
+      "http://catalog.raznobyt.com/images/products/CANVAS/02.jpg",
+      "http://catalog.raznobyt.com/images/products/CANVAS/03.jpg",
+      "http://catalog.raznobyt.com/images/products/CANVAS/31.jpg",
+      "http://catalog.raznobyt.com/images/products/CANVAS/48.jpg",
+      "http://catalog.raznobyt.com/images/products/CANVAS/69.jpg"
+    ],
     "description": {
       "ua": "100% бавовна,  350г/м.кв,  канвас,  150см",
       "ru": "100% хлопок, 350г/м.кв,  канвас,  150см"
@@ -60,7 +124,43 @@
       "fabricType": "канвас",
       "density": "350",
       "width": "150",
-      "colors": [],
+      "colors": [
+        {
+          "color": "25",
+          "image": "http://catalog.raznobyt.com/images/products/CANVAS/main/25.jpg",
+          "isMain": true
+        },
+        {
+          "color": "00",
+          "image": "http://catalog.raznobyt.com/images/products/CANVAS/00.jpg",
+          "isMain": false
+        },
+        {
+          "color": "02",
+          "image": "http://catalog.raznobyt.com/images/products/CANVAS/02.jpg",
+          "isMain": false
+        },
+        {
+          "color": "03",
+          "image": "http://catalog.raznobyt.com/images/products/CANVAS/03.jpg",
+          "isMain": false
+        },
+        {
+          "color": "31",
+          "image": "http://catalog.raznobyt.com/images/products/CANVAS/31.jpg",
+          "isMain": false
+        },
+        {
+          "color": "48",
+          "image": "http://catalog.raznobyt.com/images/products/CANVAS/48.jpg",
+          "isMain": false
+        },
+        {
+          "color": "69",
+          "image": "http://catalog.raznobyt.com/images/products/CANVAS/69.jpg",
+          "isMain": false
+        }
+      ],
       "properties": [],
       "composition": {
         "cotton": 100,

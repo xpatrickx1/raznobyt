@@ -65,7 +65,12 @@
       "ru": "NB-1043"
     },
     "isNew": false,
-    "images": [],
+    "images": [
+      "http://catalog.raznobyt.com/images/products/NB 1043/main/60592.jpg",
+      "http://catalog.raznobyt.com/images/products/NB 1043/62032.jpg",
+      "http://catalog.raznobyt.com/images/products/NB 1043/64512.jpg",
+      "http://catalog.raznobyt.com/images/products/NB 1043/N7600.jpg"
+    ],
     "description": {
       "ua": "20% бавовни, 80% поліестр  220г/м.кв teflon",
       "ru": "20% хлопок, 80% полиестр  220г/м.кв teflon"
@@ -74,7 +79,28 @@
       "fabricType": "саржа",
       "density": "220",
       "width": "150",
-      "colors": [],
+      "colors": [
+        {
+          "color": "60592",
+          "image": "http://catalog.raznobyt.com/images/products/NB 1043/main/60592.jpg",
+          "isMain": true
+        },
+        {
+          "color": "62032",
+          "image": "http://catalog.raznobyt.com/images/products/NB 1043/62032.jpg",
+          "isMain": false
+        },
+        {
+          "color": "64512",
+          "image": "http://catalog.raznobyt.com/images/products/NB 1043/64512.jpg",
+          "isMain": false
+        },
+        {
+          "color": "N7600",
+          "image": "http://catalog.raznobyt.com/images/products/NB 1043/N7600.jpg",
+          "isMain": false
+        }
+      ],
       "properties": [],
       "composition": {
         "cotton": 20,
@@ -108,7 +134,9 @@
       "ru": "NNT-1152"
     },
     "isNew": false,
-    "images": [],
+    "images": [
+      "http://catalog.raznobyt.com/images/products/NNT-1152/main/RED.jpg"
+    ],
     "description": {
       "ua": "80% бавовна, 20% поліестер антистатик МВВ 255г/м.кв Масловодовідштовхуюча",
       "ru": "80% хлопок, 20% полиестер антистатик МВВ 255г/м.кв Масловодоотталкивающая"
@@ -117,7 +145,13 @@
       "fabricType": "саржа",
       "density": "255",
       "width": "150",
-      "colors": [],
+      "colors": [
+        {
+          "color": "RED",
+          "image": "http://catalog.raznobyt.com/images/products/NNT-1152/main/RED.jpg",
+          "isMain": true
+        }
+      ],
       "properties": [],
       "composition": {
         "cotton": 20,
@@ -151,7 +185,9 @@
       "ru": "VVT-2164"
     },
     "isNew": false,
-    "images": [],
+    "images": [
+      "http://catalog.raznobyt.com/images/products/VVT-2164/main/BLACK.jpg"
+    ],
     "description": {
       "ua": "60% бавовна, 40% поліестер антистатик МВВ 210г/м.кв  Масловодовідштовхуюча",
       "ru": "60% хлопок, 40% полиестер антистатик МВВ 210г/м.кв Масловодоотталкивающая"
@@ -160,7 +196,13 @@
       "fabricType": "саржа",
       "density": "210",
       "width": "150",
-      "colors": [],
+      "colors": [
+        {
+          "color": "BLACK",
+          "image": "http://catalog.raznobyt.com/images/products/VVT-2164/main/BLACK.jpg",
+          "isMain": true
+        }
+      ],
       "properties": [],
       "composition": {
         "cotton": 60,
@@ -237,7 +279,9 @@
       "ru": "6584"
     },
     "isNew": false,
-    "images": [],
+    "images": [
+      "http://catalog.raznobyt.com/images/products/6584/main/NAVY.jpg"
+    ],
     "description": {
       "ua": "100% бавовна ВО  водовідштовхуюча  390г/м.кв",
       "ru": "100% хлопок ВО  водоотталкивающая  390г/м.кв"
@@ -246,7 +290,13 @@
       "fabricType": "саржа",
       "density": "390",
       "width": "150",
-      "colors": [],
+      "colors": [
+        {
+          "color": "NAVY",
+          "image": "http://catalog.raznobyt.com/images/products/6584/main/NAVY.jpg",
+          "isMain": true
+        }
+      ],
       "properties": [],
       "composition": {
         "cotton": 100,
@@ -280,7 +330,9 @@
       "ru": "6585"
     },
     "isNew": false,
-    "images": [],
+    "images": [
+      "http://catalog.raznobyt.com/images/products/6585/main/BLACK.jpg"
+    ],
     "description": {
       "ua": "100% бавовна ВО  водовідштовхуюча  390г/м.кв",
       "ru": "100% хлопок ВО  водоотталкивающая  390г/м.кв"
@@ -289,7 +341,13 @@
       "fabricType": "саржа",
       "density": "390",
       "width": "150",
-      "colors": [],
+      "colors": [
+        {
+          "color": "BLACK",
+          "image": "http://catalog.raznobyt.com/images/products/6585/main/BLACK.jpg",
+          "isMain": true
+        }
+      ],
       "properties": [],
       "composition": {
         "cotton": 100,
@@ -525,7 +583,9 @@
       "ru": "3265"
     },
     "isNew": false,
-    "images": [],
+    "images": [
+      "http://catalog.raznobyt.com/images/products/3265/ORANGE.jpg"
+    ],
     "description": {
       "ua": "14% бавовна, 83% поліестер, 3% еластан ВО  водовідштовхуюча 240г/м.кв",
       "ru": "14% хлопок, 83% полиестер, 3% эластан ВО  водоотталкивающая 240г/м.кв "
@@ -534,7 +594,13 @@
       "fabricType": "саржа",
       "density": "240",
       "width": "144",
-      "colors": [],
+      "colors": [
+        {
+          "color": "ORANGE",
+          "image": "http://catalog.raznobyt.com/images/products/3265/ORANGE.jpg",
+          "isMain": true
+        }
+      ],
       "properties": [],
       "composition": {
         "cotton": 14,
@@ -697,7 +763,9 @@
       "ru": "3585"
     },
     "isNew": false,
-    "images": [],
+    "images": [
+      "http://catalog.raznobyt.com/images/products/3585/BLUE GRAPFITE.jpg"
+    ],
     "description": {
       "ua": "50% бавовна, 49% поліестер, 1% антистатик ВО-МЕМБРАНА Водовідштовхувальна 275г/м.кв",
       "ru": "50% хлопок, 49% полиестер, 1% антистатик ВО-МЕМБРАНА Водоотталкивающая 275г/м.кв"
@@ -706,7 +774,13 @@
       "fabricType": "ріп-стоп",
       "density": "275",
       "width": "150",
-      "colors": [],
+      "colors": [
+        {
+          "color": "BLUE GRAPFITE",
+          "image": "http://catalog.raznobyt.com/images/products/3585/BLUE GRAPFITE.jpg",
+          "isMain": true
+        }
+      ],
       "properties": [],
       "composition": {
         "cotton": 0,
@@ -740,7 +814,9 @@
       "ru": "9129"
     },
     "isNew": false,
-    "images": [],
+    "images": [
+      "http://catalog.raznobyt.com/images/products/9129/NAVY.jpg"
+    ],
     "description": {
       "ua": "42% бавовна, 6% поліестер, 52% МАС  FR-ВОГНЕТРИВКА 290г/м.кв",
       "ru": "42% хлопок, 6% полиестер, 52% МАС  FR-ОГНЕУПОРНАЯ 290г/м.кв"
@@ -749,7 +825,13 @@
       "fabricType": "саржа",
       "density": "290",
       "width": "150",
-      "colors": [],
+      "colors": [
+        {
+          "color": "NAVY",
+          "image": "http://catalog.raznobyt.com/images/products/9129/NAVY.jpg",
+          "isMain": true
+        }
+      ],
       "properties": [],
       "composition": {
         "cotton": 42,

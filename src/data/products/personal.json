@@ -1368,18 +1368,17 @@
     },
     "isNew": false,
     "images": [
-      "http://catalog.raznobyt.com/images/products/TR-50 LIGHT/main/IMG_20260521_0008.jpg",
-      "http://catalog.raznobyt.com/images/products/TR-50 LIGHT/112 Sky.jpg",
-      "http://catalog.raznobyt.com/images/products/TR-50 LIGHT/138 New Slate.jpg",
-      "http://catalog.raznobyt.com/images/products/TR-50 LIGHT/142 Lavender.jpg",
-      "http://catalog.raznobyt.com/images/products/TR-50 LIGHT/335 NAVY.jpg",
+      "http://catalog.raznobyt.com/images/products/TR-50 LIGHT/main/112 SKY.jpg",
       "http://catalog.raznobyt.com/images/products/TR-50 LIGHT/506 Black.jpg",
-      "http://catalog.raznobyt.com/images/products/TR-50 LIGHT/144194.jpg",
+      "http://catalog.raznobyt.com/images/products/TR-50 LIGHT/335 NAVY.jpg",
+      "http://catalog.raznobyt.com/images/products/TR-50 LIGHT/A-138.jpg",
       "http://catalog.raznobyt.com/images/products/TR-50 LIGHT/A-451.jpg",
-      "http://catalog.raznobyt.com/images/products/TR-50 LIGHT/AG-143.jpg",
       "http://catalog.raznobyt.com/images/products/TR-50 LIGHT/AG-184.jpg",
-      "http://catalog.raznobyt.com/images/products/TR-50 LIGHT/New 140 Eau De Nil.jpg",
-      "http://catalog.raznobyt.com/images/products/TR-50 LIGHT/Ф-138.jpg"
+      "http://catalog.raznobyt.com/images/products/TR-50 LIGHT/138 New Slate.jpg",
+      "http://catalog.raznobyt.com/images/products/TR-50 LIGHT/144104.jpg",
+      "http://catalog.raznobyt.com/images/products/TR-50 LIGHT/AG-143.jpg",
+      "http://catalog.raznobyt.com/images/products/TR-50 LIGHT/140 EAU DE NIL.jpg",
+      "http://catalog.raznobyt.com/images/products/TR-50 LIGHT/142 LAVENDER.jpg"
     ],
     "description": {
       "ua": "Легка змішана тканина саржевого переплетення. Склад: 50% бавовна, 50% поліестр. Щільність 145 г/м². Ідеальна для літньої уніформи персоналу.",
@@ -1391,23 +1390,13 @@
       "width": "150",
       "colors": [
         {
-          "color": "IMG_20260521_0008",
-          "image": "http://catalog.raznobyt.com/images/products/TR-50 LIGHT/main/IMG_20260521_0008.jpg",
+          "color": "112 SKY",
+          "image": "http://catalog.raznobyt.com/images/products/TR-50 LIGHT/main/112 SKY.jpg",
           "isMain": true
         },
         {
-          "color": "112 Sky",
-          "image": "http://catalog.raznobyt.com/images/products/TR-50 LIGHT/112 Sky.jpg",
-          "isMain": false
-        },
-        {
-          "color": "138 New Slate",
-          "image": "http://catalog.raznobyt.com/images/products/TR-50 LIGHT/138 New Slate.jpg",
-          "isMain": false
-        },
-        {
-          "color": "142 Lavender",
-          "image": "http://catalog.raznobyt.com/images/products/TR-50 LIGHT/142 Lavender.jpg",
+          "color": "506 Black",
+          "image": "http://catalog.raznobyt.com/images/products/TR-50 LIGHT/506 Black.jpg",
           "isMain": false
         },
         {
@@ -1416,13 +1405,8 @@
           "isMain": false
         },
         {
-          "color": "506 Black",
-          "image": "http://catalog.raznobyt.com/images/products/TR-50 LIGHT/506 Black.jpg",
-          "isMain": false
-        },
-        {
-          "color": "144194",
-          "image": "http://catalog.raznobyt.com/images/products/TR-50 LIGHT/144194.jpg",
+          "color": "A-138",
+          "image": "http://catalog.raznobyt.com/images/products/TR-50 LIGHT/A-138.jpg",
           "isMain": false
         },
         {
@@ -1431,23 +1415,33 @@
           "isMain": false
         },
         {
-          "color": "AG-143",
-          "image": "http://catalog.raznobyt.com/images/products/TR-50 LIGHT/AG-143.jpg",
-          "isMain": false
-        },
-        {
           "color": "AG-184",
           "image": "http://catalog.raznobyt.com/images/products/TR-50 LIGHT/AG-184.jpg",
           "isMain": false
         },
         {
-          "color": "New 140 Eau De Nil",
-          "image": "http://catalog.raznobyt.com/images/products/TR-50 LIGHT/New 140 Eau De Nil.jpg",
+          "color": "138 New Slate",
+          "image": "http://catalog.raznobyt.com/images/products/TR-50 LIGHT/138 New Slate.jpg",
           "isMain": false
         },
         {
-          "color": "Ф-138",
-          "image": "http://catalog.raznobyt.com/images/products/TR-50 LIGHT/Ф-138.jpg",
+          "color": "144104",
+          "image": "http://catalog.raznobyt.com/images/products/TR-50 LIGHT/144104.jpg",
+          "isMain": false
+        },
+        {
+          "color": "AG-143",
+          "image": "http://catalog.raznobyt.com/images/products/TR-50 LIGHT/AG-143.jpg",
+          "isMain": false
+        },
+        {
+          "color": "140 EAU DE NIL",
+          "image": "http://catalog.raznobyt.com/images/products/TR-50 LIGHT/140 EAU DE NIL.jpg",
+          "isMain": false
+        },
+        {
+          "color": "142 LAVENDER",
+          "image": "http://catalog.raznobyt.com/images/products/TR-50 LIGHT/142 LAVENDER.jpg",
           "isMain": false
         }
       ],
@@ -1554,27 +1548,26 @@
     },
     "isNew": false,
     "images": [
-      "http://catalog.raznobyt.com/images/products/TR S-48/740-Deep Purple.jpg",
-      "http://catalog.raznobyt.com/images/products/TR S-48/colors/701-White.jpg",
-      "http://catalog.raznobyt.com/images/products/TR S-48/colors/730-Red.jpg",
-      "http://catalog.raznobyt.com/images/products/TR S-48/colors/735-Maroon.jpg",
-      "http://catalog.raznobyt.com/images/products/TR S-48/colors/740-Deep Purple.jpg",
-      "http://catalog.raznobyt.com/images/products/TR S-48/colors/750-Turquoise.jpg",
-      "http://catalog.raznobyt.com/images/products/TR S-48/colors/752-Sky.jpg",
-      "http://catalog.raznobyt.com/images/products/TR S-48/colors/757-Navy.jpg",
-      "http://catalog.raznobyt.com/images/products/TR S-48/colors/760-Aqua.jpg",
-      "http://catalog.raznobyt.com/images/products/TR S-48/colors/761-Opal.jpg",
-      "http://catalog.raznobyt.com/images/products/TR S-48/colors/768-Olive Green.jpg",
-      "http://catalog.raznobyt.com/images/products/TR S-48/colors/773-Sand.jpg",
-      "http://catalog.raznobyt.com/images/products/TR S-48/colors/776-Khaki.jpg",
-      "http://catalog.raznobyt.com/images/products/TR S-48/colors/777-Cedar.jpg",
-      "http://catalog.raznobyt.com/images/products/TR S-48/colors/778-Chokolate.jpg",
-      "http://catalog.raznobyt.com/images/products/TR S-48/colors/781-Silver.jpg",
-      "http://catalog.raznobyt.com/images/products/TR S-48/colors/784-Grey.jpg",
-      "http://catalog.raznobyt.com/images/products/TR S-48/colors/785-Steel.jpg",
-      "http://catalog.raznobyt.com/images/products/TR S-48/colors/786-Charcoal.jpg",
-      "http://catalog.raznobyt.com/images/products/TR S-48/colors/789-Charcoal.jpg",
-      "http://catalog.raznobyt.com/images/products/TR S-48/colors/794-Black.jpg"
+      "http://catalog.raznobyt.com/images/products/TRS-48/main/740 DEEP PURPLE.jpg",
+      "http://catalog.raznobyt.com/images/products/TRS-48/757 NAVY.jpg",
+      "http://catalog.raznobyt.com/images/products/TRS-48/794 BLACK.jpg",
+      "http://catalog.raznobyt.com/images/products/TRS-48/789 PILOT GREY.jpg",
+      "http://catalog.raznobyt.com/images/products/TRS-48/786 CHARCOAL.jpg",
+      "http://catalog.raznobyt.com/images/products/TRS-48/784 GREY.jpg",
+      "http://catalog.raznobyt.com/images/products/TRS-48/785 STEEL.jpg",
+      "http://catalog.raznobyt.com/images/products/TRS-48/781 SILVER.jpg",
+      "http://catalog.raznobyt.com/images/products/TRS-48/778 CHOCOLATE.jpg",
+      "http://catalog.raznobyt.com/images/products/TRS-48/777 CEDAR.jpg",
+      "http://catalog.raznobyt.com/images/products/TRS-48/776 KHAKI.jpg",
+      "http://catalog.raznobyt.com/images/products/TRS-48/768 OLIVE GREEN.jpg",
+      "http://catalog.raznobyt.com/images/products/TRS-48/773 SAND.jpg",
+      "http://catalog.raznobyt.com/images/products/TRS-48/761 OPAL.jpg",
+      "http://catalog.raznobyt.com/images/products/TRS-48/760 AQUA.jpg",
+      "http://catalog.raznobyt.com/images/products/TRS-48/750 TURQUOISE.jpg",
+      "http://catalog.raznobyt.com/images/products/TRS-48/752 SKY.jpg",
+      "http://catalog.raznobyt.com/images/products/TRS-48/730 RED.jpg",
+      "http://catalog.raznobyt.com/images/products/TRS-48/735 MAROON.jpg",
+      "http://catalog.raznobyt.com/images/products/TRS-48/701 WHITE.jpg"
     ],
     "description": {
       "ua": "Змішана тканина саржевого переплетення. Склад: 50% бавовна, 50% поліестр. Щільність 200 г/м². Для корпоративного одягу та уніформи.",
@@ -1586,108 +1579,103 @@
       "width": "150",
       "colors": [
         {
-          "color": "740-Deep Purple",
-          "image": "http://catalog.raznobyt.com/images/products/TR S-48/740-Deep Purple.jpg",
+          "color": "740 DEEP PURPLE",
+          "image": "http://catalog.raznobyt.com/images/products/TRS-48/main/740 DEEP PURPLE.jpg",
           "isMain": true
         },
         {
-          "color": "701-White",
-          "image": "http://catalog.raznobyt.com/images/products/TR S-48/colors/701-White.jpg",
+          "color": "757 NAVY",
+          "image": "http://catalog.raznobyt.com/images/products/TRS-48/757 NAVY.jpg",
           "isMain": false
         },
         {
-          "color": "730-Red",
-          "image": "http://catalog.raznobyt.com/images/products/TR S-48/colors/730-Red.jpg",
+          "color": "794 BLACK",
+          "image": "http://catalog.raznobyt.com/images/products/TRS-48/794 BLACK.jpg",
           "isMain": false
         },
         {
-          "color": "735-Maroon",
-          "image": "http://catalog.raznobyt.com/images/products/TR S-48/colors/735-Maroon.jpg",
+          "color": "789 PILOT GREY",
+          "image": "http://catalog.raznobyt.com/images/products/TRS-48/789 PILOT GREY.jpg",
           "isMain": false
         },
         {
-          "color": "740-Deep Purple",
-          "image": "http://catalog.raznobyt.com/images/products/TR S-48/colors/740-Deep Purple.jpg",
+          "color": "786 CHARCOAL",
+          "image": "http://catalog.raznobyt.com/images/products/TRS-48/786 CHARCOAL.jpg",
           "isMain": false
         },
         {
-          "color": "750-Turquoise",
-          "image": "http://catalog.raznobyt.com/images/products/TR S-48/colors/750-Turquoise.jpg",
+          "color": "784 GREY",
+          "image": "http://catalog.raznobyt.com/images/products/TRS-48/784 GREY.jpg",
           "isMain": false
         },
         {
-          "color": "752-Sky",
-          "image": "http://catalog.raznobyt.com/images/products/TR S-48/colors/752-Sky.jpg",
+          "color": "785 STEEL",
+          "image": "http://catalog.raznobyt.com/images/products/TRS-48/785 STEEL.jpg",
           "isMain": false
         },
         {
-          "color": "757-Navy",
-          "image": "http://catalog.raznobyt.com/images/products/TR S-48/colors/757-Navy.jpg",
+          "color": "781 SILVER",
+          "image": "http://catalog.raznobyt.com/images/products/TRS-48/781 SILVER.jpg",
           "isMain": false
         },
         {
-          "color": "760-Aqua",
-          "image": "http://catalog.raznobyt.com/images/products/TR S-48/colors/760-Aqua.jpg",
+          "color": "778 CHOCOLATE",
+          "image": "http://catalog.raznobyt.com/images/products/TRS-48/778 CHOCOLATE.jpg",
           "isMain": false
         },
         {
-          "color": "761-Opal",
-          "image": "http://catalog.raznobyt.com/images/products/TR S-48/colors/761-Opal.jpg",
+          "color": "777 CEDAR",
+          "image": "http://catalog.raznobyt.com/images/products/TRS-48/777 CEDAR.jpg",
           "isMain": false
         },
         {
-          "color": "768-Olive Green",
-          "image": "http://catalog.raznobyt.com/images/products/TR S-48/colors/768-Olive Green.jpg",
+          "color": "776 KHAKI",
+          "image": "http://catalog.raznobyt.com/images/products/TRS-48/776 KHAKI.jpg",
           "isMain": false
         },
         {
-          "color": "773-Sand",
-          "image": "http://catalog.raznobyt.com/images/products/TR S-48/colors/773-Sand.jpg",
+          "color": "768 OLIVE GREEN",
+          "image": "http://catalog.raznobyt.com/images/products/TRS-48/768 OLIVE GREEN.jpg",
           "isMain": false
         },
         {
-          "color": "776-Khaki",
-          "image": "http://catalog.raznobyt.com/images/products/TR S-48/colors/776-Khaki.jpg",
+          "color": "773 SAND",
+          "image": "http://catalog.raznobyt.com/images/products/TRS-48/773 SAND.jpg",
           "isMain": false
         },
         {
-          "color": "777-Cedar",
-          "image": "http://catalog.raznobyt.com/images/products/TR S-48/colors/777-Cedar.jpg",
+          "color": "761 OPAL",
+          "image": "http://catalog.raznobyt.com/images/products/TRS-48/761 OPAL.jpg",
           "isMain": false
         },
         {
-          "color": "778-Chokolate",
-          "image": "http://catalog.raznobyt.com/images/products/TR S-48/colors/778-Chokolate.jpg",
+          "color": "760 AQUA",
+          "image": "http://catalog.raznobyt.com/images/products/TRS-48/760 AQUA.jpg",
           "isMain": false
         },
         {
-          "color": "781-Silver",
-          "image": "http://catalog.raznobyt.com/images/products/TR S-48/colors/781-Silver.jpg",
+          "color": "750 TURQUOISE",
+          "image": "http://catalog.raznobyt.com/images/products/TRS-48/750 TURQUOISE.jpg",
           "isMain": false
         },
         {
-          "color": "784-Grey",
-          "image": "http://catalog.raznobyt.com/images/products/TR S-48/colors/784-Grey.jpg",
+          "color": "752 SKY",
+          "image": "http://catalog.raznobyt.com/images/products/TRS-48/752 SKY.jpg",
           "isMain": false
         },
         {
-          "color": "785-Steel",
-          "image": "http://catalog.raznobyt.com/images/products/TR S-48/colors/785-Steel.jpg",
+          "color": "730 RED",
+          "image": "http://catalog.raznobyt.com/images/products/TRS-48/730 RED.jpg",
           "isMain": false
         },
         {
-          "color": "786-Charcoal",
-          "image": "http://catalog.raznobyt.com/images/products/TR S-48/colors/786-Charcoal.jpg",
+          "color": "735 MAROON",
+          "image": "http://catalog.raznobyt.com/images/products/TRS-48/735 MAROON.jpg",
           "isMain": false
         },
         {
-          "color": "789-Charcoal",
-          "image": "http://catalog.raznobyt.com/images/products/TR S-48/colors/789-Charcoal.jpg",
-          "isMain": false
-        },
-        {
-          "color": "794-Black",
-          "image": "http://catalog.raznobyt.com/images/products/TR S-48/colors/794-Black.jpg",
+          "color": "701 WHITE",
+          "image": "http://catalog.raznobyt.com/images/products/TRS-48/701 WHITE.jpg",
           "isMain": false
         }
       ],
@@ -2534,12 +2522,12 @@
     }
   },
   {
-    "id": "tkan-personal-",
+    "id": "tkan-personal-9060",
     "category": "personal",
-    "slug": "tkan-personal-",
+    "slug": "tkan-personal-9060",
     "title": {
-      "ua": " ",
-      "ru": " "
+      "ua": "9060",
+      "ru": "9060"
     },
     "isNew": false,
     "images": [
