@@ -48,6 +48,7 @@ export default function ProductCard({ product }) {
               <img src={placeholder} alt="Placeholder" className="image-fallback__inner" loading="lazy" />
             </div>
           )}
+
           <div className="product-card__overlay">
             <span className="product-card__view-btn">{t('common.viewDetails') || 'View Details'}</span>
           </div>
