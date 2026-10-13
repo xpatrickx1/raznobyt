@@ -2622,12 +2622,12 @@
     },
     "isNew": false,
     "images": [
-      "http://catalog.raznobyt.com/images/products/03928/main/18.jpg",
-      "http://catalog.raznobyt.com/images/products/03928/003.jpg",
-      "http://catalog.raznobyt.com/images/products/03928/15.jpg",
-      "http://catalog.raznobyt.com/images/products/03928/054.jpg",
-      "http://catalog.raznobyt.com/images/products/03928/068.jpg",
-      "http://catalog.raznobyt.com/images/products/03928/108.jpg"
+      "http://catalog.raznobyt.com/images/products/03928 DENIM STRETCH/main/003.jpg",
+      "http://catalog.raznobyt.com/images/products/03928 DENIM STRETCH/15.jpg",
+      "http://catalog.raznobyt.com/images/products/03928 DENIM STRETCH/18.jpg",
+      "http://catalog.raznobyt.com/images/products/03928 DENIM STRETCH/54.jpg",
+      "http://catalog.raznobyt.com/images/products/03928 DENIM STRETCH/068.jpg",
+      "http://catalog.raznobyt.com/images/products/03928 DENIM STRETCH/108.jpg"
     ],
     "description": {
       "ua": "Міцна тканина джинсового переплетення. Склад: 48% бавовна, 48% поліестр, 4% стрейч. Щільність 280 г/м². Для робочого одягу.",
@@ -2639,33 +2639,33 @@
       "width": "140",
       "colors": [
         {
-          "color": "18",
-          "image": "http://catalog.raznobyt.com/images/products/03928/main/18.jpg",
+          "color": "003",
+          "image": "http://catalog.raznobyt.com/images/products/03928 DENIM STRETCH/main/003.jpg",
           "isMain": true
         },
         {
-          "color": "003",
-          "image": "http://catalog.raznobyt.com/images/products/03928/003.jpg",
-          "isMain": false
-        },
-        {
           "color": "15",
-          "image": "http://catalog.raznobyt.com/images/products/03928/15.jpg",
+          "image": "http://catalog.raznobyt.com/images/products/03928 DENIM STRETCH/15.jpg",
           "isMain": false
         },
         {
-          "color": "054",
-          "image": "http://catalog.raznobyt.com/images/products/03928/054.jpg",
+          "color": "18",
+          "image": "http://catalog.raznobyt.com/images/products/03928 DENIM STRETCH/18.jpg",
+          "isMain": false
+        },
+        {
+          "color": "54",
+          "image": "http://catalog.raznobyt.com/images/products/03928 DENIM STRETCH/54.jpg",
           "isMain": false
         },
         {
           "color": "068",
-          "image": "http://catalog.raznobyt.com/images/products/03928/068.jpg",
+          "image": "http://catalog.raznobyt.com/images/products/03928 DENIM STRETCH/068.jpg",
           "isMain": false
         },
         {
           "color": "108",
-          "image": "http://catalog.raznobyt.com/images/products/03928/108.jpg",
+          "image": "http://catalog.raznobyt.com/images/products/03928 DENIM STRETCH/108.jpg",
           "isMain": false
         }
       ],
@@ -18673,12 +18673,12 @@
     },
     "isNew": false,
     "images": [
-      "http://catalog.raznobyt.com/images/products/03928/main/18.jpg",
-      "http://catalog.raznobyt.com/images/products/03928/003.jpg",
-      "http://catalog.raznobyt.com/images/products/03928/15.jpg",
-      "http://catalog.raznobyt.com/images/products/03928/054.jpg",
-      "http://catalog.raznobyt.com/images/products/03928/068.jpg",
-      "http://catalog.raznobyt.com/images/products/03928/108.jpg"
+      "http://catalog.raznobyt.com/images/products/03928 DENIM STRETCH/main/003.jpg",
+      "http://catalog.raznobyt.com/images/products/03928 DENIM STRETCH/15.jpg",
+      "http://catalog.raznobyt.com/images/products/03928 DENIM STRETCH/18.jpg",
+      "http://catalog.raznobyt.com/images/products/03928 DENIM STRETCH/54.jpg",
+      "http://catalog.raznobyt.com/images/products/03928 DENIM STRETCH/068.jpg",
+      "http://catalog.raznobyt.com/images/products/03928 DENIM STRETCH/108.jpg"
     ],
     "description": {
       "ua": "48% бавовна,  48% поліестер,  4% стрейч,  280 г/м.кв,  саржа,  140см. Протиусадкова обробка.",
@@ -18690,33 +18690,33 @@
       "width": "140",
       "colors": [
         {
-          "color": "18",
-          "image": "http://catalog.raznobyt.com/images/products/03928/main/18.jpg",
+          "color": "003",
+          "image": "http://catalog.raznobyt.com/images/products/03928 DENIM STRETCH/main/003.jpg",
           "isMain": true
         },
         {
-          "color": "003",
-          "image": "http://catalog.raznobyt.com/images/products/03928/003.jpg",
-          "isMain": false
-        },
-        {
           "color": "15",
-          "image": "http://catalog.raznobyt.com/images/products/03928/15.jpg",
+          "image": "http://catalog.raznobyt.com/images/products/03928 DENIM STRETCH/15.jpg",
           "isMain": false
         },
         {
-          "color": "054",
-          "image": "http://catalog.raznobyt.com/images/products/03928/054.jpg",
+          "color": "18",
+          "image": "http://catalog.raznobyt.com/images/products/03928 DENIM STRETCH/18.jpg",
+          "isMain": false
+        },
+        {
+          "color": "54",
+          "image": "http://catalog.raznobyt.com/images/products/03928 DENIM STRETCH/54.jpg",
           "isMain": false
         },
         {
           "color": "068",
-          "image": "http://catalog.raznobyt.com/images/products/03928/068.jpg",
+          "image": "http://catalog.raznobyt.com/images/products/03928 DENIM STRETCH/068.jpg",
           "isMain": false
         },
         {
           "color": "108",
-          "image": "http://catalog.raznobyt.com/images/products/03928/108.jpg",
+          "image": "http://catalog.raznobyt.com/images/products/03928 DENIM STRETCH/108.jpg",
           "isMain": false
         }
       ],
