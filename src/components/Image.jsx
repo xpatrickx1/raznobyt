@@ -11,6 +11,7 @@ const Image = ({ src, alt, className, loading = 'lazy', ...props }) => {
     if (state.error || !src) {
         return (
             <div className={`image-fallback ${className || ''}`}>
+                <p className="text-center">{src}</p>
                 <img
                     src={placeholder}
                     alt="Placeholder"

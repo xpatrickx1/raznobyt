@@ -486,7 +486,7 @@
     },
     "isNew": false,
     "images": [
-      "http://catalog.raznobyt.com/images/products/TR-MED/main/Bell Blue.jpg",
+      "http://catalog.raznobyt.com/images/products/TR-MED/main/756 Bell Blue.jpg",
       "http://catalog.raznobyt.com/images/products/TR-MED/701-White.jpg",
       "http://catalog.raznobyt.com/images/products/TR-MED/710-Yellow.jpg",
       "http://catalog.raznobyt.com/images/products/TR-MED/735-Maroon.jpg",
@@ -524,8 +524,8 @@
       "width": "150",
       "colors": [
         {
-          "color": "Bell Blue",
-          "image": "http://catalog.raznobyt.com/images/products/TR-MED/main/Bell Blue.jpg",
+          "color": "756 Bell Blue",
+          "image": "http://catalog.raznobyt.com/images/products/TR-MED/main/756 Bell Blue.jpg",
           "isMain": true
         },
         {
@@ -1398,7 +1398,10 @@
       "ru": "VFG-2160"
     },
     "isNew": false,
-    "images": [],
+    "images": [
+      "http://catalog.raznobyt.com/images/products/VFG-2160/main/MINT.jpg",
+      "http://catalog.raznobyt.com/images/products/VFG-2160/701 WHITE.jpg"
+    ],
     "description": {
       "ua": "Змішана тканина. Склад: 51% бавовна, 49% поліестр. Щільність 175. Саржеве переплетення 2/1.",
       "ru": "Смесовая ткань. Состав: 51% хлопок, 49% полиэстер. Плотность 175. Саржевое переплетение 2/1."
@@ -1407,7 +1410,18 @@
       "fabricType": "twill",
       "density": "175",
       "width": "150",
-      "colors": [],
+      "colors": [
+        {
+          "color": "MINT",
+          "image": "http://catalog.raznobyt.com/images/products/VFG-2160/main/MINT.jpg",
+          "isMain": true
+        },
+        {
+          "color": "701 WHITE",
+          "image": "http://catalog.raznobyt.com/images/products/VFG-2160/701 WHITE.jpg",
+          "isMain": false
+        }
+      ],
       "properties": [],
       "composition": {
         "cotton": 51,
@@ -1441,151 +1455,23 @@
       "ru": "VLP-4206"
     },
     "isNew": false,
-    "images": [
-      "http://catalog.raznobyt.com/images/products/VLP-4206/main/61233.jpg",
-      "http://catalog.raznobyt.com/images/products/VLP-4206/784 Grey.jpg",
-      "http://catalog.raznobyt.com/images/products/VLP-4206/60563.jpg",
-      "http://catalog.raznobyt.com/images/products/VLP-4206/62709.jpg",
-      "http://catalog.raznobyt.com/images/products/VLP-4206/95449.jpg",
-      "http://catalog.raznobyt.com/images/products/VLP-4206/97019T.jpg",
-      "http://catalog.raznobyt.com/images/products/VLP-4206/98060.jpg",
-      "http://catalog.raznobyt.com/images/products/VLP-4206/99017.jpg",
-      "http://catalog.raznobyt.com/images/products/VLP-4206/Cacao.jpg",
-      "http://catalog.raznobyt.com/images/products/VLP-4206/Candy.jpg",
-      "http://catalog.raznobyt.com/images/products/VLP-4206/Cornflower Blue.jpg",
-      "http://catalog.raznobyt.com/images/products/VLP-4206/Grass.jpg",
-      "http://catalog.raznobyt.com/images/products/VLP-4206/Ice White.jpg",
-      "http://catalog.raznobyt.com/images/products/VLP-4206/IRIS.jpg",
-      "http://catalog.raznobyt.com/images/products/VLP-4206/Mauve.jpg",
-      "http://catalog.raznobyt.com/images/products/VLP-4206/Oak Leaf.jpg",
-      "http://catalog.raznobyt.com/images/products/VLP-4206/Ocean.jpg",
-      "http://catalog.raznobyt.com/images/products/VLP-4206/Purple Ash.jpg",
-      "http://catalog.raznobyt.com/images/products/VLP-4206/Tea Rose.jpg",
-      "http://catalog.raznobyt.com/images/products/VLP-4206/Teal.jpg",
-      "http://catalog.raznobyt.com/images/products/VLP-4206/Vanillian.jpg"
-    ],
+    "images": [],
     "description": {
-      "ua": "Змішана тканина з ефектом стрейч. Склад: 57% бавовна, 39% поліестр, 4% стрейч. Щільність 140. Саржеве переплетення 2/1.",
-      "ru": "Смесовая ткань с эффектом стретч. Состав: 57% хлопок, 39% полиэстер, 4% стретч. Плотность 140. Саржевое переплетение 2/1."
+      "ua": "Легка тканина з ефектом стрейч. Склад: 57% бавовна, 39% поліестр, 4% стрейч. Щільність 140 г/м². Полотняне переплетення.",
+      "ru": "Легкая ткань с эффектом стретч. Состав: 57% хлопок, 39% полиэстер, 4% стретч. Плотность 140 г/м². Полотняное плетение."
     },
     "attributes": {
-      "fabricType": "twill",
-      "density": "140",
+      "fabricType": "полотно",
+      "density": "134",
       "width": "150",
-      "colors": [
-        {
-          "color": "61233",
-          "image": "http://catalog.raznobyt.com/images/products/VLP-4206/main/61233.jpg",
-          "isMain": true
-        },
-        {
-          "color": "784 Grey",
-          "image": "http://catalog.raznobyt.com/images/products/VLP-4206/784 Grey.jpg",
-          "isMain": false
-        },
-        {
-          "color": "60563",
-          "image": "http://catalog.raznobyt.com/images/products/VLP-4206/60563.jpg",
-          "isMain": false
-        },
-        {
-          "color": "62709",
-          "image": "http://catalog.raznobyt.com/images/products/VLP-4206/62709.jpg",
-          "isMain": false
-        },
-        {
-          "color": "95449",
-          "image": "http://catalog.raznobyt.com/images/products/VLP-4206/95449.jpg",
-          "isMain": false
-        },
-        {
-          "color": "97019T",
-          "image": "http://catalog.raznobyt.com/images/products/VLP-4206/97019T.jpg",
-          "isMain": false
-        },
-        {
-          "color": "98060",
-          "image": "http://catalog.raznobyt.com/images/products/VLP-4206/98060.jpg",
-          "isMain": false
-        },
-        {
-          "color": "99017",
-          "image": "http://catalog.raznobyt.com/images/products/VLP-4206/99017.jpg",
-          "isMain": false
-        },
-        {
-          "color": "Cacao",
-          "image": "http://catalog.raznobyt.com/images/products/VLP-4206/Cacao.jpg",
-          "isMain": false
-        },
-        {
-          "color": "Candy",
-          "image": "http://catalog.raznobyt.com/images/products/VLP-4206/Candy.jpg",
-          "isMain": false
-        },
-        {
-          "color": "Cornflower Blue",
-          "image": "http://catalog.raznobyt.com/images/products/VLP-4206/Cornflower Blue.jpg",
-          "isMain": false
-        },
-        {
-          "color": "Grass",
-          "image": "http://catalog.raznobyt.com/images/products/VLP-4206/Grass.jpg",
-          "isMain": false
-        },
-        {
-          "color": "Ice White",
-          "image": "http://catalog.raznobyt.com/images/products/VLP-4206/Ice White.jpg",
-          "isMain": false
-        },
-        {
-          "color": "IRIS",
-          "image": "http://catalog.raznobyt.com/images/products/VLP-4206/IRIS.jpg",
-          "isMain": false
-        },
-        {
-          "color": "Mauve",
-          "image": "http://catalog.raznobyt.com/images/products/VLP-4206/Mauve.jpg",
-          "isMain": false
-        },
-        {
-          "color": "Oak Leaf",
-          "image": "http://catalog.raznobyt.com/images/products/VLP-4206/Oak Leaf.jpg",
-          "isMain": false
-        },
-        {
-          "color": "Ocean",
-          "image": "http://catalog.raznobyt.com/images/products/VLP-4206/Ocean.jpg",
-          "isMain": false
-        },
-        {
-          "color": "Purple Ash",
-          "image": "http://catalog.raznobyt.com/images/products/VLP-4206/Purple Ash.jpg",
-          "isMain": false
-        },
-        {
-          "color": "Tea Rose",
-          "image": "http://catalog.raznobyt.com/images/products/VLP-4206/Tea Rose.jpg",
-          "isMain": false
-        },
-        {
-          "color": "Teal",
-          "image": "http://catalog.raznobyt.com/images/products/VLP-4206/Teal.jpg",
-          "isMain": false
-        },
-        {
-          "color": "Vanillian",
-          "image": "http://catalog.raznobyt.com/images/products/VLP-4206/Vanillian.jpg",
-          "isMain": false
-        }
-      ],
+      "colors": [],
       "properties": [],
       "composition": {
         "cotton": 57,
         "polyester": 39,
-        "spandex": 4,
+        "spandex": 0,
         "rayon": 0,
-        "viscose": 0,
+        "viscose": 4,
         "pbt": 0,
         "lyon": 0,
         "polyamide PA": 0,

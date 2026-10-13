@@ -8,11 +8,14 @@
       "ru": "Defender® M DM 9210"
     },
     "isNew": false,
-    "images": [],
+    "images": [
+      "http://catalog.raznobyt.com/images/products/Defender® M DM 9210/main/35227 OLIVE.jpg",
+      "http://catalog.raznobyt.com/images/products/Defender® M DM 9210/35290 COYOT.jpg"
+    ],
     "videos": [
-      "http://catalog.raznobyt.com/images/products/Defender® M DM 9210/video/TenCate1-Defender-M.mp4",
-      "http://catalog.raznobyt.com/images/products/Defender® M DM 9210/video/Defender1.mp4",
-      "http://catalog.raznobyt.com/images/products/Defender® M DM 9210/video/tencate-defender-m.mp4"
+      "http://catalog.raznobyt.com/images/products/Defender® M DM 9210/Defender1.mp4",
+      "http://catalog.raznobyt.com/images/products/Defender® M DM 9210/TenCate1-Defender-M.mp4",
+      "http://catalog.raznobyt.com/images/products/Defender® M DM 9210/tencate-defender-m.mp4"
     ],
     "description": {
       "ua": "Високоякісна вогнестійка та антистатична тканина з масловодовідштовхувальним просоченням (МВО). Склад: FR Rayon/пара-арамід/поліамід/антистатик. Щільність 210 г/м2. Забезпечує надійний захист від термічних ризиків та статичної електрики.",
@@ -22,7 +25,18 @@
       "fabricType": "twill",
       "density": "210",
       "width": "163",
-      "colors": [],
+      "colors": [
+        {
+          "color": "35227 OLIVE",
+          "image": "http://catalog.raznobyt.com/images/products/Defender® M DM 9210/main/35227 OLIVE.jpg",
+          "isMain": true
+        },
+        {
+          "color": "35290 COYOT",
+          "image": "http://catalog.raznobyt.com/images/products/Defender® M DM 9210/35290 COYOT.jpg",
+          "isMain": false
+        }
+      ],
       "properties": [],
       "composition": {
         "cotton": 0,
@@ -56,7 +70,9 @@
       "ru": "Defender® M DP 9180"
     },
     "isNew": false,
-    "images": [],
+    "images": [
+      "http://catalog.raznobyt.com/images/products/Defender® M DP 9180/main/35268 (BLACK).jpg"
+    ],
     "videos": [
       "http://catalog.raznobyt.com/images/products/Defender® M DM 9210/video/TenCate1-Defender-M.mp4",
       "http://catalog.raznobyt.com/images/products/Defender® M DM 9210/video/Defender1.mp4",
@@ -70,7 +86,13 @@
       "fabricType": "twill",
       "density": "210",
       "width": "163",
-      "colors": [],
+      "colors": [
+        {
+          "color": "35268 (BLACK)",
+          "image": "http://catalog.raznobyt.com/images/products/Defender® M DP 9180/main/35268 (BLACK).jpg",
+          "isMain": true
+        }
+      ],
       "properties": [],
       "composition": {
         "cotton": 0,
@@ -104,7 +126,9 @@
       "ru": "Defender® M DP 9210"
     },
     "isNew": false,
-    "images": [],
+    "images": [
+      "http://catalog.raznobyt.com/images/products/Defender® M DP 9210/main/35268 (BLACK).jpg"
+    ],
     "videos": [
       "http://catalog.raznobyt.com/images/products/Defender® M DM 9210/video/TenCate1-Defender-M.mp4",
       "http://catalog.raznobyt.com/images/products/Defender® M DM 9210/video/Defender1.mp4",
@@ -118,7 +142,13 @@
       "fabricType": "twill",
       "density": "210",
       "width": "163",
-      "colors": [],
+      "colors": [
+        {
+          "color": "35268 (BLACK)",
+          "image": "http://catalog.raznobyt.com/images/products/Defender® M DP 9210/main/35268 (BLACK).jpg",
+          "isMain": true
+        }
+      ],
       "properties": [],
       "composition": {
         "cotton": 0,

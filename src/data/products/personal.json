@@ -1891,150 +1891,22 @@
       "ru": "VLP-4206"
     },
     "isNew": false,
-    "images": [
-      "http://catalog.raznobyt.com/images/products/VLP-4206/main/61233.jpg",
-      "http://catalog.raznobyt.com/images/products/VLP-4206/784 Grey.jpg",
-      "http://catalog.raznobyt.com/images/products/VLP-4206/60563.jpg",
-      "http://catalog.raznobyt.com/images/products/VLP-4206/62709.jpg",
-      "http://catalog.raznobyt.com/images/products/VLP-4206/95449.jpg",
-      "http://catalog.raznobyt.com/images/products/VLP-4206/97019T.jpg",
-      "http://catalog.raznobyt.com/images/products/VLP-4206/98060.jpg",
-      "http://catalog.raznobyt.com/images/products/VLP-4206/99017.jpg",
-      "http://catalog.raznobyt.com/images/products/VLP-4206/Cacao.jpg",
-      "http://catalog.raznobyt.com/images/products/VLP-4206/Candy.jpg",
-      "http://catalog.raznobyt.com/images/products/VLP-4206/Cornflower Blue.jpg",
-      "http://catalog.raznobyt.com/images/products/VLP-4206/Grass.jpg",
-      "http://catalog.raznobyt.com/images/products/VLP-4206/Ice White.jpg",
-      "http://catalog.raznobyt.com/images/products/VLP-4206/IRIS.jpg",
-      "http://catalog.raznobyt.com/images/products/VLP-4206/Mauve.jpg",
-      "http://catalog.raznobyt.com/images/products/VLP-4206/Oak Leaf.jpg",
-      "http://catalog.raznobyt.com/images/products/VLP-4206/Ocean.jpg",
-      "http://catalog.raznobyt.com/images/products/VLP-4206/Purple Ash.jpg",
-      "http://catalog.raznobyt.com/images/products/VLP-4206/Tea Rose.jpg",
-      "http://catalog.raznobyt.com/images/products/VLP-4206/Teal.jpg",
-      "http://catalog.raznobyt.com/images/products/VLP-4206/Vanillian.jpg"
-    ],
+    "images": [],
     "description": {
-      "ua": "Легка тканина з ефектом стрейч. Склад: 57% бавовна, 39% поліестр, 4% стрейч. Щільність 140 г/м². Саржеве переплетення 2/1. Для літньої уніформи.",
-      "ru": "Легкая ткань с эффектом стретч. Состав: 57% хлопок, 39% полиэстер, 4% стретч. Плотность 140 г/м². Саржевое переплетение 2/1. Для летней униформы."
+      "ua": "Легка тканина з ефектом стрейч. Склад: 57% бавовна, 39% поліестр, 4% стрейч. Щільність 140 г/м². Полотняне переплетення.",
+      "ru": "Легкая ткань с эффектом стретч. Состав: 57% хлопок, 39% полиэстер, 4% стретч. Плотность 140 г/м². Полотняное плетение."
     },
     "attributes": {
-      "fabricType": "twill",
-      "density": "140",
+      "fabricType": "полотно",
+      "density": "134",
       "width": "150",
-      "colors": [
-        {
-          "color": "61233",
-          "image": "http://catalog.raznobyt.com/images/products/VLP-4206/main/61233.jpg",
-          "isMain": true
-        },
-        {
-          "color": "784 Grey",
-          "image": "http://catalog.raznobyt.com/images/products/VLP-4206/784 Grey.jpg",
-          "isMain": false
-        },
-        {
-          "color": "60563",
-          "image": "http://catalog.raznobyt.com/images/products/VLP-4206/60563.jpg",
-          "isMain": false
-        },
-        {
-          "color": "62709",
-          "image": "http://catalog.raznobyt.com/images/products/VLP-4206/62709.jpg",
-          "isMain": false
-        },
-        {
-          "color": "95449",
-          "image": "http://catalog.raznobyt.com/images/products/VLP-4206/95449.jpg",
-          "isMain": false
-        },
-        {
-          "color": "97019T",
-          "image": "http://catalog.raznobyt.com/images/products/VLP-4206/97019T.jpg",
-          "isMain": false
-        },
-        {
-          "color": "98060",
-          "image": "http://catalog.raznobyt.com/images/products/VLP-4206/98060.jpg",
-          "isMain": false
-        },
-        {
-          "color": "99017",
-          "image": "http://catalog.raznobyt.com/images/products/VLP-4206/99017.jpg",
-          "isMain": false
-        },
-        {
-          "color": "Cacao",
-          "image": "http://catalog.raznobyt.com/images/products/VLP-4206/Cacao.jpg",
-          "isMain": false
-        },
-        {
-          "color": "Candy",
-          "image": "http://catalog.raznobyt.com/images/products/VLP-4206/Candy.jpg",
-          "isMain": false
-        },
-        {
-          "color": "Cornflower Blue",
-          "image": "http://catalog.raznobyt.com/images/products/VLP-4206/Cornflower Blue.jpg",
-          "isMain": false
-        },
-        {
-          "color": "Grass",
-          "image": "http://catalog.raznobyt.com/images/products/VLP-4206/Grass.jpg",
-          "isMain": false
-        },
-        {
-          "color": "Ice White",
-          "image": "http://catalog.raznobyt.com/images/products/VLP-4206/Ice White.jpg",
-          "isMain": false
-        },
-        {
-          "color": "IRIS",
-          "image": "http://catalog.raznobyt.com/images/products/VLP-4206/IRIS.jpg",
-          "isMain": false
-        },
-        {
-          "color": "Mauve",
-          "image": "http://catalog.raznobyt.com/images/products/VLP-4206/Mauve.jpg",
-          "isMain": false
-        },
-        {
-          "color": "Oak Leaf",
-          "image": "http://catalog.raznobyt.com/images/products/VLP-4206/Oak Leaf.jpg",
-          "isMain": false
-        },
-        {
-          "color": "Ocean",
-          "image": "http://catalog.raznobyt.com/images/products/VLP-4206/Ocean.jpg",
-          "isMain": false
-        },
-        {
-          "color": "Purple Ash",
-          "image": "http://catalog.raznobyt.com/images/products/VLP-4206/Purple Ash.jpg",
-          "isMain": false
-        },
-        {
-          "color": "Tea Rose",
-          "image": "http://catalog.raznobyt.com/images/products/VLP-4206/Tea Rose.jpg",
-          "isMain": false
-        },
-        {
-          "color": "Teal",
-          "image": "http://catalog.raznobyt.com/images/products/VLP-4206/Teal.jpg",
-          "isMain": false
-        },
-        {
-          "color": "Vanillian",
-          "image": "http://catalog.raznobyt.com/images/products/VLP-4206/Vanillian.jpg",
-          "isMain": false
-        }
-      ],
+      "colors": [],
       "properties": [],
       "composition": {
         "cotton": 57,
         "polyester": 39,
-        "spandex": 4,
-        "rayon": 0,
+        "spandex": 0,
+        "rayon": 4,
         "viscose": 0,
         "pbt": 0,
         "lyon": 0,
