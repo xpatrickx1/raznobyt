@@ -1,11 +1,11 @@
 [
   {
-    "id": "tkan-shirts-263",
+    "id": "tkan-shirts-a263",
     "category": "shirts",
     "subcat": [
       "linen"
     ],
-    "slug": "tkan-shirts-263",
+    "slug": "tkan-shirts-a263",
     "title": {
       "ua": "А263",
       "ru": "А263"
@@ -438,13 +438,13 @@
     }
   },
   {
-    "id": "tkan-shirts-353",
+    "id": "tkan-shirts-a353",
     "category": "shirts",
     "subcat": [
       "square",
       "cotton100"
     ],
-    "slug": "tkan-shirts-353",
+    "slug": "tkan-shirts-a353",
     "title": {
       "ua": "А353",
       "ru": "А353"
@@ -499,13 +499,13 @@
     }
   },
   {
-    "id": "tkan-shirts-331",
+    "id": "tkan-shirts-a331",
     "category": "shirts",
     "subcat": [
       "square",
       "cotton100"
     ],
-    "slug": "tkan-shirts-331",
+    "slug": "tkan-shirts-a331",
     "title": {
       "ua": "А331",
       "ru": "А331"
@@ -729,13 +729,13 @@
     }
   },
   {
-    "id": "tkan-shirts-112",
+    "id": "tkan-shirts-a112",
     "category": "shirts",
     "subcat": [
       "square",
       "cotton100"
     ],
-    "slug": "tkan-shirts-112",
+    "slug": "tkan-shirts-a112",
     "title": {
       "ua": "А112",
       "ru": "А112"
@@ -1333,12 +1333,12 @@
     }
   },
   {
-    "id": "tkan-shirts-196",
+    "id": "tkan-shirts-a196",
     "category": "shirts",
     "subcat": [
       "cotton100"
     ],
-    "slug": "tkan-shirts-196",
+    "slug": "tkan-shirts-a196",
     "title": {
       "ua": "А196",
       "ru": "А196"
@@ -1405,12 +1405,12 @@
     }
   },
   {
-    "id": "tkan-shirts-359",
+    "id": "tkan-shirts-a359",
     "category": "shirts",
     "subcat": [
       "cotton100"
     ],
-    "slug": "tkan-shirts-359",
+    "slug": "tkan-shirts-a359",
     "title": {
       "ua": "А359",
       "ru": "А359"
@@ -1561,12 +1561,12 @@
     }
   },
   {
-    "id": "tkan-shirts-042",
+    "id": "tkan-shirts-a042",
     "category": "shirts",
     "subcat": [
       "cotton100"
     ],
-    "slug": "tkan-shirts-042",
+    "slug": "tkan-shirts-a042",
     "title": {
       "ua": "А042",
       "ru": "А042"
@@ -1607,12 +1607,12 @@
     }
   },
   {
-    "id": "tkan-shirts-573",
+    "id": "tkan-shirts-a573",
     "category": "shirts",
     "subcat": [
       "cotton100"
     ],
-    "slug": "tkan-shirts-573",
+    "slug": "tkan-shirts-a573",
     "title": {
       "ua": "А573",
       "ru": "А573"
@@ -1734,7 +1734,7 @@
       "ru": "100% бавовна  легкая, комфортная, дышащая"
     },
     "attributes": {
-      "fabricType": "полотно ",
+      "fabricType": "полотно",
       "density": "122",
       "width": "150",
       "colors": [
@@ -1769,12 +1769,12 @@
     }
   },
   {
-    "id": "tkan-shirts-477",
+    "id": "tkan-shirts-a477",
     "category": "shirts",
     "subcat": [
       "cotton100"
     ],
-    "slug": "tkan-shirts-477",
+    "slug": "tkan-shirts-a477",
     "title": {
       "ua": "А477",
       "ru": "А477"
@@ -2085,13 +2085,13 @@
     }
   },
   {
-    "id": "tkan-shirts-202",
+    "id": "tkan-shirts-a202",
     "category": "shirts",
     "subcat": [
       "square",
       "cotton100"
     ],
-    "slug": "tkan-shirts-202",
+    "slug": "tkan-shirts-a202",
     "title": {
       "ua": "А202",
       "ru": "А202"
@@ -2357,12 +2357,12 @@
     }
   },
   {
-    "id": "tkan-shirts-561",
+    "id": "tkan-shirts-a561",
     "category": "shirts",
     "subcat": [
       "cotton100"
     ],
-    "slug": "tkan-shirts-561",
+    "slug": "tkan-shirts-a561",
     "title": {
       "ua": "А561",
       "ru": "А561"
@@ -2411,13 +2411,13 @@
     }
   },
   {
-    "id": "tkan-shirts-489",
+    "id": "tkan-shirts-a489",
     "category": "shirts",
     "subcat": [
       "square",
       "cotton100"
     ],
-    "slug": "tkan-shirts-489",
+    "slug": "tkan-shirts-a489",
     "title": {
       "ua": "А489",
       "ru": "А489"
@@ -2466,12 +2466,12 @@
     }
   },
   {
-    "id": "tkan-shirts-469",
+    "id": "tkan-shirts-a469",
     "category": "shirts",
     "subcat": [
       "cotton100"
     ],
-    "slug": "tkan-shirts-469",
+    "slug": "tkan-shirts-a469",
     "title": {
       "ua": "А469",
       "ru": "А469"
@@ -2520,13 +2520,13 @@
     }
   },
   {
-    "id": "tkan-shirts-325",
+    "id": "tkan-shirts-a325",
     "category": "shirts",
     "subcat": [
       "strip",
       "cotton100"
     ],
-    "slug": "tkan-shirts-325",
+    "slug": "tkan-shirts-a325",
     "title": {
       "ua": "А325",
       "ru": "А325"
@@ -2581,13 +2581,13 @@
     }
   },
   {
-    "id": "tkan-shirts-197",
+    "id": "tkan-shirts-a197",
     "category": "shirts",
     "subcat": [
       "strip",
       "cotton100"
     ],
-    "slug": "tkan-shirts-197",
+    "slug": "tkan-shirts-a197",
     "title": {
       "ua": "А197",
       "ru": "А197"
@@ -3054,13 +3054,13 @@
     }
   },
   {
-    "id": "tkan-shirts-509",
+    "id": "tkan-shirts-a509",
     "category": "shirts",
     "subcat": [
       "print",
       "cotton100"
     ],
-    "slug": "tkan-shirts-509",
+    "slug": "tkan-shirts-a509",
     "title": {
       "ua": "А509",
       "ru": "А509"
@@ -3109,13 +3109,13 @@
     }
   },
   {
-    "id": "tkan-shirts-044",
+    "id": "tkan-shirts-a044",
     "category": "shirts",
     "subcat": [
       "print",
       "cotton100"
     ],
-    "slug": "tkan-shirts-044",
+    "slug": "tkan-shirts-a044",
     "title": {
       "ua": "А044",
       "ru": "А044"
@@ -3164,13 +3164,13 @@
     }
   },
   {
-    "id": "tkan-shirts-042-2",
+    "id": "tkan-shirts-a042-2",
     "category": "shirts",
     "subcat": [
       "print",
       "cotton100"
     ],
-    "slug": "tkan-shirts-042-2",
+    "slug": "tkan-shirts-a042-2",
     "title": {
       "ua": "А042",
       "ru": "А042"
@@ -3684,12 +3684,12 @@
     }
   },
   {
-    "id": "tkan-shirts-112-2",
+    "id": "tkan-shirts-v112",
     "category": "shirts",
     "subcat": [
       "cotton80"
     ],
-    "slug": "tkan-shirts-112-2",
+    "slug": "tkan-shirts-v112",
     "title": {
       "ua": "В112",
       "ru": "В112"
@@ -4344,12 +4344,12 @@
     }
   },
   {
-    "id": "tkan-shirts-a477",
+    "id": "tkan-shirts-a477-2",
     "category": "shirts",
     "subcat": [
       "cotton100"
     ],
-    "slug": "tkan-shirts-a477",
+    "slug": "tkan-shirts-a477-2",
     "title": {
       "ua": "A477",
       "ru": "A477"

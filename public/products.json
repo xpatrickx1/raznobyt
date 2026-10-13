@@ -3444,9 +3444,9 @@
     }
   },
   {
-    "id": "tkan-workwear-",
+    "id": "tkan-workwear-nakolinnyk",
     "category": "workwear",
-    "slug": "tkan-workwear-",
+    "slug": "tkan-workwear-nakolinnyk",
     "title": {
       "ua": "Наколінник",
       "ru": "Наколінник"
@@ -6310,9 +6310,9 @@
     }
   },
   {
-    "id": "tkan-industrial-",
+    "id": "tkan-industrial-nakolinnyk",
     "category": "industrial",
-    "slug": "tkan-industrial-",
+    "slug": "tkan-industrial-nakolinnyk",
     "title": {
       "ua": "Наколінник",
       "ru": "Наколінник"
@@ -6369,7 +6369,9 @@
       "ru": "MK-9014"
     },
     "isNew": false,
-    "images": [],
+    "images": [
+      "http://catalog.raznobyt.com/images/products/MK-9014/main/65287.jpg"
+    ],
     "description": {
       "ua": "99% поліестер, 1% антистатична нитка 290г/м.кв Кислотозахисна",
       "ru": "99% полиестер, 1% антистатическая нить 290г/м.кв Кислотозащитная"
@@ -6378,7 +6380,13 @@
       "fabricType": "полотно",
       "density": "290",
       "width": "160",
-      "colors": [],
+      "colors": [
+        {
+          "color": "65287",
+          "image": "http://catalog.raznobyt.com/images/products/MK-9014/main/65287.jpg",
+          "isMain": true
+        }
+      ],
       "properties": [],
       "composition": {
         "cotton": 0,
@@ -7071,7 +7079,7 @@
     },
     "isNew": false,
     "images": [
-      "http://catalog.raznobyt.com/images/products/TR-MED/main/Bell Blue.jpg",
+      "http://catalog.raznobyt.com/images/products/TR-MED/main/756 Bell Blue.jpg",
       "http://catalog.raznobyt.com/images/products/TR-MED/701-White.jpg",
       "http://catalog.raznobyt.com/images/products/TR-MED/710-Yellow.jpg",
       "http://catalog.raznobyt.com/images/products/TR-MED/735-Maroon.jpg",
@@ -7109,8 +7117,8 @@
       "width": "150",
       "colors": [
         {
-          "color": "Bell Blue",
-          "image": "http://catalog.raznobyt.com/images/products/TR-MED/main/Bell Blue.jpg",
+          "color": "756 Bell Blue",
+          "image": "http://catalog.raznobyt.com/images/products/TR-MED/main/756 Bell Blue.jpg",
           "isMain": true
         },
         {
@@ -8209,7 +8217,10 @@
       "ru": "VFG-2160"
     },
     "isNew": false,
-    "images": [],
+    "images": [
+      "http://catalog.raznobyt.com/images/products/VFG-2160/main/MINT.jpg",
+      "http://catalog.raznobyt.com/images/products/VFG-2160/701 WHITE.jpg"
+    ],
     "description": {
       "ua": "Змішана тканина саржевого переплетення. Склад: 51% бавовна, 49% поліестр. Щільність 175 г/м². Для комфортної уніформи персоналу.",
       "ru": "Смесовая ткань саржевого переплетения. Состав: 51% хлопок, 49% полиэстер. Плотность 175 г/м². Для комфортной униформы персонала."
@@ -8218,7 +8229,18 @@
       "fabricType": "twill",
       "density": "175",
       "width": "150",
-      "colors": [],
+      "colors": [
+        {
+          "color": "MINT",
+          "image": "http://catalog.raznobyt.com/images/products/VFG-2160/main/MINT.jpg",
+          "isMain": true
+        },
+        {
+          "color": "701 WHITE",
+          "image": "http://catalog.raznobyt.com/images/products/VFG-2160/701 WHITE.jpg",
+          "isMain": false
+        }
+      ],
       "properties": [],
       "composition": {
         "cotton": 51,
@@ -10509,12 +10531,12 @@
     }
   },
   {
-    "id": "tkan-shirts-263",
+    "id": "tkan-shirts-a263",
     "category": "shirts",
     "subcat": [
       "linen"
     ],
-    "slug": "tkan-shirts-263",
+    "slug": "tkan-shirts-a263",
     "title": {
       "ua": "А263",
       "ru": "А263"
@@ -10947,13 +10969,13 @@
     }
   },
   {
-    "id": "tkan-shirts-353",
+    "id": "tkan-shirts-a353",
     "category": "shirts",
     "subcat": [
       "square",
       "cotton100"
     ],
-    "slug": "tkan-shirts-353",
+    "slug": "tkan-shirts-a353",
     "title": {
       "ua": "А353",
       "ru": "А353"
@@ -11008,13 +11030,13 @@
     }
   },
   {
-    "id": "tkan-shirts-331",
+    "id": "tkan-shirts-a331",
     "category": "shirts",
     "subcat": [
       "square",
       "cotton100"
     ],
-    "slug": "tkan-shirts-331",
+    "slug": "tkan-shirts-a331",
     "title": {
       "ua": "А331",
       "ru": "А331"
@@ -11238,13 +11260,13 @@
     }
   },
   {
-    "id": "tkan-shirts-112",
+    "id": "tkan-shirts-a112",
     "category": "shirts",
     "subcat": [
       "square",
       "cotton100"
     ],
-    "slug": "tkan-shirts-112",
+    "slug": "tkan-shirts-a112",
     "title": {
       "ua": "А112",
       "ru": "А112"
@@ -11842,12 +11864,12 @@
     }
   },
   {
-    "id": "tkan-shirts-196",
+    "id": "tkan-shirts-a196",
     "category": "shirts",
     "subcat": [
       "cotton100"
     ],
-    "slug": "tkan-shirts-196",
+    "slug": "tkan-shirts-a196",
     "title": {
       "ua": "А196",
       "ru": "А196"
@@ -11914,12 +11936,12 @@
     }
   },
   {
-    "id": "tkan-shirts-359",
+    "id": "tkan-shirts-a359",
     "category": "shirts",
     "subcat": [
       "cotton100"
     ],
-    "slug": "tkan-shirts-359",
+    "slug": "tkan-shirts-a359",
     "title": {
       "ua": "А359",
       "ru": "А359"
@@ -12070,12 +12092,12 @@
     }
   },
   {
-    "id": "tkan-shirts-042",
+    "id": "tkan-shirts-a042",
     "category": "shirts",
     "subcat": [
       "cotton100"
     ],
-    "slug": "tkan-shirts-042",
+    "slug": "tkan-shirts-a042",
     "title": {
       "ua": "А042",
       "ru": "А042"
@@ -12116,12 +12138,12 @@
     }
   },
   {
-    "id": "tkan-shirts-573",
+    "id": "tkan-shirts-a573",
     "category": "shirts",
     "subcat": [
       "cotton100"
     ],
-    "slug": "tkan-shirts-573",
+    "slug": "tkan-shirts-a573",
     "title": {
       "ua": "А573",
       "ru": "А573"
@@ -12243,7 +12265,7 @@
       "ru": "100% бавовна  легкая, комфортная, дышащая"
     },
     "attributes": {
-      "fabricType": "полотно ",
+      "fabricType": "полотно",
       "density": "122",
       "width": "150",
       "colors": [
@@ -12278,12 +12300,12 @@
     }
   },
   {
-    "id": "tkan-shirts-477",
+    "id": "tkan-shirts-a477",
     "category": "shirts",
     "subcat": [
       "cotton100"
     ],
-    "slug": "tkan-shirts-477",
+    "slug": "tkan-shirts-a477",
     "title": {
       "ua": "А477",
       "ru": "А477"
@@ -12594,13 +12616,13 @@
     }
   },
   {
-    "id": "tkan-shirts-202",
+    "id": "tkan-shirts-a202",
     "category": "shirts",
     "subcat": [
       "square",
       "cotton100"
     ],
-    "slug": "tkan-shirts-202",
+    "slug": "tkan-shirts-a202",
     "title": {
       "ua": "А202",
       "ru": "А202"
@@ -12866,12 +12888,12 @@
     }
   },
   {
-    "id": "tkan-shirts-561",
+    "id": "tkan-shirts-a561",
     "category": "shirts",
     "subcat": [
       "cotton100"
     ],
-    "slug": "tkan-shirts-561",
+    "slug": "tkan-shirts-a561",
     "title": {
       "ua": "А561",
       "ru": "А561"
@@ -12920,13 +12942,13 @@
     }
   },
   {
-    "id": "tkan-shirts-489",
+    "id": "tkan-shirts-a489",
     "category": "shirts",
     "subcat": [
       "square",
       "cotton100"
     ],
-    "slug": "tkan-shirts-489",
+    "slug": "tkan-shirts-a489",
     "title": {
       "ua": "А489",
       "ru": "А489"
@@ -12975,12 +12997,12 @@
     }
   },
   {
-    "id": "tkan-shirts-469",
+    "id": "tkan-shirts-a469",
     "category": "shirts",
     "subcat": [
       "cotton100"
     ],
-    "slug": "tkan-shirts-469",
+    "slug": "tkan-shirts-a469",
     "title": {
       "ua": "А469",
       "ru": "А469"
@@ -13029,13 +13051,13 @@
     }
   },
   {
-    "id": "tkan-shirts-325",
+    "id": "tkan-shirts-a325",
     "category": "shirts",
     "subcat": [
       "strip",
       "cotton100"
     ],
-    "slug": "tkan-shirts-325",
+    "slug": "tkan-shirts-a325",
     "title": {
       "ua": "А325",
       "ru": "А325"
@@ -13090,13 +13112,13 @@
     }
   },
   {
-    "id": "tkan-shirts-197",
+    "id": "tkan-shirts-a197",
     "category": "shirts",
     "subcat": [
       "strip",
       "cotton100"
     ],
-    "slug": "tkan-shirts-197",
+    "slug": "tkan-shirts-a197",
     "title": {
       "ua": "А197",
       "ru": "А197"
@@ -13563,13 +13585,13 @@
     }
   },
   {
-    "id": "tkan-shirts-509",
+    "id": "tkan-shirts-a509",
     "category": "shirts",
     "subcat": [
       "print",
       "cotton100"
     ],
-    "slug": "tkan-shirts-509",
+    "slug": "tkan-shirts-a509",
     "title": {
       "ua": "А509",
       "ru": "А509"
@@ -13618,13 +13640,13 @@
     }
   },
   {
-    "id": "tkan-shirts-044",
+    "id": "tkan-shirts-a044",
     "category": "shirts",
     "subcat": [
       "print",
       "cotton100"
     ],
-    "slug": "tkan-shirts-044",
+    "slug": "tkan-shirts-a044",
     "title": {
       "ua": "А044",
       "ru": "А044"
@@ -13673,13 +13695,13 @@
     }
   },
   {
-    "id": "tkan-shirts-042-2",
+    "id": "tkan-shirts-a042-2",
     "category": "shirts",
     "subcat": [
       "print",
       "cotton100"
     ],
-    "slug": "tkan-shirts-042-2",
+    "slug": "tkan-shirts-a042-2",
     "title": {
       "ua": "А042",
       "ru": "А042"
@@ -14193,12 +14215,12 @@
     }
   },
   {
-    "id": "tkan-shirts-112-2",
+    "id": "tkan-shirts-v112",
     "category": "shirts",
     "subcat": [
       "cotton80"
     ],
-    "slug": "tkan-shirts-112-2",
+    "slug": "tkan-shirts-v112",
     "title": {
       "ua": "В112",
       "ru": "В112"
@@ -14853,12 +14875,12 @@
     }
   },
   {
-    "id": "tkan-shirts-a477",
+    "id": "tkan-shirts-a477-2",
     "category": "shirts",
     "subcat": [
       "cotton100"
     ],
-    "slug": "tkan-shirts-a477",
+    "slug": "tkan-shirts-a477-2",
     "title": {
       "ua": "A477",
       "ru": "A477"
@@ -15203,7 +15225,9 @@
       "ru": "MK-9014"
     },
     "isNew": false,
-    "images": [],
+    "images": [
+      "http://catalog.raznobyt.com/images/products/MK-9014/main/65287.jpg"
+    ],
     "description": {
       "ua": "99% поліестер, 1% антистатична нитка 290г/м.кв Кислотозахисна",
       "ru": "99% полиестер, 1% антистатическая нить 290г/м.кв Кислотозащитная"
@@ -15212,7 +15236,13 @@
       "fabricType": "полотно",
       "density": "290",
       "width": "160",
-      "colors": [],
+      "colors": [
+        {
+          "color": "65287",
+          "image": "http://catalog.raznobyt.com/images/products/MK-9014/main/65287.jpg",
+          "isMain": true
+        }
+      ],
       "properties": [],
       "composition": {
         "cotton": 0,
@@ -16125,9 +16155,9 @@
     }
   },
   {
-    "id": "tkan-interlinings-773069",
+    "id": "tkan-interlinings-flizelin-773-069",
     "category": "interlinings",
-    "slug": "tkan-interlinings-773069",
+    "slug": "tkan-interlinings-flizelin-773-069",
     "title": {
       "ua": "Флізелін 773/069",
       "ru": "Флізелін 773/069"
@@ -16182,9 +16212,9 @@
     }
   },
   {
-    "id": "tkan-interlinings-747077",
+    "id": "tkan-interlinings-flizelin-747-077",
     "category": "interlinings",
-    "slug": "tkan-interlinings-747077",
+    "slug": "tkan-interlinings-flizelin-747-077",
     "title": {
       "ua": "Флізелін 747/077",
       "ru": "Флізелін 747/077"
@@ -16239,9 +16269,9 @@
     }
   },
   {
-    "id": "tkan-interlinings-749079",
+    "id": "tkan-interlinings-flizelin-749-079",
     "category": "interlinings",
-    "slug": "tkan-interlinings-749079",
+    "slug": "tkan-interlinings-flizelin-749-079",
     "title": {
       "ua": "Флізелін 749/079",
       "ru": "Флізелін 749/079"
@@ -16296,9 +16326,9 @@
     }
   },
   {
-    "id": "tkan-interlinings-714000",
+    "id": "tkan-interlinings-flizelin-714-000",
     "category": "interlinings",
-    "slug": "tkan-interlinings-714000",
+    "slug": "tkan-interlinings-flizelin-714-000",
     "title": {
       "ua": "Флізелін 714/000",
       "ru": "Флізелін 714/000"
@@ -16347,9 +16377,9 @@
     }
   },
   {
-    "id": "tkan-interlinings-761713",
+    "id": "tkan-interlinings-flizelin-761-713",
     "category": "interlinings",
-    "slug": "tkan-interlinings-761713",
+    "slug": "tkan-interlinings-flizelin-761-713",
     "title": {
       "ua": "Флізелін 761/713",
       "ru": "Флізелін 761/713"
@@ -16404,9 +16434,9 @@
     }
   },
   {
-    "id": "tkan-interlinings-335052",
+    "id": "tkan-interlinings-flizelin-335-052",
     "category": "interlinings",
-    "slug": "tkan-interlinings-335052",
+    "slug": "tkan-interlinings-flizelin-335-052",
     "title": {
       "ua": "Флізелін 335/052",
       "ru": "Флізелін 335/052"
@@ -16461,9 +16491,9 @@
     }
   },
   {
-    "id": "tkan-interlinings-231052",
+    "id": "tkan-interlinings-flizelin-231-052",
     "category": "interlinings",
-    "slug": "tkan-interlinings-231052",
+    "slug": "tkan-interlinings-flizelin-231-052",
     "title": {
       "ua": "Флізелін 231/052",
       "ru": "Флізелін 231/052"
@@ -16518,9 +16548,9 @@
     }
   },
   {
-    "id": "tkan-interlinings-775083050",
+    "id": "tkan-interlinings-syntepon-775-083-050",
     "category": "interlinings",
-    "slug": "tkan-interlinings-775083050",
+    "slug": "tkan-interlinings-syntepon-775-083-050",
     "title": {
       "ua": "Синтепон 775/083/050",
       "ru": "Синтепон 775/083/050"
@@ -16569,9 +16599,9 @@
     }
   },
   {
-    "id": "tkan-interlinings-001605",
+    "id": "tkan-interlinings-spanbond-001-605",
     "category": "interlinings",
-    "slug": "tkan-interlinings-001605",
+    "slug": "tkan-interlinings-spanbond-001-605",
     "title": {
       "ua": "Спанбонд 001/605",
       "ru": "Спанбонд 001/605"
@@ -16620,9 +16650,9 @@
     }
   },
   {
-    "id": "tkan-interlinings-838977",
+    "id": "tkan-interlinings-dubliryn-sorochkovyy-838-977",
     "category": "interlinings",
-    "slug": "tkan-interlinings-838977",
+    "slug": "tkan-interlinings-dubliryn-sorochkovyy-838-977",
     "title": {
       "ua": "Дублірин сорочковий 838/977",
       "ru": "Дублірин сорочковий 838/977"
@@ -16677,9 +16707,9 @@
     }
   },
   {
-    "id": "tkan-interlinings-806977",
+    "id": "tkan-interlinings-dubliryn-sorochkovyy-806-977",
     "category": "interlinings",
-    "slug": "tkan-interlinings-806977",
+    "slug": "tkan-interlinings-dubliryn-sorochkovyy-806-977",
     "title": {
       "ua": "Дублірин сорочковий 806/977",
       "ru": "Дублірин сорочковий 806/977"
@@ -16728,9 +16758,9 @@
     }
   },
   {
-    "id": "tkan-interlinings-806979",
+    "id": "tkan-interlinings-dubliryn-sorochkovyy-806-979",
     "category": "interlinings",
-    "slug": "tkan-interlinings-806979",
+    "slug": "tkan-interlinings-dubliryn-sorochkovyy-806-979",
     "title": {
       "ua": "Дублірин сорочковий 806/979",
       "ru": "Дублірин сорочковий 806/979"
@@ -16779,9 +16809,9 @@
     }
   },
   {
-    "id": "tkan-interlinings-836978",
+    "id": "tkan-interlinings-dubliryn-sorochkovyy-836-978",
     "category": "interlinings",
-    "slug": "tkan-interlinings-836978",
+    "slug": "tkan-interlinings-dubliryn-sorochkovyy-836-978",
     "title": {
       "ua": "Дублірин сорочковий 836/978",
       "ru": "Дублірин сорочковий 836/978"
@@ -16830,9 +16860,9 @@
     }
   },
   {
-    "id": "tkan-interlinings-836678",
+    "id": "tkan-interlinings-dubliryn-sorochkovyy-836-678",
     "category": "interlinings",
-    "slug": "tkan-interlinings-836678",
+    "slug": "tkan-interlinings-dubliryn-sorochkovyy-836-678",
     "title": {
       "ua": "Дублірин сорочковий 836/678",
       "ru": "Дублірин сорочковий 836/678"
@@ -16881,9 +16911,9 @@
     }
   },
   {
-    "id": "tkan-interlinings-837977",
+    "id": "tkan-interlinings-dubliryn-sorochkovyy-837-977",
     "category": "interlinings",
-    "slug": "tkan-interlinings-837977",
+    "slug": "tkan-interlinings-dubliryn-sorochkovyy-837-977",
     "title": {
       "ua": "Дублірин сорочковий 837/977",
       "ru": "Дублірин сорочковий 837/977"
@@ -16932,9 +16962,9 @@
     }
   },
   {
-    "id": "tkan-interlinings-837979",
+    "id": "tkan-interlinings-dubliryn-sorochkovyy-837-979",
     "category": "interlinings",
-    "slug": "tkan-interlinings-837979",
+    "slug": "tkan-interlinings-dubliryn-sorochkovyy-837-979",
     "title": {
       "ua": "Дублірин сорочковий 837/979",
       "ru": "Дублірин сорочковий 837/979"
@@ -16983,9 +17013,9 @@
     }
   },
   {
-    "id": "tkan-interlinings-849977",
+    "id": "tkan-interlinings-dubliryn-sorochkovyy-849-977",
     "category": "interlinings",
-    "slug": "tkan-interlinings-849977",
+    "slug": "tkan-interlinings-dubliryn-sorochkovyy-849-977",
     "title": {
       "ua": "Дублірин сорочковий 849/977",
       "ru": "Дублірин сорочковий 849/977"
@@ -17034,9 +17064,9 @@
     }
   },
   {
-    "id": "tkan-interlinings-820988",
+    "id": "tkan-interlinings-dubliryn-sorochkovyy-820-988",
     "category": "interlinings",
-    "slug": "tkan-interlinings-820988",
+    "slug": "tkan-interlinings-dubliryn-sorochkovyy-820-988",
     "title": {
       "ua": "Дублірин сорочковий 820/988",
       "ru": "Дублірин сорочковий 820/988"
@@ -17085,9 +17115,9 @@
     }
   },
   {
-    "id": "tkan-interlinings-017048",
+    "id": "tkan-interlinings-dubliryn-017-048-verkhniy-odyah",
     "category": "interlinings",
-    "slug": "tkan-interlinings-017048",
+    "slug": "tkan-interlinings-dubliryn-017-048-verkhniy-odyah",
     "title": {
       "ua": "Дублірин 017/048  верхній одяг",
       "ru": "Дублірин 017/048  верхній одяг"
@@ -17142,9 +17172,9 @@
     }
   },
   {
-    "id": "tkan-interlinings-060078",
+    "id": "tkan-interlinings-dubliryn-060-078-verkhniy-odyah",
     "category": "interlinings",
-    "slug": "tkan-interlinings-060078",
+    "slug": "tkan-interlinings-dubliryn-060-078-verkhniy-odyah",
     "title": {
       "ua": "Дублірин 060/078  верхній одяг",
       "ru": "Дублірин 060/078  верхній одяг"
@@ -17199,9 +17229,9 @@
     }
   },
   {
-    "id": "tkan-interlinings-065454",
+    "id": "tkan-interlinings-dubliryn-065-454-verkhniy-odyah",
     "category": "interlinings",
-    "slug": "tkan-interlinings-065454",
+    "slug": "tkan-interlinings-dubliryn-065-454-verkhniy-odyah",
     "title": {
       "ua": "Дублірин 065/454  верхній одяг",
       "ru": "Дублірин 065/454  верхній одяг"
@@ -17256,9 +17286,9 @@
     }
   },
   {
-    "id": "tkan-interlinings-070430051",
+    "id": "tkan-interlinings-dubliryn-070-430-051-verkhniy-odyah",
     "category": "interlinings",
-    "slug": "tkan-interlinings-070430051",
+    "slug": "tkan-interlinings-dubliryn-070-430-051-verkhniy-odyah",
     "title": {
       "ua": "Дублірин 070/430/051  верхній одяг",
       "ru": "Дублірин 070/430/051  верхній одяг"
@@ -17313,9 +17343,9 @@
     }
   },
   {
-    "id": "tkan-interlinings-081452",
+    "id": "tkan-interlinings-dubliryn-081-452-verkhniy-odyah",
     "category": "interlinings",
-    "slug": "tkan-interlinings-081452",
+    "slug": "tkan-interlinings-dubliryn-081-452-verkhniy-odyah",
     "title": {
       "ua": "Дублірин 081/452  верхній одяг",
       "ru": "Дублірин 081/452  верхній одяг"
@@ -17370,9 +17400,9 @@
     }
   },
   {
-    "id": "tkan-interlinings-004711051",
+    "id": "tkan-interlinings-dubliryn-004-711-051-verkhniy-odyah",
     "category": "interlinings",
-    "slug": "tkan-interlinings-004711051",
+    "slug": "tkan-interlinings-dubliryn-004-711-051-verkhniy-odyah",
     "title": {
       "ua": "Дублірин 004/711/051  верхній одяг",
       "ru": "Дублірин 004/711/051  верхній одяг"
@@ -18083,9 +18113,9 @@
     }
   },
   {
-    "id": "tkan-cotton-919",
+    "id": "tkan-cotton-a919",
     "category": "cotton",
-    "slug": "tkan-cotton-919",
+    "slug": "tkan-cotton-a919",
     "title": {
       "ua": "А919",
       "ru": "А919"
@@ -18212,9 +18242,9 @@
     }
   },
   {
-    "id": "tkan-linen-128",
+    "id": "tkan-linen-v128",
     "category": "linen",
-    "slug": "tkan-linen-128",
+    "slug": "tkan-linen-v128",
     "title": {
       "ua": "В128",
       "ru": "В128"
@@ -18341,9 +18371,9 @@
     }
   },
   {
-    "id": "tkan-linen-263",
+    "id": "tkan-linen-a263",
     "category": "linen",
-    "slug": "tkan-linen-263",
+    "slug": "tkan-linen-a263",
     "title": {
       "ua": "А263",
       "ru": "А263"
@@ -18513,9 +18543,9 @@
     }
   },
   {
-    "id": "tkan-linen-741",
+    "id": "tkan-linen-a741",
     "category": "linen",
-    "slug": "tkan-linen-741",
+    "slug": "tkan-linen-a741",
     "title": {
       "ua": "А741",
       "ru": "А741"
@@ -18745,9 +18775,9 @@
     }
   },
   {
-    "id": "tkan-jeans-138",
+    "id": "tkan-jeans-t138",
     "category": "jeans",
-    "slug": "tkan-jeans-138",
+    "slug": "tkan-jeans-t138",
     "title": {
       "ua": "Т138",
       "ru": "Т138"
@@ -18802,9 +18832,9 @@
     }
   },
   {
-    "id": "tkan-jeans-144",
+    "id": "tkan-jeans-t144",
     "category": "jeans",
-    "slug": "tkan-jeans-144",
+    "slug": "tkan-jeans-t144",
     "title": {
       "ua": "Т144",
       "ru": "Т144"
@@ -18853,9 +18883,9 @@
     }
   },
   {
-    "id": "tkan-fleece-9112",
+    "id": "tkan-fleece-flis-9112",
     "category": "fleece",
-    "slug": "tkan-fleece-9112",
+    "slug": "tkan-fleece-flis-9112",
     "title": {
       "ua": "фліс 9112",
       "ru": "фліс 9112"
@@ -18904,9 +18934,9 @@
     }
   },
   {
-    "id": "tkan-fleece-22105",
+    "id": "tkan-fleece-flis-22105",
     "category": "fleece",
-    "slug": "tkan-fleece-22105",
+    "slug": "tkan-fleece-flis-22105",
     "title": {
       "ua": "фліс 22105",
       "ru": "фліс 22105"
@@ -19021,9 +19051,9 @@
     }
   },
   {
-    "id": "tkan-fleece-polar-fleece",
+    "id": "tkan-fleece-flis-polar-fleece",
     "category": "fleece",
-    "slug": "tkan-fleece-polar-fleece",
+    "slug": "tkan-fleece-flis-polar-fleece",
     "title": {
       "ua": "фліс POLAR FLEECE",
       "ru": "фліс POLAR FLEECE"
@@ -19084,9 +19114,9 @@
     }
   },
   {
-    "id": "tkan-fleece-4796",
+    "id": "tkan-fleece-flis-4796",
     "category": "fleece",
-    "slug": "tkan-fleece-4796",
+    "slug": "tkan-fleece-flis-4796",
     "title": {
       "ua": "фліс 4796",
       "ru": "фліс 4796"
@@ -19159,9 +19189,9 @@
     }
   },
   {
-    "id": "tkan-fleece-4459",
+    "id": "tkan-fleece-flis-4459",
     "category": "fleece",
-    "slug": "tkan-fleece-4459",
+    "slug": "tkan-fleece-flis-4459",
     "title": {
       "ua": "фліс 4459",
       "ru": "фліс 4459"
@@ -19210,12 +19240,12 @@
     }
   },
   {
-    "id": "tkan-fleece-",
+    "id": "tkan-fleece-flis-z-membranoyu",
     "category": "fleece",
-    "slug": "tkan-fleece-",
+    "slug": "tkan-fleece-flis-z-membranoyu",
     "title": {
-      "ua": "фліс с мембраной",
-      "ru": "фліс с мембраной"
+      "ua": "фліс з мембраною",
+      "ru": "фліс з мембраною"
     },
     "isNew": false,
     "images": [

@@ -1,8 +1,8 @@
 [
   {
-    "id": "tkan-fleece-9112",
+    "id": "tkan-fleece-flis-9112",
     "category": "fleece",
-    "slug": "tkan-fleece-9112",
+    "slug": "tkan-fleece-flis-9112",
     "title": {
       "ua": "фліс 9112",
       "ru": "фліс 9112"
@@ -51,9 +51,9 @@
     }
   },
   {
-    "id": "tkan-fleece-22105",
+    "id": "tkan-fleece-flis-22105",
     "category": "fleece",
-    "slug": "tkan-fleece-22105",
+    "slug": "tkan-fleece-flis-22105",
     "title": {
       "ua": "фліс 22105",
       "ru": "фліс 22105"
@@ -168,9 +168,9 @@
     }
   },
   {
-    "id": "tkan-fleece-polar-fleece",
+    "id": "tkan-fleece-flis-polar-fleece",
     "category": "fleece",
-    "slug": "tkan-fleece-polar-fleece",
+    "slug": "tkan-fleece-flis-polar-fleece",
     "title": {
       "ua": "фліс POLAR FLEECE",
       "ru": "фліс POLAR FLEECE"
@@ -231,9 +231,9 @@
     }
   },
   {
-    "id": "tkan-fleece-4796",
+    "id": "tkan-fleece-flis-4796",
     "category": "fleece",
-    "slug": "tkan-fleece-4796",
+    "slug": "tkan-fleece-flis-4796",
     "title": {
       "ua": "фліс 4796",
       "ru": "фліс 4796"
@@ -306,9 +306,9 @@
     }
   },
   {
-    "id": "tkan-fleece-4459",
+    "id": "tkan-fleece-flis-4459",
     "category": "fleece",
-    "slug": "tkan-fleece-4459",
+    "slug": "tkan-fleece-flis-4459",
     "title": {
       "ua": "фліс 4459",
       "ru": "фліс 4459"
@@ -357,12 +357,12 @@
     }
   },
   {
-    "id": "tkan-fleece-",
+    "id": "tkan-fleece-flis-z-membranoyu",
     "category": "fleece",
-    "slug": "tkan-fleece-",
+    "slug": "tkan-fleece-flis-z-membranoyu",
     "title": {
-      "ua": "фліс с мембраной",
-      "ru": "фліс с мембраной"
+      "ua": "фліс з мембраною",
+      "ru": "фліс з мембраною"
     },
     "isNew": false,
     "images": [

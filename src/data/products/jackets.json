@@ -236,7 +236,9 @@
       "ru": "MK-9014"
     },
     "isNew": false,
-    "images": [],
+    "images": [
+      "http://catalog.raznobyt.com/images/products/MK-9014/main/65287.jpg"
+    ],
     "description": {
       "ua": "99% поліестер, 1% антистатична нитка 290г/м.кв Кислотозахисна",
       "ru": "99% полиестер, 1% антистатическая нить 290г/м.кв Кислотозащитная"
@@ -245,7 +247,13 @@
       "fabricType": "полотно",
       "density": "290",
       "width": "160",
-      "colors": [],
+      "colors": [
+        {
+          "color": "65287",
+          "image": "http://catalog.raznobyt.com/images/products/MK-9014/main/65287.jpg",
+          "isMain": true
+        }
+      ],
       "properties": [],
       "composition": {
         "cotton": 0,

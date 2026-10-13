@@ -1,8 +1,8 @@
 [
   {
-    "id": "tkan-linen-128",
+    "id": "tkan-linen-v128",
     "category": "linen",
-    "slug": "tkan-linen-128",
+    "slug": "tkan-linen-v128",
     "title": {
       "ua": "В128",
       "ru": "В128"
@@ -129,9 +129,9 @@
     }
   },
   {
-    "id": "tkan-linen-263",
+    "id": "tkan-linen-a263",
     "category": "linen",
-    "slug": "tkan-linen-263",
+    "slug": "tkan-linen-a263",
     "title": {
       "ua": "А263",
       "ru": "А263"
@@ -301,9 +301,9 @@
     }
   },
   {
-    "id": "tkan-linen-741",
+    "id": "tkan-linen-a741",
     "category": "linen",
-    "slug": "tkan-linen-741",
+    "slug": "tkan-linen-a741",
     "title": {
       "ua": "А741",
       "ru": "А741"

@@ -667,7 +667,7 @@
     },
     "isNew": false,
     "images": [
-      "http://catalog.raznobyt.com/images/products/TR-MED/main/Bell Blue.jpg",
+      "http://catalog.raznobyt.com/images/products/TR-MED/main/756 Bell Blue.jpg",
       "http://catalog.raznobyt.com/images/products/TR-MED/701-White.jpg",
       "http://catalog.raznobyt.com/images/products/TR-MED/710-Yellow.jpg",
       "http://catalog.raznobyt.com/images/products/TR-MED/735-Maroon.jpg",
@@ -705,8 +705,8 @@
       "width": "150",
       "colors": [
         {
-          "color": "Bell Blue",
-          "image": "http://catalog.raznobyt.com/images/products/TR-MED/main/Bell Blue.jpg",
+          "color": "756 Bell Blue",
+          "image": "http://catalog.raznobyt.com/images/products/TR-MED/main/756 Bell Blue.jpg",
           "isMain": true
         },
         {
@@ -1805,7 +1805,10 @@
       "ru": "VFG-2160"
     },
     "isNew": false,
-    "images": [],
+    "images": [
+      "http://catalog.raznobyt.com/images/products/VFG-2160/main/MINT.jpg",
+      "http://catalog.raznobyt.com/images/products/VFG-2160/701 WHITE.jpg"
+    ],
     "description": {
       "ua": "Змішана тканина саржевого переплетення. Склад: 51% бавовна, 49% поліестр. Щільність 175 г/м². Для комфортної уніформи персоналу.",
       "ru": "Смесовая ткань саржевого переплетения. Состав: 51% хлопок, 49% полиэстер. Плотность 175 г/м². Для комфортной униформы персонала."
@@ -1814,7 +1817,18 @@
       "fabricType": "twill",
       "density": "175",
       "width": "150",
-      "colors": [],
+      "colors": [
+        {
+          "color": "MINT",
+          "image": "http://catalog.raznobyt.com/images/products/VFG-2160/main/MINT.jpg",
+          "isMain": true
+        },
+        {
+          "color": "701 WHITE",
+          "image": "http://catalog.raznobyt.com/images/products/VFG-2160/701 WHITE.jpg",
+          "isMain": false
+        }
+      ],
       "properties": [],
       "composition": {
         "cotton": 51,

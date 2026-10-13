@@ -47,14 +47,61 @@ const fetchSheet = async (sheetName) => {
 
 const slugs = new Set();
 
+// const slugify = (text = '') =>
+//   String(text)
+//     .trim()
+//     .toLowerCase()
+//     .replace(/\s+/g, '-')
+//     .replace(/[^a-z0-9-]/g, '')
+//     .replace(/-+/g, '-')
+//     .replace(/^-|-$/g, '');
+
+
 const slugify = (text = '') =>
   String(text)
     .trim()
     .toLowerCase()
-    .replace(/\s+/g, '-')
-    .replace(/[^a-z0-9-]/g, '')
-    .replace(/-+/g, '-')
-    .replace(/^-|-$/g, '');
+    .replace(/([а-яіїєґ])\u0308/gi, '$1')
+    .replace(/а/gi, 'a')
+    .replace(/б/gi, 'b')
+    .replace(/в/gi, 'v')
+    .replace(/г/gi, 'h')
+    .replace(/ґ/gi, 'g')
+    .replace(/д/gi, 'd')
+    .replace(/е/gi, 'e')
+    .replace(/є/gi, 'ye')
+    .replace(/ж/gi, 'zh')
+    .replace(/з/gi, 'z')
+    .replace(/и/gi, 'y')
+    .replace(/і/gi, 'i')
+    .replace(/ї/gi, 'yi')
+    .replace(/й/gi, 'y')
+    .replace(/к/gi, 'k')
+    .replace(/л/gi, 'l')
+    .replace(/м/gi, 'm')
+    .replace(/н/gi, 'n')
+    .replace(/о/gi, 'o')
+    .replace(/п/gi, 'p')
+    .replace(/р/gi, 'r')
+    .replace(/с/gi, 's')
+    .replace(/т/gi, 't')
+    .replace(/у/gi, 'u')
+    .replace(/ф/gi, 'f')
+    .replace(/х/gi, 'kh')
+    .replace(/ц/gi, 'ts')
+    .replace(/ч/gi, 'ch')
+    .replace(/ш/gi, 'sh')
+    .replace(/щ/gi, 'shch')
+    .replace(/ь/gi, '')
+    .replace(/ю/gi, 'yu')
+    .replace(/я/gi, 'ya')
+    .replace(/ъ/gi, '')
+    .replace(/ы/gi, 'y')
+    .replace(/э/gi, 'e')
+    .replace(/ё/gi, 'yo')
+    .replace(/[^a-z0-9]+/g, '-')
+    .replace(/^-+|-+$/g, '');
+
 
 const parseColors = (colorsStr) => {
   if (!colorsStr || colorsStr.trim() === "") return [];

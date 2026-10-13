@@ -127,8 +127,8 @@ export default function ProductView({ product, related = [] }) {
     const attrs = [
         ...(productSubcats.length > 0 ? [{ label: subcatLabel, value: subcatValue }] : []),
         { label: t('product.composition'), value: formatComposition(product.attributes.composition, lang) },
-        { label: t('product.density'), value: densityVal },
-        { label: t('product.width'), value: widthVal },
+        densityVal.length > 0 && { label: t('product.density'), value: densityVal },
+        widthVal.length > 0 && { label: t('product.width'), value: widthVal },
         ...(colors.length > 0 ? [{
             label: t('product.color'), value: (
                 <span className="color-thumbs-row">
@@ -154,7 +154,7 @@ export default function ProductView({ product, related = [] }) {
                 </span>
             )
         }] : []),
-        { label: t('product.fabricType'), value: t(`fabricTypes.${product.attributes.fabricType}`) },
+        product.attributes.fabricType && { label: t('product.fabricType'), value: t(`fabricTypes.${product.attributes.fabricType}`) },
     ];
 
     return (
@@ -272,10 +272,10 @@ export default function ProductView({ product, related = [] }) {
                             <table className="product-attrs-table">
                                 <tbody>
                                     {attrs.map((a, i) => (
-                                        <tr key={i}>
+                                        a.label ? <tr key={i}>
                                             <th>{a.label}</th>
-                                            <td>{a.value === 1 ? '' : a.value}</td>
-                                        </tr>
+                                            <td>{a.value}</td>
+                                        </tr> : null
                                     ))}
                                 </tbody>
                             </table>
