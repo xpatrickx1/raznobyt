@@ -1899,7 +1899,6 @@
     },
     "isNew": false,
     "images": [
-      "http://catalog.raznobyt.com/images/products/KG-0725/main/IMG_20260521_0001.jpg",
       "http://catalog.raznobyt.com/images/products/KG-0725/65466.jpg"
     ],
     "description": {
@@ -1912,14 +1911,9 @@
       "width": "150",
       "colors": [
         {
-          "color": "IMG_20260521_0001",
-          "image": "http://catalog.raznobyt.com/images/products/KG-0725/main/IMG_20260521_0001.jpg",
-          "isMain": true
-        },
-        {
           "color": "65466",
           "image": "http://catalog.raznobyt.com/images/products/KG-0725/65466.jpg",
-          "isMain": false
+          "isMain": true
         }
       ],
       "properties": [],
