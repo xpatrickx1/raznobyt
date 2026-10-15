@@ -13,7 +13,7 @@ export default function Blog() {
     // Change page
     const handlePageChange = (pageNumber) => {
         setCurrentPage(pageNumber);
-        window.scrollTo(0, 0); // Scroll to top when page changes
+        window.scrollTo({ top: 0, behavior: 'smooth' }); // Scroll to top when page changes
     };
 
     // Get current posts

@@ -1365,11 +1365,8 @@ button {
   background: #f8f8f8;
 }
 
-.product-card__img-wrap .image-fallback {
-  position: absolute;
-  inset: 0;
-  display: flex;
-  justify-content: center;
+.product-grid .image-fallback {
+  align-items: center;
 }
 
 .product-card__img {
@@ -4082,6 +4079,11 @@ button {
   width: 100%;
 }
 
+.product-grid .image-fallback {
+  height: 100%;
+  width: 100%;
+}
+
 .image-fallback__inner {
   max-width: 60%;
   max-height: 60%;
@@ -4514,7 +4516,7 @@ button {
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 42px;
+  height: 100px;
   opacity: 0.75;
   transition: opacity 0.25s ease, transform 0.25s ease;
   filter: grayscale(100%);
@@ -4528,7 +4530,7 @@ button {
 
 .suppliers-strip__logo {
   max-height: 106px;
-  max-width: 140px;
+  max-width: 200px;
   width: auto;
   height: auto;
   object-fit: contain;

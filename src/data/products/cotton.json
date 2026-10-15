@@ -707,7 +707,9 @@
       "ru": "L927"
     },
     "isNew": false,
-    "images": [],
+    "images": [
+      "http://catalog.raznobyt.com/images/products/L927/main/00841.jpg"
+    ],
     "description": {
       "ua": "100% бавовна,  213г/м.кв,  полотно,  150см",
       "ru": "100% хлопок, 213г/м.кв,  полотно,  150см"
@@ -716,7 +718,13 @@
       "fabricType": "полотно",
       "density": "213",
       "width": "150",
-      "colors": [],
+      "colors": [
+        {
+          "color": "00841",
+          "image": "http://catalog.raznobyt.com/images/products/L927/main/00841.jpg",
+          "isMain": true
+        }
+      ],
       "properties": [],
       "composition": {
         "cotton": 100,

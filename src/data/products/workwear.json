@@ -1899,7 +1899,8 @@
     },
     "isNew": false,
     "images": [
-      "http://catalog.raznobyt.com/images/products/KG-0725/main/KG-0725/65466.jpg"
+      "http://catalog.raznobyt.com/images/products/KG-0725/main/IMG_20260521_0001.jpg",
+      "http://catalog.raznobyt.com/images/products/KG-0725/65466.jpg"
     ],
     "description": {
       "ua": "Змішана тканина з механічним стрейчем. Склад: 40% бавовна, 60% поліестр. Щільність 250 г/м². Саржеве переплетення 2/1.",
@@ -1911,9 +1912,14 @@
       "width": "150",
       "colors": [
         {
-          "color": "65466",
-          "image": "http://catalog.raznobyt.com/images/products/KG-0725/main/KG-0725/65466.jpg",
+          "color": "IMG_20260521_0001",
+          "image": "http://catalog.raznobyt.com/images/products/KG-0725/main/IMG_20260521_0001.jpg",
           "isMain": true
+        },
+        {
+          "color": "65466",
+          "image": "http://catalog.raznobyt.com/images/products/KG-0725/65466.jpg",
+          "isMain": false
         }
       ],
       "properties": [],
@@ -2925,7 +2931,7 @@
     },
     "isNew": false,
     "images": [
-      "http://catalog.raznobyt.com/images/products/6509/ANTHRACITE.jpg"
+      "http://catalog.raznobyt.com/images/products/6509/main/ANTHRACITE.jpg"
     ],
     "description": {
       "ua": "Міцна тканина канвас. Склад: 60% бавовна, 40% поліестр. Щільність 330 г/м². Висока зносостійкість.",
@@ -2938,7 +2944,7 @@
       "colors": [
         {
           "color": "ANTHRACITE",
-          "image": "http://catalog.raznobyt.com/images/products/6509/ANTHRACITE.jpg",
+          "image": "http://catalog.raznobyt.com/images/products/6509/main/ANTHRACITE.jpg",
           "isMain": true
         }
       ],
@@ -3452,7 +3458,9 @@
       "ru": "Наколінник"
     },
     "isNew": false,
-    "images": [],
+    "images": [
+      "http://catalog.raznobyt.com/images/products/Наколінники/main/nakolinnuk.jpg"
+    ],
     "description": {
       "ua": "Підсилювач зони коліна на робочі штани. 100% поліамід. Вогнестійка обробка. Довжина 48 см, ширина 15 см.",
       "ru": "Усилитель зоны колена на рабочие брюки. 100% полиамид. Огнестойкая оброботка. Длина 48 см, ширина 15 см."
@@ -3461,7 +3469,13 @@
       "fabricType": "",
       "density": "",
       "width": null,
-      "colors": [],
+      "colors": [
+        {
+          "color": "nakolinnuk",
+          "image": "http://catalog.raznobyt.com/images/products/Наколінники/main/nakolinnuk.jpg",
+          "isMain": true
+        }
+      ],
       "properties": [],
       "composition": {
         "cotton": 0,

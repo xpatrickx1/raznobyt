@@ -1899,7 +1899,8 @@
     },
     "isNew": false,
     "images": [
-      "http://catalog.raznobyt.com/images/products/KG-0725/main/KG-0725/65466.jpg"
+      "http://catalog.raznobyt.com/images/products/KG-0725/main/IMG_20260521_0001.jpg",
+      "http://catalog.raznobyt.com/images/products/KG-0725/65466.jpg"
     ],
     "description": {
       "ua": "Змішана тканина з механічним стрейчем. Склад: 40% бавовна, 60% поліестр. Щільність 250 г/м². Саржеве переплетення 2/1.",
@@ -1911,9 +1912,14 @@
       "width": "150",
       "colors": [
         {
-          "color": "65466",
-          "image": "http://catalog.raznobyt.com/images/products/KG-0725/main/KG-0725/65466.jpg",
+          "color": "IMG_20260521_0001",
+          "image": "http://catalog.raznobyt.com/images/products/KG-0725/main/IMG_20260521_0001.jpg",
           "isMain": true
+        },
+        {
+          "color": "65466",
+          "image": "http://catalog.raznobyt.com/images/products/KG-0725/65466.jpg",
+          "isMain": false
         }
       ],
       "properties": [],
@@ -2925,7 +2931,7 @@
     },
     "isNew": false,
     "images": [
-      "http://catalog.raznobyt.com/images/products/6509/ANTHRACITE.jpg"
+      "http://catalog.raznobyt.com/images/products/6509/main/ANTHRACITE.jpg"
     ],
     "description": {
       "ua": "Міцна тканина канвас. Склад: 60% бавовна, 40% поліестр. Щільність 330 г/м². Висока зносостійкість.",
@@ -2938,7 +2944,7 @@
       "colors": [
         {
           "color": "ANTHRACITE",
-          "image": "http://catalog.raznobyt.com/images/products/6509/ANTHRACITE.jpg",
+          "image": "http://catalog.raznobyt.com/images/products/6509/main/ANTHRACITE.jpg",
           "isMain": true
         }
       ],
@@ -3452,7 +3458,9 @@
       "ru": "Наколінник"
     },
     "isNew": false,
-    "images": [],
+    "images": [
+      "http://catalog.raznobyt.com/images/products/Наколінники/main/nakolinnuk.jpg"
+    ],
     "description": {
       "ua": "Підсилювач зони коліна на робочі штани. 100% поліамід. Вогнестійка обробка. Довжина 48 см, ширина 15 см.",
       "ru": "Усилитель зоны колена на рабочие брюки. 100% полиамид. Огнестойкая оброботка. Длина 48 см, ширина 15 см."
@@ -3461,7 +3469,13 @@
       "fabricType": "",
       "density": "",
       "width": null,
-      "colors": [],
+      "colors": [
+        {
+          "color": "nakolinnuk",
+          "image": "http://catalog.raznobyt.com/images/products/Наколінники/main/nakolinnuk.jpg",
+          "isMain": true
+        }
+      ],
       "properties": [],
       "composition": {
         "cotton": 0,
@@ -4230,7 +4244,10 @@
       "ru": "RC-194"
     },
     "isNew": false,
-    "images": [],
+    "images": [
+      "http://catalog.raznobyt.com/images/products/RC-194/main/90065.jpg",
+      "http://catalog.raznobyt.com/images/products/RC-194/99014.jpg"
+    ],
     "description": {
       "ua": "Змішана тканина. Склад: 35% бавовна, 65% поліестр. Щільність 194. Саржеве переплетення 2/1.",
       "ru": "Смесовая ткань. Состав: 35% хлопок, 65% полиэстер. Плотность 194. Саржевое переплетение 2/1."
@@ -4239,7 +4256,18 @@
       "fabricType": "twill",
       "density": "194",
       "width": "150",
-      "colors": [],
+      "colors": [
+        {
+          "color": "90065",
+          "image": "http://catalog.raznobyt.com/images/products/RC-194/main/90065.jpg",
+          "isMain": true
+        },
+        {
+          "color": "99014",
+          "image": "http://catalog.raznobyt.com/images/products/RC-194/99014.jpg",
+          "isMain": false
+        }
+      ],
       "properties": [],
       "composition": {
         "cotton": 35,
@@ -4993,7 +5021,29 @@
       "ru": "VLP-4206"
     },
     "isNew": false,
-    "images": [],
+    "images": [
+      "http://catalog.raznobyt.com/images/products/VLP-4206/main/61233.jpg",
+      "http://catalog.raznobyt.com/images/products/VLP-4206/784 Grey.jpg",
+      "http://catalog.raznobyt.com/images/products/VLP-4206/60563.jpg",
+      "http://catalog.raznobyt.com/images/products/VLP-4206/62709.jpg",
+      "http://catalog.raznobyt.com/images/products/VLP-4206/95449.jpg",
+      "http://catalog.raznobyt.com/images/products/VLP-4206/97019T.jpg",
+      "http://catalog.raznobyt.com/images/products/VLP-4206/98060.jpg",
+      "http://catalog.raznobyt.com/images/products/VLP-4206/99017.jpg",
+      "http://catalog.raznobyt.com/images/products/VLP-4206/Cacao.jpg",
+      "http://catalog.raznobyt.com/images/products/VLP-4206/Candy.jpg",
+      "http://catalog.raznobyt.com/images/products/VLP-4206/Cornflower Blue.jpg",
+      "http://catalog.raznobyt.com/images/products/VLP-4206/Grass.jpg",
+      "http://catalog.raznobyt.com/images/products/VLP-4206/Ice White.jpg",
+      "http://catalog.raznobyt.com/images/products/VLP-4206/IRIS.jpg",
+      "http://catalog.raznobyt.com/images/products/VLP-4206/Mauve.jpg",
+      "http://catalog.raznobyt.com/images/products/VLP-4206/Oak Leaf.jpg",
+      "http://catalog.raznobyt.com/images/products/VLP-4206/Ocean.jpg",
+      "http://catalog.raznobyt.com/images/products/VLP-4206/Purple Ash.jpg",
+      "http://catalog.raznobyt.com/images/products/VLP-4206/Tea Rose.jpg",
+      "http://catalog.raznobyt.com/images/products/VLP-4206/Teal.jpg",
+      "http://catalog.raznobyt.com/images/products/VLP-4206/Vanillian.jpg"
+    ],
     "description": {
       "ua": "Легка тканина з ефектом стрейч. Склад: 57% бавовна, 39% поліестр, 4% стрейч. Щільність 140 г/м². Полотняне переплетення.",
       "ru": "Легкая ткань с эффектом стретч. Состав: 57% хлопок, 39% полиэстер, 4% стретч. Плотность 140 г/м². Полотняное плетение."
@@ -5002,7 +5052,113 @@
       "fabricType": "полотно",
       "density": "134",
       "width": "150",
-      "colors": [],
+      "colors": [
+        {
+          "color": "61233",
+          "image": "http://catalog.raznobyt.com/images/products/VLP-4206/main/61233.jpg",
+          "isMain": true
+        },
+        {
+          "color": "784 Grey",
+          "image": "http://catalog.raznobyt.com/images/products/VLP-4206/784 Grey.jpg",
+          "isMain": false
+        },
+        {
+          "color": "60563",
+          "image": "http://catalog.raznobyt.com/images/products/VLP-4206/60563.jpg",
+          "isMain": false
+        },
+        {
+          "color": "62709",
+          "image": "http://catalog.raznobyt.com/images/products/VLP-4206/62709.jpg",
+          "isMain": false
+        },
+        {
+          "color": "95449",
+          "image": "http://catalog.raznobyt.com/images/products/VLP-4206/95449.jpg",
+          "isMain": false
+        },
+        {
+          "color": "97019T",
+          "image": "http://catalog.raznobyt.com/images/products/VLP-4206/97019T.jpg",
+          "isMain": false
+        },
+        {
+          "color": "98060",
+          "image": "http://catalog.raznobyt.com/images/products/VLP-4206/98060.jpg",
+          "isMain": false
+        },
+        {
+          "color": "99017",
+          "image": "http://catalog.raznobyt.com/images/products/VLP-4206/99017.jpg",
+          "isMain": false
+        },
+        {
+          "color": "Cacao",
+          "image": "http://catalog.raznobyt.com/images/products/VLP-4206/Cacao.jpg",
+          "isMain": false
+        },
+        {
+          "color": "Candy",
+          "image": "http://catalog.raznobyt.com/images/products/VLP-4206/Candy.jpg",
+          "isMain": false
+        },
+        {
+          "color": "Cornflower Blue",
+          "image": "http://catalog.raznobyt.com/images/products/VLP-4206/Cornflower Blue.jpg",
+          "isMain": false
+        },
+        {
+          "color": "Grass",
+          "image": "http://catalog.raznobyt.com/images/products/VLP-4206/Grass.jpg",
+          "isMain": false
+        },
+        {
+          "color": "Ice White",
+          "image": "http://catalog.raznobyt.com/images/products/VLP-4206/Ice White.jpg",
+          "isMain": false
+        },
+        {
+          "color": "IRIS",
+          "image": "http://catalog.raznobyt.com/images/products/VLP-4206/IRIS.jpg",
+          "isMain": false
+        },
+        {
+          "color": "Mauve",
+          "image": "http://catalog.raznobyt.com/images/products/VLP-4206/Mauve.jpg",
+          "isMain": false
+        },
+        {
+          "color": "Oak Leaf",
+          "image": "http://catalog.raznobyt.com/images/products/VLP-4206/Oak Leaf.jpg",
+          "isMain": false
+        },
+        {
+          "color": "Ocean",
+          "image": "http://catalog.raznobyt.com/images/products/VLP-4206/Ocean.jpg",
+          "isMain": false
+        },
+        {
+          "color": "Purple Ash",
+          "image": "http://catalog.raznobyt.com/images/products/VLP-4206/Purple Ash.jpg",
+          "isMain": false
+        },
+        {
+          "color": "Tea Rose",
+          "image": "http://catalog.raznobyt.com/images/products/VLP-4206/Tea Rose.jpg",
+          "isMain": false
+        },
+        {
+          "color": "Teal",
+          "image": "http://catalog.raznobyt.com/images/products/VLP-4206/Teal.jpg",
+          "isMain": false
+        },
+        {
+          "color": "Vanillian",
+          "image": "http://catalog.raznobyt.com/images/products/VLP-4206/Vanillian.jpg",
+          "isMain": false
+        }
+      ],
       "properties": [],
       "composition": {
         "cotton": 57,
@@ -5173,7 +5329,9 @@
       "ru": "RC-206 RAY"
     },
     "isNew": false,
-    "images": [],
+    "images": [
+      "http://catalog.raznobyt.com/images/products/RC-206 RAY/90065.jpg"
+    ],
     "description": {
       "ua": "Змішана тканина. Склад: 60% віскоза, 40% поліестр. Щільність 206. Саржеве переплетення 2/1.",
       "ru": ""
@@ -5182,7 +5340,13 @@
       "fabricType": "",
       "density": "206",
       "width": "150",
-      "colors": [],
+      "colors": [
+        {
+          "color": "90065",
+          "image": "http://catalog.raznobyt.com/images/products/RC-206 RAY/90065.jpg",
+          "isMain": true
+        }
+      ],
       "properties": [],
       "composition": {
         "cotton": 0,
@@ -6984,7 +7148,10 @@
       "ru": "RC-194"
     },
     "isNew": false,
-    "images": [],
+    "images": [
+      "http://catalog.raznobyt.com/images/products/RC-194/main/90065.jpg",
+      "http://catalog.raznobyt.com/images/products/RC-194/99014.jpg"
+    ],
     "description": {
       "ua": "Змішана тканина саржевого переплетення. Склад: 35% бавовна, 65% поліестр. Щільність 194 г/м². Легка та міцна, добре тримає форму.",
       "ru": "Смесовая ткань саржевого переплетения. Состав: 35% хлопок, 65% полиэстер. Плотность 194 г/м². Легкая и прочная, хорошо держит форму."
@@ -6993,7 +7160,18 @@
       "fabricType": "twill",
       "density": "194",
       "width": "150",
-      "colors": [],
+      "colors": [
+        {
+          "color": "90065",
+          "image": "http://catalog.raznobyt.com/images/products/RC-194/main/90065.jpg",
+          "isMain": true
+        },
+        {
+          "color": "99014",
+          "image": "http://catalog.raznobyt.com/images/products/RC-194/99014.jpg",
+          "isMain": false
+        }
+      ],
       "properties": [],
       "composition": {
         "cotton": 35,
@@ -7354,7 +7532,12 @@
       "ru": "RC-234"
     },
     "isNew": false,
-    "images": [],
+    "images": [
+      "http://catalog.raznobyt.com/images/products/RC-234/main/98244.jpg",
+      "http://catalog.raznobyt.com/images/products/RC-234/96293.jpg",
+      "http://catalog.raznobyt.com/images/products/RC-234/98314.jpg",
+      "http://catalog.raznobyt.com/images/products/RC-234/99014.jpg"
+    ],
     "description": {
       "ua": "Змішана тканина саржевого переплетення. Склад: 35% бавовна, 65% поліестр. Щільність 234 г/м². Підвищена міцність та довговічність.",
       "ru": "Смесовая ткань саржевого переплетения. Состав: 35% хлопок, 65% полиэстер. Плотность 234 г/м². Повышенная прочность и долговечность."
@@ -7363,7 +7546,28 @@
       "fabricType": "twill",
       "density": "234",
       "width": "150",
-      "colors": [],
+      "colors": [
+        {
+          "color": "98244",
+          "image": "http://catalog.raznobyt.com/images/products/RC-234/main/98244.jpg",
+          "isMain": true
+        },
+        {
+          "color": "96293",
+          "image": "http://catalog.raznobyt.com/images/products/RC-234/96293.jpg",
+          "isMain": false
+        },
+        {
+          "color": "98314",
+          "image": "http://catalog.raznobyt.com/images/products/RC-234/98314.jpg",
+          "isMain": false
+        },
+        {
+          "color": "99014",
+          "image": "http://catalog.raznobyt.com/images/products/RC-234/99014.jpg",
+          "isMain": false
+        }
+      ],
       "properties": [],
       "composition": {
         "cotton": 35,
@@ -7673,7 +7877,11 @@
       "ru": "9511"
     },
     "isNew": false,
-    "images": [],
+    "images": [
+      "http://catalog.raznobyt.com/images/products/9511/main/95364.jpg",
+      "http://catalog.raznobyt.com/images/products/9511/93255.jpg",
+      "http://catalog.raznobyt.com/images/products/9511/96447.jpg"
+    ],
     "description": {
       "ua": "Змішана тканина саржевого переплетення. Склад: 35% бавовна, 65% поліестр. Щільність 245 г/м². Для корпоративного одягу в умовах підвищених навантажень.",
       "ru": "Смесовая ткань саржевого переплетения. Состав: 35% хлопок, 65% полиэстер. Плотность 245 г/м². Для корпоративной одежды в условиях повышенных нагрузок."
@@ -7682,7 +7890,23 @@
       "fabricType": "twill",
       "density": "245",
       "width": "150",
-      "colors": [],
+      "colors": [
+        {
+          "color": "95364",
+          "image": "http://catalog.raznobyt.com/images/products/9511/main/95364.jpg",
+          "isMain": true
+        },
+        {
+          "color": "93255",
+          "image": "http://catalog.raznobyt.com/images/products/9511/93255.jpg",
+          "isMain": false
+        },
+        {
+          "color": "96447",
+          "image": "http://catalog.raznobyt.com/images/products/9511/96447.jpg",
+          "isMain": false
+        }
+      ],
       "properties": [],
       "composition": {
         "cotton": 35,
@@ -8125,14 +8349,18 @@
     },
     "isNew": false,
     "images": [
-      "http://catalog.raznobyt.com/images/products/TR-163/main/IMG_20260521_0005.jpg",
-      "http://catalog.raznobyt.com/images/products/TR-163/112 Sky PF.jpg",
-      "http://catalog.raznobyt.com/images/products/TR-163/506 Black PF.jpg",
-      "http://catalog.raznobyt.com/images/products/TR-163/701 White.jpg",
-      "http://catalog.raznobyt.com/images/products/TR-163/752 Sky.jpg",
-      "http://catalog.raznobyt.com/images/products/TR-163/758 Indigo.jpg",
-      "http://catalog.raznobyt.com/images/products/TR-163/Blue Stone PF.jpg",
-      "http://catalog.raznobyt.com/images/products/TR-163/Dark Green PF.jpg"
+      "http://catalog.raznobyt.com/images/products/TR-163/main/752 SKY.jpg",
+      "http://catalog.raznobyt.com/images/products/TR-163/112 SKY PEACH FINISH.jpg",
+      "http://catalog.raznobyt.com/images/products/TR-163/335 SAILOR NAVY PEACH FINISH.jpg",
+      "http://catalog.raznobyt.com/images/products/TR-163/506 BLACK PEACH FINISH.jpg",
+      "http://catalog.raznobyt.com/images/products/TR-163/701 WHITE.jpg",
+      "http://catalog.raznobyt.com/images/products/TR-163/758 INDIGO.jpg",
+      "http://catalog.raznobyt.com/images/products/TR-163/794 BLACK.jpg",
+      "http://catalog.raznobyt.com/images/products/TR-163/BLUE STONE PEACH FINISH.jpg",
+      "http://catalog.raznobyt.com/images/products/TR-163/DARK GREEN PEACH FINISH.jpg",
+      "http://catalog.raznobyt.com/images/products/TR-163/NINERON PEACH FINISH.jpg",
+      "http://catalog.raznobyt.com/images/products/TR-163/VINTEN MOSS PEACH FINISH.jpg",
+      "http://catalog.raznobyt.com/images/products/TR-163/WHITE PEACH FINISH.jpg"
     ],
     "description": {
       "ua": "Легка змішана тканина з ефектом стрейч. Склад: 49.5% бавовна, 47.5% поліестр, 3% стрейч. Щільність 163 г/м². Саржеве переплетення. Забезпечує комфорт та еластичність.",
@@ -8144,43 +8372,63 @@
       "width": "150",
       "colors": [
         {
-          "color": "IMG_20260521_0005",
-          "image": "http://catalog.raznobyt.com/images/products/TR-163/main/IMG_20260521_0005.jpg",
+          "color": "752 SKY",
+          "image": "http://catalog.raznobyt.com/images/products/TR-163/main/752 SKY.jpg",
           "isMain": true
         },
         {
-          "color": "112 Sky PF",
-          "image": "http://catalog.raznobyt.com/images/products/TR-163/112 Sky PF.jpg",
+          "color": "112 SKY PEACH FINISH",
+          "image": "http://catalog.raznobyt.com/images/products/TR-163/112 SKY PEACH FINISH.jpg",
           "isMain": false
         },
         {
-          "color": "506 Black PF",
-          "image": "http://catalog.raznobyt.com/images/products/TR-163/506 Black PF.jpg",
+          "color": "335 SAILOR NAVY PEACH FINISH",
+          "image": "http://catalog.raznobyt.com/images/products/TR-163/335 SAILOR NAVY PEACH FINISH.jpg",
           "isMain": false
         },
         {
-          "color": "701 White",
-          "image": "http://catalog.raznobyt.com/images/products/TR-163/701 White.jpg",
+          "color": "506 BLACK PEACH FINISH",
+          "image": "http://catalog.raznobyt.com/images/products/TR-163/506 BLACK PEACH FINISH.jpg",
           "isMain": false
         },
         {
-          "color": "752 Sky",
-          "image": "http://catalog.raznobyt.com/images/products/TR-163/752 Sky.jpg",
+          "color": "701 WHITE",
+          "image": "http://catalog.raznobyt.com/images/products/TR-163/701 WHITE.jpg",
           "isMain": false
         },
         {
-          "color": "758 Indigo",
-          "image": "http://catalog.raznobyt.com/images/products/TR-163/758 Indigo.jpg",
+          "color": "758 INDIGO",
+          "image": "http://catalog.raznobyt.com/images/products/TR-163/758 INDIGO.jpg",
           "isMain": false
         },
         {
-          "color": "Blue Stone PF",
-          "image": "http://catalog.raznobyt.com/images/products/TR-163/Blue Stone PF.jpg",
+          "color": "794 BLACK",
+          "image": "http://catalog.raznobyt.com/images/products/TR-163/794 BLACK.jpg",
           "isMain": false
         },
         {
-          "color": "Dark Green PF",
-          "image": "http://catalog.raznobyt.com/images/products/TR-163/Dark Green PF.jpg",
+          "color": "BLUE STONE PEACH FINISH",
+          "image": "http://catalog.raznobyt.com/images/products/TR-163/BLUE STONE PEACH FINISH.jpg",
+          "isMain": false
+        },
+        {
+          "color": "DARK GREEN PEACH FINISH",
+          "image": "http://catalog.raznobyt.com/images/products/TR-163/DARK GREEN PEACH FINISH.jpg",
+          "isMain": false
+        },
+        {
+          "color": "NINERON PEACH FINISH",
+          "image": "http://catalog.raznobyt.com/images/products/TR-163/NINERON PEACH FINISH.jpg",
+          "isMain": false
+        },
+        {
+          "color": "VINTEN MOSS PEACH FINISH",
+          "image": "http://catalog.raznobyt.com/images/products/TR-163/VINTEN MOSS PEACH FINISH.jpg",
+          "isMain": false
+        },
+        {
+          "color": "WHITE PEACH FINISH",
+          "image": "http://catalog.raznobyt.com/images/products/TR-163/WHITE PEACH FINISH.jpg",
           "isMain": false
         }
       ],
@@ -8317,7 +8565,29 @@
       "ru": "VLP-4206"
     },
     "isNew": false,
-    "images": [],
+    "images": [
+      "http://catalog.raznobyt.com/images/products/VLP-4206/main/61233.jpg",
+      "http://catalog.raznobyt.com/images/products/VLP-4206/784 Grey.jpg",
+      "http://catalog.raznobyt.com/images/products/VLP-4206/60563.jpg",
+      "http://catalog.raznobyt.com/images/products/VLP-4206/62709.jpg",
+      "http://catalog.raznobyt.com/images/products/VLP-4206/95449.jpg",
+      "http://catalog.raznobyt.com/images/products/VLP-4206/97019T.jpg",
+      "http://catalog.raznobyt.com/images/products/VLP-4206/98060.jpg",
+      "http://catalog.raznobyt.com/images/products/VLP-4206/99017.jpg",
+      "http://catalog.raznobyt.com/images/products/VLP-4206/Cacao.jpg",
+      "http://catalog.raznobyt.com/images/products/VLP-4206/Candy.jpg",
+      "http://catalog.raznobyt.com/images/products/VLP-4206/Cornflower Blue.jpg",
+      "http://catalog.raznobyt.com/images/products/VLP-4206/Grass.jpg",
+      "http://catalog.raznobyt.com/images/products/VLP-4206/Ice White.jpg",
+      "http://catalog.raznobyt.com/images/products/VLP-4206/IRIS.jpg",
+      "http://catalog.raznobyt.com/images/products/VLP-4206/Mauve.jpg",
+      "http://catalog.raznobyt.com/images/products/VLP-4206/Oak Leaf.jpg",
+      "http://catalog.raznobyt.com/images/products/VLP-4206/Ocean.jpg",
+      "http://catalog.raznobyt.com/images/products/VLP-4206/Purple Ash.jpg",
+      "http://catalog.raznobyt.com/images/products/VLP-4206/Tea Rose.jpg",
+      "http://catalog.raznobyt.com/images/products/VLP-4206/Teal.jpg",
+      "http://catalog.raznobyt.com/images/products/VLP-4206/Vanillian.jpg"
+    ],
     "description": {
       "ua": "Легка тканина з ефектом стрейч. Склад: 57% бавовна, 39% поліестр, 4% стрейч. Щільність 140 г/м². Полотняне переплетення.",
       "ru": "Легкая ткань с эффектом стретч. Состав: 57% хлопок, 39% полиэстер, 4% стретч. Плотность 140 г/м². Полотняное плетение."
@@ -8326,7 +8596,113 @@
       "fabricType": "полотно",
       "density": "134",
       "width": "150",
-      "colors": [],
+      "colors": [
+        {
+          "color": "61233",
+          "image": "http://catalog.raznobyt.com/images/products/VLP-4206/main/61233.jpg",
+          "isMain": true
+        },
+        {
+          "color": "784 Grey",
+          "image": "http://catalog.raznobyt.com/images/products/VLP-4206/784 Grey.jpg",
+          "isMain": false
+        },
+        {
+          "color": "60563",
+          "image": "http://catalog.raznobyt.com/images/products/VLP-4206/60563.jpg",
+          "isMain": false
+        },
+        {
+          "color": "62709",
+          "image": "http://catalog.raznobyt.com/images/products/VLP-4206/62709.jpg",
+          "isMain": false
+        },
+        {
+          "color": "95449",
+          "image": "http://catalog.raznobyt.com/images/products/VLP-4206/95449.jpg",
+          "isMain": false
+        },
+        {
+          "color": "97019T",
+          "image": "http://catalog.raznobyt.com/images/products/VLP-4206/97019T.jpg",
+          "isMain": false
+        },
+        {
+          "color": "98060",
+          "image": "http://catalog.raznobyt.com/images/products/VLP-4206/98060.jpg",
+          "isMain": false
+        },
+        {
+          "color": "99017",
+          "image": "http://catalog.raznobyt.com/images/products/VLP-4206/99017.jpg",
+          "isMain": false
+        },
+        {
+          "color": "Cacao",
+          "image": "http://catalog.raznobyt.com/images/products/VLP-4206/Cacao.jpg",
+          "isMain": false
+        },
+        {
+          "color": "Candy",
+          "image": "http://catalog.raznobyt.com/images/products/VLP-4206/Candy.jpg",
+          "isMain": false
+        },
+        {
+          "color": "Cornflower Blue",
+          "image": "http://catalog.raznobyt.com/images/products/VLP-4206/Cornflower Blue.jpg",
+          "isMain": false
+        },
+        {
+          "color": "Grass",
+          "image": "http://catalog.raznobyt.com/images/products/VLP-4206/Grass.jpg",
+          "isMain": false
+        },
+        {
+          "color": "Ice White",
+          "image": "http://catalog.raznobyt.com/images/products/VLP-4206/Ice White.jpg",
+          "isMain": false
+        },
+        {
+          "color": "IRIS",
+          "image": "http://catalog.raznobyt.com/images/products/VLP-4206/IRIS.jpg",
+          "isMain": false
+        },
+        {
+          "color": "Mauve",
+          "image": "http://catalog.raznobyt.com/images/products/VLP-4206/Mauve.jpg",
+          "isMain": false
+        },
+        {
+          "color": "Oak Leaf",
+          "image": "http://catalog.raznobyt.com/images/products/VLP-4206/Oak Leaf.jpg",
+          "isMain": false
+        },
+        {
+          "color": "Ocean",
+          "image": "http://catalog.raznobyt.com/images/products/VLP-4206/Ocean.jpg",
+          "isMain": false
+        },
+        {
+          "color": "Purple Ash",
+          "image": "http://catalog.raznobyt.com/images/products/VLP-4206/Purple Ash.jpg",
+          "isMain": false
+        },
+        {
+          "color": "Tea Rose",
+          "image": "http://catalog.raznobyt.com/images/products/VLP-4206/Tea Rose.jpg",
+          "isMain": false
+        },
+        {
+          "color": "Teal",
+          "image": "http://catalog.raznobyt.com/images/products/VLP-4206/Teal.jpg",
+          "isMain": false
+        },
+        {
+          "color": "Vanillian",
+          "image": "http://catalog.raznobyt.com/images/products/VLP-4206/Vanillian.jpg",
+          "isMain": false
+        }
+      ],
       "properties": [],
       "composition": {
         "cotton": 57,
@@ -8927,7 +9303,9 @@
       "ru": "L 389"
     },
     "isNew": false,
-    "images": [],
+    "images": [
+      "http://catalog.raznobyt.com/images/products/L 389/main/L 675.jpg"
+    ],
     "description": {
       "ua": "100% бавовняна тканина саржевого переплетення. Щільність 260 г/м². Для міцної та комфортної уніформи.",
       "ru": "100% хлопковая ткань саржевого переплетения. Плотность 260 г/м². Для прочной и комфортной униформы."
@@ -8936,7 +9314,13 @@
       "fabricType": "twill",
       "density": "260",
       "width": "148-150",
-      "colors": [],
+      "colors": [
+        {
+          "color": "L 675",
+          "image": "http://catalog.raznobyt.com/images/products/L 389/main/L 675.jpg",
+          "isMain": true
+        }
+      ],
       "properties": [],
       "composition": {
         "cotton": 100,
@@ -9013,7 +9397,9 @@
       "ru": "L 714"
     },
     "isNew": false,
-    "images": [],
+    "images": [
+      "http://catalog.raznobyt.com/images/products/L 714/main/L 714.jpg"
+    ],
     "description": {
       "ua": "Бавовняна тканина зі стрейчем. Склад: 97% бавовна, 3% стрейч. Щільність 270 г/м². Саржеве переплетення. Комфорт та свобода рухів.",
       "ru": "Хлопковая ткань со стретчем. Состав: 97% хлопок, 3% стретч. Плотность 270 г/м². Саржевое переплетение. Комфорт и свобода движений."
@@ -9022,7 +9408,13 @@
       "fabricType": "twill",
       "density": "270",
       "width": "117-118",
-      "colors": [],
+      "colors": [
+        {
+          "color": "L 714",
+          "image": "http://catalog.raznobyt.com/images/products/L 714/main/L 714.jpg",
+          "isMain": true
+        }
+      ],
       "properties": [],
       "composition": {
         "cotton": 97,
@@ -9185,7 +9577,9 @@
       "ru": "RC 206 RAY"
     },
     "isNew": false,
-    "images": [],
+    "images": [
+      "http://catalog.raznobyt.com/images/products/RC-206 RAY/90065.jpg"
+    ],
     "description": {
       "ua": "Змішана тканина з віскозою (rayon). Склад: 60% rayon, 40% поліестр. Щільність 206 г/м². Саржеве переплетення. Має приємну текстуру та гарну драпірувальність.",
       "ru": "Смесовая ткань с вискозой (rayon). Состав: 60% rayon, 40% полиэстер. Плотность 206 г/м². Саржевое переплетение. Имеет приятную текстуру и хорошую драпируемость."
@@ -9194,7 +9588,13 @@
       "fabricType": "twill",
       "density": "206",
       "width": "150",
-      "colors": [],
+      "colors": [
+        {
+          "color": "90065",
+          "image": "http://catalog.raznobyt.com/images/products/RC-206 RAY/90065.jpg",
+          "isMain": true
+        }
+      ],
       "properties": [],
       "composition": {
         "cotton": 0,
@@ -10281,9 +10681,9 @@
       "http://catalog.raznobyt.com/images/products/Defender® M DP 9180/main/35268 (BLACK).jpg"
     ],
     "videos": [
-      "http://catalog.raznobyt.com/images/products/Defender® M DM 9210/video/TenCate1-Defender-M.mp4",
-      "http://catalog.raznobyt.com/images/products/Defender® M DM 9210/video/Defender1.mp4",
-      "http://catalog.raznobyt.com/images/products/Defender® M DM 9210/video/tencate-defender-m.mp4"
+      "http://catalog.raznobyt.com/images/products/Defender® M DM 9210/Defender1.mp4",
+      "http://catalog.raznobyt.com/images/products/Defender® M DM 9210/TenCate1-Defender-M.mp4",
+      "http://catalog.raznobyt.com/images/products/Defender® M DM 9210/tencate-defender-m.mp4"
     ],
     "description": {
       "ua": "Високоякісна вогнестійка та антистатична тканина з масловодовідштовхувальним просоченням (МВО). Склад: FR Rayon/пара-арамід/поліамід/антистатик. Щільність 180 г/м². Забезпечує надійний захист від термічних ризиків та статичної електрики.",
@@ -10337,9 +10737,9 @@
       "http://catalog.raznobyt.com/images/products/Defender® M DP 9210/main/35268 (BLACK).jpg"
     ],
     "videos": [
-      "http://catalog.raznobyt.com/images/products/Defender® M DM 9210/video/TenCate1-Defender-M.mp4",
-      "http://catalog.raznobyt.com/images/products/Defender® M DM 9210/video/Defender1.mp4",
-      "http://catalog.raznobyt.com/images/products/Defender® M DM 9210/video/tencate-defender-m.mp4"
+      "http://catalog.raznobyt.com/images/products/Defender® M DM 9210/Defender1.mp4",
+      "http://catalog.raznobyt.com/images/products/Defender® M DM 9210/TenCate1-Defender-M.mp4",
+      "http://catalog.raznobyt.com/images/products/Defender® M DM 9210/tencate-defender-m.mp4"
     ],
     "description": {
       "ua": "Високоякісна вогнестійка та антистатична тканина з масловодовідштовхувальним просоченням (МВО). Склад: FR Rayon/пара-арамід/поліамід/антистатик. Щільність 210 г/м². Забезпечує надійний захист від термічних ризиків та статичної електрики.",
@@ -12103,7 +12503,9 @@
       "ru": "А042"
     },
     "isNew": false,
-    "images": [],
+    "images": [
+      "http://catalog.raznobyt.com/images/products/A042/main/19070.jpg"
+    ],
     "description": {
       "ua": "100% бавовна легка, комфортна, дихаюча,",
       "ru": "100% бавовна легка, комфортна, дихаюча,"
@@ -12112,7 +12514,13 @@
       "fabricType": "",
       "density": "110",
       "width": "150",
-      "colors": [],
+      "colors": [
+        {
+          "color": "19070",
+          "image": "http://catalog.raznobyt.com/images/products/A042/main/19070.jpg",
+          "isMain": true
+        }
+      ],
       "properties": [],
       "composition": {
         "cotton": 100,
@@ -12311,7 +12719,10 @@
       "ru": "А477"
     },
     "isNew": false,
-    "images": [],
+    "images": [
+      "http://catalog.raznobyt.com/images/products/A477/main/30943.jpg",
+      "http://catalog.raznobyt.com/images/products/A477/30944.jpg"
+    ],
     "description": {
       "ua": "100% бавовна легка, комфортна, дихаюча,",
       "ru": "100% бавовна  легкая, комфортная, дышащая"
@@ -12320,7 +12731,18 @@
       "fabricType": "полотно",
       "density": "115",
       "width": "150",
-      "colors": [],
+      "colors": [
+        {
+          "color": "30943",
+          "image": "http://catalog.raznobyt.com/images/products/A477/main/30943.jpg",
+          "isMain": true
+        },
+        {
+          "color": "30944",
+          "image": "http://catalog.raznobyt.com/images/products/A477/30944.jpg",
+          "isMain": false
+        }
+      ],
       "properties": [],
       "composition": {
         "cotton": 100,
@@ -15378,7 +15800,9 @@
       "ru": "22001"
     },
     "isNew": false,
-    "images": [],
+    "images": [
+      "http://catalog.raznobyt.com/images/products/22001/main/NAVY.jpg"
+    ],
     "description": {
       "ua": "65% бавовна, 35% поліестер  300г/м.кв",
       "ru": "65% хлопок, 35% поиіестер  300г/м.кв"
@@ -15387,7 +15811,13 @@
       "fabricType": "канвас",
       "density": "300",
       "width": "150",
-      "colors": [],
+      "colors": [
+        {
+          "color": "NAVY",
+          "image": "http://catalog.raznobyt.com/images/products/22001/main/NAVY.jpg",
+          "isMain": true
+        }
+      ],
       "properties": [],
       "composition": {
         "cotton": 65,
@@ -15422,8 +15852,7 @@
     },
     "isNew": false,
     "images": [
-      "http://catalog.raznobyt.com/images/products/6509/main/ANTHRACITE.jpg",
-      "http://catalog.raznobyt.com/images/products/6509/ANTHRACITE.jpg"
+      "http://catalog.raznobyt.com/images/products/6509/main/ANTHRACITE.jpg"
     ],
     "description": {
       "ua": "60% бавовна, 40% поліестер  330г/м.кв ",
@@ -15438,11 +15867,6 @@
           "color": "ANTHRACITE",
           "image": "http://catalog.raznobyt.com/images/products/6509/main/ANTHRACITE.jpg",
           "isMain": true
-        },
-        {
-          "color": "ANTHRACITE",
-          "image": "http://catalog.raznobyt.com/images/products/6509/ANTHRACITE.jpg",
-          "isMain": false
         }
       ],
       "properties": [],
@@ -18164,7 +18588,9 @@
       "ru": "L927"
     },
     "isNew": false,
-    "images": [],
+    "images": [
+      "http://catalog.raznobyt.com/images/products/L927/main/00841.jpg"
+    ],
     "description": {
       "ua": "100% бавовна,  213г/м.кв,  полотно,  150см",
       "ru": "100% хлопок, 213г/м.кв,  полотно,  150см"
@@ -18173,7 +18599,13 @@
       "fabricType": "полотно",
       "density": "213",
       "width": "150",
-      "colors": [],
+      "colors": [
+        {
+          "color": "00841",
+          "image": "http://catalog.raznobyt.com/images/products/L927/main/00841.jpg",
+          "isMain": true
+        }
+      ],
       "properties": [],
       "composition": {
         "cotton": 100,
@@ -18336,7 +18768,13 @@
       "ru": "FLASH F1"
     },
     "isNew": false,
-    "images": [],
+    "images": [
+      "http://catalog.raznobyt.com/images/products/FLASH F1/main/82.jpg",
+      "http://catalog.raznobyt.com/images/products/FLASH F1/03.jpg",
+      "http://catalog.raznobyt.com/images/products/FLASH F1/30.jpg",
+      "http://catalog.raznobyt.com/images/products/FLASH F1/114.jpg",
+      "http://catalog.raznobyt.com/images/products/FLASH F1/700.jpg"
+    ],
     "description": {
       "ua": "100% льон,  120г/м.кв,  полотно,  150см",
       "ru": "100% лен,  120 г/м.кв,  полотно,  150см"
@@ -18345,7 +18783,33 @@
       "fabricType": "полотно",
       "density": "120",
       "width": "150",
-      "colors": [],
+      "colors": [
+        {
+          "color": "82",
+          "image": "http://catalog.raznobyt.com/images/products/FLASH F1/main/82.jpg",
+          "isMain": true
+        },
+        {
+          "color": "03",
+          "image": "http://catalog.raznobyt.com/images/products/FLASH F1/03.jpg",
+          "isMain": false
+        },
+        {
+          "color": "30",
+          "image": "http://catalog.raznobyt.com/images/products/FLASH F1/30.jpg",
+          "isMain": false
+        },
+        {
+          "color": "114",
+          "image": "http://catalog.raznobyt.com/images/products/FLASH F1/114.jpg",
+          "isMain": false
+        },
+        {
+          "color": "700",
+          "image": "http://catalog.raznobyt.com/images/products/FLASH F1/700.jpg",
+          "isMain": false
+        }
+      ],
       "properties": [],
       "composition": {
         "cotton": 0,
@@ -18379,7 +18843,17 @@
       "ru": "А263"
     },
     "isNew": false,
-    "images": [],
+    "images": [
+      "http://catalog.raznobyt.com/images/products/A263/main/31549.jpg",
+      "http://catalog.raznobyt.com/images/products/A263/19681.jpg",
+      "http://catalog.raznobyt.com/images/products/A263/30915.jpg",
+      "http://catalog.raznobyt.com/images/products/A263/31550.jpg",
+      "http://catalog.raznobyt.com/images/products/A263/31552.jpg",
+      "http://catalog.raznobyt.com/images/products/A263/32372.jpg",
+      "http://catalog.raznobyt.com/images/products/A263/32374.jpg",
+      "http://catalog.raznobyt.com/images/products/A263/32375.jpg",
+      "http://catalog.raznobyt.com/images/products/A263/33753.jpg"
+    ],
     "description": {
       "ua": "100% льон,  125г/м.кв,  полотно,  150см",
       "ru": "100% лен,  125 г/м.кв,  полотно,  150см"
@@ -18388,7 +18862,53 @@
       "fabricType": "полотно",
       "density": "125",
       "width": "150",
-      "colors": [],
+      "colors": [
+        {
+          "color": "31549",
+          "image": "http://catalog.raznobyt.com/images/products/A263/main/31549.jpg",
+          "isMain": true
+        },
+        {
+          "color": "19681",
+          "image": "http://catalog.raznobyt.com/images/products/A263/19681.jpg",
+          "isMain": false
+        },
+        {
+          "color": "30915",
+          "image": "http://catalog.raznobyt.com/images/products/A263/30915.jpg",
+          "isMain": false
+        },
+        {
+          "color": "31550",
+          "image": "http://catalog.raznobyt.com/images/products/A263/31550.jpg",
+          "isMain": false
+        },
+        {
+          "color": "31552",
+          "image": "http://catalog.raznobyt.com/images/products/A263/31552.jpg",
+          "isMain": false
+        },
+        {
+          "color": "32372",
+          "image": "http://catalog.raznobyt.com/images/products/A263/32372.jpg",
+          "isMain": false
+        },
+        {
+          "color": "32374",
+          "image": "http://catalog.raznobyt.com/images/products/A263/32374.jpg",
+          "isMain": false
+        },
+        {
+          "color": "32375",
+          "image": "http://catalog.raznobyt.com/images/products/A263/32375.jpg",
+          "isMain": false
+        },
+        {
+          "color": "33753",
+          "image": "http://catalog.raznobyt.com/images/products/A263/33753.jpg",
+          "isMain": false
+        }
+      ],
       "properties": [],
       "composition": {
         "cotton": 0,
@@ -18422,7 +18942,14 @@
       "ru": "LINEN VISCOSE"
     },
     "isNew": false,
-    "images": [],
+    "images": [
+      "http://catalog.raznobyt.com/images/products/LINEN VISCOSE/main/00.jpg",
+      "http://catalog.raznobyt.com/images/products/LINEN VISCOSE/02.jpg",
+      "http://catalog.raznobyt.com/images/products/LINEN VISCOSE/03.jpg",
+      "http://catalog.raznobyt.com/images/products/LINEN VISCOSE/25.jpg",
+      "http://catalog.raznobyt.com/images/products/LINEN VISCOSE/33.jpg",
+      "http://catalog.raznobyt.com/images/products/LINEN VISCOSE/52.jpg"
+    ],
     "description": {
       "ua": "80% льон,  20% віскоза,  200 г/м.кв,  полотно,  150см",
       "ru": "80% лен,  20% вискоза,  200 г/м.кв,  полотно,  150см"
@@ -18431,7 +18958,38 @@
       "fabricType": "полотно",
       "density": "200",
       "width": "150",
-      "colors": [],
+      "colors": [
+        {
+          "color": "00",
+          "image": "http://catalog.raznobyt.com/images/products/LINEN VISCOSE/main/00.jpg",
+          "isMain": true
+        },
+        {
+          "color": "02",
+          "image": "http://catalog.raznobyt.com/images/products/LINEN VISCOSE/02.jpg",
+          "isMain": false
+        },
+        {
+          "color": "03",
+          "image": "http://catalog.raznobyt.com/images/products/LINEN VISCOSE/03.jpg",
+          "isMain": false
+        },
+        {
+          "color": "25",
+          "image": "http://catalog.raznobyt.com/images/products/LINEN VISCOSE/25.jpg",
+          "isMain": false
+        },
+        {
+          "color": "33",
+          "image": "http://catalog.raznobyt.com/images/products/LINEN VISCOSE/33.jpg",
+          "isMain": false
+        },
+        {
+          "color": "52",
+          "image": "http://catalog.raznobyt.com/images/products/LINEN VISCOSE/52.jpg",
+          "isMain": false
+        }
+      ],
       "properties": [],
       "composition": {
         "cotton": 0,
@@ -18465,7 +19023,13 @@
       "ru": "9327"
     },
     "isNew": false,
-    "images": [],
+    "images": [
+      "http://catalog.raznobyt.com/images/products/9327/main/1021.jpg",
+      "http://catalog.raznobyt.com/images/products/9327/7.jpg",
+      "http://catalog.raznobyt.com/images/products/9327/9.jpg",
+      "http://catalog.raznobyt.com/images/products/9327/434.jpg",
+      "http://catalog.raznobyt.com/images/products/9327/1121.jpg"
+    ],
     "description": {
       "ua": "100 %льон,  240 г/м.кв,  полотно,  140см",
       "ru": "100% лен,  240 г/м.кв,  полотно,  140см"
@@ -18474,7 +19038,33 @@
       "fabricType": "полотно",
       "density": "240",
       "width": "140",
-      "colors": [],
+      "colors": [
+        {
+          "color": "1021",
+          "image": "http://catalog.raznobyt.com/images/products/9327/main/1021.jpg",
+          "isMain": true
+        },
+        {
+          "color": "7",
+          "image": "http://catalog.raznobyt.com/images/products/9327/7.jpg",
+          "isMain": false
+        },
+        {
+          "color": "9",
+          "image": "http://catalog.raznobyt.com/images/products/9327/9.jpg",
+          "isMain": false
+        },
+        {
+          "color": "434",
+          "image": "http://catalog.raznobyt.com/images/products/9327/434.jpg",
+          "isMain": false
+        },
+        {
+          "color": "1121",
+          "image": "http://catalog.raznobyt.com/images/products/9327/1121.jpg",
+          "isMain": false
+        }
+      ],
       "properties": [],
       "composition": {
         "cotton": 0,
@@ -19679,7 +20269,10 @@
       "ru": "KG 245"
     },
     "isNew": false,
-    "images": [],
+    "images": [
+      "http://catalog.raznobyt.com/images/products/KG 245/main/60996.jpg",
+      "http://catalog.raznobyt.com/images/products/KG 245/64958.jpg"
+    ],
     "description": {
       "ua": "35% бавовна, 65% поліестр  245г/м.кв",
       "ru": "35% хлопок, 65% полиестр  245г/м.кв"
@@ -19688,7 +20281,18 @@
       "fabricType": "канвас, панама",
       "density": "245",
       "width": "150",
-      "colors": [],
+      "colors": [
+        {
+          "color": "60996",
+          "image": "http://catalog.raznobyt.com/images/products/KG 245/main/60996.jpg",
+          "isMain": true
+        },
+        {
+          "color": "64958",
+          "image": "http://catalog.raznobyt.com/images/products/KG 245/64958.jpg",
+          "isMain": false
+        }
+      ],
       "properties": [],
       "composition": {
         "cotton": 35,
