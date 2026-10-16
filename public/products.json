@@ -1214,7 +1214,7 @@
       "http://catalog.raznobyt.com/images/products/KG 308/65440.jpg",
       "http://catalog.raznobyt.com/images/products/KG 308/65442.jpg",
       "http://catalog.raznobyt.com/images/products/KG 308/66747.jpg",
-      "http://catalog.raznobyt.com/images/products/KG 308/66783.jpg 308/61090.jpg",
+      "http://catalog.raznobyt.com/images/products/KG 308/66783.jpg",
       "http://catalog.raznobyt.com/images/products/KG 308/62685.jpg",
       "http://catalog.raznobyt.com/images/products/KG 308/63805.jpg",
       "http://catalog.raznobyt.com/images/products/KG 308/65382.jpg",
@@ -1288,8 +1288,8 @@
           "isMain": false
         },
         {
-          "color": "61090",
-          "image": "http://catalog.raznobyt.com/images/products/KG 308/66783.jpg 308/61090.jpg",
+          "color": "66783",
+          "image": "http://catalog.raznobyt.com/images/products/KG 308/66783.jpg",
           "isMain": false
         },
         {
@@ -1963,8 +1963,8 @@
       "http://catalog.raznobyt.com/images/products/TR-50 LIGHT/142 LAVENDER.jpg"
     ],
     "description": {
-      "ua": "Легка змішана тканина саржевого переплетення. Склад: 50% бавовна, 50% поліестр. Щільність 145 г/м². Ідеальна для літнього одягу.",
-      "ru": "Легкая смесовая ткань саржевого переплетения. Состав: 50% хлопок, 50% полиэстер. Плотность 145 г/м². Идеальна для летней одежды."
+      "ua": "Легка змішана тканина саржевого переплетення. Склад: 52% бавовна, 48% поліестр. Щільність 145 г/м². Ідеальна для літнього одягу.",
+      "ru": "Легкая смесовая ткань саржевого переплетения. Состав: 52% хлопок, 48% полиэстер. Плотность 145 г/м². Идеальна для летней одежды."
     },
     "attributes": {
       "fabricType": "twill",
@@ -2029,8 +2029,8 @@
       ],
       "properties": [],
       "composition": {
-        "cotton": 50,
-        "polyester": 50,
+        "cotton": 52,
+        "polyester": 48,
         "spandex": 0,
         "rayon": 0,
         "viscose": 0,
@@ -2315,7 +2315,7 @@
     "attributes": {
       "fabricType": "twill",
       "density": "163",
-      "width": "150",
+      "width": "142",
       "colors": [
         {
           "color": "752 SKY",
@@ -2732,7 +2732,7 @@
     "attributes": {
       "fabricType": "полотно",
       "density": "134",
-      "width": "150",
+      "width": "134",
       "colors": [
         {
           "color": "61233",
@@ -3819,7 +3819,7 @@
       "ru": "Смесовая ткань. Состав: 35% хлопок, 65% полиэстер. Плотность 160. Саржевое переплетение 2/1."
     },
     "attributes": {
-      "fabricType": "twill",
+      "fabricType": "полотно",
       "density": "160",
       "width": "150",
       "colors": [
@@ -4309,7 +4309,7 @@
     "attributes": {
       "fabricType": "twill",
       "density": "200",
-      "width": "150",
+      "width": "148",
       "colors": [
         {
           "color": "772 BEIGE",
@@ -4393,8 +4393,8 @@
       "http://catalog.raznobyt.com/images/products/TRS-48/701 WHITE.jpg"
     ],
     "description": {
-      "ua": "Змішана тканина. Склад: 50% бавовна, 50% поліестр. Щільність 200. Саржеве переплетення 2/1.",
-      "ru": "Смесовая ткань. Состав: 50% хлопок, 50% полиэстер. Плотность 200. Саржевое переплетение 2/1."
+      "ua": "Змішана тканина. Склад: 48% бавовна, 52% поліестр. Щільність 200. Саржеве переплетення 2/1.",
+      "ru": "Смесовая ткань. Состав: 48% хлопок, 52% полиэстер. Плотность 200. Саржевое переплетение 2/1."
     },
     "attributes": {
       "fabricType": "twill",
@@ -4504,8 +4504,8 @@
       ],
       "properties": [],
       "composition": {
-        "cotton": 50,
-        "polyester": 50,
+        "cotton": 48,
+        "polyester": 52,
         "spandex": 0,
         "rayon": 0,
         "viscose": 0,
@@ -4547,7 +4547,7 @@
     "attributes": {
       "fabricType": "twill",
       "density": "215",
-      "width": "150",
+      "width": "142",
       "colors": [
         {
           "color": "NAVY",
@@ -4604,8 +4604,8 @@
       "http://catalog.raznobyt.com/images/products/VVT-2163/794 Black.jpg"
     ],
     "description": {
-      "ua": "Змішана тканина. Склад: 40% бавовна, 60% поліестр. Щільність 210. Саржеве переплетення 2/1.",
-      "ru": "Смесовая ткань. Состав: 40% хлопок, 60% полиэстер. Плотность 210. Саржевое переплетение 2/1."
+      "ua": "Змішана тканина. Склад: 60% бавовна, 40% поліестр. Щільність 210. Саржеве переплетення 2/1.",
+      "ru": "Смесовая ткань. Состав: 60% хлопок, 40% полиэстер. Плотность 210. Саржевое переплетение 2/1."
     },
     "attributes": {
       "fabricType": "twill",
@@ -4630,8 +4630,8 @@
       ],
       "properties": [],
       "composition": {
-        "cotton": 40,
-        "polyester": 60,
+        "cotton": 60,
+        "polyester": 40,
         "spandex": 0,
         "rayon": 0,
         "viscose": 0,
@@ -4792,8 +4792,8 @@
       "http://catalog.raznobyt.com/images/products/TR-50 LIGHT/142 LAVENDER.jpg"
     ],
     "description": {
-      "ua": "Змішана тканина. Склад: 50% бавовна, 50% поліестр. Щільність 145. Саржеве переплетення 2/1.",
-      "ru": "Смесовая ткань. Состав: 50% хлопок, 50% полиэстер. Плотность 145. Саржевое переплетение 2/1."
+      "ua": "Змішана тканина. Склад: 52% бавовна, 48% поліестр. Щільність 145. Саржеве переплетення 2/1.",
+      "ru": "Смесовая ткань. Состав: 52% хлопок, 48% полиэстер. Плотность 145. Саржевое переплетение 2/1."
     },
     "attributes": {
       "fabricType": "twill",
@@ -4858,8 +4858,8 @@
       ],
       "properties": [],
       "composition": {
-        "cotton": 50,
-        "polyester": 50,
+        "cotton": 52,
+        "polyester": 48,
         "spandex": 0,
         "rayon": 0,
         "viscose": 0,
@@ -5045,7 +5045,7 @@
     "attributes": {
       "fabricType": "полотно",
       "density": "134",
-      "width": "150",
+      "width": "134",
       "colors": [
         {
           "color": "61233",
@@ -5178,57 +5178,6 @@
     }
   },
   {
-    "id": "tkan-medical-vvt-2164",
-    "category": "medical",
-    "slug": "tkan-medical-vvt-2164",
-    "title": {
-      "ua": "VVT-2164",
-      "ru": "VVT-2164"
-    },
-    "isNew": false,
-    "images": [
-      "http://catalog.raznobyt.com/images/products/VVT-2164/main/BLACK.jpg"
-    ],
-    "description": {
-      "ua": "Змішана тканина. Склад: 60% бавовна, 40% поліестр. Щільність 210. Саржеве переплетення 2/1.",
-      "ru": "Смесовая ткань. Состав: 60% вискоза, 40% полиэстер. Плотность 206. Саржевое переплетение 2/1."
-    },
-    "attributes": {
-      "fabricType": "twill",
-      "density": "210",
-      "width": "150",
-      "colors": [
-        {
-          "color": "BLACK",
-          "image": "http://catalog.raznobyt.com/images/products/VVT-2164/main/BLACK.jpg",
-          "isMain": true
-        }
-      ],
-      "properties": [],
-      "composition": {
-        "cotton": 60,
-        "polyester": 40,
-        "spandex": 0,
-        "rayon": 0,
-        "viscose": 0,
-        "pbt": 0,
-        "lyon": 0,
-        "polyamide PA": 0,
-        "polypropylene PP": 0,
-        "para aramid": 0,
-        "antistatic": 0,
-        "Modacrylic/Lyocell/Static-Control™": 0,
-        "Nomex®/Kevlar®/Anti-Static": 0,
-        "Nomex®/Para-Aramid/p140": 0,
-        "PBI®/Kevlar®/Antistatic": 0,
-        "Lenzing FR®/Aramid": 0,
-        "Para-aramid/Solid polymer coating": 0,
-        "FR Rayon/пара-арамід/поліамід/антистатик": 0,
-        "MAC": 0
-      }
-    }
-  },
-  {
     "id": "tkan-medical-eg-225",
     "category": "medical",
     "slug": "tkan-medical-eg-225",
@@ -5287,7 +5236,7 @@
     },
     "attributes": {
       "fabricType": "twill",
-      "density": "150",
+      "density": "130",
       "width": "150",
       "colors": [],
       "properties": [],
@@ -6592,7 +6541,7 @@
     "attributes": {
       "fabricType": "twill",
       "density": "200",
-      "width": "150",
+      "width": "148",
       "colors": [
         {
           "color": "772 BEIGE",
@@ -6665,7 +6614,7 @@
     "attributes": {
       "fabricType": "twill",
       "density": "215",
-      "width": "150",
+      "width": "142",
       "colors": [
         {
           "color": "NAVY",
@@ -6981,7 +6930,7 @@
       "ru": "Смесовая ткань саржевого переплетения. Состав: 35% хлопок, 65% полиэстер. Плотность 160 г/м². Подходит для изготовления корпоративной одежды среднего веса."
     },
     "attributes": {
-      "fabricType": "twill",
+      "fabricType": "полотно",
       "density": "160",
       "width": "150",
       "colors": [
@@ -7940,8 +7889,8 @@
       "http://catalog.raznobyt.com/images/products/VVT-2163/794 Black.jpg"
     ],
     "description": {
-      "ua": "Змішана тканина саржевого переплетення. Склад: 40% бавовна, 60% поліестр. Щільність 210 г/м². Оптимальне поєднання міцності та комфорту для уніформи.",
-      "ru": "Смесовая ткань саржевого переплетения. Состав: 40% хлопок, 60% полиэстер. Плотность 210 г/м². Оптимальное сочетание прочности и комфорта для униформы."
+      "ua": "Змішана тканина саржевого переплетення. Склад: 60% бавовна, 40% поліестр. Щільність 210 г/м². Оптимальне поєднання міцності та комфорту для уніформи.",
+      "ru": "Смесовая ткань саржевого переплетения. Состав: 60% хлопок, 40% полиэстер. Плотность 210 г/м². Оптимальное сочетание прочности и комфорта для униформы."
     },
     "attributes": {
       "fabricType": "twill",
@@ -7966,8 +7915,8 @@
       ],
       "properties": [],
       "composition": {
-        "cotton": 40,
-        "polyester": 60,
+        "cotton": 60,
+        "polyester": 40,
         "spandex": 0,
         "rayon": 0,
         "viscose": 0,
@@ -8011,8 +7960,8 @@
       "http://catalog.raznobyt.com/images/products/TR-50 LIGHT/142 LAVENDER.jpg"
     ],
     "description": {
-      "ua": "Легка змішана тканина саржевого переплетення. Склад: 50% бавовна, 50% поліестр. Щільність 145 г/м². Ідеальна для літньої уніформи персоналу.",
-      "ru": "Легкая смесовая ткань саржевого переплетения. Состав: 50% хлопок, 50% полиэстер. Плотность 145 г/м². Идеальна для летней униформы персонала."
+      "ua": "Легка змішана тканина саржевого переплетення. Склад: 52% бавовна, 48% поліестр. Щільність 145 г/м². Ідеальна для літньої уніформи персоналу.",
+      "ru": "Легкая смесовая ткань саржевого переплетения. Состав: 52% хлопок, 48% полиэстер. Плотность 145 г/м². Идеальна для летней униформы персонала."
     },
     "attributes": {
       "fabricType": "twill",
@@ -8077,8 +8026,8 @@
       ],
       "properties": [],
       "composition": {
-        "cotton": 50,
-        "polyester": 50,
+        "cotton": 52,
+        "polyester": 48,
         "spandex": 0,
         "rayon": 0,
         "viscose": 0,
@@ -8200,8 +8149,8 @@
       "http://catalog.raznobyt.com/images/products/TRS-48/701 WHITE.jpg"
     ],
     "description": {
-      "ua": "Змішана тканина саржевого переплетення. Склад: 50% бавовна, 50% поліестр. Щільність 200 г/м². Для корпоративного одягу та уніформи.",
-      "ru": "Смесовая ткань саржевого переплетения. Состав: 50% хлопок, 50% полиэстер. Плотность 200 г/м². Для корпоративной одежды и униформы."
+      "ua": "Змішана тканина саржевого переплетення. Склад: 48% бавовна, 52% поліестр. Щільність 200 г/м². Для корпоративного одягу та уніформи.",
+      "ru": "Смесовая ткань саржевого переплетения. Состав: 48% хлопок, 52% полиэстер. Плотность 200 г/м². Для корпоративной одежды и униформы."
     },
     "attributes": {
       "fabricType": "twill",
@@ -8311,8 +8260,8 @@
       ],
       "properties": [],
       "composition": {
-        "cotton": 50,
-        "polyester": 50,
+        "cotton": 48,
+        "polyester": 52,
         "spandex": 0,
         "rayon": 0,
         "viscose": 0,
@@ -8363,7 +8312,7 @@
     "attributes": {
       "fabricType": "twill",
       "density": "163",
-      "width": "150",
+      "width": "142",
       "colors": [
         {
           "color": "752 SKY",
@@ -8524,7 +8473,7 @@
     "attributes": {
       "fabricType": "denim",
       "density": "280",
-      "width": "150",
+      "width": "140",
       "colors": [],
       "properties": [],
       "composition": {
@@ -8589,7 +8538,7 @@
     "attributes": {
       "fabricType": "полотно",
       "density": "134",
-      "width": "150",
+      "width": "134",
       "colors": [
         {
           "color": "61233",
@@ -9493,7 +9442,7 @@
     "attributes": {
       "fabricType": "twill",
       "density": "150",
-      "width": "150",
+      "width": "130",
       "colors": [],
       "properties": [],
       "composition": {
@@ -9581,7 +9530,7 @@
     "attributes": {
       "fabricType": "twill",
       "density": "206",
-      "width": "150",
+      "width": "132",
       "colors": [
         {
           "color": "90065",

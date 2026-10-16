@@ -273,7 +273,7 @@
       "ru": "Смесовая ткань. Состав: 35% хлопок, 65% полиэстер. Плотность 160. Саржевое переплетение 2/1."
     },
     "attributes": {
-      "fabricType": "twill",
+      "fabricType": "полотно",
       "density": "160",
       "width": "150",
       "colors": [
@@ -763,7 +763,7 @@
     "attributes": {
       "fabricType": "twill",
       "density": "200",
-      "width": "150",
+      "width": "148",
       "colors": [
         {
           "color": "772 BEIGE",
@@ -847,8 +847,8 @@
       "http://catalog.raznobyt.com/images/products/TRS-48/701 WHITE.jpg"
     ],
     "description": {
-      "ua": "Змішана тканина. Склад: 50% бавовна, 50% поліестр. Щільність 200. Саржеве переплетення 2/1.",
-      "ru": "Смесовая ткань. Состав: 50% хлопок, 50% полиэстер. Плотность 200. Саржевое переплетение 2/1."
+      "ua": "Змішана тканина. Склад: 48% бавовна, 52% поліестр. Щільність 200. Саржеве переплетення 2/1.",
+      "ru": "Смесовая ткань. Состав: 48% хлопок, 52% полиэстер. Плотность 200. Саржевое переплетение 2/1."
     },
     "attributes": {
       "fabricType": "twill",
@@ -958,8 +958,8 @@
       ],
       "properties": [],
       "composition": {
-        "cotton": 50,
-        "polyester": 50,
+        "cotton": 48,
+        "polyester": 52,
         "spandex": 0,
         "rayon": 0,
         "viscose": 0,
@@ -1001,7 +1001,7 @@
     "attributes": {
       "fabricType": "twill",
       "density": "215",
-      "width": "150",
+      "width": "142",
       "colors": [
         {
           "color": "NAVY",
@@ -1058,8 +1058,8 @@
       "http://catalog.raznobyt.com/images/products/VVT-2163/794 Black.jpg"
     ],
     "description": {
-      "ua": "Змішана тканина. Склад: 40% бавовна, 60% поліестр. Щільність 210. Саржеве переплетення 2/1.",
-      "ru": "Смесовая ткань. Состав: 40% хлопок, 60% полиэстер. Плотность 210. Саржевое переплетение 2/1."
+      "ua": "Змішана тканина. Склад: 60% бавовна, 40% поліестр. Щільність 210. Саржеве переплетення 2/1.",
+      "ru": "Смесовая ткань. Состав: 60% хлопок, 40% полиэстер. Плотность 210. Саржевое переплетение 2/1."
     },
     "attributes": {
       "fabricType": "twill",
@@ -1084,8 +1084,8 @@
       ],
       "properties": [],
       "composition": {
-        "cotton": 40,
-        "polyester": 60,
+        "cotton": 60,
+        "polyester": 40,
         "spandex": 0,
         "rayon": 0,
         "viscose": 0,
@@ -1246,8 +1246,8 @@
       "http://catalog.raznobyt.com/images/products/TR-50 LIGHT/142 LAVENDER.jpg"
     ],
     "description": {
-      "ua": "Змішана тканина. Склад: 50% бавовна, 50% поліестр. Щільність 145. Саржеве переплетення 2/1.",
-      "ru": "Смесовая ткань. Состав: 50% хлопок, 50% полиэстер. Плотность 145. Саржевое переплетение 2/1."
+      "ua": "Змішана тканина. Склад: 52% бавовна, 48% поліестр. Щільність 145. Саржеве переплетення 2/1.",
+      "ru": "Смесовая ткань. Состав: 52% хлопок, 48% полиэстер. Плотность 145. Саржевое переплетение 2/1."
     },
     "attributes": {
       "fabricType": "twill",
@@ -1312,8 +1312,8 @@
       ],
       "properties": [],
       "composition": {
-        "cotton": 50,
-        "polyester": 50,
+        "cotton": 52,
+        "polyester": 48,
         "spandex": 0,
         "rayon": 0,
         "viscose": 0,
@@ -1499,7 +1499,7 @@
     "attributes": {
       "fabricType": "полотно",
       "density": "134",
-      "width": "150",
+      "width": "134",
       "colors": [
         {
           "color": "61233",
@@ -1632,57 +1632,6 @@
     }
   },
   {
-    "id": "tkan-medical-vvt-2164",
-    "category": "medical",
-    "slug": "tkan-medical-vvt-2164",
-    "title": {
-      "ua": "VVT-2164",
-      "ru": "VVT-2164"
-    },
-    "isNew": false,
-    "images": [
-      "http://catalog.raznobyt.com/images/products/VVT-2164/main/BLACK.jpg"
-    ],
-    "description": {
-      "ua": "Змішана тканина. Склад: 60% бавовна, 40% поліестр. Щільність 210. Саржеве переплетення 2/1.",
-      "ru": "Смесовая ткань. Состав: 60% вискоза, 40% полиэстер. Плотность 206. Саржевое переплетение 2/1."
-    },
-    "attributes": {
-      "fabricType": "twill",
-      "density": "210",
-      "width": "150",
-      "colors": [
-        {
-          "color": "BLACK",
-          "image": "http://catalog.raznobyt.com/images/products/VVT-2164/main/BLACK.jpg",
-          "isMain": true
-        }
-      ],
-      "properties": [],
-      "composition": {
-        "cotton": 60,
-        "polyester": 40,
-        "spandex": 0,
-        "rayon": 0,
-        "viscose": 0,
-        "pbt": 0,
-        "lyon": 0,
-        "polyamide PA": 0,
-        "polypropylene PP": 0,
-        "para aramid": 0,
-        "antistatic": 0,
-        "Modacrylic/Lyocell/Static-Control™": 0,
-        "Nomex®/Kevlar®/Anti-Static": 0,
-        "Nomex®/Para-Aramid/p140": 0,
-        "PBI®/Kevlar®/Antistatic": 0,
-        "Lenzing FR®/Aramid": 0,
-        "Para-aramid/Solid polymer coating": 0,
-        "FR Rayon/пара-арамід/поліамід/антистатик": 0,
-        "MAC": 0
-      }
-    }
-  },
-  {
     "id": "tkan-medical-eg-225",
     "category": "medical",
     "slug": "tkan-medical-eg-225",
@@ -1741,7 +1690,7 @@
     },
     "attributes": {
       "fabricType": "twill",
-      "density": "150",
+      "density": "130",
       "width": "150",
       "colors": [],
       "properties": [],

@@ -1214,7 +1214,7 @@
       "http://catalog.raznobyt.com/images/products/KG 308/65440.jpg",
       "http://catalog.raznobyt.com/images/products/KG 308/65442.jpg",
       "http://catalog.raznobyt.com/images/products/KG 308/66747.jpg",
-      "http://catalog.raznobyt.com/images/products/KG 308/66783.jpg 308/61090.jpg",
+      "http://catalog.raznobyt.com/images/products/KG 308/66783.jpg",
       "http://catalog.raznobyt.com/images/products/KG 308/62685.jpg",
       "http://catalog.raznobyt.com/images/products/KG 308/63805.jpg",
       "http://catalog.raznobyt.com/images/products/KG 308/65382.jpg",
@@ -1288,8 +1288,8 @@
           "isMain": false
         },
         {
-          "color": "61090",
-          "image": "http://catalog.raznobyt.com/images/products/KG 308/66783.jpg 308/61090.jpg",
+          "color": "66783",
+          "image": "http://catalog.raznobyt.com/images/products/KG 308/66783.jpg",
           "isMain": false
         },
         {
@@ -1963,8 +1963,8 @@
       "http://catalog.raznobyt.com/images/products/TR-50 LIGHT/142 LAVENDER.jpg"
     ],
     "description": {
-      "ua": "Легка змішана тканина саржевого переплетення. Склад: 50% бавовна, 50% поліестр. Щільність 145 г/м². Ідеальна для літнього одягу.",
-      "ru": "Легкая смесовая ткань саржевого переплетения. Состав: 50% хлопок, 50% полиэстер. Плотность 145 г/м². Идеальна для летней одежды."
+      "ua": "Легка змішана тканина саржевого переплетення. Склад: 52% бавовна, 48% поліестр. Щільність 145 г/м². Ідеальна для літнього одягу.",
+      "ru": "Легкая смесовая ткань саржевого переплетения. Состав: 52% хлопок, 48% полиэстер. Плотность 145 г/м². Идеальна для летней одежды."
     },
     "attributes": {
       "fabricType": "twill",
@@ -2029,8 +2029,8 @@
       ],
       "properties": [],
       "composition": {
-        "cotton": 50,
-        "polyester": 50,
+        "cotton": 52,
+        "polyester": 48,
         "spandex": 0,
         "rayon": 0,
         "viscose": 0,
@@ -2315,7 +2315,7 @@
     "attributes": {
       "fabricType": "twill",
       "density": "163",
-      "width": "150",
+      "width": "142",
       "colors": [
         {
           "color": "752 SKY",
@@ -2732,7 +2732,7 @@
     "attributes": {
       "fabricType": "полотно",
       "density": "134",
-      "width": "150",
+      "width": "134",
       "colors": [
         {
           "color": "61233",
