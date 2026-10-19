@@ -106,6 +106,7 @@ async function generate() {
         }
     }
 
+
     // Generate sitemap.xml
     const urlsXml = pages
         .filter(page => page.url !== '/404/')
