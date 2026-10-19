@@ -1899,7 +1899,7 @@
     },
     "isNew": false,
     "images": [
-      "http://catalog.raznobyt.com/images/products/KG-0725/65466.jpg"
+      "http://catalog.raznobyt.com/images/products/KG-0725/main/65466.jpg"
     ],
     "description": {
       "ua": "Змішана тканина з механічним стрейчем. Склад: 40% бавовна, 60% поліестр. Щільність 250 г/м². Саржеве переплетення 2/1.",
@@ -1912,7 +1912,7 @@
       "colors": [
         {
           "color": "65466",
-          "image": "http://catalog.raznobyt.com/images/products/KG-0725/65466.jpg",
+          "image": "http://catalog.raznobyt.com/images/products/KG-0725/main/65466.jpg",
           "isMain": true
         }
       ],
@@ -2731,7 +2731,7 @@
     },
     "attributes": {
       "fabricType": "полотно",
-      "density": "134",
+      "density": "140",
       "width": "134",
       "colors": [
         {

@@ -20,12 +20,12 @@
       "http://catalog.raznobyt.com/images/products/TR-150/762 LIGHT GREEN.jpg",
       "http://catalog.raznobyt.com/images/products/TR-150/763 GRENN APPLE.jpg",
       "http://catalog.raznobyt.com/images/products/TR-150/766 YELLOW GREEN.jpg",
+      "http://catalog.raznobyt.com/images/products/TR-150/767 BOTTLE GREEN.jpg",
       "http://catalog.raznobyt.com/images/products/TR-150/773 SAND.jpg",
       "http://catalog.raznobyt.com/images/products/TR-150/775 SAFARI.jpg",
       "http://catalog.raznobyt.com/images/products/TR-150/778 CHOCOLATE.jpg",
       "http://catalog.raznobyt.com/images/products/TR-150/781 SILVER.jpg",
-      "http://catalog.raznobyt.com/images/products/TR-150/794 BLACK.jpg",
-      "http://catalog.raznobyt.com/images/products/TR-150/BOTTLE GREEN.jpg"
+      "http://catalog.raznobyt.com/images/products/TR-150/794 BLACK.jpg"
     ],
     "description": {
       "ua": "Змішана тканина. Склад: 35% бавовна, 65% поліестр. Щільність 150. Саржеве переплетення 2/1.",
@@ -92,6 +92,11 @@
           "isMain": false
         },
         {
+          "color": "767 BOTTLE GREEN",
+          "image": "http://catalog.raznobyt.com/images/products/TR-150/767 BOTTLE GREEN.jpg",
+          "isMain": false
+        },
+        {
           "color": "773 SAND",
           "image": "http://catalog.raznobyt.com/images/products/TR-150/773 SAND.jpg",
           "isMain": false
@@ -114,11 +119,6 @@
         {
           "color": "794 BLACK",
           "image": "http://catalog.raznobyt.com/images/products/TR-150/794 BLACK.jpg",
-          "isMain": false
-        },
-        {
-          "color": "BOTTLE GREEN",
-          "image": "http://catalog.raznobyt.com/images/products/TR-150/BOTTLE GREEN.jpg",
           "isMain": false
         }
       ],
@@ -1233,17 +1233,17 @@
     },
     "isNew": false,
     "images": [
-      "http://catalog.raznobyt.com/images/products/TR-50 LIGHT/main/112 SKY.jpg",
-      "http://catalog.raznobyt.com/images/products/TR-50 LIGHT/506 Black.jpg",
-      "http://catalog.raznobyt.com/images/products/TR-50 LIGHT/335 NAVY.jpg",
-      "http://catalog.raznobyt.com/images/products/TR-50 LIGHT/A-138.jpg",
-      "http://catalog.raznobyt.com/images/products/TR-50 LIGHT/A-451.jpg",
-      "http://catalog.raznobyt.com/images/products/TR-50 LIGHT/AG-184.jpg",
-      "http://catalog.raznobyt.com/images/products/TR-50 LIGHT/138 New Slate.jpg",
-      "http://catalog.raznobyt.com/images/products/TR-50 LIGHT/144104.jpg",
-      "http://catalog.raznobyt.com/images/products/TR-50 LIGHT/AG-143.jpg",
-      "http://catalog.raznobyt.com/images/products/TR-50 LIGHT/140 EAU DE NIL.jpg",
-      "http://catalog.raznobyt.com/images/products/TR-50 LIGHT/142 LAVENDER.jpg"
+      "http://catalog.raznobyt.com/images/products/TR-50 LT/main/112 SKY.jpg",
+      "http://catalog.raznobyt.com/images/products/TR-50 LT/138 NEW SLATE.jpg",
+      "http://catalog.raznobyt.com/images/products/TR-50 LT/140 EAU DE NIL.jpg",
+      "http://catalog.raznobyt.com/images/products/TR-50 LT/142 LAVENDER.jpg",
+      "http://catalog.raznobyt.com/images/products/TR-50 LT/335 NAVY.jpg",
+      "http://catalog.raznobyt.com/images/products/TR-50 LT/506 BLACK.jpg",
+      "http://catalog.raznobyt.com/images/products/TR-50 LT/144104.jpg",
+      "http://catalog.raznobyt.com/images/products/TR-50 LT/A-138.jpg",
+      "http://catalog.raznobyt.com/images/products/TR-50 LT/A-451.jpg",
+      "http://catalog.raznobyt.com/images/products/TR-50 LT/AG-143.jpg",
+      "http://catalog.raznobyt.com/images/products/TR-50 LT/AG-184.jpg"
     ],
     "description": {
       "ua": "Змішана тканина. Склад: 52% бавовна, 48% поліестр. Щільність 145. Саржеве переплетення 2/1.",
@@ -1256,57 +1256,57 @@
       "colors": [
         {
           "color": "112 SKY",
-          "image": "http://catalog.raznobyt.com/images/products/TR-50 LIGHT/main/112 SKY.jpg",
+          "image": "http://catalog.raznobyt.com/images/products/TR-50 LT/main/112 SKY.jpg",
           "isMain": true
         },
         {
-          "color": "506 Black",
-          "image": "http://catalog.raznobyt.com/images/products/TR-50 LIGHT/506 Black.jpg",
-          "isMain": false
-        },
-        {
-          "color": "335 NAVY",
-          "image": "http://catalog.raznobyt.com/images/products/TR-50 LIGHT/335 NAVY.jpg",
-          "isMain": false
-        },
-        {
-          "color": "A-138",
-          "image": "http://catalog.raznobyt.com/images/products/TR-50 LIGHT/A-138.jpg",
-          "isMain": false
-        },
-        {
-          "color": "A-451",
-          "image": "http://catalog.raznobyt.com/images/products/TR-50 LIGHT/A-451.jpg",
-          "isMain": false
-        },
-        {
-          "color": "AG-184",
-          "image": "http://catalog.raznobyt.com/images/products/TR-50 LIGHT/AG-184.jpg",
-          "isMain": false
-        },
-        {
-          "color": "138 New Slate",
-          "image": "http://catalog.raznobyt.com/images/products/TR-50 LIGHT/138 New Slate.jpg",
-          "isMain": false
-        },
-        {
-          "color": "144104",
-          "image": "http://catalog.raznobyt.com/images/products/TR-50 LIGHT/144104.jpg",
-          "isMain": false
-        },
-        {
-          "color": "AG-143",
-          "image": "http://catalog.raznobyt.com/images/products/TR-50 LIGHT/AG-143.jpg",
+          "color": "138 NEW SLATE",
+          "image": "http://catalog.raznobyt.com/images/products/TR-50 LT/138 NEW SLATE.jpg",
           "isMain": false
         },
         {
           "color": "140 EAU DE NIL",
-          "image": "http://catalog.raznobyt.com/images/products/TR-50 LIGHT/140 EAU DE NIL.jpg",
+          "image": "http://catalog.raznobyt.com/images/products/TR-50 LT/140 EAU DE NIL.jpg",
           "isMain": false
         },
         {
           "color": "142 LAVENDER",
-          "image": "http://catalog.raznobyt.com/images/products/TR-50 LIGHT/142 LAVENDER.jpg",
+          "image": "http://catalog.raznobyt.com/images/products/TR-50 LT/142 LAVENDER.jpg",
+          "isMain": false
+        },
+        {
+          "color": "335 NAVY",
+          "image": "http://catalog.raznobyt.com/images/products/TR-50 LT/335 NAVY.jpg",
+          "isMain": false
+        },
+        {
+          "color": "506 BLACK",
+          "image": "http://catalog.raznobyt.com/images/products/TR-50 LT/506 BLACK.jpg",
+          "isMain": false
+        },
+        {
+          "color": "144104",
+          "image": "http://catalog.raznobyt.com/images/products/TR-50 LT/144104.jpg",
+          "isMain": false
+        },
+        {
+          "color": "A-138",
+          "image": "http://catalog.raznobyt.com/images/products/TR-50 LT/A-138.jpg",
+          "isMain": false
+        },
+        {
+          "color": "A-451",
+          "image": "http://catalog.raznobyt.com/images/products/TR-50 LT/A-451.jpg",
+          "isMain": false
+        },
+        {
+          "color": "AG-143",
+          "image": "http://catalog.raznobyt.com/images/products/TR-50 LT/AG-143.jpg",
+          "isMain": false
+        },
+        {
+          "color": "AG-184",
+          "image": "http://catalog.raznobyt.com/images/products/TR-50 LT/AG-184.jpg",
           "isMain": false
         }
       ],
@@ -1498,7 +1498,7 @@
     },
     "attributes": {
       "fabricType": "полотно",
-      "density": "134",
+      "density": "140",
       "width": "134",
       "colors": [
         {
@@ -1640,7 +1640,9 @@
       "ru": "EG-225"
     },
     "isNew": false,
-    "images": [],
+    "images": [
+      "http://catalog.raznobyt.com/images/products/EG-225/main/65666 SKY.jpg"
+    ],
     "description": {
       "ua": "Змішана тканина з віскозою. Склад: 35% віскоза, 65% поліестр. Щільність 225. Саржеве переплетення 2/1.",
       "ru": "Смесовая ткань с вискозой. Состав: 35% вискоза, 65% полиэстер. Плотность 225. Саржевое переплетение 2/1."
@@ -1649,7 +1651,13 @@
       "fabricType": "twill",
       "density": "225",
       "width": "150",
-      "colors": [],
+      "colors": [
+        {
+          "color": "65666 SKY",
+          "image": "http://catalog.raznobyt.com/images/products/EG-225/main/65666 SKY.jpg",
+          "isMain": true
+        }
+      ],
       "properties": [],
       "composition": {
         "cotton": 0,
@@ -1683,16 +1691,36 @@
       "ru": "LT-3084"
     },
     "isNew": false,
-    "images": [],
+    "images": [
+      "http://catalog.raznobyt.com/images/products/LT 3084/main/WHITE.jpg",
+      "http://catalog.raznobyt.com/images/products/LT 3084/BLACK.jpg",
+      "http://catalog.raznobyt.com/images/products/LT 3084/NAVY.jpg"
+    ],
     "description": {
       "ua": "Поліестерова тканина. Склад: 100% поліестр. Щільність 150. Саржеве переплетення 2/1.",
       "ru": "Полиэстеровая ткань. Состав: 100% полиэстер. Плотность 150. Саржевое переплетение 2/1."
     },
     "attributes": {
       "fabricType": "twill",
-      "density": "130",
-      "width": "150",
-      "colors": [],
+      "density": "150",
+      "width": "130",
+      "colors": [
+        {
+          "color": "WHITE",
+          "image": "http://catalog.raznobyt.com/images/products/LT 3084/main/WHITE.jpg",
+          "isMain": true
+        },
+        {
+          "color": "BLACK",
+          "image": "http://catalog.raznobyt.com/images/products/LT 3084/BLACK.jpg",
+          "isMain": false
+        },
+        {
+          "color": "NAVY",
+          "image": "http://catalog.raznobyt.com/images/products/LT 3084/NAVY.jpg",
+          "isMain": false
+        }
+      ],
       "properties": [],
       "composition": {
         "cotton": 0,
@@ -1731,12 +1759,12 @@
     ],
     "description": {
       "ua": "Змішана тканина. Склад: 60% віскоза, 40% поліестр. Щільність 206. Саржеве переплетення 2/1.",
-      "ru": ""
+      "ru": "Смесовая ткань с вискозой. Состав: 60% вискоза, 40% полиэстер. Плотность 206. Саржевое переплетение 2/1."
     },
     "attributes": {
-      "fabricType": "",
+      "fabricType": "twill",
       "density": "206",
-      "width": "150",
+      "width": "132",
       "colors": [
         {
           "color": "90065",

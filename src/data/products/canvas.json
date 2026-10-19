@@ -194,7 +194,9 @@
       "ru": "22001"
     },
     "isNew": false,
-    "images": [],
+    "images": [
+      "http://catalog.raznobyt.com/images/products/22001/main/NAVY.jpg"
+    ],
     "description": {
       "ua": "65% бавовна, 35% поліестер  300г/м.кв",
       "ru": "65% хлопок, 35% поиіестер  300г/м.кв"
@@ -203,7 +205,13 @@
       "fabricType": "канвас",
       "density": "300",
       "width": "150",
-      "colors": [],
+      "colors": [
+        {
+          "color": "NAVY",
+          "image": "http://catalog.raznobyt.com/images/products/22001/main/NAVY.jpg",
+          "isMain": true
+        }
+      ],
       "properties": [],
       "composition": {
         "cotton": 65,
@@ -237,7 +245,9 @@
       "ru": "6509"
     },
     "isNew": false,
-    "images": [],
+    "images": [
+      "http://catalog.raznobyt.com/images/products/6509/main/ANTHRACITE.jpg"
+    ],
     "description": {
       "ua": "60% бавовна, 40% поліестер  330г/м.кв ",
       "ru": "60% хлопок, 40% полиестер  330г/м.кв "
@@ -246,7 +256,13 @@
       "fabricType": "канвас",
       "density": "330",
       "width": "150",
-      "colors": [],
+      "colors": [
+        {
+          "color": "ANTHRACITE",
+          "image": "http://catalog.raznobyt.com/images/products/6509/main/ANTHRACITE.jpg",
+          "isMain": true
+        }
+      ],
       "properties": [],
       "composition": {
         "cotton": 60,
