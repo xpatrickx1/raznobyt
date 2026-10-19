@@ -4,7 +4,7 @@ import { fileURLToPath, pathToFileURL } from 'url';
 import { dirname } from 'path';
 import { build } from 'vite';
 
-const DOMAIN = 'https://catalog.raznobyt.com';
+const DOMAIN = 'https://raznobyt.com';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const root = path.resolve(__dirname, '..');
@@ -107,7 +107,9 @@ async function generate() {
     }
 
     // Generate sitemap.xml
-    const urlsXml = pages.map(page => `
+    const urlsXml = pages
+        .filter(page => page.url !== '/404/')
+        .map(page => `
   <url>
     <loc>${DOMAIN}${page.url}</loc>
     <changefreq>${page.url === '/' ? 'daily' : 'weekly'}</changefreq>
@@ -123,9 +125,9 @@ ${urlsXml}
     console.log('✓ Generated sitemap.xml');
 
     // Generate robots.txt
-    // Allow: /
     const robots = `User-agent: *
-Disallow: /
+Allow: /
+Disallow: /404/
 
 Sitemap: ${DOMAIN}/sitemap.xml
 `;

@@ -135,7 +135,7 @@ const parseColors = (colorsStr) => {
     const filename = parts[parts.length - 1];
     const colorName = filename.replace(/\.[^.]+$/, ""); // ім'я файлу без розширення
 
-    const imageUrl = `http://catalog.raznobyt.com/images/products/${path}`;
+    const imageUrl = `http://raznobyt.com/images/products/${path}`;
 
     return {
       color: colorName,
@@ -151,7 +151,7 @@ const parseVideos = (videoStr) => {
   return videoStr.split(",").map((s) => {
     const path = s.trim();
     if (!path) return null;
-    return `http://catalog.raznobyt.com/images/products/${path}`;
+    return `http://raznobyt.com/images/products/${path}`;
   }).filter(Boolean);
 };
 
@@ -161,7 +161,7 @@ const parsePdf = (pdfStr) => {
   return pdfStr.split(",").map((s) => {
     const path = s.trim();
     if (!path) return null;
-    return `http://catalog.raznobyt.com/images/products/${path}`;
+    return `http://raznobyt.com/images/products/${path}`;
   }).filter(Boolean);
 };
 

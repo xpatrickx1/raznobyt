@@ -21,8 +21,13 @@ export function getImage(path, basePath = '/') {
     let resolvedPath = path;
 
     // Якщо шлях веде на наш домен, прибираємо домен для локальної обробки
-    if (resolvedPath.startsWith('http://catalog.raznobyt.com/') || resolvedPath.startsWith('https://catalog.raznobyt.com/')) {
-        resolvedPath = resolvedPath.replace(/^https?:\/\/catalog\.raznobyt\.com/, '');
+    if (
+        resolvedPath.startsWith('http://catalog.raznobyt.com/') ||
+        resolvedPath.startsWith('https://catalog.raznobyt.com/') ||
+        resolvedPath.startsWith('http://raznobyt.com/') ||
+        resolvedPath.startsWith('https://raznobyt.com/')
+    ) {
+        resolvedPath = resolvedPath.replace(/^https?:\/\/(catalog\.)?raznobyt\.com/, '');
     }
 
     // Якщо шлях все ще починається з http/https - це стороннє зовнішнє зображення

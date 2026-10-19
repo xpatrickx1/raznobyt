@@ -9,8 +9,8 @@
     },
     "isNew": false,
     "images": [
-      "http://catalog.raznobyt.com/images/products/BG 9030/main/65576.jpg",
-      "http://catalog.raznobyt.com/images/products/BG 9030/65615.jpg"
+      "http://raznobyt.com/images/products/BG 9030/main/65576.jpg",
+      "http://raznobyt.com/images/products/BG 9030/65615.jpg"
     ],
     "description": {
       "ua": "Високоякісна вогнестійка та антистатична тканина з масловодовідштовхувальним просоченням (МВО). Склад: 79% бавовна, 20% поліестр, 1% Static-Control™. Щільність 300 г/м². Ідеальний вибір для спецодягу в нафтогазовій, хімічній та енергетичній промисловості.",
@@ -23,12 +23,12 @@
       "colors": [
         {
           "color": "65576",
-          "image": "http://catalog.raznobyt.com/images/products/BG 9030/main/65576.jpg",
+          "image": "http://raznobyt.com/images/products/BG 9030/main/65576.jpg",
           "isMain": true
         },
         {
           "color": "65615",
-          "image": "http://catalog.raznobyt.com/images/products/BG 9030/65615.jpg",
+          "image": "http://raznobyt.com/images/products/BG 9030/65615.jpg",
           "isMain": false
         }
       ],
@@ -66,7 +66,7 @@
     },
     "isNew": false,
     "images": [
-      "http://catalog.raznobyt.com/images/products/BG 9035/main/BLACK.jpg"
+      "http://raznobyt.com/images/products/BG 9035/main/BLACK.jpg"
     ],
     "description": {
       "ua": "Міцна вогнестійка та антистатична тканина з масловодовідштовхувальним просоченням (МВО). Склад: 79% бавовна, 20% поліестр, 1% Static-Control™. Щільність 350 г/м². Підвищена зносостійкість для роботи в складних умовах.",
@@ -79,7 +79,7 @@
       "colors": [
         {
           "color": "BLACK",
-          "image": "http://catalog.raznobyt.com/images/products/BG 9035/main/BLACK.jpg",
+          "image": "http://raznobyt.com/images/products/BG 9035/main/BLACK.jpg",
           "isMain": true
         }
       ],
@@ -117,10 +117,10 @@
     },
     "isNew": false,
     "images": [
-      "http://catalog.raznobyt.com/images/products/BG 9045/main/65613.jpg",
-      "http://catalog.raznobyt.com/images/products/BG 9045/63805.jpg",
-      "http://catalog.raznobyt.com/images/products/BG 9045/65576.jpg",
-      "http://catalog.raznobyt.com/images/products/BG 9045/66935.jpg"
+      "http://raznobyt.com/images/products/BG 9045/main/65613.jpg",
+      "http://raznobyt.com/images/products/BG 9045/63805.jpg",
+      "http://raznobyt.com/images/products/BG 9045/65576.jpg",
+      "http://raznobyt.com/images/products/BG 9045/66935.jpg"
     ],
     "description": {
       "ua": "Надзвичайно міцна вогнестійка та антистатична тканина з масловодовідштовхувальним просоченням (МВО). Склад: 79% бавовна, 20% поліестр, 1% Static-Control™. Щільність 450 г/м². Максимальна стійкість до механічних пошкоджень.",
@@ -133,22 +133,22 @@
       "colors": [
         {
           "color": "65613",
-          "image": "http://catalog.raznobyt.com/images/products/BG 9045/main/65613.jpg",
+          "image": "http://raznobyt.com/images/products/BG 9045/main/65613.jpg",
           "isMain": true
         },
         {
           "color": "63805",
-          "image": "http://catalog.raznobyt.com/images/products/BG 9045/63805.jpg",
+          "image": "http://raznobyt.com/images/products/BG 9045/63805.jpg",
           "isMain": false
         },
         {
           "color": "65576",
-          "image": "http://catalog.raznobyt.com/images/products/BG 9045/65576.jpg",
+          "image": "http://raznobyt.com/images/products/BG 9045/65576.jpg",
           "isMain": false
         },
         {
           "color": "66935",
-          "image": "http://catalog.raznobyt.com/images/products/BG 9045/66935.jpg",
+          "image": "http://raznobyt.com/images/products/BG 9045/66935.jpg",
           "isMain": false
         }
       ],
@@ -186,11 +186,11 @@
     },
     "isNew": false,
     "images": [
-      "http://catalog.raznobyt.com/images/products/BG 9500/main/60662.jpg",
-      "http://catalog.raznobyt.com/images/products/BG 9500/66777.jpg",
-      "http://catalog.raznobyt.com/images/products/BG 9500/66907.jpg",
-      "http://catalog.raznobyt.com/images/products/BG 9500/66935.jpg",
-      "http://catalog.raznobyt.com/images/products/BG 9500/HV YELLOW.jpg"
+      "http://raznobyt.com/images/products/BG 9500/main/60662.jpg",
+      "http://raznobyt.com/images/products/BG 9500/66777.jpg",
+      "http://raznobyt.com/images/products/BG 9500/66907.jpg",
+      "http://raznobyt.com/images/products/BG 9500/66935.jpg",
+      "http://raznobyt.com/images/products/BG 9500/HV YELLOW.jpg"
     ],
     "description": {
       "ua": "Вогнестійка та антистатична тканина підвищеної міцності з масловодовідштовхувальним просоченням (МВО). Склад: 64% бавовна, 35% поліестр, 1% Static-Control™. Щільність 350 г/м². Стійкість до стирання та довговічність.",
@@ -203,27 +203,27 @@
       "colors": [
         {
           "color": "60662",
-          "image": "http://catalog.raznobyt.com/images/products/BG 9500/main/60662.jpg",
+          "image": "http://raznobyt.com/images/products/BG 9500/main/60662.jpg",
           "isMain": true
         },
         {
           "color": "66777",
-          "image": "http://catalog.raznobyt.com/images/products/BG 9500/66777.jpg",
+          "image": "http://raznobyt.com/images/products/BG 9500/66777.jpg",
           "isMain": false
         },
         {
           "color": "66907",
-          "image": "http://catalog.raznobyt.com/images/products/BG 9500/66907.jpg",
+          "image": "http://raznobyt.com/images/products/BG 9500/66907.jpg",
           "isMain": false
         },
         {
           "color": "66935",
-          "image": "http://catalog.raznobyt.com/images/products/BG 9500/66935.jpg",
+          "image": "http://raznobyt.com/images/products/BG 9500/66935.jpg",
           "isMain": false
         },
         {
           "color": "HV YELLOW",
-          "image": "http://catalog.raznobyt.com/images/products/BG 9500/HV YELLOW.jpg",
+          "image": "http://raznobyt.com/images/products/BG 9500/HV YELLOW.jpg",
           "isMain": false
         }
       ],
@@ -261,9 +261,9 @@
     },
     "isNew": false,
     "images": [
-      "http://catalog.raznobyt.com/images/products/9600/main/66935.jpg",
-      "http://catalog.raznobyt.com/images/products/9600/63805.jpg",
-      "http://catalog.raznobyt.com/images/products/9600/65576.jpg"
+      "http://raznobyt.com/images/products/9600/main/66935.jpg",
+      "http://raznobyt.com/images/products/9600/63805.jpg",
+      "http://raznobyt.com/images/products/9600/65576.jpg"
     ],
     "description": {
       "ua": "Універсальна вогнестійка та антистатична тканина з масловодовідштовхувальним просоченням (МВО). Склад: 64% бавовна, 35% поліестр, 1% Static-Control™. Щільність 350 г/м². Поєднує комфорт бавовни з міцністю поліестру.",
@@ -276,17 +276,17 @@
       "colors": [
         {
           "color": "66935",
-          "image": "http://catalog.raznobyt.com/images/products/9600/main/66935.jpg",
+          "image": "http://raznobyt.com/images/products/9600/main/66935.jpg",
           "isMain": true
         },
         {
           "color": "63805",
-          "image": "http://catalog.raznobyt.com/images/products/9600/63805.jpg",
+          "image": "http://raznobyt.com/images/products/9600/63805.jpg",
           "isMain": false
         },
         {
           "color": "65576",
-          "image": "http://catalog.raznobyt.com/images/products/9600/65576.jpg",
+          "image": "http://raznobyt.com/images/products/9600/65576.jpg",
           "isMain": false
         }
       ],
@@ -324,7 +324,7 @@
     },
     "isNew": false,
     "images": [
-      "http://catalog.raznobyt.com/images/products/BD 011/main/40471.jpg"
+      "http://raznobyt.com/images/products/BD 011/main/40471.jpg"
     ],
     "description": {
       "ua": "100% бавовняна вогнестійка тканина. Щільність 230 г/м². Натуральний дихаючий матеріал із вогнезахисним просоченням. Ідеальний вибір для літнього спецодягу.",
@@ -337,7 +337,7 @@
       "colors": [
         {
           "color": "40471",
-          "image": "http://catalog.raznobyt.com/images/products/BD 011/main/40471.jpg",
+          "image": "http://raznobyt.com/images/products/BD 011/main/40471.jpg",
           "isMain": true
         }
       ],
@@ -375,8 +375,8 @@
     },
     "isNew": false,
     "images": [
-      "http://catalog.raznobyt.com/images/products/BD 9311/main/35344.jpg",
-      "http://catalog.raznobyt.com/images/products/BD 9311/42134.jpg"
+      "http://raznobyt.com/images/products/BD 9311/main/35344.jpg",
+      "http://raznobyt.com/images/products/BD 9311/42134.jpg"
     ],
     "description": {
       "ua": "Вогнестійка та антистатична тканина. Склад: 99% бавовна, 1% Static-Control™. Щільність 335 г/м². Поєднує натуральну м'якість бавовни з захистом від статичної електрики.",
@@ -389,12 +389,12 @@
       "colors": [
         {
           "color": "35344",
-          "image": "http://catalog.raznobyt.com/images/products/BD 9311/main/35344.jpg",
+          "image": "http://raznobyt.com/images/products/BD 9311/main/35344.jpg",
           "isMain": true
         },
         {
           "color": "42134",
-          "image": "http://catalog.raznobyt.com/images/products/BD 9311/42134.jpg",
+          "image": "http://raznobyt.com/images/products/BD 9311/42134.jpg",
           "isMain": false
         }
       ],
@@ -432,7 +432,7 @@
     },
     "isNew": false,
     "images": [
-      "http://catalog.raznobyt.com/images/products/KS 52/main/47240.jpg"
+      "http://raznobyt.com/images/products/KS 52/main/47240.jpg"
     ],
     "description": {
       "ua": "100% бавовняна вогнестійка та антистатична тканина. Щільність 335 г/м². Натуральний матеріал з подвійним захистом — від вогню та статичної електрики.",
@@ -445,7 +445,7 @@
       "colors": [
         {
           "color": "47240",
-          "image": "http://catalog.raznobyt.com/images/products/KS 52/main/47240.jpg",
+          "image": "http://raznobyt.com/images/products/KS 52/main/47240.jpg",
           "isMain": true
         }
       ],
@@ -526,7 +526,7 @@
     },
     "isNew": false,
     "images": [
-      "http://catalog.raznobyt.com/images/products/XA 9001/main/89072.jpg"
+      "http://raznobyt.com/images/products/XA 9001/main/89072.jpg"
     ],
     "description": {
       "ua": "Інноваційна вогнестійка та антистатична тканина з масловодовідштовхувальним просоченням (МВО). Склад: 54% поліпропілен FR, 45% бавовна, 1% Static-Control™. Щільність 320 г/м². Легка, швидко сохне, не вбирає вологу.",
@@ -539,7 +539,7 @@
       "colors": [
         {
           "color": "89072",
-          "image": "http://catalog.raznobyt.com/images/products/XA 9001/main/89072.jpg",
+          "image": "http://raznobyt.com/images/products/XA 9001/main/89072.jpg",
           "isMain": true
         }
       ],
@@ -577,8 +577,8 @@
     },
     "isNew": false,
     "images": [
-      "http://catalog.raznobyt.com/images/products/XB 9340/main/42049.jpg",
-      "http://catalog.raznobyt.com/images/products/XB 9340/42196.jpg"
+      "http://raznobyt.com/images/products/XB 9340/main/42049.jpg",
+      "http://raznobyt.com/images/products/XB 9340/42196.jpg"
     ],
     "description": {
       "ua": "Високоміцна вогнестійка та антистатична тканина з арамідними волокнами та МВО. Склад: 74% бавовна, 25% пара-арамід, 1% Static-Control™. Щільність 340 г/м². Стійкість до високих температур, порізів та стирання.",
@@ -591,12 +591,12 @@
       "colors": [
         {
           "color": "42049",
-          "image": "http://catalog.raznobyt.com/images/products/XB 9340/main/42049.jpg",
+          "image": "http://raznobyt.com/images/products/XB 9340/main/42049.jpg",
           "isMain": true
         },
         {
           "color": "42196",
-          "image": "http://catalog.raznobyt.com/images/products/XB 9340/42196.jpg",
+          "image": "http://raznobyt.com/images/products/XB 9340/42196.jpg",
           "isMain": false
         }
       ],
@@ -634,7 +634,7 @@
     },
     "isNew": false,
     "images": [
-      "http://catalog.raznobyt.com/images/products/XL 9300/main/89250.jpg"
+      "http://raznobyt.com/images/products/XL 9300/main/89250.jpg"
     ],
     "description": {
       "ua": "Сучасна вогнестійка та антистатична тканина з модакрилу та ліоцелу з МВО. Склад: Modacrylic/Lyocell/Static-Control™. Щільність 300 г/м². Модакрил забезпечує вогнестійкість, ліоцел — м'якість та комфорт.",
@@ -647,7 +647,7 @@
       "colors": [
         {
           "color": "89250",
-          "image": "http://catalog.raznobyt.com/images/products/XL 9300/main/89250.jpg",
+          "image": "http://raznobyt.com/images/products/XL 9300/main/89250.jpg",
           "isMain": true
         }
       ],
@@ -685,9 +685,9 @@
     },
     "isNew": false,
     "images": [
-      "http://catalog.raznobyt.com/images/products/XL 9325/main/89253.jpg",
-      "http://catalog.raznobyt.com/images/products/XL 9325/89249.jpg",
-      "http://catalog.raznobyt.com/images/products/XL 9325/89251.jpg"
+      "http://raznobyt.com/images/products/XL 9325/main/89253.jpg",
+      "http://raznobyt.com/images/products/XL 9325/89249.jpg",
+      "http://raznobyt.com/images/products/XL 9325/89251.jpg"
     ],
     "description": {
       "ua": "Міцна вогнестійка та антистатична тканина з модакрилу та ліоцелу з МВО. Склад: Modacrylic/Lyocell/Static-Control™. Щільність 325 г/м². Підвищена зносостійкість та захист.",
@@ -700,17 +700,17 @@
       "colors": [
         {
           "color": "89253",
-          "image": "http://catalog.raznobyt.com/images/products/XL 9325/main/89253.jpg",
+          "image": "http://raznobyt.com/images/products/XL 9325/main/89253.jpg",
           "isMain": true
         },
         {
           "color": "89249",
-          "image": "http://catalog.raznobyt.com/images/products/XL 9325/89249.jpg",
+          "image": "http://raznobyt.com/images/products/XL 9325/89249.jpg",
           "isMain": false
         },
         {
           "color": "89251",
-          "image": "http://catalog.raznobyt.com/images/products/XL 9325/89251.jpg",
+          "image": "http://raznobyt.com/images/products/XL 9325/89251.jpg",
           "isMain": false
         }
       ],
@@ -748,7 +748,7 @@
     },
     "isNew": false,
     "images": [
-      "http://catalog.raznobyt.com/images/products/AV 9400/main/89374.jpg"
+      "http://raznobyt.com/images/products/AV 9400/main/89374.jpg"
     ],
     "description": {
       "ua": "Преміальна вогнестійка та антистатична тканина з Nomex® та Kevlar® з МВО. Склад: Nomex®/Kevlar®/Anti-Static. Щільність 200 г/м². Легка, ідеальна для пожежників, військових та рятувальників.",
@@ -761,7 +761,7 @@
       "colors": [
         {
           "color": "89374",
-          "image": "http://catalog.raznobyt.com/images/products/AV 9400/main/89374.jpg",
+          "image": "http://raznobyt.com/images/products/AV 9400/main/89374.jpg",
           "isMain": true
         }
       ],
@@ -799,7 +799,7 @@
     },
     "isNew": false,
     "images": [
-      "http://catalog.raznobyt.com/images/products/BV 9120/main/89201.jpg"
+      "http://raznobyt.com/images/products/BV 9120/main/89201.jpg"
     ],
     "description": {
       "ua": "Високоякісна вогнестійка та антистатична тканина з МВО. Склад: Nomex®/Para-Aramid/p140. Щільність 265 г/м². Захист від високих температур та механічних пошкоджень.",
@@ -812,7 +812,7 @@
       "colors": [
         {
           "color": "89201",
-          "image": "http://catalog.raznobyt.com/images/products/BV 9120/main/89201.jpg",
+          "image": "http://raznobyt.com/images/products/BV 9120/main/89201.jpg",
           "isMain": true
         }
       ],
@@ -850,7 +850,7 @@
     },
     "isNew": false,
     "images": [
-      "http://catalog.raznobyt.com/images/products/9129/NAVY.jpg"
+      "http://raznobyt.com/images/products/9129/NAVY.jpg"
     ],
     "description": {
       "ua": "Вогнетривка тканина саржевого переплетення. Склад: 42% бавовна, 6% поліестр, 52% MAC. ВО-ламінована. Щільність 290 г/м². FR - вогнетривка. Для зварювальників, металургів, нафтогазової галузі.",
@@ -863,7 +863,7 @@
       "colors": [
         {
           "color": "NAVY",
-          "image": "http://catalog.raznobyt.com/images/products/9129/NAVY.jpg",
+          "image": "http://raznobyt.com/images/products/9129/NAVY.jpg",
           "isMain": true
         }
       ],
@@ -901,7 +901,7 @@
     },
     "isNew": false,
     "images": [
-      "http://catalog.raznobyt.com/images/products/NNT-1152/main/RED.jpg"
+      "http://raznobyt.com/images/products/NNT-1152/main/RED.jpg"
     ],
     "description": {
       "ua": "Змішана тканина саржевого переплетення. Склад: 80% бавовна, 20% поліестр. Антистатична нитка. МВВ - масловодовідштовхувальна. Щільність 255 г/м².",
@@ -914,7 +914,7 @@
       "colors": [
         {
           "color": "RED",
-          "image": "http://catalog.raznobyt.com/images/products/NNT-1152/main/RED.jpg",
+          "image": "http://raznobyt.com/images/products/NNT-1152/main/RED.jpg",
           "isMain": true
         }
       ],
@@ -952,7 +952,7 @@
     },
     "isNew": false,
     "images": [
-      "http://catalog.raznobyt.com/images/products/VVT-2164/main/BLACK.jpg"
+      "http://raznobyt.com/images/products/VVT-2164/main/BLACK.jpg"
     ],
     "description": {
       "ua": "Змішана тканина саржевого переплетення. Склад: 60% бавовна, 40% поліестр. Антистатична нитка. МВВ - масловодовідштовхувальна. Щільність 210 г/м².",
@@ -965,7 +965,7 @@
       "colors": [
         {
           "color": "BLACK",
-          "image": "http://catalog.raznobyt.com/images/products/VVT-2164/main/BLACK.jpg",
+          "image": "http://raznobyt.com/images/products/VVT-2164/main/BLACK.jpg",
           "isMain": true
         }
       ],
@@ -1003,7 +1003,7 @@
     },
     "isNew": false,
     "images": [
-      "http://catalog.raznobyt.com/images/products/NA 9350/main/GREY.jpg"
+      "http://raznobyt.com/images/products/NA 9350/main/GREY.jpg"
     ],
     "description": {
       "ua": "Високоякісна вогнестійка тканина  з обробкою PROBAN. Склад: 58% бавовна, 30% поліестр, 11% ПАРА АРАМИД.. Щільність 350 г/м².. Захист від високих температур та механічних пошкоджень.",
@@ -1016,7 +1016,7 @@
       "colors": [
         {
           "color": "GREY",
-          "image": "http://catalog.raznobyt.com/images/products/NA 9350/main/GREY.jpg",
+          "image": "http://raznobyt.com/images/products/NA 9350/main/GREY.jpg",
           "isMain": true
         }
       ],
@@ -1054,8 +1054,8 @@
     },
     "isNew": false,
     "images": [
-      "http://catalog.raznobyt.com/images/products/EG 9600/main/60962.jpg",
-      "http://catalog.raznobyt.com/images/products/EG 9600/60475.jpg"
+      "http://raznobyt.com/images/products/EG 9600/main/60962.jpg",
+      "http://raznobyt.com/images/products/EG 9600/60475.jpg"
     ],
     "description": {
       "ua": "Перша в своєму роді вогнестійка тканина, що складається на 50% з екологічно безпечних матеріалів, з масловодовідштовхувальним просоченням (МВО). Склад: 50% бавовна, 30% віскоза, 19% поліестер, 1% Static-Control™. Щільність 320 г/м².",
@@ -1068,12 +1068,12 @@
       "colors": [
         {
           "color": "60962",
-          "image": "http://catalog.raznobyt.com/images/products/EG 9600/main/60962.jpg",
+          "image": "http://raznobyt.com/images/products/EG 9600/main/60962.jpg",
           "isMain": true
         },
         {
           "color": "60475",
-          "image": "http://catalog.raznobyt.com/images/products/EG 9600/60475.jpg",
+          "image": "http://raznobyt.com/images/products/EG 9600/60475.jpg",
           "isMain": false
         }
       ],
@@ -1111,7 +1111,7 @@
     },
     "isNew": false,
     "images": [
-      "http://catalog.raznobyt.com/images/products/Наколінники/main/nakolinnuk.jpg"
+      "http://raznobyt.com/images/products/Наколінники/main/nakolinnuk.jpg"
     ],
     "description": {
       "ua": "Підсилювач зони коліна на робочі штани. 100% поліамід. Вогнестійка обробка. Довжина 48 см, ширина 15 см.",
@@ -1124,7 +1124,7 @@
       "colors": [
         {
           "color": "nakolinnuk",
-          "image": "http://catalog.raznobyt.com/images/products/Наколінники/main/nakolinnuk.jpg",
+          "image": "http://raznobyt.com/images/products/Наколінники/main/nakolinnuk.jpg",
           "isMain": true
         }
       ],
@@ -1162,7 +1162,7 @@
     },
     "isNew": false,
     "images": [
-      "http://catalog.raznobyt.com/images/products/MK-9014/main/65287.jpg"
+      "http://raznobyt.com/images/products/MK-9014/main/65287.jpg"
     ],
     "description": {
       "ua": "99% поліестер, 1% антистатична нитка 290г/м.кв Кислотозахисна",
@@ -1175,7 +1175,7 @@
       "colors": [
         {
           "color": "65287",
-          "image": "http://catalog.raznobyt.com/images/products/MK-9014/main/65287.jpg",
+          "image": "http://raznobyt.com/images/products/MK-9014/main/65287.jpg",
           "isMain": true
         }
       ],

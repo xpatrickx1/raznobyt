@@ -9,15 +9,15 @@
     },
     "isNew": false,
     "images": [
-      "http://catalog.raznobyt.com/images/products/9060/main/28.jpg",
-      "http://catalog.raznobyt.com/images/products/9060/1.jpg",
-      "http://catalog.raznobyt.com/images/products/9060/11.jpg",
-      "http://catalog.raznobyt.com/images/products/9060/51.jpg",
-      "http://catalog.raznobyt.com/images/products/9060/58.jpg",
-      "http://catalog.raznobyt.com/images/products/9060/69.jpg",
-      "http://catalog.raznobyt.com/images/products/9060/106.jpg",
-      "http://catalog.raznobyt.com/images/products/9060/1023.jpg",
-      "http://catalog.raznobyt.com/images/products/9060/1252.jpg"
+      "http://raznobyt.com/images/products/9060/main/28.jpg",
+      "http://raznobyt.com/images/products/9060/1.jpg",
+      "http://raznobyt.com/images/products/9060/11.jpg",
+      "http://raznobyt.com/images/products/9060/51.jpg",
+      "http://raznobyt.com/images/products/9060/58.jpg",
+      "http://raznobyt.com/images/products/9060/69.jpg",
+      "http://raznobyt.com/images/products/9060/106.jpg",
+      "http://raznobyt.com/images/products/9060/1023.jpg",
+      "http://raznobyt.com/images/products/9060/1252.jpg"
     ],
     "description": {
       "ua": "100% бавовна,  250г/м.кв,  канвас,  150см",
@@ -30,47 +30,47 @@
       "colors": [
         {
           "color": "28",
-          "image": "http://catalog.raznobyt.com/images/products/9060/main/28.jpg",
+          "image": "http://raznobyt.com/images/products/9060/main/28.jpg",
           "isMain": true
         },
         {
           "color": "1",
-          "image": "http://catalog.raznobyt.com/images/products/9060/1.jpg",
+          "image": "http://raznobyt.com/images/products/9060/1.jpg",
           "isMain": false
         },
         {
           "color": "11",
-          "image": "http://catalog.raznobyt.com/images/products/9060/11.jpg",
+          "image": "http://raznobyt.com/images/products/9060/11.jpg",
           "isMain": false
         },
         {
           "color": "51",
-          "image": "http://catalog.raznobyt.com/images/products/9060/51.jpg",
+          "image": "http://raznobyt.com/images/products/9060/51.jpg",
           "isMain": false
         },
         {
           "color": "58",
-          "image": "http://catalog.raznobyt.com/images/products/9060/58.jpg",
+          "image": "http://raznobyt.com/images/products/9060/58.jpg",
           "isMain": false
         },
         {
           "color": "69",
-          "image": "http://catalog.raznobyt.com/images/products/9060/69.jpg",
+          "image": "http://raznobyt.com/images/products/9060/69.jpg",
           "isMain": false
         },
         {
           "color": "106",
-          "image": "http://catalog.raznobyt.com/images/products/9060/106.jpg",
+          "image": "http://raznobyt.com/images/products/9060/106.jpg",
           "isMain": false
         },
         {
           "color": "1023",
-          "image": "http://catalog.raznobyt.com/images/products/9060/1023.jpg",
+          "image": "http://raznobyt.com/images/products/9060/1023.jpg",
           "isMain": false
         },
         {
           "color": "1252",
-          "image": "http://catalog.raznobyt.com/images/products/9060/1252.jpg",
+          "image": "http://raznobyt.com/images/products/9060/1252.jpg",
           "isMain": false
         }
       ],
@@ -108,13 +108,13 @@
     },
     "isNew": false,
     "images": [
-      "http://catalog.raznobyt.com/images/products/CANVAS/main/25.jpg",
-      "http://catalog.raznobyt.com/images/products/CANVAS/00.jpg",
-      "http://catalog.raznobyt.com/images/products/CANVAS/02.jpg",
-      "http://catalog.raznobyt.com/images/products/CANVAS/03.jpg",
-      "http://catalog.raznobyt.com/images/products/CANVAS/31.jpg",
-      "http://catalog.raznobyt.com/images/products/CANVAS/48.jpg",
-      "http://catalog.raznobyt.com/images/products/CANVAS/69.jpg"
+      "http://raznobyt.com/images/products/CANVAS/main/25.jpg",
+      "http://raznobyt.com/images/products/CANVAS/00.jpg",
+      "http://raznobyt.com/images/products/CANVAS/02.jpg",
+      "http://raznobyt.com/images/products/CANVAS/03.jpg",
+      "http://raznobyt.com/images/products/CANVAS/31.jpg",
+      "http://raznobyt.com/images/products/CANVAS/48.jpg",
+      "http://raznobyt.com/images/products/CANVAS/69.jpg"
     ],
     "description": {
       "ua": "100% бавовна,  350г/м.кв,  канвас,  150см",
@@ -127,37 +127,37 @@
       "colors": [
         {
           "color": "25",
-          "image": "http://catalog.raznobyt.com/images/products/CANVAS/main/25.jpg",
+          "image": "http://raznobyt.com/images/products/CANVAS/main/25.jpg",
           "isMain": true
         },
         {
           "color": "00",
-          "image": "http://catalog.raznobyt.com/images/products/CANVAS/00.jpg",
+          "image": "http://raznobyt.com/images/products/CANVAS/00.jpg",
           "isMain": false
         },
         {
           "color": "02",
-          "image": "http://catalog.raznobyt.com/images/products/CANVAS/02.jpg",
+          "image": "http://raznobyt.com/images/products/CANVAS/02.jpg",
           "isMain": false
         },
         {
           "color": "03",
-          "image": "http://catalog.raznobyt.com/images/products/CANVAS/03.jpg",
+          "image": "http://raznobyt.com/images/products/CANVAS/03.jpg",
           "isMain": false
         },
         {
           "color": "31",
-          "image": "http://catalog.raznobyt.com/images/products/CANVAS/31.jpg",
+          "image": "http://raznobyt.com/images/products/CANVAS/31.jpg",
           "isMain": false
         },
         {
           "color": "48",
-          "image": "http://catalog.raznobyt.com/images/products/CANVAS/48.jpg",
+          "image": "http://raznobyt.com/images/products/CANVAS/48.jpg",
           "isMain": false
         },
         {
           "color": "69",
-          "image": "http://catalog.raznobyt.com/images/products/CANVAS/69.jpg",
+          "image": "http://raznobyt.com/images/products/CANVAS/69.jpg",
           "isMain": false
         }
       ],
@@ -195,7 +195,7 @@
     },
     "isNew": false,
     "images": [
-      "http://catalog.raznobyt.com/images/products/22001/main/NAVY.jpg"
+      "http://raznobyt.com/images/products/22001/main/NAVY.jpg"
     ],
     "description": {
       "ua": "65% бавовна, 35% поліестер  300г/м.кв",
@@ -208,7 +208,7 @@
       "colors": [
         {
           "color": "NAVY",
-          "image": "http://catalog.raznobyt.com/images/products/22001/main/NAVY.jpg",
+          "image": "http://raznobyt.com/images/products/22001/main/NAVY.jpg",
           "isMain": true
         }
       ],
@@ -246,7 +246,7 @@
     },
     "isNew": false,
     "images": [
-      "http://catalog.raznobyt.com/images/products/6509/main/ANTHRACITE.jpg"
+      "http://raznobyt.com/images/products/6509/main/ANTHRACITE.jpg"
     ],
     "description": {
       "ua": "60% бавовна, 40% поліестер  330г/м.кв ",
@@ -259,7 +259,7 @@
       "colors": [
         {
           "color": "ANTHRACITE",
-          "image": "http://catalog.raznobyt.com/images/products/6509/main/ANTHRACITE.jpg",
+          "image": "http://raznobyt.com/images/products/6509/main/ANTHRACITE.jpg",
           "isMain": true
         }
       ],
@@ -297,7 +297,7 @@
     },
     "isNew": false,
     "images": [
-      "http://catalog.raznobyt.com/images/products/6527/main/NAVY.jpg"
+      "http://raznobyt.com/images/products/6527/main/NAVY.jpg"
     ],
     "description": {
       "ua": "60% бавовна, 40% поліестер  330г/м.кв ",
@@ -310,7 +310,7 @@
       "colors": [
         {
           "color": "NAVY",
-          "image": "http://catalog.raznobyt.com/images/products/6527/main/NAVY.jpg",
+          "image": "http://raznobyt.com/images/products/6527/main/NAVY.jpg",
           "isMain": true
         }
       ],
@@ -348,7 +348,7 @@
     },
     "isNew": false,
     "images": [
-      "http://catalog.raznobyt.com/images/products/6527EN/main/PEACOCK.jpg"
+      "http://raznobyt.com/images/products/6527EN/main/PEACOCK.jpg"
     ],
     "description": {
       "ua": "60% бавовна, 40% поліестер  330г/м.кв ",
@@ -361,7 +361,7 @@
       "colors": [
         {
           "color": "PEACOCK",
-          "image": "http://catalog.raznobyt.com/images/products/6527EN/main/PEACOCK.jpg",
+          "image": "http://raznobyt.com/images/products/6527EN/main/PEACOCK.jpg",
           "isMain": true
         }
       ],
@@ -399,8 +399,8 @@
     },
     "isNew": false,
     "images": [
-      "http://catalog.raznobyt.com/images/products/KG 245/main/60996.jpg",
-      "http://catalog.raznobyt.com/images/products/KG 245/64958.jpg"
+      "http://raznobyt.com/images/products/KG 245/main/60996.jpg",
+      "http://raznobyt.com/images/products/KG 245/64958.jpg"
     ],
     "description": {
       "ua": "35% бавовна, 65% поліестр  245г/м.кв",
@@ -413,12 +413,12 @@
       "colors": [
         {
           "color": "60996",
-          "image": "http://catalog.raznobyt.com/images/products/KG 245/main/60996.jpg",
+          "image": "http://raznobyt.com/images/products/KG 245/main/60996.jpg",
           "isMain": true
         },
         {
           "color": "64958",
-          "image": "http://catalog.raznobyt.com/images/products/KG 245/64958.jpg",
+          "image": "http://raznobyt.com/images/products/KG 245/64958.jpg",
           "isMain": false
         }
       ],

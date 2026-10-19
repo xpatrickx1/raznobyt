@@ -9,7 +9,7 @@
     },
     "isNew": false,
     "images": [
-      "http://catalog.raznobyt.com/images/products/Seafild Technical/main/BLUE.jpg"
+      "http://raznobyt.com/images/products/Seafild Technical/main/BLUE.jpg"
     ],
     "description": {
       "ua": "CORDURA  МВО масловодовідштовхуюча, 100% поліестер, 335 гр/м.кв.",
@@ -22,7 +22,7 @@
       "colors": [
         {
           "color": "BLUE",
-          "image": "http://catalog.raznobyt.com/images/products/Seafild Technical/main/BLUE.jpg",
+          "image": "http://raznobyt.com/images/products/Seafild Technical/main/BLUE.jpg",
           "isMain": true
         }
       ],

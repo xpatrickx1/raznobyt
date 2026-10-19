@@ -9,8 +9,8 @@
     },
     "isNew": false,
     "images": [
-      "http://catalog.raznobyt.com/images/products/773.069/main/WHITE.jpg",
-      "http://catalog.raznobyt.com/images/products/773.069/GREY.jpg"
+      "http://raznobyt.com/images/products/773.069/main/WHITE.jpg",
+      "http://raznobyt.com/images/products/773.069/GREY.jpg"
     ],
     "description": {
       "ua": "Флізелін для буз та суконь, армований нитками 100% поліестр, 36 г/м.кв. ",
@@ -23,12 +23,12 @@
       "colors": [
         {
           "color": "WHITE",
-          "image": "http://catalog.raznobyt.com/images/products/773.069/main/WHITE.jpg",
+          "image": "http://raznobyt.com/images/products/773.069/main/WHITE.jpg",
           "isMain": true
         },
         {
           "color": "GREY",
-          "image": "http://catalog.raznobyt.com/images/products/773.069/GREY.jpg",
+          "image": "http://raznobyt.com/images/products/773.069/GREY.jpg",
           "isMain": false
         }
       ],
@@ -66,8 +66,8 @@
     },
     "isNew": false,
     "images": [
-      "http://catalog.raznobyt.com/images/products/747.077/main/WHITE.jpg",
-      "http://catalog.raznobyt.com/images/products/747.077/GREY.jpg"
+      "http://raznobyt.com/images/products/747.077/main/WHITE.jpg",
+      "http://raznobyt.com/images/products/747.077/GREY.jpg"
     ],
     "description": {
       "ua": "Флізелін для буз та суконь універсальний Double Dot 50% поліестр,  50% поліамід, 37 г/м.кв. ",
@@ -80,12 +80,12 @@
       "colors": [
         {
           "color": "WHITE",
-          "image": "http://catalog.raznobyt.com/images/products/747.077/main/WHITE.jpg",
+          "image": "http://raznobyt.com/images/products/747.077/main/WHITE.jpg",
           "isMain": true
         },
         {
           "color": "GREY",
-          "image": "http://catalog.raznobyt.com/images/products/747.077/GREY.jpg",
+          "image": "http://raznobyt.com/images/products/747.077/GREY.jpg",
           "isMain": false
         }
       ],
@@ -123,8 +123,8 @@
     },
     "isNew": false,
     "images": [
-      "http://catalog.raznobyt.com/images/products/749.079/main/WHITE.jpg",
-      "http://catalog.raznobyt.com/images/products/749.079/GREY.jpg"
+      "http://raznobyt.com/images/products/749.079/main/WHITE.jpg",
+      "http://raznobyt.com/images/products/749.079/GREY.jpg"
     ],
     "description": {
       "ua": "Флізелін для буз та суконь універсальний для всіх типів тканин 50% поліестр,  50% поліамід, 63 г/м.кв. ",
@@ -137,12 +137,12 @@
       "colors": [
         {
           "color": "WHITE",
-          "image": "http://catalog.raznobyt.com/images/products/749.079/main/WHITE.jpg",
+          "image": "http://raznobyt.com/images/products/749.079/main/WHITE.jpg",
           "isMain": true
         },
         {
           "color": "GREY",
-          "image": "http://catalog.raznobyt.com/images/products/749.079/GREY.jpg",
+          "image": "http://raznobyt.com/images/products/749.079/GREY.jpg",
           "isMain": false
         }
       ],
@@ -180,7 +180,7 @@
     },
     "isNew": false,
     "images": [
-      "http://catalog.raznobyt.com/images/products/714.000/main/WHITE.jpg"
+      "http://raznobyt.com/images/products/714.000/main/WHITE.jpg"
     ],
     "description": {
       "ua": "Флізелін для вишивки, не клейовий 100% віскоза, 42 г/м.кв.",
@@ -193,7 +193,7 @@
       "colors": [
         {
           "color": "WHITE",
-          "image": "http://catalog.raznobyt.com/images/products/714.000/main/WHITE.jpg",
+          "image": "http://raznobyt.com/images/products/714.000/main/WHITE.jpg",
           "isMain": true
         }
       ],
@@ -231,8 +231,8 @@
     },
     "isNew": false,
     "images": [
-      "http://catalog.raznobyt.com/images/products/761.713W/main/HITE.jpg",
-      "http://catalog.raznobyt.com/images/products/761.713W/GREY.jpg"
+      "http://raznobyt.com/images/products/761.713W/main/HITE.jpg",
+      "http://raznobyt.com/images/products/761.713W/GREY.jpg"
     ],
     "description": {
       "ua": "Флізелін низькоплавкий для делікатних тканин, шкіри  50% поліестр,  50% поліамід, 43 г/м.кв. ",
@@ -245,12 +245,12 @@
       "colors": [
         {
           "color": "HITE",
-          "image": "http://catalog.raznobyt.com/images/products/761.713W/main/HITE.jpg",
+          "image": "http://raznobyt.com/images/products/761.713W/main/HITE.jpg",
           "isMain": true
         },
         {
           "color": "GREY",
-          "image": "http://catalog.raznobyt.com/images/products/761.713W/GREY.jpg",
+          "image": "http://raznobyt.com/images/products/761.713W/GREY.jpg",
           "isMain": false
         }
       ],
@@ -288,8 +288,8 @@
     },
     "isNew": false,
     "images": [
-      "http://catalog.raznobyt.com/images/products/335.052/main/WHITE.jpg",
-      "http://catalog.raznobyt.com/images/products/335.052/GREY.jpg"
+      "http://raznobyt.com/images/products/335.052/main/WHITE.jpg",
+      "http://raznobyt.com/images/products/335.052/GREY.jpg"
     ],
     "description": {
       "ua": "Флізелін Dinamic Dot для проблемних тканин 50% поліестр,  50% поліамід, 35 г/м.кв. ",
@@ -302,12 +302,12 @@
       "colors": [
         {
           "color": "WHITE",
-          "image": "http://catalog.raznobyt.com/images/products/335.052/main/WHITE.jpg",
+          "image": "http://raznobyt.com/images/products/335.052/main/WHITE.jpg",
           "isMain": true
         },
         {
           "color": "GREY",
-          "image": "http://catalog.raznobyt.com/images/products/335.052/GREY.jpg",
+          "image": "http://raznobyt.com/images/products/335.052/GREY.jpg",
           "isMain": false
         }
       ],
@@ -345,8 +345,8 @@
     },
     "isNew": false,
     "images": [
-      "http://catalog.raznobyt.com/images/products/231.052/main/WHITE.jpg",
-      "http://catalog.raznobyt.com/images/products/231.052/GREY.jpg"
+      "http://raznobyt.com/images/products/231.052/main/WHITE.jpg",
+      "http://raznobyt.com/images/products/231.052/GREY.jpg"
     ],
     "description": {
       "ua": "Флізелін для тонких тканин 100% поліестер, 30 г/м.кв.",
@@ -359,12 +359,12 @@
       "colors": [
         {
           "color": "WHITE",
-          "image": "http://catalog.raznobyt.com/images/products/231.052/main/WHITE.jpg",
+          "image": "http://raznobyt.com/images/products/231.052/main/WHITE.jpg",
           "isMain": true
         },
         {
           "color": "GREY",
-          "image": "http://catalog.raznobyt.com/images/products/231.052/GREY.jpg",
+          "image": "http://raznobyt.com/images/products/231.052/GREY.jpg",
           "isMain": false
         }
       ],
@@ -402,7 +402,7 @@
     },
     "isNew": false,
     "images": [
-      "http://catalog.raznobyt.com/images/products/775.083/main/WHITE.jpg"
+      "http://raznobyt.com/images/products/775.083/main/WHITE.jpg"
     ],
     "description": {
       "ua": "Синтепон клейовий армований, 100% поліестр, 130 г/м.кв.",
@@ -415,7 +415,7 @@
       "colors": [
         {
           "color": "WHITE",
-          "image": "http://catalog.raznobyt.com/images/products/775.083/main/WHITE.jpg",
+          "image": "http://raznobyt.com/images/products/775.083/main/WHITE.jpg",
           "isMain": true
         }
       ],
@@ -453,7 +453,7 @@
     },
     "isNew": false,
     "images": [
-      "http://catalog.raznobyt.com/images/products/001.605 SPUNBOND/main/WHITE.jpg"
+      "http://raznobyt.com/images/products/001.605 SPUNBOND/main/WHITE.jpg"
     ],
     "description": {
       "ua": "Спанбонд не клейовий,  100% поліестр, 80 г/м.кв.",
@@ -466,7 +466,7 @@
       "colors": [
         {
           "color": "WHITE",
-          "image": "http://catalog.raznobyt.com/images/products/001.605 SPUNBOND/main/WHITE.jpg",
+          "image": "http://raznobyt.com/images/products/001.605 SPUNBOND/main/WHITE.jpg",
           "isMain": true
         }
       ],
@@ -504,8 +504,8 @@
     },
     "isNew": false,
     "images": [
-      "http://catalog.raznobyt.com/images/products/838.977/main/WHITE.jpg",
-      "http://catalog.raznobyt.com/images/products/838.977/GREY.jpg"
+      "http://raznobyt.com/images/products/838.977/main/WHITE.jpg",
+      "http://raznobyt.com/images/products/838.977/GREY.jpg"
     ],
     "description": {
       "ua": "Дублірин на планки, блузи. Прання до 95°С, не дає усадку. 100% бавовна, 103 г/м.кв.",
@@ -518,12 +518,12 @@
       "colors": [
         {
           "color": "WHITE",
-          "image": "http://catalog.raznobyt.com/images/products/838.977/main/WHITE.jpg",
+          "image": "http://raznobyt.com/images/products/838.977/main/WHITE.jpg",
           "isMain": true
         },
         {
           "color": "GREY",
-          "image": "http://catalog.raznobyt.com/images/products/838.977/GREY.jpg",
+          "image": "http://raznobyt.com/images/products/838.977/GREY.jpg",
           "isMain": false
         }
       ],
@@ -561,7 +561,7 @@
     },
     "isNew": false,
     "images": [
-      "http://catalog.raznobyt.com/images/products/806.977/main/WHITE.jpg"
+      "http://raznobyt.com/images/products/806.977/main/WHITE.jpg"
     ],
     "description": {
       "ua": "Дублірин для сорочок. Прання до 95°С, не дає усадку. 100% бавовна, 119 г/м.кв.",
@@ -574,7 +574,7 @@
       "colors": [
         {
           "color": "WHITE",
-          "image": "http://catalog.raznobyt.com/images/products/806.977/main/WHITE.jpg",
+          "image": "http://raznobyt.com/images/products/806.977/main/WHITE.jpg",
           "isMain": true
         }
       ],
@@ -612,7 +612,7 @@
     },
     "isNew": false,
     "images": [
-      "http://catalog.raznobyt.com/images/products/806.979/main/WHITE.jpg"
+      "http://raznobyt.com/images/products/806.979/main/WHITE.jpg"
     ],
     "description": {
       "ua": "Дублірин для сорочок середньої жорсткості. Прання до 95°С, не дає усадку. 100% бавовна, 124 г/м.кв",
@@ -625,7 +625,7 @@
       "colors": [
         {
           "color": "WHITE",
-          "image": "http://catalog.raznobyt.com/images/products/806.979/main/WHITE.jpg",
+          "image": "http://raznobyt.com/images/products/806.979/main/WHITE.jpg",
           "isMain": true
         }
       ],
@@ -663,7 +663,7 @@
     },
     "isNew": false,
     "images": [
-      "http://catalog.raznobyt.com/images/products/836.978/main/WHITE.jpg"
+      "http://raznobyt.com/images/products/836.978/main/WHITE.jpg"
     ],
     "description": {
       "ua": "Дублірин для сорочок з ефектом фланелі. Прання до 95°С, не дає усадку. 100% бавовна, 147 г/м.кв",
@@ -676,7 +676,7 @@
       "colors": [
         {
           "color": "WHITE",
-          "image": "http://catalog.raznobyt.com/images/products/836.978/main/WHITE.jpg",
+          "image": "http://raznobyt.com/images/products/836.978/main/WHITE.jpg",
           "isMain": true
         }
       ],
@@ -714,7 +714,7 @@
     },
     "isNew": false,
     "images": [
-      "http://catalog.raznobyt.com/images/products/836.678/main/WHITE.jpg"
+      "http://raznobyt.com/images/products/836.678/main/WHITE.jpg"
     ],
     "description": {
       "ua": "Дублірин для сорочок з ефектом фланелі. Прання до 95°С, не дає усадку. 100% бавовна, 152 г/м.кв",
@@ -727,7 +727,7 @@
       "colors": [
         {
           "color": "WHITE",
-          "image": "http://catalog.raznobyt.com/images/products/836.678/main/WHITE.jpg",
+          "image": "http://raznobyt.com/images/products/836.678/main/WHITE.jpg",
           "isMain": true
         }
       ],
@@ -765,7 +765,7 @@
     },
     "isNew": false,
     "images": [
-      "http://catalog.raznobyt.com/images/products/837.977/main/WHITE.jpg"
+      "http://raznobyt.com/images/products/837.977/main/WHITE.jpg"
     ],
     "description": {
       "ua": "Дублірин для сорочок універсальний. Прання до 95°С, не дає усадку. 100% бавовна, 165 г/м.кв",
@@ -778,7 +778,7 @@
       "colors": [
         {
           "color": "WHITE",
-          "image": "http://catalog.raznobyt.com/images/products/837.977/main/WHITE.jpg",
+          "image": "http://raznobyt.com/images/products/837.977/main/WHITE.jpg",
           "isMain": true
         }
       ],
@@ -816,7 +816,7 @@
     },
     "isNew": false,
     "images": [
-      "http://catalog.raznobyt.com/images/products/837.979/main/WHITE.jpg"
+      "http://raznobyt.com/images/products/837.979/main/WHITE.jpg"
     ],
     "description": {
       "ua": "Дублірин для сорочок підвищенної жорсткості. Прання до 95°С, не дає усадку. 100% бавовна, 173 г/м.кв",
@@ -829,7 +829,7 @@
       "colors": [
         {
           "color": "WHITE",
-          "image": "http://catalog.raznobyt.com/images/products/837.979/main/WHITE.jpg",
+          "image": "http://raznobyt.com/images/products/837.979/main/WHITE.jpg",
           "isMain": true
         }
       ],
@@ -867,7 +867,7 @@
     },
     "isNew": false,
     "images": [
-      "http://catalog.raznobyt.com/images/products/849.977/main/WHITE.jpg"
+      "http://raznobyt.com/images/products/849.977/main/WHITE.jpg"
     ],
     "description": {
       "ua": "Дублірин  для класичний сорочок. Прання до 95°С, не дає усадку. 100% бавовна, 200 г/м.кв",
@@ -880,7 +880,7 @@
       "colors": [
         {
           "color": "WHITE",
-          "image": "http://catalog.raznobyt.com/images/products/849.977/main/WHITE.jpg",
+          "image": "http://raznobyt.com/images/products/849.977/main/WHITE.jpg",
           "isMain": true
         }
       ],
@@ -918,7 +918,7 @@
     },
     "isNew": false,
     "images": [
-      "http://catalog.raznobyt.com/images/products/820.988/main/WHITE.jpg"
+      "http://raznobyt.com/images/products/820.988/main/WHITE.jpg"
     ],
     "description": {
       "ua": "Дублірин для сорочок підвищенної щільності. Прання до 95°С, не дає усадку. 100% бавовна, 250 г/м.кв",
@@ -931,7 +931,7 @@
       "colors": [
         {
           "color": "WHITE",
-          "image": "http://catalog.raznobyt.com/images/products/820.988/main/WHITE.jpg",
+          "image": "http://raznobyt.com/images/products/820.988/main/WHITE.jpg",
           "isMain": true
         }
       ],
@@ -969,8 +969,8 @@
     },
     "isNew": false,
     "images": [
-      "http://catalog.raznobyt.com/images/products/017.048/main/WHITE.jpg",
-      "http://catalog.raznobyt.com/images/products/017.048/BLACK.jpg"
+      "http://raznobyt.com/images/products/017.048/main/WHITE.jpg",
+      "http://raznobyt.com/images/products/017.048/BLACK.jpg"
     ],
     "description": {
       "ua": "Дублірин трикотажний стрейч, 100% поліамід, 45 г/м.кв",
@@ -983,12 +983,12 @@
       "colors": [
         {
           "color": "WHITE",
-          "image": "http://catalog.raznobyt.com/images/products/017.048/main/WHITE.jpg",
+          "image": "http://raznobyt.com/images/products/017.048/main/WHITE.jpg",
           "isMain": true
         },
         {
           "color": "BLACK",
-          "image": "http://catalog.raznobyt.com/images/products/017.048/BLACK.jpg",
+          "image": "http://raznobyt.com/images/products/017.048/BLACK.jpg",
           "isMain": false
         }
       ],
@@ -1026,8 +1026,8 @@
     },
     "isNew": false,
     "images": [
-      "http://catalog.raznobyt.com/images/products/060.078/main/WHITE.jpg",
-      "http://catalog.raznobyt.com/images/products/060.078/BLACK.jpg"
+      "http://raznobyt.com/images/products/060.078/main/WHITE.jpg",
+      "http://raznobyt.com/images/products/060.078/BLACK.jpg"
     ],
     "description": {
       "ua": "Дублірин трикотажний  стрейч, 100% поліамід, 45 г/м.кв",
@@ -1040,12 +1040,12 @@
       "colors": [
         {
           "color": "WHITE",
-          "image": "http://catalog.raznobyt.com/images/products/060.078/main/WHITE.jpg",
+          "image": "http://raznobyt.com/images/products/060.078/main/WHITE.jpg",
           "isMain": true
         },
         {
           "color": "BLACK",
-          "image": "http://catalog.raznobyt.com/images/products/060.078/BLACK.jpg",
+          "image": "http://raznobyt.com/images/products/060.078/BLACK.jpg",
           "isMain": false
         }
       ],
@@ -1083,8 +1083,8 @@
     },
     "isNew": false,
     "images": [
-      "http://catalog.raznobyt.com/images/products/065.454/main/WHITE.jpg",
-      "http://catalog.raznobyt.com/images/products/065.454/BLACK.jpg"
+      "http://raznobyt.com/images/products/065.454/main/WHITE.jpg",
+      "http://raznobyt.com/images/products/065.454/BLACK.jpg"
     ],
     "description": {
       "ua": "Дублірин трикотажний  стрейч, 100% поліамід, 45 г/м.кв",
@@ -1097,12 +1097,12 @@
       "colors": [
         {
           "color": "WHITE",
-          "image": "http://catalog.raznobyt.com/images/products/065.454/main/WHITE.jpg",
+          "image": "http://raznobyt.com/images/products/065.454/main/WHITE.jpg",
           "isMain": true
         },
         {
           "color": "BLACK",
-          "image": "http://catalog.raznobyt.com/images/products/065.454/BLACK.jpg",
+          "image": "http://raznobyt.com/images/products/065.454/BLACK.jpg",
           "isMain": false
         }
       ],
@@ -1140,8 +1140,8 @@
     },
     "isNew": false,
     "images": [
-      "http://catalog.raznobyt.com/images/products/070.430/main/WHITE.jpg",
-      "http://catalog.raznobyt.com/images/products/070.430/BLACK.jpg"
+      "http://raznobyt.com/images/products/070.430/main/WHITE.jpg",
+      "http://raznobyt.com/images/products/070.430/BLACK.jpg"
     ],
     "description": {
       "ua": "Дублірин рашель для піджаків та пальто, 80% віскоза, 20% поліамід, 65 г/м.кв",
@@ -1154,12 +1154,12 @@
       "colors": [
         {
           "color": "WHITE",
-          "image": "http://catalog.raznobyt.com/images/products/070.430/main/WHITE.jpg",
+          "image": "http://raznobyt.com/images/products/070.430/main/WHITE.jpg",
           "isMain": true
         },
         {
           "color": "BLACK",
-          "image": "http://catalog.raznobyt.com/images/products/070.430/BLACK.jpg",
+          "image": "http://raznobyt.com/images/products/070.430/BLACK.jpg",
           "isMain": false
         }
       ],
@@ -1197,8 +1197,8 @@
     },
     "isNew": false,
     "images": [
-      "http://catalog.raznobyt.com/images/products/81.452/main/WHITE.jpg",
-      "http://catalog.raznobyt.com/images/products/81.452/BLACK.jpg"
+      "http://raznobyt.com/images/products/81.452/main/WHITE.jpg",
+      "http://raznobyt.com/images/products/81.452/BLACK.jpg"
     ],
     "description": {
       "ua": "Дублерин супереластичний для проблемних тканин, 100% поліестер, 65 г/м.кв",
@@ -1211,12 +1211,12 @@
       "colors": [
         {
           "color": "WHITE",
-          "image": "http://catalog.raznobyt.com/images/products/81.452/main/WHITE.jpg",
+          "image": "http://raznobyt.com/images/products/81.452/main/WHITE.jpg",
           "isMain": true
         },
         {
           "color": "BLACK",
-          "image": "http://catalog.raznobyt.com/images/products/81.452/BLACK.jpg",
+          "image": "http://raznobyt.com/images/products/81.452/BLACK.jpg",
           "isMain": false
         }
       ],
@@ -1254,8 +1254,8 @@
     },
     "isNew": false,
     "images": [
-      "http://catalog.raznobyt.com/images/products/004.711/main/WHITE.jpg",
-      "http://catalog.raznobyt.com/images/products/004.711/BLACK.jpg"
+      "http://raznobyt.com/images/products/004.711/main/WHITE.jpg",
+      "http://raznobyt.com/images/products/004.711/BLACK.jpg"
     ],
     "description": {
       "ua": "Дублерин низькоплавкий для виробів із шкіри, 80% віскоза, 20% поліамід, 80 г/м.кв",
@@ -1268,12 +1268,12 @@
       "colors": [
         {
           "color": "WHITE",
-          "image": "http://catalog.raznobyt.com/images/products/004.711/main/WHITE.jpg",
+          "image": "http://raznobyt.com/images/products/004.711/main/WHITE.jpg",
           "isMain": true
         },
         {
           "color": "BLACK",
-          "image": "http://catalog.raznobyt.com/images/products/004.711/BLACK.jpg",
+          "image": "http://raznobyt.com/images/products/004.711/BLACK.jpg",
           "isMain": false
         }
       ],
