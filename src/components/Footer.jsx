@@ -13,7 +13,7 @@ export default function Footer() {
         <div className="footer__grid">
           <div>
             <img src={logo} alt="Різнобит" className="navbar__logo-img" loading="lazy" />
-            <div className="navbar__logo-text" style={{ color: '#fff', marginBottom: 12 }}>Голандські текстильні тредиції</div>
+            <div className="navbar__logo-text" style={{ color: '#fff', marginBottom: 12 }}>{lang == 'ua' ? 'Голландські текстильні традиції' : 'Голландские текстильные традиции'}</div>
 
             <div className="footer__phones">
               <a href="tel:+380445070680">(044) 507-06-80</a>

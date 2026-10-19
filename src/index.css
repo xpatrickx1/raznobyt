@@ -1579,7 +1579,30 @@ button {
   padding: 24px;
   position: sticky;
   top: calc(var(--nav-h) + 20px);
+  max-height: calc(100vh - var(--nav-h) - 30px);
+  max-height: calc(100dvh - var(--nav-h) - 30px);
+  overflow-y: auto;
+  overscroll-behavior: contain;
   box-shadow: var(--shadow-sm);
+  scrollbar-width: thin;
+  scrollbar-color: var(--c-border) transparent;
+}
+
+.sidebar::-webkit-scrollbar {
+  width: 4px;
+}
+
+.sidebar::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.sidebar::-webkit-scrollbar-thumb {
+  background: var(--c-border);
+  border-radius: 4px;
+}
+
+.sidebar::-webkit-scrollbar-thumb:hover {
+  background: var(--c-text-muted);
 }
 
 .sidebar__title {
@@ -3010,6 +3033,8 @@ button {
 
   .sidebar {
     position: static;
+    max-height: none;
+    overflow-y: visible;
   }
 
   /* Product page */
@@ -3432,6 +3457,8 @@ button {
 
   .sidebar.mobile-open {
     display: block;
+    max-height: none;
+    overflow-y: visible;
   }
 
   /* 2-column mobile catalog grid */

@@ -135,7 +135,7 @@ export default function CategoryView({
             return a.localeCompare(b);
         });
 
-        const PREFERRED_COMPOSITION_ORDER = ['cotton_100', 'cotton_poly', 'poly_cotton', 'poly_100'];
+        const PREFERRED_COMPOSITION_ORDER = ['cotton_100', 'cotton_poly', 'poly_cotton', 'poly_100', 'antistatic'];
         const sortedCompositions = [...comps].sort((a, b) => {
             const idxA = PREFERRED_COMPOSITION_ORDER.indexOf(a);
             const idxB = PREFERRED_COMPOSITION_ORDER.indexOf(b);
@@ -204,7 +204,8 @@ export default function CategoryView({
                 const pComps = getProductCompositionGroups(p);
                 return pComps.includes(c) ||
                     (c === 'cotton' && pComps.includes('cotton_100')) ||
-                    (c === 'polyester' && pComps.includes('poly_100'));
+                    (c === 'polyester' && pComps.includes('poly_100')) ||
+                    ((c === 'antistatic' || c === 'Антистатична') && pComps.includes('antistatic'));
             });
             return matchSearch && matchSubcat && matchType && matchColor && matchDensity && matchWidth && matchComposition;
         });

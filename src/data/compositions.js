@@ -16,7 +16,7 @@ export const COMPOSITION_OPTIONS = [
     { id: 'polypropylene PP', label: 'Поліпропілен', labelRu: 'Полипропилен' },
     { id: 'paraAramid', label: 'Пара-арамід', labelRu: 'Пара-арамид' },
     { id: 'para aramid', label: 'Пара-арамід', labelRu: 'Пара-арамид' },
-    { id: 'antistatic', label: 'Static-Control™', labelRu: 'Static-Control™' },
+    { id: 'antistatic', label: 'Антистатична', labelRu: 'Антистатическая' },
     { id: 'Modacrylic/Lyocell/Static-Control™', label: 'Модакрил/Ліоцел/Static-Control™', labelRu: 'Модакрил/Лиоцелл/Static-Control™' },
     { id: 'Nomex®/Kevlar®/Anti-Static', label: 'Nomex®/Kevlar®/Anti-Static', labelRu: 'Nomex®/Kevlar®/Anti-Static' },
     { id: 'Nomex®/Para-Aramid/p140', label: 'Nomex®/Para-Aramid/p140', labelRu: 'Nomex®/Para-Aramid/p140' },
@@ -30,6 +30,7 @@ export const COMPOSITION_OPTIONS = [
 export const getCompositionOption = (id) => {
     if (id === 'cotton') return COMPOSITION_OPTIONS.find(o => o.id === 'cotton_100') || COMPOSITION_OPTIONS.find(o => o.id === 'cotton');
     if (id === 'polyester') return COMPOSITION_OPTIONS.find(o => o.id === 'poly_100') || COMPOSITION_OPTIONS.find(o => o.id === 'polyester');
+    if (id === 'antistatic' || id === 'Антистатична') return COMPOSITION_OPTIONS.find(o => o.id === 'antistatic');
     return COMPOSITION_OPTIONS.find(o => o.id === id);
 };
 
@@ -52,9 +53,36 @@ export const formatComposition = (compObj, lang) => {
     return getCompositionParts(compObj, lang).join(', ');
 };
 
+export const isAntistaticProduct = (product) => {
+    const comp = product?.attributes?.composition;
+    if (comp) {
+        if (typeof comp === 'string') {
+            if (/anti-?static|static-?control|antistatic|антистатик/i.test(comp)) {
+                return true;
+            }
+        } else if (typeof comp === 'object') {
+            const hasStatic = Object.entries(comp).some(([k, v]) => {
+                const matchesKey = /anti-?static|static-?control|antistatic|антистатик/i.test(k);
+                if (matchesKey && Number(v) > 0) return true;
+                if (typeof v === 'string' && /anti-?static|static-?control|antistatic|антистатик/i.test(v)) return true;
+                return false;
+            });
+            if (hasStatic) return true;
+        }
+    }
+
+    if (Array.isArray(product?.attributes?.properties)) {
+        if (product.attributes.properties.some(p => /anti-?static|static-?control|antistatic|антистатик/i.test(p))) {
+            return true;
+        }
+    }
+
+    return false;
+};
+
 export const getProductCompositionGroups = (product) => {
     const comp = product?.attributes?.composition;
-    if (!comp) return [];
+    if (!comp && !isAntistaticProduct(product)) return [];
 
     let cotton = 0;
     let polyester = 0;
@@ -108,6 +136,11 @@ export const getProductCompositionGroups = (product) => {
     // 4. поліестр: всі з 100% поліестр
     if (polyester >= 98 && cotton === 0) {
         groups.push('poly_100');
+    }
+
+    // Антистатична: всі тканини що містять Anti-Static або Static-Control™ або antistatic
+    if (isAntistaticProduct(product)) {
+        groups.push('antistatic');
     }
 
     // Інші волокна (якщо присутні)

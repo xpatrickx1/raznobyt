@@ -56,20 +56,6 @@
     "image": "/images/categories/industrial.jpg"
   },
   {
-    "id": "army",
-    "slug": "army",
-    "title": {
-      "ua": "Армія та поліція",
-      "ru": "Армия и полиция"
-    },
-    "description": {
-      "ua": "Захисні тканини для зварювальників, електриків та рятувальників",
-      "ru": "Защитные ткани для сварщиков, электриков и спасателей"
-    },
-    "icon": "/images/icons/army.svg",
-    "image": "/images/categories/army.jpg"
-  },
-  {
     "id": "fire",
     "slug": "fire-safety",
     "title": {
