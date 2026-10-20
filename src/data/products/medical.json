@@ -1,131 +1,212 @@
 [
   {
-    "id": "tkan-medical-tr-150",
+    "id": "tkan-medical-vvt-2163",
     "category": "medical",
-    "slug": "tkan-medical-tr-150",
+    "slug": "tkan-medical-vvt-2163",
     "title": {
-      "ua": "TR-150",
-      "ru": "TR-150"
+      "ua": "VVT-2163",
+      "ru": "VVT-2163"
     },
     "isNew": false,
     "images": [
-      "http://raznobyt.com/images/products/TR-150/main/741 VIOLET.jpg",
-      "http://raznobyt.com/images/products/TR-150/701 WHITE.jpg",
-      "http://raznobyt.com/images/products/TR-150/731 LAVENDER.jpg",
-      "http://raznobyt.com/images/products/TR-150/732 FRESIA.jpg",
-      "http://raznobyt.com/images/products/TR-150/738 RUBY.jpg",
-      "http://raznobyt.com/images/products/TR-150/739 DEEP ROSE.jpg",
-      "http://raznobyt.com/images/products/TR-150/743 HEATHER.jpg",
-      "http://raznobyt.com/images/products/TR-150/748 HYACINTH.jpg",
-      "http://raznobyt.com/images/products/TR-150/762 LIGHT GREEN.jpg",
-      "http://raznobyt.com/images/products/TR-150/763 GRENN APPLE.jpg",
-      "http://raznobyt.com/images/products/TR-150/766 YELLOW GREEN.jpg",
-      "http://raznobyt.com/images/products/TR-150/767 BOTTLE GREEN.jpg",
-      "http://raznobyt.com/images/products/TR-150/773 SAND.jpg",
-      "http://raznobyt.com/images/products/TR-150/775 SAFARI.jpg",
-      "http://raznobyt.com/images/products/TR-150/778 CHOCOLATE.jpg",
-      "http://raznobyt.com/images/products/TR-150/781 SILVER.jpg",
-      "http://raznobyt.com/images/products/TR-150/794 BLACK.jpg"
+      "http://raznobyt.com/images/products/VVT-2163/main/754 Royal Box.jpg",
+      "http://raznobyt.com/images/products/VVT-2163/701 White.jpg",
+      "http://raznobyt.com/images/products/VVT-2163/794 Black.jpg"
     ],
     "description": {
-      "ua": "Змішана тканина. Склад: 35% бавовна, 65% поліестр. Щільність 150. Саржеве переплетення 2/1.",
-      "ru": "Смесовая ткань. Состав: 35% хлопок, 65% полиэстер. Плотность 150. Саржевое переплетение 2/1."
+      "ua": "Змішана тканина. Склад: 60% бавовна, 40% поліестр. Щільність 210. Саржеве переплетення 2/1.",
+      "ru": "Смесовая ткань. Состав: 60% хлопок, 40% полиэстер. Плотность 210. Саржевое переплетение 2/1."
     },
     "attributes": {
       "fabricType": "twill",
-      "density": "150",
+      "density": "210",
       "width": "150",
       "colors": [
         {
-          "color": "741 VIOLET",
-          "image": "http://raznobyt.com/images/products/TR-150/main/741 VIOLET.jpg",
+          "color": "754 Royal Box",
+          "image": "http://raznobyt.com/images/products/VVT-2163/main/754 Royal Box.jpg",
           "isMain": true
         },
         {
-          "color": "701 WHITE",
-          "image": "http://raznobyt.com/images/products/TR-150/701 WHITE.jpg",
+          "color": "701 White",
+          "image": "http://raznobyt.com/images/products/VVT-2163/701 White.jpg",
           "isMain": false
         },
         {
-          "color": "731 LAVENDER",
-          "image": "http://raznobyt.com/images/products/TR-150/731 LAVENDER.jpg",
+          "color": "794 Black",
+          "image": "http://raznobyt.com/images/products/VVT-2163/794 Black.jpg",
           "isMain": false
+        }
+      ],
+      "properties": [],
+      "composition": {
+        "cotton": 60,
+        "polyester": 40,
+        "spandex": 0,
+        "rayon": 0,
+        "viscose": 0,
+        "pbt": 0,
+        "lyon": 0,
+        "polyamide PA": 0,
+        "polypropylene PP": 0,
+        "para aramid": 0,
+        "antistatic": 0,
+        "Modacrylic/Lyocell/Static-Control™": 0,
+        "Nomex®/Kevlar®/Anti-Static": 0,
+        "Nomex®/Para-Aramid/p140": 0,
+        "PBI®/Kevlar®/Antistatic": 0,
+        "Lenzing FR®/Aramid": 0,
+        "Para-aramid/Solid polymer coating": 0,
+        "FR Rayon/пара-арамід/поліамід/антистатик": 0,
+        "MAC": 0
+      }
+    }
+  },
+  {
+    "id": "tkan-medical-trs-48",
+    "category": "medical",
+    "slug": "tkan-medical-trs-48",
+    "title": {
+      "ua": "TRS-48",
+      "ru": "TRS-48"
+    },
+    "isNew": false,
+    "images": [
+      "http://raznobyt.com/images/products/TRS-48/main/740 DEEP PURPLE.jpg",
+      "http://raznobyt.com/images/products/TRS-48/757 NAVY.jpg",
+      "http://raznobyt.com/images/products/TRS-48/794 BLACK.jpg",
+      "http://raznobyt.com/images/products/TRS-48/789 PILOT GREY.jpg",
+      "http://raznobyt.com/images/products/TRS-48/786 CHARCOAL.jpg",
+      "http://raznobyt.com/images/products/TRS-48/784 GREY.jpg",
+      "http://raznobyt.com/images/products/TRS-48/785 STEEL.jpg",
+      "http://raznobyt.com/images/products/TRS-48/781 SILVER.jpg",
+      "http://raznobyt.com/images/products/TRS-48/778 CHOCOLATE.jpg",
+      "http://raznobyt.com/images/products/TRS-48/777 CEDAR.jpg",
+      "http://raznobyt.com/images/products/TRS-48/776 KHAKI.jpg",
+      "http://raznobyt.com/images/products/TRS-48/768 OLIVE GREEN.jpg",
+      "http://raznobyt.com/images/products/TRS-48/773 SAND.jpg",
+      "http://raznobyt.com/images/products/TRS-48/761 OPAL.jpg",
+      "http://raznobyt.com/images/products/TRS-48/760 AQUA.jpg",
+      "http://raznobyt.com/images/products/TRS-48/750 TURQUOISE.jpg",
+      "http://raznobyt.com/images/products/TRS-48/752 SKY.jpg",
+      "http://raznobyt.com/images/products/TRS-48/730 RED.jpg",
+      "http://raznobyt.com/images/products/TRS-48/735 MAROON.jpg",
+      "http://raznobyt.com/images/products/TRS-48/701 WHITE.jpg"
+    ],
+    "description": {
+      "ua": "Змішана тканина. Склад: 48% бавовна, 52% поліестр. Щільність 200. Саржеве переплетення 2/1.",
+      "ru": "Смесовая ткань. Состав: 48% хлопок, 52% полиэстер. Плотность 200. Саржевое переплетение 2/1."
+    },
+    "attributes": {
+      "fabricType": "twill",
+      "density": "200",
+      "width": "150",
+      "colors": [
+        {
+          "color": "740 DEEP PURPLE",
+          "image": "http://raznobyt.com/images/products/TRS-48/main/740 DEEP PURPLE.jpg",
+          "isMain": true
         },
         {
-          "color": "732 FRESIA",
-          "image": "http://raznobyt.com/images/products/TR-150/732 FRESIA.jpg",
-          "isMain": false
-        },
-        {
-          "color": "738 RUBY",
-          "image": "http://raznobyt.com/images/products/TR-150/738 RUBY.jpg",
-          "isMain": false
-        },
-        {
-          "color": "739 DEEP ROSE",
-          "image": "http://raznobyt.com/images/products/TR-150/739 DEEP ROSE.jpg",
-          "isMain": false
-        },
-        {
-          "color": "743 HEATHER",
-          "image": "http://raznobyt.com/images/products/TR-150/743 HEATHER.jpg",
-          "isMain": false
-        },
-        {
-          "color": "748 HYACINTH",
-          "image": "http://raznobyt.com/images/products/TR-150/748 HYACINTH.jpg",
-          "isMain": false
-        },
-        {
-          "color": "762 LIGHT GREEN",
-          "image": "http://raznobyt.com/images/products/TR-150/762 LIGHT GREEN.jpg",
-          "isMain": false
-        },
-        {
-          "color": "763 GRENN APPLE",
-          "image": "http://raznobyt.com/images/products/TR-150/763 GRENN APPLE.jpg",
-          "isMain": false
-        },
-        {
-          "color": "766 YELLOW GREEN",
-          "image": "http://raznobyt.com/images/products/TR-150/766 YELLOW GREEN.jpg",
-          "isMain": false
-        },
-        {
-          "color": "767 BOTTLE GREEN",
-          "image": "http://raznobyt.com/images/products/TR-150/767 BOTTLE GREEN.jpg",
-          "isMain": false
-        },
-        {
-          "color": "773 SAND",
-          "image": "http://raznobyt.com/images/products/TR-150/773 SAND.jpg",
-          "isMain": false
-        },
-        {
-          "color": "775 SAFARI",
-          "image": "http://raznobyt.com/images/products/TR-150/775 SAFARI.jpg",
-          "isMain": false
-        },
-        {
-          "color": "778 CHOCOLATE",
-          "image": "http://raznobyt.com/images/products/TR-150/778 CHOCOLATE.jpg",
-          "isMain": false
-        },
-        {
-          "color": "781 SILVER",
-          "image": "http://raznobyt.com/images/products/TR-150/781 SILVER.jpg",
+          "color": "757 NAVY",
+          "image": "http://raznobyt.com/images/products/TRS-48/757 NAVY.jpg",
           "isMain": false
         },
         {
           "color": "794 BLACK",
-          "image": "http://raznobyt.com/images/products/TR-150/794 BLACK.jpg",
+          "image": "http://raznobyt.com/images/products/TRS-48/794 BLACK.jpg",
+          "isMain": false
+        },
+        {
+          "color": "789 PILOT GREY",
+          "image": "http://raznobyt.com/images/products/TRS-48/789 PILOT GREY.jpg",
+          "isMain": false
+        },
+        {
+          "color": "786 CHARCOAL",
+          "image": "http://raznobyt.com/images/products/TRS-48/786 CHARCOAL.jpg",
+          "isMain": false
+        },
+        {
+          "color": "784 GREY",
+          "image": "http://raznobyt.com/images/products/TRS-48/784 GREY.jpg",
+          "isMain": false
+        },
+        {
+          "color": "785 STEEL",
+          "image": "http://raznobyt.com/images/products/TRS-48/785 STEEL.jpg",
+          "isMain": false
+        },
+        {
+          "color": "781 SILVER",
+          "image": "http://raznobyt.com/images/products/TRS-48/781 SILVER.jpg",
+          "isMain": false
+        },
+        {
+          "color": "778 CHOCOLATE",
+          "image": "http://raznobyt.com/images/products/TRS-48/778 CHOCOLATE.jpg",
+          "isMain": false
+        },
+        {
+          "color": "777 CEDAR",
+          "image": "http://raznobyt.com/images/products/TRS-48/777 CEDAR.jpg",
+          "isMain": false
+        },
+        {
+          "color": "776 KHAKI",
+          "image": "http://raznobyt.com/images/products/TRS-48/776 KHAKI.jpg",
+          "isMain": false
+        },
+        {
+          "color": "768 OLIVE GREEN",
+          "image": "http://raznobyt.com/images/products/TRS-48/768 OLIVE GREEN.jpg",
+          "isMain": false
+        },
+        {
+          "color": "773 SAND",
+          "image": "http://raznobyt.com/images/products/TRS-48/773 SAND.jpg",
+          "isMain": false
+        },
+        {
+          "color": "761 OPAL",
+          "image": "http://raznobyt.com/images/products/TRS-48/761 OPAL.jpg",
+          "isMain": false
+        },
+        {
+          "color": "760 AQUA",
+          "image": "http://raznobyt.com/images/products/TRS-48/760 AQUA.jpg",
+          "isMain": false
+        },
+        {
+          "color": "750 TURQUOISE",
+          "image": "http://raznobyt.com/images/products/TRS-48/750 TURQUOISE.jpg",
+          "isMain": false
+        },
+        {
+          "color": "752 SKY",
+          "image": "http://raznobyt.com/images/products/TRS-48/752 SKY.jpg",
+          "isMain": false
+        },
+        {
+          "color": "730 RED",
+          "image": "http://raznobyt.com/images/products/TRS-48/730 RED.jpg",
+          "isMain": false
+        },
+        {
+          "color": "735 MAROON",
+          "image": "http://raznobyt.com/images/products/TRS-48/735 MAROON.jpg",
+          "isMain": false
+        },
+        {
+          "color": "701 WHITE",
+          "image": "http://raznobyt.com/images/products/TRS-48/701 WHITE.jpg",
           "isMain": false
         }
       ],
       "properties": [],
       "composition": {
-        "cotton": 35,
-        "polyester": 65,
+        "cotton": 48,
+        "polyester": 52,
         "spandex": 0,
         "rayon": 0,
         "viscose": 0,
@@ -147,316 +228,61 @@
     }
   },
   {
-    "id": "tkan-medical-kg-027",
+    "id": "tkan-medical-tr-2120",
     "category": "medical",
-    "slug": "tkan-medical-kg-027",
+    "slug": "tkan-medical-tr-2120",
     "title": {
-      "ua": "KG-027",
-      "ru": "KG-027"
+      "ua": "TR-2120",
+      "ru": "TR-2120"
     },
     "isNew": false,
     "images": [
-      "http://raznobyt.com/images/products/KG-27/main/62709.jpg",
-      "http://raznobyt.com/images/products/KG-27/00001.jpg",
-      "http://raznobyt.com/images/products/KG-27/60380.jpg",
-      "http://raznobyt.com/images/products/KG-27/60475.jpg",
-      "http://raznobyt.com/images/products/KG-27/60563.jpg",
-      "http://raznobyt.com/images/products/KG-27/60624.jpg",
-      "http://raznobyt.com/images/products/KG-27/60944.jpg",
-      "http://raznobyt.com/images/products/KG-27/61088.jpg",
-      "http://raznobyt.com/images/products/KG-27/61213.jpg",
-      "http://raznobyt.com/images/products/KG-27/62893.jpg"
+      "http://raznobyt.com/images/products/TR 2120/main/772 BEIGE.jpg",
+      "http://raznobyt.com/images/products/TR 2120/782 SLATE.jpg",
+      "http://raznobyt.com/images/products/TR 2120/785 STEEL.jpg",
+      "http://raznobyt.com/images/products/TR 2120/BLACK.jpg",
+      "http://raznobyt.com/images/products/TR 2120/WHITE.jpg"
     ],
     "description": {
-      "ua": "Змішана тканина. Склад: 35% бавовна, 65% поліестр. Щільність 160. Саржеве переплетення 2/1.",
-      "ru": "Смесовая ткань. Состав: 35% хлопок, 65% полиэстер. Плотность 160. Саржевое переплетение 2/1."
+      "ua": "Змішана тканина з ефектом стрейч. Склад: 33% бавовна, 63% поліестр, 4% стрейч. Щільність 200. Саржеве переплетення 2/1.",
+      "ru": "Смесовая ткань с эффектом стретч. Состав: 33% хлопок, 63% полиэстер, 4% стретч. Плотность 200. Саржевое переплетение 2/1."
     },
     "attributes": {
       "fabricType": "twill",
-      "density": "160",
-      "width": "150",
+      "density": "200",
+      "width": "148",
       "colors": [
         {
-          "color": "62709",
-          "image": "http://raznobyt.com/images/products/KG-27/main/62709.jpg",
+          "color": "772 BEIGE",
+          "image": "http://raznobyt.com/images/products/TR 2120/main/772 BEIGE.jpg",
           "isMain": true
         },
         {
-          "color": "00001",
-          "image": "http://raznobyt.com/images/products/KG-27/00001.jpg",
+          "color": "782 SLATE",
+          "image": "http://raznobyt.com/images/products/TR 2120/782 SLATE.jpg",
           "isMain": false
         },
         {
-          "color": "60380",
-          "image": "http://raznobyt.com/images/products/KG-27/60380.jpg",
+          "color": "785 STEEL",
+          "image": "http://raznobyt.com/images/products/TR 2120/785 STEEL.jpg",
           "isMain": false
         },
         {
-          "color": "60475",
-          "image": "http://raznobyt.com/images/products/KG-27/60475.jpg",
+          "color": "BLACK",
+          "image": "http://raznobyt.com/images/products/TR 2120/BLACK.jpg",
           "isMain": false
         },
         {
-          "color": "60563",
-          "image": "http://raznobyt.com/images/products/KG-27/60563.jpg",
-          "isMain": false
-        },
-        {
-          "color": "60624",
-          "image": "http://raznobyt.com/images/products/KG-27/60624.jpg",
-          "isMain": false
-        },
-        {
-          "color": "60944",
-          "image": "http://raznobyt.com/images/products/KG-27/60944.jpg",
-          "isMain": false
-        },
-        {
-          "color": "61088",
-          "image": "http://raznobyt.com/images/products/KG-27/61088.jpg",
-          "isMain": false
-        },
-        {
-          "color": "61213",
-          "image": "http://raznobyt.com/images/products/KG-27/61213.jpg",
-          "isMain": false
-        },
-        {
-          "color": "62893",
-          "image": "http://raznobyt.com/images/products/KG-27/62893.jpg",
+          "color": "WHITE",
+          "image": "http://raznobyt.com/images/products/TR 2120/WHITE.jpg",
           "isMain": false
         }
       ],
       "properties": [],
       "composition": {
-        "cotton": 35,
-        "polyester": 65,
-        "spandex": 0,
-        "rayon": 0,
-        "viscose": 0,
-        "pbt": 0,
-        "lyon": 0,
-        "polyamide PA": 0,
-        "polypropylene PP": 0,
-        "para aramid": 0,
-        "antistatic": 0,
-        "Modacrylic/Lyocell/Static-Control™": 0,
-        "Nomex®/Kevlar®/Anti-Static": 0,
-        "Nomex®/Para-Aramid/p140": 0,
-        "PBI®/Kevlar®/Antistatic": 0,
-        "Lenzing FR®/Aramid": 0,
-        "Para-aramid/Solid polymer coating": 0,
-        "FR Rayon/пара-арамід/поліамід/антистатик": 0,
-        "MAC": 0
-      }
-    }
-  },
-  {
-    "id": "tkan-medical-9541",
-    "category": "medical",
-    "slug": "tkan-medical-9541",
-    "title": {
-      "ua": "9541",
-      "ru": "9541"
-    },
-    "isNew": false,
-    "images": [
-      "http://raznobyt.com/images/products/9541.01/main/85406.jpg",
-      "http://raznobyt.com/images/products/9541.01/90001.jpg",
-      "http://raznobyt.com/images/products/9541.01/93630.jpg",
-      "http://raznobyt.com/images/products/9541.01/96829.jpg",
-      "http://raznobyt.com/images/products/9541.01/98060.jpg",
-      "http://raznobyt.com/images/products/9541.01/99015.jpg"
-    ],
-    "description": {
-      "ua": "Змішана тканина. Склад: 35% бавовна, 65% поліестр. Щільність 160. Саржеве переплетення 2/1.",
-      "ru": "Смесовая ткань. Состав: 35% хлопок, 65% полиэстер. Плотность 160. Саржевое переплетение 2/1."
-    },
-    "attributes": {
-      "fabricType": "полотно",
-      "density": "160",
-      "width": "150",
-      "colors": [
-        {
-          "color": "85406",
-          "image": "http://raznobyt.com/images/products/9541.01/main/85406.jpg",
-          "isMain": true
-        },
-        {
-          "color": "90001",
-          "image": "http://raznobyt.com/images/products/9541.01/90001.jpg",
-          "isMain": false
-        },
-        {
-          "color": "93630",
-          "image": "http://raznobyt.com/images/products/9541.01/93630.jpg",
-          "isMain": false
-        },
-        {
-          "color": "96829",
-          "image": "http://raznobyt.com/images/products/9541.01/96829.jpg",
-          "isMain": false
-        },
-        {
-          "color": "98060",
-          "image": "http://raznobyt.com/images/products/9541.01/98060.jpg",
-          "isMain": false
-        },
-        {
-          "color": "99015",
-          "image": "http://raznobyt.com/images/products/9541.01/99015.jpg",
-          "isMain": false
-        }
-      ],
-      "properties": [],
-      "composition": {
-        "cotton": 35,
-        "polyester": 65,
-        "spandex": 0,
-        "rayon": 0,
-        "viscose": 0,
-        "pbt": 0,
-        "lyon": 0,
-        "polyamide PA": 0,
-        "polypropylene PP": 0,
-        "para aramid": 0,
-        "antistatic": 0,
-        "Modacrylic/Lyocell/Static-Control™": 0,
-        "Nomex®/Kevlar®/Anti-Static": 0,
-        "Nomex®/Para-Aramid/p140": 0,
-        "PBI®/Kevlar®/Antistatic": 0,
-        "Lenzing FR®/Aramid": 0,
-        "Para-aramid/Solid polymer coating": 0,
-        "FR Rayon/пара-арамід/поліамід/антистатик": 0,
-        "MAC": 0
-      }
-    }
-  },
-  {
-    "id": "tkan-medical-9515",
-    "category": "medical",
-    "slug": "tkan-medical-9515",
-    "title": {
-      "ua": "9515",
-      "ru": "9515"
-    },
-    "isNew": false,
-    "images": [
-      "http://raznobyt.com/images/products/9515/main/97440.jpg",
-      "http://raznobyt.com/images/products/9515/93240.jpg",
-      "http://raznobyt.com/images/products/9515/95364.jpg",
-      "http://raznobyt.com/images/products/9515/95367.jpg",
-      "http://raznobyt.com/images/products/9515/97284.jpg",
-      "http://raznobyt.com/images/products/9515/98278.jpg",
-      "http://raznobyt.com/images/products/9515/98314.jpg",
-      "http://raznobyt.com/images/products/9515/99014.jpg"
-    ],
-    "description": {
-      "ua": "Змішана тканина. Склад: 35% бавовна, 65% поліестр. Щільність 195. Саржеве переплетення 2/1.",
-      "ru": "Смесовая ткань. Состав: 35% хлопок, 65% полиэстер. Плотность 195. Саржевое переплетение 2/1."
-    },
-    "attributes": {
-      "fabricType": "twill",
-      "density": "195",
-      "width": "150",
-      "colors": [
-        {
-          "color": "97440",
-          "image": "http://raznobyt.com/images/products/9515/main/97440.jpg",
-          "isMain": true
-        },
-        {
-          "color": "93240",
-          "image": "http://raznobyt.com/images/products/9515/93240.jpg",
-          "isMain": false
-        },
-        {
-          "color": "95364",
-          "image": "http://raznobyt.com/images/products/9515/95364.jpg",
-          "isMain": false
-        },
-        {
-          "color": "95367",
-          "image": "http://raznobyt.com/images/products/9515/95367.jpg",
-          "isMain": false
-        },
-        {
-          "color": "97284",
-          "image": "http://raznobyt.com/images/products/9515/97284.jpg",
-          "isMain": false
-        },
-        {
-          "color": "98278",
-          "image": "http://raznobyt.com/images/products/9515/98278.jpg",
-          "isMain": false
-        },
-        {
-          "color": "98314",
-          "image": "http://raznobyt.com/images/products/9515/98314.jpg",
-          "isMain": false
-        },
-        {
-          "color": "99014",
-          "image": "http://raznobyt.com/images/products/9515/99014.jpg",
-          "isMain": false
-        }
-      ],
-      "properties": [],
-      "composition": {
-        "cotton": 35,
-        "polyester": 65,
-        "spandex": 0,
-        "rayon": 0,
-        "viscose": 0,
-        "pbt": 0,
-        "lyon": 0,
-        "polyamide PA": 0,
-        "polypropylene PP": 0,
-        "para aramid": 0,
-        "antistatic": 0,
-        "Modacrylic/Lyocell/Static-Control™": 0,
-        "Nomex®/Kevlar®/Anti-Static": 0,
-        "Nomex®/Para-Aramid/p140": 0,
-        "PBI®/Kevlar®/Antistatic": 0,
-        "Lenzing FR®/Aramid": 0,
-        "Para-aramid/Solid polymer coating": 0,
-        "FR Rayon/пара-арамід/поліамід/антистатик": 0,
-        "MAC": 0
-      }
-    }
-  },
-  {
-    "id": "tkan-medical-kg-337",
-    "category": "medical",
-    "slug": "tkan-medical-kg-337",
-    "title": {
-      "ua": "KG-337",
-      "ru": "KG-337"
-    },
-    "isNew": false,
-    "images": [
-      "http://raznobyt.com/images/products/KG-337/62110.jpg"
-    ],
-    "description": {
-      "ua": "Змішана тканина. Склад: 35% бавовна, 65% поліестр. Щільність 195. Саржеве переплетення 2/1.",
-      "ru": "Смесовая ткань. Состав: 35% хлопок, 65% полиэстер. Плотность 195. Саржевое переплетение 2/1."
-    },
-    "attributes": {
-      "fabricType": "twill",
-      "density": "195",
-      "width": "150",
-      "colors": [
-        {
-          "color": "62110",
-          "image": "http://raznobyt.com/images/products/KG-337/62110.jpg",
-          "isMain": true
-        }
-      ],
-      "properties": [],
-      "composition": {
-        "cotton": 35,
-        "polyester": 65,
-        "spandex": 0,
+        "cotton": 33,
+        "polyester": 63,
+        "spandex": 4,
         "rayon": 0,
         "viscose": 0,
         "pbt": 0,
@@ -684,408 +510,111 @@
     }
   },
   {
-    "id": "tkan-medical-rc-194",
+    "id": "tkan-medical-tr-50",
     "category": "medical",
-    "slug": "tkan-medical-rc-194",
+    "slug": "tkan-medical-tr-50",
     "title": {
-      "ua": "RC-194",
-      "ru": "RC-194"
+      "ua": "TR-50",
+      "ru": "TR-50"
     },
     "isNew": false,
     "images": [
-      "http://raznobyt.com/images/products/RC-194/main/90065.jpg",
-      "http://raznobyt.com/images/products/RC-194/99014.jpg"
+      "http://raznobyt.com/images/products/TR-50/main/754 Royal Box.jpg",
+      "http://raznobyt.com/images/products/TR-50/701 White.jpg",
+      "http://raznobyt.com/images/products/TR-50/760 Aqua.jpg",
+      "http://raznobyt.com/images/products/TR-50/794 Black.jpg"
     ],
     "description": {
-      "ua": "Змішана тканина. Склад: 35% бавовна, 65% поліестр. Щільність 194. Саржеве переплетення 2/1.",
-      "ru": "Смесовая ткань. Состав: 35% хлопок, 65% полиэстер. Плотность 194. Саржевое переплетение 2/1."
+      "ua": "Змішана тканина. Склад: 50% бавовна, 50% поліестр. Щільність 180. Саржеве переплетення 2/1.",
+      "ru": "Смесовая ткань. Состав: 50% хлопок, 50% полиэстер. Плотность 180. Саржевое переплетение 2/1."
     },
     "attributes": {
       "fabricType": "twill",
-      "density": "194",
-      "width": "150",
-      "colors": [
-        {
-          "color": "90065",
-          "image": "http://raznobyt.com/images/products/RC-194/main/90065.jpg",
-          "isMain": true
-        },
-        {
-          "color": "99014",
-          "image": "http://raznobyt.com/images/products/RC-194/99014.jpg",
-          "isMain": false
-        }
-      ],
-      "properties": [],
-      "composition": {
-        "cotton": 35,
-        "polyester": 65,
-        "spandex": 0,
-        "rayon": 0,
-        "viscose": 0,
-        "pbt": 0,
-        "lyon": 0,
-        "polyamide PA": 0,
-        "polypropylene PP": 0,
-        "para aramid": 0,
-        "antistatic": 0,
-        "Modacrylic/Lyocell/Static-Control™": 0,
-        "Nomex®/Kevlar®/Anti-Static": 0,
-        "Nomex®/Para-Aramid/p140": 0,
-        "PBI®/Kevlar®/Antistatic": 0,
-        "Lenzing FR®/Aramid": 0,
-        "Para-aramid/Solid polymer coating": 0,
-        "FR Rayon/пара-арамід/поліамід/антистатик": 0,
-        "MAC": 0
-      }
-    }
-  },
-  {
-    "id": "tkan-medical-tr-2120",
-    "category": "medical",
-    "slug": "tkan-medical-tr-2120",
-    "title": {
-      "ua": "TR-2120",
-      "ru": "TR-2120"
-    },
-    "isNew": false,
-    "images": [
-      "http://raznobyt.com/images/products/TR 2120/main/772 BEIGE.jpg",
-      "http://raznobyt.com/images/products/TR 2120/782 SLATE.jpg",
-      "http://raznobyt.com/images/products/TR 2120/785 STEEL.jpg",
-      "http://raznobyt.com/images/products/TR 2120/BLACK.jpg",
-      "http://raznobyt.com/images/products/TR 2120/WHITE.jpg"
-    ],
-    "description": {
-      "ua": "Змішана тканина з ефектом стрейч. Склад: 33% бавовна, 63% поліестр, 4% стрейч. Щільність 200. Саржеве переплетення 2/1.",
-      "ru": "Смесовая ткань с эффектом стретч. Состав: 33% хлопок, 63% полиэстер, 4% стретч. Плотность 200. Саржевое переплетение 2/1."
-    },
-    "attributes": {
-      "fabricType": "twill",
-      "density": "200",
-      "width": "148",
-      "colors": [
-        {
-          "color": "772 BEIGE",
-          "image": "http://raznobyt.com/images/products/TR 2120/main/772 BEIGE.jpg",
-          "isMain": true
-        },
-        {
-          "color": "782 SLATE",
-          "image": "http://raznobyt.com/images/products/TR 2120/782 SLATE.jpg",
-          "isMain": false
-        },
-        {
-          "color": "785 STEEL",
-          "image": "http://raznobyt.com/images/products/TR 2120/785 STEEL.jpg",
-          "isMain": false
-        },
-        {
-          "color": "BLACK",
-          "image": "http://raznobyt.com/images/products/TR 2120/BLACK.jpg",
-          "isMain": false
-        },
-        {
-          "color": "WHITE",
-          "image": "http://raznobyt.com/images/products/TR 2120/WHITE.jpg",
-          "isMain": false
-        }
-      ],
-      "properties": [],
-      "composition": {
-        "cotton": 33,
-        "polyester": 63,
-        "spandex": 4,
-        "rayon": 0,
-        "viscose": 0,
-        "pbt": 0,
-        "lyon": 0,
-        "polyamide PA": 0,
-        "polypropylene PP": 0,
-        "para aramid": 0,
-        "antistatic": 0,
-        "Modacrylic/Lyocell/Static-Control™": 0,
-        "Nomex®/Kevlar®/Anti-Static": 0,
-        "Nomex®/Para-Aramid/p140": 0,
-        "PBI®/Kevlar®/Antistatic": 0,
-        "Lenzing FR®/Aramid": 0,
-        "Para-aramid/Solid polymer coating": 0,
-        "FR Rayon/пара-арамід/поліамід/антистатик": 0,
-        "MAC": 0
-      }
-    }
-  },
-  {
-    "id": "tkan-medical-trs-48",
-    "category": "medical",
-    "slug": "tkan-medical-trs-48",
-    "title": {
-      "ua": "TRS-48",
-      "ru": "TRS-48"
-    },
-    "isNew": false,
-    "images": [
-      "http://raznobyt.com/images/products/TRS-48/main/740 DEEP PURPLE.jpg",
-      "http://raznobyt.com/images/products/TRS-48/757 NAVY.jpg",
-      "http://raznobyt.com/images/products/TRS-48/794 BLACK.jpg",
-      "http://raznobyt.com/images/products/TRS-48/789 PILOT GREY.jpg",
-      "http://raznobyt.com/images/products/TRS-48/786 CHARCOAL.jpg",
-      "http://raznobyt.com/images/products/TRS-48/784 GREY.jpg",
-      "http://raznobyt.com/images/products/TRS-48/785 STEEL.jpg",
-      "http://raznobyt.com/images/products/TRS-48/781 SILVER.jpg",
-      "http://raznobyt.com/images/products/TRS-48/778 CHOCOLATE.jpg",
-      "http://raznobyt.com/images/products/TRS-48/777 CEDAR.jpg",
-      "http://raznobyt.com/images/products/TRS-48/776 KHAKI.jpg",
-      "http://raznobyt.com/images/products/TRS-48/768 OLIVE GREEN.jpg",
-      "http://raznobyt.com/images/products/TRS-48/773 SAND.jpg",
-      "http://raznobyt.com/images/products/TRS-48/761 OPAL.jpg",
-      "http://raznobyt.com/images/products/TRS-48/760 AQUA.jpg",
-      "http://raznobyt.com/images/products/TRS-48/750 TURQUOISE.jpg",
-      "http://raznobyt.com/images/products/TRS-48/752 SKY.jpg",
-      "http://raznobyt.com/images/products/TRS-48/730 RED.jpg",
-      "http://raznobyt.com/images/products/TRS-48/735 MAROON.jpg",
-      "http://raznobyt.com/images/products/TRS-48/701 WHITE.jpg"
-    ],
-    "description": {
-      "ua": "Змішана тканина. Склад: 48% бавовна, 52% поліестр. Щільність 200. Саржеве переплетення 2/1.",
-      "ru": "Смесовая ткань. Состав: 48% хлопок, 52% полиэстер. Плотность 200. Саржевое переплетение 2/1."
-    },
-    "attributes": {
-      "fabricType": "twill",
-      "density": "200",
-      "width": "150",
-      "colors": [
-        {
-          "color": "740 DEEP PURPLE",
-          "image": "http://raznobyt.com/images/products/TRS-48/main/740 DEEP PURPLE.jpg",
-          "isMain": true
-        },
-        {
-          "color": "757 NAVY",
-          "image": "http://raznobyt.com/images/products/TRS-48/757 NAVY.jpg",
-          "isMain": false
-        },
-        {
-          "color": "794 BLACK",
-          "image": "http://raznobyt.com/images/products/TRS-48/794 BLACK.jpg",
-          "isMain": false
-        },
-        {
-          "color": "789 PILOT GREY",
-          "image": "http://raznobyt.com/images/products/TRS-48/789 PILOT GREY.jpg",
-          "isMain": false
-        },
-        {
-          "color": "786 CHARCOAL",
-          "image": "http://raznobyt.com/images/products/TRS-48/786 CHARCOAL.jpg",
-          "isMain": false
-        },
-        {
-          "color": "784 GREY",
-          "image": "http://raznobyt.com/images/products/TRS-48/784 GREY.jpg",
-          "isMain": false
-        },
-        {
-          "color": "785 STEEL",
-          "image": "http://raznobyt.com/images/products/TRS-48/785 STEEL.jpg",
-          "isMain": false
-        },
-        {
-          "color": "781 SILVER",
-          "image": "http://raznobyt.com/images/products/TRS-48/781 SILVER.jpg",
-          "isMain": false
-        },
-        {
-          "color": "778 CHOCOLATE",
-          "image": "http://raznobyt.com/images/products/TRS-48/778 CHOCOLATE.jpg",
-          "isMain": false
-        },
-        {
-          "color": "777 CEDAR",
-          "image": "http://raznobyt.com/images/products/TRS-48/777 CEDAR.jpg",
-          "isMain": false
-        },
-        {
-          "color": "776 KHAKI",
-          "image": "http://raznobyt.com/images/products/TRS-48/776 KHAKI.jpg",
-          "isMain": false
-        },
-        {
-          "color": "768 OLIVE GREEN",
-          "image": "http://raznobyt.com/images/products/TRS-48/768 OLIVE GREEN.jpg",
-          "isMain": false
-        },
-        {
-          "color": "773 SAND",
-          "image": "http://raznobyt.com/images/products/TRS-48/773 SAND.jpg",
-          "isMain": false
-        },
-        {
-          "color": "761 OPAL",
-          "image": "http://raznobyt.com/images/products/TRS-48/761 OPAL.jpg",
-          "isMain": false
-        },
-        {
-          "color": "760 AQUA",
-          "image": "http://raznobyt.com/images/products/TRS-48/760 AQUA.jpg",
-          "isMain": false
-        },
-        {
-          "color": "750 TURQUOISE",
-          "image": "http://raznobyt.com/images/products/TRS-48/750 TURQUOISE.jpg",
-          "isMain": false
-        },
-        {
-          "color": "752 SKY",
-          "image": "http://raznobyt.com/images/products/TRS-48/752 SKY.jpg",
-          "isMain": false
-        },
-        {
-          "color": "730 RED",
-          "image": "http://raznobyt.com/images/products/TRS-48/730 RED.jpg",
-          "isMain": false
-        },
-        {
-          "color": "735 MAROON",
-          "image": "http://raznobyt.com/images/products/TRS-48/735 MAROON.jpg",
-          "isMain": false
-        },
-        {
-          "color": "701 WHITE",
-          "image": "http://raznobyt.com/images/products/TRS-48/701 WHITE.jpg",
-          "isMain": false
-        }
-      ],
-      "properties": [],
-      "composition": {
-        "cotton": 48,
-        "polyester": 52,
-        "spandex": 0,
-        "rayon": 0,
-        "viscose": 0,
-        "pbt": 0,
-        "lyon": 0,
-        "polyamide PA": 0,
-        "polypropylene PP": 0,
-        "para aramid": 0,
-        "antistatic": 0,
-        "Modacrylic/Lyocell/Static-Control™": 0,
-        "Nomex®/Kevlar®/Anti-Static": 0,
-        "Nomex®/Para-Aramid/p140": 0,
-        "PBI®/Kevlar®/Antistatic": 0,
-        "Lenzing FR®/Aramid": 0,
-        "Para-aramid/Solid polymer coating": 0,
-        "FR Rayon/пара-арамід/поліамід/антистатик": 0,
-        "MAC": 0
-      }
-    }
-  },
-  {
-    "id": "tkan-medical-rc-215-spx",
-    "category": "medical",
-    "slug": "tkan-medical-rc-215-spx",
-    "title": {
-      "ua": "RC-215 SPX",
-      "ru": "RC-215 SPX"
-    },
-    "isNew": false,
-    "images": [
-      "http://raznobyt.com/images/products/RC 215 SPX/main/NAVY.jpg",
-      "http://raznobyt.com/images/products/RC 215 SPX/90065.jpg",
-      "http://raznobyt.com/images/products/RC 215 SPX/99014.jpg"
-    ],
-    "description": {
-      "ua": "Змішана тканина з еластаном. Склад: 33% бавовна, 61% поліестр, 6% спандекс. Щільність 215. Саржеве переплетення 2/1.",
-      "ru": "Смесовая ткань с эластаном. Состав: 33% хлопок, 61% полиэстер, 6% спандекс. Плотность 215. Саржевое переплетение 2/1."
-    },
-    "attributes": {
-      "fabricType": "twill",
-      "density": "215",
-      "width": "142",
-      "colors": [
-        {
-          "color": "NAVY",
-          "image": "http://raznobyt.com/images/products/RC 215 SPX/main/NAVY.jpg",
-          "isMain": true
-        },
-        {
-          "color": "90065",
-          "image": "http://raznobyt.com/images/products/RC 215 SPX/90065.jpg",
-          "isMain": false
-        },
-        {
-          "color": "99014",
-          "image": "http://raznobyt.com/images/products/RC 215 SPX/99014.jpg",
-          "isMain": false
-        }
-      ],
-      "properties": [],
-      "composition": {
-        "cotton": 33,
-        "polyester": 61,
-        "spandex": 6,
-        "rayon": 0,
-        "viscose": 0,
-        "pbt": 0,
-        "lyon": 0,
-        "polyamide PA": 0,
-        "polypropylene PP": 0,
-        "para aramid": 0,
-        "antistatic": 0,
-        "Modacrylic/Lyocell/Static-Control™": 0,
-        "Nomex®/Kevlar®/Anti-Static": 0,
-        "Nomex®/Para-Aramid/p140": 0,
-        "PBI®/Kevlar®/Antistatic": 0,
-        "Lenzing FR®/Aramid": 0,
-        "Para-aramid/Solid polymer coating": 0,
-        "FR Rayon/пара-арамід/поліамід/антистатик": 0,
-        "MAC": 0
-      }
-    }
-  },
-  {
-    "id": "tkan-medical-vvt-2163",
-    "category": "medical",
-    "slug": "tkan-medical-vvt-2163",
-    "title": {
-      "ua": "VVT-2163",
-      "ru": "VVT-2163"
-    },
-    "isNew": false,
-    "images": [
-      "http://raznobyt.com/images/products/VVT-2163/main/754 Royal Box.jpg",
-      "http://raznobyt.com/images/products/VVT-2163/701 White.jpg",
-      "http://raznobyt.com/images/products/VVT-2163/794 Black.jpg"
-    ],
-    "description": {
-      "ua": "Змішана тканина. Склад: 60% бавовна, 40% поліестр. Щільність 210. Саржеве переплетення 2/1.",
-      "ru": "Смесовая ткань. Состав: 60% хлопок, 40% полиэстер. Плотность 210. Саржевое переплетение 2/1."
-    },
-    "attributes": {
-      "fabricType": "twill",
-      "density": "210",
+      "density": "180",
       "width": "150",
       "colors": [
         {
           "color": "754 Royal Box",
-          "image": "http://raznobyt.com/images/products/VVT-2163/main/754 Royal Box.jpg",
+          "image": "http://raznobyt.com/images/products/TR-50/main/754 Royal Box.jpg",
           "isMain": true
         },
         {
           "color": "701 White",
-          "image": "http://raznobyt.com/images/products/VVT-2163/701 White.jpg",
+          "image": "http://raznobyt.com/images/products/TR-50/701 White.jpg",
+          "isMain": false
+        },
+        {
+          "color": "760 Aqua",
+          "image": "http://raznobyt.com/images/products/TR-50/760 Aqua.jpg",
           "isMain": false
         },
         {
           "color": "794 Black",
-          "image": "http://raznobyt.com/images/products/VVT-2163/794 Black.jpg",
+          "image": "http://raznobyt.com/images/products/TR-50/794 Black.jpg",
           "isMain": false
         }
       ],
       "properties": [],
       "composition": {
-        "cotton": 60,
-        "polyester": 40,
+        "cotton": 50,
+        "polyester": 50,
+        "spandex": 0,
+        "rayon": 0,
+        "viscose": 0,
+        "pbt": 0,
+        "lyon": 0,
+        "polyamide PA": 0,
+        "polypropylene PP": 0,
+        "para aramid": 0,
+        "antistatic": 0,
+        "Modacrylic/Lyocell/Static-Control™": 0,
+        "Nomex®/Kevlar®/Anti-Static": 0,
+        "Nomex®/Para-Aramid/p140": 0,
+        "PBI®/Kevlar®/Antistatic": 0,
+        "Lenzing FR®/Aramid": 0,
+        "Para-aramid/Solid polymer coating": 0,
+        "FR Rayon/пара-арамід/поліамід/антистатик": 0,
+        "MAC": 0
+      }
+    }
+  },
+  {
+    "id": "tkan-medical-vfg-2160",
+    "category": "medical",
+    "slug": "tkan-medical-vfg-2160",
+    "title": {
+      "ua": "VFG-2160",
+      "ru": "VFG-2160"
+    },
+    "isNew": false,
+    "images": [
+      "http://raznobyt.com/images/products/VFG-2160/main/MINT.jpg",
+      "http://raznobyt.com/images/products/VFG-2160/701 WHITE.jpg"
+    ],
+    "description": {
+      "ua": "Змішана тканина. Склад: 51% бавовна, 49% поліестр. Щільність 175. Саржеве переплетення 2/1.",
+      "ru": "Смесовая ткань. Состав: 51% хлопок, 49% полиэстер. Плотность 175. Саржевое переплетение 2/1."
+    },
+    "attributes": {
+      "fabricType": "twill",
+      "density": "175",
+      "width": "150",
+      "colors": [
+        {
+          "color": "MINT",
+          "image": "http://raznobyt.com/images/products/VFG-2160/main/MINT.jpg",
+          "isMain": true
+        },
+        {
+          "color": "701 WHITE",
+          "image": "http://raznobyt.com/images/products/VFG-2160/701 WHITE.jpg",
+          "isMain": false
+        }
+      ],
+      "properties": [],
+      "composition": {
+        "cotton": 51,
+        "polyester": 49,
         "spandex": 0,
         "rayon": 0,
         "viscose": 0,
@@ -1224,6 +753,153 @@
     }
   },
   {
+    "id": "tkan-medical-tr-150",
+    "category": "medical",
+    "slug": "tkan-medical-tr-150",
+    "title": {
+      "ua": "TR-150",
+      "ru": "TR-150"
+    },
+    "isNew": false,
+    "images": [
+      "http://raznobyt.com/images/products/TR-150/main/741 VIOLET.jpg",
+      "http://raznobyt.com/images/products/TR-150/701 WHITE.jpg",
+      "http://raznobyt.com/images/products/TR-150/731 LAVENDER.jpg",
+      "http://raznobyt.com/images/products/TR-150/732 FRESIA.jpg",
+      "http://raznobyt.com/images/products/TR-150/738 RUBY.jpg",
+      "http://raznobyt.com/images/products/TR-150/739 DEEP ROSE.jpg",
+      "http://raznobyt.com/images/products/TR-150/743 HEATHER.jpg",
+      "http://raznobyt.com/images/products/TR-150/748 HYACINTH.jpg",
+      "http://raznobyt.com/images/products/TR-150/762 LIGHT GREEN.jpg",
+      "http://raznobyt.com/images/products/TR-150/763 GRENN APPLE.jpg",
+      "http://raznobyt.com/images/products/TR-150/766 YELLOW GREEN.jpg",
+      "http://raznobyt.com/images/products/TR-150/767 BOTTLE GREEN.jpg",
+      "http://raznobyt.com/images/products/TR-150/773 SAND.jpg",
+      "http://raznobyt.com/images/products/TR-150/775 SAFARI.jpg",
+      "http://raznobyt.com/images/products/TR-150/778 CHOCOLATE.jpg",
+      "http://raznobyt.com/images/products/TR-150/781 SILVER.jpg",
+      "http://raznobyt.com/images/products/TR-150/794 BLACK.jpg"
+    ],
+    "description": {
+      "ua": "Змішана тканина. Склад: 35% бавовна, 65% поліестр. Щільність 150. Саржеве переплетення 2/1.",
+      "ru": "Смесовая ткань. Состав: 35% хлопок, 65% полиэстер. Плотность 150. Саржевое переплетение 2/1."
+    },
+    "attributes": {
+      "fabricType": "twill",
+      "density": "150",
+      "width": "150",
+      "colors": [
+        {
+          "color": "741 VIOLET",
+          "image": "http://raznobyt.com/images/products/TR-150/main/741 VIOLET.jpg",
+          "isMain": true
+        },
+        {
+          "color": "701 WHITE",
+          "image": "http://raznobyt.com/images/products/TR-150/701 WHITE.jpg",
+          "isMain": false
+        },
+        {
+          "color": "731 LAVENDER",
+          "image": "http://raznobyt.com/images/products/TR-150/731 LAVENDER.jpg",
+          "isMain": false
+        },
+        {
+          "color": "732 FRESIA",
+          "image": "http://raznobyt.com/images/products/TR-150/732 FRESIA.jpg",
+          "isMain": false
+        },
+        {
+          "color": "738 RUBY",
+          "image": "http://raznobyt.com/images/products/TR-150/738 RUBY.jpg",
+          "isMain": false
+        },
+        {
+          "color": "739 DEEP ROSE",
+          "image": "http://raznobyt.com/images/products/TR-150/739 DEEP ROSE.jpg",
+          "isMain": false
+        },
+        {
+          "color": "743 HEATHER",
+          "image": "http://raznobyt.com/images/products/TR-150/743 HEATHER.jpg",
+          "isMain": false
+        },
+        {
+          "color": "748 HYACINTH",
+          "image": "http://raznobyt.com/images/products/TR-150/748 HYACINTH.jpg",
+          "isMain": false
+        },
+        {
+          "color": "762 LIGHT GREEN",
+          "image": "http://raznobyt.com/images/products/TR-150/762 LIGHT GREEN.jpg",
+          "isMain": false
+        },
+        {
+          "color": "763 GRENN APPLE",
+          "image": "http://raznobyt.com/images/products/TR-150/763 GRENN APPLE.jpg",
+          "isMain": false
+        },
+        {
+          "color": "766 YELLOW GREEN",
+          "image": "http://raznobyt.com/images/products/TR-150/766 YELLOW GREEN.jpg",
+          "isMain": false
+        },
+        {
+          "color": "767 BOTTLE GREEN",
+          "image": "http://raznobyt.com/images/products/TR-150/767 BOTTLE GREEN.jpg",
+          "isMain": false
+        },
+        {
+          "color": "773 SAND",
+          "image": "http://raznobyt.com/images/products/TR-150/773 SAND.jpg",
+          "isMain": false
+        },
+        {
+          "color": "775 SAFARI",
+          "image": "http://raznobyt.com/images/products/TR-150/775 SAFARI.jpg",
+          "isMain": false
+        },
+        {
+          "color": "778 CHOCOLATE",
+          "image": "http://raznobyt.com/images/products/TR-150/778 CHOCOLATE.jpg",
+          "isMain": false
+        },
+        {
+          "color": "781 SILVER",
+          "image": "http://raznobyt.com/images/products/TR-150/781 SILVER.jpg",
+          "isMain": false
+        },
+        {
+          "color": "794 BLACK",
+          "image": "http://raznobyt.com/images/products/TR-150/794 BLACK.jpg",
+          "isMain": false
+        }
+      ],
+      "properties": [],
+      "composition": {
+        "cotton": 35,
+        "polyester": 65,
+        "spandex": 0,
+        "rayon": 0,
+        "viscose": 0,
+        "pbt": 0,
+        "lyon": 0,
+        "polyamide PA": 0,
+        "polypropylene PP": 0,
+        "para aramid": 0,
+        "antistatic": 0,
+        "Modacrylic/Lyocell/Static-Control™": 0,
+        "Nomex®/Kevlar®/Anti-Static": 0,
+        "Nomex®/Para-Aramid/p140": 0,
+        "PBI®/Kevlar®/Antistatic": 0,
+        "Lenzing FR®/Aramid": 0,
+        "Para-aramid/Solid polymer coating": 0,
+        "FR Rayon/пара-арамід/поліамід/антистатик": 0,
+        "MAC": 0
+      }
+    }
+  },
+  {
     "id": "tkan-medical-tr-50-lt",
     "category": "medical",
     "slug": "tkan-medical-tr-50-lt",
@@ -1314,132 +990,6 @@
       "composition": {
         "cotton": 52,
         "polyester": 48,
-        "spandex": 0,
-        "rayon": 0,
-        "viscose": 0,
-        "pbt": 0,
-        "lyon": 0,
-        "polyamide PA": 0,
-        "polypropylene PP": 0,
-        "para aramid": 0,
-        "antistatic": 0,
-        "Modacrylic/Lyocell/Static-Control™": 0,
-        "Nomex®/Kevlar®/Anti-Static": 0,
-        "Nomex®/Para-Aramid/p140": 0,
-        "PBI®/Kevlar®/Antistatic": 0,
-        "Lenzing FR®/Aramid": 0,
-        "Para-aramid/Solid polymer coating": 0,
-        "FR Rayon/пара-арамід/поліамід/антистатик": 0,
-        "MAC": 0
-      }
-    }
-  },
-  {
-    "id": "tkan-medical-tr-50",
-    "category": "medical",
-    "slug": "tkan-medical-tr-50",
-    "title": {
-      "ua": "TR-50",
-      "ru": "TR-50"
-    },
-    "isNew": false,
-    "images": [
-      "http://raznobyt.com/images/products/TR-50/main/754 Royal Box.jpg",
-      "http://raznobyt.com/images/products/TR-50/701 White.jpg",
-      "http://raznobyt.com/images/products/TR-50/760 Aqua.jpg",
-      "http://raznobyt.com/images/products/TR-50/794 Black.jpg"
-    ],
-    "description": {
-      "ua": "Змішана тканина. Склад: 50% бавовна, 50% поліестр. Щільність 180. Саржеве переплетення 2/1.",
-      "ru": "Смесовая ткань. Состав: 50% хлопок, 50% полиэстер. Плотность 180. Саржевое переплетение 2/1."
-    },
-    "attributes": {
-      "fabricType": "twill",
-      "density": "180",
-      "width": "150",
-      "colors": [
-        {
-          "color": "754 Royal Box",
-          "image": "http://raznobyt.com/images/products/TR-50/main/754 Royal Box.jpg",
-          "isMain": true
-        },
-        {
-          "color": "701 White",
-          "image": "http://raznobyt.com/images/products/TR-50/701 White.jpg",
-          "isMain": false
-        },
-        {
-          "color": "760 Aqua",
-          "image": "http://raznobyt.com/images/products/TR-50/760 Aqua.jpg",
-          "isMain": false
-        },
-        {
-          "color": "794 Black",
-          "image": "http://raznobyt.com/images/products/TR-50/794 Black.jpg",
-          "isMain": false
-        }
-      ],
-      "properties": [],
-      "composition": {
-        "cotton": 50,
-        "polyester": 50,
-        "spandex": 0,
-        "rayon": 0,
-        "viscose": 0,
-        "pbt": 0,
-        "lyon": 0,
-        "polyamide PA": 0,
-        "polypropylene PP": 0,
-        "para aramid": 0,
-        "antistatic": 0,
-        "Modacrylic/Lyocell/Static-Control™": 0,
-        "Nomex®/Kevlar®/Anti-Static": 0,
-        "Nomex®/Para-Aramid/p140": 0,
-        "PBI®/Kevlar®/Antistatic": 0,
-        "Lenzing FR®/Aramid": 0,
-        "Para-aramid/Solid polymer coating": 0,
-        "FR Rayon/пара-арамід/поліамід/антистатик": 0,
-        "MAC": 0
-      }
-    }
-  },
-  {
-    "id": "tkan-medical-vfg-2160",
-    "category": "medical",
-    "slug": "tkan-medical-vfg-2160",
-    "title": {
-      "ua": "VFG-2160",
-      "ru": "VFG-2160"
-    },
-    "isNew": false,
-    "images": [
-      "http://raznobyt.com/images/products/VFG-2160/main/MINT.jpg",
-      "http://raznobyt.com/images/products/VFG-2160/701 WHITE.jpg"
-    ],
-    "description": {
-      "ua": "Змішана тканина. Склад: 51% бавовна, 49% поліестр. Щільність 175. Саржеве переплетення 2/1.",
-      "ru": "Смесовая ткань. Состав: 51% хлопок, 49% полиэстер. Плотность 175. Саржевое переплетение 2/1."
-    },
-    "attributes": {
-      "fabricType": "twill",
-      "density": "175",
-      "width": "150",
-      "colors": [
-        {
-          "color": "MINT",
-          "image": "http://raznobyt.com/images/products/VFG-2160/main/MINT.jpg",
-          "isMain": true
-        },
-        {
-          "color": "701 WHITE",
-          "image": "http://raznobyt.com/images/products/VFG-2160/701 WHITE.jpg",
-          "isMain": false
-        }
-      ],
-      "properties": [],
-      "composition": {
-        "cotton": 51,
-        "polyester": 49,
         "spandex": 0,
         "rayon": 0,
         "viscose": 0,
@@ -1632,6 +1182,177 @@
     }
   },
   {
+    "id": "tkan-medical-rc-215-spx",
+    "category": "medical",
+    "slug": "tkan-medical-rc-215-spx",
+    "title": {
+      "ua": "RC-215 SPX",
+      "ru": "RC-215 SPX"
+    },
+    "isNew": false,
+    "images": [
+      "http://raznobyt.com/images/products/RC 215 SPX/main/NAVY.jpg",
+      "http://raznobyt.com/images/products/RC 215 SPX/90065.jpg",
+      "http://raznobyt.com/images/products/RC 215 SPX/99014.jpg"
+    ],
+    "description": {
+      "ua": "Змішана тканина з еластаном. Склад: 33% бавовна, 61% поліестр, 6% спандекс. Щільність 215. Саржеве переплетення 2/1.",
+      "ru": "Смесовая ткань с эластаном. Состав: 33% хлопок, 61% полиэстер, 6% спандекс. Плотность 215. Саржевое переплетение 2/1."
+    },
+    "attributes": {
+      "fabricType": "twill",
+      "density": "215",
+      "width": "142",
+      "colors": [
+        {
+          "color": "NAVY",
+          "image": "http://raznobyt.com/images/products/RC 215 SPX/main/NAVY.jpg",
+          "isMain": true
+        },
+        {
+          "color": "90065",
+          "image": "http://raznobyt.com/images/products/RC 215 SPX/90065.jpg",
+          "isMain": false
+        },
+        {
+          "color": "99014",
+          "image": "http://raznobyt.com/images/products/RC 215 SPX/99014.jpg",
+          "isMain": false
+        }
+      ],
+      "properties": [],
+      "composition": {
+        "cotton": 33,
+        "polyester": 61,
+        "spandex": 6,
+        "rayon": 0,
+        "viscose": 0,
+        "pbt": 0,
+        "lyon": 0,
+        "polyamide PA": 0,
+        "polypropylene PP": 0,
+        "para aramid": 0,
+        "antistatic": 0,
+        "Modacrylic/Lyocell/Static-Control™": 0,
+        "Nomex®/Kevlar®/Anti-Static": 0,
+        "Nomex®/Para-Aramid/p140": 0,
+        "PBI®/Kevlar®/Antistatic": 0,
+        "Lenzing FR®/Aramid": 0,
+        "Para-aramid/Solid polymer coating": 0,
+        "FR Rayon/пара-арамід/поліамід/антистатик": 0,
+        "MAC": 0
+      }
+    }
+  },
+  {
+    "id": "tkan-medical-rc-206-ray",
+    "category": "medical",
+    "slug": "tkan-medical-rc-206-ray",
+    "title": {
+      "ua": "RC-206 RAY",
+      "ru": "RC-206 RAY"
+    },
+    "isNew": false,
+    "images": [
+      "http://raznobyt.com/images/products/RC-206 RAY/90065.jpg"
+    ],
+    "description": {
+      "ua": "Змішана тканина. Склад: 60% віскоза, 40% поліестр. Щільність 206. Саржеве переплетення 2/1.",
+      "ru": "Смесовая ткань с вискозой. Состав: 60% вискоза, 40% полиэстер. Плотность 206. Саржевое переплетение 2/1."
+    },
+    "attributes": {
+      "fabricType": "twill",
+      "density": "206",
+      "width": "132",
+      "colors": [
+        {
+          "color": "90065",
+          "image": "http://raznobyt.com/images/products/RC-206 RAY/90065.jpg",
+          "isMain": true
+        }
+      ],
+      "properties": [],
+      "composition": {
+        "cotton": 0,
+        "polyester": 40,
+        "spandex": 0,
+        "rayon": 0,
+        "viscose": 60,
+        "pbt": 0,
+        "lyon": 0,
+        "polyamide PA": 0,
+        "polypropylene PP": 0,
+        "para aramid": 0,
+        "antistatic": 0,
+        "Modacrylic/Lyocell/Static-Control™": 0,
+        "Nomex®/Kevlar®/Anti-Static": 0,
+        "Nomex®/Para-Aramid/p140": 0,
+        "PBI®/Kevlar®/Antistatic": 0,
+        "Lenzing FR®/Aramid": 0,
+        "Para-aramid/Solid polymer coating": 0,
+        "FR Rayon/пара-арамід/поліамід/антистатик": 0,
+        "MAC": 0
+      }
+    }
+  },
+  {
+    "id": "tkan-medical-rc-194",
+    "category": "medical",
+    "slug": "tkan-medical-rc-194",
+    "title": {
+      "ua": "RC-194",
+      "ru": "RC-194"
+    },
+    "isNew": false,
+    "images": [
+      "http://raznobyt.com/images/products/RC-194/main/90065.jpg",
+      "http://raznobyt.com/images/products/RC-194/99014.jpg"
+    ],
+    "description": {
+      "ua": "Змішана тканина. Склад: 35% бавовна, 65% поліестр. Щільність 194. Саржеве переплетення 2/1.",
+      "ru": "Смесовая ткань. Состав: 35% хлопок, 65% полиэстер. Плотность 194. Саржевое переплетение 2/1."
+    },
+    "attributes": {
+      "fabricType": "twill",
+      "density": "194",
+      "width": "150",
+      "colors": [
+        {
+          "color": "90065",
+          "image": "http://raznobyt.com/images/products/RC-194/main/90065.jpg",
+          "isMain": true
+        },
+        {
+          "color": "99014",
+          "image": "http://raznobyt.com/images/products/RC-194/99014.jpg",
+          "isMain": false
+        }
+      ],
+      "properties": [],
+      "composition": {
+        "cotton": 35,
+        "polyester": 65,
+        "spandex": 0,
+        "rayon": 0,
+        "viscose": 0,
+        "pbt": 0,
+        "lyon": 0,
+        "polyamide PA": 0,
+        "polypropylene PP": 0,
+        "para aramid": 0,
+        "antistatic": 0,
+        "Modacrylic/Lyocell/Static-Control™": 0,
+        "Nomex®/Kevlar®/Anti-Static": 0,
+        "Nomex®/Para-Aramid/p140": 0,
+        "PBI®/Kevlar®/Antistatic": 0,
+        "Lenzing FR®/Aramid": 0,
+        "Para-aramid/Solid polymer coating": 0,
+        "FR Rayon/пара-арамід/поліамід/антистатик": 0,
+        "MAC": 0
+      }
+    }
+  },
+  {
     "id": "tkan-medical-eg-225",
     "category": "medical",
     "slug": "tkan-medical-eg-225",
@@ -1665,6 +1386,336 @@
         "spandex": 0,
         "rayon": 0,
         "viscose": 35,
+        "pbt": 0,
+        "lyon": 0,
+        "polyamide PA": 0,
+        "polypropylene PP": 0,
+        "para aramid": 0,
+        "antistatic": 0,
+        "Modacrylic/Lyocell/Static-Control™": 0,
+        "Nomex®/Kevlar®/Anti-Static": 0,
+        "Nomex®/Para-Aramid/p140": 0,
+        "PBI®/Kevlar®/Antistatic": 0,
+        "Lenzing FR®/Aramid": 0,
+        "Para-aramid/Solid polymer coating": 0,
+        "FR Rayon/пара-арамід/поліамід/антистатик": 0,
+        "MAC": 0
+      }
+    }
+  },
+  {
+    "id": "tkan-medical-kg-337",
+    "category": "medical",
+    "slug": "tkan-medical-kg-337",
+    "title": {
+      "ua": "KG-337",
+      "ru": "KG-337"
+    },
+    "isNew": false,
+    "images": [
+      "http://raznobyt.com/images/products/KG-337/62110.jpg"
+    ],
+    "description": {
+      "ua": "Змішана тканина. Склад: 35% бавовна, 65% поліестр. Щільність 195. Саржеве переплетення 2/1.",
+      "ru": "Смесовая ткань. Состав: 35% хлопок, 65% полиэстер. Плотность 195. Саржевое переплетение 2/1."
+    },
+    "attributes": {
+      "fabricType": "twill",
+      "density": "195",
+      "width": "150",
+      "colors": [
+        {
+          "color": "62110",
+          "image": "http://raznobyt.com/images/products/KG-337/62110.jpg",
+          "isMain": true
+        }
+      ],
+      "properties": [],
+      "composition": {
+        "cotton": 35,
+        "polyester": 65,
+        "spandex": 0,
+        "rayon": 0,
+        "viscose": 0,
+        "pbt": 0,
+        "lyon": 0,
+        "polyamide PA": 0,
+        "polypropylene PP": 0,
+        "para aramid": 0,
+        "antistatic": 0,
+        "Modacrylic/Lyocell/Static-Control™": 0,
+        "Nomex®/Kevlar®/Anti-Static": 0,
+        "Nomex®/Para-Aramid/p140": 0,
+        "PBI®/Kevlar®/Antistatic": 0,
+        "Lenzing FR®/Aramid": 0,
+        "Para-aramid/Solid polymer coating": 0,
+        "FR Rayon/пара-арамід/поліамід/антистатик": 0,
+        "MAC": 0
+      }
+    }
+  },
+  {
+    "id": "tkan-medical-kg-027",
+    "category": "medical",
+    "slug": "tkan-medical-kg-027",
+    "title": {
+      "ua": "KG-027",
+      "ru": "KG-027"
+    },
+    "isNew": false,
+    "images": [
+      "http://raznobyt.com/images/products/KG-27/main/62709.jpg",
+      "http://raznobyt.com/images/products/KG-27/00001.jpg",
+      "http://raznobyt.com/images/products/KG-27/60380.jpg",
+      "http://raznobyt.com/images/products/KG-27/60475.jpg",
+      "http://raznobyt.com/images/products/KG-27/60563.jpg",
+      "http://raznobyt.com/images/products/KG-27/60624.jpg",
+      "http://raznobyt.com/images/products/KG-27/60944.jpg",
+      "http://raznobyt.com/images/products/KG-27/61088.jpg",
+      "http://raznobyt.com/images/products/KG-27/61213.jpg",
+      "http://raznobyt.com/images/products/KG-27/62893.jpg"
+    ],
+    "description": {
+      "ua": "Змішана тканина. Склад: 35% бавовна, 65% поліестр. Щільність 160. Саржеве переплетення 2/1.",
+      "ru": "Смесовая ткань. Состав: 35% хлопок, 65% полиэстер. Плотность 160. Саржевое переплетение 2/1."
+    },
+    "attributes": {
+      "fabricType": "twill",
+      "density": "160",
+      "width": "150",
+      "colors": [
+        {
+          "color": "62709",
+          "image": "http://raznobyt.com/images/products/KG-27/main/62709.jpg",
+          "isMain": true
+        },
+        {
+          "color": "00001",
+          "image": "http://raznobyt.com/images/products/KG-27/00001.jpg",
+          "isMain": false
+        },
+        {
+          "color": "60380",
+          "image": "http://raznobyt.com/images/products/KG-27/60380.jpg",
+          "isMain": false
+        },
+        {
+          "color": "60475",
+          "image": "http://raznobyt.com/images/products/KG-27/60475.jpg",
+          "isMain": false
+        },
+        {
+          "color": "60563",
+          "image": "http://raznobyt.com/images/products/KG-27/60563.jpg",
+          "isMain": false
+        },
+        {
+          "color": "60624",
+          "image": "http://raznobyt.com/images/products/KG-27/60624.jpg",
+          "isMain": false
+        },
+        {
+          "color": "60944",
+          "image": "http://raznobyt.com/images/products/KG-27/60944.jpg",
+          "isMain": false
+        },
+        {
+          "color": "61088",
+          "image": "http://raznobyt.com/images/products/KG-27/61088.jpg",
+          "isMain": false
+        },
+        {
+          "color": "61213",
+          "image": "http://raznobyt.com/images/products/KG-27/61213.jpg",
+          "isMain": false
+        },
+        {
+          "color": "62893",
+          "image": "http://raznobyt.com/images/products/KG-27/62893.jpg",
+          "isMain": false
+        }
+      ],
+      "properties": [],
+      "composition": {
+        "cotton": 35,
+        "polyester": 65,
+        "spandex": 0,
+        "rayon": 0,
+        "viscose": 0,
+        "pbt": 0,
+        "lyon": 0,
+        "polyamide PA": 0,
+        "polypropylene PP": 0,
+        "para aramid": 0,
+        "antistatic": 0,
+        "Modacrylic/Lyocell/Static-Control™": 0,
+        "Nomex®/Kevlar®/Anti-Static": 0,
+        "Nomex®/Para-Aramid/p140": 0,
+        "PBI®/Kevlar®/Antistatic": 0,
+        "Lenzing FR®/Aramid": 0,
+        "Para-aramid/Solid polymer coating": 0,
+        "FR Rayon/пара-арамід/поліамід/антистатик": 0,
+        "MAC": 0
+      }
+    }
+  },
+  {
+    "id": "tkan-medical-9515",
+    "category": "medical",
+    "slug": "tkan-medical-9515",
+    "title": {
+      "ua": "9515",
+      "ru": "9515"
+    },
+    "isNew": false,
+    "images": [
+      "http://raznobyt.com/images/products/9515/main/97440.jpg",
+      "http://raznobyt.com/images/products/9515/93240.jpg",
+      "http://raznobyt.com/images/products/9515/95364.jpg",
+      "http://raznobyt.com/images/products/9515/95367.jpg",
+      "http://raznobyt.com/images/products/9515/97284.jpg",
+      "http://raznobyt.com/images/products/9515/98278.jpg",
+      "http://raznobyt.com/images/products/9515/98314.jpg",
+      "http://raznobyt.com/images/products/9515/99014.jpg"
+    ],
+    "description": {
+      "ua": "Змішана тканина. Склад: 35% бавовна, 65% поліестр. Щільність 195. Саржеве переплетення 2/1.",
+      "ru": "Смесовая ткань. Состав: 35% хлопок, 65% полиэстер. Плотность 195. Саржевое переплетение 2/1."
+    },
+    "attributes": {
+      "fabricType": "twill",
+      "density": "195",
+      "width": "150",
+      "colors": [
+        {
+          "color": "97440",
+          "image": "http://raznobyt.com/images/products/9515/main/97440.jpg",
+          "isMain": true
+        },
+        {
+          "color": "93240",
+          "image": "http://raznobyt.com/images/products/9515/93240.jpg",
+          "isMain": false
+        },
+        {
+          "color": "95364",
+          "image": "http://raznobyt.com/images/products/9515/95364.jpg",
+          "isMain": false
+        },
+        {
+          "color": "95367",
+          "image": "http://raznobyt.com/images/products/9515/95367.jpg",
+          "isMain": false
+        },
+        {
+          "color": "97284",
+          "image": "http://raznobyt.com/images/products/9515/97284.jpg",
+          "isMain": false
+        },
+        {
+          "color": "98278",
+          "image": "http://raznobyt.com/images/products/9515/98278.jpg",
+          "isMain": false
+        },
+        {
+          "color": "98314",
+          "image": "http://raznobyt.com/images/products/9515/98314.jpg",
+          "isMain": false
+        },
+        {
+          "color": "99014",
+          "image": "http://raznobyt.com/images/products/9515/99014.jpg",
+          "isMain": false
+        }
+      ],
+      "properties": [],
+      "composition": {
+        "cotton": 35,
+        "polyester": 65,
+        "spandex": 0,
+        "rayon": 0,
+        "viscose": 0,
+        "pbt": 0,
+        "lyon": 0,
+        "polyamide PA": 0,
+        "polypropylene PP": 0,
+        "para aramid": 0,
+        "antistatic": 0,
+        "Modacrylic/Lyocell/Static-Control™": 0,
+        "Nomex®/Kevlar®/Anti-Static": 0,
+        "Nomex®/Para-Aramid/p140": 0,
+        "PBI®/Kevlar®/Antistatic": 0,
+        "Lenzing FR®/Aramid": 0,
+        "Para-aramid/Solid polymer coating": 0,
+        "FR Rayon/пара-арамід/поліамід/антистатик": 0,
+        "MAC": 0
+      }
+    }
+  },
+  {
+    "id": "tkan-medical-9541",
+    "category": "medical",
+    "slug": "tkan-medical-9541",
+    "title": {
+      "ua": "9541",
+      "ru": "9541"
+    },
+    "isNew": false,
+    "images": [
+      "http://raznobyt.com/images/products/9541.01/main/85406.jpg",
+      "http://raznobyt.com/images/products/9541.01/90001.jpg",
+      "http://raznobyt.com/images/products/9541.01/93630.jpg",
+      "http://raznobyt.com/images/products/9541.01/96829.jpg",
+      "http://raznobyt.com/images/products/9541.01/98060.jpg",
+      "http://raznobyt.com/images/products/9541.01/99015.jpg"
+    ],
+    "description": {
+      "ua": "Змішана тканина. Склад: 35% бавовна, 65% поліестр. Щільність 160. Саржеве переплетення 2/1.",
+      "ru": "Смесовая ткань. Состав: 35% хлопок, 65% полиэстер. Плотность 160. Саржевое переплетение 2/1."
+    },
+    "attributes": {
+      "fabricType": "полотно",
+      "density": "160",
+      "width": "150",
+      "colors": [
+        {
+          "color": "85406",
+          "image": "http://raznobyt.com/images/products/9541.01/main/85406.jpg",
+          "isMain": true
+        },
+        {
+          "color": "90001",
+          "image": "http://raznobyt.com/images/products/9541.01/90001.jpg",
+          "isMain": false
+        },
+        {
+          "color": "93630",
+          "image": "http://raznobyt.com/images/products/9541.01/93630.jpg",
+          "isMain": false
+        },
+        {
+          "color": "96829",
+          "image": "http://raznobyt.com/images/products/9541.01/96829.jpg",
+          "isMain": false
+        },
+        {
+          "color": "98060",
+          "image": "http://raznobyt.com/images/products/9541.01/98060.jpg",
+          "isMain": false
+        },
+        {
+          "color": "99015",
+          "image": "http://raznobyt.com/images/products/9541.01/99015.jpg",
+          "isMain": false
+        }
+      ],
+      "properties": [],
+      "composition": {
+        "cotton": 35,
+        "polyester": 65,
+        "spandex": 0,
+        "rayon": 0,
+        "viscose": 0,
         "pbt": 0,
         "lyon": 0,
         "polyamide PA": 0,
@@ -1728,57 +1779,6 @@
         "spandex": 0,
         "rayon": 0,
         "viscose": 0,
-        "pbt": 0,
-        "lyon": 0,
-        "polyamide PA": 0,
-        "polypropylene PP": 0,
-        "para aramid": 0,
-        "antistatic": 0,
-        "Modacrylic/Lyocell/Static-Control™": 0,
-        "Nomex®/Kevlar®/Anti-Static": 0,
-        "Nomex®/Para-Aramid/p140": 0,
-        "PBI®/Kevlar®/Antistatic": 0,
-        "Lenzing FR®/Aramid": 0,
-        "Para-aramid/Solid polymer coating": 0,
-        "FR Rayon/пара-арамід/поліамід/антистатик": 0,
-        "MAC": 0
-      }
-    }
-  },
-  {
-    "id": "tkan-medical-rc-206-ray",
-    "category": "medical",
-    "slug": "tkan-medical-rc-206-ray",
-    "title": {
-      "ua": "RC-206 RAY",
-      "ru": "RC-206 RAY"
-    },
-    "isNew": false,
-    "images": [
-      "http://raznobyt.com/images/products/RC-206 RAY/90065.jpg"
-    ],
-    "description": {
-      "ua": "Змішана тканина. Склад: 60% віскоза, 40% поліестр. Щільність 206. Саржеве переплетення 2/1.",
-      "ru": "Смесовая ткань с вискозой. Состав: 60% вискоза, 40% полиэстер. Плотность 206. Саржевое переплетение 2/1."
-    },
-    "attributes": {
-      "fabricType": "twill",
-      "density": "206",
-      "width": "132",
-      "colors": [
-        {
-          "color": "90065",
-          "image": "http://raznobyt.com/images/products/RC-206 RAY/90065.jpg",
-          "isMain": true
-        }
-      ],
-      "properties": [],
-      "composition": {
-        "cotton": 0,
-        "polyester": 40,
-        "spandex": 0,
-        "rayon": 0,
-        "viscose": 60,
         "pbt": 0,
         "lyon": 0,
         "polyamide PA": 0,

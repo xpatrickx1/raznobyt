@@ -183,57 +183,6 @@
     }
   },
   {
-    "id": "tkan-cotton-l-859",
-    "category": "cotton",
-    "slug": "tkan-cotton-l-859",
-    "title": {
-      "ua": "L 859",
-      "ru": "L 859"
-    },
-    "isNew": false,
-    "images": [
-      "http://raznobyt.com/images/products/L 859/main/773.jpg"
-    ],
-    "description": {
-      "ua": "100% бавоана,  232 г/м.кв,  полотно,  150см",
-      "ru": "100% хлопок,  232г/м.кв,  полотно,  150см"
-    },
-    "attributes": {
-      "fabricType": "полотно",
-      "density": "232",
-      "width": "150",
-      "colors": [
-        {
-          "color": "773",
-          "image": "http://raznobyt.com/images/products/L 859/main/773.jpg",
-          "isMain": true
-        }
-      ],
-      "properties": [],
-      "composition": {
-        "cotton": 100,
-        "polyester": 0,
-        "spandex": 0,
-        "rayon": 0,
-        "viscose": 0,
-        "pbt": 0,
-        "lyon": 0,
-        "polyamide PA": 0,
-        "polypropylene PP": 0,
-        "para aramid": 0,
-        "antistatic": 0,
-        "Modacrylic/Lyocell/Static-Control™": 0,
-        "Nomex®/Kevlar®/Anti-Static": 0,
-        "Nomex®/Para-Aramid/p140": 0,
-        "PBI®/Kevlar®/Antistatic": 0,
-        "Lenzing FR®/Aramid": 0,
-        "Para-aramid/Solid polymer coating": 0,
-        "FR Rayon/пара-арамід/поліамід/антистатик": 0,
-        "MAC": 0
-      }
-    }
-  },
-  {
     "id": "tkan-cotton-l-389",
     "category": "cotton",
     "slug": "tkan-cotton-l-389",
@@ -285,419 +234,29 @@
     }
   },
   {
-    "id": "tkan-cotton-6584",
+    "id": "tkan-cotton-l-859",
     "category": "cotton",
-    "slug": "tkan-cotton-6584",
+    "slug": "tkan-cotton-l-859",
     "title": {
-      "ua": "6584",
-      "ru": "6584"
+      "ua": "L 859",
+      "ru": "L 859"
     },
     "isNew": false,
     "images": [
-      "http://raznobyt.com/images/products/6584/main/NAVY.jpg"
+      "http://raznobyt.com/images/products/L 859/main/773.jpg"
     ],
     "description": {
-      "ua": "100% бавовна,  390г/м.кв,  саржа,  150см",
-      "ru": "100% хлопок, 390г/м.кв,  саржа,  150см"
+      "ua": "100% бавоана,  232 г/м.кв,  полотно,  150см",
+      "ru": "100% хлопок,  232г/м.кв,  полотно,  150см"
     },
     "attributes": {
-      "fabricType": "саржа",
-      "density": "390",
+      "fabricType": "полотно",
+      "density": "232",
       "width": "150",
       "colors": [
         {
-          "color": "NAVY",
-          "image": "http://raznobyt.com/images/products/6584/main/NAVY.jpg",
-          "isMain": true
-        }
-      ],
-      "properties": [],
-      "composition": {
-        "cotton": 100,
-        "polyester": 0,
-        "spandex": 0,
-        "rayon": 0,
-        "viscose": 0,
-        "pbt": 0,
-        "lyon": 0,
-        "polyamide PA": 0,
-        "polypropylene PP": 0,
-        "para aramid": 0,
-        "antistatic": 0,
-        "Modacrylic/Lyocell/Static-Control™": 0,
-        "Nomex®/Kevlar®/Anti-Static": 0,
-        "Nomex®/Para-Aramid/p140": 0,
-        "PBI®/Kevlar®/Antistatic": 0,
-        "Lenzing FR®/Aramid": 0,
-        "Para-aramid/Solid polymer coating": 0,
-        "FR Rayon/пара-арамід/поліамід/антистатик": 0,
-        "MAC": 0
-      }
-    }
-  },
-  {
-    "id": "tkan-cotton-6585",
-    "category": "cotton",
-    "slug": "tkan-cotton-6585",
-    "title": {
-      "ua": "6585",
-      "ru": "6585"
-    },
-    "isNew": false,
-    "images": [
-      "http://raznobyt.com/images/products/6585/main/BLACK.jpg"
-    ],
-    "description": {
-      "ua": "100% бавовна,  390г/м.кв,  саржа,  150см",
-      "ru": "100% хлопок, 390г/м.кв,  саржа,  150см"
-    },
-    "attributes": {
-      "fabricType": "саржа",
-      "density": "390",
-      "width": "150",
-      "colors": [
-        {
-          "color": "BLACK",
-          "image": "http://raznobyt.com/images/products/6585/main/BLACK.jpg",
-          "isMain": true
-        }
-      ],
-      "properties": [],
-      "composition": {
-        "cotton": 100,
-        "polyester": 0,
-        "spandex": 0,
-        "rayon": 0,
-        "viscose": 0,
-        "pbt": 0,
-        "lyon": 0,
-        "polyamide PA": 0,
-        "polypropylene PP": 0,
-        "para aramid": 0,
-        "antistatic": 0,
-        "Modacrylic/Lyocell/Static-Control™": 0,
-        "Nomex®/Kevlar®/Anti-Static": 0,
-        "Nomex®/Para-Aramid/p140": 0,
-        "PBI®/Kevlar®/Antistatic": 0,
-        "Lenzing FR®/Aramid": 0,
-        "Para-aramid/Solid polymer coating": 0,
-        "FR Rayon/пара-арамід/поліамід/антистатик": 0,
-        "MAC": 0
-      }
-    }
-  },
-  {
-    "id": "tkan-cotton-9060",
-    "category": "cotton",
-    "slug": "tkan-cotton-9060",
-    "title": {
-      "ua": "9060",
-      "ru": "9060"
-    },
-    "isNew": false,
-    "images": [
-      "http://raznobyt.com/images/products/9060/main/28.jpg",
-      "http://raznobyt.com/images/products/9060/1.jpg",
-      "http://raznobyt.com/images/products/9060/11.jpg",
-      "http://raznobyt.com/images/products/9060/51.jpg",
-      "http://raznobyt.com/images/products/9060/58.jpg",
-      "http://raznobyt.com/images/products/9060/69.jpg",
-      "http://raznobyt.com/images/products/9060/106.jpg",
-      "http://raznobyt.com/images/products/9060/1023.jpg",
-      "http://raznobyt.com/images/products/9060/1252.jpg"
-    ],
-    "description": {
-      "ua": "100% бавовна,  250г/м.кв,  канвас,  150см",
-      "ru": "100% хлопок,  250г/м.кв,  канвас,  150см"
-    },
-    "attributes": {
-      "fabricType": "канвас",
-      "density": "250",
-      "width": "150",
-      "colors": [
-        {
-          "color": "28",
-          "image": "http://raznobyt.com/images/products/9060/main/28.jpg",
-          "isMain": true
-        },
-        {
-          "color": "1",
-          "image": "http://raznobyt.com/images/products/9060/1.jpg",
-          "isMain": false
-        },
-        {
-          "color": "11",
-          "image": "http://raznobyt.com/images/products/9060/11.jpg",
-          "isMain": false
-        },
-        {
-          "color": "51",
-          "image": "http://raznobyt.com/images/products/9060/51.jpg",
-          "isMain": false
-        },
-        {
-          "color": "58",
-          "image": "http://raznobyt.com/images/products/9060/58.jpg",
-          "isMain": false
-        },
-        {
-          "color": "69",
-          "image": "http://raznobyt.com/images/products/9060/69.jpg",
-          "isMain": false
-        },
-        {
-          "color": "106",
-          "image": "http://raznobyt.com/images/products/9060/106.jpg",
-          "isMain": false
-        },
-        {
-          "color": "1023",
-          "image": "http://raznobyt.com/images/products/9060/1023.jpg",
-          "isMain": false
-        },
-        {
-          "color": "1252",
-          "image": "http://raznobyt.com/images/products/9060/1252.jpg",
-          "isMain": false
-        }
-      ],
-      "properties": [],
-      "composition": {
-        "cotton": 100,
-        "polyester": 0,
-        "spandex": 0,
-        "rayon": 0,
-        "viscose": 0,
-        "pbt": 0,
-        "lyon": 0,
-        "polyamide PA": 0,
-        "polypropylene PP": 0,
-        "para aramid": 0,
-        "antistatic": 0,
-        "Modacrylic/Lyocell/Static-Control™": 0,
-        "Nomex®/Kevlar®/Anti-Static": 0,
-        "Nomex®/Para-Aramid/p140": 0,
-        "PBI®/Kevlar®/Antistatic": 0,
-        "Lenzing FR®/Aramid": 0,
-        "Para-aramid/Solid polymer coating": 0,
-        "FR Rayon/пара-арамід/поліамід/антистатик": 0,
-        "MAC": 0
-      }
-    }
-  },
-  {
-    "id": "tkan-cotton-canvas-wt",
-    "category": "cotton",
-    "slug": "tkan-cotton-canvas-wt",
-    "title": {
-      "ua": "Canvas WT",
-      "ru": "Canvas WT"
-    },
-    "isNew": false,
-    "images": [
-      "http://raznobyt.com/images/products/Canvas WT/main/25.jpg",
-      "http://raznobyt.com/images/products/Canvas WT/00.jpg",
-      "http://raznobyt.com/images/products/Canvas WT/02.jpg",
-      "http://raznobyt.com/images/products/Canvas WT/03.jpg",
-      "http://raznobyt.com/images/products/Canvas WT/31.jpg",
-      "http://raznobyt.com/images/products/Canvas WT/48.jpg",
-      "http://raznobyt.com/images/products/Canvas WT/69.jpg"
-    ],
-    "description": {
-      "ua": "100% бавовна,  350г/м.кв,  канвас,  150см",
-      "ru": "100% хлопок, 350г/м.кв,  канвас,  150см"
-    },
-    "attributes": {
-      "fabricType": "канвас",
-      "density": "350",
-      "width": "150",
-      "colors": [
-        {
-          "color": "25",
-          "image": "http://raznobyt.com/images/products/Canvas WT/main/25.jpg",
-          "isMain": true
-        },
-        {
-          "color": "00",
-          "image": "http://raznobyt.com/images/products/Canvas WT/00.jpg",
-          "isMain": false
-        },
-        {
-          "color": "02",
-          "image": "http://raznobyt.com/images/products/Canvas WT/02.jpg",
-          "isMain": false
-        },
-        {
-          "color": "03",
-          "image": "http://raznobyt.com/images/products/Canvas WT/03.jpg",
-          "isMain": false
-        },
-        {
-          "color": "31",
-          "image": "http://raznobyt.com/images/products/Canvas WT/31.jpg",
-          "isMain": false
-        },
-        {
-          "color": "48",
-          "image": "http://raznobyt.com/images/products/Canvas WT/48.jpg",
-          "isMain": false
-        },
-        {
-          "color": "69",
-          "image": "http://raznobyt.com/images/products/Canvas WT/69.jpg",
-          "isMain": false
-        }
-      ],
-      "properties": [],
-      "composition": {
-        "cotton": 100,
-        "polyester": 0,
-        "spandex": 0,
-        "rayon": 0,
-        "viscose": 0,
-        "pbt": 0,
-        "lyon": 0,
-        "polyamide PA": 0,
-        "polypropylene PP": 0,
-        "para aramid": 0,
-        "antistatic": 0,
-        "Modacrylic/Lyocell/Static-Control™": 0,
-        "Nomex®/Kevlar®/Anti-Static": 0,
-        "Nomex®/Para-Aramid/p140": 0,
-        "PBI®/Kevlar®/Antistatic": 0,
-        "Lenzing FR®/Aramid": 0,
-        "Para-aramid/Solid polymer coating": 0,
-        "FR Rayon/пара-арамід/поліамід/антистатик": 0,
-        "MAC": 0
-      }
-    }
-  },
-  {
-    "id": "tkan-cotton-9170",
-    "category": "cotton",
-    "slug": "tkan-cotton-9170",
-    "title": {
-      "ua": "9170",
-      "ru": "9170"
-    },
-    "isNew": false,
-    "images": [
-      "http://raznobyt.com/images/products/9170/main/WHITE.jpg"
-    ],
-    "description": {
-      "ua": "100% бавовна,  260г/м.кв,  саржа,  148см",
-      "ru": "100% хлопок, 260г/м.кв,  саржа,  148см"
-    },
-    "attributes": {
-      "fabricType": "саржа",
-      "density": "260",
-      "width": "148",
-      "colors": [
-        {
-          "color": "WHITE",
-          "image": "http://raznobyt.com/images/products/9170/main/WHITE.jpg",
-          "isMain": true
-        }
-      ],
-      "properties": [],
-      "composition": {
-        "cotton": 100,
-        "polyester": 0,
-        "spandex": 0,
-        "rayon": 0,
-        "viscose": 0,
-        "pbt": 0,
-        "lyon": 0,
-        "polyamide PA": 0,
-        "polypropylene PP": 0,
-        "para aramid": 0,
-        "antistatic": 0,
-        "Modacrylic/Lyocell/Static-Control™": 0,
-        "Nomex®/Kevlar®/Anti-Static": 0,
-        "Nomex®/Para-Aramid/p140": 0,
-        "PBI®/Kevlar®/Antistatic": 0,
-        "Lenzing FR®/Aramid": 0,
-        "Para-aramid/Solid polymer coating": 0,
-        "FR Rayon/пара-арамід/поліамід/антистатик": 0,
-        "MAC": 0
-      }
-    }
-  },
-  {
-    "id": "tkan-cotton-22005",
-    "category": "cotton",
-    "slug": "tkan-cotton-22005",
-    "title": {
-      "ua": "22005",
-      "ru": "22005"
-    },
-    "isNew": false,
-    "images": [
-      "http://raznobyt.com/images/products/22005/main/FOREST GREEN.jpg"
-    ],
-    "description": {
-      "ua": "100% бавовна,  300г/м.кв,  саржа,  149см",
-      "ru": "100% хлопок,  300г/м.кв,  саржа,  149см"
-    },
-    "attributes": {
-      "fabricType": "саржа",
-      "density": "300",
-      "width": "149",
-      "colors": [
-        {
-          "color": "FOREST GREEN",
-          "image": "http://raznobyt.com/images/products/22005/main/FOREST GREEN.jpg",
-          "isMain": true
-        }
-      ],
-      "properties": [],
-      "composition": {
-        "cotton": 100,
-        "polyester": 0,
-        "spandex": 0,
-        "rayon": 0,
-        "viscose": 0,
-        "pbt": 0,
-        "lyon": 0,
-        "polyamide PA": 0,
-        "polypropylene PP": 0,
-        "para aramid": 0,
-        "antistatic": 0,
-        "Modacrylic/Lyocell/Static-Control™": 0,
-        "Nomex®/Kevlar®/Anti-Static": 0,
-        "Nomex®/Para-Aramid/p140": 0,
-        "PBI®/Kevlar®/Antistatic": 0,
-        "Lenzing FR®/Aramid": 0,
-        "Para-aramid/Solid polymer coating": 0,
-        "FR Rayon/пара-арамід/поліамід/антистатик": 0,
-        "MAC": 0
-      }
-    }
-  },
-  {
-    "id": "tkan-cotton-6631",
-    "category": "cotton",
-    "slug": "tkan-cotton-6631",
-    "title": {
-      "ua": "6631",
-      "ru": "6631"
-    },
-    "isNew": false,
-    "images": [
-      "http://raznobyt.com/images/products/6631/main/BLACK.jpg"
-    ],
-    "description": {
-      "ua": "100% бавовна,  375г/м.кв,  саржа,   148см",
-      "ru": "100% хлопок, 375г/м.кв,  саржа,   148см"
-    },
-    "attributes": {
-      "fabricType": "саржа",
-      "density": "375",
-      "width": "148",
-      "colors": [
-        {
-          "color": "BLACK",
-          "image": "http://raznobyt.com/images/products/6631/main/BLACK.jpg",
+          "color": "773",
+          "image": "http://raznobyt.com/images/products/L 859/main/773.jpg",
           "isMain": true
         }
       ],
@@ -858,6 +417,447 @@
           "color": "13971",
           "image": "http://raznobyt.com/images/products/4814/main/13971.jpg",
           "isMain": true
+        }
+      ],
+      "properties": [],
+      "composition": {
+        "cotton": 100,
+        "polyester": 0,
+        "spandex": 0,
+        "rayon": 0,
+        "viscose": 0,
+        "pbt": 0,
+        "lyon": 0,
+        "polyamide PA": 0,
+        "polypropylene PP": 0,
+        "para aramid": 0,
+        "antistatic": 0,
+        "Modacrylic/Lyocell/Static-Control™": 0,
+        "Nomex®/Kevlar®/Anti-Static": 0,
+        "Nomex®/Para-Aramid/p140": 0,
+        "PBI®/Kevlar®/Antistatic": 0,
+        "Lenzing FR®/Aramid": 0,
+        "Para-aramid/Solid polymer coating": 0,
+        "FR Rayon/пара-арамід/поліамід/антистатик": 0,
+        "MAC": 0
+      }
+    }
+  },
+  {
+    "id": "tkan-cotton-6584",
+    "category": "cotton",
+    "slug": "tkan-cotton-6584",
+    "title": {
+      "ua": "6584",
+      "ru": "6584"
+    },
+    "isNew": false,
+    "images": [
+      "http://raznobyt.com/images/products/6584/main/NAVY.jpg"
+    ],
+    "description": {
+      "ua": "100% бавовна,  390г/м.кв,  саржа,  150см",
+      "ru": "100% хлопок, 390г/м.кв,  саржа,  150см"
+    },
+    "attributes": {
+      "fabricType": "саржа",
+      "density": "390",
+      "width": "150",
+      "colors": [
+        {
+          "color": "NAVY",
+          "image": "http://raznobyt.com/images/products/6584/main/NAVY.jpg",
+          "isMain": true
+        }
+      ],
+      "properties": [],
+      "composition": {
+        "cotton": 100,
+        "polyester": 0,
+        "spandex": 0,
+        "rayon": 0,
+        "viscose": 0,
+        "pbt": 0,
+        "lyon": 0,
+        "polyamide PA": 0,
+        "polypropylene PP": 0,
+        "para aramid": 0,
+        "antistatic": 0,
+        "Modacrylic/Lyocell/Static-Control™": 0,
+        "Nomex®/Kevlar®/Anti-Static": 0,
+        "Nomex®/Para-Aramid/p140": 0,
+        "PBI®/Kevlar®/Antistatic": 0,
+        "Lenzing FR®/Aramid": 0,
+        "Para-aramid/Solid polymer coating": 0,
+        "FR Rayon/пара-арамід/поліамід/антистатик": 0,
+        "MAC": 0
+      }
+    }
+  },
+  {
+    "id": "tkan-cotton-6585",
+    "category": "cotton",
+    "slug": "tkan-cotton-6585",
+    "title": {
+      "ua": "6585",
+      "ru": "6585"
+    },
+    "isNew": false,
+    "images": [
+      "http://raznobyt.com/images/products/6585/main/BLACK.jpg"
+    ],
+    "description": {
+      "ua": "100% бавовна,  390г/м.кв,  саржа,  150см",
+      "ru": "100% хлопок, 390г/м.кв,  саржа,  150см"
+    },
+    "attributes": {
+      "fabricType": "саржа",
+      "density": "390",
+      "width": "150",
+      "colors": [
+        {
+          "color": "BLACK",
+          "image": "http://raznobyt.com/images/products/6585/main/BLACK.jpg",
+          "isMain": true
+        }
+      ],
+      "properties": [],
+      "composition": {
+        "cotton": 100,
+        "polyester": 0,
+        "spandex": 0,
+        "rayon": 0,
+        "viscose": 0,
+        "pbt": 0,
+        "lyon": 0,
+        "polyamide PA": 0,
+        "polypropylene PP": 0,
+        "para aramid": 0,
+        "antistatic": 0,
+        "Modacrylic/Lyocell/Static-Control™": 0,
+        "Nomex®/Kevlar®/Anti-Static": 0,
+        "Nomex®/Para-Aramid/p140": 0,
+        "PBI®/Kevlar®/Antistatic": 0,
+        "Lenzing FR®/Aramid": 0,
+        "Para-aramid/Solid polymer coating": 0,
+        "FR Rayon/пара-арамід/поліамід/антистатик": 0,
+        "MAC": 0
+      }
+    }
+  },
+  {
+    "id": "tkan-cotton-6631",
+    "category": "cotton",
+    "slug": "tkan-cotton-6631",
+    "title": {
+      "ua": "6631",
+      "ru": "6631"
+    },
+    "isNew": false,
+    "images": [
+      "http://raznobyt.com/images/products/6631/main/BLACK.jpg"
+    ],
+    "description": {
+      "ua": "100% бавовна,  375г/м.кв,  саржа,   148см",
+      "ru": "100% хлопок, 375г/м.кв,  саржа,   148см"
+    },
+    "attributes": {
+      "fabricType": "саржа",
+      "density": "375",
+      "width": "148",
+      "colors": [
+        {
+          "color": "BLACK",
+          "image": "http://raznobyt.com/images/products/6631/main/BLACK.jpg",
+          "isMain": true
+        }
+      ],
+      "properties": [],
+      "composition": {
+        "cotton": 100,
+        "polyester": 0,
+        "spandex": 0,
+        "rayon": 0,
+        "viscose": 0,
+        "pbt": 0,
+        "lyon": 0,
+        "polyamide PA": 0,
+        "polypropylene PP": 0,
+        "para aramid": 0,
+        "antistatic": 0,
+        "Modacrylic/Lyocell/Static-Control™": 0,
+        "Nomex®/Kevlar®/Anti-Static": 0,
+        "Nomex®/Para-Aramid/p140": 0,
+        "PBI®/Kevlar®/Antistatic": 0,
+        "Lenzing FR®/Aramid": 0,
+        "Para-aramid/Solid polymer coating": 0,
+        "FR Rayon/пара-арамід/поліамід/антистатик": 0,
+        "MAC": 0
+      }
+    }
+  },
+  {
+    "id": "tkan-cotton-22005",
+    "category": "cotton",
+    "slug": "tkan-cotton-22005",
+    "title": {
+      "ua": "22005",
+      "ru": "22005"
+    },
+    "isNew": false,
+    "images": [
+      "http://raznobyt.com/images/products/22005/main/FOREST GREEN.jpg"
+    ],
+    "description": {
+      "ua": "100% бавовна,  300г/м.кв,  саржа,  149см",
+      "ru": "100% хлопок,  300г/м.кв,  саржа,  149см"
+    },
+    "attributes": {
+      "fabricType": "саржа",
+      "density": "300",
+      "width": "149",
+      "colors": [
+        {
+          "color": "FOREST GREEN",
+          "image": "http://raznobyt.com/images/products/22005/main/FOREST GREEN.jpg",
+          "isMain": true
+        }
+      ],
+      "properties": [],
+      "composition": {
+        "cotton": 100,
+        "polyester": 0,
+        "spandex": 0,
+        "rayon": 0,
+        "viscose": 0,
+        "pbt": 0,
+        "lyon": 0,
+        "polyamide PA": 0,
+        "polypropylene PP": 0,
+        "para aramid": 0,
+        "antistatic": 0,
+        "Modacrylic/Lyocell/Static-Control™": 0,
+        "Nomex®/Kevlar®/Anti-Static": 0,
+        "Nomex®/Para-Aramid/p140": 0,
+        "PBI®/Kevlar®/Antistatic": 0,
+        "Lenzing FR®/Aramid": 0,
+        "Para-aramid/Solid polymer coating": 0,
+        "FR Rayon/пара-арамід/поліамід/антистатик": 0,
+        "MAC": 0
+      }
+    }
+  },
+  {
+    "id": "tkan-cotton-9170",
+    "category": "cotton",
+    "slug": "tkan-cotton-9170",
+    "title": {
+      "ua": "9170",
+      "ru": "9170"
+    },
+    "isNew": false,
+    "images": [
+      "http://raznobyt.com/images/products/9170/main/WHITE.jpg"
+    ],
+    "description": {
+      "ua": "100% бавовна,  260г/м.кв,  саржа,  148см",
+      "ru": "100% хлопок, 260г/м.кв,  саржа,  148см"
+    },
+    "attributes": {
+      "fabricType": "саржа",
+      "density": "260",
+      "width": "148",
+      "colors": [
+        {
+          "color": "WHITE",
+          "image": "http://raznobyt.com/images/products/9170/main/WHITE.jpg",
+          "isMain": true
+        }
+      ],
+      "properties": [],
+      "composition": {
+        "cotton": 100,
+        "polyester": 0,
+        "spandex": 0,
+        "rayon": 0,
+        "viscose": 0,
+        "pbt": 0,
+        "lyon": 0,
+        "polyamide PA": 0,
+        "polypropylene PP": 0,
+        "para aramid": 0,
+        "antistatic": 0,
+        "Modacrylic/Lyocell/Static-Control™": 0,
+        "Nomex®/Kevlar®/Anti-Static": 0,
+        "Nomex®/Para-Aramid/p140": 0,
+        "PBI®/Kevlar®/Antistatic": 0,
+        "Lenzing FR®/Aramid": 0,
+        "Para-aramid/Solid polymer coating": 0,
+        "FR Rayon/пара-арамід/поліамід/антистатик": 0,
+        "MAC": 0
+      }
+    }
+  },
+  {
+    "id": "tkan-cotton-canvas-wt",
+    "category": "cotton",
+    "slug": "tkan-cotton-canvas-wt",
+    "title": {
+      "ua": "Canvas WT",
+      "ru": "Canvas WT"
+    },
+    "isNew": false,
+    "images": [
+      "http://raznobyt.com/images/products/Canvas WT/main/25.jpg",
+      "http://raznobyt.com/images/products/Canvas WT/00.jpg",
+      "http://raznobyt.com/images/products/Canvas WT/02.jpg",
+      "http://raznobyt.com/images/products/Canvas WT/03.jpg",
+      "http://raznobyt.com/images/products/Canvas WT/31.jpg",
+      "http://raznobyt.com/images/products/Canvas WT/48.jpg",
+      "http://raznobyt.com/images/products/Canvas WT/69.jpg"
+    ],
+    "description": {
+      "ua": "100% бавовна,  350г/м.кв,  канвас,  150см",
+      "ru": "100% хлопок, 350г/м.кв,  канвас,  150см"
+    },
+    "attributes": {
+      "fabricType": "канвас",
+      "density": "350",
+      "width": "150",
+      "colors": [
+        {
+          "color": "25",
+          "image": "http://raznobyt.com/images/products/Canvas WT/main/25.jpg",
+          "isMain": true
+        },
+        {
+          "color": "00",
+          "image": "http://raznobyt.com/images/products/Canvas WT/00.jpg",
+          "isMain": false
+        },
+        {
+          "color": "02",
+          "image": "http://raznobyt.com/images/products/Canvas WT/02.jpg",
+          "isMain": false
+        },
+        {
+          "color": "03",
+          "image": "http://raznobyt.com/images/products/Canvas WT/03.jpg",
+          "isMain": false
+        },
+        {
+          "color": "31",
+          "image": "http://raznobyt.com/images/products/Canvas WT/31.jpg",
+          "isMain": false
+        },
+        {
+          "color": "48",
+          "image": "http://raznobyt.com/images/products/Canvas WT/48.jpg",
+          "isMain": false
+        },
+        {
+          "color": "69",
+          "image": "http://raznobyt.com/images/products/Canvas WT/69.jpg",
+          "isMain": false
+        }
+      ],
+      "properties": [],
+      "composition": {
+        "cotton": 100,
+        "polyester": 0,
+        "spandex": 0,
+        "rayon": 0,
+        "viscose": 0,
+        "pbt": 0,
+        "lyon": 0,
+        "polyamide PA": 0,
+        "polypropylene PP": 0,
+        "para aramid": 0,
+        "antistatic": 0,
+        "Modacrylic/Lyocell/Static-Control™": 0,
+        "Nomex®/Kevlar®/Anti-Static": 0,
+        "Nomex®/Para-Aramid/p140": 0,
+        "PBI®/Kevlar®/Antistatic": 0,
+        "Lenzing FR®/Aramid": 0,
+        "Para-aramid/Solid polymer coating": 0,
+        "FR Rayon/пара-арамід/поліамід/антистатик": 0,
+        "MAC": 0
+      }
+    }
+  },
+  {
+    "id": "tkan-cotton-9060",
+    "category": "cotton",
+    "slug": "tkan-cotton-9060",
+    "title": {
+      "ua": "9060",
+      "ru": "9060"
+    },
+    "isNew": false,
+    "images": [
+      "http://raznobyt.com/images/products/9060/main/28.jpg",
+      "http://raznobyt.com/images/products/9060/1.jpg",
+      "http://raznobyt.com/images/products/9060/11.jpg",
+      "http://raznobyt.com/images/products/9060/51.jpg",
+      "http://raznobyt.com/images/products/9060/58.jpg",
+      "http://raznobyt.com/images/products/9060/69.jpg",
+      "http://raznobyt.com/images/products/9060/106.jpg",
+      "http://raznobyt.com/images/products/9060/1023.jpg",
+      "http://raznobyt.com/images/products/9060/1252.jpg"
+    ],
+    "description": {
+      "ua": "100% бавовна,  250г/м.кв,  канвас,  150см",
+      "ru": "100% хлопок,  250г/м.кв,  канвас,  150см"
+    },
+    "attributes": {
+      "fabricType": "канвас",
+      "density": "250",
+      "width": "150",
+      "colors": [
+        {
+          "color": "28",
+          "image": "http://raznobyt.com/images/products/9060/main/28.jpg",
+          "isMain": true
+        },
+        {
+          "color": "1",
+          "image": "http://raznobyt.com/images/products/9060/1.jpg",
+          "isMain": false
+        },
+        {
+          "color": "11",
+          "image": "http://raznobyt.com/images/products/9060/11.jpg",
+          "isMain": false
+        },
+        {
+          "color": "51",
+          "image": "http://raznobyt.com/images/products/9060/51.jpg",
+          "isMain": false
+        },
+        {
+          "color": "58",
+          "image": "http://raznobyt.com/images/products/9060/58.jpg",
+          "isMain": false
+        },
+        {
+          "color": "69",
+          "image": "http://raznobyt.com/images/products/9060/69.jpg",
+          "isMain": false
+        },
+        {
+          "color": "106",
+          "image": "http://raznobyt.com/images/products/9060/106.jpg",
+          "isMain": false
+        },
+        {
+          "color": "1023",
+          "image": "http://raznobyt.com/images/products/9060/1023.jpg",
+          "isMain": false
+        },
+        {
+          "color": "1252",
+          "image": "http://raznobyt.com/images/products/9060/1252.jpg",
+          "isMain": false
         }
       ],
       "properties": [],

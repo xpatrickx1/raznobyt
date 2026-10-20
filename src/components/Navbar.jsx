@@ -105,7 +105,12 @@ export default function Navbar() {
         <div className="container">
           <div className="navbar__inner">
             <Link to="/" className="navbar__logo" onClick={handleLogoClick}>
-              <img src={logo} alt="Різнобит" className="navbar__logo-img" loading="lazy" />
+              <img
+                src={logo}
+                alt="Різнобит"
+                className="navbar__logo-img"
+                fetchPriority="high"
+              />
             </Link>
 
             <ul className="navbar__nav">
