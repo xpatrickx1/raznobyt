@@ -2,7 +2,7 @@ import { Link } from 'react-router-dom';
 import { useLang } from '../i18n/LangContext';
 import Image from '../components/Image';
 import SEO from '../components/SEO';
-import proKompaniyu from '../assets/images/pro-kompaniyu.jpg';
+import proKompaniyu from '../assets/images/pro-kompaniyu.webp';
 import HeroSection from '../components/HeroSection';
 import AnimatedStat from '../components/AnimatedStat';
 

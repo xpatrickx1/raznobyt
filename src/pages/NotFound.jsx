@@ -2,60 +2,60 @@ import { Link } from 'react-router-dom';
 import { useLang } from '../i18n/LangContext';
 import SEO from '../components/SEO';
 import Image from '../components/Image';
-import notFound from '../assets/images/not_found.png';
+import notFound from '../assets/images/not_found.webp';
 
 export default function NotFound() {
-    const { lang, t } = useLang();
+  const { lang, t } = useLang();
 
-    const content = {
-        ua: {
-            title: '404 — Сторінку не знайдено',
-            subtitle: 'Упс! Здається, цю тканину ми ще не виткали або вона закінчилася в нашому рулоні.',
-            backHome: 'На головну',
-            toCatalog: 'В каталог'
-        },
-        ru: {
-            title: '404 — Страница не найдена',
-            subtitle: 'Упс! Кажется, эту ткань мы еще не соткали или она закончилась в нашем рулоне.',
-            backHome: 'На главную',
-            toCatalog: 'В каталог'
-        }
-    };
+  const content = {
+    ua: {
+      title: '404 — Сторінку не знайдено',
+      subtitle: 'Упс! Здається, цю тканину ми ще не виткали або вона закінчилася в нашому рулоні.',
+      backHome: 'На головну',
+      toCatalog: 'В каталог'
+    },
+    ru: {
+      title: '404 — Страница не найдена',
+      subtitle: 'Упс! Кажется, эту ткань мы еще не соткали или она закончилась в нашем рулоне.',
+      backHome: 'На главную',
+      toCatalog: 'В каталог'
+    }
+  };
 
-    const strings = content[lang] || content.ua;
+  const strings = content[lang] || content.ua;
 
-    return (
-        <>
-            <SEO title={strings.title} />
-            <div className="not-found-page">
-                <div className="container">
-                    <div className="not-found-content fade-up">
-                        <div className="not-found-visual">
-                            <Image
-                                src={notFound}
-                                alt="404 Illustration"
-                                className="not-found-img"
-                            />
-                            <div className="not-found-number">404</div>
-                        </div>
-
-                        <h1 className="not-found-title">{strings.title}</h1>
-                        <p className="not-found-sub">{strings.subtitle}</p>
-
-                        <div className="not-found-actions">
-                            <Link to="/" className="btn btn-accent">
-                                {strings.backHome}
-                            </Link>
-                            <Link to="/catalog" className="btn btn btn-primary">
-                                {strings.toCatalog}
-                            </Link>
-                        </div>
-                    </div>
-                </div>
+  return (
+    <>
+      <SEO title={strings.title} />
+      <div className="not-found-page">
+        <div className="container">
+          <div className="not-found-content fade-up">
+            <div className="not-found-visual">
+              <Image
+                src={notFound}
+                alt="404 Illustration"
+                className="not-found-img"
+              />
+              <div className="not-found-number">404</div>
             </div>
 
-            <style dangerouslySetInnerHTML={{
-                __html: `
+            <h1 className="not-found-title">{strings.title}</h1>
+            <p className="not-found-sub">{strings.subtitle}</p>
+
+            <div className="not-found-actions">
+              <Link to="/" className="btn btn-accent">
+                {strings.backHome}
+              </Link>
+              <Link to="/catalog" className="btn btn btn-primary">
+                {strings.toCatalog}
+              </Link>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <style dangerouslySetInnerHTML={{
+        __html: `
         .not-found-page {
           min-height: calc(100vh - var(--nav-h));
           display: flex;
@@ -121,6 +121,6 @@ export default function NotFound() {
           }
         }
       `}} />
-        </>
-    );
+    </>
+  );
 }

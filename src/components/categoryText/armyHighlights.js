@@ -16,7 +16,7 @@ export const armyItems = [
   {
     id: 'tecashield-kr610',
     title: 'TenCate Tecashield® — KR 610 (Arashield™)',
-    image: '/images/catimg/army/tecashield.jpg',
+    image: '/images/catimg/army/tecashield.webp',
     slug: 'kr-610-army',
     features: {
       ua: [
@@ -40,7 +40,7 @@ export const armyItems = [
   {
     id: 'defender-dm9180',
     title: 'TenCate Defender™ M DM 9180',
-    image: '/images/catimg/army/dm9180.jpg',
+    image: '/images/catimg/army/dm9180.webp',
     slug: 'dm-9180-army',
     features: {
       ua: [
@@ -69,7 +69,7 @@ export const armyItems = [
     id: 'cotton-poly',
     title: 'Бавовна–поліестр',
     titleRu: 'Хлопок–полиэстер',
-    image: '/images/catimg/army/cotton-poly.jpg',
+    image: '/images/catimg/army/cotton-poly.webp',
     slug: 'cotton-poly-army',
     features: {
       ua: [
@@ -93,7 +93,7 @@ export const armyItems = [
   {
     id: 'defender-dm9210',
     title: 'TenCate Defender™ M DM 9210',
-    image: '/images/catimg/army/dm9210.jpg',
+    image: '/images/catimg/army/dm9210.webp',
     slug: 'dm-9210-army',
     features: {
       ua: [
@@ -117,7 +117,7 @@ export const armyItems = [
   {
     id: 'defender-dp9190',
     title: 'TenCate Defender™ M DP 9190',
-    image: '/images/catimg/army/dp9190.jpg',
+    image: '/images/catimg/army/dp9190.webp',
     slug: 'dp-9190-army',
     features: {
       ua: [
@@ -143,7 +143,7 @@ export const armyItems = [
   {
     id: 'defender-dp9210',
     title: 'TenCate Defender™ M DP 9210',
-    image: '/images/catimg/army/dp9210.jpg',
+    image: '/images/catimg/army/dp9210.webp',
     slug: 'dp-9210-army',
     features: {
       ua: [

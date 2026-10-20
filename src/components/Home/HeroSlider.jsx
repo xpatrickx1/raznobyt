@@ -2,9 +2,9 @@ import { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import { useLang } from '../../i18n/LangContext';
 
-// import slide1 from '../../assets/images/slider/slide1.png';
-// import slide2 from '../../assets/images/slider/slide2.png';
-import slide3 from '../../assets/images/slider/slide1.png';
+// import slide1 from '../../assets/images/slider/slide1.webp';
+// import slide2 from '../../assets/images/slider/slide2.webp';
+import slide3 from '../../assets/images/slider/slide1.webp';
 
 const slides = [
     // { id: 1, image: slide1, align: 'left' },

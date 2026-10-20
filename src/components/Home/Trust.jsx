@@ -1,7 +1,7 @@
 import { useLang } from '../../i18n/LangContext';
-import ten from '@/assets/images/suppliers/postavka-ten-cate.png';
-import tencatePermess from '@/assets/images/suppliers/permess.png';
-import toray from '@/assets/images/suppliers/toray.png';
+import ten from '@/assets/images/suppliers/postavka-ten-cate.webp';
+import tencatePermess from '@/assets/images/suppliers/permess.webp';
+import toray from '@/assets/images/suppliers/toray.webp';
 
 export default function Trust() {
     const { lang, t } = useLang();

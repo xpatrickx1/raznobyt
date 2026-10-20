@@ -2,7 +2,7 @@ import { useLang } from '../i18n/LangContext';
 import SEO from '../components/SEO';
 import Image from '../components/Image';
 import HeroSection from '../components/HeroSection';
-import dostavka from '../assets/images/dostavka.jpg';
+import dostavka from '../assets/images/dostavka.webp';
 
 export default function Delivery() {
   const { t } = useLang();

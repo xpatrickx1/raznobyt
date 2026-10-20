@@ -11,7 +11,7 @@
       "ru": "Ткани для изготовления качественной рабочей и корпоративной одежды"
     },
     "icon": "/images/icons/workwear.svg",
-    "image": "/images/categories/robochiy.jpg"
+    "image": "/images/categories/robochiy.webp"
   },
   {
     "id": "medical",
@@ -25,7 +25,7 @@
       "ru": "Специализированные ткани для медицинских учреждений и персонала"
     },
     "icon": "/images/icons/medicon.svg",
-    "image": "/images/categories/medtextile.jpg"
+    "image": "/images/categories/medtextile.webp"
   },
   {
     "id": "personal",
@@ -39,7 +39,7 @@
       "ru": "Ткани для изготовления качественной рабочей и корпоративной одежды"
     },
     "icon": "/images/icons/waiter.svg",
-    "image": "/images/categories/poslug.jpg"
+    "image": "/images/categories/poslug.webp"
   },
   {
     "id": "industrial",
@@ -53,7 +53,7 @@
       "ru": "Защитные ткани для сварщиков, электриков и спасателей"
     },
     "icon": "/images/icons/helmet.svg",
-    "image": "/images/categories/industrial.jpg"
+    "image": "/images/categories/industrial.webp"
   },
   {
     "id": "fire",
@@ -67,7 +67,7 @@
       "ru": "Защитные ткани для сварщиков, электриков и спасателей"
     },
     "icon": "/images/icons/fire.svg",
-    "image": "/images/categories/prombezpeka.jpg"
+    "image": "/images/categories/prombezpeka.webp"
   },
   {
     "id": "shirts",
@@ -81,7 +81,7 @@
       "ru": "Лёгкие и элегантные ткани для рубашек и блузок"
     },
     "icon": "/images/icons/shirt.svg",
-    "image": "/images/categories/sorochki.jpg"
+    "image": "/images/categories/sorochki.webp"
   },
   {
     "id": "interlinings",
@@ -95,7 +95,7 @@
       "ru": "Качественные клеевые материалы для верхней одежды и платьев"
     },
     "icon": "/images/icons/adhesive.svg",
-    "image": "/images/categories/prikladni.jpg"
+    "image": "/images/categories/prikladni.webp"
   },
   {
     "id": "cotton",
@@ -109,7 +109,7 @@
       "ru": "Качественные хлопковые ткани для верхней одежды и платьев"
     },
     "icon": "/images/icons/cotton.svg",
-    "image": "/images/categories/cotton.jpg"
+    "image": "/images/categories/cotton.webp"
   },
   {
     "id": "jackets",
@@ -123,7 +123,7 @@
       "ru": "Качественные ткани для верхней одежды и платьев"
     },
     "icon": "/images/icons/jacket.svg",
-    "image": "/images/categories/jacket.jpg"
+    "image": "/images/categories/jacket.webp"
   },
   {
     "id": "canvas",
@@ -137,7 +137,7 @@
       "ru": "Качественные ткани для верхней одежды и платьев"
     },
     "icon": "/images/icons/canvas.svg",
-    "image": "/images/categories/canvas.jpg"
+    "image": "/images/categories/canvas.webp"
   },
   {
     "id": "linen",
@@ -151,7 +151,7 @@
       "ru": "Качественные льняные ткани для верхней одежды и платьев"
     },
     "icon": "/images/icons/linen.svg",
-    "image": "/images/categories/flax.jpg"
+    "image": "/images/categories/flax.webp"
   },
   {
     "id": "jeans",
@@ -165,7 +165,7 @@
       "ru": "Качественные джинсовые ткани для верхней одежды и платьев"
     },
     "icon": "/images/icons/jeans.svg",
-    "image": "/images/categories/jeans.jpg"
+    "image": "/images/categories/jeans.webp"
   },
   {
     "id": "fleece",
@@ -179,7 +179,7 @@
       "ru": "Качественные флисовые ткани для верхней одежды и платьев"
     },
     "icon": "/images/icons/fleece.svg",
-    "image": "/images/categories/fleece.png"
+    "image": "/images/categories/fleece.webp"
   },
   {
     "id": "cordura",
@@ -193,6 +193,6 @@
       "ru": "Качественные кордуровые ткани для верхней одежды и платьев"
     },
     "icon": "/images/icons/cordura.svg",
-    "image": "/images/categories/cordura.jpg"
+    "image": "/images/categories/cordura.webp"
   }
 ]

@@ -1,7 +1,7 @@
 import CategoryHighlight from '../CategoryHighlight';
 import { armyItems } from './armyHighlights.js';
 import { useLang } from '../../i18n/LangContext';
-import army2 from '/images/catimg/army/army2.jpg';
+import army2 from '/images/catimg/army/army2.webp';
 
 const ArmyTextRu = () => {
     return (

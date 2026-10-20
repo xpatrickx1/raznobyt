@@ -2,7 +2,7 @@ export const firefighterItems = [
   {
     id: 'outer-protective',
     title: 'Зовнішні захисні тканини',
-    image: '/images/catimg/fire/outer-protective.jpg',
+    image: '/images/catimg/fire/outer-protective.webp',
     slug: 'outer-protective',
     features: {
       ua: [
@@ -24,7 +24,7 @@ export const firefighterItems = [
   {
     id: 'thermo-moisture-barrier',
     title: 'Термо-вологий бар\'єр',
-    image: '/images/catimg/fire/thermo-moisture.jpg',
+    image: '/images/catimg/fire/thermo-moisture.webp',
     slug: 'thermo-moisture-barrier',
     features: {
       ua: [
@@ -48,7 +48,7 @@ export const firefighterItems = [
   {
     id: 'thermal-barrier-liner',
     title: 'Тепловий бар\'єр з термопідкладкою',
-    image: '/images/catimg/fire/thermal-barrier.jpg',
+    image: '/images/catimg/fire/thermal-barrier.webp',
     slug: 'thermal-barrier-liner',
     features: {
       ua: [
@@ -70,7 +70,7 @@ export const firefighterItems = [
   {
     id: 'system-530',
     title: 'Система 530 г/м²',
-    image: '/images/catimg/fire/system-530.jpg',
+    image: '/images/catimg/fire/system-530.webp',
     slug: 'system-530',
     features: {
       ua: [
@@ -92,7 +92,7 @@ export const firefighterItems = [
   {
     id: 'system-450',
     title: 'Система 450 г/м²',
-    image: '/images/catimg/fire/system-450.jpg',
+    image: '/images/catimg/fire/system-450.webp',
     slug: 'system-450',
     features: {
       ua: [
@@ -114,7 +114,7 @@ export const firefighterItems = [
   {
     id: 'tecashield-kr610',
     title: 'TenCate Tecashield® — KR 610 (Arashield™)',
-    image: '/images/catimg/fire/tecashield.jpg',
+    image: '/images/catimg/fire/tecashield.webp',
     slug: 'kr-610-firefighter',
     features: {
       ua: [
@@ -138,7 +138,7 @@ export const firefighterItems = [
   {
     id: 'antistatic',
     title: 'Антистатичні тканини',
-    image: '/images/catimg/fire/antistatic.jpg',
+    image: '/images/catimg/fire/antistatic.webp',
     slug: 'antistatic',
     features: {
       ua: [

@@ -2,7 +2,7 @@ import { useState, useRef, useEffect } from 'react';
 import { NavLink, Link, useLocation } from 'react-router-dom';
 import { useLang } from '../i18n/LangContext';
 import Image from './Image';
-import logo from '@/assets/images/logo.png';
+import logo from '@/assets/images/logo.webp';
 import phoneIcon from '@/assets/images/icons/phone.svg';
 import categories from '../data/categories.json';
 import SearchBar from './SearchBar';

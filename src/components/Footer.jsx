@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom';
 import { useLang } from '../i18n/LangContext';
 import categories from '../data/categories.json';
-import logo from '@/assets/images/logo-footer.png';
+import logo from '@/assets/images/logo-footer.webp';
 
 export default function Footer() {
   const { lang, t } = useLang();

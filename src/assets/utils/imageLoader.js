@@ -22,8 +22,7 @@ export function getImage(path, basePath = '/') {
 
     // Якщо шлях веде на наш домен, прибираємо домен для локальної обробки
     if (
-        resolvedPath.startsWith('http://catalog.raznobyt.com/') ||
-        resolvedPath.startsWith('https://catalog.raznobyt.com/') ||
+        resolvedPath.startsWith('https://www.raznobyt.com/') ||
         resolvedPath.startsWith('http://raznobyt.com/') ||
         resolvedPath.startsWith('https://raznobyt.com/')
     ) {
@@ -52,6 +51,7 @@ export function getImage(path, basePath = '/') {
 export const getProductImage = (imagePath) => getImage(imagePath, '/images/products/');
 export const getCategoryImage = (imagePath) => getImage(imagePath, '/images/categories/');
 export const getIconImage = (imagePath) => getImage(imagePath, '/images/icons/');
+
 
 // Компонент для ленивой загрузки зображень
 export const preloadImages = (paths) => {
