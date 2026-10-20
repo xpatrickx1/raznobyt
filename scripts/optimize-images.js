@@ -86,7 +86,7 @@ async function optimize(srcDir) {
 
             // Convert to webp with 80% quality (keeps alpha channel by default)
             await pipeline
-                .webp({ quality: 75, effort: 5 })
+                .webp({ quality: 70, effort: 5 })
                 .toFile(webpPath);
 
             console.log(`⚡ Optimized: ${path.relative(process.cwd(), file)} -> ${path.relative(process.cwd(), webpPath)}`);
