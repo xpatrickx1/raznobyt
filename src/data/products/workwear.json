@@ -1218,17 +1218,17 @@
     },
     "isNew": false,
     "images": [
-      "http://raznobyt.com/images/products/TR-50 LIGHT/main/112 SKY.jpg",
-      "http://raznobyt.com/images/products/TR-50 LIGHT/506 Black.jpg",
-      "http://raznobyt.com/images/products/TR-50 LIGHT/335 NAVY.jpg",
-      "http://raznobyt.com/images/products/TR-50 LIGHT/A-138.jpg",
-      "http://raznobyt.com/images/products/TR-50 LIGHT/A-451.jpg",
-      "http://raznobyt.com/images/products/TR-50 LIGHT/AG-184.jpg",
-      "http://raznobyt.com/images/products/TR-50 LIGHT/138 New Slate.jpg",
-      "http://raznobyt.com/images/products/TR-50 LIGHT/144104.jpg",
-      "http://raznobyt.com/images/products/TR-50 LIGHT/AG-143.jpg",
-      "http://raznobyt.com/images/products/TR-50 LIGHT/140 EAU DE NIL.jpg",
-      "http://raznobyt.com/images/products/TR-50 LIGHT/142 LAVENDER.jpg"
+      "http://raznobyt.com/images/products/TR-50 LT/main/112 SKY.jpg",
+      "http://raznobyt.com/images/products/TR-50 LT/506 Black.jpg",
+      "http://raznobyt.com/images/products/TR-50 LT/335 NAVY.jpg",
+      "http://raznobyt.com/images/products/TR-50 LT/A-138.jpg",
+      "http://raznobyt.com/images/products/TR-50 LT/A-451.jpg",
+      "http://raznobyt.com/images/products/TR-50 LT/AG-184.jpg",
+      "http://raznobyt.com/images/products/TR-50 LT/138 New Slate.jpg",
+      "http://raznobyt.com/images/products/TR-50 LT/144104.jpg",
+      "http://raznobyt.com/images/products/TR-50 LT/AG-143.jpg",
+      "http://raznobyt.com/images/products/TR-50 LT/140 EAU DE NIL.jpg",
+      "http://raznobyt.com/images/products/TR-50 LT/142 LAVENDER.jpg"
     ],
     "description": {
       "ua": "Легка змішана тканина саржевого переплетення. Склад: 52% бавовна, 48% поліестр. Щільність 145 г/м². Ідеальна для літнього одягу.",
@@ -1241,57 +1241,57 @@
       "colors": [
         {
           "color": "112 SKY",
-          "image": "http://raznobyt.com/images/products/TR-50 LIGHT/main/112 SKY.jpg",
+          "image": "http://raznobyt.com/images/products/TR-50 LT/main/112 SKY.jpg",
           "isMain": true
         },
         {
           "color": "506 Black",
-          "image": "http://raznobyt.com/images/products/TR-50 LIGHT/506 Black.jpg",
+          "image": "http://raznobyt.com/images/products/TR-50 LT/506 Black.jpg",
           "isMain": false
         },
         {
           "color": "335 NAVY",
-          "image": "http://raznobyt.com/images/products/TR-50 LIGHT/335 NAVY.jpg",
+          "image": "http://raznobyt.com/images/products/TR-50 LT/335 NAVY.jpg",
           "isMain": false
         },
         {
           "color": "A-138",
-          "image": "http://raznobyt.com/images/products/TR-50 LIGHT/A-138.jpg",
+          "image": "http://raznobyt.com/images/products/TR-50 LT/A-138.jpg",
           "isMain": false
         },
         {
           "color": "A-451",
-          "image": "http://raznobyt.com/images/products/TR-50 LIGHT/A-451.jpg",
+          "image": "http://raznobyt.com/images/products/TR-50 LT/A-451.jpg",
           "isMain": false
         },
         {
           "color": "AG-184",
-          "image": "http://raznobyt.com/images/products/TR-50 LIGHT/AG-184.jpg",
+          "image": "http://raznobyt.com/images/products/TR-50 LT/AG-184.jpg",
           "isMain": false
         },
         {
           "color": "138 New Slate",
-          "image": "http://raznobyt.com/images/products/TR-50 LIGHT/138 New Slate.jpg",
+          "image": "http://raznobyt.com/images/products/TR-50 LT/138 New Slate.jpg",
           "isMain": false
         },
         {
           "color": "144104",
-          "image": "http://raznobyt.com/images/products/TR-50 LIGHT/144104.jpg",
+          "image": "http://raznobyt.com/images/products/TR-50 LT/144104.jpg",
           "isMain": false
         },
         {
           "color": "AG-143",
-          "image": "http://raznobyt.com/images/products/TR-50 LIGHT/AG-143.jpg",
+          "image": "http://raznobyt.com/images/products/TR-50 LT/AG-143.jpg",
           "isMain": false
         },
         {
           "color": "140 EAU DE NIL",
-          "image": "http://raznobyt.com/images/products/TR-50 LIGHT/140 EAU DE NIL.jpg",
+          "image": "http://raznobyt.com/images/products/TR-50 LT/140 EAU DE NIL.jpg",
           "isMain": false
         },
         {
           "color": "142 LAVENDER",
-          "image": "http://raznobyt.com/images/products/TR-50 LIGHT/142 LAVENDER.jpg",
+          "image": "http://raznobyt.com/images/products/TR-50 LT/142 LAVENDER.jpg",
           "isMain": false
         }
       ],
