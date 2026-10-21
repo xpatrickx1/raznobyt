@@ -7,6 +7,7 @@ import placeholder from '../assets/images/placeholder.svg';
 import { getProductImage } from '../assets/utils/imageLoader.js';
 import { formatComposition, getCompositionParts } from '../data/compositions.js';
 import SampleOrderModal from './SampleOrderModal';
+import { getProductImageVariant } from '@/utils/productImageVariants';
 
 export default function ProductCard({ product }) {
   const { lang, t } = useLang();
@@ -95,6 +96,7 @@ export default function ProductCard({ product }) {
             {/* Кольори — як у ProductView */}
             {colors.length > 0 && (
               <div className="product-card__attr-row product-card__colors">
+
                 <span className="color-thumbs-row color-thumbs-row--card">
                   {visibleColors.map((c, idx) =>
                     c.image ? (
@@ -104,24 +106,51 @@ export default function ProductCard({ product }) {
                         title={colorName(c)}
                       >
                         <img
-                          src={getProductImage(c.image)}
+                          src={
+                            getProductImageVariant(getProductImage(c.image), 'thumb')
+                            || getProductImage(c.image)
+                          }
                           alt={colorName(c)}
                           className="color-thumb-img"
                           loading="lazy"
-                          onError={(e) => { e.target.src = placeholder; }}
+                          onError={(e) => {
+                            const img = e.currentTarget;
+                            const originalUrl = getProductImage(c.image);
+                            const absoluteOriginalUrl = new URL(
+                              originalUrl,
+                              window.location.href
+                            ).href;
+
+                            if (
+                              img.dataset.fallback !== 'original'
+                              && img.src !== absoluteOriginalUrl
+                            ) {
+                              img.dataset.fallback = 'original';
+                              img.src = originalUrl;
+                            } else {
+                              img.onerror = null;
+                              img.src = placeholder;
+                            }
+                          }}
                         />
                       </span>
                     ) : (
-                      <span key={idx} className="color-text-wrap" title={colorName(c)}>
+                      <span
+                        key={idx}
+                        className="color-text-wrap"
+                        title={colorName(c)}
+                      >
                         {colorName(c)}
                         {idx < visibleColors.length - 1 ? ',' : ''}
                       </span>
                     )
                   )}
+
                   {extraCount > 0 && (
                     <span className="color-extra">+{extraCount}</span>
                   )}
                 </span>
+
               </div>
             )}
 

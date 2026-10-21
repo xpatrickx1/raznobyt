@@ -2112,6 +2112,75 @@
     }
   },
   {
+    "id": "tkan-workwear-rc250ct",
+    "category": "workwear",
+    "slug": "tkan-workwear-rc250ct",
+    "title": {
+      "ua": "RC250CT",
+      "ru": "RC250CT"
+    },
+    "isNew": false,
+    "images": [
+      "http://raznobyt.com/images/products/RC250CT/main/98314.jpg",
+      "http://raznobyt.com/images/products/RC250CT/90065.jpg",
+      "http://raznobyt.com/images/products/RC250CT/95367.jpg",
+      "http://raznobyt.com/images/products/RC250CT/99014.jpg"
+    ],
+    "description": {
+      "ua": "100% бавовняна  тканина саржевого переплетення,Щільність:  250г/м.кв",
+      "ru": "100% хлопковая ткань саржевого плетения, Плотность: 250г/м.кв"
+    },
+    "attributes": {
+      "fabricType": "twill",
+      "density": "250",
+      "width": "150",
+      "colors": [
+        {
+          "color": "98314",
+          "image": "http://raznobyt.com/images/products/RC250CT/main/98314.jpg",
+          "isMain": true
+        },
+        {
+          "color": "90065",
+          "image": "http://raznobyt.com/images/products/RC250CT/90065.jpg",
+          "isMain": false
+        },
+        {
+          "color": "95367",
+          "image": "http://raznobyt.com/images/products/RC250CT/95367.jpg",
+          "isMain": false
+        },
+        {
+          "color": "99014",
+          "image": "http://raznobyt.com/images/products/RC250CT/99014.jpg",
+          "isMain": false
+        }
+      ],
+      "properties": [],
+      "composition": {
+        "cotton": 100,
+        "polyester": 0,
+        "spandex": 0,
+        "rayon": 0,
+        "viscose": 0,
+        "pbt": 0,
+        "lyon": 0,
+        "polyamide PA": 0,
+        "polypropylene PP": 0,
+        "para aramid": 0,
+        "antistatic": 0,
+        "Modacrylic/Lyocell/Static-Control™": 0,
+        "Nomex®/Kevlar®/Anti-Static": 0,
+        "Nomex®/Para-Aramid/p140": 0,
+        "PBI®/Kevlar®/Antistatic": 0,
+        "Lenzing FR®/Aramid": 0,
+        "Para-aramid/Solid polymer coating": 0,
+        "FR Rayon/пара-арамід/поліамід/антистатик": 0,
+        "MAC": 0
+      }
+    }
+  },
+  {
     "id": "tkan-workwear-rc-234",
     "category": "workwear",
     "slug": "tkan-workwear-rc-234",

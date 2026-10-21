@@ -510,6 +510,180 @@
     }
   },
   {
+    "id": "tkan-shirts-vlp-4206",
+    "category": "shirts",
+    "subcat": [
+      "cotton60"
+    ],
+    "slug": "tkan-shirts-vlp-4206",
+    "title": {
+      "ua": "VLP-4206",
+      "ru": "VLP-4206"
+    },
+    "isNew": false,
+    "images": [
+      "http://raznobyt.com/images/products/VLP-4206/main/61233.jpg",
+      "http://raznobyt.com/images/products/VLP-4206/784 Grey.jpg",
+      "http://raznobyt.com/images/products/VLP-4206/60563.jpg",
+      "http://raznobyt.com/images/products/VLP-4206/62709.jpg",
+      "http://raznobyt.com/images/products/VLP-4206/95449.jpg",
+      "http://raznobyt.com/images/products/VLP-4206/97019T.jpg",
+      "http://raznobyt.com/images/products/VLP-4206/98060.jpg",
+      "http://raznobyt.com/images/products/VLP-4206/99017.jpg",
+      "http://raznobyt.com/images/products/VLP-4206/Cacao.jpg",
+      "http://raznobyt.com/images/products/VLP-4206/Candy.jpg",
+      "http://raznobyt.com/images/products/VLP-4206/Cornflower Blue.jpg",
+      "http://raznobyt.com/images/products/VLP-4206/Grass.jpg",
+      "http://raznobyt.com/images/products/VLP-4206/Ice White.jpg",
+      "http://raznobyt.com/images/products/VLP-4206/IRIS.jpg",
+      "http://raznobyt.com/images/products/VLP-4206/Mauve.jpg",
+      "http://raznobyt.com/images/products/VLP-4206/Oak Leaf.jpg",
+      "http://raznobyt.com/images/products/VLP-4206/Ocean.jpg",
+      "http://raznobyt.com/images/products/VLP-4206/Purple Ash.jpg",
+      "http://raznobyt.com/images/products/VLP-4206/Tea Rose.jpg",
+      "http://raznobyt.com/images/products/VLP-4206/Teal.jpg",
+      "http://raznobyt.com/images/products/VLP-4206/Vanillian.jpg"
+    ],
+    "description": {
+      "ua": "57% бавовна, 39% поліестр, 4% стрейч. Щільність 140 г/м². Полотняне переплетення.Легка стрейчова тканина",
+      "ru": "57% хлопок, 39% полиэстер, 4% стретч. Плотность 140 г/м². Полотняное плетение.Легкая стрейчевая ткань"
+    },
+    "attributes": {
+      "fabricType": "полотно",
+      "density": "140",
+      "width": "134",
+      "colors": [
+        {
+          "color": "61233",
+          "image": "http://raznobyt.com/images/products/VLP-4206/main/61233.jpg",
+          "isMain": true
+        },
+        {
+          "color": "784 Grey",
+          "image": "http://raznobyt.com/images/products/VLP-4206/784 Grey.jpg",
+          "isMain": false
+        },
+        {
+          "color": "60563",
+          "image": "http://raznobyt.com/images/products/VLP-4206/60563.jpg",
+          "isMain": false
+        },
+        {
+          "color": "62709",
+          "image": "http://raznobyt.com/images/products/VLP-4206/62709.jpg",
+          "isMain": false
+        },
+        {
+          "color": "95449",
+          "image": "http://raznobyt.com/images/products/VLP-4206/95449.jpg",
+          "isMain": false
+        },
+        {
+          "color": "97019T",
+          "image": "http://raznobyt.com/images/products/VLP-4206/97019T.jpg",
+          "isMain": false
+        },
+        {
+          "color": "98060",
+          "image": "http://raznobyt.com/images/products/VLP-4206/98060.jpg",
+          "isMain": false
+        },
+        {
+          "color": "99017",
+          "image": "http://raznobyt.com/images/products/VLP-4206/99017.jpg",
+          "isMain": false
+        },
+        {
+          "color": "Cacao",
+          "image": "http://raznobyt.com/images/products/VLP-4206/Cacao.jpg",
+          "isMain": false
+        },
+        {
+          "color": "Candy",
+          "image": "http://raznobyt.com/images/products/VLP-4206/Candy.jpg",
+          "isMain": false
+        },
+        {
+          "color": "Cornflower Blue",
+          "image": "http://raznobyt.com/images/products/VLP-4206/Cornflower Blue.jpg",
+          "isMain": false
+        },
+        {
+          "color": "Grass",
+          "image": "http://raznobyt.com/images/products/VLP-4206/Grass.jpg",
+          "isMain": false
+        },
+        {
+          "color": "Ice White",
+          "image": "http://raznobyt.com/images/products/VLP-4206/Ice White.jpg",
+          "isMain": false
+        },
+        {
+          "color": "IRIS",
+          "image": "http://raznobyt.com/images/products/VLP-4206/IRIS.jpg",
+          "isMain": false
+        },
+        {
+          "color": "Mauve",
+          "image": "http://raznobyt.com/images/products/VLP-4206/Mauve.jpg",
+          "isMain": false
+        },
+        {
+          "color": "Oak Leaf",
+          "image": "http://raznobyt.com/images/products/VLP-4206/Oak Leaf.jpg",
+          "isMain": false
+        },
+        {
+          "color": "Ocean",
+          "image": "http://raznobyt.com/images/products/VLP-4206/Ocean.jpg",
+          "isMain": false
+        },
+        {
+          "color": "Purple Ash",
+          "image": "http://raznobyt.com/images/products/VLP-4206/Purple Ash.jpg",
+          "isMain": false
+        },
+        {
+          "color": "Tea Rose",
+          "image": "http://raznobyt.com/images/products/VLP-4206/Tea Rose.jpg",
+          "isMain": false
+        },
+        {
+          "color": "Teal",
+          "image": "http://raznobyt.com/images/products/VLP-4206/Teal.jpg",
+          "isMain": false
+        },
+        {
+          "color": "Vanillian",
+          "image": "http://raznobyt.com/images/products/VLP-4206/Vanillian.jpg",
+          "isMain": false
+        }
+      ],
+      "properties": [],
+      "composition": {
+        "cotton": 57,
+        "polyester": 39,
+        "spandex": 4,
+        "rayon": 0,
+        "viscose": 0,
+        "pbt": 0,
+        "lyon": 0,
+        "polyamide PA": 0,
+        "polypropylene PP": 0,
+        "para aramid": 0,
+        "antistatic": 0,
+        "Modacrylic/Lyocell/Static-Control™": 0,
+        "Nomex®/Kevlar®/Anti-Static": 0,
+        "Nomex®/Para-Aramid/p140": 0,
+        "PBI®/Kevlar®/Antistatic": 0,
+        "Lenzing FR®/Aramid": 0,
+        "Para-aramid/Solid polymer coating": 0,
+        "FR Rayon/пара-арамід/поліамід/антистатик": 0,
+        "MAC": 0
+      }
+    }
+  },
+  {
     "id": "tkan-shirts-3009",
     "category": "shirts",
     "subcat": [
@@ -2902,10 +3076,7 @@
     },
     "isNew": false,
     "images": [
-      "http://raznobyt.com/images/products/9600/main/08490.jpg",
-      "http://raznobyt.com/images/products/9600/main/66935.jpg",
-      "http://raznobyt.com/images/products/9600/63805.jpg",
-      "http://raznobyt.com/images/products/9600/65576.jpg"
+      "http://raznobyt.com/images/products/9600/main/08490.jpg"
     ],
     "description": {
       "ua": "35% бавовна, 65% поліестр,  легка, комфортна, дихаюча,",
@@ -2920,21 +3091,6 @@
           "color": "08490",
           "image": "http://raznobyt.com/images/products/9600/main/08490.jpg",
           "isMain": true
-        },
-        {
-          "color": "66935",
-          "image": "http://raznobyt.com/images/products/9600/main/66935.jpg",
-          "isMain": false
-        },
-        {
-          "color": "63805",
-          "image": "http://raznobyt.com/images/products/9600/63805.jpg",
-          "isMain": false
-        },
-        {
-          "color": "65576",
-          "image": "http://raznobyt.com/images/products/9600/65576.jpg",
-          "isMain": false
         }
       ],
       "properties": [],

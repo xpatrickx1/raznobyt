@@ -1128,7 +1128,7 @@ button {
 
 .btn-primary {
   background: var(--c-gold);
-  color: #282828;
+  color: #fff;
   box-shadow: 0 4px 20px rgba(176, 138, 78, 0.4);
 }
 

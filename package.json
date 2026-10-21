@@ -8,7 +8,8 @@
     "dev": "vite",
     "build": "npm run sync && node scripts/optimize-images.js && vite build && node scripts/generate.js --cleanup",
     "preview": "vite preview",
-    "images": "node scripts/optimize-images.js"
+    "images": "node scripts/optimize-images.js",
+    "images:generate": "node scripts/optimize-product-images.mjs"
   },
   "dependencies": {
     "react": "^18.3.1",
@@ -19,7 +20,7 @@
   },
   "devDependencies": {
     "@vitejs/plugin-react": "^4.3.4",
-    "sharp": "^0.35.3",
+    "sharp": "^0.35.5",
     "vite": "^6.0.11"
   }
 }

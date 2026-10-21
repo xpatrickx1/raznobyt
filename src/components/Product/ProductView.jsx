@@ -9,6 +9,7 @@ import { getProductImage } from '../../assets/utils/imageLoader.js';
 import placeholder from '../../assets/images/placeholder.svg';
 import phoneIcon from '@/assets/images/icons/phone.svg';
 import pdfIcon from '@/assets/images/icons/pdficon.svg';
+import { getProductImageVariant } from '@/utils/productImageVariants';
 
 export default function ProductView({ product, related = [] }) {
     const { lang, t } = useLang();
@@ -186,57 +187,116 @@ export default function ProductView({ product, related = [] }) {
                     <div className="product-grid">
                         {/* Images */}
                         <div className="product-images fade-up fade-up-1">
+
                             {imageUrls.length > 0 ? (
                                 <img
-                                    src={imageUrls[activeImg]}
+                                    src={
+                                        getProductImageVariant(imageUrls[activeImg], 'mobile')
+                                        || imageUrls[activeImg]
+                                    }
                                     alt={product.title[lang]}
                                     className="product-main-img"
                                     loading="lazy"
-                                    onError={(e) => { e.target.src = placeholder; }}
+                                    onError={(e) => {
+                                        const originalUrl = imageUrls[activeImg];
+                                        const img = e.currentTarget;
+
+                                        if (
+                                            img.dataset.fallback !== 'original'
+                                            && img.src !== new URL(originalUrl, window.location.href).href
+                                        ) {
+                                            img.dataset.fallback = 'original';
+                                            img.src = originalUrl;
+                                        } else {
+                                            img.onerror = null;
+                                            img.src = placeholder;
+                                        }
+                                    }}
                                 />
                             ) : (
                                 <div className="product-main-img image-fallback">
-                                    <img src={placeholder} alt="Placeholder" className="image-fallback__inner" loading="lazy" />
+                                    <img
+                                        src={placeholder}
+                                        alt="Placeholder"
+                                        className="image-fallback__inner"
+                                        loading="lazy"
+                                    />
                                 </div>
                             )}
+
                             {imageUrls.length > 1 && (
-                                <div className="product-thumbs-slider"
+                                <div
+                                    className="product-thumbs-slider"
                                     style={{ gap: canScrollLeft ? '' : '0px' }}
                                 >
                                     <button
                                         className="thumbs-arrow thumbs-arrow--prev"
                                         onClick={prevThumbs}
                                         aria-label="Попередні"
-                                        style={{ visibility: canScrollLeft ? 'visible' : 'hidden', width: canScrollLeft ? '' : '0px' }}
+                                        style={{
+                                            visibility: canScrollLeft ? 'visible' : 'hidden',
+                                            width: canScrollLeft ? '' : '0px',
+                                        }}
                                     >
                                         ‹
                                     </button>
-                                    <div className="product-thumbs-viewport" ref={viewportRef} onScroll={checkScroll}>
+
+                                    <div
+                                        className="product-thumbs-viewport"
+                                        ref={viewportRef}
+                                        onScroll={checkScroll}
+                                    >
                                         <div className="product-thumbs">
                                             {imageUrls.map((img, i) => (
                                                 <img
                                                     key={i}
-                                                    ref={el => { thumbEls.current[i] = el; }}
-                                                    src={img}
+                                                    ref={(el) => {
+                                                        thumbEls.current[i] = el;
+                                                    }}
+                                                    src={
+                                                        getProductImageVariant(img, 'thumb')
+                                                        || img
+                                                    }
                                                     alt=""
-                                                    className={`product-thumb ${activeImg === i ? 'active' : ''}`}
-                                                    onClick={() => { setActiveImg(i); scrollThumbIntoView(i); }}
+                                                    className={`product-thumb ${activeImg === i ? 'active' : ''
+                                                        }`}
+                                                    onClick={() => {
+                                                        setActiveImg(i);
+                                                        scrollThumbIntoView(i);
+                                                    }}
                                                     loading="lazy"
-                                                    onError={(e) => { e.target.src = placeholder; }}
+                                                    onError={(e) => {
+                                                        const image = e.currentTarget;
+
+                                                        if (
+                                                            image.dataset.fallback !== 'original'
+                                                            && image.src !== new URL(img, window.location.href).href
+                                                        ) {
+                                                            image.dataset.fallback = 'original';
+                                                            image.src = img;
+                                                        } else {
+                                                            image.onerror = null;
+                                                            image.src = placeholder;
+                                                        }
+                                                    }}
                                                 />
                                             ))}
                                         </div>
                                     </div>
+
                                     <button
                                         className="thumbs-arrow thumbs-arrow--next"
                                         onClick={nextThumbs}
                                         aria-label="Наступні"
-                                        style={{ visibility: canScrollRight ? 'visible' : 'hidden' }}
+                                        style={{
+                                            visibility: canScrollRight ? 'visible' : 'hidden',
+                                        }}
                                     >
                                         ›
                                     </button>
                                 </div>
                             )}
+
                         </div>
 
                         {/* Info */}

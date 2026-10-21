@@ -99,7 +99,7 @@
         "polyester": 0,
         "spandex": 0,
         "rayon": 0,
-        "viscose": 20,
+        "viscose": 0,
         "pbt": 0,
         "lyon": 0,
         "polyamide PA": 0,
@@ -373,12 +373,12 @@
     }
   },
   {
-    "id": "tkan-linen-2699",
+    "id": "tkan-linen-02699",
     "category": "linen",
-    "slug": "tkan-linen-2699",
+    "slug": "tkan-linen-02699",
     "title": {
-      "ua": "2699",
-      "ru": "2699"
+      "ua": "02699",
+      "ru": "02699"
     },
     "isNew": false,
     "images": [],

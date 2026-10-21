@@ -20,6 +20,7 @@ export default defineConfig({
   },
 
   build: {
+    cssMinify: true,
     assetsInlineLimit: 4096,
 
     rollupOptions: {
