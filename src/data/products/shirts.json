@@ -2603,7 +2603,9 @@
       "ru": "L939"
     },
     "isNew": false,
-    "images": [],
+    "images": [
+      "http://raznobyt.com/images/products/L939/main/00853.jpg"
+    ],
     "description": {
       "ua": "100% бавовна 258 г/м.кв. легка, комфортна, дихаюча,",
       "ru": "100% хлопок 258 г/м.кв. легкая, комфортная, дышащая,"
@@ -2612,7 +2614,13 @@
       "fabricType": "складне",
       "density": "258",
       "width": "150",
-      "colors": [],
+      "colors": [
+        {
+          "color": "00853",
+          "image": "http://raznobyt.com/images/products/L939/main/00853.jpg",
+          "isMain": true
+        }
+      ],
       "properties": [],
       "composition": {
         "cotton": 0,

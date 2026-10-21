@@ -9,6 +9,7 @@
  * /images/products/BG%209030/65615.jpg
  *   -> /images/generated/products/BG%209030/65615.thumb.webp
  *
+ * 
  * Every product image supports both mobile and thumbnail variants.
  */
 

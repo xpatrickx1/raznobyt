@@ -189,30 +189,38 @@ export default function ProductView({ product, related = [] }) {
                         <div className="product-images fade-up fade-up-1">
 
                             {imageUrls.length > 0 ? (
-                                <img
-                                    src={
-                                        getProductImageVariant(imageUrls[activeImg], 'mobile')
-                                        || imageUrls[activeImg]
-                                    }
-                                    alt={product.title[lang]}
-                                    className="product-main-img"
-                                    loading="lazy"
-                                    onError={(e) => {
-                                        const originalUrl = imageUrls[activeImg];
-                                        const img = e.currentTarget;
+                                <picture>
+                                    <source
+                                        media="(max-width: 767px)"
+                                        srcSet={imageUrls[activeImg]}
+                                    />
 
-                                        if (
-                                            img.dataset.fallback !== 'original'
-                                            && img.src !== new URL(originalUrl, window.location.href).href
-                                        ) {
-                                            img.dataset.fallback = 'original';
-                                            img.src = originalUrl;
-                                        } else {
-                                            img.onerror = null;
-                                            img.src = placeholder;
+                                    <img
+                                        src={
+                                            getProductImageVariant(
+                                                imageUrls[activeImg],
+                                                'mobile'
+                                            ) || imageUrls[activeImg]
                                         }
-                                    }}
-                                />
+                                        alt={product.title[lang]}
+                                        className="product-main-img"
+                                        loading="lazy"
+                                        onError={(e) => {
+                                            const img = e.currentTarget;
+                                            const originalUrl = imageUrls[activeImg];
+                                            const originalAbsoluteUrl = new URL(
+                                                originalUrl,
+                                                window.location.href
+                                            ).href;
+
+                                            // Якщо зламався оригінал — показуємо placeholder.
+                                            if (img.src === originalAbsoluteUrl) {
+                                                img.onerror = null;
+                                                img.src = placeholder;
+                                            }
+                                        }}
+                                    />
+                                </picture>
                             ) : (
                                 <div className="product-main-img image-fallback">
                                     <img

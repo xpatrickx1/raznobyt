@@ -9,6 +9,7 @@ import { formatComposition, getCompositionParts } from '../data/compositions.js'
 import SampleOrderModal from './SampleOrderModal';
 import { getProductImageVariant } from '@/utils/productImageVariants';
 
+
 export default function ProductCard({ product }) {
   const { lang, t } = useLang();
   const cat = categories.find(c => c.id === product.category);
@@ -37,13 +38,38 @@ export default function ProductCard({ product }) {
       <Link to={`/catalog/${catSlug}/${product.slug}/`} className="product-card fade-up">
         <div className="product-card__img-wrap">
           {product.images?.length > 0 ? (
-            <img
-              src={imageUrl}
-              alt={product.title[lang]}
-              className="product-main-img"
-              loading="lazy"
-              onError={(e) => { e.target.src = placeholder; }}
-            />
+            <picture>
+              <source
+                media="(max-width: 767px)"
+                srcSet={imageUrl}
+              />
+
+              <img
+                src={
+                  getProductImageVariant(
+                    imageUrl,
+                    'mobile'
+                  ) || imageUrl
+                }
+                alt={product.title[lang]}
+                className="product-main-img"
+                loading="lazy"
+                onError={(e) => {
+                  const img = e.currentTarget;
+                  const originalUrl = imageUrl;
+                  const originalAbsoluteUrl = new URL(
+                    originalUrl,
+                    window.location.href
+                  ).href;
+
+                  // Якщо зламався оригінал — показуємо placeholder.
+                  if (img.src === originalAbsoluteUrl) {
+                    img.onerror = null;
+                    img.src = placeholder;
+                  }
+                }}
+              />
+            </picture>
           ) : (
             <div className="product-main-img image-fallback">
               <img src={placeholder} alt="Placeholder" className="image-fallback__inner" loading="lazy" />
