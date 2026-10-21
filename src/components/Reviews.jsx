@@ -56,7 +56,7 @@ const REVIEWS = [
 
 function Stars({ count = 5 }) {
     return (
-        <div className="review-card__stars" aria-label={`${count} з 5`}>
+        <div className="review-card__stars">
             {[1, 2, 3, 4, 5].map((i) => (
                 <svg
                     key={i}

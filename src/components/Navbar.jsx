@@ -91,7 +91,7 @@ export default function Navbar() {
                 </button>
               </div>
 
-              <a href="tel:+380445070680" className="topbar__phone">
+              <a href="tel:+380445070680" aria-label="phone" className="topbar__phone">
                 <img src={phoneIcon} alt="" width="16" height="16" loading="lazy" />
                 <span>(044) 507-06-80</span>
               </a>
@@ -258,7 +258,7 @@ export default function Navbar() {
           {lang === 'ua' ? 'Отримати зразки' : 'Получить образцы'}
         </button>
 
-        <a href="tel:+380445070680" className="mobile-menu__phone">
+        <a href="tel:+380445070680" aria-label="phone" className="mobile-menu__phone">
           <img src={phoneIcon} alt="" width="18" height="18" loading="lazy" />
           (044) 507-06-80
         </a>

@@ -33,10 +33,12 @@ export default function SearchBar() {
     };
 
     const filteredProducts = searchQuery.trim()
-        ? products.filter(p =>
-            p.title.ua.toLowerCase().includes(searchQuery.toLowerCase()) ||
-            p.title.ru.toLowerCase().includes(searchQuery.toLowerCase())
-        ).slice(0, 5)
+        ? products.filter(p => {
+            const query = searchQuery.toLowerCase();
+            const titleUa = p.title?.ua?.toLowerCase() ?? '';
+            const titleRu = p.title?.ru?.toLowerCase() ?? '';
+            return titleUa.includes(query) || titleRu.includes(query);
+        }).slice(0, 5)
         : [];
 
     return (
@@ -75,12 +77,14 @@ export default function SearchBar() {
                                     }}
                                 >
                                     <div className="suggestion-thumbnail">
-                                        <Image src={p.images[0]} alt="" className="search-result-img" />
+                                        <Image src={p.images?.[0]} alt="" className="search-result-img" />
                                     </div>
                                     <div className="search-result-info">
-                                        <div className="search-result-title">{lang === 'ua' ? p.title.ua : p.title.ru}</div>
+                                        <div className="search-result-title">
+                                            {lang === 'ua' ? (p.title?.ua ?? '') : (p.title?.ru ?? '')}
+                                        </div>
                                         <div className="search-result-cat">
-                                            {cat?.title[lang]}
+                                            {cat?.title?.[lang]}
                                         </div>
                                     </div>
                                 </Link>

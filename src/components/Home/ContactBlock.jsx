@@ -61,16 +61,16 @@ export default function ContactBlock() {
                                 <input type="hidden" name="_template" value="table" />
 
                                 <div className="form-group">
-                                    <label className="form-label">{t('home.formName')}</label>
-                                    <input type="text" name="name" className="form-input" required />
+                                    <label htmlFor="name" className="form-label">{t('home.formName')}</label>
+                                    <input id="name" type="text" name="name" className="form-input" required />
                                 </div>
                                 <div className="form-group">
-                                    <label className="form-label">{t('home.formContact')}</label>
-                                    <input type="text" name="contact" className="form-input" required />
+                                    <label htmlFor="contact" className="form-label">{t('home.formContact')}</label>
+                                    <input id="contact" type="text" name="contact" className="form-input" required />
                                 </div>
                                 <div className="form-group">
-                                    <label className="form-label">{t('home.formMessage')}</label>
-                                    <textarea name="message" className="form-textarea" rows="3" required></textarea>
+                                    <label htmlFor="message" className="form-label">{t('home.formMessage')}</label>
+                                    <textarea id="message" name="message" className="form-textarea" rows="3" required></textarea>
                                 </div>
                                 <button type="submit" className="btn btn-primary" style={{ width: '100%', justifyContent: 'center' }}>
                                     {t('home.formSubmit')}
