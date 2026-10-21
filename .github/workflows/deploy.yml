@@ -27,6 +27,9 @@ jobs:
       - name: Sync data (Google Sheets → JSON)
         run: npm run sync
 
+      - name: Generate optimized product images
+        run: npm run images:generate
+
       - name: Build project
         run: npm run build
 
