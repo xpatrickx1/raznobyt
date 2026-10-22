@@ -4411,106 +4411,6 @@
     }
   },
   {
-    "id": "tkan-shirts-a042-2",
-    "category": "shirts",
-    "subcat": [
-      "cotton100"
-    ],
-    "slug": "tkan-shirts-a042-2",
-    "title": {
-      "ua": "А042",
-      "ru": "А042"
-    },
-    "isNew": false,
-    "images": [
-      "http://raznobyt.com/images/products/A042/main/19070.jpg"
-    ],
-    "description": {
-      "ua": "100% бавовна легка, комфортна, дихаюча,",
-      "ru": "100% бавовна легка, комфортна, дихаюча,"
-    },
-    "attributes": {
-      "fabricType": "",
-      "density": "110",
-      "width": "150",
-      "colors": [
-        {
-          "color": "19070",
-          "image": "http://raznobyt.com/images/products/A042/main/19070.jpg",
-          "isMain": true
-        }
-      ],
-      "properties": [],
-      "composition": {
-        "cotton": 100,
-        "polyester": 0,
-        "spandex": 0,
-        "rayon": 0,
-        "viscose": 0,
-        "pbt": 0,
-        "lyon": 0,
-        "polyamide PA": 0,
-        "polypropylene PP": 0,
-        "para aramid": 0,
-        "antistatic": 0,
-        "Modacrylic/Lyocell/Static-Control™": 0,
-        "Nomex®/Kevlar®/Anti-Static": 0,
-        "Nomex®/Para-Aramid/p140": 0,
-        "PBI®/Kevlar®/Antistatic": 0,
-        "Lenzing FR®/Aramid": 0,
-        "Para-aramid/Solid polymer coating": 0,
-        "FR Rayon/пара-арамід/поліамід/антистатик": 0,
-        "MAC": 0
-      }
-    }
-  },
-  {
-    "id": "tkan-shirts-l939-2",
-    "category": "shirts",
-    "subcat": [
-      "cotton100"
-    ],
-    "slug": "tkan-shirts-l939-2",
-    "title": {
-      "ua": "L939",
-      "ru": "L939"
-    },
-    "isNew": false,
-    "images": [],
-    "description": {
-      "ua": "100% бавовна легка, комфортна, дихаюча,",
-      "ru": "100% бавовна  легкая, комфортная, дышащая"
-    },
-    "attributes": {
-      "fabricType": "складне",
-      "density": "192",
-      "width": "147-150",
-      "colors": [],
-      "properties": [],
-      "composition": {
-        "cotton": 100,
-        "polyester": 0,
-        "spandex": 0,
-        "rayon": 0,
-        "viscose": 0,
-        "pbt": 0,
-        "lyon": 0,
-        "polyamide PA": 0,
-        "polypropylene PP": 0,
-        "para aramid": 0,
-        "antistatic": 0,
-        "Modacrylic/Lyocell/Static-Control™": 0,
-        "Nomex®/Kevlar®/Anti-Static": 0,
-        "Nomex®/Para-Aramid/p140": 0,
-        "PBI®/Kevlar®/Antistatic": 0,
-        "Lenzing FR®/Aramid": 0,
-        "Para-aramid/Solid polymer coating": 0,
-        "FR Rayon/пара-арамід/поліамід/антистатик": 0,
-        "MAC": 0
-      }
-    }
-  },
-  {
     "id": "tkan-shirts--2",
     "category": "shirts",
     "slug": "tkan-shirts--2",
@@ -6649,6 +6549,76 @@
     "id": "tkan-shirts--63",
     "category": "shirts",
     "slug": "tkan-shirts--63",
+    "title": {},
+    "isNew": false,
+    "images": [],
+    "description": {},
+    "attributes": {
+      "width": null,
+      "colors": [],
+      "properties": [],
+      "composition": {
+        "cotton": 0,
+        "polyester": 0,
+        "spandex": 0,
+        "rayon": 0,
+        "viscose": 0,
+        "pbt": 0,
+        "lyon": 0,
+        "polyamide PA": 0,
+        "polypropylene PP": 0,
+        "para aramid": 0,
+        "antistatic": 0,
+        "Modacrylic/Lyocell/Static-Control™": 0,
+        "Nomex®/Kevlar®/Anti-Static": 0,
+        "Nomex®/Para-Aramid/p140": 0,
+        "PBI®/Kevlar®/Antistatic": 0,
+        "Lenzing FR®/Aramid": 0,
+        "Para-aramid/Solid polymer coating": 0,
+        "FR Rayon/пара-арамід/поліамід/антистатик": 0,
+        "MAC": 0
+      }
+    }
+  },
+  {
+    "id": "tkan-shirts--64",
+    "category": "shirts",
+    "slug": "tkan-shirts--64",
+    "title": {},
+    "isNew": false,
+    "images": [],
+    "description": {},
+    "attributes": {
+      "width": null,
+      "colors": [],
+      "properties": [],
+      "composition": {
+        "cotton": 0,
+        "polyester": 0,
+        "spandex": 0,
+        "rayon": 0,
+        "viscose": 0,
+        "pbt": 0,
+        "lyon": 0,
+        "polyamide PA": 0,
+        "polypropylene PP": 0,
+        "para aramid": 0,
+        "antistatic": 0,
+        "Modacrylic/Lyocell/Static-Control™": 0,
+        "Nomex®/Kevlar®/Anti-Static": 0,
+        "Nomex®/Para-Aramid/p140": 0,
+        "PBI®/Kevlar®/Antistatic": 0,
+        "Lenzing FR®/Aramid": 0,
+        "Para-aramid/Solid polymer coating": 0,
+        "FR Rayon/пара-арамід/поліамід/антистатик": 0,
+        "MAC": 0
+      }
+    }
+  },
+  {
+    "id": "tkan-shirts--65",
+    "category": "shirts",
+    "slug": "tkan-shirts--65",
     "title": {},
     "isNew": false,
     "images": [],

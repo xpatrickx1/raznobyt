@@ -3522,6 +3522,57 @@
     }
   },
   {
+    "id": "tkan-workwear-3427",
+    "category": "workwear",
+    "slug": "tkan-workwear-3427",
+    "title": {
+      "ua": "3427",
+      "ru": "3427"
+    },
+    "isNew": false,
+    "images": [
+      "http://raznobyt.com/images/products/3427/main/3427.jpg"
+    ],
+    "description": {
+      "ua": "100% поліестр, камуфляж,Щільність: 250гр/м2, міцна, підвищена зносостійкість",
+      "ru": "100% полиестр, камуфляж,Плотность: 250гр/м2, прочная ткань с повышенной износостойкостью"
+    },
+    "attributes": {
+      "fabricType": "ріп-стоп",
+      "density": "250",
+      "width": "150",
+      "colors": [
+        {
+          "color": "3427",
+          "image": "http://raznobyt.com/images/products/3427/main/3427.jpg",
+          "isMain": true
+        }
+      ],
+      "properties": [],
+      "composition": {
+        "cotton": 0,
+        "polyester": 100,
+        "spandex": 0,
+        "rayon": 0,
+        "viscose": 0,
+        "pbt": 0,
+        "lyon": 0,
+        "polyamide PA": 0,
+        "polypropylene PP": 0,
+        "para aramid": 0,
+        "antistatic": 0,
+        "Modacrylic/Lyocell/Static-Control™": 0,
+        "Nomex®/Kevlar®/Anti-Static": 0,
+        "Nomex®/Para-Aramid/p140": 0,
+        "PBI®/Kevlar®/Antistatic": 0,
+        "Lenzing FR®/Aramid": 0,
+        "Para-aramid/Solid polymer coating": 0,
+        "FR Rayon/пара-арамід/поліамід/антистатик": 0,
+        "MAC": 0
+      }
+    }
+  },
+  {
     "id": "tkan-workwear-nakolinnyk",
     "category": "workwear",
     "slug": "tkan-workwear-nakolinnyk",
@@ -10096,13 +10147,10 @@
     }
   },
   {
-    "id": "tkan-fire-bg-9045",
+    "id": "tkan-fire-",
     "category": "fire",
-    "slug": "tkan-fire-bg-9045",
-    "title": {
-      "ua": "BG 9045",
-      "ru": "BG 9045"
-    },
+    "slug": "tkan-fire-",
+    "title": {},
     "isNew": false,
     "images": [
       "http://raznobyt.com/images/products/BG 9045/main/65613.jpg",
@@ -10165,13 +10213,10 @@
     }
   },
   {
-    "id": "tkan-fire-bg-9035",
+    "id": "tkan-fire--2",
     "category": "fire",
-    "slug": "tkan-fire-bg-9035",
-    "title": {
-      "ua": "BG 9035",
-      "ru": "BG 9035"
-    },
+    "slug": "tkan-fire--2",
+    "title": {},
     "isNew": false,
     "images": [
       "http://raznobyt.com/images/products/BG 9035/main/BLACK.jpg"
@@ -10216,13 +10261,10 @@
     }
   },
   {
-    "id": "tkan-fire-bg-9500",
+    "id": "tkan-fire--3",
     "category": "fire",
-    "slug": "tkan-fire-bg-9500",
-    "title": {
-      "ua": "BG 9500",
-      "ru": "BG 9500"
-    },
+    "slug": "tkan-fire--3",
+    "title": {},
     "isNew": false,
     "images": [
       "http://raznobyt.com/images/products/BG 9500/main/60662.jpg",
@@ -10291,13 +10333,10 @@
     }
   },
   {
-    "id": "tkan-fire-xb-9340",
+    "id": "tkan-fire--4",
     "category": "fire",
-    "slug": "tkan-fire-xb-9340",
-    "title": {
-      "ua": "XB 9340",
-      "ru": "XB 9340"
-    },
+    "slug": "tkan-fire--4",
+    "title": {},
     "isNew": false,
     "images": [
       "http://raznobyt.com/images/products/XB 9340/main/42049.jpg",
@@ -10348,13 +10387,10 @@
     }
   },
   {
-    "id": "tkan-fire-ks52",
+    "id": "tkan-fire--5",
     "category": "fire",
-    "slug": "tkan-fire-ks52",
-    "title": {
-      "ua": "KS52",
-      "ru": "KS52"
-    },
+    "slug": "tkan-fire--5",
+    "title": {},
     "isNew": false,
     "images": [
       "http://raznobyt.com/images/products/KS 52/main/47240.jpg"
@@ -10399,13 +10435,10 @@
     }
   },
   {
-    "id": "tkan-fire-xl-9325",
+    "id": "tkan-fire--6",
     "category": "fire",
-    "slug": "tkan-fire-xl-9325",
-    "title": {
-      "ua": "XL 9325",
-      "ru": "XL 9325"
-    },
+    "slug": "tkan-fire--6",
+    "title": {},
     "isNew": false,
     "images": [
       "http://raznobyt.com/images/products/XL 9325/main/89253.jpg",
@@ -10462,13 +10495,10 @@
     }
   },
   {
-    "id": "tkan-fire-xa-9001",
+    "id": "tkan-fire--7",
     "category": "fire",
-    "slug": "tkan-fire-xa-9001",
-    "title": {
-      "ua": "XA 9001",
-      "ru": "XA 9001"
-    },
+    "slug": "tkan-fire--7",
+    "title": {},
     "isNew": false,
     "images": [
       "http://raznobyt.com/images/products/XA 9001/main/89072.jpg"
@@ -10513,13 +10543,10 @@
     }
   },
   {
-    "id": "tkan-fire-xl-9300",
+    "id": "tkan-fire--8",
     "category": "fire",
-    "slug": "tkan-fire-xl-9300",
-    "title": {
-      "ua": "XL 9300",
-      "ru": "XL 9300"
-    },
+    "slug": "tkan-fire--8",
+    "title": {},
     "isNew": false,
     "images": [
       "http://raznobyt.com/images/products/XL 9300/main/89250.jpg"
@@ -10564,13 +10591,10 @@
     }
   },
   {
-    "id": "tkan-fire-bv-9120",
+    "id": "tkan-fire--9",
     "category": "fire",
-    "slug": "tkan-fire-bv-9120",
-    "title": {
-      "ua": "BV 9120",
-      "ru": "BV 9120"
-    },
+    "slug": "tkan-fire--9",
+    "title": {},
     "isNew": false,
     "images": [
       "http://raznobyt.com/images/products/BV 9120/main/89201.jpg"
@@ -10615,13 +10639,10 @@
     }
   },
   {
-    "id": "tkan-fire-defender-m-cq-760",
+    "id": "tkan-fire--10",
     "category": "fire",
-    "slug": "tkan-fire-defender-m-cq-760",
-    "title": {
-      "ua": "Defender® M - CQ 760",
-      "ru": "Defender® M - CQ 760"
-    },
+    "slug": "tkan-fire--10",
+    "title": {},
     "isNew": false,
     "images": [
       "http://raznobyt.com/images/products/Defender® M - CQ 760/main/Gold 35328.jpg"
@@ -10669,13 +10690,10 @@
     }
   },
   {
-    "id": "tkan-fire-av-9400",
+    "id": "tkan-fire--11",
     "category": "fire",
-    "slug": "tkan-fire-av-9400",
-    "title": {
-      "ua": "AV 9400",
-      "ru": "AV 9400"
-    },
+    "slug": "tkan-fire--11",
+    "title": {},
     "isNew": false,
     "images": [
       "http://raznobyt.com/images/products/AV 9400/main/89374.jpg"
@@ -10720,13 +10738,10 @@
     }
   },
   {
-    "id": "tkan-fire-pbi-peak5",
+    "id": "tkan-fire--12",
     "category": "fire",
-    "slug": "tkan-fire-pbi-peak5",
-    "title": {
-      "ua": "PBI® Peak5®",
-      "ru": "PBI® Peak5®"
-    },
+    "slug": "tkan-fire--12",
+    "title": {},
     "isNew": false,
     "images": [
       "http://raznobyt.com/images/products/PBI® Peak5®/main/PBI_Peak_5_Gold.jpg"
@@ -10774,13 +10789,10 @@
     }
   },
   {
-    "id": "tkan-fire-ara-shield-kr-9610",
+    "id": "tkan-fire--13",
     "category": "fire",
-    "slug": "tkan-fire-ara-shield-kr-9610",
-    "title": {
-      "ua": "Ara-Shield KR 9610",
-      "ru": "Ara-Shield KR 9610"
-    },
+    "slug": "tkan-fire--13",
+    "title": {},
     "isNew": false,
     "images": [
       "http://raznobyt.com/images/products/Ara-Shield KR 9610/main/Black 2389.jpg"
@@ -15563,106 +15575,6 @@
     }
   },
   {
-    "id": "tkan-shirts-a042-2",
-    "category": "shirts",
-    "subcat": [
-      "cotton100"
-    ],
-    "slug": "tkan-shirts-a042-2",
-    "title": {
-      "ua": "А042",
-      "ru": "А042"
-    },
-    "isNew": false,
-    "images": [
-      "http://raznobyt.com/images/products/A042/main/19070.jpg"
-    ],
-    "description": {
-      "ua": "100% бавовна легка, комфортна, дихаюча,",
-      "ru": "100% бавовна легка, комфортна, дихаюча,"
-    },
-    "attributes": {
-      "fabricType": "",
-      "density": "110",
-      "width": "150",
-      "colors": [
-        {
-          "color": "19070",
-          "image": "http://raznobyt.com/images/products/A042/main/19070.jpg",
-          "isMain": true
-        }
-      ],
-      "properties": [],
-      "composition": {
-        "cotton": 100,
-        "polyester": 0,
-        "spandex": 0,
-        "rayon": 0,
-        "viscose": 0,
-        "pbt": 0,
-        "lyon": 0,
-        "polyamide PA": 0,
-        "polypropylene PP": 0,
-        "para aramid": 0,
-        "antistatic": 0,
-        "Modacrylic/Lyocell/Static-Control™": 0,
-        "Nomex®/Kevlar®/Anti-Static": 0,
-        "Nomex®/Para-Aramid/p140": 0,
-        "PBI®/Kevlar®/Antistatic": 0,
-        "Lenzing FR®/Aramid": 0,
-        "Para-aramid/Solid polymer coating": 0,
-        "FR Rayon/пара-арамід/поліамід/антистатик": 0,
-        "MAC": 0
-      }
-    }
-  },
-  {
-    "id": "tkan-shirts-l939-2",
-    "category": "shirts",
-    "subcat": [
-      "cotton100"
-    ],
-    "slug": "tkan-shirts-l939-2",
-    "title": {
-      "ua": "L939",
-      "ru": "L939"
-    },
-    "isNew": false,
-    "images": [],
-    "description": {
-      "ua": "100% бавовна легка, комфортна, дихаюча,",
-      "ru": "100% бавовна  легкая, комфортная, дышащая"
-    },
-    "attributes": {
-      "fabricType": "складне",
-      "density": "192",
-      "width": "147-150",
-      "colors": [],
-      "properties": [],
-      "composition": {
-        "cotton": 100,
-        "polyester": 0,
-        "spandex": 0,
-        "rayon": 0,
-        "viscose": 0,
-        "pbt": 0,
-        "lyon": 0,
-        "polyamide PA": 0,
-        "polypropylene PP": 0,
-        "para aramid": 0,
-        "antistatic": 0,
-        "Modacrylic/Lyocell/Static-Control™": 0,
-        "Nomex®/Kevlar®/Anti-Static": 0,
-        "Nomex®/Para-Aramid/p140": 0,
-        "PBI®/Kevlar®/Antistatic": 0,
-        "Lenzing FR®/Aramid": 0,
-        "Para-aramid/Solid polymer coating": 0,
-        "FR Rayon/пара-арамід/поліамід/антистатик": 0,
-        "MAC": 0
-      }
-    }
-  },
-  {
     "id": "tkan-shirts--2",
     "category": "shirts",
     "slug": "tkan-shirts--2",
@@ -17833,6 +17745,76 @@
     }
   },
   {
+    "id": "tkan-shirts--64",
+    "category": "shirts",
+    "slug": "tkan-shirts--64",
+    "title": {},
+    "isNew": false,
+    "images": [],
+    "description": {},
+    "attributes": {
+      "width": null,
+      "colors": [],
+      "properties": [],
+      "composition": {
+        "cotton": 0,
+        "polyester": 0,
+        "spandex": 0,
+        "rayon": 0,
+        "viscose": 0,
+        "pbt": 0,
+        "lyon": 0,
+        "polyamide PA": 0,
+        "polypropylene PP": 0,
+        "para aramid": 0,
+        "antistatic": 0,
+        "Modacrylic/Lyocell/Static-Control™": 0,
+        "Nomex®/Kevlar®/Anti-Static": 0,
+        "Nomex®/Para-Aramid/p140": 0,
+        "PBI®/Kevlar®/Antistatic": 0,
+        "Lenzing FR®/Aramid": 0,
+        "Para-aramid/Solid polymer coating": 0,
+        "FR Rayon/пара-арамід/поліамід/антистатик": 0,
+        "MAC": 0
+      }
+    }
+  },
+  {
+    "id": "tkan-shirts--65",
+    "category": "shirts",
+    "slug": "tkan-shirts--65",
+    "title": {},
+    "isNew": false,
+    "images": [],
+    "description": {},
+    "attributes": {
+      "width": null,
+      "colors": [],
+      "properties": [],
+      "composition": {
+        "cotton": 0,
+        "polyester": 0,
+        "spandex": 0,
+        "rayon": 0,
+        "viscose": 0,
+        "pbt": 0,
+        "lyon": 0,
+        "polyamide PA": 0,
+        "polypropylene PP": 0,
+        "para aramid": 0,
+        "antistatic": 0,
+        "Modacrylic/Lyocell/Static-Control™": 0,
+        "Nomex®/Kevlar®/Anti-Static": 0,
+        "Nomex®/Para-Aramid/p140": 0,
+        "PBI®/Kevlar®/Antistatic": 0,
+        "Lenzing FR®/Aramid": 0,
+        "Para-aramid/Solid polymer coating": 0,
+        "FR Rayon/пара-арамід/поліамід/антистатик": 0,
+        "MAC": 0
+      }
+    }
+  },
+  {
     "id": "tkan-shirts-l601",
     "category": "shirts",
     "subcat": [
@@ -18884,6 +18866,57 @@
     }
   },
   {
+    "id": "tkan-jackets-3188",
+    "category": "jackets",
+    "slug": "tkan-jackets-3188",
+    "title": {
+      "ua": "3188",
+      "ru": "3188"
+    },
+    "isNew": false,
+    "images": [
+      "http://raznobyt.com/images/products/3188/MAZARINE BLUE.jpg"
+    ],
+    "description": {
+      "ua": "75% бавовна, 24% поліестер, 1% антистат,  ВО Водовідштовхувальна 300г/м.кв",
+      "ru": "75% хлопок, 24% полиестер, 1% антистатик,  ВО Водоотталкивающая 300г/м.кв"
+    },
+    "attributes": {
+      "fabricType": "саржа",
+      "density": "300",
+      "width": "150",
+      "colors": [
+        {
+          "color": "MAZARINE BLUE",
+          "image": "http://raznobyt.com/images/products/3188/MAZARINE BLUE.jpg",
+          "isMain": true
+        }
+      ],
+      "properties": [],
+      "composition": {
+        "cotton": 75,
+        "polyester": 24,
+        "spandex": 0,
+        "rayon": 0,
+        "viscose": 0,
+        "pbt": 0,
+        "lyon": 0,
+        "polyamide PA": 0,
+        "polypropylene PP": 0,
+        "para aramid": 0,
+        "antistatic": 1,
+        "Modacrylic/Lyocell/Static-Control™": 0,
+        "Nomex®/Kevlar®/Anti-Static": 0,
+        "Nomex®/Para-Aramid/p140": 0,
+        "PBI®/Kevlar®/Antistatic": 0,
+        "Lenzing FR®/Aramid": 0,
+        "Para-aramid/Solid polymer coating": 0,
+        "FR Rayon/пара-арамід/поліамід/антистатик": 0,
+        "MAC": 0
+      }
+    }
+  },
+  {
     "id": "tkan-jackets-22001",
     "category": "jackets",
     "slug": "tkan-jackets-22001",
@@ -19096,7 +19129,9 @@
       "ru": "6793EN"
     },
     "isNew": false,
-    "images": [],
+    "images": [
+      "http://raznobyt.com/images/products/6793EN/main/6793EN.jpg"
+    ],
     "description": {
       "ua": "100% поліестер ВО водовідштовхуюча 320г/м.кв",
       "ru": "100% полиестер ВО водоотталкивающая 320г/м.кв"
@@ -19105,7 +19140,13 @@
       "fabricType": "саржа",
       "density": "320",
       "width": "150",
-      "colors": [],
+      "colors": [
+        {
+          "color": "6793EN",
+          "image": "http://raznobyt.com/images/products/6793EN/main/6793EN.jpg",
+          "isMain": true
+        }
+      ],
       "properties": [],
       "composition": {
         "cotton": 42,
@@ -19182,351 +19223,36 @@
     }
   },
   {
-    "id": "tkan-jackets-",
+    "id": "tkan-jackets-3427",
     "category": "jackets",
-    "slug": "tkan-jackets-",
-    "title": {},
-    "isNew": false,
-    "images": [],
-    "description": {},
-    "attributes": {
-      "width": null,
-      "colors": [],
-      "properties": [],
-      "composition": {
-        "cotton": 0,
-        "polyester": 0,
-        "spandex": 0,
-        "rayon": 0,
-        "viscose": 0,
-        "pbt": 0,
-        "lyon": 0,
-        "polyamide PA": 0,
-        "polypropylene PP": 0,
-        "para aramid": 0,
-        "antistatic": 0,
-        "Modacrylic/Lyocell/Static-Control™": 0,
-        "Nomex®/Kevlar®/Anti-Static": 0,
-        "Nomex®/Para-Aramid/p140": 0,
-        "PBI®/Kevlar®/Antistatic": 0,
-        "Lenzing FR®/Aramid": 0,
-        "Para-aramid/Solid polymer coating": 0,
-        "FR Rayon/пара-арамід/поліамід/антистатик": 0,
-        "MAC": 0
-      }
-    }
-  },
-  {
-    "id": "tkan-jackets--2",
-    "category": "jackets",
-    "slug": "tkan-jackets--2",
-    "title": {},
-    "isNew": false,
-    "images": [],
-    "description": {},
-    "attributes": {
-      "width": null,
-      "colors": [],
-      "properties": [],
-      "composition": {
-        "cotton": 0,
-        "polyester": 0,
-        "spandex": 0,
-        "rayon": 0,
-        "viscose": 0,
-        "pbt": 0,
-        "lyon": 0,
-        "polyamide PA": 0,
-        "polypropylene PP": 0,
-        "para aramid": 0,
-        "antistatic": 0,
-        "Modacrylic/Lyocell/Static-Control™": 0,
-        "Nomex®/Kevlar®/Anti-Static": 0,
-        "Nomex®/Para-Aramid/p140": 0,
-        "PBI®/Kevlar®/Antistatic": 0,
-        "Lenzing FR®/Aramid": 0,
-        "Para-aramid/Solid polymer coating": 0,
-        "FR Rayon/пара-арамід/поліамід/антистатик": 0,
-        "MAC": 0
-      }
-    }
-  },
-  {
-    "id": "tkan-jackets--3",
-    "category": "jackets",
-    "slug": "tkan-jackets--3",
-    "title": {},
-    "isNew": false,
-    "images": [],
-    "description": {},
-    "attributes": {
-      "width": null,
-      "colors": [],
-      "properties": [],
-      "composition": {
-        "cotton": 0,
-        "polyester": 0,
-        "spandex": 0,
-        "rayon": 0,
-        "viscose": 0,
-        "pbt": 0,
-        "lyon": 0,
-        "polyamide PA": 0,
-        "polypropylene PP": 0,
-        "para aramid": 0,
-        "antistatic": 0,
-        "Modacrylic/Lyocell/Static-Control™": 0,
-        "Nomex®/Kevlar®/Anti-Static": 0,
-        "Nomex®/Para-Aramid/p140": 0,
-        "PBI®/Kevlar®/Antistatic": 0,
-        "Lenzing FR®/Aramid": 0,
-        "Para-aramid/Solid polymer coating": 0,
-        "FR Rayon/пара-арамід/поліамід/антистатик": 0,
-        "MAC": 0
-      }
-    }
-  },
-  {
-    "id": "tkan-jackets--4",
-    "category": "jackets",
-    "slug": "tkan-jackets--4",
-    "title": {},
-    "isNew": false,
-    "images": [],
-    "description": {},
-    "attributes": {
-      "width": null,
-      "colors": [],
-      "properties": [],
-      "composition": {
-        "cotton": 0,
-        "polyester": 0,
-        "spandex": 0,
-        "rayon": 0,
-        "viscose": 0,
-        "pbt": 0,
-        "lyon": 0,
-        "polyamide PA": 0,
-        "polypropylene PP": 0,
-        "para aramid": 0,
-        "antistatic": 0,
-        "Modacrylic/Lyocell/Static-Control™": 0,
-        "Nomex®/Kevlar®/Anti-Static": 0,
-        "Nomex®/Para-Aramid/p140": 0,
-        "PBI®/Kevlar®/Antistatic": 0,
-        "Lenzing FR®/Aramid": 0,
-        "Para-aramid/Solid polymer coating": 0,
-        "FR Rayon/пара-арамід/поліамід/антистатик": 0,
-        "MAC": 0
-      }
-    }
-  },
-  {
-    "id": "tkan-jackets--5",
-    "category": "jackets",
-    "slug": "tkan-jackets--5",
-    "title": {},
-    "isNew": false,
-    "images": [],
-    "description": {},
-    "attributes": {
-      "width": null,
-      "colors": [],
-      "properties": [],
-      "composition": {
-        "cotton": 0,
-        "polyester": 0,
-        "spandex": 0,
-        "rayon": 0,
-        "viscose": 0,
-        "pbt": 0,
-        "lyon": 0,
-        "polyamide PA": 0,
-        "polypropylene PP": 0,
-        "para aramid": 0,
-        "antistatic": 0,
-        "Modacrylic/Lyocell/Static-Control™": 0,
-        "Nomex®/Kevlar®/Anti-Static": 0,
-        "Nomex®/Para-Aramid/p140": 0,
-        "PBI®/Kevlar®/Antistatic": 0,
-        "Lenzing FR®/Aramid": 0,
-        "Para-aramid/Solid polymer coating": 0,
-        "FR Rayon/пара-арамід/поліамід/антистатик": 0,
-        "MAC": 0
-      }
-    }
-  },
-  {
-    "id": "tkan-jackets--6",
-    "category": "jackets",
-    "slug": "tkan-jackets--6",
-    "title": {},
-    "isNew": false,
-    "images": [],
-    "description": {},
-    "attributes": {
-      "width": null,
-      "colors": [],
-      "properties": [],
-      "composition": {
-        "cotton": 0,
-        "polyester": 0,
-        "spandex": 0,
-        "rayon": 0,
-        "viscose": 0,
-        "pbt": 0,
-        "lyon": 0,
-        "polyamide PA": 0,
-        "polypropylene PP": 0,
-        "para aramid": 0,
-        "antistatic": 0,
-        "Modacrylic/Lyocell/Static-Control™": 0,
-        "Nomex®/Kevlar®/Anti-Static": 0,
-        "Nomex®/Para-Aramid/p140": 0,
-        "PBI®/Kevlar®/Antistatic": 0,
-        "Lenzing FR®/Aramid": 0,
-        "Para-aramid/Solid polymer coating": 0,
-        "FR Rayon/пара-арамід/поліамід/антистатик": 0,
-        "MAC": 0
-      }
-    }
-  },
-  {
-    "id": "tkan-jackets--7",
-    "category": "jackets",
-    "slug": "tkan-jackets--7",
-    "title": {},
-    "isNew": false,
-    "images": [],
-    "description": {},
-    "attributes": {
-      "width": null,
-      "colors": [],
-      "properties": [],
-      "composition": {
-        "cotton": 0,
-        "polyester": 0,
-        "spandex": 0,
-        "rayon": 0,
-        "viscose": 0,
-        "pbt": 0,
-        "lyon": 0,
-        "polyamide PA": 0,
-        "polypropylene PP": 0,
-        "para aramid": 0,
-        "antistatic": 0,
-        "Modacrylic/Lyocell/Static-Control™": 0,
-        "Nomex®/Kevlar®/Anti-Static": 0,
-        "Nomex®/Para-Aramid/p140": 0,
-        "PBI®/Kevlar®/Antistatic": 0,
-        "Lenzing FR®/Aramid": 0,
-        "Para-aramid/Solid polymer coating": 0,
-        "FR Rayon/пара-арамід/поліамід/антистатик": 0,
-        "MAC": 0
-      }
-    }
-  },
-  {
-    "id": "tkan-jackets--8",
-    "category": "jackets",
-    "slug": "tkan-jackets--8",
-    "title": {},
-    "isNew": false,
-    "images": [],
-    "description": {},
-    "attributes": {
-      "width": null,
-      "colors": [],
-      "properties": [],
-      "composition": {
-        "cotton": 0,
-        "polyester": 0,
-        "spandex": 0,
-        "rayon": 0,
-        "viscose": 0,
-        "pbt": 0,
-        "lyon": 0,
-        "polyamide PA": 0,
-        "polypropylene PP": 0,
-        "para aramid": 0,
-        "antistatic": 0,
-        "Modacrylic/Lyocell/Static-Control™": 0,
-        "Nomex®/Kevlar®/Anti-Static": 0,
-        "Nomex®/Para-Aramid/p140": 0,
-        "PBI®/Kevlar®/Antistatic": 0,
-        "Lenzing FR®/Aramid": 0,
-        "Para-aramid/Solid polymer coating": 0,
-        "FR Rayon/пара-арамід/поліамід/антистатик": 0,
-        "MAC": 0
-      }
-    }
-  },
-  {
-    "id": "tkan-jackets--9",
-    "category": "jackets",
-    "slug": "tkan-jackets--9",
-    "title": {},
-    "isNew": false,
-    "images": [],
-    "description": {},
-    "attributes": {
-      "width": null,
-      "colors": [],
-      "properties": [],
-      "composition": {
-        "cotton": 0,
-        "polyester": 0,
-        "spandex": 0,
-        "rayon": 0,
-        "viscose": 0,
-        "pbt": 0,
-        "lyon": 0,
-        "polyamide PA": 0,
-        "polypropylene PP": 0,
-        "para aramid": 0,
-        "antistatic": 0,
-        "Modacrylic/Lyocell/Static-Control™": 0,
-        "Nomex®/Kevlar®/Anti-Static": 0,
-        "Nomex®/Para-Aramid/p140": 0,
-        "PBI®/Kevlar®/Antistatic": 0,
-        "Lenzing FR®/Aramid": 0,
-        "Para-aramid/Solid polymer coating": 0,
-        "FR Rayon/пара-арамід/поліамід/антистатик": 0,
-        "MAC": 0
-      }
-    }
-  },
-  {
-    "id": "tkan-jackets-3188",
-    "category": "jackets",
-    "slug": "tkan-jackets-3188",
+    "slug": "tkan-jackets-3427",
     "title": {
-      "ua": "3188",
-      "ru": "3188"
+      "ua": "3427",
+      "ru": "3427"
     },
     "isNew": false,
     "images": [
-      "http://raznobyt.com/images/products/3188/MAZARINE BLUE.jpg"
+      "http://raznobyt.com/images/products/3427/main/3427.jpg"
     ],
     "description": {
-      "ua": "75% бавовна, 24% поліестер, 1% антистат,  ВО Водовідштовхувальна 300г/м.кв",
-      "ru": "75% хлопок, 24% полиестер, 1% антистатик,  ВО Водоотталкивающая 300г/м.кв"
+      "ua": "100% поліестр, камуфляж,Щільність: 250гр/м2, міцна, підвищена зносостійкість",
+      "ru": "100% полиестр, камуфляж,Плотность: 250гр/м2, прочная ткань с повышенной износостойкостью"
     },
     "attributes": {
-      "fabricType": "саржа",
-      "density": "300",
+      "fabricType": "ріп-стоп",
+      "density": "250",
       "width": "150",
       "colors": [
         {
-          "color": "MAZARINE BLUE",
-          "image": "http://raznobyt.com/images/products/3188/MAZARINE BLUE.jpg",
+          "color": "3427",
+          "image": "http://raznobyt.com/images/products/3427/main/3427.jpg",
           "isMain": true
         }
       ],
       "properties": [],
       "composition": {
-        "cotton": 75,
-        "polyester": 24,
+        "cotton": 0,
+        "polyester": 100,
         "spandex": 0,
         "rayon": 0,
         "viscose": 0,
@@ -19535,7 +19261,7 @@
         "polyamide PA": 0,
         "polypropylene PP": 0,
         "para aramid": 0,
-        "antistatic": 1,
+        "antistatic": 0,
         "Modacrylic/Lyocell/Static-Control™": 0,
         "Nomex®/Kevlar®/Anti-Static": 0,
         "Nomex®/Para-Aramid/p140": 0,
@@ -21818,7 +21544,9 @@
       "ru": "А741"
     },
     "isNew": false,
-    "images": [],
+    "images": [
+      "http://raznobyt.com/images/products/А741/main/А741.jpg"
+    ],
     "description": {
       "ua": "100% льон,  130 г/м.кв,  полотно, 150см",
       "ru": "100% лен,  130 г/м.кв,  полотно,  150см"
@@ -21827,7 +21555,13 @@
       "fabricType": "полотно",
       "density": "130",
       "width": "150",
-      "colors": [],
+      "colors": [
+        {
+          "color": "А741",
+          "image": "http://raznobyt.com/images/products/А741/main/А741.jpg",
+          "isMain": true
+        }
+      ],
       "properties": [],
       "composition": {
         "cotton": 0,
@@ -22159,7 +21893,9 @@
       "ru": "В128"
     },
     "isNew": false,
-    "images": [],
+    "images": [
+      "http://raznobyt.com/images/products/B128/main/B128.jpg"
+    ],
     "description": {
       "ua": "55% льон,  45% бавовна,  260 г/м.кв,  саржа,  150см",
       "ru": "55% лен,  45% хлопок,  260 г/м.кв,  саржа,  150см"
@@ -22168,7 +21904,13 @@
       "fabricType": "саржа",
       "density": "260",
       "width": "150",
-      "colors": [],
+      "colors": [
+        {
+          "color": "B128",
+          "image": "http://raznobyt.com/images/products/B128/main/B128.jpg",
+          "isMain": true
+        }
+      ],
       "properties": [],
       "composition": {
         "cotton": 45,
@@ -22194,15 +21936,18 @@
     }
   },
   {
-    "id": "tkan-linen-873",
+    "id": "tkan-linen-0873",
     "category": "linen",
-    "slug": "tkan-linen-873",
+    "slug": "tkan-linen-0873",
     "title": {
-      "ua": "873",
-      "ru": "873"
+      "ua": "0873",
+      "ru": "0873"
     },
     "isNew": false,
-    "images": [],
+    "images": [
+      "http://raznobyt.com/images/products/0873/main/18286.jpg",
+      "http://raznobyt.com/images/products/0873/18284.jpg"
+    ],
     "description": {
       "ua": "55% льон,  45% бавовна,  126 г/м.кв,  саржа,  150см",
       "ru": "55% лен,  45% хлопок,  126 г/м.кв,  полотно,  150см"
@@ -22211,7 +21956,18 @@
       "fabricType": "полотно",
       "density": "126",
       "width": "150",
-      "colors": [],
+      "colors": [
+        {
+          "color": "18286",
+          "image": "http://raznobyt.com/images/products/0873/main/18286.jpg",
+          "isMain": true
+        },
+        {
+          "color": "18284",
+          "image": "http://raznobyt.com/images/products/0873/18284.jpg",
+          "isMain": false
+        }
+      ],
       "properties": [],
       "composition": {
         "cotton": 45,
