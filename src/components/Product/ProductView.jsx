@@ -191,7 +191,7 @@ export default function ProductView({ product, related = [] }) {
                             {imageUrls.length > 0 ? (
                                 <picture>
                                     <source
-                                        media="(max-width: 767px)"
+                                        media="(min-width: 768px)"
                                         srcSet={imageUrls[activeImg]}
                                     />
 

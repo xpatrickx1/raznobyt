@@ -69,7 +69,7 @@ export default function Navbar() {
             <div className="topbar__left">
               <span className="status-dot" aria-hidden="true" />
               <span className="topbar__schedule">
-                {lang === 'ua' ? 'Пн–Пт: 9:00–18:00' : 'Пн–Пт: 9:00–18:00'}
+                {lang === 'ua' ? 'Пн–Пт: 9:00–17:00' : 'Пн–Пт: 9:00–17:00'}
               </span>
             </div>
 

@@ -1,9 +1,23 @@
 import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
 import path from 'path'
+import criticalCss from 'vite-plugin-critical-css';
 
 export default defineConfig({
-  plugins: [react()],
+  plugins: [
+    react(),
+    criticalCss({
+      dimensions: [
+        { width: 390, height: 844 },
+        { width: 1440, height: 900 },
+      ],
+      pages: ['**/*.html'],
+      inline: true,
+      deferStylesheets: true,
+      timeout: 60000,
+      logListings: true,
+    }),
+  ],
 
   assetsInclude: [
     '**/*.p7s',
