@@ -1,9 +1,12 @@
 [
   {
-    "id": "tkan-fire-",
+    "id": "tkan-fire-bg-9045",
     "category": "fire",
-    "slug": "tkan-fire-",
-    "title": {},
+    "slug": "tkan-fire-bg-9045",
+    "title": {
+      "ua": "BG 9045",
+      "ru": "BG 9045"
+    },
     "isNew": false,
     "images": [
       "http://raznobyt.com/images/products/BG 9045/main/65613.jpg",
@@ -66,10 +69,13 @@
     }
   },
   {
-    "id": "tkan-fire--2",
+    "id": "tkan-fire-bg-9035",
     "category": "fire",
-    "slug": "tkan-fire--2",
-    "title": {},
+    "slug": "tkan-fire-bg-9035",
+    "title": {
+      "ua": "BG 9035",
+      "ru": "BG 9035"
+    },
     "isNew": false,
     "images": [
       "http://raznobyt.com/images/products/BG 9035/main/BLACK.jpg"
@@ -114,10 +120,13 @@
     }
   },
   {
-    "id": "tkan-fire--3",
+    "id": "tkan-fire-bg-9500",
     "category": "fire",
-    "slug": "tkan-fire--3",
-    "title": {},
+    "slug": "tkan-fire-bg-9500",
+    "title": {
+      "ua": "BG 9500",
+      "ru": "BG 9500"
+    },
     "isNew": false,
     "images": [
       "http://raznobyt.com/images/products/BG 9500/main/60662.jpg",
@@ -186,10 +195,13 @@
     }
   },
   {
-    "id": "tkan-fire--4",
+    "id": "tkan-fire-xb-9340",
     "category": "fire",
-    "slug": "tkan-fire--4",
-    "title": {},
+    "slug": "tkan-fire-xb-9340",
+    "title": {
+      "ua": "XB 9340",
+      "ru": "XB 9340"
+    },
     "isNew": false,
     "images": [
       "http://raznobyt.com/images/products/XB 9340/main/42049.jpg",
@@ -240,10 +252,13 @@
     }
   },
   {
-    "id": "tkan-fire--5",
+    "id": "tkan-fire-ks52",
     "category": "fire",
-    "slug": "tkan-fire--5",
-    "title": {},
+    "slug": "tkan-fire-ks52",
+    "title": {
+      "ua": "KS52",
+      "ru": "KS52"
+    },
     "isNew": false,
     "images": [
       "http://raznobyt.com/images/products/KS 52/main/47240.jpg"
@@ -288,10 +303,13 @@
     }
   },
   {
-    "id": "tkan-fire--6",
+    "id": "tkan-fire-xl-9325",
     "category": "fire",
-    "slug": "tkan-fire--6",
-    "title": {},
+    "slug": "tkan-fire-xl-9325",
+    "title": {
+      "ua": "XL 9325",
+      "ru": "XL 9325"
+    },
     "isNew": false,
     "images": [
       "http://raznobyt.com/images/products/XL 9325/main/89253.jpg",
@@ -348,10 +366,13 @@
     }
   },
   {
-    "id": "tkan-fire--7",
+    "id": "tkan-fire-xa-9001",
     "category": "fire",
-    "slug": "tkan-fire--7",
-    "title": {},
+    "slug": "tkan-fire-xa-9001",
+    "title": {
+      "ua": "XA 9001",
+      "ru": "XA 9001"
+    },
     "isNew": false,
     "images": [
       "http://raznobyt.com/images/products/XA 9001/main/89072.jpg"
@@ -396,10 +417,13 @@
     }
   },
   {
-    "id": "tkan-fire--8",
+    "id": "tkan-fire-xl-9300",
     "category": "fire",
-    "slug": "tkan-fire--8",
-    "title": {},
+    "slug": "tkan-fire-xl-9300",
+    "title": {
+      "ua": "XL 9300",
+      "ru": "XL 9300"
+    },
     "isNew": false,
     "images": [
       "http://raznobyt.com/images/products/XL 9300/main/89250.jpg"
@@ -444,10 +468,13 @@
     }
   },
   {
-    "id": "tkan-fire--9",
+    "id": "tkan-fire-bv-9120",
     "category": "fire",
-    "slug": "tkan-fire--9",
-    "title": {},
+    "slug": "tkan-fire-bv-9120",
+    "title": {
+      "ua": "BV 9120",
+      "ru": "BV 9120"
+    },
     "isNew": false,
     "images": [
       "http://raznobyt.com/images/products/BV 9120/main/89201.jpg"
@@ -492,10 +519,13 @@
     }
   },
   {
-    "id": "tkan-fire--10",
+    "id": "tkan-fire-defender-m-cq-760",
     "category": "fire",
-    "slug": "tkan-fire--10",
-    "title": {},
+    "slug": "tkan-fire-defender-m-cq-760",
+    "title": {
+      "ua": "Defender® M - CQ 760",
+      "ru": "Defender® M - CQ 760"
+    },
     "isNew": false,
     "images": [
       "http://raznobyt.com/images/products/Defender® M - CQ 760/main/Gold 35328.jpg"
@@ -543,10 +573,13 @@
     }
   },
   {
-    "id": "tkan-fire--11",
+    "id": "tkan-fire-av-9400",
     "category": "fire",
-    "slug": "tkan-fire--11",
-    "title": {},
+    "slug": "tkan-fire-av-9400",
+    "title": {
+      "ua": "AV 9400",
+      "ru": "AV 9400"
+    },
     "isNew": false,
     "images": [
       "http://raznobyt.com/images/products/AV 9400/main/89374.jpg"
@@ -591,10 +624,13 @@
     }
   },
   {
-    "id": "tkan-fire--12",
+    "id": "tkan-fire-pbi-peak5",
     "category": "fire",
-    "slug": "tkan-fire--12",
-    "title": {},
+    "slug": "tkan-fire-pbi-peak5",
+    "title": {
+      "ua": "PBI® Peak5®",
+      "ru": "PBI® Peak5®"
+    },
     "isNew": false,
     "images": [
       "http://raznobyt.com/images/products/PBI® Peak5®/main/PBI_Peak_5_Gold.jpg"
@@ -642,10 +678,13 @@
     }
   },
   {
-    "id": "tkan-fire--13",
+    "id": "tkan-fire-ara-shield-kr-9610",
     "category": "fire",
-    "slug": "tkan-fire--13",
-    "title": {},
+    "slug": "tkan-fire-ara-shield-kr-9610",
+    "title": {
+      "ua": "Ara-Shield KR 9610",
+      "ru": "Ara-Shield KR 9610"
+    },
     "isNew": false,
     "images": [
       "http://raznobyt.com/images/products/Ara-Shield KR 9610/main/Black 2389.jpg"

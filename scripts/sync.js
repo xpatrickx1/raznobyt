@@ -216,6 +216,12 @@ async function main() {
     totalRows += data.length;
 
     for (const row of data) {
+      // Пропускаємо порожні рядки або рядки без назви товару
+      if (!row.title || !String(row.title).trim()) {
+        console.log(`⏭️ Skipping empty row in sheet "${sheetName}"`);
+        continue;
+      }
+
       const baseSlug = `tkan-${sheetName}-${slugify(row.title)}`;
       const slug = makeUniqueSlug(baseSlug, '');
       console.log(slug);

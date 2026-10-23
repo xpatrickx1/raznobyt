@@ -424,12 +424,12 @@
     }
   },
   {
-    "id": "tkan-linen-v128",
+    "id": "tkan-linen-b128",
     "category": "linen",
-    "slug": "tkan-linen-v128",
+    "slug": "tkan-linen-b128",
     "title": {
-      "ua": "В128",
-      "ru": "В128"
+      "ua": "B128",
+      "ru": "B128"
     },
     "isNew": false,
     "images": [
