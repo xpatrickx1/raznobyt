@@ -212,7 +212,9 @@
       "ru": "3637"
     },
     "isNew": false,
-    "images": [],
+    "images": [
+      "http://raznobyt.com/images/products/3637/main/3637.jpg"
+    ],
     "description": {
       "ua": "100% поліестер,  ВО-МЕМБРАНА  Водовідштовхувальна 240г/м.кв",
       "ru": "100% полиестер,  ВО-МЕМБРАНА  Водоотталкивающая 240г/м.кв"
@@ -221,7 +223,13 @@
       "fabricType": "полотно",
       "density": "240",
       "width": "148",
-      "colors": [],
+      "colors": [
+        {
+          "color": "3637",
+          "image": "http://raznobyt.com/images/products/3637/main/3637.jpg",
+          "isMain": true
+        }
+      ],
       "properties": [],
       "composition": {
         "cotton": 0,
