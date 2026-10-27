@@ -18,13 +18,34 @@ export const COMPOSITION_FIELDS = [
     { key: 'Para-aramid/Solid polymer coating', sheetKey: 'Para-aramid/Solid polymer coating' },
     { key: 'FR Rayon/пара-арамід/поліамід/антистатик', sheetKey: 'FR Rayon/пара-арамід/поліамід/антистатик' },
     { key: 'MAC', sheetKey: 'MAC' },
+    { key: 'OWR', sheetKey: 'OWR' },
 ];
 
 export const parseComposition = (row) => {
     return Object.fromEntries(
-        COMPOSITION_FIELDS.map(({ key, sheetKey }) => [
-            key,
-            Number(row[sheetKey]) || 0,
-        ])
+        COMPOSITION_FIELDS.map(({ key, sheetKey }) => {
+            let val = row[sheetKey];
+            if (val === undefined) {
+                const foundKey = Object.keys(row).find(
+                    k => k.trim().toLowerCase() === sheetKey.toLowerCase()
+                );
+                if (foundKey) val = row[foundKey];
+            }
+            let num = Number(val);
+            if (isNaN(num)) {
+                const s = String(val ?? '').trim().toLowerCase();
+                if (s === 'true' || s === '1' || s === 'так' || s === 'yes' || s === '+') {
+                    num = 1;
+                } else {
+                    num = 0;
+                }
+            }
+            if (key === 'OWR' && (!num || num === 0)) {
+                if (row.properties && /\b(owr|мво)\b/i.test(row.properties)) {
+                    num = 1;
+                }
+            }
+            return [key, num];
+        })
     );
 };

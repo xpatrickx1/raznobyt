@@ -25,12 +25,14 @@ export const COMPOSITION_OPTIONS = [
     { id: 'Para-aramid/Solid polymer coating', label: 'Para-aramid/Solid polymer coating', labelRu: 'Para-aramid/Solid polymer coating' },
     { id: 'FR Rayon/пара-арамід/поліамід/антистатик', label: 'FR Rayon/пара-арамід/поліамід/антистатик', labelRu: 'FR Rayon/пара-арамід/поліамід/антистатик' },
     { id: 'MAC', label: 'MAC', labelRu: 'MAC' },
+    { id: 'OWR', label: 'OWR', labelRu: 'OWR' },
 ];
 
 export const getCompositionOption = (id) => {
     if (id === 'cotton') return COMPOSITION_OPTIONS.find(o => o.id === 'cotton_100') || COMPOSITION_OPTIONS.find(o => o.id === 'cotton');
     if (id === 'polyester') return COMPOSITION_OPTIONS.find(o => o.id === 'poly_100') || COMPOSITION_OPTIONS.find(o => o.id === 'polyester');
     if (id === 'antistatic' || id === 'Антистатична') return COMPOSITION_OPTIONS.find(o => o.id === 'antistatic');
+    if (typeof id === 'string' && id.toUpperCase() === 'OWR') return COMPOSITION_OPTIONS.find(o => o.id === 'OWR');
     return COMPOSITION_OPTIONS.find(o => o.id === id);
 };
 
@@ -41,9 +43,10 @@ export const getCompositionParts = (compObj, lang) => {
     return Object.entries(compObj)
         .filter(([key, value]) => Number(value) > 0)
         .map(([key, value]) => {
-            const opt = COMPOSITION_OPTIONS.find(o => o.id === key);
+            const opt = COMPOSITION_OPTIONS.find(o => o.id === key || (typeof o.id === 'string' && o.id.toLowerCase() === key.toLowerCase()));
             let name = opt ? (lang === 'ua' ? opt.label : opt.labelRu) : key;
 
+            if (key.toUpperCase() === 'OWR') return `${name}`;
             if (Number(value) === 1 && key !== 'antistatic') return `${name}`;
             return `${value}%\u00A0${name}`;
         });
@@ -80,9 +83,35 @@ export const isAntistaticProduct = (product) => {
     return false;
 };
 
+export const isOWRProduct = (product) => {
+    const comp = product?.attributes?.composition;
+    if (comp) {
+        if (typeof comp === 'string') {
+            if (/\b(owr|мво)\b/i.test(comp)) {
+                return true;
+            }
+        } else if (typeof comp === 'object') {
+            const hasOWR = Object.entries(comp).some(([k, v]) => {
+                const matchesKey = /^owr$/i.test(k.trim());
+                if (matchesKey && (Number(v) === 1 || Number(v) > 0 || String(v).trim() === '1')) return true;
+                return false;
+            });
+            if (hasOWR) return true;
+        }
+    }
+
+    if (Array.isArray(product?.attributes?.properties)) {
+        if (product.attributes.properties.some(p => /\b(owr|мво)\b/i.test(p))) {
+            return true;
+        }
+    }
+
+    return false;
+};
+
 export const getProductCompositionGroups = (product) => {
     const comp = product?.attributes?.composition;
-    if (!comp && !isAntistaticProduct(product)) return [];
+    if (!comp && !isAntistaticProduct(product) && !isOWRProduct(product)) return [];
 
     let cotton = 0;
     let polyester = 0;
@@ -143,12 +172,17 @@ export const getProductCompositionGroups = (product) => {
         groups.push('antistatic');
     }
 
+    // OWR: всі тканини що містять OWR
+    if (isOWRProduct(product)) {
+        groups.push('OWR');
+    }
+
     // Інші волокна (якщо присутні)
     otherKeys.forEach(k => {
-        if (k !== 'antistatic' && k !== 'spandex') {
+        if (k !== 'antistatic' && k !== 'spandex' && k.toUpperCase() !== 'OWR') {
             groups.push(k);
         }
     });
 
-    return groups;
+    return [...new Set(groups)];
 };

@@ -24,6 +24,7 @@ export default function ProductView({ product, related = [] }) {
     const thumbEls = useRef([]);
 
     useEffect(() => {
+        setActiveImg(0);
         const loadImages = async () => {
             const urls = (product.images?.length > 0 ? product.images : [])
                 .map(img => getProductImage(img));
@@ -143,6 +144,11 @@ export default function ProductView({ product, related = [] }) {
                                     loading="lazy"
                                     style={{ cursor: 'pointer' }}
                                     onClick={() => handleColorClick(c.image)}
+                                    onError={(e) => {
+                                        const img = e.currentTarget;
+                                        img.onerror = null;
+                                        img.src = placeholder;
+                                    }}
                                 />
                             </span>
                         ) : (
@@ -189,7 +195,7 @@ export default function ProductView({ product, related = [] }) {
                         <div className="product-images fade-up fade-up-1">
 
                             {imageUrls.length > 0 ? (
-                                <picture>
+                                <picture key={`${product.id || ''}-${activeImg}`}>
                                     <source
                                         media="(min-width: 768px)"
                                         srcSet={imageUrls[activeImg]}
@@ -208,14 +214,33 @@ export default function ProductView({ product, related = [] }) {
                                         onError={(e) => {
                                             const img = e.currentTarget;
                                             const originalUrl = imageUrls[activeImg];
+                                            if (!originalUrl) return;
+
                                             const originalAbsoluteUrl = new URL(
                                                 originalUrl,
                                                 window.location.href
                                             ).href;
 
-                                            // Якщо зламався оригінал — показуємо placeholder.
-                                            if (img.src === originalAbsoluteUrl) {
+                                            const picture = img.closest('picture');
+                                            const source = picture?.querySelector('source');
+                                            const isDesktop = typeof window !== 'undefined' && window.matchMedia
+                                                ? window.matchMedia('(min-width: 768px)').matches
+                                                : false;
+
+                                            // Якщо це мобільна версія і оригінал ще не пробували — пробуємо оригінал
+                                            if (
+                                                !isDesktop
+                                                && img.dataset.fallback !== 'original'
+                                                && img.src !== originalAbsoluteUrl
+                                            ) {
+                                                img.dataset.fallback = 'original';
+                                                img.src = originalUrl;
+                                            } else {
+                                                // Якщо оригінал зламався або ми на десктопі (де source вже був оригіналом) — показуємо placeholder
                                                 img.onerror = null;
+                                                if (source) {
+                                                    source.srcset = placeholder;
+                                                }
                                                 img.src = placeholder;
                                             }
                                         }}

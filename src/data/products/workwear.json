@@ -94,7 +94,8 @@
         "Lenzing FR®/Aramid": 0,
         "Para-aramid/Solid polymer coating": 0,
         "FR Rayon/пара-арамід/поліамід/антистатик": 0,
-        "MAC": 0
+        "MAC": 0,
+        "OWR": 0
       }
     }
   },
@@ -253,7 +254,60 @@
         "Lenzing FR®/Aramid": 0,
         "Para-aramid/Solid polymer coating": 0,
         "FR Rayon/пара-арамід/поліамід/антистатик": 0,
-        "MAC": 0
+        "MAC": 0,
+        "OWR": 0
+      }
+    }
+  },
+  {
+    "id": "tkan-workwear-tr-35-teflon",
+    "category": "workwear",
+    "slug": "tkan-workwear-tr-35-teflon",
+    "title": {
+      "ua": "TR-35 TEFLON",
+      "ru": "TR-35 TEFLON"
+    },
+    "isNew": false,
+    "images": [
+      "http://raznobyt.com/images/products/TR-35 TEFLON/main/424 SCAN RED.jpg"
+    ],
+    "description": {
+      "ua": "Високоякісна змішана тканина саржевого переплетення. Склад: 35% бавовна, 65% поліестр.Teflon МВО.  Щільність 245 г/м².",
+      "ru": "Высококачественная смесовая ткань саржевого переплетения. Состав: 35% хлопок, 65% полиэстер. Teflon МВО. Плотность 245 г/м²."
+    },
+    "attributes": {
+      "fabricType": "twill",
+      "density": "245",
+      "width": "150",
+      "colors": [
+        {
+          "color": "424 SCAN RED",
+          "image": "http://raznobyt.com/images/products/TR-35 TEFLON/main/424 SCAN RED.jpg",
+          "isMain": true
+        }
+      ],
+      "properties": [],
+      "composition": {
+        "cotton": 35,
+        "polyester": 65,
+        "spandex": 0,
+        "rayon": 0,
+        "viscose": 0,
+        "pbt": 0,
+        "lyon": 0,
+        "polyamide PA": 0,
+        "polypropylene PP": 0,
+        "para aramid": 0,
+        "antistatic": 0,
+        "Modacrylic/Lyocell/Static-Control™": 0,
+        "Nomex®/Kevlar®/Anti-Static": 0,
+        "Nomex®/Para-Aramid/p140": 0,
+        "PBI®/Kevlar®/Antistatic": 0,
+        "Lenzing FR®/Aramid": 0,
+        "Para-aramid/Solid polymer coating": 0,
+        "FR Rayon/пара-арамід/поліамід/антистатик": 0,
+        "MAC": 0,
+        "OWR": 1
       }
     }
   },
@@ -267,7 +321,7 @@
     },
     "isNew": false,
     "images": [
-      "http://raznobyt.com/images/products/VVT-2163/main/754 Royal Box.jpg",
+      "http://raznobyt.com/images/products/VVT-2163/main/754 754 ROYAL BOX.jpg",
       "http://raznobyt.com/images/products/VVT-2163/701 White.jpg",
       "http://raznobyt.com/images/products/VVT-2163/794 Black.jpg"
     ],
@@ -281,8 +335,8 @@
       "width": "150",
       "colors": [
         {
-          "color": "754 Royal Box",
-          "image": "http://raznobyt.com/images/products/VVT-2163/main/754 Royal Box.jpg",
+          "color": "754 754 ROYAL BOX",
+          "image": "http://raznobyt.com/images/products/VVT-2163/main/754 754 ROYAL BOX.jpg",
           "isMain": true
         },
         {
@@ -316,7 +370,8 @@
         "Lenzing FR®/Aramid": 0,
         "Para-aramid/Solid polymer coating": 0,
         "FR Rayon/пара-арамід/поліамід/антистатик": 0,
-        "MAC": 0
+        "MAC": 0,
+        "OWR": 0
       }
     }
   },
@@ -367,7 +422,8 @@
         "Lenzing FR®/Aramid": 0,
         "Para-aramid/Solid polymer coating": 0,
         "FR Rayon/пара-арамід/поліамід/антистатик": 0,
-        "MAC": 0
+        "MAC": 0,
+        "OWR": 1
       }
     }
   },
@@ -532,7 +588,8 @@
         "Lenzing FR®/Aramid": 0,
         "Para-aramid/Solid polymer coating": 0,
         "FR Rayon/пара-арамід/поліамід/антистатик": 0,
-        "MAC": 0
+        "MAC": 0,
+        "OWR": 0
       }
     }
   },
@@ -607,7 +664,8 @@
         "Lenzing FR®/Aramid": 0,
         "Para-aramid/Solid polymer coating": 0,
         "FR Rayon/пара-арамід/поліамід/антистатик": 0,
-        "MAC": 0
+        "MAC": 0,
+        "OWR": 0
       }
     }
   },
@@ -814,7 +872,8 @@
         "Lenzing FR®/Aramid": 0,
         "Para-aramid/Solid polymer coating": 0,
         "FR Rayon/пара-арамід/поліамід/антистатик": 0,
-        "MAC": 0
+        "MAC": 0,
+        "OWR": 0
       }
     }
   },
@@ -883,7 +942,8 @@
         "Lenzing FR®/Aramid": 0,
         "Para-aramid/Solid polymer coating": 0,
         "FR Rayon/пара-арамід/поліамід/антистатик": 0,
-        "MAC": 0
+        "MAC": 0,
+        "OWR": 0
       }
     }
   },
@@ -940,7 +1000,8 @@
         "Lenzing FR®/Aramid": 0,
         "Para-aramid/Solid polymer coating": 0,
         "FR Rayon/пара-арамід/поліамід/антистатик": 0,
-        "MAC": 0
+        "MAC": 0,
+        "OWR": 0
       }
     }
   },
@@ -1057,7 +1118,8 @@
         "Lenzing FR®/Aramid": 0,
         "Para-aramid/Solid polymer coating": 0,
         "FR Rayon/пара-арамід/поліамід/антистатик": 0,
-        "MAC": 0
+        "MAC": 0,
+        "OWR": 0
       }
     }
   },
@@ -1204,7 +1266,8 @@
         "Lenzing FR®/Aramid": 0,
         "Para-aramid/Solid polymer coating": 0,
         "FR Rayon/пара-арамід/поліамід/антистатик": 0,
-        "MAC": 0
+        "MAC": 0,
+        "OWR": 0
       }
     }
   },
@@ -1315,7 +1378,8 @@
         "Lenzing FR®/Aramid": 0,
         "Para-aramid/Solid polymer coating": 0,
         "FR Rayon/пара-арамід/поліамід/антистатик": 0,
-        "MAC": 0
+        "MAC": 0,
+        "OWR": 0
       }
     }
   },
@@ -1486,7 +1550,8 @@
         "Lenzing FR®/Aramid": 0,
         "Para-aramid/Solid polymer coating": 0,
         "FR Rayon/пара-арамід/поліамід/антистатик": 0,
-        "MAC": 0
+        "MAC": 0,
+        "OWR": 0
       }
     }
   },
@@ -1537,7 +1602,8 @@
         "Lenzing FR®/Aramid": 0,
         "Para-aramid/Solid polymer coating": 0,
         "FR Rayon/пара-арамід/поліамід/антистатик": 0,
-        "MAC": 0
+        "MAC": 0,
+        "OWR": 0
       }
     }
   },
@@ -1554,8 +1620,8 @@
       "http://raznobyt.com/images/products/MK-9014/main/65287.jpg"
     ],
     "description": {
-      "ua": "99% поліестер, 1% антистатична нитка 290г/м.кв Кислотозахисна",
-      "ru": "99% полиестер, 1% антистатическая нить 290г/м.кв Кислотозащитная"
+      "ua": "99% поліестер, 1% антистатична нитка 290г/м.кв Кислотозахисна, МВО",
+      "ru": "99% полиестер, 1% антистатическая нить 290г/м.кв Кислотозащитная, МВО"
     },
     "attributes": {
       "fabricType": "полотно",
@@ -1588,7 +1654,8 @@
         "Lenzing FR®/Aramid": 0,
         "Para-aramid/Solid polymer coating": 0,
         "FR Rayon/пара-арамід/поліамід/антистатик": 0,
-        "MAC": 0
+        "MAC": 0,
+        "OWR": 1
       }
     }
   },
@@ -1639,7 +1706,8 @@
         "Lenzing FR®/Aramid": 0,
         "Para-aramid/Solid polymer coating": 0,
         "FR Rayon/пара-арамід/поліамід/антистатик": 0,
-        "MAC": 0
+        "MAC": 0,
+        "OWR": 0
       }
     }
   },
@@ -1756,7 +1824,8 @@
         "Lenzing FR®/Aramid": 0,
         "Para-aramid/Solid polymer coating": 0,
         "FR Rayon/пара-арамід/поліамід/антистатик": 0,
-        "MAC": 0
+        "MAC": 0,
+        "OWR": 0
       }
     }
   },
@@ -1813,7 +1882,8 @@
         "Lenzing FR®/Aramid": 0,
         "Para-aramid/Solid polymer coating": 0,
         "FR Rayon/пара-арамід/поліамід/антистатик": 0,
-        "MAC": 0
+        "MAC": 0,
+        "OWR": 0
       }
     }
   },
@@ -1882,7 +1952,8 @@
         "Lenzing FR®/Aramid": 0,
         "Para-aramid/Solid polymer coating": 0,
         "FR Rayon/пара-арамід/поліамід/антистатик": 0,
-        "MAC": 0
+        "MAC": 0,
+        "OWR": 1
       }
     }
   },
@@ -1951,7 +2022,8 @@
         "Lenzing FR®/Aramid": 0,
         "Para-aramid/Solid polymer coating": 0,
         "FR Rayon/пара-арамід/поліамід/антистатик": 0,
-        "MAC": 0
+        "MAC": 0,
+        "OWR": 0
       }
     }
   },
@@ -2002,7 +2074,8 @@
         "Lenzing FR®/Aramid": 0,
         "Para-aramid/Solid polymer coating": 0,
         "FR Rayon/пара-арамід/поліамід/антистатик": 0,
-        "MAC": 0
+        "MAC": 0,
+        "OWR": 0
       }
     }
   },
@@ -2107,7 +2180,8 @@
         "Lenzing FR®/Aramid": 0,
         "Para-aramid/Solid polymer coating": 0,
         "FR Rayon/пара-арамід/поліамід/антистатик": 0,
-        "MAC": 0
+        "MAC": 0,
+        "OWR": 0
       }
     }
   },
@@ -2176,7 +2250,8 @@
         "Lenzing FR®/Aramid": 0,
         "Para-aramid/Solid polymer coating": 0,
         "FR Rayon/пара-арамід/поліамід/антистатик": 0,
-        "MAC": 0
+        "MAC": 0,
+        "OWR": 0
       }
     }
   },
@@ -2245,7 +2320,8 @@
         "Lenzing FR®/Aramid": 0,
         "Para-aramid/Solid polymer coating": 0,
         "FR Rayon/пара-арамід/поліамід/антистатик": 0,
-        "MAC": 0
+        "MAC": 0,
+        "OWR": 0
       }
     }
   },
@@ -2308,7 +2384,8 @@
         "Lenzing FR®/Aramid": 0,
         "Para-aramid/Solid polymer coating": 0,
         "FR Rayon/пара-арамід/поліамід/антистатик": 0,
-        "MAC": 0
+        "MAC": 0,
+        "OWR": 0
       }
     }
   },
@@ -2365,7 +2442,8 @@
         "Lenzing FR®/Aramid": 0,
         "Para-aramid/Solid polymer coating": 0,
         "FR Rayon/пара-арамід/поліамід/антистатик": 0,
-        "MAC": 0
+        "MAC": 0,
+        "OWR": 0
       }
     }
   },
@@ -2422,7 +2500,8 @@
         "Lenzing FR®/Aramid": 0,
         "Para-aramid/Solid polymer coating": 0,
         "FR Rayon/пара-арамід/поліамід/антистатик": 0,
-        "MAC": 0
+        "MAC": 0,
+        "OWR": 0
       }
     }
   },
@@ -2485,7 +2564,8 @@
         "Lenzing FR®/Aramid": 0,
         "Para-aramid/Solid polymer coating": 0,
         "FR Rayon/пара-арамід/поліамід/антистатик": 0,
-        "MAC": 0
+        "MAC": 0,
+        "OWR": 0
       }
     }
   },
@@ -2578,7 +2658,8 @@
         "Lenzing FR®/Aramid": 0,
         "Para-aramid/Solid polymer coating": 0,
         "FR Rayon/пара-арамід/поліамід/антистатик": 0,
-        "MAC": 0
+        "MAC": 0,
+        "OWR": 0
       }
     }
   },
@@ -2659,7 +2740,8 @@
         "Lenzing FR®/Aramid": 0,
         "Para-aramid/Solid polymer coating": 0,
         "FR Rayon/пара-арамід/поліамід/антистатик": 0,
-        "MAC": 0
+        "MAC": 0,
+        "OWR": 0
       }
     }
   },
@@ -2710,7 +2792,8 @@
         "Lenzing FR®/Aramid": 0,
         "Para-aramid/Solid polymer coating": 0,
         "FR Rayon/пара-арамід/поліамід/антистатик": 0,
-        "MAC": 0
+        "MAC": 0,
+        "OWR": 0
       }
     }
   },
@@ -2761,7 +2844,8 @@
         "Lenzing FR®/Aramid": 0,
         "Para-aramid/Solid polymer coating": 0,
         "FR Rayon/пара-арамід/поліамід/антистатик": 0,
-        "MAC": 0
+        "MAC": 0,
+        "OWR": 0
       }
     }
   },
@@ -2812,7 +2896,8 @@
         "Lenzing FR®/Aramid": 0,
         "Para-aramid/Solid polymer coating": 0,
         "FR Rayon/пара-арамід/поліамід/антистатик": 0,
-        "MAC": 0
+        "MAC": 0,
+        "OWR": 0
       }
     }
   },
@@ -2863,7 +2948,8 @@
         "Lenzing FR®/Aramid": 0,
         "Para-aramid/Solid polymer coating": 0,
         "FR Rayon/пара-арамід/поліамід/антистатик": 0,
-        "MAC": 0
+        "MAC": 0,
+        "OWR": 0
       }
     }
   },
@@ -2914,7 +3000,8 @@
         "Lenzing FR®/Aramid": 0,
         "Para-aramid/Solid polymer coating": 0,
         "FR Rayon/пара-арамід/поліамід/антистатик": 0,
-        "MAC": 0
+        "MAC": 0,
+        "OWR": 0
       }
     }
   },
@@ -2965,7 +3052,8 @@
         "Lenzing FR®/Aramid": 0,
         "Para-aramid/Solid polymer coating": 0,
         "FR Rayon/пара-арамід/поліамід/антистатик": 0,
-        "MAC": 0
+        "MAC": 0,
+        "OWR": 0
       }
     }
   },
@@ -3016,7 +3104,8 @@
         "Lenzing FR®/Aramid": 0,
         "Para-aramid/Solid polymer coating": 0,
         "FR Rayon/пара-арамід/поліамід/антистатик": 0,
-        "MAC": 52
+        "MAC": 52,
+        "OWR": 0
       }
     }
   },
@@ -3067,7 +3156,8 @@
         "Lenzing FR®/Aramid": 0,
         "Para-aramid/Solid polymer coating": 0,
         "FR Rayon/пара-арамід/поліамід/антистатик": 0,
-        "MAC": 0
+        "MAC": 0,
+        "OWR": 0
       }
     }
   },
@@ -3118,7 +3208,8 @@
         "Lenzing FR®/Aramid": 0,
         "Para-aramid/Solid polymer coating": 0,
         "FR Rayon/пара-арамід/поліамід/антистатик": 0,
-        "MAC": 0
+        "MAC": 0,
+        "OWR": 0
       }
     }
   },
@@ -3169,7 +3260,8 @@
         "Lenzing FR®/Aramid": 0,
         "Para-aramid/Solid polymer coating": 0,
         "FR Rayon/пара-арамід/поліамід/антистатик": 0,
-        "MAC": 0
+        "MAC": 0,
+        "OWR": 0
       }
     }
   },
@@ -3250,7 +3342,8 @@
         "Lenzing FR®/Aramid": 0,
         "Para-aramid/Solid polymer coating": 0,
         "FR Rayon/пара-арамід/поліамід/антистатик": 0,
-        "MAC": 0
+        "MAC": 0,
+        "OWR": 0
       }
     }
   },
@@ -3307,7 +3400,8 @@
         "Lenzing FR®/Aramid": 0,
         "Para-aramid/Solid polymer coating": 0,
         "FR Rayon/пара-арамід/поліамід/антистатик": 0,
-        "MAC": 0
+        "MAC": 0,
+        "OWR": 0
       }
     }
   },
@@ -3364,7 +3458,8 @@
         "Lenzing FR®/Aramid": 0,
         "Para-aramid/Solid polymer coating": 0,
         "FR Rayon/пара-арамід/поліамід/антистатик": 0,
-        "MAC": 0
+        "MAC": 0,
+        "OWR": 0
       }
     }
   },
@@ -3415,7 +3510,8 @@
         "Lenzing FR®/Aramid": 0,
         "Para-aramid/Solid polymer coating": 0,
         "FR Rayon/пара-арамід/поліамід/антистатик": 0,
-        "MAC": 0
+        "MAC": 0,
+        "OWR": 0
       }
     }
   },
@@ -3466,7 +3562,8 @@
         "Lenzing FR®/Aramid": 0,
         "Para-aramid/Solid polymer coating": 0,
         "FR Rayon/пара-арамід/поліамід/антистатик": 0,
-        "MAC": 0
+        "MAC": 0,
+        "OWR": 0
       }
     }
   },
@@ -3517,7 +3614,8 @@
         "Lenzing FR®/Aramid": 0,
         "Para-aramid/Solid polymer coating": 0,
         "FR Rayon/пара-арамід/поліамід/антистатик": 0,
-        "MAC": 0
+        "MAC": 0,
+        "OWR": 1
       }
     }
   },
@@ -3568,7 +3666,8 @@
         "Lenzing FR®/Aramid": 0,
         "Para-aramid/Solid polymer coating": 0,
         "FR Rayon/пара-арамід/поліамід/антистатик": 0,
-        "MAC": 0
+        "MAC": 0,
+        "OWR": 0
       }
     }
   },
@@ -3619,7 +3718,60 @@
         "Lenzing FR®/Aramid": 0,
         "Para-aramid/Solid polymer coating": 0,
         "FR Rayon/пара-арамід/поліамід/антистатик": 0,
-        "MAC": 0
+        "MAC": 0,
+        "OWR": 0
+      }
+    }
+  },
+  {
+    "id": "tkan-workwear-2290",
+    "category": "workwear",
+    "slug": "tkan-workwear-2290",
+    "title": {
+      "ua": "2290",
+      "ru": "2290"
+    },
+    "isNew": false,
+    "images": [
+      "http://raznobyt.com/images/products/2290/main/2290.jpg"
+    ],
+    "description": {
+      "ua": "Високоякісна змішана тканина саржевого переплетення. Склад: 30% бавовна, 70% поліестр. МВО.  Щільність 260 г/м². ",
+      "ru": "Высококачественная смесовая ткань саржевого переплетения. Состав: 30% хлопок, 70% полиэстер. МВО. Плотность 260 г/м²."
+    },
+    "attributes": {
+      "fabricType": "twill",
+      "density": "260",
+      "width": "150",
+      "colors": [
+        {
+          "color": "2290",
+          "image": "http://raznobyt.com/images/products/2290/main/2290.jpg",
+          "isMain": true
+        }
+      ],
+      "properties": [],
+      "composition": {
+        "cotton": 30,
+        "polyester": 70,
+        "spandex": 0,
+        "rayon": 0,
+        "viscose": 0,
+        "pbt": 0,
+        "lyon": 0,
+        "polyamide PA": 0,
+        "polypropylene PP": 0,
+        "para aramid": 0,
+        "antistatic": 0,
+        "Modacrylic/Lyocell/Static-Control™": 0,
+        "Nomex®/Kevlar®/Anti-Static": 0,
+        "Nomex®/Para-Aramid/p140": 0,
+        "PBI®/Kevlar®/Antistatic": 0,
+        "Lenzing FR®/Aramid": 0,
+        "Para-aramid/Solid polymer coating": 0,
+        "FR Rayon/пара-арамід/поліамід/антистатик": 0,
+        "MAC": 0,
+        "OWR": 1
       }
     }
   }

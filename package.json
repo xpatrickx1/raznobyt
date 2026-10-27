@@ -6,7 +6,7 @@
   "scripts": {
     "sync": "node scripts/sync.js",
     "dev": "vite",
-    "build": "npm run sync && node scripts/optimize-images.js && vite build && node scripts/generate.js --cleanup",
+    "build": "npm run sync && node scripts/optimize-images.js && node scripts/generate.js --cleanup && node scripts/inject-critical-css.mjs",
     "preview": "vite preview",
     "images": "node scripts/optimize-images.js",
     "images:generate": "node scripts/optimize-product-images.mjs"
@@ -20,6 +20,8 @@
   },
   "devDependencies": {
     "@vitejs/plugin-react": "^4.3.4",
+    "postcss": "^8.5.32",
+    "postcss-import": "^17.0.1",
     "sharp": "^0.35.5",
     "vite": "^6.0.11",
     "vite-plugin-critical-css": "^1.0.0"

@@ -57,14 +57,31 @@ export default function ProductCard({ product }) {
                 onError={(e) => {
                   const img = e.currentTarget;
                   const originalUrl = imageUrl;
+                  if (!originalUrl) return;
+
                   const originalAbsoluteUrl = new URL(
                     originalUrl,
                     window.location.href
                   ).href;
 
-                  // Якщо зламався оригінал — показуємо placeholder.
-                  if (img.src === originalAbsoluteUrl) {
+                  const picture = img.closest('picture');
+                  const source = picture?.querySelector('source');
+                  const isDesktop = typeof window !== 'undefined' && window.matchMedia
+                    ? window.matchMedia('(min-width: 768px)').matches
+                    : false;
+                  if (
+                    !isDesktop
+                    && img.dataset.fallback !== 'original'
+                    && img.src !== originalAbsoluteUrl
+                  ) {
+                    img.dataset.fallback = 'original';
+                    img.src = originalUrl;
+                  } else {
+                    // Якщо оригінал зламався або ми на десктопі (де source вже був оригіналом) — показуємо placeholder
                     img.onerror = null;
+                    if (source) {
+                      source.srcset = placeholder;
+                    }
                     img.src = placeholder;
                   }
                 }}

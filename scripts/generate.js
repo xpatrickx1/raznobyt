@@ -3,6 +3,7 @@ import path from 'path';
 import { fileURLToPath, pathToFileURL } from 'url';
 import { dirname } from 'path';
 import { build } from 'vite';
+import { injectCriticalCss } from './inject-critical-css.mjs';
 
 const DOMAIN = 'https://raznobyt.com';
 
@@ -17,6 +18,9 @@ async function generate() {
             emptyOutDir: true,
         }
     });
+
+    console.log('Injecting critical CSS...');
+    await injectCriticalCss();
 
     console.log('Building SSR bundle...');
     await build({

@@ -1359,6 +1359,9 @@ button {
 
 .product-card__img-wrap {
   position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   aspect-ratio: 1/1;
   overflow: hidden;
   background: #f8f8f8;

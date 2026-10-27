@@ -7,6 +7,23 @@
  * @returns {Promise<string>} - URL зображення
  */
 
+// Версія збірки для скидання кешу (cache busting)
+const APP_VERSION = typeof __APP_VERSION__ !== 'undefined' ? String(__APP_VERSION__) : '';
+
+/**
+ * Додає версію до URL зображення (?v=...) для оновлення кешу
+ * @param {string} url - URL або шлях до зображення
+ * @returns {string} - URL з версією
+ */
+export function withVersion(url) {
+    if (!url || typeof url !== 'string' || !APP_VERSION) return url;
+    if (url.startsWith('data:') || url.startsWith('blob:')) return url;
+    // Якщо версія вже присутня, не дублюємо її
+    if (url.includes('v=')) return url;
+    const sep = url.includes('?') ? '&' : '?';
+    return `${url}${sep}v=${APP_VERSION}`;
+}
+
 // Кеш для завантажених зображень
 const imageCache = new Map();
 
@@ -43,6 +60,9 @@ export function getImage(path, basePath = '/') {
     // Конвертуємо розширення в .webp
     resolvedPath = resolvedPath.replace(/\.(jpe?g|png)$/i, '.webp');
 
+    // Додаємо версію для оновлення кешу в браузерах та CDN
+    resolvedPath = withVersion(resolvedPath);
+
     imageCache.set(path, resolvedPath);
     return resolvedPath;
 }
@@ -57,7 +77,7 @@ export const getIconImage = (imagePath) => getImage(imagePath, '/images/icons/')
 export const preloadImages = (paths) => {
     paths.forEach(path => {
         const img = new Image();
-        img.src = path;
+        img.src = withVersion(path);
     });
 };
 

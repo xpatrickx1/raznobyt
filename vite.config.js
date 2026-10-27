@@ -4,6 +4,9 @@ import path from 'path'
 import criticalCss from 'vite-plugin-critical-css';
 
 export default defineConfig({
+  define: {
+    __APP_VERSION__: JSON.stringify(Math.floor(Date.now() / 1000)),
+  },
   plugins: [
     react(),
     criticalCss({

@@ -57,7 +57,8 @@
         "Lenzing FR®/Aramid": 0,
         "Para-aramid/Solid polymer coating": 0,
         "FR Rayon/пара-арамід/поліамід/антистатик": 1,
-        "MAC": 0
+        "MAC": 0,
+        "OWR": 0
       }
     }
   },
@@ -113,7 +114,8 @@
         "Lenzing FR®/Aramid": 0,
         "Para-aramid/Solid polymer coating": 0,
         "FR Rayon/пара-арамід/поліамід/антистатик": 1,
-        "MAC": 0
+        "MAC": 0,
+        "OWR": 0
       }
     }
   },
@@ -169,7 +171,8 @@
         "Lenzing FR®/Aramid": 0,
         "Para-aramid/Solid polymer coating": 0,
         "FR Rayon/пара-арамід/поліамід/антистатик": 1,
-        "MAC": 0
+        "MAC": 0,
+        "OWR": 0
       }
     }
   },
@@ -220,7 +223,8 @@
         "Lenzing FR®/Aramid": 0,
         "Para-aramid/Solid polymer coating": 0,
         "FR Rayon/пара-арамід/поліамід/антистатик": 0,
-        "MAC": 0
+        "MAC": 0,
+        "OWR": 0
       }
     }
   },
@@ -319,7 +323,8 @@
         "Lenzing FR®/Aramid": 0,
         "Para-aramid/Solid polymer coating": 0,
         "FR Rayon/пара-арамід/поліамід/антистатик": 0,
-        "MAC": 0
+        "MAC": 0,
+        "OWR": 0
       }
     }
   }

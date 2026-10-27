@@ -13,6 +13,8 @@
  * Every product image supports both mobile and thumbnail variants.
  */
 
+import { withVersion } from '../assets/utils/imageLoader.js';
+
 export function getProductImageVariant(imageUrl, variant = 'mobile') {
   if (!imageUrl || typeof imageUrl !== 'string') {
     return null;
@@ -22,14 +24,18 @@ export function getProductImageVariant(imageUrl, variant = 'mobile') {
     return null;
   }
 
+  // Відокремлюємо query-параметри або хеш (наприклад, ?v=...), якщо вони вже є
+  const queryIndex = imageUrl.search(/[?#]/);
+  const cleanUrl = queryIndex !== -1 ? imageUrl.slice(0, queryIndex) : imageUrl;
+
   const productPrefix = '/images/products/';
-  const index = imageUrl.indexOf(productPrefix);
+  const index = cleanUrl.indexOf(productPrefix);
 
   if (index === -1) {
     return null;
   }
 
-  const pathAfterPrefix = imageUrl.slice(
+  const pathAfterPrefix = cleanUrl.slice(
     index + productPrefix.length
   );
 
@@ -58,7 +64,7 @@ export function getProductImageVariant(imageUrl, variant = 'mobile') {
     `/images/generated/products/${directory}` +
     `${filenameWithoutExtension}${suffix}`;
 
-  return (
-    imageUrl.slice(0, index) + generatedPath
-  );
+  const generatedUrl = cleanUrl.slice(0, index) + generatedPath;
+
+  return withVersion(generatedUrl);
 }
