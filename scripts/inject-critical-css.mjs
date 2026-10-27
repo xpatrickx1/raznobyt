@@ -60,16 +60,16 @@ export async function getCriticalCss() {
 export function injectCriticalCssIntoHtml(html, criticalCss) {
     const styleTag = `<style id="critical-css">${criticalCss}</style>`;
 
-    // if (html.includes('id="critical-css"')) {
-    //     return html.replace(
-    //         /<style id="critical-css">[\s\S]*?<\/style>/,
-    //         styleTag
-    //     );
-    // }
+    if (html.includes('id="critical-css"')) {
+        return html.replace(
+            /<style id="critical-css">[\s\S]*?<\/style>/,
+            styleTag
+        );
+    }
 
-    // if (html.includes('</head>')) {
-    //     return html.replace('</head>', `${styleTag}\n</head>`);
-    // }
+    if (html.includes('</head>')) {
+        return html.replace('</head>', `${styleTag}\n</head>`);
+    }
 
     return styleTag + html;
 }

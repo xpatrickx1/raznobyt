@@ -213,36 +213,7 @@ button {
     text-decoration: none;
 }
 
-/* ========== ADAPTIVE ========== */
-@media (max-width: 1024px) {
-    .navbar__nav {
-        display: none;
-    }
 
-    .navbar__cta {
-        display: none;
-    }
-}
-
-@media (max-width: 640px) {
-    .topbar__schedule {
-        font-size: 12px;
-    }
-
-    .topbar__phone span {
-        display: none;
-    }
-
-    .topbar__phone {
-        padding: 4px;
-    }
-}
-
-@media (max-width: 480px) {
-    .topbar__lang {
-        display: none;
-    }
-}
 
 .navbar {
     position: sticky;
@@ -781,4 +752,35 @@ button {
 .mobile-menu__links {
     display: flex;
     flex-direction: column;
+}
+
+/* ========== ADAPTIVE ========== */
+@media (max-width: 1024px) {
+    .navbar__nav {
+        display: none;
+    }
+
+    .navbar__cta {
+        display: none;
+    }
+}
+
+@media (max-width: 640px) {
+    .topbar__schedule {
+        font-size: 12px;
+    }
+
+    .topbar__phone span {
+        display: none;
+    }
+
+    .topbar__phone {
+        padding: 4px;
+    }
+}
+
+@media (max-width: 480px) {
+    .topbar__lang {
+        display: none;
+    }
 }
