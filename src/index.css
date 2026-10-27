@@ -1367,6 +1367,10 @@ button {
   background: #f8f8f8;
 }
 
+.product-card__img-wrap picture {
+  height: 100%;
+}
+
 .product-grid .image-fallback {
   align-items: center;
 }

@@ -744,6 +744,21 @@ button {
     flex-direction: column;
 }
 
+/* --- POPUP --- */
+.popup-overlay {
+    position: fixed;
+    inset: 0;
+    z-index: 9999;
+    background: rgba(0, 0, 0, 0.6);
+    backdrop-filter: blur(4px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.3s ease, visibility 0.3s ease;
+}
+
 /* ========== ADAPTIVE ========== */
 @media (max-width: 1024px) {
     .navbar__nav {
