@@ -60,16 +60,16 @@ export async function getCriticalCss() {
 export function injectCriticalCssIntoHtml(html, criticalCss) {
     const styleTag = `<style id="critical-css">${criticalCss}</style>`;
 
-    if (html.includes('id="critical-css"')) {
-        return html.replace(
-            /<style id="critical-css">[\s\S]*?<\/style>/,
-            styleTag
-        );
-    }
+    // if (html.includes('id="critical-css"')) {
+    //     return html.replace(
+    //         /<style id="critical-css">[\s\S]*?<\/style>/,
+    //         styleTag
+    //     );
+    // }
 
-    if (html.includes('</head>')) {
-        return html.replace('</head>', `${styleTag}\n</head>`);
-    }
+    // if (html.includes('</head>')) {
+    //     return html.replace('</head>', `${styleTag}\n</head>`);
+    // }
 
     return styleTag + html;
 }
@@ -134,5 +134,5 @@ export async function injectCriticalCss() {
 // Run automatically when executed directly as a script
 const isMain = process.argv[1] && path.resolve(process.argv[1]) === path.resolve(fileURLToPath(import.meta.url));
 if (isMain) {
-    await injectCriticalCss();
+    // await injectCriticalCss();
 }
