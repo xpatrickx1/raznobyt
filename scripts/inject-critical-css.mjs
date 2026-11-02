@@ -3,6 +3,7 @@ import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import postcss from 'postcss';
 import postcssImport from 'postcss-import';
+import { criticalPages } from './critical-pages.js';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const root = path.resolve(__dirname, '..');
@@ -106,27 +107,17 @@ export async function injectCriticalCss() {
     const distDir = path.resolve(root, 'dist');
     const allHtml = await getHtmlFiles(distDir);
 
+    const criticalCss = await getCriticalCss();
+
     for (const file of allHtml) {
         const relativePath = path
             .relative(distDir, file)
             .replace(/\\/g, '/');
 
-        const cssPath = criticalPages[relativePath];
-
-        if (!cssPath) {
-            console.warn(`No critical CSS configured for ${relativePath}`);
-            continue;
-        }
-
         try {
-            const criticalCss = await getCriticalCss(cssPath);
-
             const html = await fs.readFile(file, 'utf8');
 
-            const updatedHtml = injectCriticalCssIntoHtml(
-                html,
-                criticalCss
-            );
+            const updatedHtml = injectCriticalCssIntoHtml(html, criticalCss);
 
             await fs.writeFile(file, updatedHtml, 'utf8');
 

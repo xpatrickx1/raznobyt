@@ -1,7 +1,13 @@
 export const criticalPages = {
-    'index.html': 'src/styles/critical/home.css',
-    'catalog/index.html': 'src/styles/critical/catalog.css',
-    'product/index.html': 'src/styles/critical/product.css',
-    'contacts/index.html': 'src/styles/critical/contacts.css',
-    'about/index.html': 'src/styles/critical/about.css',
+    home: 'src/styles/critical/home.css',
+    about: 'src/styles/critical/about.css',
+    blog: 'src/styles/critical/blog.css',
+    catalog: 'src/styles/critical/catalog.css',
+    category: 'src/styles/critical/category.css',
+    contacts: 'src/styles/critical/contacts.css',
+    delivery: 'src/styles/critical/delivery.css',
+    documents: 'src/styles/critical/documents.css',
+    news: 'src/styles/critical/news.css',
+    notFound: 'src/styles/critical/not-found.css',
+    product: 'src/styles/critical/product.css',
 };

@@ -6,7 +6,7 @@
   "scripts": {
     "sync": "node scripts/sync.js",
     "dev": "vite",
-    "build": "npm run sync && node scripts/optimize-images.js && node scripts/generate.js --cleanup && node scripts/inject-critical-css.mjs",
+    "build": "npm run sync && node scripts/optimize-images.js && vite build && node scripts/inject-critical-css.mjs && node scripts/generate.js --cleanup",
     "preview": "vite preview",
     "images": "node scripts/optimize-images.js",
     "images:generate": "node scripts/optimize-product-images.mjs"

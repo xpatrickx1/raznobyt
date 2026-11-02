@@ -19,9 +19,6 @@ async function generate() {
         }
     });
 
-    console.log('Injecting critical CSS...');
-    await injectCriticalCss();
-
     console.log('Building SSR bundle...');
     await build({
         build: {
@@ -110,6 +107,8 @@ async function generate() {
         }
     }
 
+    console.log('Injecting critical CSS into all pages...');
+    await injectCriticalCss();
 
     // Generate sitemap.xml
     const urlsXml = pages
