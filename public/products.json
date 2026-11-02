@@ -3672,58 +3672,6 @@
     }
   },
   {
-    "id": "tkan-workwear-nakolinnyk",
-    "category": "workwear",
-    "slug": "tkan-workwear-nakolinnyk",
-    "title": {
-      "ua": "Наколінник",
-      "ru": "Наколінник"
-    },
-    "isNew": false,
-    "images": [
-      "http://raznobyt.com/images/products/Наколінники/main/nakolinnuk.jpg"
-    ],
-    "description": {
-      "ua": "Підсилювач зони коліна на робочі штани. 100% поліамід. Вогнестійка обробка. Довжина 48 см, ширина 15 см.",
-      "ru": "Усилитель зоны колена на рабочие брюки. 100% полиамид. Огнестойкая оброботка. Длина 48 см, ширина 15 см."
-    },
-    "attributes": {
-      "fabricType": "",
-      "density": "",
-      "width": null,
-      "colors": [
-        {
-          "color": "nakolinnuk",
-          "image": "http://raznobyt.com/images/products/Наколінники/main/nakolinnuk.jpg",
-          "isMain": true
-        }
-      ],
-      "properties": [],
-      "composition": {
-        "cotton": 0,
-        "polyester": 0,
-        "spandex": 0,
-        "rayon": 0,
-        "viscose": 0,
-        "pbt": 0,
-        "lyon": 0,
-        "polyamide PA": 100,
-        "polypropylene PP": 0,
-        "para aramid": 0,
-        "antistatic": 0,
-        "Modacrylic/Lyocell/Static-Control™": 0,
-        "Nomex®/Kevlar®/Anti-Static": 0,
-        "Nomex®/Para-Aramid/p140": 0,
-        "PBI®/Kevlar®/Antistatic": 0,
-        "Lenzing FR®/Aramid": 0,
-        "Para-aramid/Solid polymer coating": 0,
-        "FR Rayon/пара-арамід/поліамід/антистатик": 0,
-        "MAC": 0,
-        "OWR": 0
-      }
-    }
-  },
-  {
     "id": "tkan-workwear-2290",
     "category": "workwear",
     "slug": "tkan-workwear-2290",
@@ -3772,6 +3720,58 @@
         "FR Rayon/пара-арамід/поліамід/антистатик": 0,
         "MAC": 0,
         "OWR": 1
+      }
+    }
+  },
+  {
+    "id": "tkan-workwear-nakolinnyk",
+    "category": "workwear",
+    "slug": "tkan-workwear-nakolinnyk",
+    "title": {
+      "ua": "Наколінник",
+      "ru": "Наколінник"
+    },
+    "isNew": false,
+    "images": [
+      "http://raznobyt.com/images/products/nakolinnuk/main/BLACK.jpg"
+    ],
+    "description": {
+      "ua": "Підсилювач зони коліна на робочі штани. 100% поліамід. Вогнестійка обробка. Довжина 48 см, ширина 15 см.",
+      "ru": "Усилитель зоны колена на рабочие брюки. 100% полиамид. Огнестойкая оброботка. Длина 48 см, ширина 15 см."
+    },
+    "attributes": {
+      "fabricType": "",
+      "density": "",
+      "width": null,
+      "colors": [
+        {
+          "color": "BLACK",
+          "image": "http://raznobyt.com/images/products/nakolinnuk/main/BLACK.jpg",
+          "isMain": true
+        }
+      ],
+      "properties": [],
+      "composition": {
+        "cotton": 0,
+        "polyester": 0,
+        "spandex": 0,
+        "rayon": 0,
+        "viscose": 0,
+        "pbt": 0,
+        "lyon": 0,
+        "polyamide PA": 100,
+        "polypropylene PP": 0,
+        "para aramid": 0,
+        "antistatic": 0,
+        "Modacrylic/Lyocell/Static-Control™": 0,
+        "Nomex®/Kevlar®/Anti-Static": 0,
+        "Nomex®/Para-Aramid/p140": 0,
+        "PBI®/Kevlar®/Antistatic": 0,
+        "Lenzing FR®/Aramid": 0,
+        "Para-aramid/Solid polymer coating": 0,
+        "FR Rayon/пара-арамід/поліамід/антистатик": 0,
+        "MAC": 0,
+        "OWR": 0
       }
     }
   },
@@ -6723,7 +6723,7 @@
     },
     "isNew": false,
     "images": [
-      "http://raznobyt.com/images/products/Наколінники/main/nakolinnuk.jpg"
+      "http://raznobyt.com/images/products/nakolinnuk/main/BLACK.jpg"
     ],
     "description": {
       "ua": "Підсилювач зони коліна на робочі штани. 100% поліамід. Вогнестійка обробка. Довжина 48 см, ширина 15 см.",
@@ -6735,8 +6735,8 @@
       "width": null,
       "colors": [
         {
-          "color": "nakolinnuk",
-          "image": "http://raznobyt.com/images/products/Наколінники/main/nakolinnuk.jpg",
+          "color": "BLACK",
+          "image": "http://raznobyt.com/images/products/nakolinnuk/main/BLACK.jpg",
           "isMain": true
         }
       ],

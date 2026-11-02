@@ -25,7 +25,7 @@ export const COMPOSITION_OPTIONS = [
     { id: 'Para-aramid/Solid polymer coating', label: 'Para-aramid/Solid polymer coating', labelRu: 'Para-aramid/Solid polymer coating' },
     { id: 'FR Rayon/пара-арамід/поліамід/антистатик', label: 'FR Rayon/пара-арамід/поліамід/антистатик', labelRu: 'FR Rayon/пара-арамід/поліамід/антистатик' },
     { id: 'MAC', label: 'MAC', labelRu: 'MAC' },
-    { id: 'OWR', label: 'OWR', labelRu: 'OWR' },
+    { id: 'OWR', label: 'МВО', labelRu: 'МВО' },
 ];
 
 export const getCompositionOption = (id) => {

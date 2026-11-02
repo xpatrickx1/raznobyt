@@ -14,15 +14,19 @@ const outputPath = path.resolve(root, 'dist/index.html');
  * Builds and processes critical CSS from src/styles/critical.css
  */
 export async function getCriticalCss() {
-    const css = await fs.readFile(inputPath, 'utf8');
+    const css = await fs.readFile(
+        path.resolve(root, inputPath),
+        'utf8'
+    );
 
     const result = await postcss([
         postcssImport({ root }),
     ]).process(css, {
-        from: inputPath,
+        from: path.resolve(root, inputPath),
     });
 
     let criticalCss = result.css;
+
 
     // Resolve hashed font path in dist/assets/fonts if available
     try {
@@ -99,35 +103,42 @@ async function getHtmlFiles(dir) {
  * Main function: injects critical CSS into dist/index.html (and all dist HTML files)
  */
 export async function injectCriticalCss() {
-    const criticalCss = await getCriticalCss();
-
-    // Ensure dist/index.html is updated
-    try {
-        const html = await fs.readFile(outputPath, 'utf8');
-        const updatedHtml = injectCriticalCssIntoHtml(html, criticalCss);
-        await fs.writeFile(outputPath, updatedHtml, 'utf8');
-        console.log(`Critical CSS injected successfully into ${outputPath}`);
-    } catch (err) {
-        console.warn(`Could not update ${outputPath}: ${err.message}`);
-    }
-
-    // Also update any other HTML files in dist if they exist
     const distDir = path.resolve(root, 'dist');
     const allHtml = await getHtmlFiles(distDir);
-    let count = 0;
+
     for (const file of allHtml) {
-        if (path.resolve(file) === outputPath) continue;
-        try {
-            const html = await fs.readFile(file, 'utf8');
-            const updatedHtml = injectCriticalCssIntoHtml(html, criticalCss);
-            await fs.writeFile(file, updatedHtml, 'utf8');
-            count++;
-        } catch {
-            // Ignore individual file errors
+        const relativePath = path
+            .relative(distDir, file)
+            .replace(/\\/g, '/');
+
+        const cssPath = criticalPages[relativePath];
+
+        if (!cssPath) {
+            console.warn(`No critical CSS configured for ${relativePath}`);
+            continue;
         }
-    }
-    if (count > 0) {
-        console.log(`Critical CSS also injected into ${count} other HTML page(s) in dist.`);
+
+        try {
+            const criticalCss = await getCriticalCss(cssPath);
+
+            const html = await fs.readFile(file, 'utf8');
+
+            const updatedHtml = injectCriticalCssIntoHtml(
+                html,
+                criticalCss
+            );
+
+            await fs.writeFile(file, updatedHtml, 'utf8');
+
+            console.log(`Critical CSS injected: ${relativePath}`);
+        } catch (err) {
+            console.error(
+                `Critical CSS error for ${relativePath}:`,
+                err.message
+            );
+
+            throw err;
+        }
     }
 }
 

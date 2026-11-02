@@ -1131,7 +1131,7 @@
     },
     "isNew": false,
     "images": [
-      "http://raznobyt.com/images/products/Наколінники/main/nakolinnuk.jpg"
+      "http://raznobyt.com/images/products/nakolinnuk/main/BLACK.jpg"
     ],
     "description": {
       "ua": "Підсилювач зони коліна на робочі штани. 100% поліамід. Вогнестійка обробка. Довжина 48 см, ширина 15 см.",
@@ -1143,8 +1143,8 @@
       "width": null,
       "colors": [
         {
-          "color": "nakolinnuk",
-          "image": "http://raznobyt.com/images/products/Наколінники/main/nakolinnuk.jpg",
+          "color": "BLACK",
+          "image": "http://raznobyt.com/images/products/nakolinnuk/main/BLACK.jpg",
           "isMain": true
         }
       ],

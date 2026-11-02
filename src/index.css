@@ -537,6 +537,7 @@ button {
   gap: 4px;
   transition: gap 0.3s ease;
   min-width: 240px;
+  min-height: 58px;
 }
 
 .navbar--scrolled .navbar__logo {
@@ -928,6 +929,7 @@ button {
   background-color: var(--c-bg-alt);
   opacity: 0;
   transform: scale(1.08);
+  min-height: 740px;
 }
 
 .hero-slide.active .hero-slide__bg {
