@@ -4,7 +4,7 @@ import tencatePermess from '@/assets/images/suppliers/permess.webp';
 import toray from '@/assets/images/suppliers/toray.webp';
 
 export default function Trust() {
-    const { lang, t } = useLang();
+    const { lang } = useLang();
 
     return (
         <div className="suppliers-strip">
@@ -21,7 +21,10 @@ export default function Trust() {
                             src={ten}
                             alt="Ten Cate Protect"
                             className="suppliers-strip__logo"
-                            loading="lazy"
+                            loading="eager"
+                            fetchPriority="low"
+                            width="200"
+                            height="80"
                         />
                     </div>
 
@@ -30,7 +33,10 @@ export default function Trust() {
                             src={tencatePermess}
                             alt="Ten Cate Permess"
                             className="suppliers-strip__logo"
-                            loading="lazy"
+                            loading="eager"
+                            fetchPriority="low"
+                            width="200"
+                            height="80"
                         />
                     </div>
 
@@ -39,11 +45,14 @@ export default function Trust() {
                             src={toray}
                             alt="Toray"
                             className="suppliers-strip__logo"
-                            loading="lazy"
+                            loading="eager"
+                            fetchPriority="low"
+                            width="200"
+                            height="80"
                         />
                     </div>
                 </div>
             </div>
         </div>
-    )
-}   
+    );
+}

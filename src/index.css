@@ -82,7 +82,7 @@ button {
 .container {
   max-width: var(--container);
   margin: 0 auto;
-  padding: 0 24px;
+  /* padding: 0 24px; */
 }
 
 /* ========== TOP BAR ========== */
@@ -1577,6 +1577,7 @@ button {
   grid-template-columns: var(--sidebar-w) 1fr;
   gap: 32px;
   align-items: start;
+  padding: 20px 0;
 }
 
 .sidebar {
@@ -3362,32 +3363,32 @@ button {
 @keyframes fadeUp {
   from {
     opacity: 0;
-    transform: translateY(24px);
+    /* translate не впливає на layout, але в ранніх фреймах браузер
+       може включати його в CLS-розрахунок. Лишаємо лише opacity */
   }
 
   to {
     opacity: 1;
-    transform: translateY(0);
   }
 }
 
+/* fade-up: opacity:0 з самого початку (в SSR-HTML) → жодного CLS при гідрації */
 .fade-up {
+  opacity: 0;
+  will-change: opacity;
   animation: fadeUp 0.5s ease forwards;
 }
 
 .fade-up-1 {
   animation-delay: 0.1s;
-  opacity: 0;
 }
 
 .fade-up-2 {
   animation-delay: 0.2s;
-  opacity: 0;
 }
 
 .fade-up-3 {
   animation-delay: 0.3s;
-  opacity: 0;
 }
 
 /* ─── SPINNER ─── */
@@ -4551,7 +4552,8 @@ button {
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 100px;
+  /* Фіксована висота резервує місце до завантаження зображень → усуває CLS */
+  height: 80px;
   opacity: 0.75;
   transition: opacity 0.25s ease, transform 0.25s ease;
   filter: grayscale(100%);
@@ -4564,10 +4566,10 @@ button {
 }
 
 .suppliers-strip__logo {
-  max-height: 106px;
-  max-width: 200px;
+  /* Явна висота + aspect-ratio резервує простір до завантаження */
+  height: 80px;
   width: auto;
-  height: auto;
+  max-width: 200px;
   object-fit: contain;
 }
 
@@ -4588,8 +4590,12 @@ button {
   }
 
   .suppliers-strip__logo {
-    max-height: 80px;
+    height: 56px;
     max-width: 110px;
+  }
+
+  .suppliers-strip__item {
+    height: 56px;
   }
 }
 
