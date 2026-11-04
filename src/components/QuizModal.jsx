@@ -2,6 +2,7 @@ import { useState, useEffect, useRef } from 'react';
 import { createPortal } from 'react-dom';
 import { useLang } from '../i18n/LangContext';
 import './QuizModal.css';
+import ContactForm from "./ContactForm"
 
 const STEPS = {
     INTRO: 0,
@@ -322,6 +323,7 @@ export default function QuizModal({ isOpen, onClose }) {
 
                 {/* ===== CONTACTS ===== */}
                 {step === STEPS.CONTACTS && (
+                    // <ContactForm />
                     <form className="quiz-screen" onSubmit={handleSubmit}>
                         <div className="quiz-progress">
                             <div className="quiz-progress__bar" style={{ width: '100%' }} />
