@@ -53,6 +53,10 @@ export default function ContactForm({ withMessage = true }) {
         const form = e.currentTarget;
         const formData = new FormData(form);
 
+        formData.set('contact', phone);
+        formData.set('page_url', window.location.href);
+        formData.set('referrer', document.referrer);
+
         const success = await submitForm({
             name: formData.get('name'),
             phone,
