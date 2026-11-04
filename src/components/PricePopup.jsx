@@ -1,5 +1,7 @@
 import React, { useEffect } from 'react';
 import { useLang } from '../i18n/LangContext';
+import ContactForm from './ContactForm';
+
 
 export default function PricePopup({ isOpen, onClose }) {
     const { lang, t } = useLang();
@@ -62,8 +64,9 @@ export default function PricePopup({ isOpen, onClose }) {
                 {/* <h3 className="section__title" style={{ textAlign: 'center', marginBottom: '24px', fontSize: '24px' }}>
                     {lang === 'ua' ? 'Отримати прайс' : 'Получить прайс'}
                 </h3> */}
-                <form
-                    action="https://formsubmit.co/info@riznobyt.com"
+                <ContactForm withMessage={false} />
+                {/* <form
+                    action="/api/contact.php"
                     method="POST"
                     className="contact-block-form"
                     onSubmit={handleSubmit}
@@ -94,7 +97,7 @@ export default function PricePopup({ isOpen, onClose }) {
                     <button type="submit" className="btn btn-primary" style={{ width: '100%', justifyContent: 'center', marginTop: '36px' }}>
                         {lang === 'ua' ? 'Підібрати тканину' : 'Подобрать ткань'}
                     </button>
-                </form>
+                </form> */}
             </div>
         </div>
     );

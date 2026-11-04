@@ -6,6 +6,7 @@ import phoneIcon from '@/assets/images/icons/phone.svg';
 import locationIcon from '@/assets/images/icons/location.svg';
 import emailIcon from '@/assets/images/icons/email.svg';
 import clockIcon from '@/assets/images/icons/clock.svg';
+import ContactForm from '../components/ContactForm';
 
 const MANAGERS = [
   { name: 'Оксана Петренко', role: { ua: 'Менеджер з продажів', ru: 'Менеджер по продажам' }, phone: '+38 (067) 332-00-88', emoji: '👩‍💼' },
@@ -94,41 +95,7 @@ export default function Contacts() {
                   ✅ {t('contacts.sent')} {lang === 'ua' ? 'Менеджер звʼяжеться з вами найближчим часом.' : 'Менеджер свяжется с вами в ближайшее время.'}
                 </div>
               ) : (
-                <form onSubmit={handleSubmit}>
-                  <div className="form-group">
-                    <label className="form-label">{t('contacts.yourName')}</label>
-                    <input
-                      type="text"
-                      className="form-input"
-                      value={form.name}
-                      onChange={e => setForm({ ...form, name: e.target.value })}
-                      required
-                    />
-                  </div>
-                  <div className="form-group">
-                    <label className="form-label">{t('contacts.yourEmail')}</label>
-                    <input
-                      type="email"
-                      className="form-input"
-                      value={form.email}
-                      onChange={e => setForm({ ...form, email: e.target.value })}
-                      required
-                    />
-                  </div>
-                  <div className="form-group">
-                    <label className="form-label">{t('contacts.yourMessage')}</label>
-                    <textarea
-                      className="form-textarea"
-                      value={form.message}
-                      onChange={e => setForm({ ...form, message: e.target.value })}
-                      required
-                      rows={5}
-                    />
-                  </div>
-                  <button type="submit" className="btn btn-accent" style={{ width: '100%', justifyContent: 'center', padding: '14px 28px', fontSize: 15 }}>
-                    {t('contacts.send')} →
-                  </button>
-                </form>
+                <ContactForm />
               )}
             </div>
 
