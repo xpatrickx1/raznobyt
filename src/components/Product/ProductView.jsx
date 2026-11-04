@@ -10,6 +10,7 @@ import placeholder from '../../assets/images/placeholder.svg';
 import phoneIcon from '@/assets/images/icons/phone.svg';
 import pdfIcon from '@/assets/images/icons/pdficon.svg';
 import { getProductImageVariant } from '@/utils/productImageVariants';
+import { formatPhone, isValidPhone, setCursorPosition } from '../../assets/utils/phone-mask.js';
 
 export default function ProductView({ product, related = [] }) {
     const { lang, t } = useLang();
@@ -163,6 +164,23 @@ export default function ProductView({ product, related = [] }) {
         }] : []),
         product.attributes.fabricType && { label: t('product.fabricType'), value: t(`fabricTypes.${product.attributes.fabricType}`) },
     ];
+
+    const handlePhoneChange = (e) => {
+        const input = e.target;
+        const formatted = formatPhone(input.value);
+        setPhone(formatted);
+        input.setCustomValidity('');
+        setCursorPosition(input, formatted.length);
+    };
+
+    const handlePhoneBlur = (e) => {
+        const input = e.target;
+        if (phone && !isValidPhone(phone)) {
+            input.setCustomValidity(phoneErrorMessage);
+        } else {
+            input.setCustomValidity('');
+        }
+    };
 
     return (
         <>
@@ -391,11 +409,28 @@ export default function ProductView({ product, related = [] }) {
                                 ) : (
                                     <form className="inquiry-form" onSubmit={handleSend}>
                                         <input
+                                            id="contact"
                                             type="tel"
-                                            placeholder="+380 __ ___ __ __"
+                                            name="contact"
+                                            className="form-input"
+                                            placeholder="+38 (0__) ___-__-__"
                                             value={phone}
-                                            onChange={e => setPhone(e.target.value)}
+                                            onChange={handlePhoneChange}
+                                            onBlur={handlePhoneBlur}
+                                            pattern="^\+38\s\(0\d{2}\)\s\d{3}-\d{2}-\d{2}$"
+                                            title="+38 (0XX) XXX-XX-XX"
+                                            autoComplete="tel"
                                             required
+                                        />
+                                        <input
+                                            type="hidden"
+                                            name="page_url"
+                                            value={window.location.href}
+                                        />
+                                        <input
+                                            type="hidden"
+                                            name="referrer"
+                                            value={document.referrer}
                                         />
                                         <button type="submit" className="btn btn-accent">{t('product.addToCart')}</button>
                                     </form>

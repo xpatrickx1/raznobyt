@@ -160,16 +160,8 @@ export default function ContactForm({ withMessage = true }) {
                     />
                 </div>
 
-                <input
-                    type="hidden"
-                    name="page_url"
-                    value={window.location.href}
-                />
-                <input
-                    type="hidden"
-                    name="referrer"
-                    value={document.referrer}
-                />
+                <input type="hidden" name="page_url" value="" />
+                <input type="hidden" name="referrer" value="" />
 
                 <button
                     type="submit"
