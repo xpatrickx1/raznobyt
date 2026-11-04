@@ -1,0 +1,81 @@
+/* ========== SUPPLIERS STRIP ========== */
+.suppliers-strip {
+  background: #fff;
+  border-top: 1px solid #eee;
+  border-bottom: 1px solid #eee;
+  padding: 28px 0 32px;
+  min-height: 180px;
+}
+
+.suppliers-strip__header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.suppliers-strip__label {
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: #8a8478;
+}
+
+.suppliers-strip__logos {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 48px;
+  flex-wrap: wrap;
+}
+
+.suppliers-strip__item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 80px;
+  opacity: 0.75;
+  transition: opacity 0.25s ease, transform 0.25s ease;
+  filter: grayscale(100%);
+}
+
+.suppliers-strip__item:hover {
+  opacity: 1;
+  filter: grayscale(0%);
+  transform: translateY(-2px);
+}
+
+.suppliers-strip__logo {
+  height: 80px;
+  width: auto;
+  max-width: 200px;
+  aspect-ratio: 200 / 80;
+  object-fit: contain;
+}
+
+/* Адаптив */
+@media (max-width: 900px) {
+  .suppliers-strip__logos {
+    gap: 32px;
+  }
+}
+
+@media (max-width: 600px) {
+  .suppliers-strip {
+    padding: 22px 0 26px;
+    min-height: 228px;
+  }
+
+  .suppliers-strip__logos {
+    gap: 24px 28px;
+  }
+
+  .suppliers-strip__logo {
+    height: 56px;
+    max-width: 110px;
+  }
+
+  .suppliers-strip__item {
+    height: 56px;
+  }
+}
+

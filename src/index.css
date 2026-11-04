@@ -469,7 +469,7 @@ button {
 
   to {
     opacity: 1;
-    transform: translateY(0);
+
   }
 }
 
@@ -911,12 +911,12 @@ button {
 @keyframes heroTextFadeUp {
   0% {
     opacity: 0;
-    transform: translateY(30px);
+
   }
 
   100% {
     opacity: 1;
-    transform: translateY(0);
+
   }
 }
 
@@ -969,7 +969,7 @@ button {
   position: relative;
   z-index: 2;
   opacity: 0;
-  transform: translateY(30px);
+
   display: flex;
 }
 
@@ -979,7 +979,7 @@ button {
   max-width: 100%;
   width: 100%;
   opacity: 0;
-  transform: translateY(30px);
+
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -989,7 +989,7 @@ button {
   position: relative;
   z-index: 2;
   opacity: 0;
-  transform: translateY(30px);
+
   display: flex;
 }
 
@@ -997,7 +997,7 @@ button {
   position: relative;
   z-index: 2;
   opacity: 0;
-  transform: translateY(30px);
+
   display: flex;
 }
 
@@ -1213,7 +1213,7 @@ button {
 }
 
 /* ─── SECTION ─── */
-.section {
+.container.section {
   padding: 72px 0;
 }
 
@@ -2552,7 +2552,7 @@ button {
 
   to {
     opacity: 1;
-    transform: translateY(0);
+
   }
 }
 
@@ -3004,7 +3004,7 @@ button {
   /* Hero slider */
   .hero-slider {
     height: 60vh;
-    min-height: 360px;
+    min-height: 500px;
   }
 
   .hero-slide__content.align-left,
@@ -4560,6 +4560,7 @@ button {
   border-top: 1px solid #eee;
   border-bottom: 1px solid #eee;
   padding: 28px 0 32px;
+  min-height: 180px;
 }
 
 .suppliers-strip__header {
@@ -4602,6 +4603,7 @@ button {
 
 .suppliers-strip__logo {
   /* Явна висота + aspect-ratio резервує простір до завантаження */
+  aspect-ratio: 200 / 80;
   height: 80px;
   width: auto;
   max-width: 200px;
@@ -4618,6 +4620,7 @@ button {
 @media (max-width: 600px) {
   .suppliers-strip {
     padding: 22px 0 26px;
+    min-height: 228px;
   }
 
   .suppliers-strip__logos {

@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import { useLang } from '../../i18n/LangContext';
+import '../Hero.css';
 
 // import slide1 from '../../assets/images/slider/slide1.webp';
 // import slide2 from '../../assets/images/slider/slide2.webp';

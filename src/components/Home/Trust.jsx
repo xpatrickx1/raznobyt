@@ -1,4 +1,5 @@
 import { useLang } from '../../i18n/LangContext';
+import '../Trust.css';
 import ten from '@/assets/images/suppliers/postavka-ten-cate.webp';
 import tencatePermess from '@/assets/images/suppliers/permess.webp';
 import toray from '@/assets/images/suppliers/toray.webp';
