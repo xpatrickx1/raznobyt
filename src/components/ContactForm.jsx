@@ -1,13 +1,22 @@
 import { useState } from 'react';
 import { useLang } from '../i18n/LangContext';
 import { formatPhone, isValidPhone, setCursorPosition } from '../assets/utils/phone-mask.js';
+import useContactForm from '../hooks/useContactForm';
 
 export default function ContactForm({ withMessage = true }) {
     const { t, lang } = useLang();
 
-    const [status, setStatus] = useState(null);
-    const [sending, setSending] = useState(false);
+    // const [status, setStatus] = useState(null);
+    // const [sending, setSending] = useState(false);
     const [phone, setPhone] = useState('');
+
+    const {
+        submitForm,
+        status,
+        sending,
+        setStatus
+    } = useContactForm();
+
 
     const phoneErrorMessage = lang === 'ru'
         ? 'Пожалуйста, введите полный номер телефона: +38 (0XX) XXX-XX-XX'
@@ -43,46 +52,16 @@ export default function ContactForm({ withMessage = true }) {
 
         const form = e.currentTarget;
         const formData = new FormData(form);
-        formData.set('contact', phone);
-        if (!formData.has('phone')) {
-            formData.set('phone', phone);
-        }
 
-        setStatus(null);
-        setSending(true);
+        const success = await submitForm({
+            name: formData.get('name'),
+            phone,
+            message: formData.get('message') || 'Не вказано'
+        });
 
-        try {
-            const res = await fetch('/api/contact.php', {
-                method: 'POST',
-                body: formData,
-                headers: {
-                    Accept: 'application/json'
-                }
-            });
-
-            const data = await res.json();
-
-            if (res.ok && data.success) {
-                setStatus({
-                    type: 'success',
-                    message: t('home.formSuccess')
-                });
-
-                form.reset();
-                setPhone('');
-            } else {
-                setStatus({
-                    type: 'error',
-                    message: data.message || t('home.formError')
-                });
-            }
-        } catch (error) {
-            setStatus({
-                type: 'error',
-                message: t('home.formNetworkError')
-            });
-        } finally {
-            setSending(false);
+        if (success) {
+            form.reset();
+            setPhone('');
         }
     };
 

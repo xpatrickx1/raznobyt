@@ -11,6 +11,7 @@ import phoneIcon from '@/assets/images/icons/phone.svg';
 import pdfIcon from '@/assets/images/icons/pdficon.svg';
 import { getProductImageVariant } from '@/utils/productImageVariants';
 import { formatPhone, isValidPhone, setCursorPosition } from '../../assets/utils/phone-mask.js';
+import useContactForm from '../../hooks/useContactForm';
 
 export default function ProductView({ product, related = [] }) {
     const { lang, t } = useLang();
@@ -20,6 +21,12 @@ export default function ProductView({ product, related = [] }) {
     const [imageUrls, setImageUrls] = useState([]);
     const [canScrollLeft, setCanScrollLeft] = useState(false);
     const [canScrollRight, setCanScrollRight] = useState(false);
+
+    const {
+        submitForm,
+        status,
+        sending
+    } = useContactForm();
 
     const viewportRef = useRef(null);
     const thumbEls = useRef([]);
@@ -50,9 +57,22 @@ export default function ProductView({ product, related = [] }) {
 
     const cat = categories.find(c => c.id === product.category);
 
-    const handleSend = (e) => {
+    const handleSend = async (e) => {
         e.preventDefault();
-        if (phone.trim()) { setSent(true); setPhone(''); }
+
+        if (!isValidPhone(phone)) return;
+
+        const success = await submitForm({
+            phone,
+            name: 'Заявка з картки товару',
+            message: 'Клієнт хоче замовити товар',
+            product: product.title
+        });
+
+        if (success) {
+            setSent(true);
+            setPhone('');
+        }
     };
 
     const THUMB_STEP = 82;
@@ -432,7 +452,7 @@ export default function ProductView({ product, related = [] }) {
                                             name="referrer"
                                             value={document.referrer}
                                         />
-                                        <button type="submit" className="btn btn-accent">{t('product.addToCart')}</button>
+                                        <button disabled={sending} type="submit" className="btn btn-accent">{sending ? t('home.formSending') : t('product.addToCart')}</button>
                                     </form>
                                 )}
                             </div>
