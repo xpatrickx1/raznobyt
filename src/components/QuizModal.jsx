@@ -3,7 +3,7 @@ import { createPortal } from 'react-dom';
 import { useLang } from '../i18n/LangContext';
 import './QuizModal.css';
 import ContactForm from "./ContactForm"
-import useContactForm from '../../hooks/useContactForm';
+import useContactForm from '../hooks/useContactForm';
 
 const STEPS = {
     INTRO: 0,
