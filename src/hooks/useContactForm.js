@@ -24,6 +24,8 @@ export default function useContactForm() {
         setSending(true);
 
         try {
+            const params = new URLSearchParams(window.location.search);
+
             const formData = new FormData();
 
             formData.set('name', name);
@@ -31,8 +33,13 @@ export default function useContactForm() {
             formData.set('phone', phone);
             formData.set('message', message);
             formData.set('product', product);
+
             formData.set('page_url', window.location.href);
             formData.set('referrer', document.referrer);
+
+            formData.set('utm_source', params.get('utm_source') || '');
+            formData.set('utm_medium', params.get('utm_medium') || '');
+            formData.set('utm_campaign', params.get('utm_campaign') || '');
 
             const response = await fetch('/api/contact.php', {
                 method: 'POST',
@@ -45,7 +52,9 @@ export default function useContactForm() {
             const data = await response.json();
 
             if (!response.ok || !data.success) {
-                throw new Error(data.message || 'Не вдалося відправити заявку');
+                throw new Error(
+                    data.message || 'Не вдалося відправити заявку'
+                );
             }
 
             setStatus({

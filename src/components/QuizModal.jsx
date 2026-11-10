@@ -3,6 +3,7 @@ import { createPortal } from 'react-dom';
 import { useLang } from '../i18n/LangContext';
 import './QuizModal.css';
 import ContactForm from "./ContactForm"
+import useContactForm from '../../hooks/useContactForm';
 
 const STEPS = {
     INTRO: 0,
@@ -46,8 +47,14 @@ export default function QuizModal({ isOpen, onClose }) {
         phone: '',
         consent: false,
     });
-    const [sending, setSending] = useState(false);
+    // const [sending, setSending] = useState(false);
     const modalRef = useRef(null);
+
+    const {
+        submitForm,
+        status,
+        sending
+    } = useContactForm();
 
     // Reset при відкритті
     useEffect(() => {
