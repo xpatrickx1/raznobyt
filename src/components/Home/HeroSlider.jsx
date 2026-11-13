@@ -31,7 +31,26 @@ export default function HeroSlider({ onPriceClick }) {
 
                 return (
                     <div key={slide.id} className={`hero-slide ${isActive ? 'active' : ''}`}>
-                        <div className="hero-slide__bg" style={{ backgroundImage: `url(${slide.image})` }} />
+                        <div className="hero-slide__bg" aria-hidden="true">
+                            {index === 0 ? (
+                                <img
+                                    src={slide.image}
+                                    alt=""
+                                    className="hero-slide__bg-img"
+                                    fetchPriority="high"
+                                    decoding="sync"
+                                    loading="eager"
+                                />
+                            ) : (
+                                <img
+                                    src={slide.image}
+                                    alt=""
+                                    className="hero-slide__bg-img"
+                                    loading="lazy"
+                                    decoding="async"
+                                />
+                            )}
+                        </div>
                         <div className="hero-slide__overlay" />
                         <div className="container" style={{ height: '100%' }}>
                             <div className={`hero-slide__content align-${slide.align} ${isActive ? 'fade-in-active' : ''}`}>

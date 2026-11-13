@@ -103,8 +103,30 @@ async function generate() {
             fs.writeFileSync(path.join(targetDir, 'index.html'), html);
             console.log(`✓ Rendered ${url}`);
         } catch (e) {
-            console.error(`X Error rendering ${url}:`, e);
+            console.error(`X Error rendering ${url}:`, e.message);
+            if (e.stack) console.error(e.stack);
         }
+    }
+
+    // Inject LCP preload for hero image into home page only
+    try {
+        const imagesDir = path.resolve(root, 'dist/assets/images');
+        const imageFiles = fs.readdirSync(imagesDir);
+        const heroImage = imageFiles.find(f => f.startsWith('slide1-') && f.endsWith('.webp'));
+        if (heroImage) {
+            const homeHtmlPath = path.join(root, 'dist/index.html');
+            let homeHtml = fs.readFileSync(homeHtmlPath, 'utf-8');
+            const preloadTag = `<link rel="preload" as="image" href="/assets/images/${heroImage}" fetchpriority="high">`;
+            if (!homeHtml.includes('rel="preload" as="image" href="/assets/images/slide1')) {
+                homeHtml = homeHtml.replace('</head>', `  ${preloadTag}\n</head>`);
+                fs.writeFileSync(homeHtmlPath, homeHtml);
+                console.log(`✓ LCP preload injected: ${heroImage}`);
+            }
+        } else {
+            console.warn('⚠ Hero image not found in dist/assets/images, skipping LCP preload');
+        }
+    } catch (e) {
+        console.error('X Error injecting LCP preload:', e.message);
     }
 
     console.log('Injecting critical CSS into all pages...');
