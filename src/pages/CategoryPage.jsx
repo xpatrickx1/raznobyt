@@ -1,5 +1,6 @@
 import { useState, useEffect } from 'react';
-import { useParams, Navigate, useLocation, useSearchParams } from 'react-router-dom';
+import { useParams, useLocation, useSearchParams } from 'react-router-dom';
+import { Navigate } from '../i18n/router';
 import withRouter from '../lib/withRouter';
 import { getProductsByCategory } from '../lib/products';
 import categories from '../data/categories.json';

@@ -69,8 +69,15 @@ async function generate() {
     for (const prod of products) {
         const cat = categories.find(c => c.id === prod.category);
         const catSlug = cat ? cat.slug : 'unknown';
-        pages.push({ url: `/catalog/${catSlug}/${prod.slug}/`, component: 'ProductPage', props: { slug: prod.slug } });
+        pages.push({ url: `/catalog/${catSlug}/${prod.slug}/`, component: 'ProductPage', props: { slug: prod.slug, initialProduct: prod } });
     }
+
+    // RU-версія кожної сторінки під /ru/... (404 лишається одна — UA)
+    const ruPages = pages
+        .filter(p => p.url !== '/404/')
+        .map(p => ({ ...p, url: p.url === '/' ? '/ru/' : `/ru${p.url}`, lang: 'ru', baseUrl: p.url }));
+    pages.forEach(p => { p.lang = 'ua'; p.baseUrl = p.url; });
+    pages.push(...ruPages);
 
     console.log(`Pre-rendering ${pages.length} pages...`);
 
@@ -83,11 +90,21 @@ async function generate() {
             let html = template.replace('<!--app-html-->', appHtml);
 
             if (helmet) {
+                const htmlAttrs = helmet.htmlAttributes.toString();
+                if (htmlAttrs) {
+                    html = html.replace(/<html[^>]*>/, `<html ${htmlAttrs}>`);
+                }
+                const helmetTitle = helmet.title.toString();
+                const helmetMeta = helmet.meta.toString();
+                const helmetLink = helmet.link.toString();
+                const hasValidTitle = helmetTitle && !helmetTitle.includes('><');
+                const titleToInsert = hasValidTitle ? helmetTitle : '<title>Різнобит Textile Group</title>';
+
                 html = html.replace(
                     '<title>Різнобит Textile Group</title>',
-                    `${helmet.title.toString()}
-            ${helmet.meta.toString()}
-            ${helmet.link.toString()}`
+                    `${titleToInsert}
+            ${helmetMeta}
+            ${helmetLink}`
                 );
             }
 
@@ -113,16 +130,17 @@ async function generate() {
         const imagesDir = path.resolve(root, 'dist/assets/images');
         const imageFiles = fs.readdirSync(imagesDir);
         const heroImage = imageFiles.find(f => f.startsWith('slide1-') && f.endsWith('.webp'));
-        if (heroImage) {
-            const homeHtmlPath = path.join(root, 'dist/index.html');
+        if (heroImage) for (const homeFile of ['dist/index.html', 'dist/ru/index.html']) {
+            const homeHtmlPath = path.join(root, homeFile);
             let homeHtml = fs.readFileSync(homeHtmlPath, 'utf-8');
             const preloadTag = `<link rel="preload" as="image" href="/assets/images/${heroImage}" fetchpriority="high">`;
             if (!homeHtml.includes('rel="preload" as="image" href="/assets/images/slide1')) {
                 homeHtml = homeHtml.replace('</head>', `  ${preloadTag}\n</head>`);
                 fs.writeFileSync(homeHtmlPath, homeHtml);
-                console.log(`✓ LCP preload injected: ${heroImage}`);
+                console.log(`✓ LCP preload injected: ${heroImage} → ${homeFile}`);
             }
-        } else {
+        }
+        if (!heroImage) {
             console.warn('⚠ Hero image not found in dist/assets/images, skipping LCP preload');
         }
     } catch (e) {
@@ -132,18 +150,26 @@ async function generate() {
     console.log('Injecting critical CSS into all pages...');
     await injectCriticalCss();
 
-    // Generate sitemap.xml
+    // Generate sitemap.xml (з hreflang-альтернативами UA/RU)
+    const ruBaseUrls = new Set(ruPages.map(p => p.baseUrl));
     const urlsXml = pages
         .filter(page => page.url !== '/404/')
-        .map(page => `
+        .map(page => {
+            const isHome = page.baseUrl === '/';
+            const alternates = ruBaseUrls.has(page.baseUrl) ? `
+    <xhtml:link rel="alternate" hreflang="uk" href="${DOMAIN}${page.baseUrl}"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="${DOMAIN}${page.baseUrl === '/' ? '/ru/' : `/ru${page.baseUrl}`}"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="${DOMAIN}${page.baseUrl}"/>` : '';
+            return `
   <url>
-    <loc>${DOMAIN}${page.url}</loc>
-    <changefreq>${page.url === '/' ? 'daily' : 'weekly'}</changefreq>
-    <priority>${page.url === '/' ? '1.0' : '0.8'}</priority>
-  </url>`).join('');
+    <loc>${DOMAIN}${page.url}</loc>${alternates}
+    <changefreq>${isHome ? 'daily' : 'weekly'}</changefreq>
+    <priority>${isHome ? '1.0' : '0.8'}</priority>
+  </url>`;
+        }).join('');
 
     const sitemap = `<?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
 ${urlsXml}
 </urlset>`;
 

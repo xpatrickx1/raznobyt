@@ -8,11 +8,13 @@ import clockIcon from '@/assets/images/icons/clock.svg';
 import ContactForm from '../components/ContactForm';
 
 export default function Contacts() {
-  const { t } = useLang();
+  const { t, lang } = useLang();
 
   return (
     <>
-      <SEO title={t('contacts.title')} description="Контакти Різнобит. Телефони, адреса, форма зв'язку." />
+      <SEO title={t('contacts.title')} description={lang === 'ru'
+        ? 'Контакты Різнобит. Телефоны, адрес, форма обратной связи.'
+        : "Контакти Різнобит. Телефони, адреса, форма зв'язку."} />
 
       <HeroSection
         title={t('contacts.title')}

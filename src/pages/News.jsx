@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { useLang } from '../i18n/LangContext';
 import SEO from '../components/SEO';
 import HeroSection from '../components/HeroSection';
-import { Link } from 'react-router-dom';
+import { Link } from '../i18n/router';
 import newsData from '../data/news.json';
 
 export default function News() {
@@ -27,7 +27,7 @@ export default function News() {
             <SEO
                 title={t('news.title') || 'Новини'}
                 description={t('news.subtitle')}
-                keywords="новини, новини, тканини, спецодяг"
+                keywords={lang === 'ru' ? 'новости, ткани, спецодежда' : 'новини, тканини, спецодяг'}
             />
 
             <HeroSection

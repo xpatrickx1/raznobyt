@@ -1,5 +1,5 @@
 import { useState, useEffect, useRef, useCallback } from 'react';
-import { Link } from 'react-router-dom';
+import { Link } from '../../i18n/router';
 import { useLang } from '../../i18n/LangContext';
 import SEO from '../SEO/index';
 import ProductCard from '../ProductCard';
@@ -109,29 +109,58 @@ export default function ProductView({ product, related = [] }) {
         scrollThumbIntoView(idx);
     };
 
-    const colors = product.attributes.colors || [];
+    const colors = product?.attributes?.colors || [];
     const colorName = (c) => typeof c === 'string' ? c : (c.color ?? '');
 
-    const fabricArticle = product.title[lang]
-        ? product.title[lang].replace(/^(Тканина|Ткань)\s+/i, '')
+    const productTitle = (typeof product?.title === 'object'
+        ? (product.title?.[lang] || product.title?.ua || product.title?.ru)
+        : product?.title) || '';
+
+    const fabricArticle = productTitle
+        ? productTitle.replace(/^(Тканина|Ткань)\s+/i, '')
         : '';
 
-    const activeImagePath = (product.images || [])[activeImg] || '';
+    const activeImagePath = (product?.images || [])[activeImg] || '';
     const colorCode = activeImagePath
         ? activeImagePath.split('/').pop().replace(/\.[^.]+$/, '')
         : '';
 
-    const densityVal = product.attributes.density
+    const densityVal = product?.attributes?.density
         ? (String(product.attributes.density).includes('г/м')
             ? String(product.attributes.density)
             : `${product.attributes.density} г/м.кв`)
         : '';
 
-    const widthVal = product.attributes.width
+    const widthVal = product?.attributes?.width
         ? (String(product.attributes.width).includes('см')
             ? String(product.attributes.width)
             : `${product.attributes.width} см`)
         : '';
+
+    const rawDesc = (typeof product?.description === 'object'
+        ? (product.description?.[lang] || product.description?.ua || product.description?.ru)
+        : product?.description) || '';
+
+    const catName = cat?.title?.[lang] || cat?.title?.ua || '';
+    const compStr = formatComposition(product?.attributes?.composition, lang);
+    const fabricTypeStr = product?.attributes?.fabricType ? t(`fabricTypes.${product.attributes.fabricType}`) : '';
+
+    let seoDescription = rawDesc ? rawDesc.trim().slice(0, 160) : '';
+    if (!seoDescription) {
+        const descParts = [
+            lang === 'ru'
+                ? (productTitle ? `Ткань ${productTitle}` : 'Ткань')
+                : (productTitle ? `Тканина ${productTitle}` : 'Тканина'),
+            catName ? (lang === 'ru' ? `для категории "${catName}".` : `для категорії "${catName}".`) : '',
+            compStr ? `${lang === 'ru' ? 'Состав' : 'Склад'}: ${compStr}.` : '',
+            densityVal ? `${lang === 'ru' ? 'Плотность' : 'Щільність'}: ${densityVal}.` : '',
+            widthVal ? `Ширина: ${widthVal}.` : '',
+            lang === 'ua'
+                ? 'Оптові поставки якісних тканин для спецодягу зі складу в Києві від Різнобит. Доставка по всій Україні.'
+                : 'Оптовые поставки качественных тканей для спецодежды со склада в Киеве от Разнобыт. Доставка по всей Украине.'
+        ].filter(Boolean);
+        seoDescription = descParts.join(' ').slice(0, 160);
+    }
 
     const productSubcats = Array.isArray(product.subcat)
         ? product.subcat
@@ -205,9 +234,11 @@ export default function ProductView({ product, related = [] }) {
     return (
         <>
             <SEO
-                title={product.title[lang]}
-                description={product.description[lang] ? product.description[lang].slice(0, 160) : ""}
-                keywords={`тканина, ${cat?.title[lang]}, ${t(`fabricTypes.${product.attributes.fabricType}`)}`}
+                title={productTitle}
+                description={seoDescription}
+                keywords={lang === 'ru'
+                    ? `ткань, ${catName}, ${fabricTypeStr}, спецодежда`
+                    : `тканина, ${catName}, ${fabricTypeStr}, спецодяг`}
             />
 
             <div className="product-page">
@@ -219,13 +250,10 @@ export default function ProductView({ product, related = [] }) {
                             <span className="breadcrumbs__sep"> › </span>
                             <Link to='/catalog' className="breadcrumbs__link">{t('catalog.title')}</Link>
                             <span className="breadcrumbs__sep"> › </span>
-                            <Link to={`/catalog/${cat?.slug}/`} className="breadcrumbs__link">{cat?.title[lang]}</Link>
+                            <Link to={`/catalog/${cat?.slug}/`} className="breadcrumbs__link">{catName}</Link>
                             <span className="breadcrumbs__sep"> › </span>
-                            <span className="breadcrumbs__current">{product.title[lang]}</span>
+                            <span className="breadcrumbs__current">{productTitle}</span>
                         </nav>
-                        <div className="hero__content fade-up fade-up-2 hero__content--mobile">
-                            <h1 className="">{product.title[lang]}</h1>
-                        </div>
                     </div>
 
                     <div className="product-grid">
@@ -372,95 +400,98 @@ export default function ProductView({ product, related = [] }) {
 
                         {/* Info */}
                         <div className="product-info">
-                            <div className="hero__content fade-up fade-up-2">
-                                <h1 className="">{product.title[lang]}</h1>
+                            <div className="product-title-wrap hero__content fade-up fade-up-2">
+                                <h1 className="product-title-main">{productTitle}</h1>
                             </div>
-                            {fabricArticle && (
-                                <p style={{ fontSize: 13, color: 'var(--c-text-muted)', marginBottom: 4 }}>
-                                    {lang === 'ua' ? 'Артикул' : 'Артикул'}:{' '}
-                                    <strong style={{ color: 'var(--c-text)', letterSpacing: '0.04em' }}>{fabricArticle}</strong>
-                                </p>
-                            )}
-                            {colorCode && (
-                                <p style={{ fontSize: 13, color: 'var(--c-text-muted)', marginBottom: 14 }}>
-                                    {lang === 'ua' ? 'Колір' : 'Цвет'}:{' '}
-                                    <strong style={{ color: 'var(--c-text)', letterSpacing: '0.04em' }}>{colorCode}</strong>
-                                </p>
-                            )}
 
-                            <p style={{ fontSize: 12, color: 'var(--c-text-muted)', lineHeight: 1.6, margin: '16px 0' }}>
-                                {lang === 'ua'
-                                    ? 'Наявність та кількість уточнюйте у менеджера.'
-                                    : 'Наличие и количество уточняйте у менеджера.'}
-                            </p>
-
-                            <p className="product-desc">{product.description[lang]}</p>
-
-
-                            <h3 style={{ fontSize: 13, fontWeight: 700, letterSpacing: '0.12em', textTransform: 'uppercase', color: 'var(--c-text-muted)', marginBottom: 12 }}>
-                                {t('product.characteristics')}
-                            </h3>
-                            <table className="product-attrs-table">
-                                <tbody>
-                                    {attrs.map((a, i) => (
-                                        a.label ? <tr key={i}>
-                                            <th>{a.label}</th>
-                                            <td>{a.value}</td>
-                                        </tr> : null
-                                    ))}
-                                </tbody>
-                            </table>
-
-                            <p style={{ fontSize: 14, color: 'var(--c-text)', lineHeight: 1.6, margin: '24px 0' }}>
-                                {lang === 'ua'
-                                    ? 'Будь ласка, зверніть увагу: відтінок тканини на екрані може відрізнятися від реального кольору через індивідуальні налаштування вашого монітора чи смартфона. Колір на фото є ознайомлювальним.'
-                                    : 'Пожалуйста, обратите внимание: оттенок ткани на экране может отличаться от реального цвета из-за индивидуальных настроек вашего монитора или смартфона. Цвет на фото является ознакомительным.'}
-                            </p>
-
-                            {/* Inquiry */}
-                            <div className="inquiry-box">
-                                <p>
-                                    {lang === 'ua'
-                                        ? 'Залиште ваш номер телефону і менеджер звʼяжеться з вами для уточнення ціни та наявності'
-                                        : 'Оставьте ваш номер телефона и менеджер свяжется с вами для уточнения цены и наличия'}
-                                </p>
-                                {sent ? (
-                                    <div className="success-banner">✓ {t('contacts.sent')}</div>
-                                ) : (
-                                    <form className="inquiry-form" onSubmit={handleSend}>
-                                        <input
-                                            id="contact"
-                                            type="tel"
-                                            name="contact"
-                                            className="form-input"
-                                            placeholder="+38 (0__) ___-__-__"
-                                            value={phone}
-                                            onChange={handlePhoneChange}
-                                            onBlur={handlePhoneBlur}
-                                            pattern="^\+38\s\(0\d{2}\)\s\d{3}-\d{2}-\d{2}$"
-                                            title="+38 (0XX) XXX-XX-XX"
-                                            autoComplete="tel"
-                                            required
-                                        />
-                                        <input
-                                            type="hidden"
-                                            name="page_url"
-                                            value={window.location.href}
-                                        />
-                                        <input
-                                            type="hidden"
-                                            name="referrer"
-                                            value={document.referrer}
-                                        />
-                                        <button disabled={sending} type="submit" className="btn btn-accent">{sending ? t('home.formSending') : t('product.addToCart')}</button>
-                                    </form>
+                            <div className="product-details-wrap">
+                                {fabricArticle && (
+                                    <p style={{ fontSize: 13, color: 'var(--c-text-muted)', marginBottom: 4 }}>
+                                        {lang === 'ua' ? 'Артикул' : 'Артикул'}:{' '}
+                                        <strong style={{ color: 'var(--c-text)', letterSpacing: '0.04em' }}>{fabricArticle}</strong>
+                                    </p>
                                 )}
-                            </div>
+                                {colorCode && (
+                                    <p style={{ fontSize: 13, color: 'var(--c-text-muted)', marginBottom: 14 }}>
+                                        {lang === 'ua' ? 'Колір' : 'Цвет'}:{' '}
+                                        <strong style={{ color: 'var(--c-text)', letterSpacing: '0.04em' }}>{colorCode}</strong>
+                                    </p>
+                                )}
 
-                            <Link to="/contacts" className="btn btn-outline" style={{ color: 'var(--c-accent)', border: '1.5px solid var(--c-accent)', width: '100%', justifyContent: 'center' }}>
-                                <img src={phoneIcon} alt="Phone" width="18" height="18" loading="lazy" />
-                                {lang === 'ua' ? 'Зателефонувати' : 'Позвонить'}
-                            </Link>
+                                <p style={{ fontSize: 12, color: 'var(--c-text-muted)', lineHeight: 1.6, margin: '16px 0' }}>
+                                    {lang === 'ua'
+                                        ? 'Наявність та кількість уточнюйте у менеджера.'
+                                        : 'Наличие и количество уточняйте у менеджера.'}
+                                </p>
+
+                                <p className="product-desc">{rawDesc || seoDescription}</p>
+
+
+                                <h3 style={{ fontSize: 13, fontWeight: 700, letterSpacing: '0.12em', textTransform: 'uppercase', color: 'var(--c-text-muted)', marginBottom: 12 }}>
+                                    {t('product.characteristics')}
+                                </h3>
+                                <table className="product-attrs-table">
+                                    <tbody>
+                                        {attrs.map((a, i) => (
+                                            a.label ? <tr key={i}>
+                                                <th>{a.label}</th>
+                                                <td>{a.value}</td>
+                                            </tr> : null
+                                        ))}
+                                    </tbody>
+                                </table>
+
+                                <p style={{ fontSize: 14, color: 'var(--c-text)', lineHeight: 1.6, margin: '24px 0' }}>
+                                    {lang === 'ua'
+                                        ? 'Будь ласка, зверніть увагу: відтінок тканини на екрані може відрізнятися від реального кольору через індивідуальні налаштування вашого монітора чи смартфона. Колір на фото є ознайомлювальним.'
+                                        : 'Пожалуйста, обратите внимание: оттенок ткани на экране может отличаться от реального цвета из-за индивидуальных настроек вашего монитора или смартфона. Цвет на фото является ознакомительным.'}
+                                </p>
+
+                                {/* Inquiry */}
+                                <div className="inquiry-box">
+                                    <p>
+                                        {lang === 'ua'
+                                            ? 'Залиште ваш номер телефону і менеджер звʼяжеться з вами для уточнення ціни та наявності'
+                                            : 'Оставьте ваш номер телефона и менеджер свяжется с вами для уточнения цены и наличия'}
+                                    </p>
+                                    {sent ? (
+                                        <div className="success-banner">✓ {t('contacts.sent')}</div>
+                                    ) : (
+                                        <form className="inquiry-form" onSubmit={handleSend}>
+                                            <input
+                                                id="contact"
+                                                type="tel"
+                                                name="contact"
+                                                className="form-input"
+                                                placeholder="+38 (0__) ___-__-__"
+                                                value={phone}
+                                                onChange={handlePhoneChange}
+                                                onBlur={handlePhoneBlur}
+                                                pattern="^\+38\s\(0\d{2}\)\s\d{3}-\d{2}-\d{2}$"
+                                                title="+38 (0XX) XXX-XX-XX"
+                                                autoComplete="tel"
+                                                required
+                                            />
+                                            <input
+                                                type="hidden"
+                                                name="page_url"
+                                                value={typeof window !== 'undefined' ? window.location.href : ''}
+                                            />
+                                            <input
+                                                type="hidden"
+                                                name="referrer"
+                                                value={typeof document !== 'undefined' ? document.referrer : ''}
+                                            />
+                                            <button disabled={sending} type="submit" className="btn btn-accent">{sending ? t('home.formSending') : t('product.addToCart')}</button>
+                                        </form>
+                                    )}
+                                </div>
+
+                                <Link to="/contacts" className="btn btn-outline" style={{ color: 'var(--c-accent)', border: '1.5px solid var(--c-accent)', width: '100%', justifyContent: 'center' }}>
+                                    <img src={phoneIcon} alt="Phone" width="18" height="18" loading="lazy" />
+                                    {lang === 'ua' ? 'Зателефонувати' : 'Позвонить'}
+                                </Link>
+                            </div>
                         </div>
                     </div>
 

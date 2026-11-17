@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { Link } from 'react-router-dom';
+import { Link } from '../i18n/router';
 import withRouter from '../lib/withRouter';
 import { useLang } from '../i18n/LangContext';
 import Image from '../components/Image';
@@ -36,8 +36,12 @@ function Home() {
     <>
       <SEO
         title={t('nav.home')}
-        description="Якісні технічні та спеціальні тканини для бізнесу. Робочий одяг, медичні тканини, армійські матеріали."
-        keywords="тканини, спецодяг, медичні тканини, робочий одяг, текстиль"
+        description={lang === 'ru'
+          ? 'Качественные технические и специальные ткани для бизнеса. Рабочая одежда, медицинские ткани, армейские материалы.'
+          : 'Якісні технічні та спеціальні тканини для бізнесу. Робочий одяг, медичні тканини, армійські матеріали.'}
+        keywords={lang === 'ru'
+          ? 'ткани, спецодежда, медицинские ткани, рабочая одежда, текстиль'
+          : 'тканини, спецодяг, медичні тканини, робочий одяг, текстиль'}
       />
 
       <HeroSlider onPriceClick={() => setIsPricePopupOpen(true)} />
@@ -54,7 +58,7 @@ function Home() {
         </div>
         <div className="categories-grid">
           {categories.slice(0, 5).map(cat => (
-            <Link to={`/catalog/${cat.slug}`} key={cat.id} className="category-card">
+            <Link to={`/catalog/${cat.slug}/`} key={cat.id} className="category-card">
               <Image
                 src={getCategoryImage(cat.image)}
                 alt={cat.title[lang]}

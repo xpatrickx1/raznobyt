@@ -1,4 +1,4 @@
-import { Link } from 'react-router-dom';
+import { Link } from '../i18n/router';
 import { useLang } from '../i18n/LangContext';
 import categories from '../data/categories.json';
 import logo from '@/assets/images/logo-footer.webp';

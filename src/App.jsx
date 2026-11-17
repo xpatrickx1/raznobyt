@@ -1,7 +1,7 @@
 import { createBrowserRouter, RouterProvider, useLocation, useOutlet, Navigate } from 'react-router-dom';
 import { useEffect, useRef } from 'react';
 import { HelmetProvider } from 'react-helmet-async';
-import { LangProvider } from './i18n/LangContext';
+import { LangProvider, getLangFromPath, stripLang } from './i18n/LangContext';
 import Footer from './components/Footer';
 import FloatingContacts from './components/FloatingContacts';
 import Navbar from './components/Navbar';
@@ -38,7 +38,8 @@ const ROUTES = {
 };
 
 function ScrollToTop() {
-  const { pathname } = useLocation();
+  // Перемикання мови (/x/ ↔ /ru/x/) не повинно скролити сторінку вгору
+  const pathname = stripLang(useLocation().pathname);
   const isFirstMount = useRef(true);
 
   useEffect(() => {
@@ -60,7 +61,8 @@ function Layout() {
     return <Navigate to={`${location.pathname}/${location.search}${location.hash}`} replace />;
   }
 
-  const parts = location.pathname.split('/').filter(Boolean);
+  const lang = getLangFromPath(location.pathname);
+  const parts = stripLang(location.pathname).split('/').filter(Boolean);
   let extraClass = '';
   if (parts[0] === 'catalog') {
     if (parts.length === 2) extraClass = ' category';
@@ -68,7 +70,7 @@ function Layout() {
   }
 
   return (
-    <>
+    <LangProvider lang={lang}>
       <ScrollToTop />
       <div style={{ display: 'flex', flexDirection: 'column', minHeight: '100vh' }}>
         <Navbar />
@@ -80,27 +82,33 @@ function Layout() {
         <Footer />
         <FloatingContacts />
       </div>
-    </>
+    </LangProvider>
   );
 }
+
+// Ті самі сторінки для UA (/) та RU (/ru/)
+const pageRoutes = [
+  { index: true, element: <Home /> },
+  ...ROUTES.static
+    .filter(route => !['/', '/404/'].includes(route.path))
+    .map(route => ({
+      path: route.path.slice(1),
+      element: route.element,
+    })),
+  ...ROUTES.dynamic.map(route => ({
+    path: route.path.slice(1),
+    element: route.element,
+  })),
+  { path: '*', element: <NotFound /> },
+];
 
 const router = createBrowserRouter([
   {
     path: '/',
     element: <Layout />,
     children: [
-      { index: true, element: <Home /> },
-      ...ROUTES.static
-        .filter(route => !['/', '/404/'].includes(route.path))
-        .map(route => ({
-          path: route.path.slice(1),
-          element: route.element,
-        })),
-      ...ROUTES.dynamic.map(route => ({
-        path: route.path.slice(1),
-        element: route.element,
-      })),
-      { path: '*', element: <NotFound /> },
+      { path: 'ru', children: pageRoutes },
+      ...pageRoutes,
     ],
   },
 ]);
@@ -108,9 +116,7 @@ const router = createBrowserRouter([
 export default function App() {
   return (
     <HelmetProvider>
-      <LangProvider>
-        <RouterProvider router={router} />
-      </LangProvider>
+      <RouterProvider router={router} />
     </HelmetProvider>
   );
 }

@@ -1,4 +1,4 @@
-import { Link } from 'react-router-dom';
+import { Link } from '../i18n/router';
 import { useLang } from '../i18n/LangContext';
 import Image from '../components/Image';
 import SEO from '../components/SEO';

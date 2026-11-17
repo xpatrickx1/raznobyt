@@ -1,6 +1,7 @@
 import { useState, useRef, useEffect } from 'react';
-import { NavLink, Link, useLocation } from 'react-router-dom';
-import { useLang } from '../i18n/LangContext';
+import { useLocation, Link as RRLink } from 'react-router-dom';
+import { NavLink, Link } from '../i18n/router';
+import { useLang, stripLang, localizePath } from '../i18n/LangContext';
 import Image from './Image';
 import logo from '@/assets/images/logo.webp';
 import phoneIcon from '@/assets/images/icons/phone.svg';
@@ -9,7 +10,7 @@ import SearchBar from './SearchBar';
 import QuizModal from './QuizModal';
 
 export default function Navbar() {
-  const { lang, toggleLang, t } = useLang();
+  const { lang, t } = useLang();
   const location = useLocation();
   const [mobileOpen, setMobileOpen] = useState(false);
   const [dropdownOpen, setDropdownOpen] = useState(false);
@@ -18,7 +19,7 @@ export default function Navbar() {
   const [quizOpen, setQuizOpen] = useState(false);
 
   const handleLogoClick = (e) => {
-    if (location.pathname === '/') {
+    if (stripLang(location.pathname) === '/') {
       e.preventDefault();
       window.scrollTo({ top: 0, behavior: 'smooth' });
     }
@@ -58,6 +59,11 @@ export default function Navbar() {
     return () => document.removeEventListener('mousedown', handleClickOutside);
   }, []);
 
+  // Той самий шлях іншою мовою — справжнє посилання, щоб Google бачив обидві версії
+  const basePath = stripLang(location.pathname);
+  const langHref = (target) =>
+    `${localizePath(basePath, target)}${location.search}${location.hash}`;
+
   const links = [
     { to: '/', label: t('nav.home') },
     { to: '/catalog', label: t('nav.catalog') },
@@ -81,20 +87,24 @@ export default function Navbar() {
 
             <div className="topbar__right">
               <div className="navbar__lang topbar__lang">
-                <button
+                <RRLink
+                  to={langHref('ua')}
                   className={`lang-btn ${lang === 'ua' ? 'active' : ''}`}
-                  onClick={() => lang !== 'ua' && toggleLang()}
+                  hrefLang="uk"
                   aria-label="Українська"
+                  aria-current={lang === 'ua' ? 'true' : undefined}
                 >
                   UA
-                </button>
-                <button
+                </RRLink>
+                <RRLink
+                  to={langHref('ru')}
                   className={`lang-btn ${lang === 'ru' ? 'active' : ''}`}
-                  onClick={() => lang !== 'ru' && toggleLang()}
+                  hrefLang="ru"
                   aria-label="Русский"
+                  aria-current={lang === 'ru' ? 'true' : undefined}
                 >
                   RU
-                </button>
+                </RRLink>
               </div>
 
               <a href="tel:+380445070680" aria-label="phone" className="topbar__phone">
@@ -270,24 +280,22 @@ export default function Navbar() {
         </a>
 
         <div className="mobile-menu__lang">
-          <button
+          <RRLink
+            to={langHref('ua')}
             className={`lang-btn ${lang === 'ua' ? 'active' : ''}`}
-            onClick={() => {
-              lang !== 'ua' && toggleLang();
-              setMobileOpen(false);
-            }}
+            hrefLang="uk"
+            onClick={() => setMobileOpen(false)}
           >
             UA
-          </button>
-          <button
+          </RRLink>
+          <RRLink
+            to={langHref('ru')}
             className={`lang-btn ${lang === 'ru' ? 'active' : ''}`}
-            onClick={() => {
-              lang !== 'ru' && toggleLang();
-              setMobileOpen(false);
-            }}
+            hrefLang="ru"
+            onClick={() => setMobileOpen(false)}
           >
             RU
-          </button>
+          </RRLink>
         </div>
       </div>
     </>

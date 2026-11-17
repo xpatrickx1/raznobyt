@@ -1,34 +1,33 @@
 import { useState, useEffect } from 'react';
-import { useParams, Navigate } from 'react-router-dom';
+import { useParams } from 'react-router-dom';
+import { Navigate } from '../i18n/router';
 import withRouter from '../lib/withRouter';
-import { getProductBySlug, getProducts } from '../lib/products';
+import { getProductBySlugSync, getProducts } from '../lib/products';
+import staticProducts from '../data/products.js';
 import { getSimilarProducts } from '../../scripts/getSimilarProducts.js';
 import ProductView from '../components/Product/ProductView';
 
-function ProductPage({ slug: externalSlug = null }) {
+function ProductPage({ slug: externalSlug = null, initialProduct = null }) {
   const { slug: paramSlug } = useParams();
   const slug = externalSlug ?? paramSlug;
 
-  const [product, setProduct] = useState(undefined);
-  const [related, setRelated] = useState([]);
+  const [product, setProduct] = useState(() => {
+    return initialProduct || (slug ? getProductBySlugSync(slug) : null);
+  });
+
+  const [related, setRelated] = useState(() => {
+    const current = initialProduct || (slug ? getProductBySlugSync(slug) : null);
+    return current ? getSimilarProducts(current, staticProducts, 4) : [];
+  });
 
   useEffect(() => {
-    getProductBySlug(slug)
-      .then(setProduct)
-      .catch(() => setProduct(null));
-  }, [slug]);
+    const current = initialProduct || (slug ? getProductBySlugSync(slug) : null);
+    setProduct(current);
+    if (current) {
+      setRelated(getSimilarProducts(current, staticProducts, 4));
+    }
+  }, [slug, initialProduct]);
 
-  useEffect(() => {
-    if (!product) return;
-    getProducts()
-      .then(all => {
-        const similar = getSimilarProducts(product, all, 4);
-        setRelated(similar);
-      })
-      .catch(() => setRelated([]));
-  }, [product]);
-
-  if (product === undefined) return null;
   if (!product) return <Navigate to="/catalog" replace />;
 
   return <ProductView product={product} related={related} />;

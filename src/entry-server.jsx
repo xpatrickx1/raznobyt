@@ -2,7 +2,7 @@ import React from 'react';
 import { renderToString } from 'react-dom/server';
 import { MemoryRouter } from 'react-router-dom';
 import { HelmetProvider } from 'react-helmet-async';
-import { LangProvider } from './i18n/LangContext';
+import { LangProvider, getLangFromPath } from './i18n/LangContext';
 
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
@@ -41,7 +41,7 @@ export async function render(url, componentName, props = {}) {
 
     const appHtml = renderToString(
         <HelmetProvider context={helmetContext}>
-            <LangProvider>
+            <LangProvider lang={getLangFromPath(url)}>
                 <MemoryRouter initialEntries={[url]}>
                     <div style={{ display: 'flex', flexDirection: 'column', minHeight: '100vh' }}>
                         <Navbar />

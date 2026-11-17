@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { useLang } from '../i18n/LangContext';
 import SEO from '../components/SEO';
 import HeroSection from '../components/HeroSection';
-import { Link } from 'react-router-dom';
+import { Link } from '../i18n/router';
 import postsData from '../data/posts.json';
 
 export default function Blog() {
@@ -27,7 +27,7 @@ export default function Blog() {
             <SEO
                 title={t('blog.title') || 'Блог'}
                 description={t('blog.subtitle')}
-                keywords="блог, новини, тканини, спецодяг"
+                keywords={lang === 'ru' ? 'блог, новости, ткани, спецодежда' : 'блог, новини, тканини, спецодяг'}
             />
 
             <HeroSection

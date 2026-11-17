@@ -1,5 +1,5 @@
 import { useState, useRef, useEffect } from 'react';
-import { Link, useNavigate } from 'react-router-dom';
+import { Link, useNavigate } from '../i18n/router';
 import { useLang } from '../i18n/LangContext';
 import Image from './Image';
 import searchIcon from '@/assets/images/icons/search.svg';

@@ -9,7 +9,7 @@ import { useLang } from '../i18n/LangContext';
  * @param {string} props.class - Additional class for hero section
  */
 
-import { Link } from 'react-router-dom';
+import { Link } from '../i18n/router';
 
 export default function HeroSection({ title, subtitle, breadcrumbs, className }) {
     const { lang, t } = useLang();

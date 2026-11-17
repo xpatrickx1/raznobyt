@@ -1,4 +1,4 @@
-import { Link } from 'react-router-dom';
+import { Link } from '../i18n/router';
 import { useLang } from '../i18n/LangContext';
 import Image from '../components/Image';
 import { getCategoryImage } from '../assets/utils/imageLoader.js';
@@ -15,7 +15,9 @@ export default function Catalog() {
 
   return (
     <>
-      <SEO title={t('catalog.title')} description="Каталог тканин для спецодягу, медичного одягу, армії та інших потреб." />
+      <SEO title={t('catalog.title')} description={lang === 'ru'
+        ? 'Каталог тканей для спецодежды, медицинской одежды, армии и других нужд.'
+        : 'Каталог тканин для спецодягу, медичного одягу, армії та інших потреб.'} />
 
       <HeroSection
         title={t('catalog.title')}

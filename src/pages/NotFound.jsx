@@ -1,4 +1,4 @@
-import { Link } from 'react-router-dom';
+import { Link } from '../i18n/router';
 import { useLang } from '../i18n/LangContext';
 import SEO from '../components/SEO';
 import Image from '../components/Image';
@@ -26,7 +26,7 @@ export default function NotFound() {
 
   return (
     <>
-      <SEO title={strings.title} />
+      <SEO title={strings.title} noindex />
       <div className="not-found-page">
         <div className="container">
           <div className="not-found-content fade-up">

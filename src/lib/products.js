@@ -1,37 +1,30 @@
-let productsPromise = null;
+import staticProducts from '../data/products.js';
 
 /**
- * Завантажує всі товари один раз
+ * Отримати товар синхронно по slug (для SSR та миттєвого рендеру)
+ */
+export function getProductBySlugSync(slug) {
+    if (!slug) return null;
+    return staticProducts.find((product) => product.slug === slug) ?? null;
+}
+
+/**
+ * Завантажує всі товари
  */
 export async function getProducts() {
-    if (!productsPromise) {
-        productsPromise = fetch('/products.json')
-            .then((response) => {
-                if (!response.ok) {
-                    throw new Error('Failed to load products.json');
-                }
-
-                return response.json();
-            });
-    }
-
-    return productsPromise;
+    return staticProducts;
 }
 
 /**
  * Отримати товар по slug
  */
 export async function getProductBySlug(slug) {
-    const products = await getProducts();
-
-    return products.find((product) => product.slug === slug) ?? null;
+    return getProductBySlugSync(slug);
 }
 
 /**
  * Отримати всі товари категорії
  */
 export async function getProductsByCategory(categoryId) {
-    const products = await getProducts();
-
-    return products.filter((product) => product.category === categoryId);
+    return staticProducts.filter((product) => product.category === categoryId);
 }
