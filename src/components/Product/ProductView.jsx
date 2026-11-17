@@ -38,7 +38,7 @@ export default function ProductView({ product, related = [] }) {
                 .map(img => getProductImage(img));
             setImageUrls(await Promise.all(urls));
         };
-        window.scrollTo({ top: 0, behavior: 'smooth' });
+        window.scrollTo({ top: 0, left: 0, behavior: 'instant' });
         loadImages();
     }, [product]);
 

@@ -30,15 +30,21 @@ export default function Navbar() {
     const handleScroll = () => {
       if (!ticking) {
         requestAnimationFrame(() => {
-          setIsScrolled(window.scrollY > 1);
+          const scrolled = window.scrollY > 1;
+          setIsScrolled((prev) => (prev !== scrolled ? scrolled : prev));
           ticking = false;
         });
         ticking = true;
       }
     };
 
-    setIsScrolled(window.scrollY > 1);
     window.addEventListener('scroll', handleScroll, { passive: true });
+    requestAnimationFrame(() => {
+      if (window.scrollY > 1) {
+        setIsScrolled(true);
+      }
+    });
+
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
 

@@ -54,7 +54,7 @@ export default function Footer() {
             <ul className="footer__links">
               <li><a href="mailto:raznooffice@ukr.net">raznooffice@ukr.net</a></li>
               <li><span>м. Київ, вул. Лугова, 9С</span></li>
-              <li><span>Пн–Пт: 9:00–18:00</span></li>
+              <li><span>Пн–Пт: 9:00–17:00</span></li>
             </ul>
           </div>
         </div>
