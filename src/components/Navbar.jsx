@@ -66,10 +66,13 @@ export default function Navbar() {
 
   const links = [
     { to: '/', label: t('nav.home') },
-    { to: '/catalog', label: t('nav.catalog') },
-    { to: '/delivery', label: t('nav.delivery') },
-    { to: '/about-us', label: t('nav.about') },
-    { to: '/contacts', label: t('nav.contacts') },
+    { to: '/catalog/', label: t('nav.catalog') },
+    { to: '/delivery/', label: t('nav.delivery') },
+    { to: '/about-us/', label: t('nav.about') },
+    { to: '/contacts/', label: t('nav.contacts') },
+    { to: '/blog/', label: t('nav.blog') },
+    { to: '/news/', label: t('nav.news') },
+    { to: '/documents/', label: t('nav.documents') },
   ];
 
   return (

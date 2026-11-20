@@ -26,7 +26,7 @@ export default function SearchBar() {
     const handleSearch = (e) => {
         e.preventDefault();
         if (searchQuery.trim()) {
-            navigate(`/catalog?search=${encodeURIComponent(searchQuery)}`);
+            navigate(`/catalog/?search=${encodeURIComponent(searchQuery)}`);
             setSearchQuery('');
             setShowResults(false);
         }

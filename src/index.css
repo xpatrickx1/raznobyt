@@ -593,19 +593,20 @@ a.lang-btn {
   flex: 1 0 auto;
   justify-content: center;
   align-items: center;
-  gap: 4px;
+  gap: 2px;
   list-style: none;
   text-transform: uppercase;
 }
 
 .navbar__nav a {
-  padding: 6px 14px;
+  padding: 6px 10px;
   border-radius: var(--radius-sm);
-  font-size: 14px;
+  font-size: 13px;
   font-weight: 500;
   color: var(--c-text-muted);
   transition: all 0.18s ease;
   letter-spacing: 0.02em;
+  white-space: nowrap;
 }
 
 .navbar__nav a:hover,

@@ -248,7 +248,7 @@ export default function ProductView({ product, related = [] }) {
                         <nav className="breadcrumbs fade-up fade-up-1">
                             <Link to='/' className="breadcrumbs__link">{t('nav.home')}</Link>
                             <span className="breadcrumbs__sep"> › </span>
-                            <Link to='/catalog' className="breadcrumbs__link">{t('catalog.title')}</Link>
+                            <Link to='/catalog/' className="breadcrumbs__link">{t('catalog.title')}</Link>
                             <span className="breadcrumbs__sep"> › </span>
                             <Link to={`/catalog/${cat?.slug}/`} className="breadcrumbs__link">{catName}</Link>
                             <span className="breadcrumbs__sep"> › </span>
@@ -487,7 +487,7 @@ export default function ProductView({ product, related = [] }) {
                                     )}
                                 </div>
 
-                                <Link to="/contacts" className="btn btn-outline" style={{ color: 'var(--c-accent)', border: '1.5px solid var(--c-accent)', width: '100%', justifyContent: 'center' }}>
+                                <Link to="/contacts/" className="btn btn-outline" style={{ color: 'var(--c-accent)', border: '1.5px solid var(--c-accent)', width: '100%', justifyContent: 'center' }}>
                                     <img src={phoneIcon} alt="Phone" width="18" height="18" loading="lazy" />
                                     {lang === 'ua' ? 'Зателефонувати' : 'Позвонить'}
                                 </Link>

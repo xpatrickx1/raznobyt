@@ -58,7 +58,7 @@ export default function HeroSlider({ onPriceClick }) {
                                 <h1 dangerouslySetInnerHTML={{ __html: t(`hero.title${slide.id}`) }} />
                                 <p className="hero__sub">{t(`hero.subtitle${slide.id}`)}</p>
                                 <div className="hero__btns">
-                                    <Link to="/catalog" className="btn btn-primary">
+                                    <Link to="/catalog/" className="btn btn-primary">
                                         {lang === 'ua' ? 'Переглянути тканини' : 'Посмотреть ткани'}
                                     </Link>
                                     <button onClick={onPriceClick} className="btn btn-outline">
