@@ -151,7 +151,7 @@ const parseVideos = (videoStr) => {
   return videoStr.split(",").map((s) => {
     const path = s.trim();
     if (!path) return null;
-    return `http://raznobyt.com/images/products/${path}`;
+    return `https://raznobyt.com/images/products/${path}`;
   }).filter(Boolean);
 };
 

@@ -259,7 +259,7 @@ export default function Navbar() {
 
         {/* CTA в мобільному меню */}
         {/* <Link
-          to="/contacts"
+          to="/contacts/"
           className="mobile-menu__cta"
           onClick={() => setMobileOpen(false)}
         >

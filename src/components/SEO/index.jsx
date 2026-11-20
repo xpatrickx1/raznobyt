@@ -6,15 +6,16 @@ export const SITE_URL = 'https://raznobyt.com';
 
 const OG_LOCALE = { ua: 'uk_UA', ru: 'ru_UA' };
 
-export default function SEO({ title, description, keywords, noindex = false }) {
+// query: суфікс для сторінок пагінації (напр. '?page=2') — canonical і hreflang вказують на ту саму сторінку
+export default function SEO({ title, description, noindex = false, query = '', brandSuffix = true }) {
     const { lang } = useLang();
     const { pathname } = useLocation();
     const siteName = 'Різнобит';
-    const fullTitle = title ? `${title} | ${siteName}` : siteName;
+    const fullTitle = title ? (brandSuffix ? `${title} | ${siteName}` : title) : siteName;
 
     const basePath = stripLang(pathname);
-    const uaUrl = SITE_URL + localizePath(basePath, 'ua');
-    const ruUrl = SITE_URL + localizePath(basePath, 'ru');
+    const uaUrl = SITE_URL + localizePath(basePath, 'ua') + query;
+    const ruUrl = SITE_URL + localizePath(basePath, 'ru') + query;
     const canonical = lang === 'ru' ? ruUrl : uaUrl;
 
     return (
@@ -22,7 +23,6 @@ export default function SEO({ title, description, keywords, noindex = false }) {
             <html lang={HTML_LANG[lang]} />
             <title>{fullTitle}</title>
             {description && <meta name="description" content={description} />}
-            {keywords && <meta name="keywords" content={keywords} />}
             {noindex && <meta name="robots" content="noindex" />}
             <meta property="og:title" content={fullTitle} />
             {description && <meta property="og:description" content={description} />}

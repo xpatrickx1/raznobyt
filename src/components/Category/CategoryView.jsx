@@ -6,6 +6,8 @@ import CategorySidebar from '../CategorySidebar';
 import { textByCategory } from '../categoryText/catText.js';
 import HeroSection from '../HeroSection';
 import { getCompositionOption, getProductCompositionGroups } from '../../data/compositions.js';
+import { Link } from '../../i18n/router';
+import { CATEGORY_PAGE_SIZE, getTotalPages, pageQuery } from '../../lib/pagination';
 
 const COLOR_MAP = {
     navy: '#1A3B6E', white: '#F0F0F0', khaki: '#7B7B4E', blue: '#2563EB',
@@ -13,7 +15,7 @@ const COLOR_MAP = {
     multicam: '#6B7A4A', yellow: '#FACC15', beige: '#C8B99A', brown: '#5D4037',
 };
 
-const PAGE_SIZE = 9;
+const PAGE_SIZE = CATEGORY_PAGE_SIZE;
 
 export const getProductSubcats = (product) => {
     if (!product?.subcat) return [];
@@ -45,6 +47,9 @@ export default function CategoryView({
     const { lang, t } = useLang();
     const targetRef = useRef(null);
     const [mobileFilters, setMobileFilters] = useState(false);
+    // «Завантажити більше» дописує товари наступних сторінок без зміни URL;
+    // сама сторінка задається ?page=N (посилання пагінації нижче)
+    const [extraChunks, setExtraChunks] = useState(0);
     const [expandedSections, setExpandedSections] = useState(['subcat', 'type', 'color', 'composition', 'width']);
     const [mobileCols, setMobileCols] = useState(() => {
         try {
@@ -82,8 +87,10 @@ export default function CategoryView({
 
             const filtersChanged = prevParams.toString() !== currentParams.toString();
 
-            // Only scroll up if filters changed or page was reset/reduced
-            if (!shouldSkipScroll && (filtersChanged || currentPage < prevPage)) {
+            setExtraChunks(0);
+
+            // Scroll up if filters changed or another page was opened
+            if (!shouldSkipScroll && (filtersChanged || currentPage !== prevPage)) {
                 targetRef.current?.scrollIntoView({ behavior: 'smooth', block: 'start' });
             }
 
@@ -212,21 +219,38 @@ export default function CategoryView({
         });
     }, [search, selectedSubcats, selectedTypes, selectedColors, selectedDensities, selectedWidths, selectedCompositions, products]);
 
-    const visible = filtered.slice(0, page * PAGE_SIZE);
-    const hasMore = visible.length < filtered.length;
+    const totalPages = getTotalPages(filtered.length, PAGE_SIZE);
+    const pageStart = (page - 1) * PAGE_SIZE;
+    const visible = filtered.slice(pageStart, pageStart + (1 + extraChunks) * PAGE_SIZE);
+    const visibleEnd = pageStart + visible.length;
+    const hasMore = visibleEnd < filtered.length;
+
+    // Посилання пагінації зберігають інші параметри (фільтри), змінюють лише page
+    const pageLink = (n) => {
+        const params = new URLSearchParams(locationSearch || '');
+        if (n > 1) params.set('page', String(n)); else params.delete('page');
+        const search = params.toString();
+        return { pathname: `/catalog/${cat.slug}/`, search: search ? `?${search}` : '' };
+    };
+    const pageWord = lang === 'ru' ? 'страница' : 'сторінка';
+    const seoPageSuffix = page > 1 ? ` — ${pageWord} ${page}` : '';
 
     const catTextEntry = textByCategory[cat.id];
     const TextComp = typeof catTextEntry === 'function' ? catTextEntry : (catTextEntry?.[lang] || catTextEntry?.ua || null);
 
     return (
         <>
-            <SEO title={`${cat.title[lang]} — ${t('catalog.title')}`} description={cat.description[lang]} />
+            <SEO
+                title={`${cat.title[lang]} — ${t('catalog.title')}${seoPageSuffix}`}
+                description={`${cat.description[lang]}${seoPageSuffix}`}
+                query={pageQuery(page)}
+            />
 
             <HeroSection
                 title={cat.title[lang]}
                 breadcrumbs={[
                     { label: t('nav.home'), path: '/' },
-                    { label: t('catalog.title'), path: '/catalog' },
+                    { label: t('catalog.title'), path: '/catalog/' },
                     { label: cat.title[lang] }
                 ]}
                 className="category"
@@ -410,10 +434,21 @@ export default function CategoryView({
                                 </div>
                                 {hasMore && (
                                     <div className="load-more-wrap">
-                                        <button className="btn btn-accent" onClick={() => setPage(p => p + 1)}>
-                                            {t('catalog.loadMore')} ({filtered.length - visible.length})
+                                        <button className="btn btn-accent" onClick={() => setExtraChunks(n => n + 1)}>
+                                            {t('catalog.loadMore')} ({filtered.length - visibleEnd})
                                         </button>
                                     </div>
+                                )}
+                                {totalPages > 1 && (
+                                    <nav className="catalog-pagination" aria-label={lang === 'ru' ? 'Страницы каталога' : 'Сторінки каталогу'}>
+                                        {Array.from({ length: totalPages }, (_, i) => i + 1).map(n => (
+                                            n === page ? (
+                                                <span key={n} className="catalog-pagination__item active" aria-current="page">{n}</span>
+                                            ) : (
+                                                <Link key={n} to={pageLink(n)} className="catalog-pagination__item">{n}</Link>
+                                            )
+                                        ))}
+                                    </nav>
                                 )}
                             </>
                         )}
@@ -421,7 +456,7 @@ export default function CategoryView({
                 </div>
 
                 {/* SEO Text Section */}
-                {TextComp && (
+                {TextComp && page === 1 && (
                     <div className="seo-text-section" style={{ marginTop: '3rem', paddingTop: '2rem', borderTop: '1px solid #e5e7eb', color: '#333333', fontSize: '0.875rem' }}>
                         <TextComp />
                     </div>

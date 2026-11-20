@@ -27,7 +27,6 @@ export default function News() {
             <SEO
                 title={t('news.title') || 'Новини'}
                 description={t('news.subtitle')}
-                keywords={lang === 'ru' ? 'новости, ткани, спецодежда' : 'новини, тканини, спецодяг'}
             />
 
             <HeroSection

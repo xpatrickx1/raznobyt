@@ -3,6 +3,7 @@ import { useParams, useLocation, useSearchParams } from 'react-router-dom';
 import { Navigate } from '../i18n/router';
 import withRouter from '../lib/withRouter';
 import { getProductsByCategory } from '../lib/products';
+import staticProducts from '../data/products.js';
 import categories from '../data/categories.json';
 import CategoryView from '../components/Category/CategoryView';
 
@@ -10,10 +11,10 @@ function CategoryPage({ slug: externalSlug = null }) {
   const { slug: paramSlug } = useParams();
   const location = useLocation();
   const [searchParams, setSearchParams] = useSearchParams();
-  const [products, setProducts] = useState([]);
-
   const slug = externalSlug ?? paramSlug;
   const cat = categories.find(c => c.slug === slug);
+  // Товари доступні синхронно, щоб вони потрапили в пререндерений HTML (SEO-ТЗ, завдання 4)
+  const [products, setProducts] = useState(() => (cat ? staticProducts.filter(p => p.category === cat.id) : []));
 
   // Redirect /catalog/:slug → /catalog/:slug/ (only relevant inside BrowserRouter)
   const expectedPath = `/catalog/${slug}/`;
@@ -21,7 +22,7 @@ function CategoryPage({ slug: externalSlug = null }) {
     return <Navigate to={expectedPath} replace />;
   }
 
-  if (!cat) return <Navigate to="/catalog" replace />;
+  if (!cat) return <Navigate to="/catalog/" replace />;
 
   // eslint-disable-next-line react-hooks/rules-of-hooks
   useEffect(() => {
@@ -78,7 +79,8 @@ function CategoryPage({ slug: externalSlug = null }) {
   const selectedDensities = getArray('densities');
   const selectedWidths = getArray('widths');
   const selectedCompositions = getArray('compositions');
-  const page = parseInt(searchParams.get('page') || '1', 10);
+  const parsedPage = parseInt(searchParams.get('page') || '1', 10);
+  const page = Number.isFinite(parsedPage) && parsedPage > 0 ? parsedPage : 1;
 
   const setSearch = (val) => update({ q: val, page: undefined });
   const setSelectedSubcats = (arr) => update({ subcats: arr, page: undefined });

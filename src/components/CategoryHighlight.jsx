@@ -46,7 +46,7 @@ export default function CategoryHighlight({
                     const itemTitle =
                         lang === 'ru' && item.titleRu ? item.titleRu : item.title;
 
-                    const href = item.link || (item.slug ? `/catalog/${item.slug}` : '#');
+                    const href = item.link || (item.slug ? `/catalog/${item.slug}/` : '#');
 
                     return (
                         <article key={item.id} className="cat-card">

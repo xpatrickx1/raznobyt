@@ -27,7 +27,6 @@ export default function Blog() {
             <SEO
                 title={t('blog.title') || 'Блог'}
                 description={t('blog.subtitle')}
-                keywords={lang === 'ru' ? 'блог, новости, ткани, спецодежда' : 'блог, новини, тканини, спецодяг'}
             />
 
             <HeroSection

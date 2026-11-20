@@ -28,7 +28,7 @@ function ProductPage({ slug: externalSlug = null, initialProduct = null }) {
     }
   }, [slug, initialProduct]);
 
-  if (!product) return <Navigate to="/catalog" replace />;
+  if (!product) return <Navigate to="/catalog/" replace />;
 
   return <ProductView product={product} related={related} />;
 }

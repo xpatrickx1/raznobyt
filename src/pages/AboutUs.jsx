@@ -15,7 +15,10 @@ export default function AboutUs() {
     return (
         <>
             <SEO
-                title={t('about.title') + " - Різнобит"}
+                title={lang === 'ru'
+                    ? 'О компании Різнобит — поставщик технических тканей'
+                    : 'Про компанію Різнобит — постачальник технічних тканин'}
+                brandSuffix={false}
                 description={t('about.subtitle')}
             />
 
@@ -87,7 +90,7 @@ export default function AboutUs() {
                 <div className="container" style={{ textAlign: 'center' }}>
                     <h2 style={{ fontFamily: 'var(--font-display)', fontSize: 'clamp(24px,4vw,38px)', color: '#fff', marginBottom: 12 }}>{t('about.ctaTitle')}</h2>
                     <p style={{ color: 'rgba(255,255,255,0.8)', marginBottom: 28, fontSize: 15 }}>{t('about.ctaText')}</p>
-                    <Link to="/contacts" className="btn btn-primary" style={{ marginTop: 32 }}>
+                    <Link to="/contacts/" className="btn btn-primary" style={{ marginTop: 32 }}>
                         {t('about.ctaButton')}
                     </Link>
                 </div>

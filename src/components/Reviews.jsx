@@ -131,7 +131,7 @@ export default function Reviews() {
                             </p>
 
                             <div className="review-card__footer">
-                                <span className="review-card__date">{review.date}</span>
+                                <span className="review-card__date">{lang === 'ru' ? review.date.replace('років тому', 'лет назад') : review.date}</span>
                                 <span className="review-card__source">Google</span>
                             </div>
                         </article>

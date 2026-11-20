@@ -5,12 +5,12 @@ import HeroSection from '../components/HeroSection';
 import dostavka from '../assets/images/dostavka.webp';
 
 export default function Delivery() {
-  const { t } = useLang();
+  const { t, lang } = useLang();
 
   return (
     <>
       <SEO
-        title={`${t('delivery.title')} — Різнобит`}
+        title={lang === 'ru' ? 'Доставка и оплата тканей по Украине' : 'Доставка та оплата тканин по Україні'}
         description={t('delivery.subtitle')}
       />
 

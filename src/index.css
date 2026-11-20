@@ -2737,6 +2737,40 @@ a.lang-btn {
   margin-top: 40px;
 }
 
+/* Пагінація категорій (посилання ?page=N) */
+.catalog-pagination {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 6px;
+  margin-top: 24px;
+}
+
+.catalog-pagination__item {
+  min-width: 40px;
+  height: 40px;
+  padding: 0 10px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid var(--c-border);
+  border-radius: var(--radius-sm);
+  color: var(--c-text);
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.catalog-pagination__item:hover {
+  border-color: var(--c-accent);
+  color: var(--c-accent);
+}
+
+.catalog-pagination__item.active {
+  background: var(--c-accent);
+  border-color: var(--c-accent);
+  color: #fff;
+}
+
 .color-swatch {
   display: inline-block;
   width: 14px;

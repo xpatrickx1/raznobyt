@@ -106,13 +106,13 @@ export default function ProductCard({ product }) {
             )}
             {product.attributes.density && (
               <div className="product-character-row">
-                <div className="product-character-label">Щільність:</div>
+                <div className="product-character-label">{lang === 'ru' ? 'Плотность:' : 'Щільність:'}</div>
                 <div className="product-character-value">{product.attributes.density} г/м.кв</div>
               </div>
             )}
             {product.attributes.composition && formatComposition(product.attributes.composition, lang) && (
               <div className="product-character-row">
-                <div className="product-character-label">Склад:</div>
+                <div className="product-character-label">{lang === 'ru' ? 'Состав:' : 'Склад:'}</div>
                 <div className="product-character-value">
                   {getCompositionParts(product.attributes.composition, lang).map((part, idx, arr) => (
                     <span

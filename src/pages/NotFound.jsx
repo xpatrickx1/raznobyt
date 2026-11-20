@@ -46,7 +46,7 @@ export default function NotFound() {
               <Link to="/" className="btn btn-accent">
                 {strings.backHome}
               </Link>
-              <Link to="/catalog" className="btn btn btn-primary">
+              <Link to="/catalog/" className="btn btn btn-primary">
                 {strings.toCatalog}
               </Link>
             </div>

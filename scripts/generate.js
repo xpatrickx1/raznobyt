@@ -3,7 +3,9 @@ import path from 'path';
 import { fileURLToPath, pathToFileURL } from 'url';
 import { dirname } from 'path';
 import { build } from 'vite';
+import crypto from 'crypto';
 import { injectCriticalCss } from './inject-critical-css.mjs';
+import { CATEGORY_PAGE_SIZE, getTotalPages } from '../src/lib/pagination.js';
 
 const DOMAIN = 'https://raznobyt.com';
 
@@ -66,6 +68,22 @@ async function generate() {
         pages.push({ url: `/catalog/${cat.slug}/`, component: 'CategoryPage', props: { slug: cat.slug } });
     }
 
+    // Сторінки пагінації категорій ?page=N (N ≥ 2): окремі файли page-N.html,
+    // nginx віддає їх за запитом /catalog/<slug>/?page=N (див. конфіг для CEO). У sitemap не потрапляють.
+    for (const cat of categories) {
+        const count = products.filter(p => p.category === cat.id).length;
+        const totalPages = getTotalPages(count, CATEGORY_PAGE_SIZE);
+        for (let n = 2; n <= totalPages; n++) {
+            pages.push({
+                url: `/catalog/${cat.slug}/?page=${n}`,
+                component: 'CategoryPage',
+                props: { slug: cat.slug },
+                outFile: `/catalog/${cat.slug}/page-${n}.html`,
+                paginated: true,
+            });
+        }
+    }
+
     for (const prod of products) {
         const cat = categories.find(c => c.id === prod.category);
         const catSlug = cat ? cat.slug : 'unknown';
@@ -75,17 +93,34 @@ async function generate() {
     // RU-версія кожної сторінки під /ru/... (404 лишається одна — UA)
     const ruPages = pages
         .filter(p => p.url !== '/404/')
-        .map(p => ({ ...p, url: p.url === '/' ? '/ru/' : `/ru${p.url}`, lang: 'ru', baseUrl: p.url }));
+        .map(p => ({
+            ...p,
+            url: p.url === '/' ? '/ru/' : `/ru${p.url}`,
+            outFile: p.outFile ? `/ru${p.outFile}` : undefined,
+            lang: 'ru',
+            baseUrl: p.url,
+        }));
     pages.forEach(p => { p.lang = 'ua'; p.baseUrl = p.url; });
     pages.push(...ruPages);
 
     console.log(`Pre-rendering ${pages.length} pages...`);
+
+    // Хеш змісту сторінки для <lastmod>: без хешів файлів збірки й ?v=<версія>, які змінюються щозбірки
+    const contentHashes = new Map();
+    const normalizeForHash = (str) => String(str || '')
+        .replace(/([?&])v=\d+/g, '$1')
+        .replace(/-[A-Za-z0-9_-]{8}(\.(?:js|css|webp|png|jpe?g|svg|gif|avif|woff2?|pdf|p7s|docx?|xml))/g, '$1');
 
     for (const page of pages) {
         const { url, component, props = {} } = page;
 
         try {
             const { appHtml, helmet } = await render(url, component, props);
+
+            contentHashes.set(url, crypto.createHash('sha1')
+                .update(normalizeForHash(appHtml))
+                .update(normalizeForHash(helmet ? `${helmet.title}${helmet.meta}${helmet.link}` : ''))
+                .digest('hex'));
 
             let html = template.replace('<!--app-html-->', appHtml);
 
@@ -108,16 +143,19 @@ async function generate() {
                 );
             }
 
-            let targetDir = path.join(root, 'dist');
-            if (url !== '/') {
-                targetDir = path.join(root, 'dist', url.endsWith('/') ? url.slice(0, -1) : url);
+            let targetFile;
+            if (page.outFile) {
+                targetFile = path.join(root, 'dist', page.outFile);
+            } else {
+                let targetDir = path.join(root, 'dist');
+                if (url !== '/') {
+                    targetDir = path.join(root, 'dist', url.endsWith('/') ? url.slice(0, -1) : url);
+                }
+                targetFile = path.join(targetDir, 'index.html');
             }
 
-            if (!fs.existsSync(targetDir)) {
-                fs.mkdirSync(targetDir, { recursive: true });
-            }
-
-            fs.writeFileSync(path.join(targetDir, 'index.html'), html);
+            fs.mkdirSync(path.dirname(targetFile), { recursive: true });
+            fs.writeFileSync(targetFile, html);
             console.log(`✓ Rendered ${url}`);
         } catch (e) {
             console.error(`X Error rendering ${url}:`, e.message);
@@ -150,10 +188,26 @@ async function generate() {
     console.log('Injecting critical CSS into all pages...');
     await injectCriticalCss();
 
+    // <lastmod>: дата зберігається, доки зміст сторінки не змінився.
+    // Попередній маніфест береться з живого сайту (/lastmod.json); якщо його немає — дата поточної збірки.
+    const today = new Date().toISOString().slice(0, 10);
+    const prevLastmod = await loadPrevLastmod();
+    const lastmodManifest = {};
+    for (const [url, hash] of contentHashes) {
+        const prev = prevLastmod[url];
+        lastmodManifest[url] = {
+            hash,
+            lastmod: prev && prev.hash === hash && /^\d{4}-\d{2}-\d{2}$/.test(prev.lastmod) ? prev.lastmod : today,
+        };
+    }
+    fs.writeFileSync(path.join(root, 'dist', 'lastmod.json'), JSON.stringify(lastmodManifest));
+    console.log('✓ Generated lastmod.json');
+
     // Generate sitemap.xml (з hreflang-альтернативами UA/RU)
+    // Без: 404, сторінок пагінації ?page=N, карток без категорії (/catalog/unknown/, SEO-ТЗ завдання 5)
     const ruBaseUrls = new Set(ruPages.map(p => p.baseUrl));
     const urlsXml = pages
-        .filter(page => page.url !== '/404/')
+        .filter(page => page.url !== '/404/' && !page.paginated && !page.url.includes('/catalog/unknown/'))
         .map(page => {
             const isHome = page.baseUrl === '/';
             const alternates = ruBaseUrls.has(page.baseUrl) ? `
@@ -163,6 +217,7 @@ async function generate() {
             return `
   <url>
     <loc>${DOMAIN}${page.url}</loc>${alternates}
+    <lastmod>${lastmodManifest[page.url]?.lastmod || today}</lastmod>
     <changefreq>${isHome ? 'daily' : 'weekly'}</changefreq>
     <priority>${isHome ? '1.0' : '0.8'}</priority>
   </url>`;
@@ -188,6 +243,20 @@ Sitemap: ${DOMAIN}/sitemap.xml
 
     fs.rmSync(path.resolve(root, 'dist-server'), { recursive: true, force: true });
     console.log('SSG complete!');
+}
+
+async function loadPrevLastmod() {
+    // Локальна перевірка без мережі: SITEMAP_LASTMOD_OFFLINE=1
+    if (process.env.SITEMAP_LASTMOD_OFFLINE === '1') return {};
+    try {
+        const res = await fetch(`${DOMAIN}/lastmod.json`, { signal: AbortSignal.timeout(10000) });
+        if (!res.ok) return {};
+        const data = await res.json();
+        return data && typeof data === 'object' ? data : {};
+    } catch (e) {
+        console.warn('⚠ Previous lastmod.json not loaded, using build date:', e.message);
+        return {};
+    }
 }
 
 generate().catch(console.error);

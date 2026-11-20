@@ -20,10 +20,10 @@ import FAQ from '../components/FAQ';
 import canvasAll from '../assets/images/canvas.webp';
 
 const WHY_ICONS = [
-  <svg key="1" xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"><path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"></path><polyline points="3.27 6.96 12 12.01 20.73 6.96"></polyline><line x1="12" y1="22.08" x2="12" y2="12"></line></svg>,
-  <svg key="2" xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"><path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"></path><line x1="7" y1="7" x2="7.01" y2="7"></line></svg>,
-  <svg key="3" xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"><rect x="1" y="3" width="15" height="13"></rect><polygon points="16 8 20 8 23 11 23 16 16 16 16 8"></polygon><circle cx="5.5" cy="18.5" r="2.5"></circle><circle cx="18.5" cy="18.5" r="2.5"></circle></svg>,
-  <svg key="4" xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path><polyline points="9 12 11 14 15 10"></polyline></svg>
+  <svg key="1" aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"><path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"></path><polyline points="3.27 6.96 12 12.01 20.73 6.96"></polyline><line x1="12" y1="22.08" x2="12" y2="12"></line></svg>,
+  <svg key="2" aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"><path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"></path><line x1="7" y1="7" x2="7.01" y2="7"></line></svg>,
+  <svg key="3" aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"><rect x="1" y="3" width="15" height="13"></rect><polygon points="16 8 20 8 23 11 23 16 16 16 16 8"></polygon><circle cx="5.5" cy="18.5" r="2.5"></circle><circle cx="18.5" cy="18.5" r="2.5"></circle></svg>,
+  <svg key="4" aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path><polyline points="9 12 11 14 15 10"></polyline></svg>
 ];
 
 function Home() {
@@ -39,9 +39,6 @@ function Home() {
         description={lang === 'ru'
           ? 'Качественные технические и специальные ткани для бизнеса. Рабочая одежда, медицинские ткани, армейские материалы.'
           : 'Якісні технічні та спеціальні тканини для бізнесу. Робочий одяг, медичні тканини, армійські матеріали.'}
-        keywords={lang === 'ru'
-          ? 'ткани, спецодежда, медицинские ткани, рабочая одежда, текстиль'
-          : 'тканини, спецодяг, медичні тканини, робочий одяг, текстиль'}
       />
 
       <HeroSlider onPriceClick={() => setIsPricePopupOpen(true)} />
@@ -95,7 +92,7 @@ function Home() {
           </Link>
         </div>
         {/* <div style={{ textAlign: 'center', marginTop: 36 }}>
-          <Link to="/catalog" className="btn btn-accent">
+          <Link to="/catalog/" className="btn btn-accent">
             {lang === 'ua' ? 'Всі категорії' : 'Все категории'}
           </Link>
         </div> */}
@@ -135,7 +132,7 @@ function Home() {
             {featured.map(p => <ProductCard key={p.id} product={p} />)}
           </div>
           <div style={{ textAlign: 'center', marginTop: 36 }}>
-            <Link to="/catalog" className="btn btn-accent">{t('hero.cta')}</Link>
+            <Link to="/catalog/" className="btn btn-accent">{t('hero.cta')}</Link>
           </div>
         </div>
       </section>
@@ -174,7 +171,7 @@ function Home() {
               ? 'Наші менеджери допоможуть підібрати тканину під ваші вимоги'
               : 'Наши менеджеры помогут подобрать ткань под ваши требования'}
           </p>
-          <Link to="/contacts" className="btn" style={{ background: '#fff', color: 'var(--c-accent)', fontWeight: 700 }}>
+          <Link to="/contacts/" className="btn" style={{ background: '#fff', color: 'var(--c-accent)', fontWeight: 700 }}>
             {t('hero.cta2')} →
           </Link>
         </div>

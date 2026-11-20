@@ -31,11 +31,11 @@ export default function HeroSlider({ onPriceClick }) {
 
                 return (
                     <div key={slide.id} className={`hero-slide ${isActive ? 'active' : ''}`}>
-                        <div className="hero-slide__bg" aria-hidden="true">
+                        <div className="hero-slide__bg">
                             {index === 0 ? (
                                 <img
                                     src={slide.image}
-                                    alt=""
+                                    alt={lang === 'ru' ? 'Технические ткани разных цветов: рулоны твила для спецодежды' : 'Технічні тканини різних кольорів: рулони твілу для спецодягу'}
                                     className="hero-slide__bg-img"
                                     fetchPriority="high"
                                     decoding="sync"
@@ -54,7 +54,7 @@ export default function HeroSlider({ onPriceClick }) {
                         <div className="hero-slide__overlay" />
                         <div className="container" style={{ height: '100%' }}>
                             <div className={`hero-slide__content align-${slide.align} ${isActive ? 'fade-in-active' : ''}`}>
-                                <div className="hero__eyebrow">Голландські текстильні традиції</div>
+                                <div className="hero__eyebrow">{lang === 'ru' ? 'Голландские текстильные традиции' : 'Голландські текстильні традиції'}</div>
                                 <h1 dangerouslySetInnerHTML={{ __html: t(`hero.title${slide.id}`) }} />
                                 <p className="hero__sub">{t(`hero.subtitle${slide.id}`)}</p>
                                 <div className="hero__btns">

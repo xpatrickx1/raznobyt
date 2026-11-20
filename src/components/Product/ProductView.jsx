@@ -143,24 +143,52 @@ export default function ProductView({ product, related = [] }) {
 
     const catName = cat?.title?.[lang] || cat?.title?.ua || '';
     const compStr = formatComposition(product?.attributes?.composition, lang);
-    const fabricTypeStr = product?.attributes?.fabricType ? t(`fabricTypes.${product.attributes.fabricType}`) : '';
+    // SEO-ТЗ T-20261119-01, завдання 3: title і description карток за шаблоном (H1 не змінюється)
+    const isRu = lang === 'ru';
+    const seoComp = compStr.replace(/ /g, ' ');
+    const seoDensity = String(product?.attributes?.density ?? '').replace(/\s*г\/м.*$/i, '').trim();
+    const seoWidth = String(product?.attributes?.width ?? '').replace(/\s*см\.?$/i, '').trim();
+    const fabricWord = isRu ? 'Ткань' : 'Тканина';
+    const seoArticle = fabricArticle.replace(/\s+/g, ' ').trim();
+    const densityPart = seoDensity ? `${seoDensity} г/м²` : '';
 
-    let seoDescription = rawDesc ? rawDesc.trim().slice(0, 160) : '';
-    if (!seoDescription) {
-        const descParts = [
-            lang === 'ru'
-                ? (productTitle ? `Ткань ${productTitle}` : 'Ткань')
-                : (productTitle ? `Тканина ${productTitle}` : 'Тканина'),
-            catName ? (lang === 'ru' ? `для категории "${catName}".` : `для категорії "${catName}".`) : '',
-            compStr ? `${lang === 'ru' ? 'Состав' : 'Склад'}: ${compStr}.` : '',
-            densityVal ? `${lang === 'ru' ? 'Плотность' : 'Щільність'}: ${densityVal}.` : '',
-            widthVal ? `Ширина: ${widthVal}.` : '',
-            lang === 'ua'
-                ? 'Оптові поставки якісних тканин для спецодягу зі складу в Києві від Різнобит. Доставка по всій Україні.'
-                : 'Оптовые поставки качественных тканей для спецодежды со склада в Киеве от Разнобыт. Доставка по всей Украине.'
-        ].filter(Boolean);
-        seoDescription = descParts.join(' ').slice(0, 160);
+    let seoTitle = `${fabricWord} ${seoArticle}`;
+    if (seoComp && densityPart) seoTitle += ` — ${seoComp}, ${densityPart}`;
+    else if (seoComp) seoTitle += ` — ${seoComp}`;
+    else if (densityPart) seoTitle += `, ${densityPart}`;
+    // 70 символів разом із « | Різнобит» — інакше варіант без складу (з категорією);
+    // якщо й він задовгий (довгий артикул) — без категорії
+    const fitsTitle = (str) => `${str} | Різнобит`.length <= 70;
+    if (!fitsTitle(seoTitle)) {
+        const shortTitle = [`${fabricWord} ${seoArticle}`, densityPart].filter(Boolean).join(', ');
+        seoTitle = catName && fitsTitle(`${shortTitle} — ${catName}`) ? `${shortTitle} — ${catName}` : shortTitle;
     }
+
+    const truncateWords = (text, max) => {
+        if (text.length <= max) return text;
+        const cut = text.slice(0, max + 1);
+        const lastSpace = cut.lastIndexOf(' ');
+        return cut.slice(0, lastSpace > 0 ? lastSpace : max).replace(/[\s,;:—–-]+$/, '');
+    };
+
+    const baseDesc = rawDesc.trim();
+    let seoDescription = baseDesc;
+    if (baseDesc.length < 70) {
+        const lead = (baseDesc || `${fabricWord} ${seoArticle}`).replace(/[.\s]+$/, '');
+        const specs = [
+            seoComp && `${isRu ? 'Состав' : 'Склад'}: ${seoComp}`,
+            densityPart && `${isRu ? 'плотность' : 'щільність'} ${densityPart}`,
+            seoWidth && `ширина ${seoWidth} см`,
+        ].filter(Boolean);
+        const specsStr = specs.length
+            ? `${specs[0].charAt(0).toUpperCase()}${specs[0].slice(1)}${specs.length > 1 ? `, ${specs.slice(1).join(', ')}` : ''}. `
+            : '';
+        const usp = isRu
+            ? 'Склад в Киеве, от 1 м, образцы, доставка по Украине.'
+            : 'Склад у Києві, від 1 м, зразки, доставка по Україні.';
+        seoDescription = `${lead}. ${specsStr}${usp}`;
+    }
+    seoDescription = truncateWords(seoDescription, 160);
 
     const productSubcats = Array.isArray(product.subcat)
         ? product.subcat
@@ -234,11 +262,8 @@ export default function ProductView({ product, related = [] }) {
     return (
         <>
             <SEO
-                title={productTitle}
+                title={seoTitle}
                 description={seoDescription}
-                keywords={lang === 'ru'
-                    ? `ткань, ${catName}, ${fabricTypeStr}, спецодежда`
-                    : `тканина, ${catName}, ${fabricTypeStr}, спецодяг`}
             />
 
             <div className="product-page">
@@ -513,7 +538,7 @@ export default function ProductView({ product, related = [] }) {
                                         playsInline
                                         onError={(e) => { e.target.closest('.product-video-item-wrap')?.remove(); }}
                                     >
-                                        <source src={url} />
+                                        <source src={String(url).replace(/^http:\/\/(www\.)?raznobyt\.com\//i, '/')} />
                                     </video>
                                 ))}
                             </div>
@@ -550,7 +575,7 @@ export default function ProductView({ product, related = [] }) {
                     {related.length > 0 && (
                         <div>
                             <div className="section__header" style={{ textAlign: 'left', marginBottom: 28 }}>
-                                <div className="section__eyebrow">Також цікаво</div>
+                                <div className="section__eyebrow">{lang === 'ru' ? 'Также интересно' : 'Також цікаво'}</div>
                                 <h2 className="section__title" style={{ fontSize: 28 }}>{t('product.relatedProducts')}</h2>
                             </div>
                             <div className="products-grid">
