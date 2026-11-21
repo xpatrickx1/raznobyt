@@ -19,9 +19,9 @@ export default function FloatingContacts() {
             </a>
 
             <a
-                href={`https://t.me/+38${PHONE}`}
+                href={`https://t.me/raznobyt_bot`}
                 className="floating-btn floating-btn--telegram"
-                title={`Telegram: ${PHONE_DISPLAY}`}
+                title={`Teleg@raznobyt_bot}`}
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="Написати у Telegram"
